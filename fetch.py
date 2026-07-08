@@ -41,14 +41,14 @@ def b64encodes_safe(s: str):
 def b64decodes(s: str):
     ss = s + '=' * ((4-len(s)%4)%4)
     try:
-        return base64.b64decode(ss.encode('utf-8')).decode('utf-8')
+        return base64.b64decode(ss.encode('utf-8')).decode('utf-8',errors='ignore')
     except UnicodeDecodeError: raise
     except binascii.Error: raise
 
 def b64decodes_safe(s: str):
     ss = s + '=' * ((4-len(s)%4)%4)
     try:
-        return base64.urlsafe_b64decode(ss.encode('utf-8')).decode('utf-8')
+        return base64.urlsafe_b64decode(ss.encode('utf-8')).decode('utf-8',errors='ignore')
     except UnicodeDecodeError: raise
     except binascii.Error: raise
 
@@ -305,7 +305,7 @@ class Node:
                     'port': parsed.port, 'type': 'trojan', 'password': unquote(parsed.username)} # type: ignore
             if parsed.query:
                 for kv in parsed.query.split('&'):
-                    k,v = kv.split('=')
+                    k,v = kv.split('=',1)
                     if k in ('allowInsecure', 'insecure'):
                         self.data['skip-cert-verify'] = (v != '0')
                     elif k == 'sni': self.data['sni'] = v
@@ -335,7 +335,7 @@ class Node:
             self.data['tls'] = False
             if parsed.query:
                 for kv in parsed.query.split('&'):
-                    k,v = kv.split('=')
+                    k,v = kv.split('=',1)
                     if k in ('allowInsecure', 'insecure'):
                         self.data['skip-cert-verify'] = (v != '0')
                     elif k == 'sni': self.data['servername'] = v
@@ -393,7 +393,7 @@ class Node:
                 k = v = ''
                 for kv in parsed.query.split('&'):
                     if '=' in kv:
-                        k,v = kv.split('=')
+                        k,v = kv.split('=',1)
                     else:
                         v += '&' + kv
                     if k == 'insecure':
