@@ -61,7 +61,6 @@ dns:
     - 8.8.8.8
     - 1.1.1.1
 
-global-client-fingerprint: chrome
 tcp-concurrent: true
 unified-delay: true
 
