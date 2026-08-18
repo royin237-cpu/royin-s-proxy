@@ -1847,14 +1847,6 @@ proxies:
   ws-headers:
     host: 2f36c18cfe75.sanfen001.pics
   ws-path: /
-- flow: ''
-  name: 15|广东省广州市+腾讯云
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
-  tls: false
-  type: vless
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - alterId: 0
   cipher: auto
   name: '26,38|github.com/freefq - 广东省移动 7 #1'

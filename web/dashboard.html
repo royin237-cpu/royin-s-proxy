@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoMergePublicNodes — 公益节点聚合</title>
+<style>
+:root {
+  --bg: #0d1117;
+  --card: #161b22;
+  --border: #30363d;
+  --text: #c9d1d9;
+  --text-muted: #8b949e;
+  --accent: #e5484d;
+  --accent-hover: #f85149;
+  --green: #3fb950;
+  --orange: #d29922;
+  --radius: 12px;
+  --max-width: 1100px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+.container { max-width: var(--max-width); margin: 0 auto; padding: 20px; }
+
+/* ── Header ── */
+header { text-align: center; padding: 40px 0 30px; }
+header h1 { font-size: 1.8em; color: var(--accent); margin-bottom: 6px; }
+header h1 .icon { font-size: 1.2em; }
+header p { color: var(--text-muted); font-size: 0.9em; }
+.badge-free {
+  display: inline-block; background: rgba(63,185,80,.15); color: var(--green);
+  border: 1px solid rgba(63,185,80,.3); padding: 2px 12px; border-radius: 20px;
+  font-size: 0.75em; margin-top: 8px;
+}
+
+/* ── 公告 Banner ── */
+.announcement {
+  background: linear-gradient(135deg, rgba(229,72,77,.08), rgba(229,72,77,.02));
+  border: 1px solid rgba(229,72,77,.25); border-radius: var(--radius);
+  padding: 16px 20px; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;
+}
+.announcement .icon { font-size: 1.3em; }
+.announcement .text { flex: 1; font-size: 0.88em; color: var(--text); }
+.announcement .text strong { color: var(--accent); }
+
+/* ── 统计卡片 ── */
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; margin-bottom: 24px; }
+.stat-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 20px; text-align: center; transition: border-color .2s;
+}
+.stat-card:hover { border-color: var(--accent); }
+.stat-card .label { color: var(--text-muted); font-size: 0.75em; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+.stat-card .value { font-size: 1.8em; font-weight: 700; color: var(--accent); }
+.stat-card .sub { color: var(--text-muted); font-size: 0.72em; margin-top: 4px; }
+
+/* ── 通用卡片 ── */
+.card {
+  background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 24px; margin-bottom: 20px;
+}
+.card h2 { font-size: 1.1em; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+.card h2 .icon { font-size: 1.1em; }
+
+/* ── 订阅链接区 ── */
+.sub-row {
+  display: flex; align-items: center; gap: 10px; background: var(--bg);
+  border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; margin-bottom: 10px;
+}
+.sub-row .type-tag {
+  font-size: 0.7em; padding: 2px 8px; border-radius: 4px; white-space: nowrap;
+  font-weight: 600; min-width: 50px; text-align: center;
+}
+.type-tag.meta { background: rgba(229,72,77,.15); color: var(--accent); }
+.type-tag.clash { background: rgba(63,185,80,.15); color: var(--green); }
+.type-tag.v2ray { background: rgba(210,153,34,.15); color: var(--orange); }
+.sub-row .url {
+  flex: 1; font-family: "Cascadia Code", Consolas, monospace; font-size: 0.82em;
+  color: var(--text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.sub-row .copy-btn {
+  background: var(--accent); color: #fff; border: none; border-radius: 6px;
+  padding: 6px 14px; font-size: 0.78em; cursor: pointer; white-space: nowrap;
+  transition: background .2s;
+}
+.sub-row .copy-btn:hover { background: var(--accent-hover); }
+.sub-row .copy-btn:active { transform: scale(0.96); }
+
+/* ── 客户端下载 ── */
+.clients-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; }
+.client-item {
+  display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 16px 8px;
+  background: var(--bg); border: 1px solid var(--border); border-radius: 8px;
+  text-decoration: none; color: var(--text); transition: border-color .2s; cursor: pointer;
+}
+.client-item:hover { border-color: var(--accent); text-decoration: none; }
+.client-item .icon { font-size: 1.6em; }
+.client-item .name { font-size: 0.82em; }
+.client-item .platform { font-size: 0.68em; color: var(--text-muted); }
+
+/* ── 地区分布 ── */
+.regions-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.region-item {
+  display: flex; align-items: center; gap: 8px; padding: 10px 14px;
+  background: var(--bg); border: 1px solid var(--border); border-radius: 8px;
+}
+.region-item .flag { font-size: 1.3em; }
+.region-item .name { flex: 1; font-size: 0.85em; }
+.region-item .count { font-weight: 700; color: var(--accent); font-size: 0.9em; }
+
+/* ── 更新状态栏 ── */
+.update-info {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  background: var(--bg); border: 1px solid var(--border); border-radius: 8px;
+  padding: 12px 16px;
+}
+.update-info .icon { font-size: 1.2em; }
+.update-info .text { font-size: 0.85em; color: var(--text-muted); }
+.update-info .text strong { color: var(--green); }
+
+/* ── 源列表 ── */
+.sources-list { max-height: 300px; overflow-y: auto; }
+.source-item {
+  display: flex; align-items: center; gap: 10px; padding: 8px 0;
+  border-bottom: 1px solid var(--border); font-size: 0.8em;
+}
+.source-item:last-child { border-bottom: none; }
+.source-item .idx { color: var(--text-muted); width: 30px; }
+.source-item .url {
+  flex: 1; color: var(--text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-family: "Cascadia Code", Consolas, monospace; font-size: 0.9em;
+}
+.source-item .nodes { font-weight: 600; white-space: nowrap; width: 60px; text-align: right; }
+.source-item .nodes.zero { color: var(--accent); }
+.source-item .nodes.has { color: var(--green); }
+
+/* ── Toast ── */
+.toast {
+  position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+  background: var(--card); border: 1px solid var(--accent); color: var(--text);
+  padding: 10px 24px; border-radius: 8px; font-size: 0.85em; z-index: 999;
+  opacity: 0; transition: opacity .3s; pointer-events: none;
+}
+.toast.show { opacity: 1; }
+
+footer { text-align: center; padding: 30px 0; color: var(--text-muted); font-size: 0.78em; }
+footer a { color: var(--accent); text-decoration: none; }
+
+@media (max-width: 600px) {
+  header h1 { font-size: 1.4em; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .sub-row { flex-direction: column; align-items: stretch; }
+  .sub-row .url { word-break: break-all; white-space: normal; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- Header -->
+<header>
+  <h1><span class="icon">🌐</span> AutoMergePublicNodes</h1>
+  <p>聚合全网免费公共节点 · 自动更新 · Clash / V2Ray / Meta 全格式</p>
+  <span class="badge-free">✓ 永久免费</span>
+</header>
+
+<!-- 公告 -->
+<div class="announcement">
+  <span class="icon">📢</span>
+  <span class="text">
+    本站聚合 <strong id="src-count">--</strong> 个公开节点源，当前共 <strong id="ann-total">--</strong> 个可用节点。
+    所有节点均来自互联网公开渠道，仅供学习研究使用，请勿用于违法用途。
+  </span>
+</div>
+
+<!-- 统计卡片 -->
+<div class="stats-grid">
+  <div class="stat-card">
+    <div class="label">总节点数</div>
+    <div class="value" id="stat-total">--</div>
+    <div class="sub">个</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">覆盖地区</div>
+    <div class="value" id="stat-regions">--</div>
+    <div class="sub">个国家/地区</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">数据源</div>
+    <div class="value" id="stat-sources">--</div>
+    <div class="sub">个订阅源</div>
+  </div>
+  <div class="stat-card">
+    <div class="label">最后更新</div>
+    <div class="value" id="stat-update" style="font-size:1.2em">--</div>
+    <div class="sub" id="stat-server-time"></div>
+  </div>
+</div>
+
+<!-- 订阅链接 -->
+<div class="card">
+  <h2><span class="icon">📋</span> 订阅链接</h2>
+  <div class="sub-row">
+    <span class="type-tag meta">Meta</span>
+    <span class="url" id="url-meta">--</span>
+    <button class="copy-btn" onclick="copyLink('meta')">复制链接</button>
+  </div>
+  <div class="sub-row">
+    <span class="type-tag clash">Clash</span>
+    <span class="url" id="url-clash">--</span>
+    <button class="copy-btn" onclick="copyLink('clash')">复制链接</button>
+  </div>
+  <div class="sub-row">
+    <span class="type-tag v2ray">V2Ray</span>
+    <span class="url" id="url-v2ray">--</span>
+    <button class="copy-btn" onclick="copyLink('v2ray')">复制链接</button>
+  </div>
+</div>
+
+<!-- 客户端下载 -->
+<div class="card">
+  <h2><span class="icon">💻</span> 客户端下载</h2>
+  <div class="clients-grid">
+    <a class="client-item" href="https://github.com/clash-verge-rev/clash-verge-rev/releases" target="_blank">
+      <span class="icon">⚡</span><span class="name">Clash Verge</span><span class="platform">Win/Mac/Linux</span>
+    </a>
+    <a class="client-item" href="https://github.com/MetaCubeX/mihomo/releases" target="_blank">
+      <span class="icon">🔧</span><span class="name">mihomo</span><span class="platform">内核</span>
+    </a>
+    <a class="client-item" href="https://github.com/2dust/v2rayN/releases" target="_blank">
+      <span class="icon">🚀</span><span class="name">v2rayN</span><span class="platform">Windows</span>
+    </a>
+    <a class="client-item" href="https://github.com/ShadowMario/footprint-on-the-web/releases" target="_blank">
+      <span class="icon">👣</span><span class="name">Footprint</span><span class="platform">全平台</span>
+    </a>
+    <a class="client-item" href="https://github.com/SagerNet/sing-box/releases" target="_blank">
+      <span class="icon">📦</span><span class="name">sing-box</span><span class="platform">全平台</span>
+    </a>
+    <a class="client-item" href="https://apps.apple.com/app/clash-of-clash/id6473963277" target="_blank">
+      <span class="icon">📱</span><span class="name">Clash iOS</span><span class="platform">App Store</span>
+    </a>
+  </div>
+</div>
+
+<!-- 地区分布 -->
+<div class="card">
+  <h2><span class="icon">🗺️</span> 节点地区分布</h2>
+  <div class="regions-grid" id="regions-grid">
+    <span style="color:var(--text-muted)">加载中...</span>
+  </div>
+</div>
+
+<!-- 自动更新信息 -->
+<div class="card">
+  <h2><span class="icon">🔄</span> 自动更新机制</h2>
+  <div class="update-info">
+    <span class="icon">⏰</span>
+    <span class="text">
+      节点数据由 <strong>GitHub Actions</strong> 每小时自动抓取更新，无需人工干预。
+      上次更新时间：<strong id="update-time-full">--</strong>
+    </span>
+  </div>
+</div>
+
+<!-- 源抓取详情 -->
+<div class="card">
+  <h2><span class="icon">📊</span> 数据源抓取详情</h2>
+  <div class="sources-list" id="sources-list">
+    <span style="color:var(--text-muted)">加载中...</span>
+  </div>
+</div>
+
+<footer>
+  <p>AutoMergePublicNodes · 数据每小时自动更新 · 仅供学习研究</p>
+  <p>Powered by Python + GitHub Actions + GitHub Pages · <a href="https://github.com/peasoft/NoMoreWalls" target="_blank">GitHub</a></p>
+</footer>
+
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ── 订阅链接基础路径 ──
+// GitHub Pages 部署时，订阅文件在仓库根目录，通过 raw.githubusercontent.com 或 jsdelivr 访问
+// 本地面板时，使用相对路径
+const SUB_BASE = window.location.origin.includes('github.io')
+  ? window.location.origin.replace('github.io', 'githubusercontent.net') // 不会实际使用，仅为占位
+  : window.location.origin;
+
+// 实际订阅 URL 逻辑：
+// - GitHub Pages 部署：订阅文件不在 Pages 服务范围（Pages 只服务 web/ 目录），
+//   所以订阅链接指向 raw.githubusercontent.com
+// - 本地或其他部署：指向同站路径
+let REPO_OWNER = 'chengaopan';
+let REPO_NAME = 'AutoMergePublicNodes';
+let REPO_BRANCH = 'master';
+
+function getSubUrl(filename) {
+  if (window.location.origin.includes('github.io')) {
+    return `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${REPO_BRANCH}/${filename}`;
+  }
+  return window.location.origin + '/' + filename;
+}
+
+// ── 初始化 ──
+async function init() {
+  document.getElementById('url-meta').textContent = getSubUrl('list.meta.yml');
+  document.getElementById('url-clash').textContent = getSubUrl('list.yml');
+  document.getElementById('url-v2ray').textContent = getSubUrl('list.txt');
+  await fetchStatus();
+}
+
+// ── 获取状态（读取静态 JSON） ──
+async function fetchStatus() {
+  try {
+    const res = await fetch('status.json');
+    const data = await res.json();
+    document.getElementById('stat-total').textContent = data.total || 0;
+    document.getElementById('ann-total').textContent = data.total || 0;
+    const updateTime = data.update_time || '--';
+    document.getElementById('stat-update').textContent = updateTime.split(' ')[1] || updateTime || '--';
+    document.getElementById('update-time-full').textContent = updateTime;
+    document.getElementById('stat-server-time').textContent = '数据生成: ' + (data.server_time || '');
+    const regions = data.regions || {};
+    const regionCount = Object.keys(regions).length;
+    document.getElementById('stat-regions').textContent = regionCount;
+    const sources = data.sources || [];
+    document.getElementById('stat-sources').textContent = sources.length;
+    document.getElementById('src-count').textContent = sources.length;
+    // 地区列表
+    const rg = document.getElementById('regions-grid');
+    rg.innerHTML = '';
+    if (regionCount === 0) {
+      rg.innerHTML = '<span style="color:var(--text-muted)">暂无节点数据</span>';
+    } else {
+      const sorted = Object.entries(regions).sort((a,b) => b[1].count - a[1].count);
+      for (const [code, info] of sorted) {
+        const div = document.createElement('div');
+        div.className = 'region-item';
+        div.innerHTML = `<span class="flag">${info.flag}</span><span class="name">${info.name}</span><span class="count">${info.count}</span>`;
+        rg.appendChild(div);
+      }
+    }
+    // 源列表
+    const sl = document.getElementById('sources-list');
+    sl.innerHTML = '';
+    if (sources.length === 0) {
+      sl.innerHTML = '<span style="color:var(--text-muted)">暂无数据</span>';
+    } else {
+      for (const s of sources) {
+        const div = document.createElement('div');
+        div.className = 'source-item';
+        const cls = s.nodes > 0 ? 'has' : 'zero';
+        const sign = s.nodes > 0 ? '' : ' ⚠';
+        div.innerHTML = `<span class="idx">#${s.index}</span><span class="url">${escapeHtml(s.url)}</span><span class="nodes ${cls}">${s.nodes}${sign}</span>`;
+        sl.appendChild(div);
+      }
+    }
+  } catch (e) {
+    console.error('fetchStatus error:', e);
+    // 如果 status.json 不存在，显示提示
+    const rg = document.getElementById('regions-grid');
+    if (rg) rg.innerHTML = '<span style="color:var(--text-muted)">数据尚未生成，请运行 gen_status.py 或等待 GitHub Actions 执行</span>';
+  }
+}
+
+// ── 复制链接 ──
+async function copyLink(type) {
+  const urls = { meta: 'list.meta.yml', clash: 'list.yml', v2ray: 'list.txt' };
+  const url = getSubUrl(urls[type]);
+  try {
+    await navigator.clipboard.writeText(url);
+    showToast('✅ 已复制: ' + url);
+  } catch {
+    const ta = document.createElement('textarea');
+    ta.value = url; document.body.appendChild(ta); ta.select();
+    document.execCommand('copy'); document.body.removeChild(ta);
+    showToast('✅ 已复制: ' + url);
+  }
+}
+
+// ── Toast ──
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3000);
+}
+
+// ── 工具 ──
+function escapeHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── 启动 ──
+init();
+// 每 60s 刷新（读取最新 JSON）
+setInterval(fetchStatus, 60000);
+</script>
+</body>
+</html>

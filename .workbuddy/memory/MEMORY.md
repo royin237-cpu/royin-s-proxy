@@ -27,4 +27,7 @@
 ## 项目结构要点
 - `config.yml`：订阅生成模板（proxies 留空，由 fetch.py 注入）。
 - `fetch.py`：抓取源、合并节点、生成 `list.yml`(Clash) / `list.meta.yml`(Meta) / `snippets/*`。
-- `list.meta.yml`：Verge 实际加载的订阅（serve.py 通过 `http://127.0.0.1:8088/list.meta.yml` 提供）。
+- `serve.py`：面板后端（纯标准库 HTTP），端口 8088；提供 `/` 面板、`/api/status` JSON、`/api/update` 触发 fetch、`/list.meta.yml` 等订阅分发。
+- `web/dashboard.html`：深色单页面板（统计卡片 + 订阅链接复制 + 客户端下载 + 地区分布 + 在线更新 + 源抓取详情）。
+- `list.meta.yml`：生成的 Meta 订阅；Verge 侧使用 profiles 目录副本。
+- 项目有前端：`web/dashboard.html` + `serve.py` 后端，启动方式 `.venv/Scripts/python.exe serve.py`，访问 `http://127.0.0.1:8088`。

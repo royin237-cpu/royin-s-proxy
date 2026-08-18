@@ -11,23 +11,6 @@ proxies:
   ws-headers:
     host: insaneguo2333.top
   ws-path: /okoovws
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: dc8109baf0f607ea
-  server: 78.159.247.253
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-  ws-opts:
-    headers:
-      Host: storage.yandex.net
-    path: '%2F'
 - name: 19|🇷🇺|RU|@wxgqlfx|229
   password: 921db318-1694-4408-9cc7-c93df39f7f8e
   port: 443

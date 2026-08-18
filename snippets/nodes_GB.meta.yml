@@ -1,12 +1,17 @@
 proxies:
-- name: 15,19|🇫🇮|FI|@wxgqlfx|217
-  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|英国+V2CROSS.COM
+  network: tcp
   port: 443
-  server: fast.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: fast.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
+  reality-opts:
+    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
+    short-id: f63805c3ecc7a483
+  server: 195.184.247.222
+  servername: savesafe.co
+  tls: true
+  type: vless
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
 - name: 19||GB|@wxgqlfx|19
   password: 725bc0b69e720cd5a2cd209252507c6e
   port: 50160

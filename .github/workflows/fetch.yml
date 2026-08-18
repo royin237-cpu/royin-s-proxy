@@ -13,6 +13,8 @@ on:
       - '.github/workflows/**'
       - '**.py'
       - 'snippets/_*'
+      - 'gen_status.py'
+      - 'web/'
 
 jobs:
   fetch:
@@ -31,7 +33,10 @@ jobs:
       run: pip install -r requirements.txt
     - name: 执行任务
       run: python ./fetch.py
-      
+
+    - name: 生成面板状态 JSON
+      run: python ./gen_status.py
+
     - name: 提交更改
       run: |                 
         git config --local user.email "actions@github.com"
@@ -39,6 +44,7 @@ jobs:
         git pull origin master
         git add list*
         git add snippets/
+        git add web/status.json
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
     - name: 推送更改
       uses: ad-m/github-push-action@master
