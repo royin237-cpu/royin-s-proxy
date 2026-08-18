@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Royin Proxy — 公益节点聚合</title>
 <style>
-:root {
+/* ── 主题变量：暗色（默认） ── */
+:root, :root[data-theme="dark"] {
   --bg: #0d1117;
   --card: #161b22;
   --border: #30363d;
@@ -15,8 +16,32 @@
   --accent-hover: #f85149;
   --green: #3fb950;
   --orange: #d29922;
+  --accent-soft: rgba(229,72,77,.15);
+  --green-soft: rgba(63,185,80,.15);
+  --green-border: rgba(63,185,80,.3);
+  --orange-soft: rgba(210,153,34,.15);
+  --accent-border: rgba(229,72,77,.25);
+  --announce-bg: linear-gradient(135deg, rgba(229,72,77,.08), rgba(229,72,77,.02));
   --radius: 12px;
   --max-width: 1100px;
+}
+/* ── 主题变量：浅色 ── */
+:root[data-theme="light"] {
+  --bg: #f6f8fa;
+  --card: #ffffff;
+  --border: #d0d7de;
+  --text: #1f2328;
+  --text-muted: #57606a;
+  --accent: #d1242f;
+  --accent-hover: #b91c25;
+  --green: #1a7f37;
+  --orange: #9a6700;
+  --accent-soft: rgba(209,36,47,.1);
+  --green-soft: rgba(26,127,55,.1);
+  --green-border: rgba(26,127,55,.3);
+  --orange-soft: rgba(154,103,0,.12);
+  --accent-border: rgba(209,36,47,.3);
+  --announce-bg: linear-gradient(135deg, rgba(209,36,47,.06), rgba(209,36,47,.02));
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
@@ -25,8 +50,20 @@ body {
   font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
   line-height: 1.6;
   min-height: 100vh;
+  transition: background .25s, color .25s;
 }
 .container { max-width: var(--max-width); margin: 0 auto; padding: 20px; }
+
+/* ── 主题切换按钮 ── */
+.theme-toggle {
+  position: fixed; top: 16px; right: 16px; z-index: 100;
+  width: 42px; height: 42px; border-radius: 50%;
+  background: var(--card); border: 1px solid var(--border);
+  cursor: pointer; font-size: 1.15em;
+  display: flex; align-items: center; justify-content: center;
+  transition: border-color .2s, background .25s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
 
 /* ── Header ── */
 header { text-align: center; padding: 40px 0 30px; }
@@ -34,15 +71,15 @@ header h1 { font-size: 1.8em; color: var(--accent); margin-bottom: 6px; }
 header h1 .icon { font-size: 1.2em; }
 header p { color: var(--text-muted); font-size: 0.9em; }
 .badge-free {
-  display: inline-block; background: rgba(63,185,80,.15); color: var(--green);
-  border: 1px solid rgba(63,185,80,.3); padding: 2px 12px; border-radius: 20px;
+  display: inline-block; background: var(--green-soft); color: var(--green);
+  border: 1px solid var(--green-border); padding: 2px 12px; border-radius: 20px;
   font-size: 0.75em; margin-top: 8px;
 }
 
 /* ── 公告 Banner ── */
 .announcement {
-  background: linear-gradient(135deg, rgba(229,72,77,.08), rgba(229,72,77,.02));
-  border: 1px solid rgba(229,72,77,.25); border-radius: var(--radius);
+  background: var(--announce-bg);
+  border: 1px solid var(--accent-border); border-radius: var(--radius);
   padding: 16px 20px; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;
 }
 .announcement .icon { font-size: 1.3em; }
@@ -53,7 +90,7 @@ header p { color: var(--text-muted); font-size: 0.9em; }
 .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; margin-bottom: 24px; }
 .stat-card {
   background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
-  padding: 20px; text-align: center; transition: border-color .2s;
+  padding: 20px; text-align: center; transition: border-color .2s, background .25s;
 }
 .stat-card:hover { border-color: var(--accent); }
 .stat-card .label { color: var(--text-muted); font-size: 0.75em; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
@@ -63,7 +100,7 @@ header p { color: var(--text-muted); font-size: 0.9em; }
 /* ── 通用卡片 ── */
 .card {
   background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
-  padding: 24px; margin-bottom: 20px;
+  padding: 24px; margin-bottom: 20px; transition: background .25s;
 }
 .card h2 { font-size: 1.1em; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
 .card h2 .icon { font-size: 1.1em; }
@@ -77,9 +114,9 @@ header p { color: var(--text-muted); font-size: 0.9em; }
   font-size: 0.7em; padding: 2px 8px; border-radius: 4px; white-space: nowrap;
   font-weight: 600; min-width: 50px; text-align: center;
 }
-.type-tag.meta { background: rgba(229,72,77,.15); color: var(--accent); }
-.type-tag.clash { background: rgba(63,185,80,.15); color: var(--green); }
-.type-tag.v2ray { background: rgba(210,153,34,.15); color: var(--orange); }
+.type-tag.meta { background: var(--accent-soft); color: var(--accent); }
+.type-tag.clash { background: var(--green-soft); color: var(--green); }
+.type-tag.v2ray { background: var(--orange-soft); color: var(--orange); }
 .sub-row .url {
   flex: 1; font-family: "Cascadia Code", Consolas, monospace; font-size: 0.82em;
   color: var(--text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
@@ -93,7 +130,7 @@ header p { color: var(--text-muted); font-size: 0.9em; }
 .sub-row .copy-btn:active { transform: scale(0.96); }
 
 /* ── 客户端下载 ── */
-.clients-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; }
+.clients-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
 .client-item {
   display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 16px 8px;
   background: var(--bg); border: 1px solid var(--border); border-radius: 8px;
@@ -124,22 +161,6 @@ header p { color: var(--text-muted); font-size: 0.9em; }
 .update-info .text { font-size: 0.85em; color: var(--text-muted); }
 .update-info .text strong { color: var(--green); }
 
-/* ── 源列表 ── */
-.sources-list { max-height: 300px; overflow-y: auto; }
-.source-item {
-  display: flex; align-items: center; gap: 10px; padding: 8px 0;
-  border-bottom: 1px solid var(--border); font-size: 0.8em;
-}
-.source-item:last-child { border-bottom: none; }
-.source-item .idx { color: var(--text-muted); width: 30px; }
-.source-item .url {
-  flex: 1; color: var(--text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-  font-family: "Cascadia Code", Consolas, monospace; font-size: 0.9em;
-}
-.source-item .nodes { font-weight: 600; white-space: nowrap; width: 60px; text-align: right; }
-.source-item .nodes.zero { color: var(--accent); }
-.source-item .nodes.has { color: var(--green); }
-
 /* ── Toast ── */
 .toast {
   position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
@@ -157,10 +178,14 @@ footer a { color: var(--accent); text-decoration: none; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .sub-row { flex-direction: column; align-items: stretch; }
   .sub-row .url { word-break: break-all; white-space: normal; }
+  .theme-toggle { top: 10px; right: 10px; }
 }
 </style>
 </head>
 <body>
+<!-- 主题切换 -->
+<button class="theme-toggle" id="theme-toggle" title="切换主题">☀️</button>
+
 <div class="container">
 
 <!-- Header -->
@@ -230,20 +255,14 @@ footer a { color: var(--accent); text-decoration: none; }
     <a class="client-item" href="https://github.com/clash-verge-rev/clash-verge-rev/releases" target="_blank">
       <span class="icon">⚡</span><span class="name">Clash Verge</span><span class="platform">Win/Mac/Linux</span>
     </a>
-    <a class="client-item" href="https://github.com/MetaCubeX/mihomo/releases" target="_blank">
-      <span class="icon">🔧</span><span class="name">mihomo</span><span class="platform">内核</span>
-    </a>
     <a class="client-item" href="https://github.com/2dust/v2rayN/releases" target="_blank">
       <span class="icon">🚀</span><span class="name">v2rayN</span><span class="platform">Windows</span>
-    </a>
-    <a class="client-item" href="https://github.com/ShadowMario/footprint-on-the-web/releases" target="_blank">
-      <span class="icon">👣</span><span class="name">Footprint</span><span class="platform">全平台</span>
     </a>
     <a class="client-item" href="https://github.com/SagerNet/sing-box/releases" target="_blank">
       <span class="icon">📦</span><span class="name">sing-box</span><span class="platform">全平台</span>
     </a>
-    <a class="client-item" href="https://apps.apple.com/app/clash-of-clash/id6473963277" target="_blank">
-      <span class="icon">📱</span><span class="name">Clash iOS</span><span class="platform">App Store</span>
+    <a class="client-item" href="https://github.com/KaringX/clashmi/releases" target="_blank">
+      <span class="icon">📱</span><span class="name">Clash Mi</span><span class="platform">iOS/Android/Win/Mac</span>
     </a>
   </div>
 </div>
@@ -262,22 +281,14 @@ footer a { color: var(--accent); text-decoration: none; }
   <div class="update-info">
     <span class="icon">⏰</span>
     <span class="text">
-      节点数据由 <strong>GitHub Actions</strong> 每小时自动抓取更新，无需人工干预。
+      节点数据由 <strong>GitHub Actions</strong> 每 12 小时自动抓取更新，无需人工干预。
       上次更新时间：<strong id="update-time-full">--</strong>
     </span>
   </div>
 </div>
 
-<!-- 源抓取详情 -->
-<div class="card">
-  <h2><span class="icon">📊</span> 数据源抓取详情</h2>
-  <div class="sources-list" id="sources-list">
-    <span style="color:var(--text-muted)">加载中...</span>
-  </div>
-</div>
-
 <footer>
-  <p>Royin Proxy · 数据每小时自动更新 · 仅供学习研究</p>
+  <p>Royin Proxy · 数据每 12 小时自动更新 · 仅供学习研究</p>
   <p>Powered by Python + GitHub Actions + GitHub Pages · 基于 <a href="https://github.com/peasoft/NoMoreWalls" target="_blank">NoMoreWalls</a> 二次开发</p>
 </footer>
 
@@ -287,6 +298,22 @@ footer a { color: var(--accent); text-decoration: none; }
 <div class="toast" id="toast"></div>
 
 <script>
+// ── 主题管理 ──
+const themeBtn = document.getElementById('theme-toggle');
+function applyTheme(t) {
+  document.documentElement.setAttribute('data-theme', t);
+  try { localStorage.setItem('rp-theme', t); } catch (e) {}
+  themeBtn.textContent = t === 'light' ? '🌙' : '☀️';
+  themeBtn.title = t === 'light' ? '切换到暗色主题' : '切换到浅色主题';
+}
+let savedTheme = null;
+try { savedTheme = localStorage.getItem('rp-theme'); } catch (e) {}
+const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+applyTheme(savedTheme || (prefersLight ? 'light' : 'dark'));
+themeBtn.onclick = () => {
+  applyTheme(document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light');
+};
+
 // ── 订阅链接基础路径 ──
 // GitHub Pages 从仓库根目录部署，订阅文件（list.meta.yml 等）与面板同站，
 // 路径形如 /<repo>/<filename>，此处从 location.pathname 提取仓库路径前缀
@@ -295,7 +322,6 @@ let REPO_NAME = 'royin-s-proxy';
 let REPO_BRANCH = 'master';
 
 function getSubUrl(filename) {
-  // 项目页面路径形如 /royin-s-proxy/web/dashboard.html，取第一段作为 base
   const m = location.pathname.match(/^(\/[^\/]+)\//);
   const base = m ? m[1] : '';
   return location.origin + base + '/' + filename;
@@ -340,24 +366,8 @@ async function fetchStatus() {
         rg.appendChild(div);
       }
     }
-    // 源列表
-    const sl = document.getElementById('sources-list');
-    sl.innerHTML = '';
-    if (sources.length === 0) {
-      sl.innerHTML = '<span style="color:var(--text-muted)">暂无数据</span>';
-    } else {
-      for (const s of sources) {
-        const div = document.createElement('div');
-        div.className = 'source-item';
-        const cls = s.nodes > 0 ? 'has' : 'zero';
-        const sign = s.nodes > 0 ? '' : ' ⚠';
-        div.innerHTML = `<span class="idx">#${s.index}</span><span class="url">${escapeHtml(s.url)}</span><span class="nodes ${cls}">${s.nodes}${sign}</span>`;
-        sl.appendChild(div);
-      }
-    }
   } catch (e) {
     console.error('fetchStatus error:', e);
-    // 如果 status.json 不存在，显示提示
     const rg = document.getElementById('regions-grid');
     if (rg) rg.innerHTML = '<span style="color:var(--text-muted)">数据尚未生成，请运行 gen_status.py 或等待 GitHub Actions 执行</span>';
   }
@@ -383,11 +393,6 @@ function showToast(msg) {
   const t = document.getElementById('toast');
   t.textContent = msg; t.classList.add('show');
   setTimeout(() => t.classList.remove('show'), 3000);
-}
-
-// ── 工具 ──
-function escapeHtml(s) {
-  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
 // ── 启动 ──
