@@ -288,25 +288,17 @@ footer a { color: var(--accent); text-decoration: none; }
 
 <script>
 // ── 订阅链接基础路径 ──
-// GitHub Pages 部署时，订阅文件在仓库根目录，通过 raw.githubusercontent.com 或 jsdelivr 访问
-// 本地面板时，使用相对路径
-const SUB_BASE = window.location.origin.includes('github.io')
-  ? window.location.origin.replace('github.io', 'githubusercontent.net') // 不会实际使用，仅为占位
-  : window.location.origin;
-
-// 实际订阅 URL 逻辑：
-// - GitHub Pages 部署：订阅文件不在 Pages 服务范围（Pages 只服务 web/ 目录），
-//   所以订阅链接指向 raw.githubusercontent.com
-// - 本地或其他部署：指向同站路径
+// GitHub Pages 从仓库根目录部署，订阅文件（list.meta.yml 等）与面板同站，
+// 路径形如 /<repo>/<filename>，此处从 location.pathname 提取仓库路径前缀
 let REPO_OWNER = 'royin237-cpu';
 let REPO_NAME = 'royin-s-proxy';
 let REPO_BRANCH = 'master';
 
 function getSubUrl(filename) {
-  if (window.location.origin.includes('github.io')) {
-    return `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${REPO_BRANCH}/${filename}`;
-  }
-  return window.location.origin + '/' + filename;
+  // 项目页面路径形如 /royin-s-proxy/web/dashboard.html，取第一段作为 base
+  const m = location.pathname.match(/^(\/[^\/]+)\//);
+  const base = m ? m[1] : '';
+  return location.origin + base + '/' + filename;
 }
 
 // ── 初始化 ──

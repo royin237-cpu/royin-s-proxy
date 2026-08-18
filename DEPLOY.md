@@ -8,15 +8,17 @@ GitHub Actions (每小时自动执行)
   ├─ gen_status.py   → 读取结果，生成 web/status.json
   └─ git commit & push → 所有文件回传仓库
 
-GitHub Pages (静态托管)
-  └─ web/dashboard.html → 面板前端
+GitHub Pages (静态托管，从仓库根目录部署)
+  ├─ index.html              → 跳转页，重定向到 web/dashboard.html
+  └─ web/dashboard.html      → 面板前端
      └─ fetch('status.json') → 读取统计数据展示
-
-raw.githubusercontent.com (订阅分发)
-  └─ list.meta.yml / list.yml / list.txt → 订阅链接
+  订阅文件与面板同站分发：/list.meta.yml /list.yml /list.txt
 ```
 
-**零成本**：GitHub Actions（2000 分钟/月免费）、GitHub Pages（免费）、raw.githubusercontent.com（免费）。
+**零成本**：GitHub Actions（2000 分钟/月免费）、GitHub Pages（免费）。
+
+> 注意：Pages 文件夹下拉只有 `/ (root)` 和 `/docs` 两个选项，
+> 本项目使用根目录部署（`index.html` 跳转页 + 订阅文件同站分发）。
 
 ## 部署步骤
 
@@ -28,31 +30,19 @@ raw.githubusercontent.com (订阅分发)
 
 1. 进入仓库 → **Settings** → **Pages**
 2. **Source** 选择 **Deploy from a branch**
-3. **Branch** 选择 `master`，文件夹选 `/web`
+3. **Branch** 选择 `master`，文件夹选 **`/ (root)`**
 4. 点击 **Save**
 5. 等待 1-2 分钟，访问 `https://royin237-cpu.github.io/royin-s-proxy/`
 
 ### 3. 验证
 
-- 面板页面：`https://royin237-cpu.github.io/royin-s-proxy/`
-- 状态 JSON：`https://royin237-cpu.github.io/royin-s-proxy/status.json`
-- 订阅链接（指向 raw.githubusercontent.com）：
-  - Meta: `https://raw.githubusercontent.com/royin237-cpu/royin-s-proxy/master/list.meta.yml`
-  - Clash: `https://raw.githubusercontent.com/royin237-cpu/royin-s-proxy/master/list.yml`
-  - V2Ray: `https://raw.githubusercontent.com/royin237-cpu/royin-s-proxy/master/list.txt`
-
-### 4. 订阅链接加速（可选）
-
-面板中的订阅链接默认指向 `raw.githubusercontent.com`，国内可能无法直接访问。可在 `dashboard.html` 中修改 `getSubUrl()` 函数，改用 JsDelivr CDN：
-
-```javascript
-function getSubUrl(filename) {
-  if (window.location.origin.includes('github.io')) {
-    return `https://cdn.jsdelivr.net/gh/${REPO_OWNER}/${REPO_NAME}/${REPO_BRANCH}/${filename}`;
-  }
-  return window.location.origin + '/' + filename;
-}
-```
+- 面板页面：`https://royin237-cpu.github.io/royin-s-proxy/`（自动跳转 dashboard）
+- 状态 JSON：`https://royin237-cpu.github.io/royin-s-proxy/web/status.json`
+- 订阅链接（同站分发，国内可直连）：
+  - Meta: `https://royin237-cpu.github.io/royin-s-proxy/list.meta.yml`
+  - Clash: `https://royin237-cpu.github.io/royin-s-proxy/list.yml`
+  - V2Ray: `https://royin237-cpu.github.io/royin-s-proxy/list.txt`
+- 备用（raw 源链接）：`https://raw.githubusercontent.com/royin237-cpu/royin-s-proxy/master/list.meta.yml`
 
 ## 仓库信息
 
