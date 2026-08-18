@@ -1,84 +1,220 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-194.87.71.23-0109
+  name: 32|🇩🇪DE-104.105.18.214-0445
   network: ws
-  port: 23742
-  server: 194.87.71.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e8706bdb-335e-4631-a2af-3052ad93b10d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /wp-admin
-- alterId: 0
-  cipher: auto
-  name: 38|🇩🇪DE-130.162.47.123-9798
-  network: ws
-  port: 6854
-  server: 130.162.47.123
+  port: 2053
+  server: 104.105.18.214
   servername: ''
   tls: true
   type: vmess
-  uuid: b5f7e932-f730-4ad2-b425-40977b9db332
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
   ws-opts:
     headers:
-      Host: ''
-    path: /zBLPou
+      Host: deapp.jisuyun.top
+    path: /devm
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪德国 01
+  name: 32|🇩🇪DE-91.195.240.12-0414
   network: ws
-  port: '2086'
-  server: cf.iepl1.me
-  tls: false
+  port: 443
+  server: sgp.kapok.buzz
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  uuid: c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85
   ws-opts:
     headers:
-      Host: deamd1.topf6.com
-    path: /ws?ed=2048
+      Host: sgp.kapok.buzz
+    path: /4befdd8a6/
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪德国 02
+  name: 32|🇩🇪DE-91.195.240.94-0709
   network: ws
-  port: '2086'
-  server: cf.335570.xyz
-  tls: false
+  port: 443
+  server: in-full.privateip.net
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  uuid: 07722fc6-a688-49fd-9896-fb9e1ca748d6
   ws-opts:
     headers:
-      Host: deamd1.topf6.com
-    path: /ws?ed=2048
+      Host: in-full.privateip.net
+    path: /racevpn
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-217.160.45.31-0340
-  network: ws
-  port: 8880
-  server: 217.160.45.31
+  name: 32|🇩🇪DE-157.90.20.18-0776
+  network: http
+  port: 443
+  server: 157.90.20.18
   servername: ''
   tls: false
   type: vmess
-  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-94.130.25.155-0778
+  network: http
+  port: 443
+  server: 94.130.25.155
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-167.235.136.155-0779
+  network: http
+  port: 443
+  server: 167.235.136.155
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-94.130.184.57-3046
+  network: ws
+  port: 80
+  server: 94.130.184.57
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c5e523e7-da73-40af-a4a9-c638720c30e1
   ws-opts:
     headers:
       Host: ''
-    path: /
-- name: 38|🇩🇪_DE_德国
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.196.39.57
-  sni: trojan.burgerip.co.uk
+    path: /graphql
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-162.55.174.135-3146
+  network: ws
+  port: 80
+  server: 162.55.174.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4d9aa6db-705a-4bfa-b05b-8f442c839557
+  ws-opts:
+    headers:
+      Host: ''
+    path: /graphql
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-162.55.62.193-3106
+  network: ws
+  port: 80
+  server: 162.55.62.193
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /telegram-id-@privatevpns
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-5.75.173.189-3126
+  network: ws
+  port: 80
+  server: 5.75.173.189
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /telegram-id-@privatevpns
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-78.46.129.226-3162
+  network: ws
+  port: 80
+  server: 78.46.129.226
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /telegram-id-@privatevpns
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-167.235.78.112-3204
+  network: ws
+  port: 80
+  server: 167.235.78.112
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /telegram-id-@privatevpns
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-188.40.132.107-4054
+  network: ws
+  port: 80
+  server: 188.40.132.107
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
+  ws-opts:
+    headers:
+      Host: ''
+    path: /p3573l6m92h1ham3q23t
+- name: 32|🇩🇪DE-63.176.171.181-5034
+  password: IL37892054
+  port: 443
+  server: engaging-toucan.rooster465.autos
   type: trojan
-- name: '38|🇩🇪_DE_德国 #1'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.68.139.230
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+- cipher: chacha20-ietf
+  name: '32|8J%2BHr%2FCfh7VKUC01Mi4xOTUuMT... #2'
+  obfs: plain
+  obfs-param: ''
+  password: Mv4e0QHWPwdbKiCF
+  port: '54115'
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: show.bilibilicloud01.com
+  type: ssr
+- grpc-opts:
+    grpc-service-name: trojangrpc
+  name: 32|🇩🇪DE-95.179.254.136-7095
+  network: grpc
+  password: mainssh-ddoejfv14
+  port: 443
+  server: 95.179.254.136
+  sni: frtgrpc.mainssh.xyz
+  type: trojan
+- grpc-opts:
+    grpc-service-name: trojangrpc
+  name: 32|🇩🇪DE-95.179.246.122-7097
+  network: grpc
+  password: mainssh-niwrhf87
+  port: 443
+  server: 95.179.246.122
+  sni: getgrpc.mainssh.xyz
+  type: trojan
+- name: 32|🇩🇪DE-209.250.236.93-7392
+  network: grpc
+  password: Cl150MQWlG
+  port: 443
+  server: 209.250.236.93
+  sni: irancell-ir-4.mmdruby13.store
+  type: trojan
+- grpc-opts:
+    grpc-service-name: trojangrpc
+  name: 32|🇩🇪DE-108.61.171.167-7854
+  network: grpc
+  password: mainssh-niwrhf87
+  port: 443
+  server: 108.61.171.167
+  sni: getgrpc.mainssh.xyz
   type: trojan

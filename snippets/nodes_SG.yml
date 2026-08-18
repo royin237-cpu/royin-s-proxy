@@ -1,245 +1,291 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 10,11|355_新加坡-1.87MB
-  password: amazonskr05
-  port: '443'
-  server: 18.141.158.14
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|356_新加坡-2.07MB
-  password: amazonskr05
-  port: '443'
-  server: 18.141.175.224
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|357_新加坡-409.3KB
-  password: amazonskr05
-  port: '443'
-  server: 54.254.196.84
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|358_新加坡-727.7KB
-  password: amazonskr05
-  port: '443'
-  server: 18.143.178.158
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|364_新加坡-2.54MB
-  password: amazonskr05
-  port: '443'
-  server: 54.255.207.137
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|368_新加坡-3.53MB
-  password: amazonskr05
-  port: '443'
-  server: 13.214.212.27
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|371_新加坡-1.43MB
-  password: amazonskr05
-  port: '443'
-  server: 13.212.61.111
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|377_新加坡-2.62MB
-  password: amazonskr05
-  port: '443'
-  server: 13.214.212.14
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|386_新加坡-1.98MB
-  password: amazonskr05
-  port: '443'
-  server: 13.212.139.93
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|387_新加坡-490.5KB
-  password: amazonskr05
-  port: '443'
-  server: 54.179.174.15
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|391_新加坡-3.72MB
-  password: amazonskr05
-  port: '443'
-  server: 52.74.60.152
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: 10,11|472_新加坡-687.2KB
-  network: ws
-  port: '8080'
-  server: 103.83.157.182
-  tls: 0
-  type: vmess
-  uuid: 5d667691-c393-4de9-8962-9bea18bfca9e
-  ws-headers:
-    host: shoutingtoutiao3.10010.com
-  ws-path: /images
-- alterId: '0'
-  cipher: auto
-  name: 10,11|476_新加坡-1.77MB
-  network: ws
-  port: '80'
-  server: 103.83.157.182
-  tls: 0
-  type: vmess
-  uuid: e8a7439c-9f91-4520-9faa-ae2ddf99d752
-  ws-headers:
-    host: ''
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 10,11|477_新加坡-2.42MB
-  network: ws
-  port: '80'
-  server: 178.128.209.143
-  tls: 0
-  type: vmess
-  uuid: a740cddf-bda7-4b58-8eda-35bece740b6e
-  ws-headers:
-    host: ''
-  ws-path: /anti13.zingfast.vn
-- cipher: aes-256-cfb
   name: 11|352_新加坡-255.1KB
   password: amazonskr05
   port: '443'
   server: 13.215.177.64
   type: ss
-- cipher: aes-256-cfb
-  name: 11|353_新加坡-3.25MB
-  password: amazonskr05
-  port: '443'
-  server: 13.212.218.206
-  type: ss
-- alterId: '64'
-  cipher: auto
-  name: 11|396_新加坡-3.74MB
-  network: ws
-  port: '58733'
-  server: 43.159.47.228
-  tls: 1
-  type: vmess
-  uuid: d318b489-19b7-4a45-84d7-1320d05dc10d
-  ws-headers:
-    host: ''
-  ws-path: /sg4/getData
-- alterId: '64'
-  cipher: auto
-  name: 11|397_新加坡-3.65MB
-  network: ws
-  port: '42937'
-  server: 43.156.103.197
-  tls: 1
-  type: vmess
-  uuid: de482393-068d-4cb1-986e-680ff86d5d7d
-  ws-headers:
-    host: ''
-  ws-path: /sg9/getData
-- alterId: '0'
-  cipher: auto
-  name: 11|404_新加坡-1.80MB
-  network: ws
-  port: '45606'
-  server: first.kctr2038.icu
-  tls: 1
-  type: vmess
-  uuid: 895eff47-4efa-4f60-9aaf-40e4edd05bcf
-  ws-headers:
-    host: first.kctr2038.icu
-  ws-path: /7355608
-- alterId: '0'
-  cipher: auto
-  name: 11|406_新加坡-1.99MB
-  network: ws
-  port: '443'
-  server: awssg16-data.amazon-azure.com
-  tls: 0
-  type: vmess
-  uuid: 9d19115a-476f-40d4-b815-2bdaaa68a691
-  ws-headers:
-    host: media.amazonwebservices.com
-  ws-path: /aws-china-media/Y699Gjx2rNw.mp4
-- alterId: '0'
-  cipher: auto
-  name: 11|409_新加坡-708.4KB
-  network: ws
-  port: '443'
-  server: n1674862929.gofdwgy.cn
-  tls: 1
-  type: vmess
-  uuid: 9052bc7a-ccae-47c8-aafb-f732e7320cfe
-  ws-headers:
-    host: n1674862929.gofdwgy.cn
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 11|416_新加坡-2.68MB
-  network: ws
-  port: '443'
-  server: sg4.microsoftjs.top
-  tls: 0
-  type: vmess
-  uuid: bfd69e87-386d-4206-903e-9c0df8a8bfcf
-  ws-headers:
-    host: sg4.microsoftjs.top
-  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-- alterId: '0'
-  cipher: auto
-  name: 11|428_新加坡-2.05MB
-  network: ws
-  port: '443'
-  server: n1674862955.jfzlasi.cn
-  tls: 1
-  type: vmess
-  uuid: 022c42ba-c662-49bd-bd8c-f8428e6aa91c
-  ws-headers:
-    host: n1674862955.jfzlasi.cn
-  ws-path: /
-- alterId: '64'
-  cipher: auto
-  name: 11|429_新加坡-371.0KB
-  network: tcp
-  port: '50002'
-  server: 27.124.40.83
-  tls: 0
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    host: ''
-  ws-path: /
-- name: 34|V2-新加坡02∣K37线路∣
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 21178
-  server: 219.135.231.205
-  skip-cert-verify: true
+- name: '31,32|🇸🇬SG-54.254.235.88-0222 #1'
+  password: FH72359861
+  port: 443
+  server: charming-ox.rooster465.autos
+  sni: charming-ox.rooster465.autos
   type: trojan
-  udp: true
-- name: 34|V2-新加坡04∣K39线路∣
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 21170
-  server: 219.135.231.205
-  skip-cert-verify: true
+- name: '31,32|🇸🇬SG-13.212.173.162-0223 #1'
+  password: AE62539071
+  port: 443
+  server: integral-quetzal.rooster465.autos
+  sni: integral-quetzal.rooster465.autos
   type: trojan
-  udp: true
+- name: '31,32|🇸🇬SG-13.212.33.67-1353 #1'
+  password: PQ05174892
+  port: 443
+  server: intense-monarch.rooster465.autos
+  type: trojan
+- name: '31,32|🇸🇬SG-13.251.133.9-0227 #1'
+  password: PQ05174892
+  port: 443
+  server: infinite-anteater.rooster465.autos
+  sni: infinite-anteater.rooster465.autos
+  type: trojan
+- name: '31,32|🇸🇬SG-47.129.183.20-0387 #1'
+  password: PQ05174892
+  port: 443
+  server: welcome-monitor.rooster465.autos
+  sni: welcome-monitor.rooster465.autos
+  type: trojan
+- name: '31,32|🇸🇬SG-18.143.132.167-0224 #1'
+  password: FH72359861
+  port: 443
+  server: worthy-perch.rooster465.autos
+  sni: worthy-perch.rooster465.autos
+  type: trojan
+- name: '31,32|🇸🇬SG-52.220.98.46-1354 #1'
+  password: PQ05174892
+  port: 443
+  server: pleased-albacore.rooster465.autos
+  sni: pleased-albacore.rooster465.autos
+  type: trojan
+- name: 32|🇸🇬SG-52.220.98.46-0386
+  password: PQ05174892
+  port: 443
+  server: 52.220.98.46
+  sni: pleased-albacore.rooster465.autos
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 38|🇸🇬新加坡 01
+  name: 32|🇸🇬SG-15.235.147.186-0380
   network: ws
-  port: '443'
-  server: wap.appleid.bf
+  port: 80
+  server: 15.235.147.186
+  servername: 15.235.147.186
   tls: false
   type: vmess
-  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
   ws-opts:
     headers:
-      Host: gw.alicdn.com
-    path: /CAT
-- name: 38|新加坡+DigitalOcean数据中心
-  network: tcp
-  password: dT6h9HBwQO
-  port: 31313
-  server: 139.59.108.29
-  sni: m.linkedin.us
+      Host: ''
+    path: /sshkit/Ertusg86/635014638c264/
+- alterId: 0
+  cipher: auto
+  name: 32|🇸🇬SG-139.99.61.154-0449
+  network: ws
+  port: 80
+  server: 139.99.61.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
+  ws-opts:
+    headers:
+      Host: 139.99.61.154
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 32|🇸🇬SG-56.10.28.155-0702
+  network: ws
+  port: 5100
+  server: st-2.dnspro.icu
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-2.dnspro.icu
+    path: /iso
+- alterId: 0
+  cipher: auto
+  name: 32|🇸🇬SG-56.10.28.155-0704
+  network: ws
+  port: 20025
+  server: sh-cn-1.dnspro.icu
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: sh-cn-1.dnspro.icu
+    path: /iso
+- alterId: 64
+  cipher: auto
+  name: 32|🇸🇬SG-202.79.172.53-1605
+  network: ws
+  port: 443
+  server: 202.79.172.53
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 30216206-14b7-40e7-995d-61c1219ba584
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/220128071100
+- alterId: 0
+  cipher: auto
+  name: 32|🇸🇬SG-143.198.219.182-1621
+  network: ws
+  port: 80
+  server: 143.198.219.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606
+  ws-opts:
+    headers:
+      Host: ''
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 32|🇸🇬SG-15.235.184.36-2401
+  network: ws
+  port: 80
+  server: 15.235.184.36
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7ce525f5-3a9b-4627-ae0e-3ca0b57519e3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 32|🇸🇬SG-139.99.61.154-2406
+  network: ws
+  port: 80
+  server: 139.99.61.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6a620223-84f8-40f4-b6ba-ed6abfe4e4f2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 32|🇸🇬SG-109.123.237.41-2433
+  network: ws
+  port: 80
+  server: 109.123.237.41
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇸🇬SG-109.123.237.41-2595
+  network: ws
+  port: 80
+  server: 109.123.237.41
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /fastssh
+- alterId: 0
+  cipher: auto
+  name: 32|🇸🇬SG-15.235.192.196-2687
+  network: ws
+  port: 80
+  server: 15.235.192.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3701ded3-09ba-4154-970d-a9f4a090a382
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 32|🇸🇬SG-157.230.36.235-2688
+  network: ws
+  port: 80
+  server: 157.230.36.235
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /graphql
+- alterId: 64
+  cipher: auto
+  name: '32,40|未命名 #13'
+  network: ws
+  port: 80
+  server: 159.223.94.156
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /anti13.zingfast.vn
+- name: 32|🇸🇬SG-47.128.15.18-5067
+  password: FH72359861
+  port: 443
+  server: bold-eagle.rooster465.autos
   type: trojan
+- name: 32|🇸🇬SG-172.104.51.247-5522
+  password: affae2e0-e84b-11ec-b09f-1239d0255272
+  port: 443
+  server: trojan1.udpgw.com
+  type: trojan
+- name: 32|🇸🇬SG-18.140.67.76-5525
+  password: iyinglong
+  port: 443
+  server: 18.140.67.76
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇸🇬SG-8.219.123.35-7120
+  network: ws
+  port: 80
+  server: 8.219.123.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
+  ws-opts:
+    headers:
+      Host: ''
+    path: /2TokGE9A/
+- name: 32|🇸🇬SG-15.235.197.4-7752
+  password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
+  port: 80
+  server: 15.235.197.4
+  sni: 15.235.197.4
+  type: trojan
+- name: 32|🇸🇬SG-15.235.197.4-7754
+  password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
+  port: 80
+  server: 15.235.197.4
+  sni: getandroid.com
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 32|🇸🇬SG-118.107.46.173-7852
+  network: ws
+  port: 443
+  server: 118.107.46.173
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/080712342310

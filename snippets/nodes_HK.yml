@@ -1,163 +1,184 @@
 proxies:
-- alterId: '64'
+- name: '31,32|🇭🇰HK-43.199.210.189-1144 #1'
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 2c.fast9988.com
+  sni: www.nintendogames.net
+  type: trojan
+- name: '31,32|🇭🇰HK-185.244.208.213-0240 #1'
+  password: FH72359861
+  port: 443
+  server: natural-swan.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-185.244.208.210-0237 #1'
+  password: ND91608427
+  port: 443
+  server: upright-hamster.rooster465.autos
+  sni: upright-hamster.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-91.199.84.120-0241 #1'
+  password: ND91608427
+  port: 443
+  server: 91.199.84.120
+  sni: dynamic-grubworm.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-185.244.208.13-0238 #1'
+  password: ND91608427
+  port: 443
+  server: ace-starling.rooster465.autos
+  sni: ace-starling.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-91.199.84.120-0242 #1'
+  password: ND91608427
+  port: 443
+  server: dynamic-grubworm.rooster465.autos
+  sni: dynamic-grubworm.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-185.244.208.69-0243 #1'
+  password: AE62539071
+  port: 443
+  server: strong-haddock.rooster465.autos
+  sni: strong-haddock.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-91.199.84.155-0248 #1'
+  password: FH72359861
+  port: 443
+  server: modern-bedbug.rooster465.autos
+  sni: modern-bedbug.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-185.244.208.219-0247 #1'
+  password: AE62539071
+  port: 443
+  server: upright-bedbug.rooster465.autos
+  type: trojan
+- alterId: 0
   cipher: auto
-  name: 10,11|446_香港-857.2KB
-  network: tcp
-  port: '44659'
-  server: 156.245.8.53
-  tls: 0
-  type: vmess
-  uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79
-  ws-headers:
-    host: hax-us1-sudoxin.imnibaba.wiki
-  ws-path: /tg@sudoxin
-- alterId: '0'
-  cipher: auto
-  name: 10,11|447_香港-1.24MB
+  name: 32|🇭🇰HK-47.244.120.197-5090
   network: ws
-  port: '80'
-  server: hkt5.amazonwebservicess.com
-  tls: 0
+  port: 36703
+  server: 47.244.120.197
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 34210e77-a8e7-401c-887b-9ef81c1d6f5e
-  ws-headers:
-    host: media.amazonwebservices.com
-  ws-path: /aws-china-media/Y699Gjx2rNw.mp4
-- alterId: '64'
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
   cipher: auto
-  name: 10,11|455_香港-3.10MB
-  network: tcp
-  port: '40519'
-  server: 156.245.8.66
-  tls: 0
-  type: vmess
-  uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52
-  ws-headers:
-    host: ''
-  ws-path: /
-- alterId: '64'
-  cipher: auto
-  name: 10,11|465_香港-1.88MB
-  network: tcp
-  port: '58356'
-  server: 156.245.8.165
-  tls: 0
-  type: vmess
-  uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464
-  ws-headers:
-    host: kr-207-239.shoptunnel.live
-  ws-path: /8cda48b3
-- alterId: '2'
-  cipher: auto
-  name: 10,11|467_香港-7.30MB
+  name: 32|🇭🇰HK-47.239.189.182-0410
   network: ws
-  port: '30776'
-  server: hkthome2.iggfastweb.com
-  tls: 0
+  port: 80
+  server: ee.oppo.quest
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 9e0822c2-75ea-4d30-8895-9fe59da9935c
-  ws-headers:
-    host: images-cn.ssl-images-amazon.com
-  ws-path: /
-- alterId: '64'
+  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
+  ws-opts:
+    headers:
+      Host: ee.oppo.quest
+    path: /
+- alterId: 0
   cipher: auto
-  name: 10,11|473_香港-2.94MB
-  network: tcp
-  port: '44884'
-  server: 156.245.8.227
-  tls: 0
-  type: vmess
-  uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e
-  ws-headers:
-    host: 66.42.40.132
-  ws-path: /
-- alterId: '64'
-  cipher: auto
-  name: 10,11|486_(1)香港-355.8KB
-  network: tcp
-  port: '44111'
-  server: 156.245.8.53
-  tls: 0
-  type: vmess
-  uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79
-  ws-headers:
-    host: z61.hongkongnode.top
-  ws-path: /
-- alterId: '64'
-  cipher: auto
-  name: 11|405_香港-2.66MB
-  network: tcp
-  port: '42076'
-  server: 156.245.8.26
-  tls: 0
-  type: vmess
-  uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
-  ws-headers:
-    host: jp1117.ljydw.top
-  ws-path: /
-- alterId: '64'
-  cipher: auto
-  name: 11|407_香港-1.05MB
-  network: tcp
-  port: '53434'
-  server: 156.245.8.139
-  tls: 0
-  type: vmess
-  uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9
-  ws-headers:
-    host: us01.163453.xyz
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 11|408_香港-306.7KB
+  name: 32|🇭🇰HK-47.239.189.182-0418
   network: ws
-  port: '80'
-  server: hkt8.amazonwebservicess.com
-  tls: 0
+  port: 80
+  server: cfhk.oppo.quest
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 9d19115a-476f-40d4-b815-2bdaaa68a691
-  ws-headers:
-    host: media.amazonwebservices.com
-  ws-path: /aws-china-media/Y699Gjx2rNw.mp4
-- alterId: '64'
+  uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
+  ws-opts:
+    headers:
+      Host: scw.cloudflare.quest
+    path: /
+- alterId: 0
   cipher: auto
-  name: 11|419_香港-1.83MB
-  network: tcp
-  port: '59592'
-  server: 156.245.8.121
-  tls: 0
-  type: vmess
-  uuid: 20b30916-e203-412e-8ec0-900f3acd5128
-  ws-headers:
-    host: ''
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 11|420_香港-4.49MB
+  name: 32|🇭🇰HK-43.100.32.4-0490
   network: ws
-  port: '8080'
-  server: 20.2.80.106
-  tls: 0
+  port: 443
+  server: n1747624260.4u9ma.icu
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 95a17ae9-207d-4f63-b5f2-c00430bee1bb
-  ws-headers:
-    host: ''
-  ws-path: /
-- alterId: '64'
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  ws-opts:
+    headers:
+      Host: n1747624260.4u9ma.icu
+    path: /
+- alterId: 0
   cipher: auto
-  name: 11|426_香港-1.28MB
-  network: tcp
-  port: '38930'
-  server: 156.245.8.246
-  tls: 0
+  name: 32|🇭🇰HK-207.46.147.148-0714
+  network: ws
+  port: 443
+  server: fullaccesstohongkongnet.azurewebsites.net
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
-  ws-headers:
-    host: vc-fi1.imnibaba.wiki
-  ws-path: /tg@sudoxin
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstohongkongnet.azurewebsites.net
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: 32|🇭🇰HK-8.210.206.163-0757
+  network: http
+  port: 45719
+  server: 8.210.206.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a220dad2-a34e-4460-b0f7-eaba9c46e639
+- alterId: 0
+  cipher: auto
+  name: 32|🇭🇰HK-47.239.208.160-0885
+  network: ws
+  port: 443
+  server: drbkg16egf3fzlm3.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+    path: /ws-vmess
+- name: 32|🇭🇰HK-20.187.85.198-4523
+  password: b26e31e5-eac1-45b0-9069-83830bd69521
+  port: 443
+  server: 20.187.85.198
+  sni: hkt.iamnotagoodman.com
+  type: trojan
+- name: 32|🇭🇰HK-185.244.208.25-5024
+  password: IL37892054
+  port: 443
+  server: just-alpaca.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇭🇰HK-47.244.120.197-5089
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- name: 32|🇭🇰HK-219.76.13.181-6812
+  password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
+  port: 443
+  server: 219.76.13.181
+  sni: arbettp.freetrade.link
+  type: trojan
 - alterId: 2
   cipher: auto
-  name: 32,37|香港|@ripaojiedian
+  name: 34,39|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -165,191 +186,26 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '32|🇺🇸 US美国(mibei77.com 米贝节点分享) #18'
-  password: humanity
-  port: 443
-  server: 104.17.177.143
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '32|🇺🇸 US美国(mibei77.com 米贝节点分享) #47'
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #108'
   password: humanity
   port: 443
   server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #23'
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #97'
   password: humanity
   port: 443
-  server: 8.6.112.0
+  server: 104.18.152.210
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #21'
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #28'
-  password: humanity
-  port: 443
-  server: 104.18.152.207
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '32|🇭🇰 HK香港(mibei77.com 米贝节点分享) #11'
-  password: humanity
-  port: 443
-  server: 104.18.152.152
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #26'
-  password: humanity
-  port: 443
-  server: 104.18.152.77
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '32|🇺🇸 US美国(mibei77.com 米贝节点分享) #50'
-  password: humanity
-  port: 443
-  server: 104.16.174.14
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #29'
-  password: humanity
-  port: 443
-  server: 86.38.214.205
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: 34|V1-香港01∣K1线路∣
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 21135
-  server: 219.135.231.205
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 34|V1-香港04∣K4线路∣
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 21061
-  server: 219.135.231.205
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 34|V1-香港05∣K10线路∣
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 21386
-  server: 219.135.231.205
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
-  name: '36|🇭🇰 香港|@ripaojiedian #1'
+  name: '38|🇭🇰 香港|@ripaojiedian #1'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 38|🇭🇰HK-47.76.35.246-0787
-  network: ws
-  port: 24101
-  server: 47.76.35.246
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 38|香港1|@ripaojiedian
-  network: tcp
-  port: '54402'
-  server: 120.233.43.20
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '38|香港|@ripaojiedian #1'
-  network: tcp
-  port: '41492'
-  server: 120.232.242.126
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 38|香港2|@ripaojiedian
-  network: tcp
-  port: '44805'
-  server: hkjcdn03.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1528295e-c497-43ac-a08d-c040662b9344
-- name: "38|TG频道:@hkaa0▓香港\r"
-  network: tcp
-  password: 6685b4eb-aa84-454a-8049-5f5d39f0d9a0
-  port: 7004
-  server: dx.xxmd.online
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '38|香港5|@ripaojiedian #1'
-  network: ws
-  port: '26925'
-  server: 38.207.164.31
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 38|🇭🇰HK-182.16.1.194-8978
-  network: ws
-  port: 80
-  server: hrgdvpn.flycdnedc55.vip
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: hrgdvpn.flycdnedc55.vip
-    path: /opt/video/images
-- name: 39|HK_speednode_0012
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.3.11
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 39|HK_speednode_0013
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.3.11
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
