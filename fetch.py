@@ -20,6 +20,8 @@ import datetime
 import traceback
 import binascii
 import threading
+import socket
+import concurrent.futures
 import sys
 import os
 import copy
@@ -107,6 +109,11 @@ DEBUG_NO_DYNAMIC = os.path.exists("local_NO_DYNAMIC")
 DEBUG_NO_ADBLOCK = os.path.exists("local_NO_ADBLOCK")
 
 STOP = False
+# 节点存活预检：写出订阅前对每个 (server, port) 做 TCP 连通测试，剔除端口不可达的死节点
+# 本地调试可创建 local_NO_PRECHECK 文件关闭
+PRECHECK = not os.path.exists("local_NO_PRECHECK")
+PRECHECK_TIMEOUT = 2.5   # 单地址超时（秒）
+PRECHECK_WORKERS = 150   # 并发线程数
 STOP_FAKE_NODES = """vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NUU4Nlx1Nzk1RFx1NEU5QVx1NTFBQ1x1NEYxQVx1ODBEQ1x1NTIyOVx1NTNFQ1x1NUYwMCIsDQogICJhZGQiOiAid2ViLjUxLmxhIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogIjg4ODg4ODg4LTg4ODgtODg4OC04ODg4LTg4ODg4ODg4ODg4OCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAiaHR0cCIsDQogICJob3N0IjogIndlYi41MS5sYSIsDQogICJwYXRoIjogIi9pbWFnZXMvaW5kZXgvc2VydmljZS1waWMucG5nIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NjU0Rlx1NjExRlx1NjVGNlx1NjcxRlx1RkYwQ1x1NjZGNFx1NjVCMFx1NjY4Mlx1NTA1QyIsDQogICJhZGQiOiAid2ViLjUxLmxhIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImM2ZTg0MDcyLTJlNjktNDkyOC05MGFmLTQzNmIzZmNkMDY2MyIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAiaHR0cCIsDQogICJob3N0IjogIndlYi41MS5sYSIsDQogICJwYXRoIjogIi9pbWFnZXMvaW5kZXgvc2VydmljZS1waWMucG5nIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NTk4Mlx1NjcwOVx1OTcwMFx1ODk4MVx1RkYwQ1x1ODFFQVx1ODg0Q1x1NjQyRFx1NUVGQSIsDQogICJhZGQiOiAid2ViLjUxLmxhIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImUwYzZiM2I3LTlmNWItNGJkNi05YWJmLTI2MDY2M2FhNGYxYiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAiaHR0cCIsDQogICJob3N0IjogIndlYi41MS5sYSIsDQogICJwYXRoIjogIi9pbWFnZXMvaW5kZXgvc2VydmljZS1waWMucG5nIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
@@ -952,6 +959,46 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
 
     print(f"共有 {len(rules)} 条规则")
 
+def precheck_alive(timeout: float = PRECHECK_TIMEOUT, workers: int = PRECHECK_WORKERS) -> int:
+    """节点存活预检：对去重后的 (server, port) 地址做 TCP 连通测试，从 merged 中剔除端口不可达的死节点。
+    GitHub Actions（海外 runner）与本地均可运行；本地创建 local_NO_PRECHECK 文件可关闭。
+    安全阈值：若单轮剔除比例超过 85%，视为当前网络异常，放弃剔除。返回剔除的节点数。"""
+    global merged
+    addrs: Dict[Tuple[str, int], List[int]] = {}
+    for hashn, n in merged.items():
+        d = n.data
+        host, port = d.get('server'), d.get('port')
+        if not host or not port: continue
+        try: key = (str(host), int(port))
+        except (TypeError, ValueError): continue
+        addrs.setdefault(key, []).append(hashn)
+    if not addrs: return 0
+
+    def test(addr) -> Tuple[Tuple[str, int], bool]:
+        try:
+            s = socket.create_connection(addr, timeout=timeout)
+            s.close()
+            return (addr, True)
+        except (OSError, Exception):
+            return (addr, False)
+
+    print(f"\n正在做存活预检：{len(addrs)} 个去重地址，并发 {workers}，超时 {timeout}s ...")
+    alive, dead = 0, []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
+        for addr, ok in ex.map(test, list(addrs.keys())):
+            if ok: alive += 1
+            else: dead.append(addr)
+    to_remove = [h for addr in dead for h in addrs[addr]]
+    total = len(merged)
+    if total and len(to_remove) / total > 0.85:
+        print(f"⚠ 预检死节点 {len(to_remove)}/{total} 超过 85%，疑似当前网络异常，本轮放弃剔除。")
+        return 0
+    for hashn in to_remove:
+        merged.pop(hashn, None)
+    print(f"预检完成：存活地址 {alive}，死地址 {len(dead)}，剔除死节点 {len(to_remove)} 个，剩余 {len(merged)} 个。")
+    return len(to_remove)
+
+
 def main():
     global exc_queue, merged, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
@@ -1068,6 +1115,13 @@ def main():
         merged = {}
         for nid, nd in enumerate(STOP_FAKE_NODES.splitlines()):
             merged[nid] = Node(nd)
+
+    if PRECHECK:
+        try:
+            precheck_alive()
+        except KeyboardInterrupt: raise
+        except:
+            exc_queue.append("存活预检出错（已跳过剔除）：\n"+traceback.format_exc())
 
     print("\n正在写出 V2Ray 订阅...")
     txt = ""
