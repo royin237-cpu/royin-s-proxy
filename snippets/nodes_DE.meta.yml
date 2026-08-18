@@ -1,49 +1,319 @@
 proxies:
-- name: 8|DE
-  password: a084933d-0b41-4571-ae0c-7163b8c71ed1
-  port: 2056
-  server: de.eyucdn.xyz
-  skip-cert-verify: true
-  sni: de.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: 8,9|@KAFING_2
+- name: '18,19|اا تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
   server: 181.214.99.162
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|telegram @mtmvpn '
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: CakZRUUlundefinedS
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
+- name: 18|德国
+  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+  port: 443
+  server: bel-03.node.lumixnet.com
+  sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
-- name: 9|Telegram🇩🇪V2RayyNGvpn🇩🇪
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: D0KVsHbDlj
-  port: 40460
-  server: 91.107.152.188
+- name: 18,19|🇪|DE|@wxgqlfx|182
+  password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
+  port: 8443
+  server: 194.180.188.21
   skip-cert-verify: true
-  sni: www.amd.com
+  sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: 9|Telegram🇩🇪V2RayyNGvpn
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: Z5dFAw7u6U
-  port: 40460
-  server: 91.107.152.188
+- name: '18|德国 #1'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: de.1.23.h2corp.org
   skip-cert-verify: true
-  sni: www.amd.com
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
+- name: 19|🇩🇪|DE|@wxgqlfx|22
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 19|🇩🇪|DE|@wxgqlfx|220
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: de120.mechvpn.online
+  skip-cert-verify: true
+  sni: de120.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: 19|🇩🇪|DE|@wxgqlfx|208
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: de200.mechvpn.online
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 19|🇩🇪|DE|@wxgqlfx|223
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: fr131.mechvpn.online
+  skip-cert-verify: true
+  sni: fr131.mechvpn.online
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 19|Telegram@VPNjey🇩🇪🇩🇪
+  obfs: salamander
+  obfs-password: 83v9muumcyikh5ch
+  password: TelegramVPNJey
+  port: 37003
+  server: 1.1.1.1
+  sni: de.jey.cc.cd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: '19|Telegram@VPNjey🇩🇪🇩🇪 #1'
+  obfs: salamander
+  obfs-password: 83v9muumcyikh5ch
+  password: TelegramVPNjey
+  port: 37003
+  server: 179.61.251.253
+  sni: de.jey.cc.cd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 19|🇪|DE|@wxgqlfx|213
+  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
+  port: 443
+  server: de.1.22.washing.help
+  skip-cert-verify: true
+  sni: germany1.h2corp.local
+  tls: false
+  type: hysteria2
+- name: 29|🇩🇪 FASTNET 19
+  network: ws
+  port: 8443
+  server: www.speedtest.net
+  servername: hetzner-2.access.name.ng
+  tls: true
+  type: vless
+  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
+  ws-opts:
+    headers:
+      Host: hetzner-2.access.name.ng
+    path: '%2F'
+- name: 29|🇩🇪 FASTNET 23
+  network: ws
+  port: 80
+  server: informed-location.seotoolsforyou.co.uk
+  tls: false
+  type: vless
+  uuid: 5c929ec5-5b1e-447a-950c-354c5d1ba1de
+  ws-opts:
+    path: '%2F'
+- name: 29|🇩🇪 FASTNET 22
+  network: ws
+  port: 80
+  server: dedicated-development.seotoolsforyou.co.uk
+  tls: false
+  type: vless
+  uuid: 2054405e-70ff-40a2-ae27-16b63d72390a
+  ws-opts:
+    path: '%2F'
+- name: 29|🇩🇪 FASTNET 25
+  network: ws
+  port: 80
+  server: hopeful-appointment.seotoolsforyou.co.uk
+  tls: false
+  type: vless
+  uuid: 491e4f76-42f0-43a7-a987-25072a68d5e4
+  ws-opts:
+    path: '%2F'
+- name: 29|🇩🇪 FASTNET 24
+  network: ws
+  port: 80
+  server: grumpy-building.seotoolsforyou.co.uk
+  tls: false
+  type: vless
+  uuid: 935c990a-9bcc-484b-86a2-2a402f9ad1d4
+  ws-opts:
+    path: '%2F'
+- name: 29|🇩🇪 FASTNET 29
+  network: ws
+  port: 80
+  server: elegant-corporation.seotoolsforyou.co.uk
+  tls: false
+  type: vless
+  uuid: d03d8815-a06f-408f-a62f-6c84869b96a9
+  ws-opts:
+    path: '%2F'
+- name: 29|🇩🇪 FASTNET 04
+  network: ws
+  port: 80
+  server: obedient-menu.seotoolsforyou.co.uk
+  tls: false
+  type: vless
+  uuid: 561623c8-4983-44d3-a6ef-92b803a74ee8
+  ws-opts:
+    path: '%2F'
+- name: 29|🇩🇪 FASTNET 28
+  network: ws
+  port: 80
+  server: brainy-party.seotoolsforyou.co.uk
+  tls: false
+  type: vless
+  uuid: 34797f17-09a1-400c-9f4b-275718d62a0f
+  ws-opts:
+    path: '%2F'
+- name: 29|🇩🇪 FASTNET 03
+  network: ws
+  port: 80
+  server: grounded-brother.seotoolsforyou.co.uk
+  tls: false
+  type: vless
+  uuid: 52adc6ba-b1c7-4541-a594-08fc698be640
+  ws-opts:
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪 FASTNET 06
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 175d
+  server: 136.243.79.227
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  uuid: d0a86835-954b-4c2d-9f35-584ce0e052be
+- name: 29|🇩🇪 FASTNET 05
+  network: ws
+  port: 80
+  server: deep-radio.seotoolsforyou.co.uk
+  tls: false
+  type: vless
+  uuid: 5139af95-a453-46c6-831a-a532b6b51305
+  ws-opts:
+    path: '%2F%3F%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn----%40Evay_vpn'
+- name: 29|🇩🇪 FASTNET 07
+  network: ws
+  port: 8080
+  server: 8.47.69.4
+  tls: false
+  type: vless
+  uuid: f9a8a2ae-6daa-4437-a383-db49833992d4
+  ws-opts:
+    headers:
+      Host: ewedwdewed.farcadezero.ir
+    path: '%2F'
+- name: 29|🇩🇪 FASTNET 02
+  network: ws
+  port: 80
+  server: 45.12.134.217
+  tls: false
+  type: vless
+  uuid: ed242313-b502-4a4a-97f4-336da621a837
+  ws-opts:
+    path: '%2Fvless%2F'
+- alterId: 0
+  cipher: auto
+  name: 38|🇩🇪DE-194.87.71.23-0109
+  network: ws
+  port: 23742
+  server: 194.87.71.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8706bdb-335e-4631-a2af-3052ad93b10d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wp-admin
+- alterId: 0
+  cipher: auto
+  name: 38|🇩🇪DE-130.162.47.123-9798
+  network: ws
+  port: 6854
+  server: 130.162.47.123
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b5f7e932-f730-4ad2-b425-40977b9db332
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zBLPou
+- alterId: 0
+  cipher: auto
+  name: 38|🇩🇪德国 01
+  network: ws
+  port: '2086'
+  server: cf.iepl1.me
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: deamd1.topf6.com
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 38|🇩🇪德国 02
+  network: ws
+  port: '2086'
+  server: cf.335570.xyz
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: deamd1.topf6.com
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 38|🇩🇪DE-217.160.45.31-0340
+  network: ws
+  port: 8880
+  server: 217.160.45.31
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: 38|🇩🇪_DE_德国
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.196.39.57
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: '38|🇩🇪_DE_德国 #1'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.68.139.230
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 39|DE_speednode_0001
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: testuser1

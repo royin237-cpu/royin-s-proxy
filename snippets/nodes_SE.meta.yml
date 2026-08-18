@@ -1,1 +1,50 @@
-proxies: []
+proxies:
+- name: 18|瑞典
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us54.mechvpn.online
+  sni: us54.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: 19|🇪|SE|@wxgqlfx|238
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us63.mechvpn.online
+  skip-cert-verify: true
+  sni: us63.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: 19|🇸🇪|SE|@wxgqlfx|213
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us65.mechvpn.online
+  skip-cert-verify: true
+  sni: us65.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: 29|🇸🇪 FASTNET 19
+  network: ws
+  port: 2096
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: 98FcLgVlNa.MeTaL3.oRg
+  tls: true
+  type: vless
+  uuid: a5e0c391-accd-45a7-8bb9-99ffb9b09b16
+  ws-opts:
+    headers:
+      Host: 98FcLgVlNa.MeTaL3.oRg
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 39|SE_speednode_0116
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: sBSNX3DhJSWOkqTmRHisayVLisCBQLb4JcpKzwCrvC0
+  server: 164.37.105.38
+  servername: gb.cdn.cachefleet.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3

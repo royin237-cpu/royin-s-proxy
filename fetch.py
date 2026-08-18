@@ -424,7 +424,7 @@ class Node:
     def isfake(self) -> bool:
         try:
             if 'server' not in self.data: return True
-            if '.' not in self.data['server']: return True
+            if '.' not in (self.data['server'] or ''): return True
             if self.data['server'] in FAKE_IPS: return True
             if int(str(self.data['port'])) < 20: return True
             for domain in FAKE_DOMAINS:
@@ -574,11 +574,19 @@ class Node:
         if 'group' in ret: del ret['group']
         if 'cipher' in ret and not ret['cipher']:
             ret['cipher'] = 'auto'
+        if 'fingerprint' in ret:
+            # 新版 mihomo 已把 fingerprint 更名为 client-fingerprint
+            ret.setdefault('client-fingerprint', ret['fingerprint'])
+            del ret['fingerprint']
         if self.type == 'vless' and 'flow' in ret:
             if ret['flow'].endswith('-udp443'):
                 ret['flow'] = ret['flow'][:-7]
             elif ret['flow'].endswith('!'):
                 ret['flow'] = ret['flow'][:-1]
+        if 'reality-opts' in ret and not ret.get('tls'):
+            ret['tls'] = True # REALITY 必须启用 TLS，部分上游订阅漏写该字段
+        if self.type == 'hysteria2' and ret.get('obfs') in (None, '', 'none'):
+            ret.pop('obfs', None) # obfs 为 none 视为不启用，避免 mihomo 报 missing obfs password
         if 'alpn' in ret and isinstance(ret['alpn'], str):
             # 'alpn' is not a slice
             ret['alpn'] = ret['alpn'].replace(' ','').split(',')
@@ -596,8 +604,8 @@ class Node:
         if 'network' in self.data and self.data['network'] in ('h2','grpc'):
             # A quick fix for #2
             self.data['tls'] = True
-        if 'cipher' not in self.data: return True
-        if not self.data['cipher']: return True
+        if 'cipher' not in self.data: return False # 新版 mihomo 要求显式 cipher，缺失则丢弃节点
+        if not self.data['cipher']: return False
         if self.data['cipher'] not in supported: return False
         try:
             if self.type == 'ssr':
@@ -605,6 +613,8 @@ class Node:
                     return False
                 if 'protocol' in self.data and self.data['protocol'] not in CLASH_SSR_PROTOCOL:
                     return False
+                if self.data.get('obfs', 'plain') != 'plain' and not self.data.get('obfs-password'):
+                    return False # 新版 mihomo 要求 obfs 必须带 password
             if 'plugin-opts' in self.data and 'mode' in self.data['plugin-opts'] \
                     and not self.data['plugin-opts']['mode']: return False
         except Exception:
@@ -1184,8 +1194,8 @@ def main():
             if p.supports_clash():
                 proxies.append(p.clash_data)
                 names_clash.add(p.data['name'])
-    names_clash = list(names_clash)
-    names_clash_meta = list(names_clash_meta)
+    names_clash = list(names_clash) or ['DIRECT'] # 0 节点时兜底，避免空 proxies 导致 mihomo 校验失败
+    names_clash_meta = list(names_clash_meta) or ['DIRECT']
     conf_meta = copy.deepcopy(conf)
 
     # Clash

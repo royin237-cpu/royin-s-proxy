@@ -1,30 +1,207 @@
 proxies:
-- name: 13|GB_speednode_0005
-  network: ws
-  password: MITIVPN
+- name: 15,19|🇫🇮|FI|@wxgqlfx|217
+  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
   port: 443
-  server: 164.38.155.135
-  skip-cert-verify: false
-  sni: 95r.ir
+  server: fast.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: fast.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- name: 19||GB|@wxgqlfx|19
+  password: 725bc0b69e720cd5a2cd209252507c6e
+  port: 50160
+  server: 94-229-64-108.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 94-229-64-108.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- name: 21|英国 001
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.177.201.76
+  skip-cert-verify: true
   type: trojan
   udp: true
+- name: 29|🇬🇧 FASTNET 17
+  network: tcp
+  port: 8444
+  server: 185.243.49.205
+  tls: false
+  type: vless
+  uuid: ac083fa9-df9a-4722-b70d-24c17bef0516
   ws-opts:
     headers:
-      Host: 95r.ir
-    path: /MiTiVPN=De
-- name: 13|GB_speednode_0006
-  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+      Host: speedtest.net
+- name: 29|🇬🇧 FASTNET 10
+  network: ws
+  port: 8443
+  server: www.speedtest.net
+  servername: lease-11.access.name.ng
+  tls: true
+  type: vless
+  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
+  ws-opts:
+    headers:
+      Host: lease-11.access.name.ng
+    path: '%2F'
+- name: 32|🇬🇧_GB_英国
+  password: fg20mtCFHy
+  port: 5624
+  server: 104.248.167.79
+  skip-cert-verify: true
+  sni: dsgvc.southbyte.xyz
+  type: trojan
+- name: 34|V2-英国03∣K71线路∣
+  password: 7daf833c-37b9-4afc-8495-96590f03f781
+  port: 20820
+  server: 120.232.217.96
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 38|🇬🇧+GB+英国+3
+  network: ws
+  port: 8443
+  server: 194.36.55.198
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- alterId: 0
+  cipher: auto
+  name: 38|🇬🇧 United Kingdom 01 @nodpai
+  network: ws
+  port: '443'
+  server: 172.99.190.109
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: linkvws
+- name: 38|🇬🇧+GB+英国+76
+  network: ws
+  port: 8443
+  server: 94.247.142.245
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 38|🇬🇧+GB+英国+4
+  network: ws
+  port: 2096
+  server: 31.22.116.134
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 38|🇬🇧+GB+英国+13
+  network: ws
+  port: 2096
+  server: 94.247.142.245
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 38|🇬🇧+GB+英国+68
+  network: ws
+  port: 2096
+  server: 91.193.58.98
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 39|GB_speednode_0003
+  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443
-  server: 663a898a-t9zts0-tatrrz-yjq0.uk.oshuawei.com
+  server: aa254e35-t9zts0-tb592v-4lg6.uk.oshuawei.com
   tls: true
   type: http
   udp: true
-  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 13|GB_speednode_0007
-  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+- name: 39|GB_speednode_0004
+  password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
   port: 443
-  server: 48997541-t9zts0-tan99f-1rdqg.uk.oshuawei.com
+  server: 73721193-tcxds0-tvgkxc-hrtf.uk.oshuawei.com
   tls: true
   type: http
   udp: true
-  username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  username: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+- name: 39|GB_speednode_0005
+  password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
+  port: 443
+  server: 0bfaae1c-t9zts0-tlm64c-xm0q.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 3437f34e-1b77-11eb-8684-f23c913c8d2b
+- name: 39|GB_speednode_0006
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 443
+  server: 686ce217-t9zts0-ta5nd4-e06r.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- name: 39|GB_speednode_0007
+  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  port: 443
+  server: 9035056e-t9zts0-tcmken-19les.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+- name: 39|GB_speednode_0008
+  password: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  port: 443
+  server: 0b517612-t9zts0-tcq5zn-19qpt.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+- name: 39|GB_speednode_0009
+  password: a95e9198-0671-11f0-9426-f23c932f2c32
+  port: 443
+  server: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: a95e9198-0671-11f0-9426-f23c932f2c32
+- name: 39|GB_speednode_0010
+  password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+  port: 443
+  server: 650f31b8-t9zts0-tkka1f-1k25p.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+- name: 39|GB_speednode_0011
+  password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: 3051f36a-t9zts0-tr9h64-1f1f1.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9

@@ -1,14 +1,23 @@
 # AutoMergePublicNodes 项目长期约定
 
 ## 运行 fetch.py 的前提
-- **必须存在 `local_proxy.conf`**，内容为 `http://127.0.0.1:7897`（指向 Clash Verge 代理端口）。
-- 直连 GitHub raw 会超时导致 0 节点；走 7897 代理才能正常抓取。
-- Verge 实际代理端口是 **7897**（config.yml 里 `mixed-port: 7890` 只是订阅生成模板，非运行时端口）。
+- **必须存在 `local_proxy.conf`**，内容为 `http://127.0.0.1:7890`（指向 Verge 运行时 mixed-port）。
+- 2026-08 实测：**直连 GitHub raw 已可用**（curl 200），无代理也能抓到节点；代理仅提速。
+- Verge 运行时端口以 `%APPDATA%/io.github.clash-verge-rev.clash-verge-rev/verge.yaml` 的 `verge_mixed_port` 为准（当前 **7890**，旧记忆里的 7897 已过期）。
+- 内核路径：`D:\1_software\clash\clash_verge_rev\Clash Verge\verge-mihomo.exe`；校验命令：`verge-mihomo.exe -t -f <yml> -d <APPDATA 目录>`。
 - 依赖环境：项目内 `.venv/`（Python 3.13 managed），需装 PyYAML / requests / requests-file（requests-file 来自 github.com，需 github 可达）。无 venv 时先 `python -m venv .venv && pip install -r requirements.txt`。
 
 ## 配置红线（违反会导致 Verge 加载失败）
 - `config.yml` 及生成的 `list.meta.yml` / `list.yml` **不能含 `global-client-fingerprint`**：新版 mihomo 已移除顶层该字段，加载报 "global-client-fingerprint configuration is removed"。fetch.py 只读取不写回此字段，模板无则产物无。
-- 生成的订阅里 `✅ 手动选择` 等分组通过 `*id001` 锚点引用全部节点；若节点数为 0 则该锚点为空数组，Verge 报 "use or proxies missing"。
+- 生成的订阅里 `✅ 手动选择` 等分组通过 `*id001` 锚点引用全部节点；若节点数为 0 则该锚点为空数组，Verge 报 "use or proxies missing"。fetch.py 已在写出段兜底 `['DIRECT']`。
+- 新版 mihomo 校验更严，fetch.py `clash_data`/`supports_meta` 已加兜底：REALITY 必 tls=true；`fingerprint`→`client-fingerprint`；vmess/ss 缺 cipher 丢弃；hysteria2 `obfs: none` 删除；ssr obfs≠plain 且无 obfs-password 丢弃。
+- `sources.list` 行末 `#` 注释会被 fetch.py 当参数解析（`split('=',1)` 抛 ValueError），要禁用某源须整行以 `#` 开头。
+
+## Verge 订阅同步
+- Verge profiles 目录 `%APPDATA%/.../profiles/` 存**导入时副本**，非软链。
+- 本地 `list.meta.yml` 对应 `profiles/LciaAAmThknc.yaml`（uid LciaAAmThknc）；更新后需 `cp` 覆盖该文件，再在 Verge 里启用该订阅。
+- 远程订阅 `RYOSM9Zxx0dD`(yml) 走 ghproxy 拉 GitHub peasoft/NoMoreWalls 的 list.meta.yml，同步需 `git push`（gitee 镜像与 GitHub 不同步）。
+- 备用机场：SakuraCat（RnTKkRa0K1UT，无到期日）、云鸟（RVhVmnxu1gUR，2026-07 到期注意）。
 
 ## 版本与远程
 - 远程：`master/master` = 提交 `d656da0`（两个 "q" 提交代码主体一致，仅差 `.idea/`/记忆等）。
