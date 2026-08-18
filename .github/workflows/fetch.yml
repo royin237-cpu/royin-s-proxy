@@ -18,6 +18,8 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - name: 迁出代码
       uses: actions/checkout@v4
@@ -46,9 +48,7 @@ jobs:
         git add web/status.json
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
     - name: 推送更改
-      uses: ad-m/github-push-action@master
-      with:
-        branch: master
+      run: git push origin master
 
     - name: 计算要清除缓存的文件
       id: purge_urls
