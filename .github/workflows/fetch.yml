@@ -38,6 +38,9 @@ jobs:
     - name: 生成面板状态 JSON
       run: python ./gen_status.py
 
+    - name: 生成移动端轻量订阅
+      run: python ./gen_mobile.py
+
     - name: 提交更改
       run: |                 
         git config --local user.email "actions@github.com"

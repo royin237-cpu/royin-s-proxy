@@ -246,6 +246,11 @@ footer a { color: var(--accent); text-decoration: none; }
     <span class="url" id="url-v2ray">--</span>
     <button class="copy-btn" onclick="copyLink('v2ray')">复制链接</button>
   </div>
+  <div class="sub-row">
+    <span class="type-tag clash">移动版</span>
+    <span class="url" id="url-mobile">--</span>
+    <button class="copy-btn" onclick="copyLink('mobile')">复制链接</button>
+  </div>
 </div>
 
 <!-- 客户端下载 -->
@@ -332,6 +337,7 @@ async function init() {
   document.getElementById('url-meta').textContent = getSubUrl('list.meta.yml');
   document.getElementById('url-clash').textContent = getSubUrl('list.yml');
   document.getElementById('url-v2ray').textContent = getSubUrl('list.txt');
+  document.getElementById('url-mobile').textContent = getSubUrl('list.mobile.yml');
   await fetchStatus();
 }
 
@@ -375,7 +381,7 @@ async function fetchStatus() {
 
 // ── 复制链接 ──
 async function copyLink(type) {
-  const urls = { meta: 'list.meta.yml', clash: 'list.yml', v2ray: 'list.txt' };
+  const urls = { meta: 'list.meta.yml', clash: 'list.yml', v2ray: 'list.txt', mobile: 'list.mobile.yml' };
   const url = getSubUrl(urls[type]);
   try {
     await navigator.clipboard.writeText(url);

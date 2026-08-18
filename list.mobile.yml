@@ -1,0 +1,1890 @@
+# Update: 2026-08-19 07:12
+# 移动端轻量订阅：164 个存活节点（每地区最多 15 个），精简规则
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+ipv6: false
+proxies:
+- cipher: aes-256-gcm
+  name: 10,11|360_日本-2.28MB
+  password: TEzjfAYq2IjtuoS
+  port: '6679'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 10,11|361_日本-673.5KB
+  password: faBAoD54k87UJG7
+  port: '2376'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 10,11|362_日本-817.9KB
+  password: XKFKl2rULjIp74
+  port: '8008'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 10,11|363_日本-1.46MB
+  password: g5MeD6Ft3CWlJId
+  port: '5003'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 10,11|365_日本-824.8KB
+  password: Y6R9pAtvxxzmGC
+  port: '5601'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 10,11|366_日本-1.07MB
+  password: g5MeD6Ft3CWlJId
+  port: '5004'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 10,11|367_日本-952.6KB
+  password: Y6R9pAtvxxzmGC
+  port: '5000'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|369_日本-514.1KB
+  password: amazonskr05
+  port: '443'
+  server: 43.207.120.229
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|370_日本-4.55MB
+  password: amazonskr05
+  port: '443'
+  server: 43.207.205.208
+  type: ss
+- cipher: aes-256-gcm
+  name: 10,11|372_日本-3.60MB
+  password: e4FCWrgpkji3QY
+  port: '9102'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 10,11|373_日本-2.73MB
+  password: Y6R9pAtvxxzmGC
+  port: '5001'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 10,11|375_日本-2.02MB
+  password: Y6R9pAtvxxzmGC
+  port: '3306'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|376_日本-2.75MB
+  password: amazonskr05
+  port: '443'
+  server: 43.207.108.0
+  type: ss
+- cipher: aes-256-gcm
+  name: 10,11|378_日本-979.7KB
+  password: kDWvXYZoTBcGkC4
+  port: '8882'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|379_日本-780.8KB
+  password: amazonskr05
+  port: '443'
+  server: 43.206.194.235
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|199_美国-2.43MB
+  password: amazonskr05
+  port: '443'
+  server: 34.216.225.197
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|200_美国-1.90MB
+  password: amazonskr05
+  port: '443'
+  server: 35.85.218.78
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|201_美国-1.02MB
+  password: amazonskr05
+  port: '443'
+  server: 54.185.193.85
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|202_美国-4.08MB
+  password: amazonskr05
+  port: '443'
+  server: 35.88.156.76
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|203_美国-2.86MB
+  password: amazonskr05
+  port: '443'
+  server: 35.90.18.88
+  type: ss
+- cipher: aes-256-gcm
+  name: 10,11|204_美国-1.70MB
+  password: kDWvXYZoTBcGkC4
+  port: '8882'
+  server: 167.88.61.213
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|205_美国-2.76MB
+  password: amazonskr05
+  port: '443'
+  server: 35.89.133.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 10,11|206_美国-2.09MB
+  password: KixLvKzwjekG00rm
+  port: '8080'
+  server: 167.88.62.24
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|207_美国-4.21MB
+  password: amazonskr05
+  port: '443'
+  server: 34.213.92.178
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 10,11|254_美国-300.7KB
+  network: ws
+  port: '443'
+  server: woiden.739256.xyz
+  tls: 1
+  type: vmess
+  uuid: d05d144a-71a9-4720-8c4e-565257953069
+  ws-headers:
+    host: woiden.739256.xyz
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 10,11|255_美国-529.7KB
+  network: ws
+  port: '443'
+  server: eu6.739256.xyz
+  tls: 1
+  type: vmess
+  uuid: 5775d530-ab7a-455f-d841-82bdca57b9b2
+  ws-headers:
+    host: eu6.739256.xyz
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 10,11|256_美国-334.7KB
+  network: ws
+  port: '80'
+  server: 205.185.113.46
+  tls: 0
+  type: vmess
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  ws-headers:
+    host: ''
+  ws-path: /shirker
+- alterId: '0'
+  cipher: auto
+  name: 10,11|257_美国-4.02MB
+  network: ws
+  port: '443'
+  server: new3.hucloud.tk
+  tls: 1
+  type: vmess
+  uuid: 1de46722-e17a-df72-abce-57d6947efa72
+  ws-headers:
+    host: new3.hucloud.tk
+  ws-path: /fdksahjfasfvws
+- alterId: '0'
+  cipher: auto
+  name: 10,11|258_美国-3.41MB
+  network: ws
+  port: '8443'
+  server: dark100.viporg12345.info
+  tls: 1
+  type: vmess
+  uuid: 457d1938-cb62-4ce7-c13a-96b6812b9f05
+  ws-headers:
+    host: t4.l9liiii.info
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 10,11|259_美国-2.50MB
+  network: tcp
+  port: '59022'
+  server: 142.4.101.166
+  tls: 0
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    host: jp02.ckcloud.info
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 10,11|446_香港-857.2KB
+  network: tcp
+  port: '44659'
+  server: 156.245.8.53
+  tls: 0
+  type: vmess
+  uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79
+  ws-headers:
+    host: hax-us1-sudoxin.imnibaba.wiki
+  ws-path: /tg@sudoxin
+- alterId: '0'
+  cipher: auto
+  name: 10,11|447_香港-1.24MB
+  network: ws
+  port: '80'
+  server: hkt5.amazonwebservicess.com
+  tls: 0
+  type: vmess
+  uuid: 34210e77-a8e7-401c-887b-9ef81c1d6f5e
+  ws-headers:
+    host: media.amazonwebservices.com
+  ws-path: /aws-china-media/Y699Gjx2rNw.mp4
+- alterId: '64'
+  cipher: auto
+  name: 10,11|455_香港-3.10MB
+  network: tcp
+  port: '40519'
+  server: 156.245.8.66
+  tls: 0
+  type: vmess
+  uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 10,11|465_香港-1.88MB
+  network: tcp
+  port: '58356'
+  server: 156.245.8.165
+  tls: 0
+  type: vmess
+  uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464
+  ws-headers:
+    host: kr-207-239.shoptunnel.live
+  ws-path: /8cda48b3
+- alterId: '2'
+  cipher: auto
+  name: 10,11|467_香港-7.30MB
+  network: ws
+  port: '30776'
+  server: hkthome2.iggfastweb.com
+  tls: 0
+  type: vmess
+  uuid: 9e0822c2-75ea-4d30-8895-9fe59da9935c
+  ws-headers:
+    host: images-cn.ssl-images-amazon.com
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 10,11|473_香港-2.94MB
+  network: tcp
+  port: '44884'
+  server: 156.245.8.227
+  tls: 0
+  type: vmess
+  uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e
+  ws-headers:
+    host: 66.42.40.132
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 10,11|486_(1)香港-355.8KB
+  network: tcp
+  port: '44111'
+  server: 156.245.8.53
+  tls: 0
+  type: vmess
+  uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79
+  ws-headers:
+    host: z61.hongkongnode.top
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 11|405_香港-2.66MB
+  network: tcp
+  port: '42076'
+  server: 156.245.8.26
+  tls: 0
+  type: vmess
+  uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
+  ws-headers:
+    host: jp1117.ljydw.top
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 11|407_香港-1.05MB
+  network: tcp
+  port: '53434'
+  server: 156.245.8.139
+  tls: 0
+  type: vmess
+  uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9
+  ws-headers:
+    host: us01.163453.xyz
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 11|408_香港-306.7KB
+  network: ws
+  port: '80'
+  server: hkt8.amazonwebservicess.com
+  tls: 0
+  type: vmess
+  uuid: 9d19115a-476f-40d4-b815-2bdaaa68a691
+  ws-headers:
+    host: media.amazonwebservices.com
+  ws-path: /aws-china-media/Y699Gjx2rNw.mp4
+- alterId: '64'
+  cipher: auto
+  name: 11|419_香港-1.83MB
+  network: tcp
+  port: '59592'
+  server: 156.245.8.121
+  tls: 0
+  type: vmess
+  uuid: 20b30916-e203-412e-8ec0-900f3acd5128
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 11|420_香港-4.49MB
+  network: ws
+  port: '8080'
+  server: 20.2.80.106
+  tls: 0
+  type: vmess
+  uuid: 95a17ae9-207d-4f63-b5f2-c00430bee1bb
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 11|426_香港-1.28MB
+  network: tcp
+  port: '38930'
+  server: 156.245.8.246
+  tls: 0
+  type: vmess
+  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
+  ws-headers:
+    host: vc-fi1.imnibaba.wiki
+  ws-path: /tg@sudoxin
+- name: 19|🇰|HK|@wxgqlfx|222
+  password: d325f389-7bc9-4d6a-8a2b-7dd4f7ab6e9f
+  port: 443
+  server: ru.h.topbelka.ru
+  skip-cert-verify: true
+  sni: ru.h.topbelka.ru
+  tls: false
+  type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: 32,37|香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: '0'
+  cipher: auto
+  name: 10,11|460_台湾-855.3KB
+  network: tcp
+  port: '56568'
+  server: polotw1.applebench.tech
+  tls: 0
+  type: vmess
+  uuid: cc73b2fd-6a45-4690-b0ad-ddb8df4fb333
+  ws-headers:
+    host: polotw1.applebench.tech
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 10,11|461_台湾-1.44MB
+  network: http
+  port: '20715'
+  server: 45.121.51.103
+  tls: 0
+  type: vmess
+  uuid: f6406b6d-5487-46da-f793-46611269a306
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 11|400_台湾-2.65MB
+  network: ws
+  port: '443'
+  server: t3.bestcloud.tk
+  tls: 1
+  type: vmess
+  uuid: 29cda0f7-b34e-417f-968e-f6bc73fb6d1d
+  ws-headers:
+    host: er3.mybestjj.com
+  ws-path: /2
+- client-fingerprint: random
+  name: 38|TG@ZDYZ2 -TW3
+  network: ws
+  port: 36633
+  server: 61.220.41.143
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: 38|🇹🇼+TW+台湾+55
+  network: ws
+  port: 36633
+  server: 61.220.41.143
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 38|🇹🇼+TW+台湾+41
+  network: ws
+  port: 30686
+  server: 211.22.240.107
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- client-fingerprint: random
+  name: 38|TG@ZDYZ2 -TW1
+  network: ws
+  port: 81
+  server: 8.210.119.191
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: 38|🇹🇼+TW+台湾+15
+  network: ws
+  port: 4443
+  server: 211.75.74.232
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- client-fingerprint: random
+  name: 38|TG@ZDYZ2 -TW2
+  network: ws
+  port: 30686
+  server: 211.22.240.107
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 38|TG@ZDYZ2 -TW4
+  network: ws
+  port: 8443
+  server: 89.116.161.250
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- alterId: 0
+  cipher: auto
+  name: 38|🇹🇼台湾 01
+  network: ws
+  port: '443'
+  server: cf.335570.xyz
+  servername: tw.appleid.bf
+  tls: true
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: tw.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 38|🇹🇼TW-103.159.206.35-0342
+  network: ws
+  port: 31945
+  server: 103.159.206.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- client-fingerprint: random
+  name: 38|TG@ZDYZ2 -TW5
+  network: ws
+  port: 22750
+  server: 220.133.227.253
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- alterId: 0
+  cipher: auto
+  name: 38|🇹🇼台湾 02
+  network: ws
+  port: '13080'
+  server: 182.160.14.145
+  servername: tw.appleid.bf
+  tls: true
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: tw.appleid.bf
+    path: /ws?ed=2048
+- cipher: aes-256-cfb
+  name: 10,11|355_新加坡-1.87MB
+  password: amazonskr05
+  port: '443'
+  server: 18.141.158.14
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|356_新加坡-2.07MB
+  password: amazonskr05
+  port: '443'
+  server: 18.141.175.224
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|357_新加坡-409.3KB
+  password: amazonskr05
+  port: '443'
+  server: 54.254.196.84
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|358_新加坡-727.7KB
+  password: amazonskr05
+  port: '443'
+  server: 18.143.178.158
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|364_新加坡-2.54MB
+  password: amazonskr05
+  port: '443'
+  server: 54.255.207.137
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|368_新加坡-3.53MB
+  password: amazonskr05
+  port: '443'
+  server: 13.214.212.27
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|371_新加坡-1.43MB
+  password: amazonskr05
+  port: '443'
+  server: 13.212.61.111
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|377_新加坡-2.62MB
+  password: amazonskr05
+  port: '443'
+  server: 13.214.212.14
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|386_新加坡-1.98MB
+  password: amazonskr05
+  port: '443'
+  server: 13.212.139.93
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|387_新加坡-490.5KB
+  password: amazonskr05
+  port: '443'
+  server: 54.179.174.15
+  type: ss
+- cipher: aes-256-cfb
+  name: 10,11|391_新加坡-3.72MB
+  password: amazonskr05
+  port: '443'
+  server: 52.74.60.152
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 10,11|472_新加坡-687.2KB
+  network: ws
+  port: '8080'
+  server: 103.83.157.182
+  tls: 0
+  type: vmess
+  uuid: 5d667691-c393-4de9-8962-9bea18bfca9e
+  ws-headers:
+    host: shoutingtoutiao3.10010.com
+  ws-path: /images
+- alterId: '0'
+  cipher: auto
+  name: 10,11|476_新加坡-1.77MB
+  network: ws
+  port: '80'
+  server: 103.83.157.182
+  tls: 0
+  type: vmess
+  uuid: e8a7439c-9f91-4520-9faa-ae2ddf99d752
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 10,11|477_新加坡-2.42MB
+  network: ws
+  port: '80'
+  server: 178.128.209.143
+  tls: 0
+  type: vmess
+  uuid: a740cddf-bda7-4b58-8eda-35bece740b6e
+  ws-headers:
+    host: ''
+  ws-path: /anti13.zingfast.vn
+- cipher: aes-256-cfb
+  name: 11|352_新加坡-255.1KB
+  password: amazonskr05
+  port: '443'
+  server: 13.215.177.64
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 10,11|489_韩国-395.9KB
+  network: tcp
+  port: '53140'
+  server: sr.v2ssr.xyz
+  tls: 0
+  type: vmess
+  uuid: d4d60924-e920-4fb7-abd6-aa78ade5b3a9
+  ws-headers:
+    host: sr.v2ssr.xyz
+  ws-path: /
+- name: 18,19|🇰🇷|KR|@wxgqlfx|24
+  password: dfb54e674104158210fdfcac45e5679d
+  port: 50160
+  server: 193.122.104.200
+  skip-cert-verify: true
+  sni: 193-122-104-200.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- name: 19|🇷|KR|@wxgqlfx|23
+  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+  port: 50160
+  server: 152.67.200.82
+  skip-cert-verify: true
+  sni: 152-67-200-82.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- name: 32|🇰🇷_KR_韩国
+  password: PQ05174892
+  port: 443
+  server: awake-redbird.rooster465.autos
+  skip-cert-verify: true
+  sni: awake-redbird.rooster465.autos
+  type: trojan
+- name: 34|V2-韩国03∣K16线路∣
+  password: 7daf833c-37b9-4afc-8495-96590f03f781
+  port: 21017
+  server: 120.232.217.96
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 38|🇰🇷+KR+韩国+44
+  network: ws
+  port: 18888
+  server: 112.168.91.60
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- alterId: 0
+  cipher: auto
+  name: 38|🇰🇷KR-152.67.218.38-0746
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    headers:
+      Host: 152.67.218.38
+    path: /
+- name: 38|🇰🇷+KR+韩国+53
+  network: ws
+  port: 20010
+  server: 129.154.222.116
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 38|🇰🇷+KR+韩国+46
+  network: ws
+  port: 10082
+  server: 14.52.249.135
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 38|🇰🇷+KR+韩国+39
+  network: ws
+  port: 10548
+  server: 211.52.190.145
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 38|🇰🇷+KR+韩国+22
+  network: ws
+  port: 8443
+  server: 20.249.83.244
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- alterId: 0
+  cipher: auto
+  name: 38|🇰🇷韩国 01
+  network: ws
+  port: '2086'
+  server: cf.iepl1.me
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: krcc1.topf6.com
+    path: /ws?ed=2048
+- client-fingerprint: random
+  name: 38|TG@ZDYZ2 -KR1
+  network: ws
+  port: 44699
+  server: 129.154.212.181
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- alterId: 0
+  cipher: auto
+  name: 38|🇰🇷KR-152.67.218.38-0747
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- client-fingerprint: random
+  name: 38|TG@ZDYZ2 -KR5
+  network: ws
+  port: 443
+  server: 129.154.198.48
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
+    short-id: f63805c3ecc7a483
+  server: 195.184.247.222
+  servername: savesafe.co
+  tls: true
+  type: vless
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+- name: 19||GB|@wxgqlfx|19
+  password: 725bc0b69e720cd5a2cd209252507c6e
+  port: 50160
+  server: 94-229-64-108.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 94-229-64-108.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- name: 21|英国 001
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.177.201.76
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 29|🇬🇧 FASTNET 17
+  network: tcp
+  port: 8444
+  server: 185.243.49.205
+  tls: false
+  type: vless
+  uuid: ac083fa9-df9a-4722-b70d-24c17bef0516
+  ws-opts:
+    headers:
+      Host: speedtest.net
+- name: 29|🇬🇧 FASTNET 10
+  network: ws
+  port: 8443
+  server: www.speedtest.net
+  servername: lease-11.access.name.ng
+  tls: true
+  type: vless
+  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
+  ws-opts:
+    headers:
+      Host: lease-11.access.name.ng
+    path: '%2F'
+- name: 32|🇬🇧_GB_英国
+  password: fg20mtCFHy
+  port: 5624
+  server: 104.248.167.79
+  skip-cert-verify: true
+  sni: dsgvc.southbyte.xyz
+  type: trojan
+- name: 34|V2-英国03∣K71线路∣
+  password: 7daf833c-37b9-4afc-8495-96590f03f781
+  port: 20820
+  server: 120.232.217.96
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 38|🇬🇧+GB+英国+3
+  network: ws
+  port: 8443
+  server: 194.36.55.198
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- alterId: 0
+  cipher: auto
+  name: 38|🇬🇧 United Kingdom 01 @nodpai
+  network: ws
+  port: '443'
+  server: 172.99.190.109
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: linkvws
+- name: 38|🇬🇧+GB+英国+76
+  network: ws
+  port: 8443
+  server: 94.247.142.245
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 38|🇬🇧+GB+英国+4
+  network: ws
+  port: 2096
+  server: 31.22.116.134
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 38|🇬🇧+GB+英国+13
+  network: ws
+  port: 2096
+  server: 94.247.142.245
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 38|🇬🇧+GB+英国+68
+  network: ws
+  port: 2096
+  server: 91.193.58.98
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 39|GB_speednode_0003
+  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+  port: 443
+  server: aa254e35-t9zts0-tb592v-4lg6.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+- name: 39|GB_speednode_0004
+  password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 73721193-tcxds0-tvgkxc-hrtf.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+- alterId: '64'
+  cipher: auto
+  name: 10,11|482_法国-883.9KB
+  network: tcp
+  port: '50002'
+  server: 54.37.192.0
+  tls: 0
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 10,11|483_法国-2.18MB
+  network: tcp
+  port: '55399'
+  server: 156.249.18.69
+  tls: 0
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    host: jp1.hnokkdf.top
+  ws-path: /kbjc/jp1
+- alterId: '64'
+  cipher: auto
+  name: 10,11|484_法国-925.1KB
+  network: tcp
+  port: '50002'
+  server: 51.195.39.19
+  tls: 0
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 11|433_法国-1023.2KB
+  network: tcp
+  port: '42399'
+  server: 156.249.18.68
+  tls: 0
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    host: us-east-1.292228.xyz
+  ws-path: /filetransfer
+- name: 18|法国
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: fr.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #1'
+  network: ws
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
+  tls: false
+  type: vmess
+  uuid: 6d27fe18-4e19-4b4e-8f47-e05a85414f0d
+  ws-opts:
+    headers:
+      Host: a7fbf12df555e5e8a99fc901525aaa76.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #2'
+  network: ws
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
+  tls: false
+  type: vmess
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  ws-opts:
+    headers:
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+    path: /
+- name: '32|🇺🇸 US美国(mibei77.com 米贝节点分享) #15'
+  password: humanity
+  port: 443
+  server: 130.250.137.171
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '32|🇭🇰 HK香港(mibei77.com 米贝节点分享) #2'
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #13'
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 32|🇪🇸 西班牙(mibei77.com 米贝节点分享)
+  password: humanity
+  port: 443
+  server: 104.18.152.133
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #18'
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #25'
+  password: humanity
+  port: 443
+  server: 104.18.152.140
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '32|🇯🇵 JP日本(mibei77.com 米贝节点分享) #3'
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #30'
+  password: humanity
+  port: 443
+  server: join-telegram-channel.tirexnet.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '18,19|اا تلگرام : Free_VPN_CH@'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 181.214.99.162
+  skip-cert-verify: false
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 18|德国
+  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+  port: 443
+  server: bel-03.node.lumixnet.com
+  sni: bel-03.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: 18,19|🇪|DE|@wxgqlfx|182
+  password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
+  port: 8443
+  server: 194.180.188.21
+  skip-cert-verify: true
+  sni: keyhop-offshore.roxa.org
+  tls: false
+  type: hysteria2
+- name: '18|德国 #1'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: de.1.23.h2corp.org
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
+- name: 19||DE|@wxgqlfx|22
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 19|🇩🇪|DE|@wxgqlfx|220
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: de120.mechvpn.online
+  skip-cert-verify: true
+  sni: de120.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: 19|🇩🇪|DE|@wxgqlfx|208
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: de200.mechvpn.online
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 19|🇩🇪|DE|@wxgqlfx|223
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: fr131.mechvpn.online
+  skip-cert-verify: true
+  sni: fr131.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: 19|🇩🇪146292 | ⚡️Telegram = t.me/S...
+  password: 81378ef7-89a1-43b5-9a9d-a04a8af25b7c
+  port: 443
+  server: fin1.apexvpn.space
+  skip-cert-verify: true
+  sni: fin1.apexvpn.space
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 19|Telegram@VPNjey🇩🇪🇩🇪
+  obfs: salamander
+  obfs-password: 83v9muumcyikh5ch
+  password: TelegramVPNJey
+  port: 37003
+  server: 1.1.1.1
+  sni: de.jey.cc.cd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: '19|Telegram@VPNjey🇩🇪🇩🇪 #1'
+  obfs: salamander
+  obfs-password: 83v9muumcyikh5ch
+  password: TelegramVPNjey
+  port: 37003
+  server: 179.61.251.253
+  sni: de.jey.cc.cd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 19|🇪|DE|@wxgqlfx|213
+  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
+  port: 443
+  server: de.1.22.washing.help
+  skip-cert-verify: true
+  sni: germany1.h2corp.local
+  tls: false
+  type: hysteria2
+- name: 29|🇩🇪 FASTNET 19
+  network: ws
+  port: 8443
+  server: www.speedtest.net
+  servername: hetzner-2.access.name.ng
+  tls: true
+  type: vless
+  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
+  ws-opts:
+    headers:
+      Host: hetzner-2.access.name.ng
+    path: '%2F'
+- name: 29|🇩🇪 FASTNET 23
+  network: ws
+  port: 80
+  server: informed-location.seotoolsforyou.co.uk
+  tls: false
+  type: vless
+  uuid: 5c929ec5-5b1e-447a-950c-354c5d1ba1de
+  ws-opts:
+    path: '%2F'
+- name: 29|🇩🇪 FASTNET 22
+  network: ws
+  port: 80
+  server: dedicated-development.seotoolsforyou.co.uk
+  tls: false
+  type: vless
+  uuid: 2054405e-70ff-40a2-ae27-16b63d72390a
+  ws-opts:
+    path: '%2F'
+- name: 21|加拿大 001
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 52.60.59.39
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: '32|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #1'
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 38|🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: 108.181.23.161
+  tls: false
+  type: vmess
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /1IKYjV0r/
+- alterId: 0
+  cipher: auto
+  name: '38|🇨🇦_CA_加拿大 #2'
+  network: ws
+  port: 8080
+  server: 23.227.39.24
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: '38|🇨🇦_CA_加拿大 #3'
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: '0'
+  cipher: auto
+  name: 10,11|490_俄罗斯联邦-4.38MB
+  network: ws
+  port: '443'
+  server: insaneguo2333.top
+  tls: 1
+  type: vmess
+  uuid: 40fd551a-0bbe-460d-b0d9-4bf4ad413b0f
+  ws-headers:
+    host: insaneguo2333.top
+  ws-path: /okoovws
+- name: 19|🇷🇺|RU|@wxgqlfx|229
+  password: 921db318-1694-4408-9cc7-c93df39f7f8e
+  port: 443
+  server: ru-i-2.monkeyisland.xyz
+  skip-cert-verify: true
+  sni: ru-i-2.monkeyisland.xyz
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 21|俄罗斯 001
+  network: ws
+  port: 33026
+  server: socks5tobefree.ydns.eu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 06053cbe-a299-4934-bca6-0707e1416dc7
+  ws-opts:
+    headers:
+      Host: socks5tobefree.ydns.eu
+    path: /dangerzone
+- name: 29|🇷🇺 FASTNET 11
+  network: ws
+  port: 8443
+  server: www.speedtest.net
+  servername: pq-2.access.name.ng
+  tls: true
+  type: vless
+  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
+  ws-opts:
+    headers:
+      Host: pq-2.access.name.ng
+    path: '%2F'
+- name: 38|🇷🇺+RU+俄罗斯联邦+11
+  network: ws
+  port: 2087
+  server: 185.176.24.140
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 18|瑞典
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us54.mechvpn.online
+  sni: us54.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: 19|🇪|SE|@wxgqlfx|238
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us63.mechvpn.online
+  skip-cert-verify: true
+  sni: us63.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: 19|🇸🇪|SE|@wxgqlfx|213
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us65.mechvpn.online
+  skip-cert-verify: true
+  sni: us65.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: 29|🇸🇪 FASTNET 19
+  network: ws
+  port: 2096
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: 98FcLgVlNa.MeTaL3.oRg
+  tls: true
+  type: vless
+  uuid: a5e0c391-accd-45a7-8bb9-99ffb9b09b16
+  ws-opts:
+    headers:
+      Host: 98FcLgVlNa.MeTaL3.oRg
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 39|SE_speednode_0116
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: sBSNX3DhJSWOkqTmRHisayVLisCBQLb4JcpKzwCrvC0
+  server: 164.37.105.38
+  servername: gb.cdn.cachefleet.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
+- cipher: chacha20-ietf-poly1305
+  name: 10,11|48_中国-7.19MB
+  password: 1529dad3-c7ff-4873-a95c-ab219a72e5de
+  port: '38878'
+  server: cm3.naichald.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 10,11|49_中国-6.45MB
+  password: e5fbb896-cf74-44f5-90ae-b3333e1d3ca0
+  port: '50013'
+  server: edge-mars.themars.top
+  type: ss
+- cipher: aes-128-gcm
+  name: 10,11|50_中国-8.86MB
+  password: 6652a517-36da-4db4-9607-326c2db9aa70
+  port: '37915'
+  server: piniajp01.abbblog.xyz
+  type: ss
+- cipher: aes-256-gcm
+  name: 10,11|51_中国-16.26MB
+  password: 286533b9-85bd-477f-8ef3-465bb3ef0e84
+  port: '40002'
+  server: gzyd.jcnode.top
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 10,11|52_中国-7.62MB
+  password: e5fbb896-cf74-44f5-90ae-b3333e1d3ca0
+  port: '50001'
+  server: edge-hncm.themars.top
+  type: ss
+- cipher: aes-128-gcm
+  name: 10,11|53_中国-12.92MB
+  password: 6652a517-36da-4db4-9607-326c2db9aa70
+  port: '37912'
+  server: piniajp01.abbblog.xyz
+  type: ss
+- cipher: aes-256-gcm
+  name: 10,11|54_中国-4.32MB
+  password: cba34466-0d02-4680-8879-22dddf17c770
+  port: '16157'
+  server: hbcu.lele233.top
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 10,11|55_中国-3.18MB
+  password: e5fbb896-cf74-44f5-90ae-b3333e1d3ca0
+  port: '50011'
+  server: edge-mars.themars.top
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 10,11|56_中国-3.73MB
+  password: e5fbb896-cf74-44f5-90ae-b3333e1d3ca0
+  port: '50004'
+  server: edge-mars.themars.top
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 10,11|57_中国-5.25MB
+  password: e5fbb896-cf74-44f5-90ae-b3333e1d3ca0
+  port: '50013'
+  server: edge-earth.themars.top
+  type: ss
+- cipher: aes-128-cfb
+  name: 10,11|58_中国-350.7KB
+  password: QazEdcTgb159@$*
+  port: '24003'
+  server: 14.29.124.168
+  type: ss
+- cipher: aes-128-cfb
+  name: 10,11|59_中国-357.6KB
+  password: QazEdcTgb159@$*
+  port: '24000'
+  server: 14.29.124.168
+  type: ss
+- cipher: aes-128-cfb
+  name: 10,11|60_中国-349.0KB
+  password: QazEdcTgb159@$*
+  port: '24004'
+  server: 14.29.124.168
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 10,11|61_中国-4.33MB
+  password: a761a0c8-9466-410f-b041-9e1e308c5f71
+  port: '17113'
+  server: shankh.772xx.cn
+  type: ss
+- cipher: aes-128-cfb
+  name: 10,11|62_中国-280.7KB
+  password: QazEdcTgb159@$*
+  port: '24006'
+  server: 14.29.124.168
+  type: ss
+proxy-groups:
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - ♻️ 自动选择
+  - 🎯 全球直连
+  - 10,11|360_日本-2.28MB
+  - 10,11|361_日本-673.5KB
+  - 10,11|362_日本-817.9KB
+  - 10,11|363_日本-1.46MB
+  - 10,11|365_日本-824.8KB
+  - 10,11|366_日本-1.07MB
+  - 10,11|367_日本-952.6KB
+  - 10,11|369_日本-514.1KB
+  - 10,11|370_日本-4.55MB
+  - 10,11|372_日本-3.60MB
+  - 10,11|373_日本-2.73MB
+  - 10,11|375_日本-2.02MB
+  - 10,11|376_日本-2.75MB
+  - 10,11|378_日本-979.7KB
+  - 10,11|379_日本-780.8KB
+  - 10,11|199_美国-2.43MB
+  - 10,11|200_美国-1.90MB
+  - 10,11|201_美国-1.02MB
+  - 10,11|202_美国-4.08MB
+  - 10,11|203_美国-2.86MB
+  - 10,11|204_美国-1.70MB
+  - 10,11|205_美国-2.76MB
+  - 10,11|206_美国-2.09MB
+  - 10,11|207_美国-4.21MB
+  - 10,11|254_美国-300.7KB
+  - 10,11|255_美国-529.7KB
+  - 10,11|256_美国-334.7KB
+  - 10,11|257_美国-4.02MB
+  - 10,11|258_美国-3.41MB
+  - 10,11|259_美国-2.50MB
+  - 10,11|446_香港-857.2KB
+  - 10,11|447_香港-1.24MB
+  - 10,11|455_香港-3.10MB
+  - 10,11|465_香港-1.88MB
+  - 10,11|467_香港-7.30MB
+  - 10,11|473_香港-2.94MB
+  - 10,11|486_(1)香港-355.8KB
+  - 11|405_香港-2.66MB
+  - 11|407_香港-1.05MB
+  - 11|408_香港-306.7KB
+  - 11|419_香港-1.83MB
+  - 11|420_香港-4.49MB
+  - 11|426_香港-1.28MB
+  - 19|🇰|HK|@wxgqlfx|222
+  - 32,37|香港|@ripaojiedian
+  - 10,11|460_台湾-855.3KB
+  - 10,11|461_台湾-1.44MB
+  - 11|400_台湾-2.65MB
+  - 38|TG@ZDYZ2 -TW3
+  - 38|🇹🇼+TW+台湾+55
+  - 38|🇹🇼+TW+台湾+41
+  - 38|TG@ZDYZ2 -TW1
+  - 38|🇹🇼+TW+台湾+15
+  - 38|TG@ZDYZ2 -TW2
+  - 38|TG@ZDYZ2 -TW4
+  - 38|🇹🇼台湾 01
+  - 38|🇹🇼TW-103.159.206.35-0342
+  - 38|TG@ZDYZ2 -TW5
+  - 38|🇹🇼台湾 02
+  - 10,11|355_新加坡-1.87MB
+  - 10,11|356_新加坡-2.07MB
+  - 10,11|357_新加坡-409.3KB
+  - 10,11|358_新加坡-727.7KB
+  - 10,11|364_新加坡-2.54MB
+  - 10,11|368_新加坡-3.53MB
+  - 10,11|371_新加坡-1.43MB
+  - 10,11|377_新加坡-2.62MB
+  - 10,11|386_新加坡-1.98MB
+  - 10,11|387_新加坡-490.5KB
+  - 10,11|391_新加坡-3.72MB
+  - 10,11|472_新加坡-687.2KB
+  - 10,11|476_新加坡-1.77MB
+  - 10,11|477_新加坡-2.42MB
+  - 11|352_新加坡-255.1KB
+  - 10,11|489_韩国-395.9KB
+  - 18,19|🇰🇷|KR|@wxgqlfx|24
+  - 19|🇷|KR|@wxgqlfx|23
+  - 32|🇰🇷_KR_韩国
+  - 34|V2-韩国03∣K16线路∣
+  - 38|🇰🇷+KR+韩国+44
+  - 38|🇰🇷KR-152.67.218.38-0746
+  - 38|🇰🇷+KR+韩国+53
+  - 38|🇰🇷+KR+韩国+46
+  - 38|🇰🇷+KR+韩国+39
+  - 38|🇰🇷+KR+韩国+22
+  - 38|🇰🇷韩国 01
+  - 38|TG@ZDYZ2 -KR1
+  - 38|🇰🇷KR-152.67.218.38-0747
+  - 38|TG@ZDYZ2 -KR5
+  - 15|英国+V2CROSS.COM
+  - 19||GB|@wxgqlfx|19
+  - 21|英国 001
+  - 29|🇬🇧 FASTNET 17
+  - 29|🇬🇧 FASTNET 10
+  - 32|🇬🇧_GB_英国
+  - 34|V2-英国03∣K71线路∣
+  - 38|🇬🇧+GB+英国+3
+  - 38|🇬🇧 United Kingdom 01 @nodpai
+  - 38|🇬🇧+GB+英国+76
+  - 38|🇬🇧+GB+英国+4
+  - 38|🇬🇧+GB+英国+13
+  - 38|🇬🇧+GB+英国+68
+  - 39|GB_speednode_0003
+  - 39|GB_speednode_0004
+  - 10,11|482_法国-883.9KB
+  - 10,11|483_法国-2.18MB
+  - 10,11|484_法国-925.1KB
+  - 11|433_法国-1023.2KB
+  - 18|法国
+  - '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #1'
+  - '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #2'
+  - '32|🇺🇸 US美国(mibei77.com 米贝节点分享) #15'
+  - '32|🇭🇰 HK香港(mibei77.com 米贝节点分享) #2'
+  - '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #13'
+  - 32|🇪🇸 西班牙(mibei77.com 米贝节点分享)
+  - '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #18'
+  - '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #25'
+  - '32|🇯🇵 JP日本(mibei77.com 米贝节点分享) #3'
+  - '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #30'
+  - '18,19|اا تلگرام : Free_VPN_CH@'
+  - 18|德国
+  - 18,19|🇪|DE|@wxgqlfx|182
+  - '18|德国 #1'
+  - 19||DE|@wxgqlfx|22
+  - 19|🇩🇪|DE|@wxgqlfx|220
+  - 19|🇩🇪|DE|@wxgqlfx|208
+  - 19|🇩🇪|DE|@wxgqlfx|223
+  - 19|🇩🇪146292 | ⚡️Telegram = t.me/S...
+  - 19|Telegram@VPNjey🇩🇪🇩🇪
+  - '19|Telegram@VPNjey🇩🇪🇩🇪 #1'
+  - 19|🇪|DE|@wxgqlfx|213
+  - 29|🇩🇪 FASTNET 19
+  - 29|🇩🇪 FASTNET 23
+  - 29|🇩🇪 FASTNET 22
+  - 21|加拿大 001
+  - '32|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #1'
+  - 38|🇨🇦_CA_加拿大
+  - '38|🇨🇦_CA_加拿大 #2'
+  - '38|🇨🇦_CA_加拿大 #3'
+  - 10,11|490_俄罗斯联邦-4.38MB
+  - 19|🇷🇺|RU|@wxgqlfx|229
+  - 21|俄罗斯 001
+  - 29|🇷🇺 FASTNET 11
+  - 38|🇷🇺+RU+俄罗斯联邦+11
+  - 18|瑞典
+  - 19|🇪|SE|@wxgqlfx|238
+  - 19|🇸🇪|SE|@wxgqlfx|213
+  - 29|🇸🇪 FASTNET 19
+  - 39|SE_speednode_0116
+  - 10,11|48_中国-7.19MB
+  - 10,11|49_中国-6.45MB
+  - 10,11|50_中国-8.86MB
+  - 10,11|51_中国-16.26MB
+  - 10,11|52_中国-7.62MB
+  - 10,11|53_中国-12.92MB
+  - 10,11|54_中国-4.32MB
+  - 10,11|55_中国-3.18MB
+  - 10,11|56_中国-3.73MB
+  - 10,11|57_中国-5.25MB
+  - 10,11|58_中国-350.7KB
+  - 10,11|59_中国-357.6KB
+  - 10,11|60_中国-349.0KB
+  - 10,11|61_中国-4.33MB
+  - 10,11|62_中国-280.7KB
+- name: ♻️ 自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 10,11|360_日本-2.28MB
+  - 10,11|361_日本-673.5KB
+  - 10,11|362_日本-817.9KB
+  - 10,11|363_日本-1.46MB
+  - 10,11|365_日本-824.8KB
+  - 10,11|366_日本-1.07MB
+  - 10,11|367_日本-952.6KB
+  - 10,11|369_日本-514.1KB
+  - 10,11|370_日本-4.55MB
+  - 10,11|372_日本-3.60MB
+  - 10,11|373_日本-2.73MB
+  - 10,11|375_日本-2.02MB
+  - 10,11|376_日本-2.75MB
+  - 10,11|378_日本-979.7KB
+  - 10,11|379_日本-780.8KB
+  - 10,11|199_美国-2.43MB
+  - 10,11|200_美国-1.90MB
+  - 10,11|201_美国-1.02MB
+  - 10,11|202_美国-4.08MB
+  - 10,11|203_美国-2.86MB
+  - 10,11|204_美国-1.70MB
+  - 10,11|205_美国-2.76MB
+  - 10,11|206_美国-2.09MB
+  - 10,11|207_美国-4.21MB
+  - 10,11|254_美国-300.7KB
+  - 10,11|255_美国-529.7KB
+  - 10,11|256_美国-334.7KB
+  - 10,11|257_美国-4.02MB
+  - 10,11|258_美国-3.41MB
+  - 10,11|259_美国-2.50MB
+  - 10,11|446_香港-857.2KB
+  - 10,11|447_香港-1.24MB
+  - 10,11|455_香港-3.10MB
+  - 10,11|465_香港-1.88MB
+  - 10,11|467_香港-7.30MB
+  - 10,11|473_香港-2.94MB
+  - 10,11|486_(1)香港-355.8KB
+  - 11|405_香港-2.66MB
+  - 11|407_香港-1.05MB
+  - 11|408_香港-306.7KB
+  - 11|419_香港-1.83MB
+  - 11|420_香港-4.49MB
+  - 11|426_香港-1.28MB
+  - 19|🇰|HK|@wxgqlfx|222
+  - 32,37|香港|@ripaojiedian
+  - 10,11|460_台湾-855.3KB
+  - 10,11|461_台湾-1.44MB
+  - 11|400_台湾-2.65MB
+  - 38|TG@ZDYZ2 -TW3
+  - 38|🇹🇼+TW+台湾+55
+  - 38|🇹🇼+TW+台湾+41
+  - 38|TG@ZDYZ2 -TW1
+  - 38|🇹🇼+TW+台湾+15
+  - 38|TG@ZDYZ2 -TW2
+  - 38|TG@ZDYZ2 -TW4
+  - 38|🇹🇼台湾 01
+  - 38|🇹🇼TW-103.159.206.35-0342
+  - 38|TG@ZDYZ2 -TW5
+  - 38|🇹🇼台湾 02
+  - 10,11|355_新加坡-1.87MB
+  - 10,11|356_新加坡-2.07MB
+  - 10,11|357_新加坡-409.3KB
+  - 10,11|358_新加坡-727.7KB
+  - 10,11|364_新加坡-2.54MB
+  - 10,11|368_新加坡-3.53MB
+  - 10,11|371_新加坡-1.43MB
+  - 10,11|377_新加坡-2.62MB
+  - 10,11|386_新加坡-1.98MB
+  - 10,11|387_新加坡-490.5KB
+  - 10,11|391_新加坡-3.72MB
+  - 10,11|472_新加坡-687.2KB
+  - 10,11|476_新加坡-1.77MB
+  - 10,11|477_新加坡-2.42MB
+  - 11|352_新加坡-255.1KB
+  - 10,11|489_韩国-395.9KB
+  - 18,19|🇰🇷|KR|@wxgqlfx|24
+  - 19|🇷|KR|@wxgqlfx|23
+  - 32|🇰🇷_KR_韩国
+  - 34|V2-韩国03∣K16线路∣
+  - 38|🇰🇷+KR+韩国+44
+  - 38|🇰🇷KR-152.67.218.38-0746
+  - 38|🇰🇷+KR+韩国+53
+  - 38|🇰🇷+KR+韩国+46
+  - 38|🇰🇷+KR+韩国+39
+  - 38|🇰🇷+KR+韩国+22
+  - 38|🇰🇷韩国 01
+  - 38|TG@ZDYZ2 -KR1
+  - 38|🇰🇷KR-152.67.218.38-0747
+  - 38|TG@ZDYZ2 -KR5
+  - 15|英国+V2CROSS.COM
+  - 19||GB|@wxgqlfx|19
+  - 21|英国 001
+  - 29|🇬🇧 FASTNET 17
+  - 29|🇬🇧 FASTNET 10
+  - 32|🇬🇧_GB_英国
+  - 34|V2-英国03∣K71线路∣
+  - 38|🇬🇧+GB+英国+3
+  - 38|🇬🇧 United Kingdom 01 @nodpai
+  - 38|🇬🇧+GB+英国+76
+  - 38|🇬🇧+GB+英国+4
+  - 38|🇬🇧+GB+英国+13
+  - 38|🇬🇧+GB+英国+68
+  - 39|GB_speednode_0003
+  - 39|GB_speednode_0004
+  - 10,11|482_法国-883.9KB
+  - 10,11|483_法国-2.18MB
+  - 10,11|484_法国-925.1KB
+  - 11|433_法国-1023.2KB
+  - 18|法国
+  - '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #1'
+  - '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #2'
+  - '32|🇺🇸 US美国(mibei77.com 米贝节点分享) #15'
+  - '32|🇭🇰 HK香港(mibei77.com 米贝节点分享) #2'
+  - '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #13'
+  - 32|🇪🇸 西班牙(mibei77.com 米贝节点分享)
+  - '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #18'
+  - '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #25'
+  - '32|🇯🇵 JP日本(mibei77.com 米贝节点分享) #3'
+  - '32|🇫🇷 FR法国(mibei77.com 米贝节点分享) #30'
+  - '18,19|اا تلگرام : Free_VPN_CH@'
+  - 18|德国
+  - 18,19|🇪|DE|@wxgqlfx|182
+  - '18|德国 #1'
+  - 19||DE|@wxgqlfx|22
+  - 19|🇩🇪|DE|@wxgqlfx|220
+  - 19|🇩🇪|DE|@wxgqlfx|208
+  - 19|🇩🇪|DE|@wxgqlfx|223
+  - 19|🇩🇪146292 | ⚡️Telegram = t.me/S...
+  - 19|Telegram@VPNjey🇩🇪🇩🇪
+  - '19|Telegram@VPNjey🇩🇪🇩🇪 #1'
+  - 19|🇪|DE|@wxgqlfx|213
+  - 29|🇩🇪 FASTNET 19
+  - 29|🇩🇪 FASTNET 23
+  - 29|🇩🇪 FASTNET 22
+  - 21|加拿大 001
+  - '32|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #1'
+  - 38|🇨🇦_CA_加拿大
+  - '38|🇨🇦_CA_加拿大 #2'
+  - '38|🇨🇦_CA_加拿大 #3'
+  - 10,11|490_俄罗斯联邦-4.38MB
+  - 19|🇷🇺|RU|@wxgqlfx|229
+  - 21|俄罗斯 001
+  - 29|🇷🇺 FASTNET 11
+  - 38|🇷🇺+RU+俄罗斯联邦+11
+  - 18|瑞典
+  - 19|🇪|SE|@wxgqlfx|238
+  - 19|🇸🇪|SE|@wxgqlfx|213
+  - 29|🇸🇪 FASTNET 19
+  - 39|SE_speednode_0116
+  - 10,11|48_中国-7.19MB
+  - 10,11|49_中国-6.45MB
+  - 10,11|50_中国-8.86MB
+  - 10,11|51_中国-16.26MB
+  - 10,11|52_中国-7.62MB
+  - 10,11|53_中国-12.92MB
+  - 10,11|54_中国-4.32MB
+  - 10,11|55_中国-3.18MB
+  - 10,11|56_中国-3.73MB
+  - 10,11|57_中国-5.25MB
+  - 10,11|58_中国-350.7KB
+  - 10,11|59_中国-357.6KB
+  - 10,11|60_中国-349.0KB
+  - 10,11|61_中国-4.33MB
+  - 10,11|62_中国-280.7KB
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🎯 全球直连
+- name: 🎯 全球直连
+  type: select
+  proxies:
+  - DIRECT
+rules:
+- DOMAIN-SUFFIX,local,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT
+- GEOIP,CN,DIRECT
+- MATCH,🐟 漏网之鱼
