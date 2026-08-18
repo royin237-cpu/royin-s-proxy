@@ -1,71 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 33|_SG_->🇺🇸_US_美国
-  network: ws
-  port: 80
-  server: 8.222.198.105
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-opts:
-    headers:
-      host: warp.chigua.tk
-    path: /
-- name: 33|_CN_国->🇺_UA_
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10845
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- name: 33|🇳_CN_中国->🇺_US_美国_1
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10837
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- name: 33|🇳_CN_中国->🇺🇸_US_美国_2
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10838
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 33|🇸_US_美国->🇳_IN_
-  network: ws
-  port: 80
-  server: mm2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: mm2.shabijichang.com
-    path: /
-- name: 33|🇨🇳_CN_中国->🇺_US_美国_3
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10850
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '38|🇺🇸_US_美国 #19'
+  name: '40|🇺🇸_US_美国 #19'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -78,7 +14,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - grpc-opts:
     grpc-service-name: lK1wclmJRbMxj4FxIzvwxUDoX
-  name: 38|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+  name: 40|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
   network: grpc
   password: 4db45bb4-dcca-4d37-a639-cb55213ee406
   port: 2096
@@ -86,16 +22,9 @@ proxies:
   skip-cert-verify: true
   sni: channel.v2bamdad.tech
   type: trojan
-- name: 38|🇬🇧_GB_英国->🇰🇿_KZ_哈萨克斯坦
-  network: tcp
-  password: c2c76420-257f-492a-b20f-6560f3bfa78d
-  port: 443
-  server: kz.mjt000.com
-  skip-cert-verify: true
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: '38|🇨🇦_CA_加拿大 #1'
+  name: '40|🇨🇦_CA_加拿大 #1'
   network: ws
   port: 8080
   server: 23.227.38.22
@@ -106,7 +35,7 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- name: '38|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1'
+- name: '40|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1'
   network: ws
   password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
   port: 443
@@ -118,7 +47,7 @@ proxies:
     path: /argox-tr
 - alterId: 0
   cipher: auto
-  name: '38|🇨🇦_CA_加拿大 #4'
+  name: '40|🇨🇦_CA_加拿大 #4'
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -129,7 +58,7 @@ proxies:
     headers:
       Host: uh-lawyers-instruments-kernel.trycloudflare.com
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- name: 38|🇺🇸_US_美国->🇩🇪_DE_德国
+- name: 40|🇺🇸_US_美国->🇩🇪_DE_德国
   network: ws
   port: 2053
   server: 172.67.204.84
@@ -141,7 +70,7 @@ proxies:
     path: /p=19
 - alterId: 0
   cipher: auto
-  name: '38|🇺🇸_US_美国->🇨🇦_CA_加拿大 #4'
+  name: '40|🇺🇸_US_美国->🇨🇦_CA_加拿大 #4'
   network: ws
   port: 8080
   server: 162.159.137.249

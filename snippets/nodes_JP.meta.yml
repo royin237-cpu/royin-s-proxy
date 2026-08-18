@@ -1,726 +1,593 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 10,11|360_日本-2.28MB
-  password: TEzjfAYq2IjtuoS
-  port: '6679'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|361_日本-673.5KB
-  password: faBAoD54k87UJG7
-  port: '2376'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|362_日本-817.9KB
-  password: XKFKl2rULjIp74
-  port: '8008'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|363_日本-1.46MB
-  password: g5MeD6Ft3CWlJId
-  port: '5003'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|365_日本-824.8KB
-  password: Y6R9pAtvxxzmGC
-  port: '5601'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|366_日本-1.07MB
-  password: g5MeD6Ft3CWlJId
-  port: '5004'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|367_日本-952.6KB
-  password: Y6R9pAtvxxzmGC
-  port: '5000'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|369_日本-514.1KB
-  password: amazonskr05
-  port: '443'
-  server: 43.207.120.229
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|370_日本-4.55MB
-  password: amazonskr05
-  port: '443'
-  server: 43.207.205.208
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|372_日本-3.60MB
-  password: e4FCWrgpkji3QY
-  port: '9102'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|373_日本-2.73MB
-  password: Y6R9pAtvxxzmGC
-  port: '5001'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|375_日本-2.02MB
-  password: Y6R9pAtvxxzmGC
-  port: '3306'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|376_日本-2.75MB
-  password: amazonskr05
-  port: '443'
-  server: 43.207.108.0
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|378_日本-979.7KB
-  password: kDWvXYZoTBcGkC4
-  port: '8882'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|379_日本-780.8KB
-  password: amazonskr05
-  port: '443'
-  server: 43.206.194.235
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|380_日本-1.52MB
-  password: PCnnH6SQSnfoS27
-  port: '8091'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|381_日本-1.43MB
-  password: RexnBgU7EV5ADxG
-  port: '7002'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|382_日本-2.12MB
-  password: zDNVedRFPQexG9v
-  port: '6379'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|383_日本-1.85MB
-  password: kDWvXYZoTBcGkC4
-  port: '8881'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|384_日本-1.89MB
-  password: KixLvKzwjekG00rm
-  port: '8000'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-cfb
-  name: 10,11|385_日本-2.19MB
-  password: amazonskr05
-  port: '443'
-  server: 54.250.243.47
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|388_日本-1.03MB
-  password: faBAoD54k87UJG7
-  port: '2375'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|389_日本-289.6KB
-  password: RexnBgU7EV5ADxG
-  port: '7001'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 10,11|390_日本-931.5KB
-  password: Y6R9pAtvxxzmGC
-  port: '8888'
-  server: 85.208.108.60
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: 10,11|463_日本-1.79MB
-  network: ws
-  port: '443'
-  server: suzhihan.eu.org
-  tls: 1
-  type: vmess
-  uuid: 0b873cff-11ab-4716-c41a-04f886135091
-  ws-headers:
-    host: suzhihan.eu.org
-  ws-path: /roewesu
-- cipher: aes-256-gcm
-  name: 11|347_日本-1.13MB
-  password: XKFKl2rULjIp74
-  port: '8009'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-cfb
-  name: 11|348_日本-350.3KB
-  password: amazonskr05
-  port: '443'
-  server: 43.207.66.114
-  type: ss
-- cipher: aes-256-gcm
-  name: 11|349_日本-1.80MB
-  password: FoOiGlkAA9yPEGP
-  port: '7306'
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-cfb
-  name: 11|350_日本-3.16MB
-  password: amazonskr05
-  port: '443'
-  server: 43.207.110.173
-  type: ss
-- cipher: aes-256-gcm
-  name: 11|351_日本-167.0KB
-  password: FoOiGlkAA9yPEGP
-  port: '7307'
-  server: 85.208.108.60
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: 11|393_日本-2.23MB
-  network: tcp
-  port: '33421'
-  server: www.kuromi.eu.org
-  tls: 0
-  type: vmess
-  uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
-  ws-headers:
-    host: holyquran18.store
-  ws-path: /current_time
-- alterId: '0'
-  cipher: auto
-  name: 11|414_日本-5.46MB
-  network: ws
-  port: '443'
-  server: jp4.microsoftjs.top
-  tls: 0
-  type: vmess
-  uuid: bfd69e87-386d-4206-903e-9c0df8a8bfcf
-  ws-headers:
-    host: jp4.microsoftjs.top
-  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-- alterId: '0'
-  cipher: auto
-  name: 11|417_日本-1.60MB
-  network: ws
-  port: '443'
-  server: jp11.microsoftjs.top
-  tls: 0
-  type: vmess
-  uuid: bfd69e87-386d-4206-903e-9c0df8a8bfcf
-  ws-headers:
-    host: jp11.microsoftjs.top
-  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-- alterId: '0'
-  cipher: auto
-  name: 11|418_日本-4.61MB
-  network: ws
-  port: '8080'
-  server: 168.138.204.253
-  tls: 0
-  type: vmess
-  uuid: 95a17ae9-207d-4f63-b5f2-c00430bee1bb
-  ws-headers:
-    host: ''
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 11|425_日本-1.65MB
-  network: ws
-  port: '80'
-  server: japam01.aws01cdn.xn--57q977p.com
-  tls: 0
-  type: vmess
-  uuid: b261a984-f165-4b2d-92ca-e75d051f1238
-  ws-headers:
-    host: japam01.aws01cdn.xn--57q977p.com
-  ws-path: /images
-- name: 18,19|🇵|JP|@wxgqlfx|15
-  password: bc751c4c5c80f17dfbc05785c368b613
-  port: 50160
-  server: 154.31.115.179
-  skip-cert-verify: true
-  sni: 154-31-115-179.liao.kdns.fr
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 21|日本 001
-  network: ws
+- name: '31,32|🇯🇵JP-54.64.255.224-0157 #1'
+  password: AE62539071
   port: 443
-  server: 92.38.178.93
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 92.38.178.93
-    path: linkvws
-- name: '32|🇯🇵 JP日本(mibei77.com 米贝节点分享) #2'
-  password: humanity
-  port: 443
-  server: 104.18.152.97
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  server: 54.64.255.224
+  sni: maximum-elk.rooster465.autos
   type: trojan
-- name: 32|🇯🇵_JP_日本
-  password: HC04361579
+- name: '31,32|🇯🇵JP-43.207.87.43-0170 #1'
+  password: FH72359861
   port: 443
-  server: driven-doberman.rooster465.autos
-  skip-cert-verify: true
-  sni: driven-doberman.rooster465.autos
+  server: casual-stallion.rooster465.autos
+  sni: casual-stallion.rooster465.autos
   type: trojan
-- name: '32|🇯🇵_JP_日本 #1'
+- name: '31,32|🇯🇵JP-52.195.225.156-0127 #1'
+  password: FH72359861
+  port: 443
+  server: many-pangolin.rooster465.autos
+  sni: many-pangolin.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-13.115.247.230-0141 #1'
+  password: PQ05174892
+  port: 443
+  server: ethical-raccoon.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-54.178.52.185-0164 #1'
+  password: FH72359861
+  port: 443
+  server: pretty-adder.rooster465.autos
+  sni: pretty-adder.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-18.177.142.108-0143 #1'
+  password: FH72359861
+  port: 443
+  server: endless-kiwi.rooster465.autos
+  sni: endless-kiwi.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-43.207.83.177-4980 #1'
+  password: FH72359861
+  port: 443
+  server: settled-camel.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-13.193.221.67-0169 #1'
+  password: AE62539071
+  port: 443
+  server: main-impala.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-3.113.21.187-0136 #1'
+  password: AE62539071
+  port: 443
+  server: awaited-lark.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-57.180.27.225-0150 #1'
+  password: ND91608427
+  port: 443
+  server: 57.180.27.225
+  sni: picked-guinea.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-54.168.208.137-0113 #1'
+  password: FH72359861
+  port: 443
+  server: communal-troll.rooster465.autos
+  sni: communal-troll.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-43.207.140.98-0111 #1'
+  password: AE62539071
+  port: 443
+  server: right-seahorse.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-57.180.27.225-0168 #1'
+  password: ND91608427
+  port: 443
+  server: picked-guinea.rooster465.autos
+  sni: picked-guinea.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-54.250.247.38-0137 #1'
+  password: AE62539071
+  port: 443
+  server: premium-weevil.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-52.195.233.147-0126 #1'
+  password: FH72359861
+  port: 443
+  server: touching-ostrich.rooster465.autos
+  sni: touching-ostrich.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-54.249.32.173-0117 #1'
+  password: AE62539071
+  port: 443
+  server: eager-camel.rooster465.autos
+  sni: eager-camel.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-3.112.238.99-0114 #1'
+  password: ND91608427
+  port: 443
+  server: stunning-mite.rooster465.autos
+  sni: stunning-mite.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-57.180.38.121-0234 #1'
+  password: FH72359861
+  port: 443
+  server: champion-panther.rooster465.autos
+  sni: champion-panther.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-43.207.171.97-0166 #1'
+  password: FH72359861
+  port: 443
+  server: noted-cougar.rooster465.autos
+  sni: noted-cougar.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-13.113.98.210-0174 #1'
+  password: PQ05174892
+  port: 443
+  server: mighty-lemming.rooster465.autos
+  sni: mighty-lemming.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-57.180.13.78-0159 #1'
+  password: ND91608427
+  port: 443
+  server: healthy-louse.rooster465.autos
+  sni: healthy-louse.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-3.112.223.141-0148 #1'
+  password: ND91608427
+  port: 443
+  server: 3.112.223.141
+  sni: internal-sunbird.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-13.114.122.131-0146 #1'
+  password: AE62539071
+  port: 443
+  server: 13.114.122.131
+  sni: whole-grub.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-13.113.71.200-0134 #1'
+  password: FH72359861
+  port: 443
+  server: trusting-elf.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-54.150.234.233-0144 #1'
+  password: FH72359861
+  port: 443
+  server: needed-gelding.rooster465.autos
+  sni: needed-gelding.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-18.178.132.111-0124 #1'
+  password: ND91608427
+  port: 443
+  server: 18.178.132.111
+  sni: devoted-heron.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-18.181.194.227-0119 #1'
+  password: ND91608427
+  port: 443
+  server: moral-buzzard.rooster465.autos
+  sni: moral-buzzard.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-18.181.164.216-0161 #1'
+  password: ND91608427
+  port: 443
+  server: upright-impala.rooster465.autos
+  sni: upright-impala.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-3.113.24.17-0130 #1'
+  password: ND91608427
+  port: 443
+  server: nearby-egret.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-52.195.215.144-0171 #1'
+  password: FH72359861
+  port: 443
+  server: great-wasp.rooster465.autos
+  sni: great-wasp.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-13.114.84.244-0116 #1'
+  password: FH72359861
+  port: 443
+  server: adapting-giraffe.rooster465.autos
+  sni: adapting-giraffe.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-54.95.128.248-0139 #1'
+  password: AE62539071
+  port: 443
+  server: 54.95.128.248
+  sni: engaged-ram.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-52.194.223.176-0112 #1'
+  password: AE62539071
+  port: 443
+  server: 52.194.223.176
+  sni: clear-heron.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-52.194.223.176-0155 #1'
+  password: AE62539071
+  port: 443
+  server: clear-heron.rooster465.autos
+  sni: clear-heron.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-18.178.132.111-0172 #1'
+  password: ND91608427
+  port: 443
+  server: devoted-heron.rooster465.autos
+  sni: devoted-heron.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-13.158.135.118-0163 #1'
+  password: AE62539071
+  port: 443
+  server: literate-cow.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-54.249.17.79-0160 #1'
+  password: FH72359861
+  port: 443
+  server: flying-swift.rooster465.autos
+  sni: flying-swift.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-3.113.24.17-0149 #1'
+  password: ND91608427
+  port: 443
+  server: 3.113.24.17
+  sni: nearby-egret.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-52.196.34.5-0140 #1'
+  password: FH72359861
+  port: 443
+  server: welcome-owl.rooster465.autos
+  sni: welcome-owl.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-13.115.230.84-0167 #1'
+  password: AE62539071
+  port: 443
+  server: polished-imp.rooster465.autos
+  sni: polished-imp.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-52.195.2.92-0120 #1'
+  password: FH72359861
+  port: 443
+  server: adapted-quetzal.rooster465.autos
+  sni: adapted-quetzal.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-57.180.13.78-0128 #1'
+  password: ND91608427
+  port: 443
+  server: 57.180.13.78
+  sni: healthy-louse.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-3.113.1.131-0121 #1'
+  password: ND91608427
+  port: 443
+  server: perfect-slug.rooster465.autos
+  sni: perfect-slug.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-52.68.175.30-0122 #1'
+  password: AE62539071
+  port: 443
+  server: 52.68.175.30
+  sni: on-roughy.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-52.68.147.250-0132 #1'
+  password: FH72359861
+  port: 443
+  server: sterling-fowl.rooster465.autos
+  sni: sterling-fowl.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-13.231.222.134-0142 #1'
+  password: AE62539071
+  port: 443
+  server: grateful-crawdad.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-18.181.194.227-0118 #1'
+  password: ND91608427
+  port: 443
+  server: 18.181.194.227
+  sni: moral-buzzard.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-18.183.135.94-0123 #1'
+  password: AE62539071
+  port: 443
+  server: central-jawfish.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-13.231.232.184-0147 #1'
+  password: ND91608427
+  port: 443
+  server: 13.231.232.184
+  sni: better-molly.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-3.112.223.141-0107 #1'
+  password: ND91608427
+  port: 443
+  server: internal-sunbird.rooster465.autos
+  sni: internal-sunbird.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-52.196.121.8-0158 #1'
+  password: ND91608427
+  port: 443
+  server: thankful-mustang.rooster465.autos
+  sni: thankful-mustang.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-3.112.238.99-0138 #1'
+  password: ND91608427
+  port: 443
+  server: 3.112.238.99
+  sni: stunning-mite.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-13.231.232.184-0165 #1'
+  password: ND91608427
+  port: 443
+  server: better-molly.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-54.249.166.162-1351 #1'
+  password: PQ05174892
+  port: 443
+  server: merry-falcon.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-18.181.164.216-0131 #1'
+  password: ND91608427
+  port: 443
+  server: 18.181.164.216
+  sni: upright-impala.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-13.230.118.96-0133 #1'
+  password: ND91608427
+  port: 443
+  server: real-werewolf.rooster465.autos
+  sni: real-werewolf.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-54.248.168.53-0162 #1'
+  password: FH72359861
+  port: 443
+  server: emerging-porpoise.rooster465.autos
+  sni: emerging-porpoise.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-18.183.164.199-0115 #1'
+  password: FH72359861
+  port: 443
+  server: helping-shark.rooster465.autos
+  sni: helping-shark.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-54.249.34.120-0129 #1'
+  password: ND91608427
+  port: 443
+  server: 54.249.34.120
+  sni: social-mutt.rooster465.autos
+  type: trojan
+- name: '31,32,34|🇯🇵_JP_日本 #1'
   password: ND91608427
   port: 443
   server: 3.112.15.214
   skip-cert-verify: true
   sni: adjusted-labrador.rooster465.autos
   type: trojan
-- name: 34|✪每日连接前点更新订阅
-  password: 0bc68743-cff8-4730-9818-9d8192ee335c
-  port: 21142
-  server: 120.232.217.96
+- name: '31,32|🇯🇵JP-35.72.13.34-0125 #1'
+  password: ND91608427
+  port: 443
+  server: casual-bee.rooster465.autos
+  sni: casual-bee.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-54.249.34.120-0151 #1'
+  password: ND91608427
+  port: 443
+  server: social-mutt.rooster465.autos
+  sni: social-mutt.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-3.112.15.214-0153 #1'
+  password: ND91608427
+  port: 443
+  server: adjusted-labrador.rooster465.autos
+  sni: adjusted-labrador.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-18.183.182.132-0104 #1'
+  password: AE62539071
+  port: 443
+  server: 18.183.182.132
+  sni: exciting-grizzly.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-13.231.237.228-0106 #1'
+  password: FH72359861
+  port: 443
+  server: classic-pug.rooster465.autos
+  sni: classic-pug.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-57.180.23.141-0109 #1'
+  password: FH72359861
+  port: 443
+  server: engaged-lionfish.rooster465.autos
+  sni: engaged-lionfish.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-13.230.97.36-0105 #1'
+  password: AE62539071
+  port: 443
+  server: known-albacore.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-18.181.175.120-0152 #1'
+  password: ND91608427
+  port: 443
+  server: sure-humpback.rooster465.autos
+  sni: sure-humpback.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-18.183.182.132-0108 #1'
+  password: AE62539071
+  port: 443
+  server: exciting-grizzly.rooster465.autos
+  sni: exciting-grizzly.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-3.113.14.127-0103 #1'
+  password: FH72359861
+  port: 443
+  server: bright-quagga.rooster465.autos
+  sni: bright-quagga.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-54.168.45.85-0110 #1'
+  password: FH72359861
+  port: 443
+  server: internal-mongoose.rooster465.autos
+  sni: internal-mongoose.rooster465.autos
+  type: trojan
+- name: '31,32|🇯🇵JP-57.180.34.69-0154 #1'
+  password: FH72359861
+  port: 443
+  server: magical-airedale.rooster465.autos
+  sni: magical-airedale.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇯🇵JP-140.83.51.161-0441
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    headers:
+      Host: jp02.a0a.xyz
+    path: /cctv13.m3u8
+- name: 32,41|JP_speednode_0014
+  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
+  port: 55682
+  server: t11.qifei.app
   skip-cert-verify: true
+  sni: t11.qifei.app
   type: trojan
   udp: true
-- name: 34|日本二 isp 解锁openai
-  password: 4ff747f4-951a-4d5b-abbf-526df9aef6b6
-  port: 21867
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  sni: bg.guangsu888.cc
+- name: 32|🇯🇵JP-18.183.82.51-0145
+  password: AE62539071
+  port: 443
+  server: sweeping-parakeet.rooster465.autos
   type: trojan
-  udp: true
-- name: 34|日本三 isp 解锁openai
-  password: a387b95a-eb73-4d6e-a9ac-da765a212e31
-  port: 21868
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  sni: bg.guangsu888.cc
+- alterId: 0
+  cipher: auto
+  name: 32|🇯🇵JP-40.74.100.129-0339
+  network: ws
+  port: 443
+  server: fullaccesstojapannetsubnode1.azurewebsites.net
+  servername: fullaccesstojapannetsubnode1.azurewebsites.net
+  tls: true
+  type: vmess
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstojapannetsubnode1.azurewebsites.net
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: 32|🇯🇵JP-52.193.100.174-0701
+  network: ws
+  port: 9111
+  server: st-1.dnspro.icu
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-1.dnspro.icu
+    path: /iso
+- alterId: 0
+  cipher: auto
+  name: 32,34|JP 🇯🇵 日本丨
+  network: ws
+  port: 36801
+  server: cindy50.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 32|🇯🇵JP-172.104.78.98-1919
+  network: ws
+  port: 443
+  server: 172.104.78.98
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: ''
+    path: /chat
+- name: 32|🇯🇵JP-18.181.193.161-2214
+  password: IQ68037294
+  port: 443
+  server: apt-midge.rooster465.autos
   type: trojan
-  udp: true
-- name: 34|日本四 isp 解锁openai
-  password: 207417f3-a512-4f00-9caf-636ec248a1ad
-  port: 21869
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  sni: bg.guangsu888.cc
+- name: 32|🇯🇵JP-133.125.55.109-2749
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.tokyometropolis.odesa.ua
   type: trojan
-  udp: true
-- name: 34|日本二 isp 解锁openai 2
-  password: 05370912-92b0-4678-a739-d80261e8de33
-  port: 21867
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  sni: bg.guangsu888.cc
+- name: 32|🇯🇵JP-133.125.55.109-2882
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.tokyometropolis.kherson.ua
   type: trojan
-  udp: true
-- name: 34|日本三 isp 解锁openai 2
-  password: 76b1251f-2198-480c-8e25-87c8f5944112
-  port: 21868
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  sni: bg.guangsu888.cc
+- name: 32|🇯🇵JP-133.125.55.109-2891
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.tokyometropolis.kharkov.ua
   type: trojan
-  udp: true
-- name: 34|日本四 isp 解锁openai 2
-  password: a7fb4fa4-2ac1-460b-90c7-50fcc196e4b4
-  port: 21869
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  sni: bg.guangsu888.cc
+- name: 32|🇯🇵JP-133.125.55.109-2958
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.tokyometropolis.ivano-frankivsk.ua
   type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT
-  password: bdfd120b-91f9-44a8-a068-3489437d3687
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
+- name: 32|🇯🇵JP-133.125.55.109-3004
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.tokyometropolis.kyiv.ua
   type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 2
-  password: e83b82ea-483c-49c7-90ef-ea9e8b3729e4
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
+- name: 32|🇯🇵JP-133.125.55.109-3031
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.tokyometropolis.chernigov.ua
   type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 3
-  password: 3eb9cd77-4416-47e7-883e-130ee9256a27
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
+- name: 32|🇯🇵JP-133.125.55.109-3140
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.tokyometropolis.odessa.ua
   type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 4
-  password: d31e98e7-12f1-4fbf-9e9c-0fb17c572031
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
+- name: 32|🇯🇵JP-133.125.55.109-3169
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.tokyometropolis.kiev.ua
   type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 5
-  password: c2b74a52-d142-4bb2-8b59-9c298e5f09f8
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
+- name: 32|🇯🇵JP-153.125.148.41-4432
+  password: 14bdba6dede262387ebdebaa706e1c90
+  port: 443
+  server: trs12.bolab.net
   type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 6
-  password: fd57cb70-6838-4184-84ec-8420a42c44aa
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
+- name: 32|🇯🇵JP-54.95.128.248-4982
+  password: IL37892054
+  port: 443
+  server: engaged-ram.rooster465.autos
   type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 7
-  password: fda582dc-76a3-4770-8092-418fe0b50266
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
+- name: 32|🇯🇵JP-13.113.150.82-5038
+  password: ZY07256934
+  port: 443
+  server: glowing-deer.rooster465.autos
   type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 8
-  password: cc36bce3-2826-49ba-ac3a-3b7f507e5d70
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
+- name: 32|🇯🇵JP-13.231.36.103-5046
+  password: IL37892054
+  port: 443
+  server: growing-tuna.rooster465.autos
   type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 9
-  password: c187f558-aef8-4110-a460-806375c42b7b
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #96'
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 10
-  password: 3b7d2d64-fcd3-4765-8001-2755d2a6dda8
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
+- name: '34|🇯🇵 JP日本(mibei77.com 米贝节点分享) #4'
+  password: HC04361579
+  port: 443
+  server: exact-sawfish.rooster465.autos
+  skip-cert-verify: false
+  sni: exact-sawfish.rooster465.autos
   type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 11
-  password: a5714ee8-d4b3-427f-9cea-133d60509491
-  port: 33345
-  server: gs.huamao888.top
+- name: 34|🇯🇵_JP_日本
+  password: HC04361579
+  port: 443
+  server: driven-doberman.rooster465.autos
   skip-cert-verify: true
-  sni: gs.huamao888.top
+  sni: driven-doberman.rooster465.autos
   type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 12
-  password: e97bd263-7bc4-46d2-ae69-50763db35ef0
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 13
-  password: e44aa65f-3bb1-4c8c-8c6e-3ab3e8d61e4c
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 14
-  password: 5eeb28a5-540b-4490-bf5e-ac3114757421
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 15
-  password: b371ab70-1b57-418f-b406-8777f859da70
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 16
-  password: b951227e-8d7f-42c7-ae2b-b5b0ddf485c5
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 17
-  password: 7ffc91ac-b746-4c13-b8a1-1a53049a9df9
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 18
-  password: 077fa363-11c7-417e-800a-d560cdd0b02f
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 19
-  password: 38c04471-5416-455c-b7e2-3d87f8569a34
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 20
-  password: 0cc4afa6-b727-42f0-b518-d1a962839986
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 21
-  password: 061bf017-a5c6-4ed4-bf68-79249d0d72ab
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 22
-  password: ff2220c3-0d26-4bc0-8e57-d96a803c410b
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 23
-  password: f46d89d4-725b-410e-aa09-2a7909bfb727
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 24
-  password: 01830511-9271-4d93-8809-461a8ac7922c
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 25
-  password: ecae5c98-38c8-4ffe-ac30-71c258daedf9
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 26
-  password: 1ed41a0d-8db3-4160-804f-25008cbfc88a
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 27
-  password: 49ce8c39-f9fb-4850-bba1-be62c25c1684
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 28
-  password: c50460ea-d715-440e-9aa3-61660d15eedc
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 29
-  password: c5298562-768b-4899-ae1c-e3197b2df3c4
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 30
-  password: 2ad7b23c-05d6-4770-a071-c8796d489286
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 31
-  password: 78c245b7-b61c-4970-b4c2-d92a173ff16a
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 32
-  password: fd62e253-4690-4e0d-973e-db5e3a35253c
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 33
-  password: 60086b1b-dfe4-4560-b0ab-d5065f44e034
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 34
-  password: 5c62a5ad-afe7-4162-893a-72ff2b8d88cc
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 35
-  password: 7fd0b1fb-4bfa-4ad5-a4f4-099c8cfceb22
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 36
-  password: 41d830e7-1618-4124-a2eb-a597149c36b0
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 37
-  password: 377c48cc-c5fc-483e-ad6d-08beaf2756d7
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 38
-  password: 20d41004-5a07-4572-82b5-28e437e182f9
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 39
-  password: 78bb6dc6-12e1-432e-bfb8-be6b1565cd53
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 40
-  password: 6def3f3d-3dce-44d2-8376-969473eac03c
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|日本02|解GPT|解NF|解TT 41
-  password: 8f16bdcc-810a-44ee-83c5-30d526f318f4
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 34|V2-日本01∣K11线路∣
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 21146
-  server: 120.232.217.96
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 34|V2-日本02∣K12线路∣
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 21125
-  server: 120.232.217.96
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 34|V2-日本03∣K73线路∣
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 16233
-  server: 120.232.217.96
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 34|V2-日本04∣K74线路∣
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 47479
-  server: 120.232.217.96
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 34|V1-日本03∣K42线路∣
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 21183
-  server: 120.232.217.96
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 34|V1-日本04∣K43线路∣
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 21015
-  server: 120.232.217.96
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 34|V1-日本05∣K44线路∣
-  password: 7daf833c-37b9-4afc-8495-96590f03f781
-  port: 21014
-  server: 120.232.217.96
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 38|🇯🇵+JP+日本+78
+- name: 40|🇯🇵+JP+日本+78
   network: ws
   port: 2053
   server: 31.12.75.140
@@ -732,69 +599,9 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: '%2f%3fed%3d2048'
-- client-fingerprint: random
-  name: 38|TG@ZDYZ2 -JP-Tokyo2
-  network: ws
-  port: 4443
-  server: 211.75.74.232
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- client-fingerprint: random
-  name: 38|TG@ZDYZ2 -JP-Tokyo4
-  network: ws
-  port: 2083
-  server: 18.183.137.85
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- name: 38|联通用日本2
-  password: af9e1b9f-3ee6-4184-a330-bb110419687a
-  port: 20000
-  server: jp.555199.xyz
-  skip-cert-verify: false
-  sni: sg.555199.xyz
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 38|🇯🇵JP-152.69.197.74-3356
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
-- name: 38|🇯🇵+JP+日本+66
-  network: ws
-  port: 443
-  server: 18.183.158.211
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
-- alterId: 0
-  cipher: auto
-  name: 38|🇯🇵日本 01
+  name: 40|🇯🇵日本 01
   network: ws
   port: '2086'
   server: linode.appleid.bf
@@ -805,124 +612,3 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /CAT
-- alterId: 0
-  cipher: auto
-  name: 38|🇯🇵日本 02
-  network: ws
-  port: '2086'
-  server: cf.335570.xyz
-  tls: false
-  type: vmess
-  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
-  ws-opts:
-    headers:
-      Host: linode.appleid.bf
-    path: /CAT
-- name: 38|🇯🇵+JP+日本+56
-  network: ws
-  port: 9002
-  server: 18.181.252.44
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
-  name: 38|TG@ZDYZ2 -JP-Tokyo1
-  network: ws
-  port: 2000
-  server: 45.66.128.216
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- name: 38|🇯🇵+JP+日本+49
-  network: ws
-  port: 2083
-  server: 18.183.137.85
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- client-fingerprint: random
-  name: 38|TG@ZDYZ2 -JP-Tokyo5
-  network: ws
-  port: 20855
-  server: 140.238.26.92
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- client-fingerprint: random
-  name: 38|TG@ZDYZ2 -JP-Tokyo3
-  network: ws
-  port: 9002
-  server: 18.181.252.44
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- name: 38|🇯🇵+JP+日本+27
-  network: ws
-  port: 443
-  server: 3.112.21.102
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
-- client-fingerprint: random
-  name: 38|TG@ZDYZ2 -JP-Tokyo6
-  network: ws
-  port: 8443
-  server: 103.232.214.11
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- name: 38|🇯🇵+JP+日本+24
-  network: ws
-  port: 2000
-  server: 45.66.128.216
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- name: 39|JP_speednode_0014
-  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
-  port: 55682
-  server: t11.qifei.app
-  skip-cert-verify: true
-  sni: t11.qifei.app
-  type: trojan
-  udp: true
