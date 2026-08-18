@@ -22,11 +22,7 @@ raw.githubusercontent.com (订阅分发)
 
 ### 1. 确保仓库已推送到 GitHub
 
-```bash
-git add gen_status.py web/dashboard.html web/status.json .github/workflows/fetch.yml
-git commit -m "feat: 纯静态部署方案（GitHub Pages）"
-git push origin master
-```
+[royin237-cpu/royin-s-proxy](https://github.com/royin237-cpu/royin-s-proxy)
 
 ### 2. 开启 GitHub Pages
 
@@ -34,16 +30,16 @@ git push origin master
 2. **Source** 选择 **Deploy from a branch**
 3. **Branch** 选择 `master`，文件夹选 `/web`
 4. 点击 **Save**
-5. 等待 1-2 分钟，访问 `https://<用户名>.github.io/AutoMergePublicNodes/`
+5. 等待 1-2 分钟，访问 `https://royin237-cpu.github.io/royin-s-proxy/`
 
 ### 3. 验证
 
-- 面板页面：`https://<用户名>.github.io/AutoMergePublicNodes/`
-- 状态 JSON：`https://<用户名>.github.io/AutoMergePublicNodes/status.json`
+- 面板页面：`https://royin237-cpu.github.io/royin-s-proxy/`
+- 状态 JSON：`https://royin237-cpu.github.io/royin-s-proxy/status.json`
 - 订阅链接（指向 raw.githubusercontent.com）：
-  - Meta: `https://raw.githubusercontent.com/<用户名>/AutoMergePublicNodes/master/list.meta.yml`
-  - Clash: `https://raw.githubusercontent.com/<用户名>/AutoMergePublicNodes/master/list.yml`
-  - V2Ray: `https://raw.githubusercontent.com/<用户名>/AutoMergePublicNodes/master/list.txt`
+  - Meta: `https://raw.githubusercontent.com/royin237-cpu/royin-s-proxy/master/list.meta.yml`
+  - Clash: `https://raw.githubusercontent.com/royin237-cpu/royin-s-proxy/master/list.yml`
+  - V2Ray: `https://raw.githubusercontent.com/royin237-cpu/royin-s-proxy/master/list.txt`
 
 ### 4. 订阅链接加速（可选）
 
@@ -58,13 +54,13 @@ function getSubUrl(filename) {
 }
 ```
 
-## 修改仓库信息
+## 仓库信息
 
-`dashboard.html` 中的 `REPO_OWNER` 和 `REPO_NAME` 变量需改为你的 GitHub 用户名和仓库名：
+`dashboard.html` 中的仓库变量已配置为当前仓库，无需修改：
 
 ```javascript
-let REPO_OWNER = '你的用户名';
-let REPO_NAME = 'AutoMergePublicNodes';
+let REPO_OWNER = 'royin237-cpu';
+let REPO_NAME = 'royin-s-proxy';
 let REPO_BRANCH = 'master';
 ```
 
