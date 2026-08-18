@@ -82,10 +82,9 @@ proxy-groups:
     proxies: []
 
   - name: 🔰 延迟最低
-    type: url-test
+    type: fallback
     url: https://www.google.com/
     interval: 300
-    tolerance: 20
     proxies: []
 
   - name: ✅ 手动选择

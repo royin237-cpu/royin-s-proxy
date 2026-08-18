@@ -91,6 +91,84 @@ categories:
     - Estonia
     - 爱沙尼亚
     - 🇪🇪
+  NL:
+    - NL
+    - Netherlands
+    - 荷兰
+    - 🇳🇱
+  RO:
+    - RO
+    - Romania
+    - 罗马尼亚
+    - 🇷🇴
+  IN:
+    - IN
+    - India
+    - 印度
+    - 🇮🇳
+  TH:
+    - TH
+    - Thailand
+    - 泰国
+    - 泰
+    - 🇹🇭
+  TR:
+    - TR
+    - Turkey
+    - 土耳其
+    - 🇹🇷
+  AU:
+    - AU
+    - Australia
+    - 澳大利亚
+    - 澳洲
+    - 🇦🇺
+  IT:
+    - IT
+    - Italy
+    - 意大利
+    - 🇮🇹
+  ES:
+    - ES
+    - Spain
+    - 西班牙
+    - 🇪🇸
+  BR:
+    - BR
+    - Brazil
+    - 巴西
+    - 🇧🇷
+  VN:
+    - VN
+    - Vietnam
+    - 越南
+    - 🇻🇳
+  ID:
+    - ID
+    - Indonesia
+    - 印尼
+    - 印度尼西亚
+    - 🇮🇩
+  PH:
+    - PH
+    - Philippines
+    - 菲律宾
+    - 🇵🇭
+  UA:
+    - UA
+    - Ukraine
+    - 乌克兰
+    - 🇺🇦
+  PL:
+    - PL
+    - Poland
+    - 波兰
+    - 🇵🇱
+  FI:
+    - FI
+    - Finland
+    - 芬兰
+    - 🇫🇮
 
 categories_disp:
   JP: 🇯🇵 日本
@@ -98,13 +176,28 @@ categories_disp:
   HK: 🇭🇰 香港
   TW: ❔ 台湾
   SG: 🇸🇬 新加坡
+  KR: 🇰🇷 韩国
   CA: 🇨🇦 加拿大
   FR: 🇫🇷 法国
   GB: 🇬🇧 英国
-  KR: 🇰🇷 韩国
   DE: 🇩🇪 德国
   CN: 🇨🇳 中国
   RU: 🇷🇺 俄罗斯
-  # SE: 🇸🇪 瑞典
-  # CH: 🇨🇭 瑞士
-  # EE: 🇪🇪 爱沙尼亚
+  SE: 🇸🇪 瑞典
+  CH: 🇨🇭 瑞士
+  EE: 🇪🇪 爱沙尼亚
+  NL: 🇳🇱 荷兰
+  RO: 🇷🇴 罗马尼亚
+  IN: 🇮🇳 印度
+  TH: 🇹🇭 泰国
+  TR: 🇹🇷 土耳其
+  AU: 🇦🇺 澳大利亚
+  IT: 🇮🇹 意大利
+  ES: 🇪🇸 西班牙
+  BR: 🇧🇷 巴西
+  VN: 🇻🇳 越南
+  ID: 🇮🇩 印尼
+  PH: 🇵🇭 菲律宾
+  UA: 🇺🇦 乌克兰
+  PL: 🇵🇱 波兰
+  FI: 🇫🇮 芬兰
