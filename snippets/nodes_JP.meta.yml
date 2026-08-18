@@ -418,20 +418,6 @@ proxies:
   server: magical-airedale.rooster465.autos
   sni: magical-airedale.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 32|🇯🇵JP-140.83.51.161-0441
-  network: ws
-  port: 25686
-  server: 140.83.51.161
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
-  ws-opts:
-    headers:
-      Host: jp02.a0a.xyz
-    path: /cctv13.m3u8
 - name: 32,41|JP_speednode_0014
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682

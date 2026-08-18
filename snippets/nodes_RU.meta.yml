@@ -1,19 +1,4 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '15|俄罗斯+V2CROSS.COM #1'
-  network: ws
-  port: 14443
-  server: 176.109.85.71
-  servername: mws.tunnelgate.org
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  ws-opts:
-    headers:
-      Host: mws.tunnelgate.org
-    path: /ru
 - name: 19|🇺|RU|@wxgqlfx|229
   password: 921db318-1694-4408-9cc7-c93df39f7f8e
   port: 443

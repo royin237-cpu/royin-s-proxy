@@ -1,0 +1,41 @@
+proxies:
+- name: 19||FI|@wxgqlfx|221
+  password: 133f76fc-a5ab-463e-b46d-9587d7137e55
+  port: 443
+  server: h2.vpnushka.lol
+  skip-cert-verify: true
+  sni: h2.vpnushka.lol
+  tls: false
+  type: hysteria2
+- name: 19|🇫🇮|FI|@wxgqlfx|217
+  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+  port: 443
+  server: fast.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: fast.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 32|🇫🇮FI-65.21.240.108-0780
+  network: http
+  port: 443
+  server: 65.21.240.108
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 32|🇫🇮FI-65.109.134.191-4335
+  network: ws
+  port: 80
+  server: 65.109.134.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 91698747-92b3-4a07-b5da-22694edbea82
+  ws-opts:
+    headers:
+      Host: ''
+    path: /graphql

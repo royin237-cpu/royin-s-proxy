@@ -79,91 +79,8 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.140
+  server: 104.16.73.213
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 15,32|🏁RELAY-104.16.174.46-1311
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.46
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- alterId: 0
-  cipher: auto
-  delay: 676
-  name: 15,21,34|🇹🇭 泰国(mibei77.com 米贝节点分享)
-  network: ws
-  port: '80'
-  server: www.true.th
-  servername: d7pu5mzr9c4b0.cloudfront.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a150d554-e962-4632-829f-ee583ada3f95
-  ws-opts:
-    headers:
-      Host: d7pu5mzr9c4b0.cloudfront.net
-    path: /htun
-- name: '15|美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.233
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 15,32|🏁RELAY-104.17.177.143-1261
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.177.143
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.22
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2F%2Fassignment'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '15|美国+CloudFlare节点 #5'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.229
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #7'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.204
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -178,12 +95,11 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #8'
+- name: 15,32|🏁RELAY-8.6.112.0-1266
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.6
-  skip-cert-verify: false
+  server: 8.6.112.0
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -193,10 +109,92 @@ proxies:
   password: humanity
   port: 443
   server: ip.myip2.qzz.io
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- name: 15,32|🏁RELAY-104.18.152.175-1139
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.15.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #5'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.14.137
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 15,32|🏁RELAY-104.18.152.219-1332
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 15,32|🏁RELAY-104.16.174.121-1277
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.121
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #8'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alterId: 0
+  cipher: auto
+  delay: 676
+  name: 21,34|🇹🇭 泰国(mibei77.com 米贝节点分享)
+  network: ws
+  port: '80'
+  server: www.true.th
+  servername: d7pu5mzr9c4b0.cloudfront.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a150d554-e962-4632-829f-ee583ada3f95
+  ws-opts:
+    headers:
+      Host: d7pu5mzr9c4b0.cloudfront.net
+    path: /htun
 - alterId: 0
   cipher: auto
   name: 21|美国 003
@@ -571,6 +569,23 @@ proxies:
     headers:
       Host: rush-w1niu.teeopp.online
     path: /
+- alterId: 0
+  cipher: auto
+  name: 21,32,34|🇫🇷 FR法国(mibei77.com 米贝节点分享)
+  network: ws
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - alterId: 0
   cipher: auto
   http-opts:
@@ -1716,13 +1731,6 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #12'
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
 - name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #10'
   password: humanity
   port: 443
@@ -2512,19 +2520,6 @@ proxies:
     headers:
       Host: championship-bidding-oxygen-brochure.trycloudflare.com
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
-- alterId: 0
-  cipher: auto
-  name: '40|🇺🇸_US_美国 #18'
-  network: ws
-  port: 443
-  server: hms082.gwdef.sbs
-  tls: true
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: gwdef.sbs
-    path: /linkws
 - alterId: 0
   cipher: auto
   name: '40|美国 CloudFlare节点 #39'

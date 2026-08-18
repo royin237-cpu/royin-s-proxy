@@ -1,5 +1,5 @@
 {
-  "total": 1808,
+  "total": 1809,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
@@ -29,7 +29,7 @@
     "CA": {
       "flag": "🇦🇨",
       "name": "加拿大",
-      "count": 12
+      "count": 11
     },
     "FR": {
       "flag": "🇫🇷",
@@ -67,8 +67,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-19 06:36",
-  "server_time": "2026-08-19 06:36:17",
+  "update_time": "2026-08-19 07:36",
+  "server_time": "2026-08-19 07:36:35",
   "sources": [
     {
       "index": 0,
@@ -168,7 +168,7 @@
     {
       "index": 19,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 117
+      "nodes": 121
     },
     {
       "index": 20,

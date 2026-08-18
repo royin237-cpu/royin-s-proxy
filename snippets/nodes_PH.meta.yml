@@ -1,0 +1,15 @@
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 21|菲律宾 001
+  network: ws
+  port: 2053
+  server: 104.105.18.214
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: deapp.jisuyun.top
+    path: /
