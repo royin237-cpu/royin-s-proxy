@@ -1,4 +1,4 @@
-# Update: 2026-08-19 15:12
+# Update: 2026-08-19 16:08
 # 移动端轻量订阅：166 个存活节点（每地区最多 15 个），精简规则
 mixed-port: 7890
 allow-lan: false
@@ -264,13 +264,6 @@ proxies:
   skip-cert-verify: true
   sni: data.steamdownload.top
   type: trojan
-- name: 13|美国+5
-  password: 414dff55-922a-4dc8-b5d3-b6517942b25a
-  port: 15005
-  server: east.eeeeeef998.buzz
-  skip-cert-verify: true
-  sni: data.steamdownload.top
-  type: trojan
 - name: 13|美国+6
   password: 414dff55-922a-4dc8-b5d3-b6517942b25a
   port: 15006
@@ -285,79 +278,101 @@ proxies:
   skip-cert-verify: true
   sni: data.steamdownload.top
   type: trojan
+- client-fingerprint: chrome
+  name: 15|美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: dx.mmhh.eu.cc
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /fp=chrome
+- name: '15|美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - alpn:
   - h3
   - h2
   - http/1.1
-  name: 15|美国+CloudFlare节点
+  name: '15|美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 15,32|🏁RELAY-104.18.152.219-0978
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.109
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 15,32|🏁RELAY-104.18.152.140-0791
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.140
+  server: 172.67.221.242
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: '15|美国+CloudFlare节点 #4'
+- alpn:
+  - http/1.1
+  name: 15|美国+加州
   network: ws
-  port: 2087
-  server: 172.64.147.104
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- client-fingerprint: chrome
+  name: '15|美国+CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: cdn.7zz.cn
+  servername: vltj.qzz.io
   tls: true
   type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: 506e4a91-1d05-5683-b84c-2113f673cb19
   ws-opts:
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
+      Host: vltj.qzz.io
+    path: /id-pusat
+- name: '15|美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.113
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
 - name: '15|美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.37
-  skip-cert-verify: true
+  server: 172.67.149.60
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- name: 15,32|🏁RELAY-104.18.152.179-0940
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '15|美国+CloudFlare节点 #6'
   network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.179
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 2086
+  server: 104.25.194.196
+  tls: false
+  type: vless
+  uuid: e3c7c198-2b02-42c2-b78f-22dfc078219c
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: uj-kn9gcgkzl0wmmy5wrkmalvhzdw62z.soltannatlos.workers.dev
+    path: /vl/3k4QnDlh2r3IPLPNFGLAeMJ5df?ed=2560
 - name: 32|🇭🇰HK-185.244.208.13-4779
   password: ND91608427
   port: 443
@@ -851,58 +866,87 @@ proxies:
     headers:
       Host: hhcm.hhxaf.cc.cd
     path: /
-- name: '31,32|🇰🇷KR-43.201.46.108-4789 #1'
-  password: ND91608427
-  port: 443
-  server: exotic-chow.rooster465.autos
-  sni: exotic-chow.rooster465.autos
-  type: trojan
-- name: '31,32|🇰🇷KR-3.35.53.46-4689 #1'
-  password: FH72359861
-  port: 443
-  server: good-hound.rooster465.autos
-  type: trojan
-- name: '31,32|🇰🇷KR-43.202.56.122-4793 #1'
-  password: ND91608427
-  port: 443
-  server: striking-maggot.rooster465.autos
-  sni: striking-maggot.rooster465.autos
-  type: trojan
-- name: '31,32|🇰🇷KR-3.36.59.34-4772 #1'
-  password: ND91608427
-  port: 443
-  server: select-ferret.rooster465.autos
-  sni: select-ferret.rooster465.autos
-  type: trojan
-- name: '31,32|🇰🇷KR-43.201.49.96-4794 #1'
+- name: '31,32|🇰🇷KR-13.125.144.78-0222 #1'
   password: AE62539071
   port: 443
-  server: firm-krill.rooster465.autos
-  sni: firm-krill.rooster465.autos
+  server: viable-serval.rooster465.autos
+  sni: viable-serval.rooster465.autos
   type: trojan
-- name: '31,32|🇰🇷KR-43.201.56.44-4795 #1'
-  password: ND91608427
-  port: 443
-  server: distinct-llama.rooster465.autos
-  sni: distinct-llama.rooster465.autos
-  type: trojan
-- name: '31,32|🇰🇷KR-43.203.119.20-4787 #1'
-  password: ND91608427
-  port: 443
-  server: 43.203.119.20
-  sni: uncommon-feline.rooster465.autos
-  type: trojan
-- name: '31,32|🇰🇷KR-13.125.71.58-0228 #1'
-  password: AE62539071
-  port: 443
-  server: capable-jay.rooster465.autos
-  sni: capable-jay.rooster465.autos
-  type: trojan
-- name: '31,32|🇰🇷KR-54.180.250.102-0238 #1'
+- name: '31,32|🇰🇷KR-43.203.206.201-0241 #1'
   password: FH72359861
   port: 443
-  server: aware-coyote.rooster465.autos
+  server: massive-ocelot.rooster465.autos
   type: trojan
+- name: 32|🇰🇷KR-43.202.61.210-0249
+  password: FH72359861
+  port: 443
+  server: 43.202.61.210
+  sni: loyal-molly.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇰🇷KR-52.231.200.179-1626
+  network: ws
+  port: 443
+  server: fullaccesstokoreannetsubnode1.azurewebsites.net
+  servername: fullaccesstokoreannetsubnode1.azurewebsites.net
+  tls: true
+  type: vmess
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstokoreannetsubnode1.azurewebsites.net
+    path: /ws
+- name: 32|🇰🇷KR-144.24.72.126-2638
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  port: 443
+  server: 144.24.72.126
+  type: trojan
+- name: 32|🇰🇷KR-3.34.6.217-3697
+  password: xxoo
+  port: 443
+  server: 3.34.6.217
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇰🇷KR-150.109.240.179-4768
+  network: ws
+  port: 8443
+  server: 150.109.240.179
+  servername: www.bing.com
+  tls: true
+  type: vmess
+  uuid: f9dcb303-3e73-40eb-9327-1ac88f9a2b72
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wsproxy
+- client-fingerprint: random
+  name: 40|TG@ZDYZ2 -KR5
+  network: ws
+  port: 443
+  server: 129.154.198.48
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 40|TG@ZDYZ2 -KR2
+  network: ws
+  port: 2096
+  server: 91.193.58.98
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
 - client-fingerprint: chrome
   name: 21|英国 003
   network: ws
@@ -1965,16 +2009,16 @@ proxy-groups:
   - 10,11|458_亚美亚-383.4KB
   - 11|236_美国-519.8KB
   - 13|美国+3
-  - 13|美国+5
   - 13|美国+6
   - 13|美国+2
   - 15|美国+CloudFlare节点
-  - 15,32|🏁RELAY-104.18.152.219-0978
+  - '15|美国+CloudFlare节点 #1'
   - '15|美国+CloudFlare节点 #2'
-  - 15,32|🏁RELAY-104.18.152.140-0791
+  - 15|美国+加州
+  - '15|美国+CloudFlare节点 #3'
   - '15|美国+CloudFlare节点 #4'
   - '15|美国+CloudFlare节点 #5'
-  - 15,32|🏁RELAY-104.18.152.179-0940
+  - '15|美国+CloudFlare节点 #6'
   - 32|🇭🇰HK-185.244.208.13-4779
   - 32|🇭🇰HK-43.199.135.95-4796
   - 32|🇭🇰HK-43.100.32.4-1817
@@ -2023,15 +2067,15 @@ proxy-groups:
   - 21|韩国 011
   - 21|韩国 012
   - 21|韩国 013
-  - '31,32|🇰🇷KR-43.201.46.108-4789 #1'
-  - '31,32|🇰🇷KR-3.35.53.46-4689 #1'
-  - '31,32|🇰🇷KR-43.202.56.122-4793 #1'
-  - '31,32|🇰🇷KR-3.36.59.34-4772 #1'
-  - '31,32|🇰🇷KR-43.201.49.96-4794 #1'
-  - '31,32|🇰🇷KR-43.201.56.44-4795 #1'
-  - '31,32|🇰🇷KR-43.203.119.20-4787 #1'
-  - '31,32|🇰🇷KR-13.125.71.58-0228 #1'
-  - '31,32|🇰🇷KR-54.180.250.102-0238 #1'
+  - '31,32|🇰🇷KR-13.125.144.78-0222 #1'
+  - '31,32|🇰🇷KR-43.203.206.201-0241 #1'
+  - 32|🇰🇷KR-43.202.61.210-0249
+  - 32|🇰🇷KR-52.231.200.179-1626
+  - 32|🇰🇷KR-144.24.72.126-2638
+  - 32|🇰🇷KR-3.34.6.217-3697
+  - 32|🇰🇷KR-150.109.240.179-4768
+  - 40|TG@ZDYZ2 -KR5
+  - 40|TG@ZDYZ2 -KR2
   - 21|英国 003
   - 21|英国 006
   - 21|英国 007
@@ -2136,16 +2180,16 @@ proxy-groups:
   - 10,11|458_亚美亚-383.4KB
   - 11|236_美国-519.8KB
   - 13|美国+3
-  - 13|美国+5
   - 13|美国+6
   - 13|美国+2
   - 15|美国+CloudFlare节点
-  - 15,32|🏁RELAY-104.18.152.219-0978
+  - '15|美国+CloudFlare节点 #1'
   - '15|美国+CloudFlare节点 #2'
-  - 15,32|🏁RELAY-104.18.152.140-0791
+  - 15|美国+加州
+  - '15|美国+CloudFlare节点 #3'
   - '15|美国+CloudFlare节点 #4'
   - '15|美国+CloudFlare节点 #5'
-  - 15,32|🏁RELAY-104.18.152.179-0940
+  - '15|美国+CloudFlare节点 #6'
   - 32|🇭🇰HK-185.244.208.13-4779
   - 32|🇭🇰HK-43.199.135.95-4796
   - 32|🇭🇰HK-43.100.32.4-1817
@@ -2194,15 +2238,15 @@ proxy-groups:
   - 21|韩国 011
   - 21|韩国 012
   - 21|韩国 013
-  - '31,32|🇰🇷KR-43.201.46.108-4789 #1'
-  - '31,32|🇰🇷KR-3.35.53.46-4689 #1'
-  - '31,32|🇰🇷KR-43.202.56.122-4793 #1'
-  - '31,32|🇰🇷KR-3.36.59.34-4772 #1'
-  - '31,32|🇰🇷KR-43.201.49.96-4794 #1'
-  - '31,32|🇰🇷KR-43.201.56.44-4795 #1'
-  - '31,32|🇰🇷KR-43.203.119.20-4787 #1'
-  - '31,32|🇰🇷KR-13.125.71.58-0228 #1'
-  - '31,32|🇰🇷KR-54.180.250.102-0238 #1'
+  - '31,32|🇰🇷KR-13.125.144.78-0222 #1'
+  - '31,32|🇰🇷KR-43.203.206.201-0241 #1'
+  - 32|🇰🇷KR-43.202.61.210-0249
+  - 32|🇰🇷KR-52.231.200.179-1626
+  - 32|🇰🇷KR-144.24.72.126-2638
+  - 32|🇰🇷KR-3.34.6.217-3697
+  - 32|🇰🇷KR-150.109.240.179-4768
+  - 40|TG@ZDYZ2 -KR5
+  - 40|TG@ZDYZ2 -KR2
   - 21|英国 003
   - 21|英国 006
   - 21|英国 007

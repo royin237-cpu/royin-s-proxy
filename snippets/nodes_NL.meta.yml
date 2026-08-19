@@ -23,6 +23,13 @@ proxies:
   ws-headers:
     host: dl.filmino.online
   ws-path: /graphql
+- name: 19|рҹҮірҹҮұNL-рҹҡҖ@VPNine1
+  password: gf1
+  port: 443
+  server: 5.129.235.85
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: 21|荷兰 001
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
