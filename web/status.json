@@ -1,5 +1,5 @@
 {
-  "total": 1809,
+  "total": 1804,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
@@ -9,7 +9,7 @@
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 105
+      "count": 109
     },
     "CN": {
       "flag": "🇨🇳",
@@ -67,8 +67,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-19 07:36",
-  "server_time": "2026-08-19 07:36:35",
+  "update_time": "2026-08-19 08:55",
+  "server_time": "2026-08-19 08:56:00",
   "sources": [
     {
       "index": 0,
