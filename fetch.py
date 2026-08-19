@@ -1261,9 +1261,14 @@ def main():
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
         ctg_disp: Dict[str, str] = snip_conf['categories_disp']
+        # 地区子组模板：fallback 类型，自动逐个探测首个可用节点
+        ctg_auto = ctg_base.copy()
+        ctg_auto['type'] = 'fallback'
+        ctg_auto['url'] = 'https://www.google.com/'
+        ctg_auto['interval'] = 300
         for ctg, payload in ctg_nodes.items():
             if ctg in ctg_disp:
-                disp = ctg_base.copy()
+                disp = ctg_auto.copy()
                 disp['name'] = ctg_disp[ctg]
                 if not payload: disp['proxies'] = ['REJECT']
                 else: disp['proxies'] = [_['name'] for _ in payload]
@@ -1291,9 +1296,14 @@ def main():
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
         ctg_disp: Dict[str, str] = snip_conf['categories_disp']
+        # 地区子组模板：fallback 类型，自动逐个探测首个可用节点
+        ctg_auto = ctg_base.copy()
+        ctg_auto['type'] = 'fallback'
+        ctg_auto['url'] = 'https://www.google.com/'
+        ctg_auto['interval'] = 300
         for ctg, payload in ctg_nodes_meta.items():
             if ctg in ctg_disp:
-                disp = ctg_base.copy()
+                disp = ctg_auto.copy()
                 disp['name'] = ctg_disp[ctg]
                 if not payload: disp['proxies'] = ['REJECT']
                 else: disp['proxies'] = [_['name'] for _ in payload]
