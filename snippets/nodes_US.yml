@@ -75,69 +75,39 @@ proxies:
   skip-cert-verify: true
   sni: data.steamdownload.top
   type: trojan
-- name: '15|美国+CloudFlare节点 #1'
+- name: '15|美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.204
+  server: 104.16.174.12
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '15|美国+CloudFlare节点 #2'
+- name: 15,32|🏁RELAY-104.17.111.3-0894
   network: ws
   password: humanity
   port: 443
-  server: 172.67.221.242
-  skip-cert-verify: false
+  server: 104.17.111.3
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: 15|美国+加州
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.113
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: '15|美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
-  server: 172.67.149.60
+  server: ip.myip2.qzz.io
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: '15|美国+CloudFlare节点 #7'
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
-  server: 104.17.111.3
+  server: 104.16.174.37
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -145,17 +115,33 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #8'
+- name: '15|美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.72
+  server: 104.18.152.229
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #8'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #9'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
     path: '%2Fassignment'
 - alterId: 0
   cipher: auto
@@ -2709,12 +2695,6 @@ proxies:
     headers:
       Host: www.82710897.xyz
     path: /path/191019072927
-- name: '31,32|🇺🇸US-128.14.180.210-0557 #1'
-  password: fg20mtCFHy
-  port: 5444
-  server: 128.14.180.210
-  sni: ucyxc.southbyte.xyz
-  type: trojan
 - name: '31,32|🇺🇸US-54.244.169.225-0120 #1'
   password: AE62539071
   port: 443
@@ -2747,12 +2727,20 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: '31,32|🇺🇸US-147.182.198.83-0391 #1'
-  password: fg20mtCFHy
-  port: 5444
-  server: 147.182.198.83
-  sni: sfouctc.southbyte.xyz
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '31,32|🇺🇸US-157.254.227.87-4785 #1'
+  network: ws
+  port: 443
+  server: 157.254.227.87
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5b411308-d796-4694-b58d-d252e35bb475
+  ws-opts:
+    headers:
+      Host: ''
+    path: /d252e35bb475
 - alterId: 64
   cipher: auto
   h2-opts:
@@ -3479,6 +3467,20 @@ proxies:
     headers:
       Host: mycfwork.herokuapp.com
     path: /07a3a1e3-d52e-4acc-958e-c301681b5f09-vmess
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-157.254.227.87-0131
+  network: ws
+  port: 443
+  server: 157.254.227.87
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5b411308-d796-4694-b58d-d252e35bb475
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - name: 32|🇺🇸US-64.94.95.118-4715
   password: kkzh2prsyr2ik47as615
   port: 57142
@@ -3544,6 +3546,20 @@ proxies:
     headers:
       Host: cf-lt.sharecentre.online
     path: 4a47e680
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-103.224.182.210-6705
+  network: ws
+  port: 443
+  server: btbu996.icu
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 16702ec2-3808-46e6-a7b5-582c062be13d
+  ws-opts:
+    headers:
+      Host: btbu996.icu
+    path: /
 - alterId: 0
   cipher: auto
   name: 32|🇺🇸US-66.241.124.93-6741

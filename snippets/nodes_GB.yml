@@ -122,12 +122,6 @@ proxies:
     headers:
       Host: www.29870011.xyz
     path: /path/191019072927
-- name: '31,32|🇬🇧GB-104.248.167.79-0388 #1'
-  password: fg20mtCFHy
-  port: 5624
-  server: 104.248.167.79
-  sni: dsgvc.southbyte.xyz
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 32|🇬🇧GB-46.175.135.9-0310

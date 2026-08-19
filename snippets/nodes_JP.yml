@@ -71,14 +71,15 @@ proxies:
     headers:
       Host: tjsp.hhxaf.cc.cd
     path: /
-- client-fingerprint: chrome
-  name: 21|日本 012
+- name: 21|日本 013
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: 153.121.76.150
+  server: 160.16.59.9
+  skip-cert-verify: true
   sni: hhcm.hhxaf.cc.cd
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: hhcm.hhxaf.cc.cd
@@ -126,6 +127,18 @@ proxies:
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
   server: 149.28.21.106
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 21|日本 021
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 153.121.32.71
   sni: tjsp.hhxaf.cc.cd
   type: trojan
   ws-opts:
