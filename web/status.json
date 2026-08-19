@@ -1,5 +1,5 @@
 {
-  "total": 1804,
+  "total": 1803,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
@@ -9,7 +9,7 @@
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 109
+      "count": 108
     },
     "CN": {
       "flag": "🇨🇳",
@@ -39,7 +39,7 @@
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 15
+      "count": 14
     },
     "GB": {
       "flag": "🇬🇧",
@@ -67,8 +67,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-19 08:55",
-  "server_time": "2026-08-19 08:56:00",
+  "update_time": "2026-08-19 09:20",
+  "server_time": "2026-08-19 09:20:29",
   "sources": [
     {
       "index": 0,
@@ -163,12 +163,12 @@
     {
       "index": 18,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
-      "nodes": 48
+      "nodes": 50
     },
     {
       "index": 19,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 121
+      "nodes": 127
     },
     {
       "index": 20,

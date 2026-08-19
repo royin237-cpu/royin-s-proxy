@@ -1,4 +1,4 @@
-# Update: 2026-08-19 08:56
+# Update: 2026-08-19 09:20
 # 移动端轻量订阅：161 个存活节点（每地区最多 15 个），精简规则
 mixed-port: 7890
 allow-lan: false
@@ -167,70 +167,77 @@ proxies:
   sni: data.steamdownload.top
   type: trojan
 - alpn:
-  - h3
-  - h2
   - http/1.1
   name: 15|美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 15,32|🏁RELAY-104.18.152.108-1140
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.108
+  server: 104.18.23.63
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #1'
+  network: ws
+  port: 2086
+  server: 104.21.4.10
+  tls: false
+  type: vless
+  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
+  ws-opts:
+    headers:
+      Host: muddy-shadow-8905.qara-atayi-1.workers.dev
+    path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
 - name: '15|美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.204
+  server: 104.16.174.37
+  skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
+- name: 15|美国+
+  network: ws
+  port: 8080
+  server: 40.160.69.112
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed
 - name: '15|美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
-  server: 104.19.229.21
+  server: 104.16.73.213
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #4'
+- name: 15,32|🇺🇸US-216.24.57.1-1141
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.225
+  server: 216.24.57.1
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #5'
+- name: 15,32|🏁RELAY-8.6.112.0-1266
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.229
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 15,32|🏁RELAY-104.18.152.175-1139
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.175
+  server: 8.6.112.0
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -1437,12 +1444,12 @@ proxy-groups:
   - 13|美国+6
   - 13|美国+2
   - 15|美国+CloudFlare节点
-  - 15,32|🏁RELAY-104.18.152.108-1140
+  - '15|美国+CloudFlare节点 #1'
   - '15|美国+CloudFlare节点 #2'
+  - 15|美国+
   - '15|美国+CloudFlare节点 #3'
-  - '15|美国+CloudFlare节点 #4'
-  - '15|美国+CloudFlare节点 #5'
-  - 15,32|🏁RELAY-104.18.152.175-1139
+  - 15,32|🇺🇸US-216.24.57.1-1141
+  - 15,32|🏁RELAY-8.6.112.0-1266
   - '31,32|🇭🇰HK-43.199.210.189-1144 #1'
   - '31,32|🇭🇰HK-185.244.208.213-0240 #1'
   - '31,32|🇭🇰HK-185.244.208.210-0237 #1'
@@ -1575,10 +1582,9 @@ proxy-groups:
   - 32|🇨🇳CN-124.222.189.225-2108
   - 40|🇨🇳+CN+中国+34
 - name: ♻️ 自动选择
-  type: url-test
+  type: fallback
   url: http://www.gstatic.com/generate_204
   interval: 300
-  tolerance: 50
   proxies:
   - '31,32|🇯🇵JP-54.64.255.224-0157 #1'
   - '31,32|🇯🇵JP-43.207.87.43-0170 #1'
@@ -1604,12 +1610,12 @@ proxy-groups:
   - 13|美国+6
   - 13|美国+2
   - 15|美国+CloudFlare节点
-  - 15,32|🏁RELAY-104.18.152.108-1140
+  - '15|美国+CloudFlare节点 #1'
   - '15|美国+CloudFlare节点 #2'
+  - 15|美国+
   - '15|美国+CloudFlare节点 #3'
-  - '15|美国+CloudFlare节点 #4'
-  - '15|美国+CloudFlare节点 #5'
-  - 15,32|🏁RELAY-104.18.152.175-1139
+  - 15,32|🇺🇸US-216.24.57.1-1141
+  - 15,32|🏁RELAY-8.6.112.0-1266
   - '31,32|🇭🇰HK-43.199.210.189-1144 #1'
   - '31,32|🇭🇰HK-185.244.208.213-0240 #1'
   - '31,32|🇭🇰HK-185.244.208.210-0237 #1'

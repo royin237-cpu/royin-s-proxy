@@ -606,23 +606,12 @@ proxies:
       Host: sweet-boat-18e0.kenzas6788.workers.dev
     path: /speedtest/Dusseldorf.kotick.site
 - alpn:
-  - h3
-  - h2
   - http/1.1
   name: 15|美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 15,32|🏁RELAY-104.18.152.108-1140
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.108
+  server: 104.18.23.63
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -632,53 +621,104 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.204
+  server: 104.16.174.37
+  skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: '15|美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
-  server: 104.19.229.21
+  server: 104.16.73.213
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #4'
+- name: 15,32|🇺🇸US-216.24.57.1-1141
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.225
+  server: 216.24.57.1
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #5'
+- name: 15,32|🏁RELAY-8.6.112.0-1266
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.229
+  server: 8.6.112.0
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 15,32|🏁RELAY-104.18.152.175-1139
+- name: 15,32|🏁RELAY-104.16.174.71-1308
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.175
+  server: 104.16.174.71
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- name: 15,32|🏁RELAY-104.16.174.12-1314
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 15,32|🏁RELAY-104.17.111.8-1240
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '15|美国+加州 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: render.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 15|奥地利+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 443
+  server: 212.183.88.136
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
 - name: '15|美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.208
+  server: 172.67.149.60
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -692,21 +732,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 15|立陶宛+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 86.38.214.205
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
+    path: '%2F%2Fassignment'
 - alpn:
   - h3
   - h2
@@ -720,57 +746,29 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 15,32|🏁RELAY-104.16.174.34-1279
+- name: 15,32|🏁RELAY-104.18.152.187-1135
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.34
+  server: 104.18.152.187
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 15,32|🏁RELAY-104.16.174.46-1311
+- name: 15,32|🏁RELAY-104.18.152.73-1133
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.46
-  skip-cert-verify: false
+  server: 104.18.152.73
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #12'
+- name: 15|立陶宛+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
-  server: www.ignitelimit.com
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #13'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.149.60
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 15,32|🏁RELAY-104.18.152.103-1276
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.103
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #15'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.233
+  server: 86.38.214.205
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -6904,29 +6902,11 @@ proxies:
     headers:
       Host: ''
     path: /shirker
-- name: 32|🏁RELAY-104.18.152.73-1133
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.73
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - name: 32|🏁RELAY-104.18.152.133-1134
   network: ws
   password: humanity
   port: 443
   server: 104.18.152.133
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 32|🏁RELAY-104.18.152.187-1135
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.187
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -6958,11 +6938,20 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 32|🇺🇸US-216.24.57.1-1141
+- name: 32|🏁RELAY-104.18.152.175-1139
   network: ws
   password: humanity
   port: 443
-  server: 216.24.57.1
+  server: 104.18.152.175
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 32|🏁RELAY-104.18.152.108-1140
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.108
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -7150,15 +7139,6 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 32|🏁RELAY-104.17.111.8-1240
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.8
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - name: 32|🏁RELAY-104.17.111.3-1246
   network: ws
   password: humanity
@@ -7195,15 +7175,6 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 32|🏁RELAY-8.6.112.0-1266
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.0
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - name: 32|🏁RELAY-104.16.7.70-1270
   network: ws
   password: humanity
@@ -7222,6 +7193,15 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- name: 32|🏁RELAY-104.18.152.103-1276
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: 32|🏁RELAY-104.16.174.121-1277
   network: ws
   password: humanity
@@ -7236,6 +7216,15 @@ proxies:
   password: humanity
   port: 443
   server: 104.18.152.155
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 32|🏁RELAY-104.16.174.34-1279
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.34
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -7294,20 +7283,11 @@ proxies:
   type: trojan
   ws-opts:
     path: assignment
-- name: 32|🏁RELAY-104.16.174.71-1308
+- name: 32|🏁RELAY-104.16.174.46-1311
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.71
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 32|🏁RELAY-104.16.174.12-1314
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.12
+  server: 104.16.174.46
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -16734,6 +16714,19 @@ proxies:
     headers:
       Host: championship-bidding-oxygen-brochure.trycloudflare.com
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+- alterId: 0
+  cipher: auto
+  name: '40|🇺🇸_US_美国 #18'
+  network: ws
+  port: 443
+  server: hms082.gwdef.sbs
+  tls: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: gwdef.sbs
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: '40|美国 CloudFlare节点 #39'
