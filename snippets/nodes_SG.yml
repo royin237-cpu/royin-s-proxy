@@ -5,48 +5,13 @@ proxies:
   port: '443'
   server: 13.215.177.64
   type: ss
-- name: '31,32|🇸🇬SG-54.254.235.88-0222 #1'
-  password: FH72359861
-  port: 443
-  server: charming-ox.rooster465.autos
-  sni: charming-ox.rooster465.autos
-  type: trojan
-- name: '31,32|🇸🇬SG-13.212.173.162-0223 #1'
-  password: AE62539071
-  port: 443
-  server: integral-quetzal.rooster465.autos
-  sni: integral-quetzal.rooster465.autos
-  type: trojan
-- name: '31,32|🇸🇬SG-13.212.33.67-1353 #1'
-  password: PQ05174892
-  port: 443
-  server: intense-monarch.rooster465.autos
-  type: trojan
-- name: '31,32|🇸🇬SG-13.251.133.9-0227 #1'
-  password: PQ05174892
-  port: 443
-  server: infinite-anteater.rooster465.autos
-  sni: infinite-anteater.rooster465.autos
-  type: trojan
-- name: '31,32|🇸🇬SG-47.129.183.20-0387 #1'
+- name: 32|🇸🇬SG-47.129.183.20-0999
   password: PQ05174892
   port: 443
   server: welcome-monitor.rooster465.autos
   sni: welcome-monitor.rooster465.autos
   type: trojan
-- name: '31,32|🇸🇬SG-18.143.132.167-0224 #1'
-  password: FH72359861
-  port: 443
-  server: worthy-perch.rooster465.autos
-  sni: worthy-perch.rooster465.autos
-  type: trojan
-- name: '31,32|🇸🇬SG-52.220.98.46-1354 #1'
-  password: PQ05174892
-  port: 443
-  server: pleased-albacore.rooster465.autos
-  sni: pleased-albacore.rooster465.autos
-  type: trojan
-- name: 32|🇸🇬SG-52.220.98.46-0386
+- name: 32|🇸🇬SG-52.220.98.46-0998
   password: PQ05174892
   port: 443
   server: 52.220.98.46
@@ -68,7 +33,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-139.99.61.154-0449
+  name: 32|🇸🇬SG-139.99.61.154-1155
   network: ws
   port: 80
   server: 139.99.61.154
@@ -80,37 +45,9 @@ proxies:
     headers:
       Host: 139.99.61.154
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-56.10.28.155-0702
-  network: ws
-  port: 5100
-  server: st-2.dnspro.icu
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: st-2.dnspro.icu
-    path: /iso
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-56.10.28.155-0704
-  network: ws
-  port: 20025
-  server: sh-cn-1.dnspro.icu
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: sh-cn-1.dnspro.icu
-    path: /iso
 - alterId: 64
   cipher: auto
-  name: 32|🇸🇬SG-202.79.172.53-1605
+  name: 32|🇸🇬SG-202.79.172.53-1251
   network: ws
   port: 443
   server: 202.79.172.53
@@ -124,7 +61,7 @@ proxies:
     path: /path/220128071100
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-143.198.219.182-1621
+  name: 32|🇸🇬SG-143.198.219.182-1267
   network: ws
   port: 80
   server: 143.198.219.182
@@ -138,7 +75,21 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-15.235.184.36-2401
+  name: 32|🇸🇬SG-56.10.28.155-1461
+  network: ws
+  port: 20025
+  server: sh-cn-1.dnspro.icu
+  servername: sh-cn-1.dnspro.icu
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: sh-cn-1.dnspro.icu
+    path: /iso
+- alterId: 0
+  cipher: auto
+  name: 32|🇸🇬SG-15.235.184.36-2050
   network: ws
   port: 80
   server: 15.235.184.36
@@ -152,7 +103,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-139.99.61.154-2406
+  name: 32|🇸🇬SG-139.99.61.154-2055
   network: ws
   port: 80
   server: 139.99.61.154
@@ -166,7 +117,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-109.123.237.41-2433
+  name: 32|🇸🇬SG-109.123.237.41-2082
   network: ws
   port: 80
   server: 109.123.237.41
@@ -180,7 +131,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-109.123.237.41-2595
+  name: 32|🇸🇬SG-109.123.237.41-2244
   network: ws
   port: 80
   server: 109.123.237.41
@@ -194,7 +145,7 @@ proxies:
     path: /fastssh
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-15.235.192.196-2687
+  name: 32|🇸🇬SG-15.235.192.196-2336
   network: ws
   port: 80
   server: 15.235.192.196
@@ -208,7 +159,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-157.230.36.235-2688
+  name: 32|🇸🇬SG-157.230.36.235-2337
   network: ws
   port: 80
   server: 157.230.36.235
@@ -222,7 +173,7 @@ proxies:
     path: /graphql
 - alterId: 64
   cipher: auto
-  name: '32,40|未命名 #13'
+  name: '32,40|未命名 #5'
   network: ws
   port: 80
   server: 159.223.94.156
@@ -234,24 +185,24 @@ proxies:
     headers:
       Host: ''
     path: /anti13.zingfast.vn
-- name: 32|🇸🇬SG-47.128.15.18-5067
+- name: 32|🇸🇬SG-47.128.15.18-4716
   password: FH72359861
   port: 443
   server: bold-eagle.rooster465.autos
   type: trojan
-- name: 32|🇸🇬SG-172.104.51.247-5522
+- name: 32|🇸🇬SG-172.104.51.247-5171
   password: affae2e0-e84b-11ec-b09f-1239d0255272
   port: 443
   server: trojan1.udpgw.com
   type: trojan
-- name: 32|🇸🇬SG-18.140.67.76-5525
+- name: 32|🇸🇬SG-18.140.67.76-5174
   password: iyinglong
   port: 443
   server: 18.140.67.76
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-8.219.123.35-7120
+  name: 32|🇸🇬SG-8.219.123.35-6769
   network: ws
   port: 80
   server: 8.219.123.35
@@ -263,13 +214,13 @@ proxies:
     headers:
       Host: ''
     path: /2TokGE9A/
-- name: 32|🇸🇬SG-15.235.197.4-7752
+- name: 32|🇸🇬SG-15.235.197.4-7401
   password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
   port: 80
   server: 15.235.197.4
   sni: 15.235.197.4
   type: trojan
-- name: 32|🇸🇬SG-15.235.197.4-7754
+- name: 32|🇸🇬SG-15.235.197.4-7403
   password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
   port: 80
   server: 15.235.197.4
@@ -277,7 +228,7 @@ proxies:
   type: trojan
 - alterId: 64
   cipher: auto
-  name: 32|🇸🇬SG-118.107.46.173-7852
+  name: 32|🇸🇬SG-118.107.46.173-7501
   network: ws
   port: 443
   server: 118.107.46.173
@@ -289,3 +240,17 @@ proxies:
     headers:
       Host: ''
     path: /path/080712342310
+- alterId: 0
+  cipher: auto
+  name: 33,34|🇸🇬_SG_新加坡
+  network: none
+  port: 47630
+  server: 43.228.126.187
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb
+  ws-headers:
+    Host: 43.228.126.187
+  ws-path: /

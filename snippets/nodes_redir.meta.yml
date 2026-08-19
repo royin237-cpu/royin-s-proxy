@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '40|🇺🇸_US_美国 #19'
+  name: '40|🇺🇸_US_美国 #18'
   network: ws
   port: 8080
   server: 162.159.1.33

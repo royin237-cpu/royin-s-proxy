@@ -23,23 +23,6 @@ proxies:
   ws-headers:
     host: dl.filmino.online
   ws-path: /graphql
-- name: '18|荷兰 #4'
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: nl2.sferavpn.pro
-  skip-cert-verify: true
-  sni: nl2.sferavpn.pro
-  tls: false
-  type: hysteria2
-- name: '18|荷兰 #6'
-  password: netherlands_3_hysteria2_fastlane_xr3nai71s
-  port: 443
-  server: 91.84.119.49
-  sni: nl4.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: 29|🇳🇱 FASTNET 01
   network: ws
@@ -53,27 +36,21 @@ proxies:
     headers:
       Host: www.dollardoon.com
     path: '%2F%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%3Fed'
-- name: '31,32|🇳🇱NL-193.169.239.160-0221 #1'
+- name: '31,32|🇳🇱NL-193.169.239.160-0130 #1'
   password: AE62539071
   port: 443
   server: thorough-falcon.rooster465.autos
   type: trojan
-- name: '31,32|🇳🇱NL-31.76.49.185-0239 #1'
-  password: SEYnpOitNLndBhDtkZyeAShl
-  port: 443
-  server: nl-vk.tkbvpcompany.site
-  sni: nl-vk.tkbvpcompany.site
-  type: trojan
-- name: '31,32|🇳🇱NL-89.39.70.120-0236 #1'
+- name: '31,32|🇳🇱NL-89.39.70.120-0129 #1'
   password: FH72359861
   port: 443
   server: pro-crane.rooster465.autos
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '32,34|🇱🇻 拉脱维亚(mibei77.com 米贝节点分享) #1'
+  name: 32|🇳🇱NL-185.246.152.159-0872
   network: ws
-  port: '443'
+  port: 443
   server: 185.246.152.159
   servername: ''
   tls: true
@@ -85,21 +62,7 @@ proxies:
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
   cipher: auto
-  name: 32|🇳🇱NL-23.137.249.110-0516
-  network: ws
-  port: 26230
-  server: 23.137.249.110
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21b2345e-b817-4285-9e0e-af0dbfa4a165
-  ws-opts:
-    headers:
-      Host: 23.137.249.110
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: 32|🇳🇱NL-104.248.80.136-4277
+  name: 32|🇳🇱NL-104.248.80.136-3926
   network: ws
   port: 80
   server: 104.248.80.136
@@ -111,14 +74,14 @@ proxies:
     headers:
       Host: ''
     path: /graphql
-- name: 32|🇳🇱NL-194.124.216.192-5074
+- name: 32|🇳🇱NL-194.124.216.192-4723
   password: M08tvzYWtUEJNtbpHp
   port: 443
   server: 194.124.216.192
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇳🇱NL-185.246.152.159-5129
+  name: 32|🇳🇱NL-185.246.152.159-4778
   network: ws
   port: 443
   server: 185.246.152.159
@@ -130,7 +93,7 @@ proxies:
     headers:
       Host: ''
     path: /5f72f180-b21b-4b7a-8484-240759096785
-- name: 32|🇳🇱NL-51.158.146.183-7168
+- name: 32|🇳🇱NL-51.158.146.183-6817
   password: f6a0a650-306e-11ee-b692-1239d0255272
   port: 443
   server: 51.158.146.183
@@ -138,7 +101,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇳🇱NL-51.15.19.206-7170
+  name: 32|🇳🇱NL-51.15.19.206-6819
   network: ws
   port: 80
   server: 51.15.19.206
@@ -152,7 +115,7 @@ proxies:
     path: /V2RayyNGvpn
 - alterId: 0
   cipher: auto
-  name: 32|🇳🇱NL-51.15.19.206-7171
+  name: 32|🇳🇱NL-51.15.19.206-6820
   network: ws
   port: 8443
   server: 51.15.19.206
@@ -166,7 +129,7 @@ proxies:
     path: /V2RayyNGvpn
 - alterId: 0
   cipher: auto
-  name: 32|🇳🇱NL-51.15.19.206-7172
+  name: 32|🇳🇱NL-51.15.19.206-6821
   network: ws
   port: 2083
   server: 51.15.19.206

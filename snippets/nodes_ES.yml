@@ -1,8 +1,7 @@
 proxies:
-- name: 34|🇪🇸_ES_西班牙
+- name: 32|🇪🇸ES-172.233.107.18-0385
   password: fg20mtCFHy
   port: 5575
   server: 172.233.107.18
-  skip-cert-verify: true
   sni: fgrsd.southbyte.xyz
   type: trojan

@@ -1,15 +1,15 @@
 {
-  "total": 1803,
+  "total": 1714,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 91
+      "count": 98
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 108
+      "count": 85
     },
     "CN": {
       "flag": "🇨🇳",
@@ -19,7 +19,7 @@
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 14
+      "count": 4
     },
     "TW": {
       "flag": "🇹🇼",
@@ -29,46 +29,41 @@
     "CA": {
       "flag": "🇦🇨",
       "name": "加拿大",
-      "count": 11
+      "count": 3
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 24
+      "count": 14
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 14
+      "count": 9
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 19
+      "count": 18
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 42
+      "count": 36
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 4
+      "count": 2
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
       "count": 8
-    },
-    "EE": {
-      "flag": "🇪🇪",
-      "name": "爱沙尼亚",
-      "count": 1
     }
   },
-  "update_time": "2026-08-19 09:59",
-  "server_time": "2026-08-19 09:59:36",
+  "update_time": "2026-08-19 14:42",
+  "server_time": "2026-08-19 14:42:53",
   "sources": [
     {
       "index": 0,
@@ -163,12 +158,12 @@
     {
       "index": 18,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
-      "nodes": 50
+      "nodes": 49
     },
     {
       "index": 19,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 127
+      "nodes": 120
     },
     {
       "index": 20,
@@ -178,7 +173,7 @@
     {
       "index": 21,
       "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
-      "nodes": 130
+      "nodes": 0
     },
     {
       "index": 22,
@@ -233,17 +228,17 @@
     {
       "index": 32,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 4037
+      "nodes": 3997
     },
     {
       "index": 33,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
-      "nodes": 0
+      "nodes": 34
     },
     {
       "index": 34,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
-      "nodes": 297
+      "nodes": 34
     },
     {
       "index": 35,

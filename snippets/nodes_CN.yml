@@ -13,7 +13,7 @@ proxies:
   ws-path: /aries
 - alterId: 0
   cipher: auto
-  name: 32|🇨🇳CN-124.222.189.225-2108
+  name: 32|🇨🇳CN-124.222.189.225-1754
   network: ws
   port: 80
   server: 124.222.189.225
