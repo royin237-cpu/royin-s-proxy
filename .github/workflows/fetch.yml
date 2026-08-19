@@ -32,7 +32,20 @@ jobs:
         cache: 'pip'
     - name: 安装依赖
       run: pip install -r requirements.txt
+    - name: 下载 mihomo 内核与地理数据（用于云端真实测速）
+      run: |
+        mkdir -p mihomo_data
+        BIN_URL=$(curl -sL https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep -Eo 'https://[^"]*mihomo-linux-amd64-v[^"]*\.gz' | head -n1)
+        echo "mihomo: $BIN_URL"
+        curl -sL "$BIN_URL" -o mihomo.gz && gunzip -f mihomo.gz && chmod +x mihomo
+        curl -sL "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat" -o mihomo_data/geoip.dat
+        curl -sL "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat" -o mihomo_data/geosite.dat
+        curl -sL "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb" -o mihomo_data/country.mmdb
+        ls -la mihomo mihomo_data/
     - name: 执行任务
+      env:
+        MIHOMO_BIN: ${{ github.workspace }}/mihomo
+        MIHOMO_DATA: ${{ github.workspace }}/mihomo_data
       run: python ./fetch.py
 
     - name: 生成面板状态 JSON
