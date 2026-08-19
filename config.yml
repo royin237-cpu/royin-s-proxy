@@ -126,6 +126,8 @@ proxy-groups:
   - name: 🗺️ 选择地区
     type: select
     proxies: []
+    # 注意：地区子组模板从此项复制（fetch.py ctg_base）
+    # 子组 type/interval 在 fetch.py 中动态设置为 fallback + url-test 参数
 
 rules:
   # 应急响应：BootCDN/Staticfile 被投毒！
