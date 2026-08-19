@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- alterId: 64
+  cipher: auto
+  name: 21|泰国 001
+  network: ws
+  port: 30001
+  server: 119.59.98.39
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4d24fbde-cb0e-4025-98ec-222933847d3d
+  ws-opts:
+    headers:
+      Host: www.98666598.xyz
+    path: /path/191019072927

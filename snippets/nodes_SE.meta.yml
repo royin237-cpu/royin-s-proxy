@@ -1,6 +1,46 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 21|瑞典 006
+  network: tcp
+  port: 443
+  server: sto5.vpntype.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 601ad357-c8cf-491f-98e6-62175e130658
+- name: 21|瑞典 007
+  network: ws
+  port: 80
+  server: 146.75.55.82
+  servername: rtakp.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83b3d135-0ab9-4898-8fbf-b0334681b8fb
+  ws-opts:
+    headers:
+      Host: rtakp.ir
+    path: /download?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 21|瑞典 009
+  network: ws
+  port: 80
+  server: 185.146.173.25
+  skip-cert-verify: true
+  type: vmess
+  uuid: e3cb5c38-1168-46ad-aec4-62ffd3614690
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.safari-df.ir.
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 41|SE_speednode_0116
   network: tcp
   port: 443

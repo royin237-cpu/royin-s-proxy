@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- name: 21|意大利 001
+  network: ws
+  port: 80
+  server: 151.101.242.172
+  servername: Germany.ss.ss
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 62915088-0f71-4592-bf82-3f02d4db1239
+  ws-opts:
+    headers:
+      Host: Germany.ss.ss
+    path: WEDBAZ?ed=2048

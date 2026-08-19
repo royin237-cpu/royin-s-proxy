@@ -7,6 +7,65 @@ proxies:
   sni: h2.vpnushka.lol
   tls: false
   type: hysteria2
+- name: 19|ًں‡«ًں‡®|FI|@wxgqlfx|217
+  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+  port: 443
+  server: fast.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: fast.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 21|芬兰 004
+  network: tcp
+  port: 443
+  server: 95.217.206.161
+  servername: api.chandplus.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01d68a9b-be48-4c7b-b4f9-71b29c4cfaca
+- client-fingerprint: chrome
+  name: 21|芬兰 005
+  network: tcp
+  port: 443
+  server: api.chandplus.com
+  servername: api.chandplus.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01d68a9b-be48-4c7b-b4f9-71b29c4cfaca
+- alterId: 0
+  cipher: auto
+  name: 21|芬兰 007
+  network: ws
+  port: 80
+  server: 95.216.186.191
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /telegram-id-
+- alterId: 64
+  cipher: auto
+  name: 21|芬兰 008
+  network: ws
+  port: 443
+  server: 91.132.197.5
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.29794192.xyz
+    path: /path/191019072927
 - alterId: 0
   cipher: auto
   name: 32|🇫🇮FI-65.21.240.108-3253

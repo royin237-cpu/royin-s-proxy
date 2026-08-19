@@ -1,4 +1,191 @@
 proxies:
+- name: 21|澳大利亚 001
+  network: ws
+  port: 443
+  server: 43.132.231.159
+  servername: c.eoa.ccwu.cc
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
+  ws-opts:
+    headers:
+      Host: c.eoa.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 21|澳大利亚 002
+  network: ws
+  port: 9999
+  server: 43.160.247.113
+  servername: c.eoa.ccwu.cc
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
+  ws-opts:
+    headers:
+      Host: c.eoa.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 21|澳大利亚 003
+  network: ws
+  port: 443
+  server: 43.156.2.91
+  servername: c.eoa.ccwu.cc
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
+  ws-opts:
+    headers:
+      Host: c.eoa.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 21|澳大利亚 004
+  network: ws
+  port: 443
+  server: 43.156.200.201
+  servername: c.eoa.ccwu.cc
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
+  ws-opts:
+    headers:
+      Host: c.eoa.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 21|澳大利亚 009
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 43.128.147.145
+  servername: c.eoa.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
+  ws-opts:
+    headers:
+      Host: c.eoa.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 21|澳大利亚 010
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 43.169.19.179
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 21|澳大利亚 011
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 43.170.8.95
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- encryption: none
+  name: 21|澳大利亚 013
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 172.105.169.70
+  servername: 172.105.169.70
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  xudp: true
+- client-fingerprint: chrome
+  name: 21|澳大利亚 015
+  network: ws
+  port: 63443
+  server: 43.156.71.213
+  servername: c.eoa.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
+  ws-opts:
+    headers:
+      Host: c.eoa.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 21|澳大利亚 016
+  network: ws
+  packet-encoding: xudp
+  port: 12580
+  server: 43.156.235.151
+  servername: c.eoa.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
+  ws-opts:
+    headers:
+      Host: c.eoa.ccwu.cc
+    path: /
+- name: 21|澳大利亚 020
+  network: ws
+  port: 2096
+  server: 185.207.196.44
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets
+- name: 21|澳大利亚 021
+  network: ws
+  port: 2096
+  server: 185.207.197.253
+  servername: vlesspro.llengcugit.sbs
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e433a29-22ac-4061-ae8b-f1731715d0d9
+  ws-opts:
+    headers:
+      Host: vlesspro.llengcugit.sbs
+    path: /Telegram
+- alterId: 64
+  cipher: auto
+  name: 21|澳大利亚 022
+  network: ws
+  port: 443
+  server: 119.252.190.115
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23376046.xyz
+    path: /path/191019072927
 - name: 32|🇦🇺AU-87.121.33.109-1000
   password: FH72359861
   port: 443

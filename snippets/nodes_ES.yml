@@ -1,4 +1,30 @@
 proxies:
+- name: 21|西班牙 001
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.18.250.245
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- alterId: 64
+  cipher: auto
+  name: 21|西班牙 003
+  network: ws
+  port: 443
+  server: 37.120.142.250
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.82210771.xyz
+    path: /path/191019072927
 - name: 32|🇪🇸ES-172.233.107.18-0385
   password: fg20mtCFHy
   port: 5575

@@ -1,6 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 21|芬兰 007
+  network: ws
+  port: 80
+  server: 95.216.186.191
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /telegram-id-
+- alterId: 64
+  cipher: auto
+  name: 21|芬兰 008
+  network: ws
+  port: 443
+  server: 91.132.197.5
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.29794192.xyz
+    path: /path/191019072927
+- alterId: 0
+  cipher: auto
   name: 32|🇫🇮FI-65.21.240.108-3253
   network: http
   port: 443
