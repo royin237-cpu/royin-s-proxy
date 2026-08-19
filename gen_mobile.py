@@ -67,9 +67,9 @@ def main():
     config["proxy-groups"] = [
         {"name": "🚀 节点选择", "type": "select",
          "proxies": ["♻️ 自动选择", "🎯 全球直连"] + names},
-        {"name": "♻️ 自动选择", "type": "url-test",
+        {"name": "♻️ 自动选择", "type": "fallback",
          "url": "http://www.gstatic.com/generate_204",
-         "interval": 300, "tolerance": 50, "proxies": names},
+         "interval": 300, "proxies": names},
         {"name": "🐟 漏网之鱼", "type": "select",
          "proxies": ["🚀 节点选择", "♻️ 自动选择", "🎯 全球直连"]},
         {"name": "🎯 全球直连", "type": "select", "proxies": ["DIRECT"]},
