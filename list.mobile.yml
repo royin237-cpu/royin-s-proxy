@@ -1,5 +1,5 @@
-# Update: 2026-08-19 16:08
-# 移动端轻量订阅：166 个存活节点（每地区最多 15 个），精简规则
+# Update: 2026-08-19 16:18
+# 移动端轻量订阅：163 个存活节点（每地区最多 15 个），精简规则
 mixed-port: 7890
 allow-lan: false
 mode: rule
@@ -111,19 +111,6 @@ proxies:
     headers:
       Host: hhcm.hhxaf.cc.cd
     path: /
-- name: 21|日本 013
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 160.16.59.9
-  skip-cert-verify: true
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
 - client-fingerprint: chrome
   name: 21|日本 014
   network: ws
@@ -209,6 +196,19 @@ proxies:
     headers:
       Host: www.calmloud.com
     path: /assignment
+- name: 21|日本 026
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 125.192.207.63
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
 - alterId: '0'
   cipher: auto
   name: 10,11|256_美国-334.7KB
@@ -260,6 +260,13 @@ proxies:
 - name: 13|美国+3
   password: 414dff55-922a-4dc8-b5d3-b6517942b25a
   port: 15003
+  server: east.eeeeeef998.buzz
+  skip-cert-verify: true
+  sni: data.steamdownload.top
+  type: trojan
+- name: 13|美国+5
+  password: 414dff55-922a-4dc8-b5d3-b6517942b25a
+  port: 15005
   server: east.eeeeeef998.buzz
   skip-cert-verify: true
   sni: data.steamdownload.top
@@ -362,17 +369,6 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: '15|美国+CloudFlare节点 #6'
-  network: ws
-  port: 2086
-  server: 104.25.194.196
-  tls: false
-  type: vless
-  uuid: e3c7c198-2b02-42c2-b78f-22dfc078219c
-  ws-opts:
-    headers:
-      Host: uj-kn9gcgkzl0wmmy5wrkmalvhzdw62z.soltannatlos.workers.dev
-    path: /vl/3k4QnDlh2r3IPLPNFGLAeMJ5df?ed=2560
 - name: 32|🇭🇰HK-185.244.208.13-4779
   password: ND91608427
   port: 443
@@ -409,20 +405,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 32|🇭🇰HK-47.244.120.197-4739
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
       Host: ''
@@ -866,17 +848,6 @@ proxies:
     headers:
       Host: hhcm.hhxaf.cc.cd
     path: /
-- name: '31,32|🇰🇷KR-13.125.144.78-0222 #1'
-  password: AE62539071
-  port: 443
-  server: viable-serval.rooster465.autos
-  sni: viable-serval.rooster465.autos
-  type: trojan
-- name: '31,32|🇰🇷KR-43.203.206.201-0241 #1'
-  password: FH72359861
-  port: 443
-  server: massive-ocelot.rooster465.autos
-  type: trojan
 - name: 32|🇰🇷KR-43.202.61.210-0249
   password: FH72359861
   port: 443
@@ -1996,7 +1967,6 @@ proxy-groups:
   - 21|日本 010
   - 21|日本 011
   - 21|日本 012
-  - 21|日本 013
   - 21|日本 014
   - 21|日本 018
   - 21|日本 019
@@ -2004,11 +1974,13 @@ proxy-groups:
   - 21|日本 021
   - 21|日本 022
   - 21|日本 023
+  - 21|日本 026
   - 10,11|256_美国-334.7KB
   - 10,11|274_美国-315.7KB
   - 10,11|458_亚美亚-383.4KB
   - 11|236_美国-519.8KB
   - 13|美国+3
+  - 13|美国+5
   - 13|美国+6
   - 13|美国+2
   - 15|美国+CloudFlare节点
@@ -2018,12 +1990,10 @@ proxy-groups:
   - '15|美国+CloudFlare节点 #3'
   - '15|美国+CloudFlare节点 #4'
   - '15|美国+CloudFlare节点 #5'
-  - '15|美国+CloudFlare节点 #6'
   - 32|🇭🇰HK-185.244.208.13-4779
   - 32|🇭🇰HK-43.199.135.95-4796
   - 32|🇭🇰HK-43.100.32.4-1817
   - 32|🇭🇰HK-47.244.120.197-4738
-  - 32|🇭🇰HK-47.244.120.197-4739
   - 32|🇭🇰HK-47.239.189.182-0415
   - 32|🇭🇰HK-47.239.189.182-0423
   - 32|🇭🇰HK-207.46.147.148-1601
@@ -2067,8 +2037,6 @@ proxy-groups:
   - 21|韩国 011
   - 21|韩国 012
   - 21|韩国 013
-  - '31,32|🇰🇷KR-13.125.144.78-0222 #1'
-  - '31,32|🇰🇷KR-43.203.206.201-0241 #1'
   - 32|🇰🇷KR-43.202.61.210-0249
   - 32|🇰🇷KR-52.231.200.179-1626
   - 32|🇰🇷KR-144.24.72.126-2638
@@ -2167,7 +2135,6 @@ proxy-groups:
   - 21|日本 010
   - 21|日本 011
   - 21|日本 012
-  - 21|日本 013
   - 21|日本 014
   - 21|日本 018
   - 21|日本 019
@@ -2175,11 +2142,13 @@ proxy-groups:
   - 21|日本 021
   - 21|日本 022
   - 21|日本 023
+  - 21|日本 026
   - 10,11|256_美国-334.7KB
   - 10,11|274_美国-315.7KB
   - 10,11|458_亚美亚-383.4KB
   - 11|236_美国-519.8KB
   - 13|美国+3
+  - 13|美国+5
   - 13|美国+6
   - 13|美国+2
   - 15|美国+CloudFlare节点
@@ -2189,12 +2158,10 @@ proxy-groups:
   - '15|美国+CloudFlare节点 #3'
   - '15|美国+CloudFlare节点 #4'
   - '15|美国+CloudFlare节点 #5'
-  - '15|美国+CloudFlare节点 #6'
   - 32|🇭🇰HK-185.244.208.13-4779
   - 32|🇭🇰HK-43.199.135.95-4796
   - 32|🇭🇰HK-43.100.32.4-1817
   - 32|🇭🇰HK-47.244.120.197-4738
-  - 32|🇭🇰HK-47.244.120.197-4739
   - 32|🇭🇰HK-47.239.189.182-0415
   - 32|🇭🇰HK-47.239.189.182-0423
   - 32|🇭🇰HK-207.46.147.148-1601
@@ -2238,8 +2205,6 @@ proxy-groups:
   - 21|韩国 011
   - 21|韩国 012
   - 21|韩国 013
-  - '31,32|🇰🇷KR-13.125.144.78-0222 #1'
-  - '31,32|🇰🇷KR-43.203.206.201-0241 #1'
   - 32|🇰🇷KR-43.202.61.210-0249
   - 32|🇰🇷KR-52.231.200.179-1626
   - 32|🇰🇷KR-144.24.72.126-2638

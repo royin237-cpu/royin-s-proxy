@@ -360,6 +360,13 @@ proxies:
   skip-cert-verify: true
   sni: data.steamdownload.top
   type: trojan
+- name: 13|美国+5
+  password: 414dff55-922a-4dc8-b5d3-b6517942b25a
+  port: 15005
+  server: east.eeeeeef998.buzz
+  skip-cert-verify: true
+  sni: data.steamdownload.top
+  type: trojan
 - name: 13|美国+6
   password: 414dff55-922a-4dc8-b5d3-b6517942b25a
   port: 15006
@@ -1988,19 +1995,6 @@ proxies:
   server: 153.121.76.150
   sni: hhcm.hhxaf.cc.cd
   type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 21|日本 013
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 160.16.59.9
-  skip-cert-verify: true
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: hhcm.hhxaf.cc.cd
@@ -11400,20 +11394,6 @@ proxies:
   port: 443
   server: renewed-porpoise.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '31,32|🇺🇸US-157.254.227.87-4785 #1'
-  network: ws
-  port: 443
-  server: 157.254.227.87
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5b411308-d796-4694-b58d-d252e35bb475
-  ws-opts:
-    headers:
-      Host: ''
-    path: /d252e35bb475
 - name: '31,32|🇬🇧GB-104.248.167.79-0388 #1'
   password: fg20mtCFHy
   port: 5624
@@ -11967,17 +11947,6 @@ proxies:
   port: 443
   server: endless-kiwi.rooster465.autos
   type: trojan
-- name: '31,32|🇰🇷KR-13.125.144.78-0222 #1'
-  password: AE62539071
-  port: 443
-  server: viable-serval.rooster465.autos
-  sni: viable-serval.rooster465.autos
-  type: trojan
-- name: '31,32|🇰🇷KR-43.203.206.201-0241 #1'
-  password: FH72359861
-  port: 443
-  server: massive-ocelot.rooster465.autos
-  type: trojan
 - name: 32|🇰🇷KR-43.202.61.210-0249
   password: FH72359861
   port: 443
@@ -12105,20 +12074,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 32|🇭🇰HK-47.244.120.197-4739
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
       Host: ''
@@ -19224,20 +19179,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇮🇩ID-103.180.95.29-4348
-  network: ws
-  port: 80
-  server: lms.uin-antasari.ac.id
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
-  ws-opts:
-    headers:
-      Host: exa.nextvpn.cc
-    path: /
-- alterId: 0
-  cipher: auto
   name: 32|🇺🇸US-172.239.194.103-4363
   network: ws
   port: 443
@@ -19550,34 +19491,6 @@ proxies:
   port: 443
   server: top-goshawk.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 32|🇺🇸US-157.254.227.87-0131
-  network: ws
-  port: 443
-  server: 157.254.227.87
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5b411308-d796-4694-b58d-d252e35bb475
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇩🇪DE-104.105.18.214-0128
-  network: ws
-  port: 2053
-  server: 104.105.18.214
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
-    path: /
 - name: 32|🇩🇪DE-63.176.171.181-4683
   password: IL37892054
   port: 443

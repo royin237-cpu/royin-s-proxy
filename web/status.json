@@ -1,15 +1,15 @@
 {
-  "total": 2409,
+  "total": 2406,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 102
+      "count": 101
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 235
+      "count": 236
     },
     "CN": {
       "flag": "🇨🇳",
@@ -49,7 +49,7 @@
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 5
+      "count": 3
     },
     "RU": {
       "flag": "🇷🇺",
@@ -67,8 +67,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-19 16:08",
-  "server_time": "2026-08-19 16:08:43",
+  "update_time": "2026-08-19 16:18",
+  "server_time": "2026-08-19 16:18:32",
   "sources": [
     {
       "index": 0,

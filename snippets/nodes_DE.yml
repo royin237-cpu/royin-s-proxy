@@ -234,20 +234,6 @@ proxies:
     headers:
       Host: ''
     path: /p3573l6m92h1ham3q23t
-- alterId: 0
-  cipher: auto
-  name: 32|🇩🇪DE-104.105.18.214-0128
-  network: ws
-  port: 2053
-  server: 104.105.18.214
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
-    path: /
 - name: 32|🇩🇪DE-63.176.171.181-4683
   password: IL37892054
   port: 443
