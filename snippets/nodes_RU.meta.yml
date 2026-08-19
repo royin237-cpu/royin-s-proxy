@@ -1,5 +1,5 @@
 proxies:
-- name: 21|俄罗斯 026
+- name: 21|俄罗斯 025
   network: xhttp
   port: 443
   server: 109.120.138.47

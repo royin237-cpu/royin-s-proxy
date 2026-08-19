@@ -1,4 +1,19 @@
 proxies:
+- name: 18|德国
+  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+  port: 443
+  server: bel-03.node.lumixnet.com
+  sni: bel-03.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: '18|德国 #1'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: de.1.23.h2corp.org
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: aes-128-gcm
   client-fingerprint: chrome
@@ -233,20 +248,6 @@ proxies:
     path: /4befdd8a6/
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-57.129.24.142-0470
-  network: ws
-  port: 443
-  server: 57.129.24.142
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 57.129.24.142
-    path: /linkvws
-- alterId: 0
-  cipher: auto
   name: 32|🇩🇪DE-91.195.240.94-1497
   network: ws
   port: 443
@@ -426,12 +427,3 @@ proxies:
   server: 108.61.171.167
   sni: getgrpc.mainssh.xyz
   type: trojan
-- name: 41|DE_speednode_0001
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 167.172.172.190
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: testuser1

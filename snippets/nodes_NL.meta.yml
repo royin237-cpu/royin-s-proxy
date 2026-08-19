@@ -23,11 +23,21 @@ proxies:
   ws-headers:
     host: dl.filmino.online
   ws-path: /graphql
-- name: 19|рҹҮірҹҮұNL-рҹҡҖ@VPNine1
-  password: gf1
+- name: '18|荷兰 #4'
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
   port: 443
-  server: 5.129.235.85
+  server: nl2.sferavpn.pro
   skip-cert-verify: true
+  sni: nl2.sferavpn.pro
+  tls: false
+  type: hysteria2
+- name: '18|荷兰 #6'
+  password: netherlands_3_hysteria2_fastlane_xr3nai71s
+  port: 443
+  server: 91.84.119.49
+  sni: nl4.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - name: 21|荷兰 001
@@ -311,44 +321,14 @@ proxies:
     headers:
       Host: ''
     path: /V2RayyNGvpn
-- name: 41|NL_speednode_0016
-  password: None
+- name: 41|NL_speednode_0004
   port: 9002
-  server: 84.17.47.146
+  server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 41|NL_speednode_0017
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 41|NL_speednode_0019
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 41|NL_speednode_0020
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 41|NL_speednode_0021
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 41|NL_speednode_0022
+- name: 41|NL_speednode_0005
   password: None
   port: 9002
   server: 84.17.47.125
@@ -356,23 +336,38 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 41|NL_speednode_0023
+- name: 41|NL_speednode_0006
   port: 9002
   server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 41|NL_speednode_0024
+- name: 41|NL_speednode_0007
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 41|NL_speednode_0008
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 41|NL_speednode_0009
   port: 9002
   server: 84.17.47.146
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 41|NL_speednode_0025
+- name: 41|NL_speednode_0010
   port: 9002
-  server: 84.17.47.125
+  server: 84.17.47.149
   skip-cert-verify: true
   tls: true
   type: http

@@ -123,22 +123,6 @@ proxies:
     headers:
       Host: www.82131333.xyz
     path: /path/191019072927
-- client-fingerprint: ios
-  name: 21|中国 065
-  network: ws
-  port: 443
-  server: 47.57.181.17
-  servername: edgood.889876.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: edgood.889876.xyz
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 32|🇨🇳CN-124.222.189.225-1754

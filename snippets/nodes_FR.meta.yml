@@ -306,20 +306,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇫🇷FR-162.19.192.89-0870
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0c657913-e593-4893-9555-f88478c33a4b
-  ws-opts:
-    headers:
-      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 32|🇫🇷FR-162.19.224.175-1198
   network: ws
   port: 80
@@ -429,10 +415,3 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: 41|FR_speednode_0002
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true

@@ -1,15 +1,15 @@
 {
-  "total": 2395,
+  "total": 2388,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 100
+      "count": 99
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 233
+      "count": 210
     },
     "CN": {
       "flag": "🇨🇳",
@@ -34,7 +34,7 @@
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 17
+      "count": 16
     },
     "SG": {
       "flag": "🇸🇬",
@@ -44,7 +44,7 @@
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 18
+      "count": 9
     },
     "KR": {
       "flag": "🇰🇷",
@@ -59,16 +59,16 @@
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 11
+      "count": 12
     },
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 1
+      "count": 2
     }
   },
-  "update_time": "2026-08-19 17:10",
-  "server_time": "2026-08-19 17:10:18",
+  "update_time": "2026-08-19 21:25",
+  "server_time": "2026-08-19 21:25:40",
   "sources": [
     {
       "index": 0,
@@ -163,12 +163,12 @@
     {
       "index": 18,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
-      "nodes": 47
+      "nodes": 46
     },
     {
       "index": 19,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 125
+      "nodes": 96
     },
     {
       "index": 20,
@@ -178,7 +178,7 @@
     {
       "index": 21,
       "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
-      "nodes": 1999
+      "nodes": 2110
     },
     {
       "index": 22,
@@ -278,7 +278,7 @@
     {
       "index": 41,
       "url": "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml",
-      "nodes": 159
+      "nodes": 141
     },
     {
       "index": 42,

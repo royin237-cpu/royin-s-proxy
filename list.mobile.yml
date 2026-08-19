@@ -1,4 +1,4 @@
-# Update: 2026-08-19 17:10
+# Update: 2026-08-19 21:25
 # 移动端轻量订阅：165 个存活节点（每地区最多 15 个），精简规则
 mixed-port: 7890
 allow-lan: false
@@ -6,11 +6,20 @@ mode: rule
 log-level: info
 ipv6: false
 proxies:
+- client-fingerprint: chrome
+  name: 21|日本 001
+  network: tcp
+  password: EQ30679154
+  port: 443
+  server: open-octopus.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - allowInsecure: '0'
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   fp: chrome
   insecure: '0'
-  name: 21|日本 001
+  name: 21|日本 003
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -28,7 +37,7 @@ proxies:
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   fp: chrome
   insecure: '0'
-  name: 21|日本 002
+  name: 21|日本 004
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -48,7 +57,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 21|日本 008
+  name: 21|日本 010
   network: ws
   packet-encoding: xudp
   port: 443
@@ -64,7 +73,7 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
     path: /
 - client-fingerprint: chrome
-  name: 21|日本 009
+  name: 21|日本 011
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -76,7 +85,7 @@ proxies:
       Host: hhcm.hhxaf.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 21|日本 010
+  name: 21|日本 012
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -88,7 +97,7 @@ proxies:
       Host: tjsp.hhxaf.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 21|日本 011
+  name: 21|日本 013
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -99,7 +108,19 @@ proxies:
     headers:
       Host: tjsp.hhxaf.cc.cd
     path: /
-- name: 21|日本 013
+- client-fingerprint: chrome
+  name: 21|日本 014
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 153.121.76.150
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- name: 21|日本 015
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -113,7 +134,7 @@ proxies:
       Host: hhcm.hhxaf.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 21|日本 014
+  name: 21|日本 016
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -124,7 +145,7 @@ proxies:
     headers:
       Host: hhcm.hhxaf.cc.cd
     path: /
-- name: 21|日本 018
+- name: 21|日本 020
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 2053
@@ -138,7 +159,7 @@ proxies:
       Host: tjsp.hhxaf.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 21|日本 019
+  name: 21|日本 021
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -150,7 +171,7 @@ proxies:
       Host: tjsp.hhxaf.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 21|日本 020
+  name: 21|日本 022
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -162,7 +183,7 @@ proxies:
       Host: tjsp.hhxaf.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 21|日本 021
+  name: 21|日本 023
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -174,7 +195,7 @@ proxies:
       Host: tjsp.hhxaf.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 21|日本 022
+  name: 21|日本 024
   network: ws
   password: humanity
   port: 443
@@ -186,30 +207,6 @@ proxies:
     headers:
       Host: www.multiplydose.com
     path: /assignment
-- name: 21|日本 023
-  network: ws
-  password: humanity
-  port: 443
-  server: 91.193.58.77
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 21|日本 026
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 125.192.207.63
-  skip-cert-verify: true
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
 - alterId: '0'
   cipher: auto
   name: 10,11|256_美国-334.7KB
@@ -286,38 +283,32 @@ proxies:
   skip-cert-verify: true
   sni: data.steamdownload.top
   type: trojan
-- client-fingerprint: chrome
-  name: 15|美国+CloudFlare节点
+- name: 15|美国+CloudFlare节点
   network: ws
-  port: 2087
-  server: 104.16.151.21
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: '15|美国+CloudFlare节点 #1'
-  network: ws
+  password: humanity
   port: 443
-  server: 172.64.147.2
-  servername: vltj.qzz.io
+  server: 104.18.152.133
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.108
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 506e4a91-1d05-5683-b84c-2113f673cb19
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
     headers:
-      Host: vltj.qzz.io
-    path: /id-pusat
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
 - name: '15|美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.12
+  server: 104.18.22.63
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -325,21 +316,21 @@ proxies:
 - client-fingerprint: chrome
   name: '15|美国+CloudFlare节点 #3'
   network: ws
-  port: 8443
-  server: singapore.com
-  servername: c7dabe95.proxy-978.pages.dev
+  port: 443
+  server: 104.16.72.251
+  servername: hhlfy.twiladaphne.ndjp.net
   tls: true
   type: vless
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: c7dabe95.proxy-978.pages.dev
+      Host: hhlfy.twiladaphne.ndjp.net
     path: /
-- name: 15,32|🏁RELAY-104.17.111.3-0894
+- name: '15|美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
-  server: 104.17.111.3
+  server: www.ignitelimit.com
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -348,23 +339,22 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: ip.myip2.qzz.io
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.37
+  server: 104.16.174.14
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #6'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.233
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
     path: '%2Fassignment'
 - name: 32|🇭🇰HK-185.244.208.13-4779
   password: ND91608427
@@ -489,24 +479,34 @@ proxies:
   server: 219.76.13.181
   sni: arbettp.freetrade.link
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 33,34,39|香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: v10.hdacd.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: '38|🇭🇰 香港|@ripaojiedian #1'
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: random
   name: 40|TG@ZDYZ2 -HK-Hong Kong3
   network: ws
   port: 2096
   server: 45.80.111.38
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- client-fingerprint: random
-  name: 40|TG@ZDYZ2 -HK-Hong Kong7
-  network: ws
-  port: 443
-  server: 43.198.53.11
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -710,6 +710,20 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
+  name: 32|🇸🇬SG-146.190.82.241-1304
+  network: ws
+  port: 80
+  server: 146.190.82.241
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 32|🇸🇬SG-56.10.28.155-1461
   network: ws
   port: 20025
@@ -722,6 +736,20 @@ proxies:
     headers:
       Host: sh-cn-1.dnspro.icu
     path: /iso
+- alterId: 0
+  cipher: auto
+  name: 32|🇸🇬SG-146.190.82.241-1717
+  network: ws
+  port: 443
+  server: 146.190.82.241
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 32|🇸🇬SG-15.235.184.36-2050
@@ -750,34 +778,6 @@ proxies:
     headers:
       Host: ''
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-109.123.237.41-2082
-  network: ws
-  port: 80
-  server: 109.123.237.41
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-109.123.237.41-2244
-  network: ws
-  port: 80
-  server: 109.123.237.41
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fastssh
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
@@ -861,19 +861,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|韩国 016
-  network: ws
-  port: 80
-  server: 132.145.80.230
-  type: vmess
-  udp: true
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  ws-opts:
-    headers:
-      Host: kr02.a0a.xyz
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
   name: 32|🇰🇷KR-52.231.200.179-1626
   network: ws
   port: 443
@@ -937,7 +924,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
 - client-fingerprint: chrome
-  name: 21|英国 003
+  name: 21|英国 004
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -949,7 +936,7 @@ proxies:
       Host: tjsp.hhxaf.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 21|英国 006
+  name: 21|英国 007
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -960,7 +947,7 @@ proxies:
     headers:
       Host: tjsp.hhxaf.cc.cd
     path: /
-- name: 21|英国 007
+- name: 21|英国 008
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -975,7 +962,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|英国 018
+  name: 21|英国 019
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -984,7 +971,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 21|英国 019
+  name: 21|英国 020
   network: tcp
   port: 180
   server: 82.198.246.37
@@ -994,7 +981,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 21|英国 020
+  name: 21|英国 021
   network: tcp
   packet-encoding: xudp
   port: 180
@@ -1007,7 +994,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 21|英国 022
+  name: 21|英国 023
   network: tcp
   port: 180
   server: 82.198.246.233
@@ -1015,7 +1002,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  name: 21|英国 023
+  name: 21|英国 024
   network: tcp
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -1024,7 +1011,7 @@ proxies:
   type: ss
   udp: false
 - cipher: chacha20-ietf-poly1305
-  name: 21|英国 024
+  name: 21|英国 025
   network: tcp
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -1034,7 +1021,7 @@ proxies:
   udp: false
 - alterId: 0
   cipher: auto
-  name: 21|英国 038
+  name: 21|英国 039
   network: ws
   port: 80
   server: eu-2.hihu.net
@@ -1047,7 +1034,7 @@ proxies:
     path: /ch12y6ij
 - alterId: 64
   cipher: auto
-  name: 21|英国 043
+  name: 21|英国 044
   network: ws
   port: 443
   server: 217.138.197.171
@@ -1059,22 +1046,6 @@ proxies:
     headers:
       Host: www.29870011.xyz
     path: /path/191019072927
-- client-fingerprint: ios
-  name: 21|英国 045
-  network: ws
-  port: 443
-  server: 158.180.75.201
-  servername: edgood.889876.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: edgood.889876.xyz
-    path: /?ed=2048
 - name: 29|🇬🇧 FASTNET 10
   network: ws
   port: 8443
@@ -1115,6 +1086,20 @@ proxies:
     headers:
       Host: ''
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 32|🇬🇧GB-46.175.135.9-1292
+  network: ws
+  port: 443
+  server: haxus3.janechiu.icu
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0df258cb-a376-4b8e-a378-a556a4658aeb
+  ws-opts:
+    headers:
+      Host: haxus3.janechiu.icu
+    path: /
 - name: 21|法国 001
   network: ws
   packet-encoding: xudp
@@ -1344,6 +1329,21 @@ proxies:
   type: vless
   udp: true
   uuid: 401374e6-df77-41fb-f638-dad8184f175b
+- name: 18|德国
+  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+  port: 443
+  server: bel-03.node.lumixnet.com
+  sni: bel-03.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: '18|德国 #1'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: de.1.23.h2corp.org
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: aes-128-gcm
   client-fingerprint: chrome
@@ -1528,31 +1528,8 @@ proxies:
     headers:
       Host: www.87416132.xyz
     path: /path/191019072927
-- name: 29|🇩🇪 FASTNET 19
-  network: ws
-  port: 8443
-  server: www.speedtest.net
-  servername: hetzner-2.access.name.ng
-  tls: true
-  type: vless
-  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
-  ws-opts:
-    headers:
-      Host: hetzner-2.access.name.ng
-    path: '%2F'
-- name: 29|🇩🇪 FASTNET 07
-  network: ws
-  port: 8080
-  server: 8.47.69.4
-  tls: false
-  type: vless
-  uuid: f9a8a2ae-6daa-4437-a383-db49833992d4
-  ws-opts:
-    headers:
-      Host: ewedwdewed.farcadezero.ir
-    path: '%2F'
 - client-fingerprint: chrome
-  name: 21|加拿大 001
+  name: 21|加拿大 002
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -1566,7 +1543,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
-  name: 21|加拿大 003
+  name: 21|加拿大 004
   network: tcp
   port: 35034
   server: 165.154.195.38
@@ -1574,7 +1551,7 @@ proxies:
   type: vmess
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - client-fingerprint: chrome
-  name: 21|加拿大 020
+  name: 21|加拿大 021
   network: tcp
   port: 443
   server: 142.132.161.197
@@ -1585,20 +1562,6 @@ proxies:
   type: vless
   udp: true
   uuid: 2f5e1739-8007-4f66-9ea6-577f0e574976
-- alterId: 0
-  cipher: auto
-  name: '31,32|🇨🇦CA-23.162.200.227-0471 #1'
-  network: ws
-  port: 443
-  server: 23.162.200.227
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 23.162.200.227
-    path: /linkvws
 - name: 32|🇨🇦CA-148.113.141.99-0641
   password: HdsUZmsHQW
   port: 443
@@ -1669,7 +1632,7 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- name: 21|俄罗斯 026
+- name: 21|俄罗斯 025
   network: xhttp
   port: 443
   server: 109.120.138.47
@@ -1778,7 +1741,23 @@ proxies:
   type: vless
   udp: true
   uuid: 601ad357-c8cf-491f-98e6-62175e130658
-- name: 21|瑞典 007
+- client-fingerprint: firefox
+  name: 21|瑞典 007
+  network: ws
+  port: 80
+  server: Zmaoz.Faculty.Ucdavis.Edu
+  servername: Parsashonam-DE.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Parsashonam-DE.ir
+    path: /
+- name: 21|瑞典 008
   network: ws
   port: 80
   server: 146.75.55.82
@@ -1793,9 +1772,40 @@ proxies:
     headers:
       Host: rtakp.ir
     path: /download?ed=2560
+- name: 21|瑞典 009
+  network: ws
+  port: 443
+  server: pscresearch.faculty.ucdavis.edu
+  servername: ihvtcd6ybun.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8d391797-01f4-4393-92d0-504c96ca4c29
+  ws-opts:
+    headers:
+      Host: ihvtcd6ybun.com
+    path: ws/?ed=2048
+- client-fingerprint: firefox
+  name: 21|瑞典 010
+  network: ws
+  port: 443
+  server: Zmaoz.Faculty.Ucdavis.Edu
+  servername: ParsashonamVPN.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ParsashonamVPN.ir
+    path: /
 - alterId: 0
   cipher: auto
-  name: 21|瑞典 009
+  name: 21|瑞典 012
   network: ws
   port: 80
   server: 185.146.173.25
@@ -1806,20 +1816,6 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.safari-df.ir.
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 41|SE_speednode_0116
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: sBSNX3DhJSWOkqTmRHisayVLisCBQLb4JcpKzwCrvC0
-  server: 164.37.105.38
-  servername: gb.cdn.cachefleet.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
 - alterId: '0'
   cipher: auto
   name: 11|99_中国-1.70MB
@@ -1944,22 +1940,6 @@ proxies:
     headers:
       Host: www.82131333.xyz
     path: /path/191019072927
-- client-fingerprint: ios
-  name: 21|中国 065
-  network: ws
-  port: 443
-  server: 47.57.181.17
-  servername: edgood.889876.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: edgood.889876.xyz
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 32|🇨🇳CN-124.222.189.225-1754
@@ -1993,20 +1973,20 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 21|日本 001
-  - 21|日本 002
-  - 21|日本 008
-  - 21|日本 009
+  - 21|日本 003
+  - 21|日本 004
   - 21|日本 010
   - 21|日本 011
+  - 21|日本 012
   - 21|日本 013
   - 21|日本 014
-  - 21|日本 018
-  - 21|日本 019
+  - 21|日本 015
+  - 21|日本 016
   - 21|日本 020
   - 21|日本 021
   - 21|日本 022
   - 21|日本 023
-  - 21|日本 026
+  - 21|日本 024
   - 10,11|256_美国-334.7KB
   - 10,11|274_美国-315.7KB
   - 10,11|458_亚美亚-383.4KB
@@ -2019,7 +1999,7 @@ proxy-groups:
   - '15|美国+CloudFlare节点 #1'
   - '15|美国+CloudFlare节点 #2'
   - '15|美国+CloudFlare节点 #3'
-  - 15,32|🏁RELAY-104.17.111.3-0894
+  - '15|美国+CloudFlare节点 #4'
   - '15|美国+CloudFlare节点 #5'
   - '15|美国+CloudFlare节点 #6'
   - 32|🇭🇰HK-185.244.208.13-4779
@@ -2034,8 +2014,9 @@ proxy-groups:
   - 32|🇭🇰HK-20.187.85.198-4172
   - 32|🇭🇰HK-185.244.208.25-4673
   - 32|🇭🇰HK-219.76.13.181-6461
+  - 33,34,39|香港|@ripaojiedian
+  - '38|🇭🇰 香港|@ripaojiedian #1'
   - 40|TG@ZDYZ2 -HK-Hong Kong3
-  - 40|TG@ZDYZ2 -HK-Hong Kong7
   - 32|🇹🇼TW-60.250.152.229-2409
   - 32|🇹🇼TW-60.250.152.208-2478
   - 32|🇹🇼TW-60.250.152.208-2523
@@ -2059,39 +2040,38 @@ proxy-groups:
   - 32|🇸🇬SG-139.99.61.154-1155
   - 32|🇸🇬SG-202.79.172.53-1251
   - 32|🇸🇬SG-143.198.219.182-1267
+  - 32|🇸🇬SG-146.190.82.241-1304
   - 32|🇸🇬SG-56.10.28.155-1461
+  - 32|🇸🇬SG-146.190.82.241-1717
   - 32|🇸🇬SG-15.235.184.36-2050
   - 32|🇸🇬SG-139.99.61.154-2055
-  - 32|🇸🇬SG-109.123.237.41-2082
-  - 32|🇸🇬SG-109.123.237.41-2244
   - 21|韩国 001
   - 21|韩国 009
   - 21|韩国 010
   - 21|韩国 011
   - 21|韩国 012
   - 21|韩国 013
-  - 21|韩国 016
   - 32|🇰🇷KR-52.231.200.179-1626
   - 32|🇰🇷KR-144.24.72.126-2638
   - 32|🇰🇷KR-3.34.6.217-3697
   - 32|🇰🇷KR-150.109.240.179-4768
   - 40|TG@ZDYZ2 -KR5
   - 40|TG@ZDYZ2 -KR2
-  - 21|英国 003
-  - 21|英国 006
+  - 21|英国 004
   - 21|英国 007
-  - 21|英国 018
+  - 21|英国 008
   - 21|英国 019
   - 21|英国 020
-  - 21|英国 022
+  - 21|英国 021
   - 21|英国 023
   - 21|英国 024
-  - 21|英国 038
-  - 21|英国 043
-  - 21|英国 045
+  - 21|英国 025
+  - 21|英国 039
+  - 21|英国 044
   - 29|🇬🇧 FASTNET 10
   - 32|🇬🇧GB-46.175.135.9-0310
   - 32|🇬🇧GB-51.89.138.147-0331
+  - 32|🇬🇧GB-46.175.135.9-1292
   - 21|法国 001
   - 21|法国 002
   - 21|法国 003
@@ -2107,6 +2087,8 @@ proxy-groups:
   - 21|法国 017
   - 21|法国 030
   - 21|法国 041
+  - 18|德国
+  - '18|德国 #1'
   - 21|德国 006
   - 21|德国 015
   - 21|德国 016
@@ -2120,12 +2102,9 @@ proxy-groups:
   - 21|德国 117
   - 21|德国 127
   - 21|德国 128
-  - 29|🇩🇪 FASTNET 19
-  - 29|🇩🇪 FASTNET 07
-  - 21|加拿大 001
-  - 21|加拿大 003
-  - 21|加拿大 020
-  - '31,32|🇨🇦CA-23.162.200.227-0471 #1'
+  - 21|加拿大 002
+  - 21|加拿大 004
+  - 21|加拿大 021
   - 32|🇨🇦CA-148.113.141.99-0641
   - 32|🇨🇦CA-158.51.121.36-1936
   - 32|🇨🇦CA-51.222.86.136-1958
@@ -2133,7 +2112,7 @@ proxy-groups:
   - 32|🇨🇦CA-158.51.121.63-0134
   - 32|🇨🇦CA-137.184.164.233-6516
   - '40|🇨🇦_CA_加拿大 #2'
-  - 21|俄罗斯 026
+  - 21|俄罗斯 025
   - 29|🇷🇺 FASTNET 11
   - 32|🇷🇺RU-45.11.92.100-0022
   - 32|🇷🇺RU-45.11.92.100-0021
@@ -2143,8 +2122,10 @@ proxy-groups:
   - 40|🇷🇺+RU+俄罗斯联邦+11
   - 21|瑞典 006
   - 21|瑞典 007
+  - 21|瑞典 008
   - 21|瑞典 009
-  - 41|SE_speednode_0116
+  - 21|瑞典 010
+  - 21|瑞典 012
   - 11|99_中国-1.70MB
   - 21|中国 001
   - 21|中国 003
@@ -2154,7 +2135,6 @@ proxy-groups:
   - 21|中国 021
   - 21|中国 028
   - 21|中国 056
-  - 21|中国 065
   - 32|🇨🇳CN-124.222.189.225-1754
   - 40|🇨🇳+CN+中国+34
 - name: ♻️ 自动选择
@@ -2163,20 +2143,20 @@ proxy-groups:
   interval: 300
   proxies:
   - 21|日本 001
-  - 21|日本 002
-  - 21|日本 008
-  - 21|日本 009
+  - 21|日本 003
+  - 21|日本 004
   - 21|日本 010
   - 21|日本 011
+  - 21|日本 012
   - 21|日本 013
   - 21|日本 014
-  - 21|日本 018
-  - 21|日本 019
+  - 21|日本 015
+  - 21|日本 016
   - 21|日本 020
   - 21|日本 021
   - 21|日本 022
   - 21|日本 023
-  - 21|日本 026
+  - 21|日本 024
   - 10,11|256_美国-334.7KB
   - 10,11|274_美国-315.7KB
   - 10,11|458_亚美亚-383.4KB
@@ -2189,7 +2169,7 @@ proxy-groups:
   - '15|美国+CloudFlare节点 #1'
   - '15|美国+CloudFlare节点 #2'
   - '15|美国+CloudFlare节点 #3'
-  - 15,32|🏁RELAY-104.17.111.3-0894
+  - '15|美国+CloudFlare节点 #4'
   - '15|美国+CloudFlare节点 #5'
   - '15|美国+CloudFlare节点 #6'
   - 32|🇭🇰HK-185.244.208.13-4779
@@ -2204,8 +2184,9 @@ proxy-groups:
   - 32|🇭🇰HK-20.187.85.198-4172
   - 32|🇭🇰HK-185.244.208.25-4673
   - 32|🇭🇰HK-219.76.13.181-6461
+  - 33,34,39|香港|@ripaojiedian
+  - '38|🇭🇰 香港|@ripaojiedian #1'
   - 40|TG@ZDYZ2 -HK-Hong Kong3
-  - 40|TG@ZDYZ2 -HK-Hong Kong7
   - 32|🇹🇼TW-60.250.152.229-2409
   - 32|🇹🇼TW-60.250.152.208-2478
   - 32|🇹🇼TW-60.250.152.208-2523
@@ -2229,39 +2210,38 @@ proxy-groups:
   - 32|🇸🇬SG-139.99.61.154-1155
   - 32|🇸🇬SG-202.79.172.53-1251
   - 32|🇸🇬SG-143.198.219.182-1267
+  - 32|🇸🇬SG-146.190.82.241-1304
   - 32|🇸🇬SG-56.10.28.155-1461
+  - 32|🇸🇬SG-146.190.82.241-1717
   - 32|🇸🇬SG-15.235.184.36-2050
   - 32|🇸🇬SG-139.99.61.154-2055
-  - 32|🇸🇬SG-109.123.237.41-2082
-  - 32|🇸🇬SG-109.123.237.41-2244
   - 21|韩国 001
   - 21|韩国 009
   - 21|韩国 010
   - 21|韩国 011
   - 21|韩国 012
   - 21|韩国 013
-  - 21|韩国 016
   - 32|🇰🇷KR-52.231.200.179-1626
   - 32|🇰🇷KR-144.24.72.126-2638
   - 32|🇰🇷KR-3.34.6.217-3697
   - 32|🇰🇷KR-150.109.240.179-4768
   - 40|TG@ZDYZ2 -KR5
   - 40|TG@ZDYZ2 -KR2
-  - 21|英国 003
-  - 21|英国 006
+  - 21|英国 004
   - 21|英国 007
-  - 21|英国 018
+  - 21|英国 008
   - 21|英国 019
   - 21|英国 020
-  - 21|英国 022
+  - 21|英国 021
   - 21|英国 023
   - 21|英国 024
-  - 21|英国 038
-  - 21|英国 043
-  - 21|英国 045
+  - 21|英国 025
+  - 21|英国 039
+  - 21|英国 044
   - 29|🇬🇧 FASTNET 10
   - 32|🇬🇧GB-46.175.135.9-0310
   - 32|🇬🇧GB-51.89.138.147-0331
+  - 32|🇬🇧GB-46.175.135.9-1292
   - 21|法国 001
   - 21|法国 002
   - 21|法国 003
@@ -2277,6 +2257,8 @@ proxy-groups:
   - 21|法国 017
   - 21|法国 030
   - 21|法国 041
+  - 18|德国
+  - '18|德国 #1'
   - 21|德国 006
   - 21|德国 015
   - 21|德国 016
@@ -2290,12 +2272,9 @@ proxy-groups:
   - 21|德国 117
   - 21|德国 127
   - 21|德国 128
-  - 29|🇩🇪 FASTNET 19
-  - 29|🇩🇪 FASTNET 07
-  - 21|加拿大 001
-  - 21|加拿大 003
-  - 21|加拿大 020
-  - '31,32|🇨🇦CA-23.162.200.227-0471 #1'
+  - 21|加拿大 002
+  - 21|加拿大 004
+  - 21|加拿大 021
   - 32|🇨🇦CA-148.113.141.99-0641
   - 32|🇨🇦CA-158.51.121.36-1936
   - 32|🇨🇦CA-51.222.86.136-1958
@@ -2303,7 +2282,7 @@ proxy-groups:
   - 32|🇨🇦CA-158.51.121.63-0134
   - 32|🇨🇦CA-137.184.164.233-6516
   - '40|🇨🇦_CA_加拿大 #2'
-  - 21|俄罗斯 026
+  - 21|俄罗斯 025
   - 29|🇷🇺 FASTNET 11
   - 32|🇷🇺RU-45.11.92.100-0022
   - 32|🇷🇺RU-45.11.92.100-0021
@@ -2313,8 +2292,10 @@ proxy-groups:
   - 40|🇷🇺+RU+俄罗斯联邦+11
   - 21|瑞典 006
   - 21|瑞典 007
+  - 21|瑞典 008
   - 21|瑞典 009
-  - 41|SE_speednode_0116
+  - 21|瑞典 010
+  - 21|瑞典 012
   - 11|99_中国-1.70MB
   - 21|中国 001
   - 21|中国 003
@@ -2324,7 +2305,6 @@ proxy-groups:
   - 21|中国 021
   - 21|中国 028
   - 21|中国 056
-  - 21|中国 065
   - 32|🇨🇳CN-124.222.189.225-1754
   - 40|🇨🇳+CN+中国+34
 - name: 🐟 漏网之鱼
