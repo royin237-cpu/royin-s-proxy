@@ -1826,18 +1826,6 @@ proxies:
       Host: www.calmlunch.com
     path: /assignment
 - client-fingerprint: chrome
-  name: 21|日本 021
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 153.121.32.71
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- client-fingerprint: chrome
   name: 21|日本 022
   network: ws
   password: humanity
@@ -2736,6 +2724,16 @@ proxies:
   type: vmess
   udp: true
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: 21|加拿大 003
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
   name: 21|以色列 001
@@ -5364,13 +5362,6 @@ proxies:
   server: 3.112.15.214
   sni: adjusted-labrador.rooster465.autos
   type: trojan
-- name: 31,32,33,34|🇺🇸_US_美国
-  password: fg20mtCFHy
-  port: 5444
-  server: 173.255.247.228
-  skip-cert-verify: true
-  sni: frsdata.southbyte.xyz
-  type: trojan
 - name: '31,32|🇯🇵JP-57.180.13.78-0144 #1'
   password: ND91608427
   port: 443
@@ -5401,23 +5392,11 @@ proxies:
   port: 443
   server: endless-kiwi.rooster465.autos
   type: trojan
-- name: 32|🇰🇷KR-43.202.61.210-0249
-  password: FH72359861
-  port: 443
-  server: 43.202.61.210
-  sni: loyal-molly.rooster465.autos
-  type: trojan
 - name: 32|🇸🇬SG-47.129.183.20-0999
   password: PQ05174892
   port: 443
   server: welcome-monitor.rooster465.autos
   sni: welcome-monitor.rooster465.autos
-  type: trojan
-- name: 32|🇮🇳IN-157.245.99.215-0389
-  password: fg20mtCFHy
-  port: 5750
-  server: 157.245.99.215
-  sni: inyct.southbyte.xyz
   type: trojan
 - alterId: 0
   cipher: auto
@@ -5528,6 +5507,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 32|🇭🇰HK-47.244.120.197-4739
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
       Host: ''
@@ -12633,6 +12626,20 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 32|🇮🇩ID-103.180.95.29-4348
+  network: ws
+  port: 80
+  server: lms.uin-antasari.ac.id
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
+  ws-opts:
+    headers:
+      Host: exa.nextvpn.cc
+    path: /
+- alterId: 0
+  cipher: auto
   name: 32|🇺🇸US-172.239.194.103-4363
   network: ws
   port: 443
@@ -12945,6 +12952,20 @@ proxies:
   port: 443
   server: top-goshawk.rooster465.autos
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-104.105.18.214-0128
+  network: ws
+  port: 2053
+  server: 104.105.18.214
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: deapp.jisuyun.top
+    path: /
 - name: 32|🇩🇪DE-63.176.171.181-4683
   password: IL37892054
   port: 443
@@ -13605,20 +13626,6 @@ proxies:
     headers:
       Host: cf-lt.sharecentre.online
     path: 4a47e680
-- alterId: 0
-  cipher: auto
-  name: 32|🇺🇸US-103.224.182.210-6705
-  network: ws
-  port: 443
-  server: btbu996.icu
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 16702ec2-3808-46e6-a7b5-582c062be13d
-  ws-opts:
-    headers:
-      Host: btbu996.icu
-    path: /
 - alterId: 0
   cipher: auto
   name: 32|🏁RELAY-172.64.146.48-6706
@@ -18309,20 +18316,6 @@ proxies:
   server: 34.131.228.210
   skip-cert-verify: true
   sni: hyfuuf6.wsone.icu
-  type: trojan
-- name: '33,34|🇯🇵_JP_日本 #1'
-  password: fg20mtCFHy
-  port: 6092
-  server: 172.104.77.237
-  skip-cert-verify: true
-  sni: tkicy.southbyte.xyz
-  type: trojan
-- name: '33,34|🇯🇵_JP_日本 #2'
-  password: fg20mtCFHy
-  port: 5710
-  server: 172.105.197.232
-  skip-cert-verify: true
-  sni: jpcaw.southbyte.xyz
   type: trojan
 - name: '33,34|🇯🇵_JP_日本 #3'
   password: HC04361579

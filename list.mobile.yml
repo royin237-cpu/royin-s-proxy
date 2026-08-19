@@ -1,5 +1,5 @@
-# Update: 2026-08-19 16:18
-# 移动端轻量订阅：163 个存活节点（每地区最多 15 个），精简规则
+# Update: 2026-08-19 16:52
+# 移动端轻量订阅：164 个存活节点（每地区最多 15 个），精简规则
 mixed-port: 7890
 allow-lan: false
 mode: rule
@@ -161,18 +161,6 @@ proxies:
       Host: tjsp.hhxaf.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 21|日本 021
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 153.121.32.71
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- client-fingerprint: chrome
   name: 21|日本 022
   network: ws
   password: humanity
@@ -205,6 +193,19 @@ proxies:
   sni: tjsp.hhxaf.cc.cd
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 21|日本 028
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 8443
+  server: 146.56.187.1
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
   ws-opts:
     headers:
       Host: tjsp.hhxaf.cc.cd
@@ -405,6 +406,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 32|🇭🇰HK-47.244.120.197-4739
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
       Host: ''
@@ -848,12 +863,6 @@ proxies:
     headers:
       Host: hhcm.hhxaf.cc.cd
     path: /
-- name: 32|🇰🇷KR-43.202.61.210-0249
-  password: FH72359861
-  port: 443
-  server: 43.202.61.210
-  sni: loyal-molly.rooster465.autos
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 32|🇰🇷KR-52.231.200.179-1626
@@ -1541,6 +1550,16 @@ proxies:
     headers:
       Host: hhcm.hhxaf.cc.cd
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: 21|加拿大 003
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - client-fingerprint: chrome
   name: 21|加拿大 020
   network: tcp
@@ -1971,10 +1990,10 @@ proxy-groups:
   - 21|日本 018
   - 21|日本 019
   - 21|日本 020
-  - 21|日本 021
   - 21|日本 022
   - 21|日本 023
   - 21|日本 026
+  - 21|日本 028
   - 10,11|256_美国-334.7KB
   - 10,11|274_美国-315.7KB
   - 10,11|458_亚美亚-383.4KB
@@ -1994,6 +2013,7 @@ proxy-groups:
   - 32|🇭🇰HK-43.199.135.95-4796
   - 32|🇭🇰HK-43.100.32.4-1817
   - 32|🇭🇰HK-47.244.120.197-4738
+  - 32|🇭🇰HK-47.244.120.197-4739
   - 32|🇭🇰HK-47.239.189.182-0415
   - 32|🇭🇰HK-47.239.189.182-0423
   - 32|🇭🇰HK-207.46.147.148-1601
@@ -2037,7 +2057,6 @@ proxy-groups:
   - 21|韩国 011
   - 21|韩国 012
   - 21|韩国 013
-  - 32|🇰🇷KR-43.202.61.210-0249
   - 32|🇰🇷KR-52.231.200.179-1626
   - 32|🇰🇷KR-144.24.72.126-2638
   - 32|🇰🇷KR-3.34.6.217-3697
@@ -2090,6 +2109,7 @@ proxy-groups:
   - 21|德国 128
   - 29|🇩🇪 FASTNET 19
   - 21|加拿大 001
+  - 21|加拿大 003
   - 21|加拿大 020
   - '31,32|🇨🇦CA-23.162.200.227-0471 #1'
   - 32|🇨🇦CA-148.113.141.99-0641
@@ -2139,10 +2159,10 @@ proxy-groups:
   - 21|日本 018
   - 21|日本 019
   - 21|日本 020
-  - 21|日本 021
   - 21|日本 022
   - 21|日本 023
   - 21|日本 026
+  - 21|日本 028
   - 10,11|256_美国-334.7KB
   - 10,11|274_美国-315.7KB
   - 10,11|458_亚美亚-383.4KB
@@ -2162,6 +2182,7 @@ proxy-groups:
   - 32|🇭🇰HK-43.199.135.95-4796
   - 32|🇭🇰HK-43.100.32.4-1817
   - 32|🇭🇰HK-47.244.120.197-4738
+  - 32|🇭🇰HK-47.244.120.197-4739
   - 32|🇭🇰HK-47.239.189.182-0415
   - 32|🇭🇰HK-47.239.189.182-0423
   - 32|🇭🇰HK-207.46.147.148-1601
@@ -2205,7 +2226,6 @@ proxy-groups:
   - 21|韩国 011
   - 21|韩国 012
   - 21|韩国 013
-  - 32|🇰🇷KR-43.202.61.210-0249
   - 32|🇰🇷KR-52.231.200.179-1626
   - 32|🇰🇷KR-144.24.72.126-2638
   - 32|🇰🇷KR-3.34.6.217-3697
@@ -2258,6 +2278,7 @@ proxy-groups:
   - 21|德国 128
   - 29|🇩🇪 FASTNET 19
   - 21|加拿大 001
+  - 21|加拿大 003
   - 21|加拿大 020
   - '31,32|🇨🇦CA-23.162.200.227-0471 #1'
   - 32|🇨🇦CA-148.113.141.99-0641

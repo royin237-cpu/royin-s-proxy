@@ -2753,13 +2753,6 @@ proxies:
   server: 147.182.198.83
   sni: sfouctc.southbyte.xyz
   type: trojan
-- name: 31,32,33,34|🇺🇸_US_美国
-  password: fg20mtCFHy
-  port: 5444
-  server: 173.255.247.228
-  skip-cert-verify: true
-  sni: frsdata.southbyte.xyz
-  type: trojan
 - alterId: 64
   cipher: auto
   h2-opts:
@@ -3551,20 +3544,6 @@ proxies:
     headers:
       Host: cf-lt.sharecentre.online
     path: 4a47e680
-- alterId: 0
-  cipher: auto
-  name: 32|🇺🇸US-103.224.182.210-6705
-  network: ws
-  port: 443
-  server: btbu996.icu
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 16702ec2-3808-46e6-a7b5-582c062be13d
-  ws-opts:
-    headers:
-      Host: btbu996.icu
-    path: /
 - alterId: 0
   cipher: auto
   name: 32|🇺🇸US-66.241.124.93-6741

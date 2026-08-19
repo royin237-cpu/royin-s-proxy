@@ -1,10 +1,4 @@
 proxies:
-- name: 32|🇮🇳IN-157.245.99.215-0389
-  password: fg20mtCFHy
-  port: 5750
-  server: 157.245.99.215
-  sni: inyct.southbyte.xyz
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 32|🇮🇳IN-152.67.8.205-4742

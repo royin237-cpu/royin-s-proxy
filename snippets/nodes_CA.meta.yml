@@ -11,6 +11,16 @@ proxies:
     headers:
       Host: hhcm.hhxaf.cc.cd
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  name: 21|加拿大 003
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - client-fingerprint: chrome
   name: 21|加拿大 020
   network: tcp
