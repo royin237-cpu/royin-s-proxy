@@ -1019,126 +1019,109 @@ def precheck_alive(timeout: float = PRECHECK_TIMEOUT, workers: int = PRECHECK_WO
     return len(to_remove)
 
 
-# ── HTTP 测速预检 ──
-# TCP 预检只能测端口是否开放，不能测节点是否真正能代理上网。
-# HTTP 测速通过 mihomo 内核启动临时实例，对每个节点发 HTTP 请求（generate_204），
-# 剔除"端口开放但无法代理"的节点（如过期/被封/配置错误的节点）。
-# 仅在 GitHub Actions 上运行（需要 mihomo 可执行文件）；本地创建 local_NO_SPEEDTEST 关闭。
+# ── 云端真实测速预检 ──
+# TCP 预检只能测端口是否开放，无法测出"端口通但不能代理上网"的节点（过期/被封/协议错误）。
+# 云端测速：在 GitHub Actions 上启动真实 mihomo 实例，通过 RESTful API 对全部节点并发做
+# generate_204 延迟测试，只发布实测可用的节点 → 客户端地区分组不再满屏 Timeout。
+# workflow 需下载 mihomo 内核与 geodata 并设置 MIHOMO_BIN/MIHOMO_DATA 环境变量。
+# 本地创建 local_NO_SPEEDTEST 文件可关闭。
 SPEEDTEST = not os.path.exists("local_NO_SPEEDTEST")
-SPEEDTEST_TIMEOUT = 8      # 单节点测速超时（秒）
-SPEEDTEST_CONCURRENCY = 50  # 同时测速的节点数
+SPEEDTEST_TIMEOUT_MS = 4000  # 单节点测速超时（毫秒）
 
 
-def http_speedtest() -> int:
-    """通过 mihomo 内核对每个节点做 HTTP 代理测速，剔除无法代理上网的节点。
-    流程：生成临时配置 → 启动 mihomo → 对每个节点发 HTTP 请求 → 剔除失败的。
-    返回剔除的节点数。"""
+def mihomo_speedtest() -> int:
+    """启动 mihomo 临时实例对节点做真实代理测速，剔除延迟测试失败（无法上网）的节点。
+    返回剔除的节点数。任何环节出错都安全跳过（保留 TCP 预检结果）。"""
     global merged
-    if not merged:
+    if not SPEEDTEST or not merged:
+        return 0
+    import subprocess, tempfile, shutil, time as _time
+    mihomo_bin = os.environ.get('MIHOMO_BIN', '') or shutil.which('mihomo') or shutil.which('mihomo.exe')
+    if not mihomo_bin or not os.path.exists(mihomo_bin):
+        print("⚠ 未找到 mihomo 可执行文件（MIHOMO_BIN），跳过云端测速。")
         return 0
 
-    # 查找 mihomo 可执行文件
-    mihomo_bin = os.environ.get('MIHOMO_BIN', '')
-    if not mihomo_bin:
-        for name in ('mihomo', 'mihomo.exe', 'clash-meta', 'clash'):
-            p = shutil.which(name)
-            if p:
-                mihomo_bin = p
-                break
-    if not mihomo_bin:
-        print("⚠ 未找到 mihomo 可执行文件，跳过 HTTP 测速预检。")
+    # 只对 meta 支持的节点测速（其余节点只进 V2Ray base64 订阅，数量少）
+    to_test = [(h, n) for h, n in merged.items() if n.supports_meta()]
+    if not to_test:
         return 0
 
-    import tempfile, subprocess, time as _time
-    test_url = "http://www.gstatic.com/generate_204"
-    alive_nodes: Dict[int, bool] = {}
-    proxy_names = {}
+    name_map: Dict[str, int] = {}   # 临时唯一名 -> merged 键
+    proxies_list = []
+    for i, (h, n) in enumerate(to_test):
+        uname = f"sp_{i:05d}"
+        name_map[uname] = h
+        d = dict(n.clash_data)
+        d['name'] = uname
+        proxies_list.append(d)
 
-    # 为每个节点生成唯一的 proxy 名（避免重名）
-    for i, (hashn, n) in enumerate(merged.items()):
-        proxy_names[hashn] = f"node_{i:05d}"
+    api_port = 39999
+    config = {
+        'mixed-port': 39998,
+        'external-controller': f'127.0.0.1:{api_port}',
+        'mode': 'global',
+        'log-level': 'error',
+        'ipv6': False,
+        'proxies': proxies_list,
+        'proxy-groups': [{
+            'name': 'SPEEDTEST', 'type': 'url-test',
+            'url': 'http://www.gstatic.com/generate_204',
+            'interval': 86400, 'lazy': False,
+            'proxies': [p['name'] for p in proxies_list],
+        }],
+        'rules': ['MATCH,SPEEDTEST'],
+    }
+    data_dir = os.environ.get('MIHOMO_DATA', '') or None
+    tmpdir = tempfile.mkdtemp(prefix='mihomo_st_')
+    cfg_path = os.path.join(tmpdir, 'config.yml')
+    with open(cfg_path, 'w', encoding='utf-8') as f:
+        yaml.dump(config, f, allow_unicode=True, default_flow_style=False)
 
-    # 分批测速，每批 SPEEDTEST_CONCURRENCY 个节点
-    all_hashes = list(merged.keys())
-    batch_size = SPEEDTEST_CONCURRENCY
-    total_batches = (len(all_hashes) + batch_size - 1) // batch_size
-
-    print(f"\n正在做 HTTP 代理测速：{len(all_hashes)} 个节点，每批 {batch_size}，超时 {SPEEDTEST_TIMEOUT}s ...")
-
-    for batch_idx in range(total_batches):
-        batch = all_hashes[batch_idx * batch_size : (batch_idx + 1) * batch_size]
-        # 生成本批的临时配置
-        proxies_yaml = "proxies:\n"
-        for hashn in batch:
-            d = merged[hashn].data
-            d_copy = dict(d)
-            d_copy['name'] = proxy_names[hashn]
-            proxies_yaml += yaml.dump([d_copy], allow_unicode=True, default_flow_style=False)
-
-        config = {
-            'mixed-port': 0,  # 不监听端口，用 API 方式
-            'mode': 'global',
-            'log-level': 'silent',
-            'proxies': [dict(**{**merged[h].data, 'name': proxy_names[h]}) for h in batch],
-        }
-
-        # 写临时配置文件
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.yml', delete=False, encoding='utf-8') as f:
-            yaml.dump(config, f, allow_unicode=True, default_flow_style=False)
-            tmp_config = f.name
-
-        # 用 mihomo 的 RESTful API 方式测速太复杂，改用直接 TCP 连接 + 发送 HTTP CONNECT
-        # 更简单的方案：用 PySocks 通过节点建立连接到 generate_204
-        os.unlink(tmp_config)
-
-        # 实际方案：用 requests 通过节点代理发 HTTP 请求
-        for hashn in batch:
-            d = merged[hashn].data
-            proxy_url = _build_proxy_url(d, proxy_names[hashn])
-            if not proxy_url:
-                alive_nodes[hashn] = False
-                continue
+    cmd = [mihomo_bin, '-f', cfg_path, '-d', data_dir or tmpdir]
+    print(f"\n正在做云端真实测速：{len(to_test)} 个节点，超时 {SPEEDTEST_TIMEOUT_MS}ms ...")
+    proc = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    delays: Dict[str, int] = {}
+    try:
+        api = f'http://127.0.0.1:{api_port}'
+        ready = False
+        for _ in range(60):  # 最多等 30s 启动
             try:
-                r = requests.get(test_url, proxies={'http': proxy_url, 'https': proxy_url},
-                               timeout=SPEEDTEST_TIMEOUT, allow_redirects=False)
-                alive_nodes[hashn] = (r.status_code == 204 or r.status_code == 200)
-            except:
-                alive_nodes[hashn] = False
+                r = requests.get(api + '/version', timeout=1)
+                if r.status_code == 200:
+                    ready = True
+                    break
+            except Exception:
+                pass
+            _time.sleep(0.5)
+        if not ready:
+            print("⚠ mihomo 启动失败，跳过云端测速。")
+            return 0
+        # 一次性触发整组并发测速（mihomo 内部并发），返回 {节点名: 延迟ms}，失败为 0/缺失
+        r = requests.get(api + '/proxies/SPEEDTEST/delay',
+                         params={'timeout': SPEEDTEST_TIMEOUT_MS,
+                                 'url': 'http://www.gstatic.com/generate_204'},
+                         timeout=(SPEEDTEST_TIMEOUT_MS / 1000) + 300)
+        if r.status_code == 200:
+            delays = {k: v for k, v in r.json().items() if isinstance(v, int)}
+        else:
+            print(f"⚠ 测速 API 返回 {r.status_code}，跳过云端测速。")
+            return 0
+    finally:
+        proc.terminate()
+        try: proc.wait(5)
+        except Exception: proc.kill()
+        shutil.rmtree(tmpdir, ignore_errors=True)
 
-        print(f"  批次 {batch_idx+1}/{total_batches} 完成", end='\r', flush=True)
-
-    # 剔除测速失败的节点
-    to_remove = [h for h, ok in alive_nodes.items() if not ok]
+    dead_hashes = {h for uname, h in name_map.items() if delays.get(uname, 0) <= 0}
     total = len(merged)
-    if total and len(to_remove) / total > 0.85:
-        print(f"⚠ HTTP 测速失败 {len(to_remove)}/{total} 超过 85%，疑似网络异常，放弃剔除。")
+    if total and len(dead_hashes) / total > 0.85:
+        print(f"⚠ 测速失败 {len(dead_hashes)}/{total} 超过 85%，疑似网络异常，放弃剔除。")
         return 0
-    for hashn in to_remove:
-        merged.pop(hashn, None)
-    alive_count = total - len(to_remove)
-    print(f"HTTP 测速完成：存活 {alive_count}，失败 {len(to_remove)}，剔除后剩余 {len(merged)} 个。")
-    return len(to_remove)
-
-
-def _build_proxy_url(data: dict, name: str) -> Optional[str]:
-    """根据节点配置构建 requests 可用的代理 URL。"""
-    ptype = data.get('type', '')
-    server = data.get('server', '')
-    port = data.get('port', '')
-    if not server or not port:
-        return None
-    if ptype in ('ss', 'vmess', 'trojan', 'hysteria2', 'tuic', 'vless'):
-        # 这些协议 requests 不原生支持，需要通过 socks/http 代理
-        # 暂时只支持 ss/vmess 等通过 mihomo 转发的方式
-        # 简化方案：返回 None 跳过，这些节点靠 TCP 预检保证端口连通
-        return None
-    elif ptype == 'http' or ptype == 'socks5':
-        auth = ''
-        if data.get('username') and data.get('password'):
-            auth = f"{data['username']}:{data['password']}@"
-        scheme = 'socks5' if ptype == 'socks5' else 'http'
-        return f"{scheme}://{auth}{server}:{port}"
-    return None
+    for h in dead_hashes:
+        merged.pop(h, None)
+    print(f"云端测速完成：测 {len(to_test)} 个，可用 {len(to_test) - len(dead_hashes)} 个，"
+          f"剔除 {len(dead_hashes)} 个，剩余 {len(merged)} 个节点。")
+    return len(dead_hashes)
 
 
 def main():
@@ -1264,6 +1247,13 @@ def main():
         except KeyboardInterrupt: raise
         except:
             exc_queue.append("存活预检出错（已跳过剔除）：\n"+traceback.format_exc())
+
+    if SPEEDTEST:
+        try:
+            mihomo_speedtest()
+        except KeyboardInterrupt: raise
+        except:
+            exc_queue.append("云端测速出错（已跳过剔除）：\n"+traceback.format_exc())
 
     print("\n正在写出 V2Ray 订阅...")
     txt = ""
