@@ -78,13 +78,13 @@ proxy-groups:
   - name: ♻ 自动选择
     type: fallback
     url: https://www.google.com/
-    interval: 300
+    interval: 60
     proxies: []
 
   - name: 🔰 延迟最低
     type: fallback
     url: https://www.google.com/
-    interval: 300
+    interval: 60
     proxies: []
 
   - name: ✅ 手动选择
