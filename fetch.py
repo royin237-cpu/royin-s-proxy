@@ -1250,6 +1250,37 @@ def main():
                 names_clash.add(p.data['name'])
     names_clash = list(names_clash) or ['DIRECT'] # 0 节点时兜底，避免空 proxies 导致 mihomo 校验失败
     names_clash_meta = list(names_clash_meta) or ['DIRECT']
+
+    # 地区交替重排：fallback 按列表顺序逐个探测，
+    # 将同地区节点打散——每轮每地区取 1 个，确保所有地区尽快各有一个可用节点
+    def interleave_by_region(names: List[str], ctg_nodes_map: Dict[str, List[Any]]) -> List[str]:
+        """按地区交替重排节点名列表。每轮从每个地区取 1 个，轮空跳过。"""
+        # 构建地区→节点名队列
+        region_queues: Dict[str, List[str]] = {}
+        all_remaining: List[str] = []  # 未匹配到地区的节点
+        name_set = set(names)
+        for ctg, payload in ctg_nodes_map.items():
+            queue = [p['name'] for p in payload if p['name'] in name_set]
+            if queue:
+                region_queues[ctg] = queue
+                name_set -= set(queue)
+        all_remaining = list(name_set)
+        # 交替取出
+        result: List[str] = []
+        while region_queues:
+            empty_keys = []
+            for ctg in list(region_queues.keys()):
+                result.append(region_queues[ctg].pop(0))
+                if not region_queues[ctg]:
+                    empty_keys.append(ctg)
+            for k in empty_keys:
+                del region_queues[k]
+        result.extend(all_remaining)
+        return result
+
+    if snip_conf:
+        names_clash = interleave_by_region(names_clash, ctg_nodes)
+        names_clash_meta = interleave_by_region(names_clash_meta, ctg_nodes_meta)
     conf_meta = copy.deepcopy(conf)
 
     # Clash
