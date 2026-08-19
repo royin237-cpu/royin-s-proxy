@@ -983,6 +983,26 @@ def precheck_alive(timeout: float = PRECHECK_TIMEOUT, workers: int = PRECHECK_WO
             return (addr, False)
 
     print(f"\n正在做存活预检：{len(addrs)} 个去重地址，并发 {workers}，超时 {timeout}s ...")
+    # REALITY 公钥预过滤：公钥不是合法 base64 的节点会被 mihomo 拒绝，
+    # 导致整个订阅校验失败（proxy N: invalid REALITY public key），直接剔除
+    reality_removed = 0
+    for hashn in list(merged.keys()):
+        d = merged[hashn].data
+        if d.get('type') != 'trojan':
+            continue
+        pk = ((d.get('reality-opts') or {}).get('public-key')) if isinstance(d.get('reality-opts'), dict) else None
+        if pk is None:
+            continue
+        try:
+            raw = base64.urlsafe_b64decode(str(pk).replace('-', '+').replace('_', '/') + '=' * (-len(str(pk)) % 4))
+            if len(raw) != 32:
+                raise ValueError("bad length")
+        except Exception:
+            merged.pop(hashn, None)
+            reality_removed += 1
+    if reality_removed:
+        print(f"REALITY 预过滤：剔除 {reality_removed} 个公钥非法的 trojan-reality 节点。")
+
     alive, dead = 0, []
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
         for addr, ok in ex.map(test, list(addrs.keys())):
