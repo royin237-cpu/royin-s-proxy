@@ -1235,7 +1235,7 @@ def main():
     global_fp: Optional[str] = conf.get('global-client-fingerprint', None)
     proxies: List[Node.DATA_TYPE] = []
     proxies_meta: List[Node.DATA_TYPE] = []
-    ctg_base: Dict[str, Any] = conf['proxy-groups'][3].copy()
+    ctg_base: Dict[str, Any] = conf['proxy-groups'][-1].copy()
     names_clash: Union[Set[str], List[str]] = set()
     names_clash_meta: Union[Set[str], List[str]] = set()
     for p in merged.values():
