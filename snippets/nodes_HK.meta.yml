@@ -1,61 +1,53 @@
 proxies:
-- name: 32|🇭🇰HK-185.244.208.13-4779
+- name: '31,32|🇭🇰HK-185.244.208.213-0296 #1'
+  password: FH72359861
+  port: 443
+  server: natural-swan.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-185.244.208.210-0297 #1'
+  password: ND91608427
+  port: 443
+  server: upright-hamster.rooster465.autos
+  sni: upright-hamster.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-185.244.208.13-0300 #1'
   password: ND91608427
   port: 443
   server: ace-starling.rooster465.autos
   sni: ace-starling.rooster465.autos
   type: trojan
-- name: 32|🇭🇰HK-43.199.135.95-4796
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 2c.fast9988.com
-  sni: www.nintendogames.net
+- name: '31,32|🇭🇰HK-91.199.84.120-0298 #1'
+  password: ND91608427
+  port: 443
+  server: 91.199.84.120
+  sni: dynamic-grubworm.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-91.199.84.155-0303 #1'
+  password: FH72359861
+  port: 443
+  server: modern-bedbug.rooster465.autos
+  sni: modern-bedbug.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-91.199.84.120-0301 #1'
+  password: ND91608427
+  port: 443
+  server: dynamic-grubworm.rooster465.autos
+  sni: dynamic-grubworm.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-185.244.208.69-0302 #1'
+  password: AE62539071
+  port: 443
+  server: strong-haddock.rooster465.autos
+  sni: strong-haddock.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-185.244.208.219-0304 #1'
+  password: AE62539071
+  port: 443
+  server: upright-bedbug.rooster465.autos
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇭🇰HK-43.100.32.4-1817
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-  ws-opts:
-    headers:
-      Host: n1747624260.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇭🇰HK-47.244.120.197-4738
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 32|🇭🇰HK-47.244.120.197-4739
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 32|🇭🇰HK-47.239.189.182-0415
+  name: 32|🇭🇰HK-47.239.189.182-0472
   network: ws
   port: 80
   server: ee.oppo.quest
@@ -69,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇭🇰HK-47.239.189.182-0423
+  name: 32|🇭🇰HK-47.239.189.182-0480
   network: ws
   port: 80
   server: cfhk.oppo.quest
@@ -83,7 +75,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇭🇰HK-207.46.147.148-1601
+  name: 32|🇭🇰HK-207.46.147.148-1727
   network: ws
   port: 443
   server: fullaccesstohongkongnet.azurewebsites.net
@@ -97,7 +89,21 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 32|🇭🇰HK-8.210.206.163-1970
+  name: 32|🇭🇰HK-43.100.32.4-1939
+  network: ws
+  port: 443
+  server: n1747624260.4u9ma.icu
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  ws-opts:
+    headers:
+      Host: n1747624260.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇭🇰HK-8.210.206.163-2092
   network: http
   port: 45719
   server: 8.210.206.163
@@ -105,18 +111,41 @@ proxies:
   tls: false
   type: vmess
   uuid: a220dad2-a34e-4460-b0f7-eaba9c46e639
-- name: 32|🇭🇰HK-20.187.85.198-4172
+- name: 32|🇭🇰HK-20.187.85.198-4294
   password: b26e31e5-eac1-45b0-9069-83830bd69521
   port: 443
   server: 20.187.85.198
   sni: hkt.iamnotagoodman.com
   type: trojan
-- name: 32|🇭🇰HK-185.244.208.25-4673
-  password: IL37892054
-  port: 443
-  server: just-alpaca.rooster465.autos
-  type: trojan
-- name: 32|🇭🇰HK-219.76.13.181-6461
+- alterId: 0
+  cipher: auto
+  name: 32|🇭🇰HK-47.244.120.197-4874
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 32|🇭🇰HK-47.244.120.197-4875
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- name: 32|🇭🇰HK-219.76.13.181-6608
   password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
   port: 443
   server: 219.76.13.181
@@ -124,18 +153,49 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 33,34,39|香港|@ripaojiedian
+  name: 34,39|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-headers:
-    Host: v10.hdacd.com
-  ws-path: /
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #18'
+  password: humanity
+  port: 443
+  server: 104.17.177.143
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #108'
+  password: humanity
+  port: 443
+  server: 198.41.223.96
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #80'
+  password: humanity
+  port: 443
+  server: 104.18.152.108
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #97'
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #54'
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
 - alterId: 2
   cipher: auto
   name: '38|🇭🇰 香港|@ripaojiedian #1'

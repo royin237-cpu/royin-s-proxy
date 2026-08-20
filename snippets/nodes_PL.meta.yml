@@ -13,73 +13,68 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '31,32|🇵🇱PL-202.78.163.156-0132 #1'
-  password: FH72359861
-  port: 443
-  server: primary-leech.rooster465.autos
-  sni: primary-leech.rooster465.autos
-  type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.148-0137 #1'
-  password: ND91608427
-  port: 443
-  server: discrete-basilisk.rooster465.autos
-  sni: discrete-basilisk.rooster465.autos
-  type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.148-0135 #1'
-  password: ND91608427
-  port: 443
-  server: 202.78.163.148
-  sni: discrete-basilisk.rooster465.autos
-  type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.233-0133 #1'
-  password: FH72359861
-  port: 443
-  server: magnetic-caiman.rooster465.autos
-  sni: magnetic-caiman.rooster465.autos
-  type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.132-0136 #1'
-  password: AE62539071
-  port: 443
-  server: relative-locust.rooster465.autos
-  type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.248-0140 #1'
-  password: ND91608427
-  port: 443
-  server: relaxed-gull.rooster465.autos
-  sni: relaxed-gull.rooster465.autos
-  type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.89-0139 #1'
+- name: '31,32|🇵🇱PL-202.78.163.89-0241 #1'
   password: AE62539071
   port: 443
   server: tolerant-mosquito.rooster465.autos
   sni: tolerant-mosquito.rooster465.autos
   type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.248-0138 #1'
+- name: '31,32|🇵🇱PL-202.78.163.248-0236 #1'
   password: ND91608427
   port: 443
   server: 202.78.163.248
   sni: relaxed-gull.rooster465.autos
   type: trojan
-- name: 32|🇵🇱PL-51.83.186.142-2676
+- name: '31,32|🇵🇱PL-202.78.163.156-0243 #1'
+  password: FH72359861
+  port: 443
+  server: primary-leech.rooster465.autos
+  sni: primary-leech.rooster465.autos
+  type: trojan
+- name: '31,32|🇵🇱PL-202.78.163.248-0239 #1'
+  password: ND91608427
+  port: 443
+  server: relaxed-gull.rooster465.autos
+  sni: relaxed-gull.rooster465.autos
+  type: trojan
+- name: '31,32|🇵🇱PL-202.78.163.132-0242 #1'
+  password: AE62539071
+  port: 443
+  server: relative-locust.rooster465.autos
+  type: trojan
+- name: '31,32|🇵🇱PL-202.78.163.148-0246 #1'
+  password: ND91608427
+  port: 443
+  server: discrete-basilisk.rooster465.autos
+  sni: discrete-basilisk.rooster465.autos
+  type: trojan
+- name: '31,32|🇵🇱PL-202.78.163.233-0240 #1'
+  password: FH72359861
+  port: 443
+  server: magnetic-caiman.rooster465.autos
+  sni: magnetic-caiman.rooster465.autos
+  type: trojan
+- name: '31,32|🇵🇱PL-202.78.163.148-0272 #1'
+  password: ND91608427
+  port: 443
+  server: 202.78.163.148
+  sni: discrete-basilisk.rooster465.autos
+  type: trojan
+- name: 32|🇵🇱PL-51.83.186.142-2798
   password: 555034c8-6420-45d0-893c-905c02342150
   port: 443
   server: 51.83.186.142
   sni: pl1.trojanvh.xyz
   type: trojan
-- name: 32|🇵🇱PL-51.83.186.142-3705
+- name: 32|🇵🇱PL-51.83.186.142-3827
   password: 555034c8-6420-45d0-893c-905c02342150
   port: 80
   server: 51.83.186.142
   sni: pl1.trojanvh.xyz
   type: trojan
-- name: 32|🇵🇱PL-202.78.163.173-4674
-  password: WF42809561
-  port: 443
-  server: top-goshawk.rooster465.autos
-  type: trojan
-- name: 33,34|🇮🇳 印度 V2CROSS.COM
+- name: 34|🇵🇱_PL_波兰
   password: EQ30679154
   port: 443
   server: pretty-mollusk.rooster465.autos
-  skip-cert-verify: false
+  skip-cert-verify: true
   type: trojan

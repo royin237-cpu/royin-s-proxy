@@ -1,5 +1,5 @@
-# Update: 2026-08-19 21:25
-# 移动端轻量订阅：165 个存活节点（每地区最多 15 个），精简规则
+# Update: 2026-08-20 09:59
+# 移动端轻量订阅：170 个存活节点（每地区最多 15 个），精简规则
 mixed-port: 7890
 allow-lan: false
 mode: rule
@@ -287,16 +287,18 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.133
+  server: 104.16.174.36
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: '15|美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.108
+  server: 104.18.152.97
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -306,48 +308,16 @@ proxies:
     path: '%2Fassignment'
 - name: '15|美国+CloudFlare节点 #2'
   network: ws
-  password: humanity
-  port: 443
-  server: 104.18.22.63
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: '15|美国+CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: 104.16.72.251
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
+  port: 8880
+  server: www.glassdoor.com
+  tls: false
   type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
-- name: '15|美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #5'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.14
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #6'
+      Host: red-disk-58df.153-2ce.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- name: '15|美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
@@ -356,63 +326,92 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 32|🇭🇰HK-185.244.208.13-4779
+- name: '15|美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.223.96
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- client-fingerprint: chrome
+  name: '15|美国+CloudFlare节点 #5'
+  network: ws
+  port: 443
+  server: 172.66.43.117
+  servername: rAyAn-007.pArViN.DpDnS.OrG
+  tls: true
+  type: vless
+  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+  ws-opts:
+    headers:
+      Host: rAyAn-007.pArViN.DpDnS.OrG
+    path: /
+- name: 15,21|美国 155
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.225
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '31,32|🇭🇰HK-185.244.208.213-0296 #1'
+  password: FH72359861
+  port: 443
+  server: natural-swan.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-185.244.208.210-0297 #1'
+  password: ND91608427
+  port: 443
+  server: upright-hamster.rooster465.autos
+  sni: upright-hamster.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-185.244.208.13-0300 #1'
   password: ND91608427
   port: 443
   server: ace-starling.rooster465.autos
   sni: ace-starling.rooster465.autos
   type: trojan
-- name: 32|🇭🇰HK-43.199.135.95-4796
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 2c.fast9988.com
-  sni: www.nintendogames.net
+- name: '31,32|🇭🇰HK-91.199.84.120-0298 #1'
+  password: ND91608427
+  port: 443
+  server: 91.199.84.120
+  sni: dynamic-grubworm.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-91.199.84.155-0303 #1'
+  password: FH72359861
+  port: 443
+  server: modern-bedbug.rooster465.autos
+  sni: modern-bedbug.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-91.199.84.120-0301 #1'
+  password: ND91608427
+  port: 443
+  server: dynamic-grubworm.rooster465.autos
+  sni: dynamic-grubworm.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-185.244.208.69-0302 #1'
+  password: AE62539071
+  port: 443
+  server: strong-haddock.rooster465.autos
+  sni: strong-haddock.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-185.244.208.219-0304 #1'
+  password: AE62539071
+  port: 443
+  server: upright-bedbug.rooster465.autos
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇭🇰HK-43.100.32.4-1817
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-  ws-opts:
-    headers:
-      Host: n1747624260.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇭🇰HK-47.244.120.197-4738
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 32|🇭🇰HK-47.244.120.197-4739
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 32|🇭🇰HK-47.239.189.182-0415
+  name: 32|🇭🇰HK-47.239.189.182-0472
   network: ws
   port: 80
   server: ee.oppo.quest
@@ -426,7 +425,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇭🇰HK-47.239.189.182-0423
+  name: 32|🇭🇰HK-47.239.189.182-0480
   network: ws
   port: 80
   server: cfhk.oppo.quest
@@ -440,7 +439,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇭🇰HK-207.46.147.148-1601
+  name: 32|🇭🇰HK-207.46.147.148-1727
   network: ws
   port: 443
   server: fullaccesstohongkongnet.azurewebsites.net
@@ -454,7 +453,21 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 32|🇭🇰HK-8.210.206.163-1970
+  name: 32|🇭🇰HK-43.100.32.4-1939
+  network: ws
+  port: 443
+  server: n1747624260.4u9ma.icu
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  ws-opts:
+    headers:
+      Host: n1747624260.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇭🇰HK-8.210.206.163-2092
   network: http
   port: 45719
   server: 8.210.206.163
@@ -462,115 +475,82 @@ proxies:
   tls: false
   type: vmess
   uuid: a220dad2-a34e-4460-b0f7-eaba9c46e639
-- name: 32|🇭🇰HK-20.187.85.198-4172
+- name: 32|🇭🇰HK-20.187.85.198-4294
   password: b26e31e5-eac1-45b0-9069-83830bd69521
   port: 443
   server: 20.187.85.198
   sni: hkt.iamnotagoodman.com
   type: trojan
-- name: 32|🇭🇰HK-185.244.208.25-4673
-  password: IL37892054
-  port: 443
-  server: just-alpaca.rooster465.autos
-  type: trojan
-- name: 32|🇭🇰HK-219.76.13.181-6461
-  password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
-  port: 443
-  server: 219.76.13.181
-  sni: arbettp.freetrade.link
-  type: trojan
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 33,34,39|香港|@ripaojiedian
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-headers:
-    Host: v10.hdacd.com
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: '38|🇭🇰 香港|@ripaojiedian #1'
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: random
-  name: 40|TG@ZDYZ2 -HK-Hong Kong3
+  name: 32|🇭🇰HK-47.244.120.197-4874
   network: ws
-  port: 2096
-  server: 45.80.111.38
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  port: 36703
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- name: 32|🇹🇼TW-60.250.152.229-2409
+      Host: ''
+    path: /arki?ed=2048
+- name: 32|🇹🇼TW-125.227.152.109-2531
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.co.ua
   type: trojan
-- name: 32|🇹🇼TW-60.250.152.208-2478
+- name: 32|🇹🇼TW-61.222.160.199-2600
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.kiev.ua
   type: trojan
-- name: 32|🇹🇼TW-60.250.152.208-2523
+- name: 32|🇹🇼TW-60.250.152.208-2645
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.if.ua
   type: trojan
-- name: 32|🇹🇼TW-61.222.160.199-2545
+- name: 32|🇹🇼TW-60.250.152.208-2667
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.org.ua
   type: trojan
-- name: 32|🇹🇼TW-60.250.152.208-2601
+- name: 32|🇹🇼TW-60.250.152.229-2723
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.kyiv.ua
   type: trojan
-- name: 32|🇹🇼TW-60.250.152.208-2603
+- name: 32|🇹🇼TW-60.250.152.208-2725
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.dp.ua
   type: trojan
-- name: 32|🇹🇼TW-61.222.160.199-2647
+- name: 32|🇹🇼TW-60.250.152.208-2769
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.ivano-frankivsk.ua
   type: trojan
-- name: 32|🇹🇼TW-203.69.207.175-2759
+- name: 32|🇹🇼TW-125.227.152.109-2881
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.biz.ua
   type: trojan
-- name: 32|🇹🇼TW-60.250.152.229-2798
+- name: 32|🇹🇼TW-60.250.152.208-2920
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.cn.ua
   type: trojan
-- name: 32|🇹🇼TW-60.250.152.208-2817
+- name: 32|🇹🇼TW-203.69.207.175-2939
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.chernovtsy.ua
   type: trojan
-- name: 32|🇹🇼TW-60.250.152.229-2820
+- name: 32|🇹🇼TW-60.250.152.208-2942
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.net.ua
   type: trojan
-- name: 32|🇹🇼TW-60.250.152.229-2866
+- name: 32|🇹🇼TW-125.227.152.109-2988
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.com.ua
@@ -640,21 +620,57 @@ proxies:
     headers:
       Host: tjsp.hhxaf.cc.cd
     path: /
-- name: 32|🇸🇬SG-47.129.183.20-0999
+- name: 31,32,34|🇵🇱 波兰 V2CROSS.COM
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 2c.fast9988.com
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '31,32|🇸🇬SG-18.143.132.167-0293 #1'
+  password: FH72359861
+  port: 443
+  server: worthy-perch.rooster465.autos
+  sni: worthy-perch.rooster465.autos
+  type: trojan
+- name: '31,32|🇸🇬SG-13.251.133.9-0291 #1'
+  password: PQ05174892
+  port: 443
+  server: infinite-anteater.rooster465.autos
+  sni: infinite-anteater.rooster465.autos
+  type: trojan
+- name: '31,32|🇸🇬SG-13.212.33.67-0290 #1'
+  password: PQ05174892
+  port: 443
+  server: intense-monarch.rooster465.autos
+  type: trojan
+- name: '31,32|🇸🇬SG-54.254.235.88-0288 #1'
+  password: FH72359861
+  port: 443
+  server: charming-ox.rooster465.autos
+  sni: charming-ox.rooster465.autos
+  type: trojan
+- name: '31,32|🇸🇬SG-47.129.183.20-0292 #1'
   password: PQ05174892
   port: 443
   server: welcome-monitor.rooster465.autos
   sni: welcome-monitor.rooster465.autos
   type: trojan
-- name: 32|🇸🇬SG-52.220.98.46-0998
+- name: '31,32|🇸🇬SG-13.212.173.162-0289 #1'
+  password: AE62539071
+  port: 443
+  server: integral-quetzal.rooster465.autos
+  sni: integral-quetzal.rooster465.autos
+  type: trojan
+- name: '31,32|🇸🇬SG-52.220.98.46-0294 #1'
   password: PQ05174892
   port: 443
-  server: 52.220.98.46
+  server: pleased-albacore.rooster465.autos
   sni: pleased-albacore.rooster465.autos
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-15.235.147.186-0380
+  name: 32|🇸🇬SG-15.235.147.186-0438
   network: ws
   port: 80
   server: 15.235.147.186
@@ -668,7 +684,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-139.99.61.154-1155
+  name: 32|🇸🇬SG-139.99.61.154-1281
   network: ws
   port: 80
   server: 139.99.61.154
@@ -682,7 +698,7 @@ proxies:
     path: /vmess
 - alterId: 64
   cipher: auto
-  name: 32|🇸🇬SG-202.79.172.53-1251
+  name: 32|🇸🇬SG-202.79.172.53-1377
   network: ws
   port: 443
   server: 202.79.172.53
@@ -694,90 +710,6 @@ proxies:
     headers:
       Host: ''
     path: /path/220128071100
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-143.198.219.182-1267
-  network: ws
-  port: 80
-  server: 143.198.219.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606
-  ws-opts:
-    headers:
-      Host: ''
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-146.190.82.241-1304
-  network: ws
-  port: 80
-  server: 146.190.82.241
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-56.10.28.155-1461
-  network: ws
-  port: 20025
-  server: sh-cn-1.dnspro.icu
-  servername: sh-cn-1.dnspro.icu
-  tls: false
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: sh-cn-1.dnspro.icu
-    path: /iso
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-146.190.82.241-1717
-  network: ws
-  port: 443
-  server: 146.190.82.241
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-15.235.184.36-2050
-  network: ws
-  port: 80
-  server: 15.235.184.36
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7ce525f5-3a9b-4627-ae0e-3ca0b57519e3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-139.99.61.154-2055
-  network: ws
-  port: 80
-  server: 139.99.61.154
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6a620223-84f8-40f4-b6ba-ed6abfe4e4f2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
@@ -861,7 +793,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇰🇷KR-52.231.200.179-1626
+  name: 21|韩国 016
+  network: ws
+  port: 80
+  server: 132.145.80.230
+  type: vmess
+  udp: true
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers:
+      Host: kr02.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 32|🇰🇷KR-52.231.200.179-1752
   network: ws
   port: 443
   server: fullaccesstokoreannetsubnode1.azurewebsites.net
@@ -873,19 +818,29 @@ proxies:
     headers:
       Host: fullaccesstokoreannetsubnode1.azurewebsites.net
     path: /ws
-- name: 32|🇰🇷KR-144.24.72.126-2638
+- name: 32|🇰🇷KR-123.140.124.24-2509
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.seoulcitygovernment.com.ua
+  type: trojan
+- name: 32|🇰🇷KR-123.140.124.25-2720
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.seoulcityhall.com.ua
+  type: trojan
+- name: 32|🇰🇷KR-144.24.72.126-2760
   password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
   port: 443
   server: 144.24.72.126
   type: trojan
-- name: 32|🇰🇷KR-3.34.6.217-3697
-  password: xxoo
-  port: 443
-  server: 3.34.6.217
+- name: 32|🇰🇷KR-123.140.124.25-2849
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.seoulcityhall.com.ua
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇰🇷KR-150.109.240.179-4768
+  name: 32|🇰🇷KR-150.109.240.179-4909
   network: ws
   port: 8443
   server: 150.109.240.179
@@ -1060,7 +1015,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-46.175.135.9-0310
+  name: 32|🇬🇧GB-46.175.135.9-0368
   network: ws
   port: 443
   server: lu1.gogogoo.cyou
@@ -1074,7 +1029,7 @@ proxies:
     path: /go
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-51.89.138.147-0331
+  name: 32|🇬🇧GB-51.89.138.147-0389
   network: ws
   port: 80
   server: 51.89.138.147
@@ -1088,7 +1043,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-46.175.135.9-1292
+  name: 32|🇬🇧GB-46.175.135.9-1418
   network: ws
   port: 443
   server: haxus3.janechiu.icu
@@ -1100,6 +1055,18 @@ proxies:
     headers:
       Host: haxus3.janechiu.icu
     path: /
+- name: 15|法国巴黎+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
 - name: 21|法国 001
   network: ws
   packet-encoding: xudp
@@ -1318,17 +1285,6 @@ proxies:
     headers:
       Host: sni.aizrf.com
     path: /snippets
-- name: 21|法国 041
-  network: grpc
-  port: 443
-  server: 141.11.203.139
-  servername: pqh23v5.hiddendom.shop
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 401374e6-df77-41fb-f638-dad8184f175b
 - name: 18|德国
   password: d1224950-ffab-4b9a-8696-431b40a6cfbd
   port: 443
@@ -1562,38 +1518,9 @@ proxies:
   type: vless
   udp: true
   uuid: 2f5e1739-8007-4f66-9ea6-577f0e574976
-- name: 32|🇨🇦CA-148.113.141.99-0641
-  password: HdsUZmsHQW
-  port: 443
-  server: 148.113.141.99
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇨🇦CA-158.51.121.36-1936
-  network: ws
-  port: 443
-  server: 158.51.121.36
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- name: 32|🇨🇦CA-51.222.86.136-1958
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  type: trojan
-- name: 32|🇨🇦CA-149.56.141.11-3274
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
-  port: 443
-  server: 149.56.141.11
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 32|🇨🇦CA-158.51.121.63-0134
+  name: 32|🇨🇦CA-158.51.121.63-0563
   network: ws
   port: 443
   server: 158.51.121.63
@@ -1605,9 +1532,38 @@ proxies:
     headers:
       Host: seribus.org
     path: /
+- name: 32|🇨🇦CA-148.113.141.99-0702
+  password: HdsUZmsHQW
+  port: 443
+  server: 148.113.141.99
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇨🇦CA-137.184.164.233-6516
+  name: 32|🇨🇦CA-158.51.121.36-2058
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- name: 32|🇨🇦CA-51.222.86.136-2080
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  type: trojan
+- name: 32|🇨🇦CA-149.56.141.11-3396
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: 149.56.141.11
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇨🇦CA-137.184.164.233-6663
   network: ws
   port: 80
   server: 137.184.164.233
@@ -1619,6 +1575,34 @@ proxies:
     headers:
       Host: ''
     path: /vmess
+- name: '34|🇭🇰 HK香港(mibei77.com 米贝节点分享) #1'
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #98'
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #49'
+  password: humanity
+  port: 443
+  server: 104.16.174.14
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #25'
+  password: humanity
+  port: 443
+  server: 104.16.174.34
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '40|🇨🇦_CA_加拿大 #2'
@@ -1655,37 +1639,9 @@ proxies:
     headers:
       Host: pq-2.access.name.ng
     path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: 32|🇷🇺RU-45.11.92.100-0022
-  network: ws
-  port: 80
-  server: 45.11.92.100
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e026af69-5e36-4cd5-d40e-347f2955a3f6
-  ws-opts:
-    headers:
-      Host: YouTube-aweikeji
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇷🇺RU-45.11.92.100-0021
-  network: ws
-  port: 80
-  server: 45.11.92.100
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e026af69-5e36-4cd5-d40e-347f2955a3f6
-  ws-opts:
-    headers:
-      Host: 45.11.92.100
-    path: /
 - alterId: 64
   cipher: auto
-  name: 32|🇷🇺RU-171.22.134.12-7279
+  name: 32|🇷🇺RU-171.22.134.12-7426
   network: ws
   port: 443
   server: 171.22.134.12
@@ -1699,7 +1655,7 @@ proxies:
     path: /path/1689849487190
 - alterId: 64
   cipher: auto
-  name: 32|🇷🇺RU-171.22.134.12-7280
+  name: 32|🇷🇺RU-171.22.134.12-7427
   network: ws
   port: 443
   server: 171.22.134.12
@@ -1711,12 +1667,6 @@ proxies:
     headers:
       Host: ''
     path: /path/1689935243027
-- cipher: aes-256-gcm
-  name: 33|🇺RU-45.8.158.176-33
-  password: 1eadd4e4a37b6601
-  port: 10801
-  server: 45.8.158.176
-  type: ss
 - name: 40|🇷🇺+RU+俄罗斯联邦+11
   network: ws
   port: 2087
@@ -1816,6 +1766,13 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.safari-df.ir.
     path: /
+- name: 31,32,34|🇪🇪爱沙尼亚丨yoyapai.com\r
+  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
+  port: 449
+  server: 109.206.241.10
+  skip-cert-verify: true
+  sni: russiapower.accesscam.org
+  type: trojan
 - alterId: '0'
   cipher: auto
   name: 11|99_中国-1.70MB
@@ -1942,7 +1899,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 32|🇨🇳CN-124.222.189.225-1754
+  name: 32|🇨🇳CN-124.222.189.225-1880
   network: ws
   port: 80
   server: 124.222.189.225
@@ -2001,60 +1958,63 @@ proxy-groups:
   - '15|美国+CloudFlare节点 #3'
   - '15|美国+CloudFlare节点 #4'
   - '15|美国+CloudFlare节点 #5'
-  - '15|美国+CloudFlare节点 #6'
-  - 32|🇭🇰HK-185.244.208.13-4779
-  - 32|🇭🇰HK-43.199.135.95-4796
-  - 32|🇭🇰HK-43.100.32.4-1817
-  - 32|🇭🇰HK-47.244.120.197-4738
-  - 32|🇭🇰HK-47.244.120.197-4739
-  - 32|🇭🇰HK-47.239.189.182-0415
-  - 32|🇭🇰HK-47.239.189.182-0423
-  - 32|🇭🇰HK-207.46.147.148-1601
-  - 32|🇭🇰HK-8.210.206.163-1970
-  - 32|🇭🇰HK-20.187.85.198-4172
-  - 32|🇭🇰HK-185.244.208.25-4673
-  - 32|🇭🇰HK-219.76.13.181-6461
-  - 33,34,39|香港|@ripaojiedian
-  - '38|🇭🇰 香港|@ripaojiedian #1'
-  - 40|TG@ZDYZ2 -HK-Hong Kong3
-  - 32|🇹🇼TW-60.250.152.229-2409
-  - 32|🇹🇼TW-60.250.152.208-2478
-  - 32|🇹🇼TW-60.250.152.208-2523
-  - 32|🇹🇼TW-61.222.160.199-2545
-  - 32|🇹🇼TW-60.250.152.208-2601
-  - 32|🇹🇼TW-60.250.152.208-2603
-  - 32|🇹🇼TW-61.222.160.199-2647
-  - 32|🇹🇼TW-203.69.207.175-2759
-  - 32|🇹🇼TW-60.250.152.229-2798
-  - 32|🇹🇼TW-60.250.152.208-2817
-  - 32|🇹🇼TW-60.250.152.229-2820
-  - 32|🇹🇼TW-60.250.152.229-2866
+  - 15,21|美国 155
+  - '31,32|🇭🇰HK-185.244.208.213-0296 #1'
+  - '31,32|🇭🇰HK-185.244.208.210-0297 #1'
+  - '31,32|🇭🇰HK-185.244.208.13-0300 #1'
+  - '31,32|🇭🇰HK-91.199.84.120-0298 #1'
+  - '31,32|🇭🇰HK-91.199.84.155-0303 #1'
+  - '31,32|🇭🇰HK-91.199.84.120-0301 #1'
+  - '31,32|🇭🇰HK-185.244.208.69-0302 #1'
+  - '31,32|🇭🇰HK-185.244.208.219-0304 #1'
+  - 32|🇭🇰HK-47.239.189.182-0472
+  - 32|🇭🇰HK-47.239.189.182-0480
+  - 32|🇭🇰HK-207.46.147.148-1727
+  - 32|🇭🇰HK-43.100.32.4-1939
+  - 32|🇭🇰HK-8.210.206.163-2092
+  - 32|🇭🇰HK-20.187.85.198-4294
+  - 32|🇭🇰HK-47.244.120.197-4874
+  - 32|🇹🇼TW-125.227.152.109-2531
+  - 32|🇹🇼TW-61.222.160.199-2600
+  - 32|🇹🇼TW-60.250.152.208-2645
+  - 32|🇹🇼TW-60.250.152.208-2667
+  - 32|🇹🇼TW-60.250.152.229-2723
+  - 32|🇹🇼TW-60.250.152.208-2725
+  - 32|🇹🇼TW-60.250.152.208-2769
+  - 32|🇹🇼TW-125.227.152.109-2881
+  - 32|🇹🇼TW-60.250.152.208-2920
+  - 32|🇹🇼TW-203.69.207.175-2939
+  - 32|🇹🇼TW-60.250.152.208-2942
+  - 32|🇹🇼TW-125.227.152.109-2988
   - 40|TG@ZDYZ2 -TW4
   - 11|352_新加坡-255.1KB
   - 21|新加坡 002
   - 21|新加坡 005
   - 21|新加坡 007
-  - 32|🇸🇬SG-47.129.183.20-0999
-  - 32|🇸🇬SG-52.220.98.46-0998
-  - 32|🇸🇬SG-15.235.147.186-0380
-  - 32|🇸🇬SG-139.99.61.154-1155
-  - 32|🇸🇬SG-202.79.172.53-1251
-  - 32|🇸🇬SG-143.198.219.182-1267
-  - 32|🇸🇬SG-146.190.82.241-1304
-  - 32|🇸🇬SG-56.10.28.155-1461
-  - 32|🇸🇬SG-146.190.82.241-1717
-  - 32|🇸🇬SG-15.235.184.36-2050
-  - 32|🇸🇬SG-139.99.61.154-2055
+  - 31,32,34|🇵🇱 波兰 V2CROSS.COM
+  - '31,32|🇸🇬SG-18.143.132.167-0293 #1'
+  - '31,32|🇸🇬SG-13.251.133.9-0291 #1'
+  - '31,32|🇸🇬SG-13.212.33.67-0290 #1'
+  - '31,32|🇸🇬SG-54.254.235.88-0288 #1'
+  - '31,32|🇸🇬SG-47.129.183.20-0292 #1'
+  - '31,32|🇸🇬SG-13.212.173.162-0289 #1'
+  - '31,32|🇸🇬SG-52.220.98.46-0294 #1'
+  - 32|🇸🇬SG-15.235.147.186-0438
+  - 32|🇸🇬SG-139.99.61.154-1281
+  - 32|🇸🇬SG-202.79.172.53-1377
   - 21|韩国 001
   - 21|韩国 009
   - 21|韩国 010
   - 21|韩国 011
   - 21|韩国 012
   - 21|韩国 013
-  - 32|🇰🇷KR-52.231.200.179-1626
-  - 32|🇰🇷KR-144.24.72.126-2638
-  - 32|🇰🇷KR-3.34.6.217-3697
-  - 32|🇰🇷KR-150.109.240.179-4768
+  - 21|韩国 016
+  - 32|🇰🇷KR-52.231.200.179-1752
+  - 32|🇰🇷KR-123.140.124.24-2509
+  - 32|🇰🇷KR-123.140.124.25-2720
+  - 32|🇰🇷KR-144.24.72.126-2760
+  - 32|🇰🇷KR-123.140.124.25-2849
+  - 32|🇰🇷KR-150.109.240.179-4909
   - 40|TG@ZDYZ2 -KR5
   - 40|TG@ZDYZ2 -KR2
   - 21|英国 004
@@ -2069,9 +2029,10 @@ proxy-groups:
   - 21|英国 039
   - 21|英国 044
   - 29|🇬🇧 FASTNET 10
-  - 32|🇬🇧GB-46.175.135.9-0310
-  - 32|🇬🇧GB-51.89.138.147-0331
-  - 32|🇬🇧GB-46.175.135.9-1292
+  - 32|🇬🇧GB-46.175.135.9-0368
+  - 32|🇬🇧GB-51.89.138.147-0389
+  - 32|🇬🇧GB-46.175.135.9-1418
+  - 15|法国巴黎+CloudFlare节点
   - 21|法国 001
   - 21|法国 002
   - 21|法国 003
@@ -2086,7 +2047,6 @@ proxy-groups:
   - 21|法国 012
   - 21|法国 017
   - 21|法国 030
-  - 21|法国 041
   - 18|德国
   - '18|德国 #1'
   - 21|德国 006
@@ -2105,20 +2065,21 @@ proxy-groups:
   - 21|加拿大 002
   - 21|加拿大 004
   - 21|加拿大 021
-  - 32|🇨🇦CA-148.113.141.99-0641
-  - 32|🇨🇦CA-158.51.121.36-1936
-  - 32|🇨🇦CA-51.222.86.136-1958
-  - 32|🇨🇦CA-149.56.141.11-3274
-  - 32|🇨🇦CA-158.51.121.63-0134
-  - 32|🇨🇦CA-137.184.164.233-6516
+  - 32|🇨🇦CA-158.51.121.63-0563
+  - 32|🇨🇦CA-148.113.141.99-0702
+  - 32|🇨🇦CA-158.51.121.36-2058
+  - 32|🇨🇦CA-51.222.86.136-2080
+  - 32|🇨🇦CA-149.56.141.11-3396
+  - 32|🇨🇦CA-137.184.164.233-6663
+  - '34|🇭🇰 HK香港(mibei77.com 米贝节点分享) #1'
+  - '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #98'
+  - '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #49'
+  - '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #25'
   - '40|🇨🇦_CA_加拿大 #2'
   - 21|俄罗斯 025
   - 29|🇷🇺 FASTNET 11
-  - 32|🇷🇺RU-45.11.92.100-0022
-  - 32|🇷🇺RU-45.11.92.100-0021
-  - 32|🇷🇺RU-171.22.134.12-7279
-  - 32|🇷🇺RU-171.22.134.12-7280
-  - 33|🇺RU-45.8.158.176-33
+  - 32|🇷🇺RU-171.22.134.12-7426
+  - 32|🇷🇺RU-171.22.134.12-7427
   - 40|🇷🇺+RU+俄罗斯联邦+11
   - 21|瑞典 006
   - 21|瑞典 007
@@ -2126,6 +2087,7 @@ proxy-groups:
   - 21|瑞典 009
   - 21|瑞典 010
   - 21|瑞典 012
+  - 31,32,34|🇪🇪爱沙尼亚丨yoyapai.com\r
   - 11|99_中国-1.70MB
   - 21|中国 001
   - 21|中国 003
@@ -2135,7 +2097,7 @@ proxy-groups:
   - 21|中国 021
   - 21|中国 028
   - 21|中国 056
-  - 32|🇨🇳CN-124.222.189.225-1754
+  - 32|🇨🇳CN-124.222.189.225-1880
   - 40|🇨🇳+CN+中国+34
 - name: ♻️ 自动选择
   type: fallback
@@ -2171,60 +2133,63 @@ proxy-groups:
   - '15|美国+CloudFlare节点 #3'
   - '15|美国+CloudFlare节点 #4'
   - '15|美国+CloudFlare节点 #5'
-  - '15|美国+CloudFlare节点 #6'
-  - 32|🇭🇰HK-185.244.208.13-4779
-  - 32|🇭🇰HK-43.199.135.95-4796
-  - 32|🇭🇰HK-43.100.32.4-1817
-  - 32|🇭🇰HK-47.244.120.197-4738
-  - 32|🇭🇰HK-47.244.120.197-4739
-  - 32|🇭🇰HK-47.239.189.182-0415
-  - 32|🇭🇰HK-47.239.189.182-0423
-  - 32|🇭🇰HK-207.46.147.148-1601
-  - 32|🇭🇰HK-8.210.206.163-1970
-  - 32|🇭🇰HK-20.187.85.198-4172
-  - 32|🇭🇰HK-185.244.208.25-4673
-  - 32|🇭🇰HK-219.76.13.181-6461
-  - 33,34,39|香港|@ripaojiedian
-  - '38|🇭🇰 香港|@ripaojiedian #1'
-  - 40|TG@ZDYZ2 -HK-Hong Kong3
-  - 32|🇹🇼TW-60.250.152.229-2409
-  - 32|🇹🇼TW-60.250.152.208-2478
-  - 32|🇹🇼TW-60.250.152.208-2523
-  - 32|🇹🇼TW-61.222.160.199-2545
-  - 32|🇹🇼TW-60.250.152.208-2601
-  - 32|🇹🇼TW-60.250.152.208-2603
-  - 32|🇹🇼TW-61.222.160.199-2647
-  - 32|🇹🇼TW-203.69.207.175-2759
-  - 32|🇹🇼TW-60.250.152.229-2798
-  - 32|🇹🇼TW-60.250.152.208-2817
-  - 32|🇹🇼TW-60.250.152.229-2820
-  - 32|🇹🇼TW-60.250.152.229-2866
+  - 15,21|美国 155
+  - '31,32|🇭🇰HK-185.244.208.213-0296 #1'
+  - '31,32|🇭🇰HK-185.244.208.210-0297 #1'
+  - '31,32|🇭🇰HK-185.244.208.13-0300 #1'
+  - '31,32|🇭🇰HK-91.199.84.120-0298 #1'
+  - '31,32|🇭🇰HK-91.199.84.155-0303 #1'
+  - '31,32|🇭🇰HK-91.199.84.120-0301 #1'
+  - '31,32|🇭🇰HK-185.244.208.69-0302 #1'
+  - '31,32|🇭🇰HK-185.244.208.219-0304 #1'
+  - 32|🇭🇰HK-47.239.189.182-0472
+  - 32|🇭🇰HK-47.239.189.182-0480
+  - 32|🇭🇰HK-207.46.147.148-1727
+  - 32|🇭🇰HK-43.100.32.4-1939
+  - 32|🇭🇰HK-8.210.206.163-2092
+  - 32|🇭🇰HK-20.187.85.198-4294
+  - 32|🇭🇰HK-47.244.120.197-4874
+  - 32|🇹🇼TW-125.227.152.109-2531
+  - 32|🇹🇼TW-61.222.160.199-2600
+  - 32|🇹🇼TW-60.250.152.208-2645
+  - 32|🇹🇼TW-60.250.152.208-2667
+  - 32|🇹🇼TW-60.250.152.229-2723
+  - 32|🇹🇼TW-60.250.152.208-2725
+  - 32|🇹🇼TW-60.250.152.208-2769
+  - 32|🇹🇼TW-125.227.152.109-2881
+  - 32|🇹🇼TW-60.250.152.208-2920
+  - 32|🇹🇼TW-203.69.207.175-2939
+  - 32|🇹🇼TW-60.250.152.208-2942
+  - 32|🇹🇼TW-125.227.152.109-2988
   - 40|TG@ZDYZ2 -TW4
   - 11|352_新加坡-255.1KB
   - 21|新加坡 002
   - 21|新加坡 005
   - 21|新加坡 007
-  - 32|🇸🇬SG-47.129.183.20-0999
-  - 32|🇸🇬SG-52.220.98.46-0998
-  - 32|🇸🇬SG-15.235.147.186-0380
-  - 32|🇸🇬SG-139.99.61.154-1155
-  - 32|🇸🇬SG-202.79.172.53-1251
-  - 32|🇸🇬SG-143.198.219.182-1267
-  - 32|🇸🇬SG-146.190.82.241-1304
-  - 32|🇸🇬SG-56.10.28.155-1461
-  - 32|🇸🇬SG-146.190.82.241-1717
-  - 32|🇸🇬SG-15.235.184.36-2050
-  - 32|🇸🇬SG-139.99.61.154-2055
+  - 31,32,34|🇵🇱 波兰 V2CROSS.COM
+  - '31,32|🇸🇬SG-18.143.132.167-0293 #1'
+  - '31,32|🇸🇬SG-13.251.133.9-0291 #1'
+  - '31,32|🇸🇬SG-13.212.33.67-0290 #1'
+  - '31,32|🇸🇬SG-54.254.235.88-0288 #1'
+  - '31,32|🇸🇬SG-47.129.183.20-0292 #1'
+  - '31,32|🇸🇬SG-13.212.173.162-0289 #1'
+  - '31,32|🇸🇬SG-52.220.98.46-0294 #1'
+  - 32|🇸🇬SG-15.235.147.186-0438
+  - 32|🇸🇬SG-139.99.61.154-1281
+  - 32|🇸🇬SG-202.79.172.53-1377
   - 21|韩国 001
   - 21|韩国 009
   - 21|韩国 010
   - 21|韩国 011
   - 21|韩国 012
   - 21|韩国 013
-  - 32|🇰🇷KR-52.231.200.179-1626
-  - 32|🇰🇷KR-144.24.72.126-2638
-  - 32|🇰🇷KR-3.34.6.217-3697
-  - 32|🇰🇷KR-150.109.240.179-4768
+  - 21|韩国 016
+  - 32|🇰🇷KR-52.231.200.179-1752
+  - 32|🇰🇷KR-123.140.124.24-2509
+  - 32|🇰🇷KR-123.140.124.25-2720
+  - 32|🇰🇷KR-144.24.72.126-2760
+  - 32|🇰🇷KR-123.140.124.25-2849
+  - 32|🇰🇷KR-150.109.240.179-4909
   - 40|TG@ZDYZ2 -KR5
   - 40|TG@ZDYZ2 -KR2
   - 21|英国 004
@@ -2239,9 +2204,10 @@ proxy-groups:
   - 21|英国 039
   - 21|英国 044
   - 29|🇬🇧 FASTNET 10
-  - 32|🇬🇧GB-46.175.135.9-0310
-  - 32|🇬🇧GB-51.89.138.147-0331
-  - 32|🇬🇧GB-46.175.135.9-1292
+  - 32|🇬🇧GB-46.175.135.9-0368
+  - 32|🇬🇧GB-51.89.138.147-0389
+  - 32|🇬🇧GB-46.175.135.9-1418
+  - 15|法国巴黎+CloudFlare节点
   - 21|法国 001
   - 21|法国 002
   - 21|法国 003
@@ -2256,7 +2222,6 @@ proxy-groups:
   - 21|法国 012
   - 21|法国 017
   - 21|法国 030
-  - 21|法国 041
   - 18|德国
   - '18|德国 #1'
   - 21|德国 006
@@ -2275,20 +2240,21 @@ proxy-groups:
   - 21|加拿大 002
   - 21|加拿大 004
   - 21|加拿大 021
-  - 32|🇨🇦CA-148.113.141.99-0641
-  - 32|🇨🇦CA-158.51.121.36-1936
-  - 32|🇨🇦CA-51.222.86.136-1958
-  - 32|🇨🇦CA-149.56.141.11-3274
-  - 32|🇨🇦CA-158.51.121.63-0134
-  - 32|🇨🇦CA-137.184.164.233-6516
+  - 32|🇨🇦CA-158.51.121.63-0563
+  - 32|🇨🇦CA-148.113.141.99-0702
+  - 32|🇨🇦CA-158.51.121.36-2058
+  - 32|🇨🇦CA-51.222.86.136-2080
+  - 32|🇨🇦CA-149.56.141.11-3396
+  - 32|🇨🇦CA-137.184.164.233-6663
+  - '34|🇭🇰 HK香港(mibei77.com 米贝节点分享) #1'
+  - '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #98'
+  - '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #49'
+  - '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #25'
   - '40|🇨🇦_CA_加拿大 #2'
   - 21|俄罗斯 025
   - 29|🇷🇺 FASTNET 11
-  - 32|🇷🇺RU-45.11.92.100-0022
-  - 32|🇷🇺RU-45.11.92.100-0021
-  - 32|🇷🇺RU-171.22.134.12-7279
-  - 32|🇷🇺RU-171.22.134.12-7280
-  - 33|🇺RU-45.8.158.176-33
+  - 32|🇷🇺RU-171.22.134.12-7426
+  - 32|🇷🇺RU-171.22.134.12-7427
   - 40|🇷🇺+RU+俄罗斯联邦+11
   - 21|瑞典 006
   - 21|瑞典 007
@@ -2296,6 +2262,7 @@ proxy-groups:
   - 21|瑞典 009
   - 21|瑞典 010
   - 21|瑞典 012
+  - 31,32,34|🇪🇪爱沙尼亚丨yoyapai.com\r
   - 11|99_中国-1.70MB
   - 21|中国 001
   - 21|中国 003
@@ -2305,7 +2272,7 @@ proxy-groups:
   - 21|中国 021
   - 21|中国 028
   - 21|中国 056
-  - 32|🇨🇳CN-124.222.189.225-1754
+  - 32|🇨🇳CN-124.222.189.225-1880
   - 40|🇨🇳+CN+中国+34
 - name: 🐟 漏网之鱼
   type: select

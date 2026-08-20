@@ -21,38 +21,9 @@ proxies:
   tls: false
   type: vmess
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- name: 32|🇨🇦CA-148.113.141.99-0641
-  password: HdsUZmsHQW
-  port: 443
-  server: 148.113.141.99
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇨🇦CA-158.51.121.36-1936
-  network: ws
-  port: 443
-  server: 158.51.121.36
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- name: 32|🇨🇦CA-51.222.86.136-1958
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  type: trojan
-- name: 32|🇨🇦CA-149.56.141.11-3274
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
-  port: 443
-  server: 149.56.141.11
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 32|🇨🇦CA-158.51.121.63-0134
+  name: 32|🇨🇦CA-158.51.121.63-0563
   network: ws
   port: 443
   server: 158.51.121.63
@@ -64,9 +35,38 @@ proxies:
     headers:
       Host: seribus.org
     path: /
+- name: 32|🇨🇦CA-148.113.141.99-0702
+  password: HdsUZmsHQW
+  port: 443
+  server: 148.113.141.99
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇨🇦CA-137.184.164.233-6516
+  name: 32|🇨🇦CA-158.51.121.36-2058
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- name: 32|🇨🇦CA-51.222.86.136-2080
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  type: trojan
+- name: 32|🇨🇦CA-149.56.141.11-3396
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: 149.56.141.11
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇨🇦CA-137.184.164.233-6663
   network: ws
   port: 80
   server: 137.184.164.233
@@ -78,6 +78,34 @@ proxies:
     headers:
       Host: ''
     path: /vmess
+- name: '34|🇭🇰 HK香港(mibei77.com 米贝节点分享) #1'
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #98'
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #49'
+  password: humanity
+  port: 443
+  server: 104.16.174.14
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #25'
+  password: humanity
+  port: 443
+  server: 104.16.174.34
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '40|🇨🇦_CA_加拿大 #2'

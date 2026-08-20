@@ -28,7 +28,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 32|🇫🇮FI-65.21.240.108-3253
+  name: 32|🇫🇮FI-65.21.240.108-3375
   network: http
   port: 443
   server: 65.21.240.108
@@ -38,7 +38,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 32|🇫🇮FI-65.109.134.191-3984
+  name: 32|🇫🇮FI-65.109.134.191-4106
   network: ws
   port: 80
   server: 65.109.134.191

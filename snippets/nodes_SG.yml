@@ -30,21 +30,57 @@ proxies:
     headers:
       Host: tjsp.hhxaf.cc.cd
     path: /
-- name: 32|🇸🇬SG-47.129.183.20-0999
+- name: 31,32,34|🇵🇱 波兰 V2CROSS.COM
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 2c.fast9988.com
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '31,32|🇸🇬SG-18.143.132.167-0293 #1'
+  password: FH72359861
+  port: 443
+  server: worthy-perch.rooster465.autos
+  sni: worthy-perch.rooster465.autos
+  type: trojan
+- name: '31,32|🇸🇬SG-13.251.133.9-0291 #1'
+  password: PQ05174892
+  port: 443
+  server: infinite-anteater.rooster465.autos
+  sni: infinite-anteater.rooster465.autos
+  type: trojan
+- name: '31,32|🇸🇬SG-13.212.33.67-0290 #1'
+  password: PQ05174892
+  port: 443
+  server: intense-monarch.rooster465.autos
+  type: trojan
+- name: '31,32|🇸🇬SG-54.254.235.88-0288 #1'
+  password: FH72359861
+  port: 443
+  server: charming-ox.rooster465.autos
+  sni: charming-ox.rooster465.autos
+  type: trojan
+- name: '31,32|🇸🇬SG-47.129.183.20-0292 #1'
   password: PQ05174892
   port: 443
   server: welcome-monitor.rooster465.autos
   sni: welcome-monitor.rooster465.autos
   type: trojan
-- name: 32|🇸🇬SG-52.220.98.46-0998
+- name: '31,32|🇸🇬SG-13.212.173.162-0289 #1'
+  password: AE62539071
+  port: 443
+  server: integral-quetzal.rooster465.autos
+  sni: integral-quetzal.rooster465.autos
+  type: trojan
+- name: '31,32|🇸🇬SG-52.220.98.46-0294 #1'
   password: PQ05174892
   port: 443
-  server: 52.220.98.46
+  server: pleased-albacore.rooster465.autos
   sni: pleased-albacore.rooster465.autos
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-15.235.147.186-0380
+  name: 32|🇸🇬SG-15.235.147.186-0438
   network: ws
   port: 80
   server: 15.235.147.186
@@ -58,7 +94,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-139.99.61.154-1155
+  name: 32|🇸🇬SG-139.99.61.154-1281
   network: ws
   port: 80
   server: 139.99.61.154
@@ -72,7 +108,7 @@ proxies:
     path: /vmess
 - alterId: 64
   cipher: auto
-  name: 32|🇸🇬SG-202.79.172.53-1251
+  name: 32|🇸🇬SG-202.79.172.53-1377
   network: ws
   port: 443
   server: 202.79.172.53
@@ -86,7 +122,7 @@ proxies:
     path: /path/220128071100
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-143.198.219.182-1267
+  name: 32|🇸🇬SG-143.198.219.182-1393
   network: ws
   port: 80
   server: 143.198.219.182
@@ -100,7 +136,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-146.190.82.241-1304
+  name: 32|🇸🇬SG-146.190.82.241-1430
   network: ws
   port: 80
   server: 146.190.82.241
@@ -114,21 +150,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-56.10.28.155-1461
-  network: ws
-  port: 20025
-  server: sh-cn-1.dnspro.icu
-  servername: sh-cn-1.dnspro.icu
-  tls: false
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: sh-cn-1.dnspro.icu
-    path: /iso
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-146.190.82.241-1717
+  name: 32|🇸🇬SG-146.190.82.241-1843
   network: ws
   port: 443
   server: 146.190.82.241
@@ -142,7 +164,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-15.235.184.36-2050
+  name: 32|🇸🇬SG-15.235.184.36-2172
   network: ws
   port: 80
   server: 15.235.184.36
@@ -156,7 +178,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-139.99.61.154-2055
+  name: 32|🇸🇬SG-139.99.61.154-2177
   network: ws
   port: 80
   server: 139.99.61.154
@@ -170,7 +192,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-109.123.237.41-2082
+  name: 32|🇸🇬SG-109.123.237.41-2204
   network: ws
   port: 80
   server: 109.123.237.41
@@ -184,7 +206,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-109.123.237.41-2244
+  name: 32|🇸🇬SG-109.123.237.41-2366
   network: ws
   port: 80
   server: 109.123.237.41
@@ -198,7 +220,7 @@ proxies:
     path: /fastssh
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-15.235.192.196-2336
+  name: 32|🇸🇬SG-15.235.192.196-2458
   network: ws
   port: 80
   server: 15.235.192.196
@@ -212,7 +234,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-157.230.36.235-2337
+  name: 32|🇸🇬SG-157.230.36.235-2459
   network: ws
   port: 80
   server: 157.230.36.235
@@ -238,24 +260,19 @@ proxies:
     headers:
       Host: ''
     path: /anti13.zingfast.vn
-- name: 32|🇸🇬SG-47.128.15.18-4716
-  password: FH72359861
-  port: 443
-  server: bold-eagle.rooster465.autos
-  type: trojan
-- name: 32|🇸🇬SG-172.104.51.247-5171
+- name: 32|🇸🇬SG-172.104.51.247-5318
   password: affae2e0-e84b-11ec-b09f-1239d0255272
   port: 443
   server: trojan1.udpgw.com
   type: trojan
-- name: 32|🇸🇬SG-18.140.67.76-5174
+- name: 32|🇸🇬SG-18.140.67.76-5321
   password: iyinglong
   port: 443
   server: 18.140.67.76
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-8.219.123.35-6769
+  name: 32|🇸🇬SG-8.219.123.35-6916
   network: ws
   port: 80
   server: 8.219.123.35
@@ -267,13 +284,13 @@ proxies:
     headers:
       Host: ''
     path: /2TokGE9A/
-- name: 32|🇸🇬SG-15.235.197.4-7401
+- name: 32|🇸🇬SG-15.235.197.4-7548
   password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
   port: 80
   server: 15.235.197.4
   sni: 15.235.197.4
   type: trojan
-- name: 32|🇸🇬SG-15.235.197.4-7403
+- name: 32|🇸🇬SG-15.235.197.4-7550
   password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
   port: 80
   server: 15.235.197.4
@@ -281,7 +298,7 @@ proxies:
   type: trojan
 - alterId: 64
   cipher: auto
-  name: 32|🇸🇬SG-118.107.46.173-7501
+  name: 32|🇸🇬SG-118.107.46.173-7648
   network: ws
   port: 443
   server: 118.107.46.173
@@ -293,17 +310,9 @@ proxies:
     headers:
       Host: ''
     path: /path/080712342310
-- alterId: 0
-  cipher: auto
-  name: 33,34|🇸🇬_SG_新加坡
-  network: none
-  port: 47630
-  server: 43.228.126.187
-  servername: ''
+- name: 34|🇸🇬_SG_新加坡
+  password: PQ05174892
+  port: 443
+  server: fleet-pony.rooster465.autos
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb
-  ws-headers:
-    Host: 43.228.126.187
-  ws-path: /
+  type: trojan

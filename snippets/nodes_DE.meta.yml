@@ -221,20 +221,9 @@ proxies:
     headers:
       Host: ewedwdewed.farcadezero.ir
     path: '%2F'
-- name: '31,32|🇩🇪DE-35.159.21.7-0123 #1'
-  password: FH72359861
-  port: 443
-  server: summary-lemming.rooster465.autos
-  sni: summary-lemming.rooster465.autos
-  type: trojan
-- name: '31,32|🇩🇪DE-3.120.70.66-0126 #1'
-  password: FH72359861
-  port: 443
-  server: renewed-porpoise.rooster465.autos
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-91.195.240.12-0419
+  name: 32|🇩🇪DE-91.195.240.12-0476
   network: ws
   port: 443
   server: sgp.kapok.buzz
@@ -248,7 +237,21 @@ proxies:
     path: /4befdd8a6/
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-91.195.240.94-1497
+  name: 32|🇩🇪DE-104.105.18.214-0562
+  network: ws
+  port: 2053
+  server: 104.105.18.214
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: deapp.jisuyun.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-91.195.240.94-1623
   network: ws
   port: 443
   server: in-full.privateip.net
@@ -262,7 +265,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-94.130.184.57-2695
+  name: 32|🇩🇪DE-94.130.184.57-2817
   network: ws
   port: 80
   server: 94.130.184.57
@@ -276,7 +279,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-162.55.174.135-2795
+  name: 32|🇩🇪DE-162.55.174.135-2917
   network: ws
   port: 80
   server: 162.55.174.135
@@ -290,7 +293,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-162.55.62.193-2755
+  name: 32|🇩🇪DE-162.55.62.193-2877
   network: ws
   port: 80
   server: 162.55.62.193
@@ -304,7 +307,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-5.75.173.189-2775
+  name: 32|🇩🇪DE-5.75.173.189-2897
   network: ws
   port: 80
   server: 5.75.173.189
@@ -318,7 +321,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-78.46.129.226-2811
+  name: 32|🇩🇪DE-78.46.129.226-2933
   network: ws
   port: 80
   server: 78.46.129.226
@@ -332,7 +335,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-167.235.78.112-2853
+  name: 32|🇩🇪DE-167.235.78.112-2975
   network: ws
   port: 80
   server: 167.235.78.112
@@ -346,7 +349,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-157.90.20.18-3196
+  name: 32|🇩🇪DE-157.90.20.18-3318
   network: http
   port: 443
   server: 157.90.20.18
@@ -356,7 +359,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-94.130.25.155-3199
+  name: 32|🇩🇪DE-94.130.25.155-3321
   network: http
   port: 443
   server: 94.130.25.155
@@ -366,7 +369,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-167.235.136.155-3250
+  name: 32|🇩🇪DE-167.235.136.155-3372
   network: http
   port: 443
   server: 167.235.136.155
@@ -376,7 +379,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-188.40.132.107-3703
+  name: 32|🇩🇪DE-188.40.132.107-3825
   network: ws
   port: 80
   server: 188.40.132.107
@@ -388,14 +391,19 @@ proxies:
     headers:
       Host: ''
     path: /p3573l6m92h1ham3q23t
-- name: 32|🇩🇪DE-63.176.171.181-4683
-  password: IL37892054
-  port: 443
-  server: engaging-toucan.rooster465.autos
-  type: trojan
+- cipher: chacha20-ietf
+  name: '32|8J%2BHr%2FCfh7VKUC01Mi4xOTUuMj... #1'
+  obfs: plain
+  obfs-param: ''
+  password: Mv4e0QHWPwdbKiCF
+  port: '53845'
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: live.bilibilicloud01.com
+  type: ssr
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 32|🇩🇪DE-95.179.254.136-6744
+  name: 32|🇩🇪DE-95.179.254.136-6891
   network: grpc
   password: mainssh-ddoejfv14
   port: 443
@@ -404,14 +412,14 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 32|🇩🇪DE-95.179.246.122-6746
+  name: 32|🇩🇪DE-95.179.246.122-6893
   network: grpc
   password: mainssh-niwrhf87
   port: 443
   server: 95.179.246.122
   sni: getgrpc.mainssh.xyz
   type: trojan
-- name: 32|🇩🇪DE-209.250.236.93-7041
+- name: 32|🇩🇪DE-209.250.236.93-7188
   network: grpc
   password: Cl150MQWlG
   port: 443
@@ -420,7 +428,7 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 32|🇩🇪DE-108.61.171.167-7503
+  name: 32|🇩🇪DE-108.61.171.167-7650
   network: grpc
   password: mainssh-niwrhf87
   port: 443
