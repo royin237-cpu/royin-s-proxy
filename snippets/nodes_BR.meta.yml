@@ -25,12 +25,329 @@ proxies:
     headers:
       Host: hhcm.hhxaf.cc.cd
     path: /
-- alterId: 1
+- alterId: 0
   cipher: auto
   name: 21|巴西 003
   network: ws
+  port: 80
+  server: 188.114.96.145
+  skip-cert-verify: true
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com
+    path: /?BIA_TELEGRAM
+- alterId: 0
+  cipher: auto
+  name: 21|巴西 004
+  network: ws
+  port: 80
+  server: 188.114.96.42
+  skip-cert-verify: true
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com
+    path: /?BIA_TELEGRAM
+- alterId: 0
+  cipher: auto
+  name: 21|巴西 005
+  network: ws
+  port: 80
+  server: 188.114.96.9
+  skip-cert-verify: true
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com
+    path: /?BIA_TELEGRAM
+- client-fingerprint: chrome
+  name: 21|巴西 006
+  network: ws
+  port: 8443
+  server: 188.114.99.160
+  servername: matoride.adaspoloandco.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0525f54a-568b-4f0b-89e5-c2666e800d83
+  ws-opts:
+    headers:
+      Host: matoride.adaspoloandco.com
+    path: /downloader
+- name: 21|巴西 007
+  network: ws
+  port: 8443
+  server: 188.114.97.6
+  servername: france.io-com-de-dev.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05cf7b0e-ad1a-42bb-80e7-73ae45b1019a
+  ws-opts:
+    headers:
+      Host: france.io-com-de-dev.org
+    path: /api/voip/updates/static/x9i2
+- client-fingerprint: chrome
+  flow: ''
+  name: 21|巴西 008
+  network: tcp
+  port: 8443
+  server: 177.3.212.127
+  servername: neth6.lckdwn.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14da77da-4fb3-4e49-ac4f-7881ea19b267
+- client-fingerprint: chrome
+  name: 21|巴西 009
+  network: ws
+  port: 443
+  server: 188.114.99.47
+  servername: auto-1f40d7.rohawmk.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1f40d742-dfaa-4694-a509-3d81918a5673
+  ws-opts:
+    headers:
+      Host: auto-1f40d7.rohawmk.workers.dev
+    path: /?TELEGRAM-TOOTFFARANGI?ed=2560
+- client-fingerprint: chrome
+  name: 21|巴西 010
+  network: xhttp
+  port: 443
+  server: 188.114.96.6
+  servername: cdn.tinfary.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 252210e6-83b2-420e-962c-c11a1367bf16
+- name: 21|巴西 011
+  network: ws
+  port: 2053
+  server: 188.114.98.0
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip
+- name: 21|巴西 012
+  network: ws
+  port: 2087
+  server: 188.114.98.0
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip
+- name: 21|巴西 013
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip
+- name: 21|巴西 014
+  network: ws
+  port: 8443
+  server: 188.114.98.0
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip
+- name: 21|巴西 015
+  network: ws
+  port: 8080
+  server: 188.114.98.224
+  servername: unlimiteddev-vpn.unlimiteddev.Community.
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 34376d1b-efcb-4e9d-81b8-914f63b79ff1
+  ws-opts:
+    headers:
+      Host: unlimiteddev-vpn.unlimiteddev.Community.
+    path: '/Telegram:'
+- name: 21|巴西 016
+  network: ws
+  port: 2095
+  server: 188.114.97.6
+  servername: daRk-CHOICEzJa8lf7vEO.SPORTLANd.cOmPany.
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 371dd7e4-c3ff-42de-aebc-0ab3bc62fb2d
+  ws-opts:
+    headers:
+      Host: daRk-CHOICEzJa8lf7vEO.SPORTLANd.cOmPany.
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 21|巴西 017
+  network: tcp
+  port: 8443
+  server: 152.233.35.228
+  servername: de1.fromblancwithlove.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 21|巴西 018
+  network: ws
+  port: 443
+  server: 188.114.96.3
+  servername: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+  ws-opts:
+    headers:
+      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+- client-fingerprint: chrome
+  name: 21|巴西 019
+  network: ws
+  port: 2087
+  server: 188.114.97.6
+  servername: orange-darkness-749f.phantomnettest1-65d.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3cb4c775-bf08-4158-a0e3-cbae9ac452d7
+  ws-opts:
+    headers:
+      Host: orange-darkness-749f.phantomnettest1-65d.workers.dev
+    path: /sync
+- name: 21|巴西 020
+  network: ws
+  port: 80
+  server: 188.114.96.3
+  servername: cxrolvpn.vipserver4.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d6d8e9b-0738-43c6-994f-ab475a7b3381
+  ws-opts:
+    headers:
+      Host: cxrolvpn.vipserver4.workers.dev
+    path: /c6L2QcfPLGJiqj1c?ed=2560
+- client-fingerprint: chrome
+  name: 21|巴西 021
+  network: ws
+  port: 443
+  server: 188.114.97.3
+  servername: cxrolvpn.vipserver4.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d6d8e9b-0738-43c6-994f-ab475a7b3381
+  ws-opts:
+    headers:
+      Host: cxrolvpn.vipserver4.workers.dev
+    path: /WJwsI9Rdz0wyh3rH?ed=2560
+- name: 21|巴西 022
+  network: ws
+  port: 80
+  server: 188.114.97.3
+  servername: cxrolvpn.vipserver4.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d6d8e9b-0738-43c6-994f-ab475a7b3381
+  ws-opts:
+    headers:
+      Host: cxrolvpn.vipserver4.workers.dev
+    path: /I7f6VOnkgtdCosoK?ed=2560
+- name: 21|巴西 023
+  network: ws
+  port: 2082
+  server: 188.114.96.66
+  servername: war.does.not.determine.who.is.right_only.who.is.left.2.0.2.6.cEphAlon.BeauTy
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5859e7c5-c61a-4d16-b56e-8fc6321ba59a
+  ws-opts:
+    headers:
+      Host: war.does.not.determine.who.is.right_only.who.is.left.2.0.2.6.cEphAlon.BeauTy
+    path: /
+- name: 21|巴西 024
+  network: grpc
+  port: 2096
+  server: 188.114.97.6
+  servername: emotioNAl-haPPInEsswO85E1O13D.oNeeAt.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83a589e2-3680-4bc2-a4e6-ed8f2d2452b4
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-188.114.96.7-1011
+  network: ws
   port: 443
   server: 188.114.96.7
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -41,10 +358,11 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21|巴西 004
+  name: 21,32|🏁RELAY-188.114.96.58-1012
   network: ws
   port: 443
   server: 188.114.96.58
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -55,10 +373,11 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21|巴西 005
+  name: 21,32|🏁RELAY-188.114.98.0-1013
   network: ws
   port: 443
   server: 188.114.98.0
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -69,10 +388,11 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21|巴西 006
+  name: 21,32|🏁RELAY-188.114.97.1-1014
   network: ws
   port: 443
   server: 22.vmessprotocol.telegram-vmessprotocol-channel.space
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -83,10 +403,11 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21|巴西 007
+  name: 21,32|🏁RELAY-188.114.97.7-1015
   network: ws
   port: 443
   server: 188.114.97.7
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -97,10 +418,11 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21|巴西 008
+  name: 21,32|🏁RELAY-188.114.96.2-1016
   network: ws
   port: 443
   server: 188.114.96.2
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -111,10 +433,11 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21|巴西 009
+  name: 21,32|🏁RELAY-188.114.97.1-1017
   network: ws
   port: 443
   server: 188.114.97.1
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -125,10 +448,11 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21|巴西 010
+  name: 21,32|🏁RELAY-188.114.96.3-1018
   network: ws
   port: 443
   server: 188.114.96.3
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -139,10 +463,11 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21|巴西 011
+  name: 21,32|🏁RELAY-188.114.97.18-1019
   network: ws
   port: 443
   server: 188.114.97.18
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -153,10 +478,11 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21|巴西 012
+  name: 21,32|🏁RELAY-188.114.97.3-1020
   network: ws
   port: 443
   server: 188.114.97.3
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -167,10 +493,11 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21|巴西 013
+  name: 21,32|🏁RELAY-188.114.99.0-1021
   network: ws
   port: 443
   server: 188.114.99.0
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -179,72 +506,33 @@ proxies:
     headers:
       Host: ophelia.mom
     path: linkvws
-- client-fingerprint: chrome
-  name: 21|巴西 015
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-188.114.99.9-1325
   network: ws
   port: 443
-  server: 188.114.96.7
-  servername: 1mcijea74uykccq2mzrx-mnghducyf0b.damav48375.workers.dev
-  skip-cert-verify: false
-  tfo: false
+  server: 188.114.99.9
+  servername: ''
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 5050e255-4919-4d7f-96c8-30b13d06fdf6
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
   ws-opts:
     headers:
-      Host: 1mcijea74uykccq2mzrx-mnghducyf0b.damav48375.workers.dev
-    path: /nXWz3i2XoxHvOGI4?ed
-- name: 21|巴西 016
+      Host: lg1.trump2023.us
+    path: /ECTCJ0DF
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-188.114.99.10-1405
   network: ws
   port: 443
-  server: 188.114.96.6
-  servername: F1.paRsa.fiLegEar-Sg.Me
-  skip-cert-verify: false
-  tfo: false
+  server: 188.114.99.10
+  servername: ''
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 8df60790-c903-4661-b85d-64c0009378e5
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   ws-opts:
     headers:
-      Host: F1.paRsa.fiLegEar-Sg.Me
-    path: /
-- name: 21|巴西 017
-  network: ws
-  port: 8443
-  server: 188.114.97.202
-  servername: teslakit1.pages.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c2e177d4-e610-4abd-85cd-1a869d158751
-  ws-opts:
-    headers:
-      Host: teslakit1.pages.dev
-    path: /Tel-
-- client-fingerprint: randomized
-  name: 21|巴西 018
-  network: ws
-  port: 443
-  server: 188.114.97.3
-  servername: pas-kale-agha.pages.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f2e486f9-1697-4be6-be59-6c4fb42c7a24
-  ws-opts:
-    headers:
-      Host: pas-kale-agha.pages.dev
-    path: /Telegram
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #106'
-  password: humanity
-  port: 443
-  server: 188.114.97.7
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+      Host: oplg1.zhujicn2.com
+    path: /5QNROSRV

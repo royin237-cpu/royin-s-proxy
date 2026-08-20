@@ -1,10 +1,11 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 21|泰国 001
+  name: 21,32|🇹🇭TH-119.59.98.39-1217
   network: ws
   port: 30001
   server: 119.59.98.39
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -15,9 +16,24 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 34|🇹🇭 泰国(mibei77.com 米贝节点分享)
+  name: 21,32|🇺🇸US-23.11.32.159-1975
   network: ws
-  port: '80'
+  port: 443
+  server: cacerts.digicert.com
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-opts:
+    headers:
+      Host: cacerts.digicert.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 34|🇹🇭TH泰国丨
+  network: ws
+  port: 80
   server: www.true.th
   servername: ''
   tls: false

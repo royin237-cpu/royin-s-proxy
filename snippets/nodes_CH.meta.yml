@@ -1,6 +1,14 @@
 proxies:
+- name: 21|瑞士 001
+  network: tcp
+  port: 62145
+  server: 141.148.236.108
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  xudp: true
 - client-fingerprint: chrome
-  name: 21|瑞士 001
+  name: 21|瑞士 002
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -11,3 +19,56 @@ proxies:
     headers:
       Host: tjsp.hhxaf.cc.cd
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 21|瑞士 006
+  network: tcp
+  port: 8443
+  server: 138.124.244.77
+  servername: fi1.hys.braidx.tech
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
+- name: 21|瑞士 007
+  network: tcp
+  port: 57021
+  server: 138.124.29.81
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 21|瑞士 009
+  network: tcp
+  port: 42538
+  server: 178.83.226.142
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d79e5263-aae8-4de4-a235-3edf9e3aa330
+- name: 21|瑞士 010
+  network: tcp
+  port: 42538
+  server: 178.83.226.145
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d79e5263-aae8-4de4-a235-3edf9e3aa330
+- name: 21|瑞士 011
+  network: tcp
+  port: 2551
+  server: 178.83.157.130
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000

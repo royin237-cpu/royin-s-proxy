@@ -1,7 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-1.1.1.1-0596
+  name: '21,31,32|🇯🇵JP-140.83.57.20-0228 #1'
+  network: ws
+  port: 13118
+  server: 140.83.57.20
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  ws-opts:
+    headers:
+      Host: sg.11160321.de5.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-1.1.1.1-0527
   network: ws
   port: 443
   server: 1.1.1.1
@@ -15,7 +30,7 @@ proxies:
     headers:
       Host: usbk.cfip.top
     path: /cctv13/hd.m3u8
-- name: 21|澳大利亚 002
+- name: 21|澳大利亚 004
   network: ws
   port: 443
   server: 43.132.231.159
@@ -30,7 +45,7 @@ proxies:
       Host: c.eoa.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 21|澳大利亚 003
+  name: 21|澳大利亚 005
   network: ws
   port: 9999
   server: 43.160.247.113
@@ -45,7 +60,7 @@ proxies:
       Host: c.eoa.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 21|澳大利亚 004
+  name: 21|澳大利亚 006
   network: ws
   port: 443
   server: 43.156.2.91
@@ -60,7 +75,7 @@ proxies:
       Host: c.eoa.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 21|澳大利亚 005
+  name: 21|澳大利亚 007
   network: ws
   port: 443
   server: 43.156.200.201
@@ -75,7 +90,7 @@ proxies:
       Host: c.eoa.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 21|澳大利亚 010
+  name: 21|澳大利亚 012
   network: ws
   packet-encoding: xudp
   port: 443
@@ -91,7 +106,7 @@ proxies:
       Host: c.eoa.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 21|澳大利亚 011
+  name: 21|澳大利亚 013
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -103,7 +118,7 @@ proxies:
       Host: tjsp.hhxaf.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 21|澳大利亚 012
+  name: 21|澳大利亚 014
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -115,7 +130,7 @@ proxies:
       Host: hhcm.hhxaf.cc.cd
     path: /
 - encryption: none
-  name: 21|澳大利亚 014
+  name: 21|澳大利亚 016
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -128,7 +143,7 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   xudp: true
 - client-fingerprint: chrome
-  name: 21|澳大利亚 016
+  name: 21|澳大利亚 018
   network: ws
   port: 63443
   server: 43.156.71.213
@@ -143,7 +158,7 @@ proxies:
       Host: c.eoa.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 21|澳大利亚 017
+  name: 21|澳大利亚 019
   network: ws
   packet-encoding: xudp
   port: 12580
@@ -158,42 +173,54 @@ proxies:
     headers:
       Host: c.eoa.ccwu.cc
     path: /
-- name: 21|澳大利亚 021
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 21|澳大利亚 020
+  network: tcp
+  port: 9527
+  server: 43.132.192.16
+  skip-cert-verify: true
+  type: vmess
+  uuid: ae862e1d-3b8c-443a-027b-37c6c69ef43c
+- client-fingerprint: chrome
+  name: 21|澳大利亚 021
   network: ws
-  port: 2096
-  server: 185.207.196.44
-  servername: kejiland.freewarp.eu.org
+  port: 443
+  server: 43.169.18.179
+  servername: sni.skylee4.cloudns.ch
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sni.skylee4.cloudns.ch
+    path: /proxyip=ProxyIP.CMLiussss.net
+- client-fingerprint: chrome
+  name: 21|澳大利亚 022
+  network: ws
+  port: 443
+  server: 103.18.49.100
+  servername: support.zoom.us.cyylr.eu.cc
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
+  uuid: 1a5b24bc-6180-4fa7-922d-ba7ee8a7a2b7
   ws-opts:
     headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets
-- name: 21|澳大利亚 022
-  network: ws
-  port: 2096
-  server: 185.207.197.253
-  servername: vlesspro.llengcugit.sbs
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e433a29-22ac-4061-ae8b-f1731715d0d9
-  ws-opts:
-    headers:
-      Host: vlesspro.llengcugit.sbs
-    path: /Telegram
+      Host: support.zoom.us.cyylr.eu.cc
+    path: /id-pusat
 - alterId: 64
   cipher: auto
-  name: 21|澳大利亚 023
+  name: 21,32|🇦🇺AU-119.252.190.115-1206
   network: ws
   port: 443
   server: 119.252.190.115
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -202,173 +229,29 @@ proxies:
     headers:
       Host: www.23376046.xyz
     path: /path/191019072927
-- name: '31,32|🇦🇺AU-87.121.33.109-0306 #1'
-  password: FH72359861
-  port: 443
-  server: national-stingray.rooster465.autos
-  sni: national-stingray.rooster465.autos
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇦🇺AU-103.224.212.211-0639
+  name: 21,32|🏁RELAY-203.24.108.10-1386
   network: ws
   port: 443
-  server: 34.72img.xyz
+  server: 203.24.108.10
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   ws-opts:
     headers:
-      Host: 34.72img.xyz
-    path: /
+      Host: lg10.cfcdn1.xyz
+    path: /A2DJOPFT
 - alterId: 0
   cipher: auto
-  name: 32|🇦🇺AU-103.224.212.211-0656
+  name: 21,32|🏁RELAY-203.24.108.8-1433
   network: ws
   port: 443
-  server: 36.72img.xyz
+  server: 203.24.108.8
   servername: ''
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: 36.72img.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇦🇺AU-103.224.212.211-0664
-  network: ws
-  port: 443
-  server: 25.72img.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: 25.72img.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇦🇺AU-103.224.212.211-0675
-  network: ws
-  port: 443
-  server: 55.72img.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: 55.72img.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇦🇺AU-103.224.212.211-0677
-  network: ws
-  port: 443
-  server: 26.72img.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: 26.72img.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇦🇺AU-103.224.212.211-0678
-  network: ws
-  port: 443
-  server: 54.72img.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: 54.72img.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇦🇺AU-103.224.212.211-0681
-  network: ws
-  port: 443
-  server: 9.72img.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: 9.72img.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇦🇺AU-103.224.212.211-0682
-  network: ws
-  port: 443
-  server: 29.72img.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: 29.72img.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇦🇺AU-103.224.212.211-0698
-  network: ws
-  port: 443
-  server: 22.72img.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: 22.72img.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇦🇺AU-103.224.212.211-0706
-  network: ws
-  port: 443
-  server: 21.72img.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: 21.72img.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇦🇺AU-103.224.212.211-0709
-  network: ws
-  port: 443
-  server: 20.72img.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: 20.72img.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇦🇺AU-103.224.212.210-0719
-  network: ws
-  port: 443
-  server: oplg1.cfcdn2.xyz
-  servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
@@ -376,45 +259,23 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
     path: /AUIKN8AU
-- name: 32|🇦🇺AU-103.224.212.216-1236
+- name: 32|🇦🇺AU-87.121.33.109-0262
+  password: FH72359861
+  port: 443
+  server: national-stingray.rooster465.autos
+  sni: national-stingray.rooster465.autos
+  type: trojan
+- name: 32|🇦🇺AU-103.224.212.216-1851
   password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
   port: 80
   server: us2.trojanvh.xyz
   type: trojan
-- name: 32|🇦🇺AU-103.224.212.216-6731
+- name: 32|🇦🇺AU-103.224.212.216-7245
   password: b640d791-ff83-4300-b509-c2a02f97f167
   port: 80
   server: uk1.trojanvh.xyz
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 32|🇦🇺AU-103.224.212.211-1429
-  network: ws
-  port: 443
-  server: clash6.ssr-free.xyz
-  servername: clash6.ssr-free.xyz
-  tls: true
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  ws-opts:
-    headers:
-      Host: clash6.ssr-free.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 32|🇦🇺AU-103.224.212.211-4249
-  network: ws
-  port: 443
-  server: 38.72img.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: 38.72img.xyz
-    path: /
-- name: 32|🇦🇺AU-103.224.212.210-6829
+- name: 32|🇦🇺AU-103.224.212.210-7343
   network: ws
   password: 4d706727-996f-4427-930d-60f3bd414cf9
   port: 443
@@ -423,7 +284,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /rDCYQta83d0oPABKBhcIX
-- name: 32|🇦🇺AU-103.224.212.210-6831
+- name: 32|🇦🇺AU-103.224.212.210-7345
   network: ws
   password: 4d706727-996f-4427-930d-60f3bd414cf9
   port: 443
@@ -432,7 +293,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /rDCYQta83d0oPABKBhcIX
-- name: 32|🇦🇺AU-103.224.212.210-6834
+- name: 32|🇦🇺AU-103.224.212.210-7348
   network: ws
   password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
   port: 443

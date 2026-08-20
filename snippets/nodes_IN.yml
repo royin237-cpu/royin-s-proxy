@@ -1,12 +1,7 @@
 proxies:
-- name: 32|🇮🇳IN-152.67.160.174-0660
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  port: 443
-  server: 152.67.160.174
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇮🇳IN-152.67.8.205-4877
+  name: 32|🇮🇳IN-152.67.8.205-5419
   network: ws
   port: 80
   server: 152.67.8.205
@@ -18,3 +13,15 @@ proxies:
     headers:
       Host: ''
     path: /
+- name: 32|🇮🇳IN-152.67.160.174-1269
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  port: 443
+  server: 152.67.160.174
+  type: trojan
+- name: 34|🇮🇳 IN印度(mibei77.com 米贝节点分享)
+  password: EQ30679154
+  port: 443
+  server: pretty-mollusk.rooster465.autos
+  skip-cert-verify: false
+  sni: pretty-mollusk.rooster465.autos
+  type: trojan

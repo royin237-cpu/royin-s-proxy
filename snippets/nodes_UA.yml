@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21|乌克兰 001
+  name: 21|乌克兰 002
   network: tcp
   port: 22324
   server: 85.90.217.42

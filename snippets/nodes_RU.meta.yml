@@ -1,15 +1,190 @@
 proxies:
-- name: 21|俄罗斯 025
-  network: xhttp
-  port: 443
-  server: 109.120.138.47
-  servername: statue.lnmarketplace.net
+- name: 21|俄罗斯 007
+  network: grpc
+  port: 8443
+  server: 185.39.204.155
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 7c63f43f-f526-49bb-b5c8-2be26e11ef00
+  uuid: 1f29762d-3f23-4207-9e39-f774de5d49ba
+- client-fingerprint: chrome
+  name: 21|俄罗斯 008
+  network: xhttp
+  port: 7443
+  server: 5.42.120.224
+  servername: ruservice3.oaklandjoseph.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 260d1fd7-668a-4ded-a0f5-8f177cf16525
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 21|俄罗斯 009
+  network: tcp
+  port: 18443
+  server: 185.141.227.150
+  servername: disagreedebut.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+- client-fingerprint: chrome
+  name: 21|俄罗斯 011
+  network: xhttp
+  port: 7443
+  server: 5.42.120.102
+  servername: ruservice5.oaklandjoseph.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5255d3f3-f419-4c5b-9059-f1749e6eb6fb
+- name: 21|俄罗斯 012
+  network: tcp
+  port: 49853
+  server: 193.124.204.145
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5ed7b151-b781-4dba-800d-e3f824f1416f
+- name: 21|俄罗斯 013
+  network: ws
+  port: 8880
+  server: 176.124.223.30
+  servername: vms.lifetime38.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime38.workers.dev
+- client-fingerprint: chrome
+  name: 21|俄罗斯 015
+  network: ws
+  port: 443
+  server: 62.182.193.24
+  servername: kjgdksgghre466.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 21|俄罗斯 016
+  network: tcp
+  port: 8443
+  server: 193.124.46.65
+  servername: 193.124.46.65
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 68bdc1ee-c6ee-4d91-ab52-35ce0d368302
+- name: 21|俄罗斯 021
+  network: tcp
+  port: 443
+  server: 89.208.113.16
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: adce7c2a-3191-49ae-b61c-9b8258ea1b0e
+- name: 21|俄罗斯 023
+  network: ws
+  port: 2053
+  server: 195.133.94.188
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed
+- client-fingerprint: chrome
+  name: 21|俄罗斯 027
+  network: ws
+  port: 2087
+  server: 194.76.18.126
+  servername: probabblynot.fazelextremeisreal.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: probabblynot.fazelextremeisreal.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇬🇧GB-46.175.135.9-0345
+  network: ws
+  port: 443
+  server: lu1.gogogoo.cyou
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  ws-opts:
+    headers:
+      Host: lu1.gogogoo.cyou
+    path: /go
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇬🇧GB-46.175.135.9-2033
+  network: ws
+  port: 443
+  server: haxus3.janechiu.icu
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0df258cb-a376-4b8e-a378-a556a4658aeb
+  ws-opts:
+    headers:
+      Host: haxus3.janechiu.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇬🇧GB-46.175.135.9-4850
+  network: ws
+  port: 443
+  server: us02.gogogoo.cyou
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  ws-opts:
+    headers:
+      Host: us02.gogogoo.cyou
+    path: /go
 - name: 29|🇷🇺 FASTNET 11
   network: ws
   port: 8443
@@ -24,7 +199,7 @@ proxies:
     path: '%2F'
 - alterId: 64
   cipher: auto
-  name: 32|🇷🇺RU-171.22.134.12-7426
+  name: 32|🇷🇺RU-171.22.134.12-7940
   network: ws
   port: 443
   server: 171.22.134.12
@@ -38,7 +213,7 @@ proxies:
     path: /path/1689849487190
 - alterId: 64
   cipher: auto
-  name: 32|🇷🇺RU-171.22.134.12-7427
+  name: 32|🇷🇺RU-171.22.134.12-7941
   network: ws
   port: 443
   server: 171.22.134.12

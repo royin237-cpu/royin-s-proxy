@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 32|🇻🇳VN-103.166.183.226-0377
+  name: 32|🇻🇳VN-103.166.183.226-0354
   network: ws
   port: 80
   server: 103.166.183.226
@@ -15,7 +15,7 @@ proxies:
     path: /tandung288.click
 - alterId: 0
   cipher: auto
-  name: 32|🇻🇳VN-103.56.160.184-0440
+  name: 32|🇻🇳VN-103.56.160.184-0417
   network: ws
   port: 80
   server: 103.56.160.184
@@ -29,7 +29,7 @@ proxies:
     path: /tandung288.click
 - alterId: 0
   cipher: auto
-  name: 32|🇻🇳VN-103.75.186.153-0441
+  name: 32|🇻🇳VN-103.75.186.153-0418
   network: ws
   port: 80
   server: 103.75.186.153
@@ -41,19 +41,19 @@ proxies:
     headers:
       Host: ''
     path: /tandung288.click
-- name: 32|🇻🇳VN-103.195.236.24-2504
+- name: 32|🇻🇳VN-103.195.236.24-3071
   password: 5623be5f-c9da-4511-81a9-b4b39b16edae
   port: 443
   server: 103.195.236.24
   type: trojan
-- name: 32|🇻🇳VN-103.195.236.24-3643
+- name: 32|🇻🇳VN-103.195.236.24-4210
   password: 8078dd51-d4d9-4024-89df-50e358a00a54
   port: 443
   server: 103.195.236.24
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇻🇳VN-103.82.25.106-7827
+  name: 32|🇻🇳VN-103.82.25.106-8341
   network: ws
   port: 80
   server: 103.82.25.106

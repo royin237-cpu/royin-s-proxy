@@ -1,7 +1,17 @@
 proxies:
+- name: 21|土耳其 002
+  network: tcp
+  port: 443
+  server: 139.28.241.77
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d5c40b1-102c-4343-94cc-d5b794dbd0c6
 - alterId: 0
   cipher: auto
-  name: 32|🇹🇷TR-45.94.169.142-7011
+  name: 32|🇹🇷TR-45.94.169.142-7525
   network: ws
   port: 443
   server: 45.94.169.142
