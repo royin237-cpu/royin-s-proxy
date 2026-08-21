@@ -1,16 +1,15 @@
 proxies:
-- name: 21|意大利 002
+- alterId: 64
+  cipher: auto
+  name: 32|🇮🇹IT-217.138.197.171-1276
   network: ws
   port: 443
-  server: 92.42.96.240
-  servername: mAhaNrEaliteAm.MaHkHan.iR
-  skip-cert-verify: false
-  tfo: false
+  server: 217.138.197.171
+  servername: ''
   tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  type: vmess
+  uuid: 435c978e-2f48-4194-8d04-38cc79a24421
   ws-opts:
     headers:
-      Host: mAhaNrEaliteAm.MaHkHan.iR
-    path: /
+      Host: www.29870011.xyz
+    path: /path/191019072927

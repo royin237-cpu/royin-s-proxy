@@ -1,70 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: ''
-  name: 21|加拿大 006
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
-  tls: false
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 0
-  cipher: auto
-  name: 21|加拿大 008
-  network: ws
-  port: 443
-  server: 142.132.178.99
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- name: 21|加拿大 012
-  network: tcp
-  port: 42538
-  server: 38.128.251.24
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d79e5263-aae8-4de4-a235-3edf9e3aa330
-- alterId: 0
-  cipher: auto
-  name: 21,32|🇺🇸US-162.0.232.36-1915
-  network: ws
-  port: 443
-  server: hohm.microsoft.com
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  ws-opts:
-    headers:
-      Host: hohm.microsoft.com
-    path: /9JZFDTKE
-- alterId: 0
-  cipher: auto
-  name: '31,32|🇨🇦CA-23.162.200.227-0561 #1'
-  network: ws
-  port: 443
-  server: 23.162.200.227
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 23.162.200.227
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '31,32|🇨🇦CA-134.195.198.147-1031 #1'
+  name: 32|🇨🇦CA-134.195.198.147-0271
   network: ws
   port: 443
   server: 134.195.198.147
@@ -75,15 +12,29 @@ proxies:
   ws-opts:
     headers:
       Host: vk.com
-    path: /linkvws
-- name: 32|🇨🇦CA-148.113.141.99-1311
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇨🇦CA-23.162.200.227-0268
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.162.200.227
+    path: /
+- name: 32|🇨🇦CA-148.113.141.99-1746
   password: HdsUZmsHQW
   port: 443
   server: 148.113.141.99
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇨🇦CA-158.51.121.36-2625
+  name: 32|🇨🇦CA-158.51.121.36-3069
   network: ws
   port: 443
   server: 158.51.121.36
@@ -95,19 +46,19 @@ proxies:
     headers:
       Host: ''
     path: /linkvws
-- name: 32|🇨🇦CA-51.222.86.136-2647
+- name: 32|🇨🇦CA-51.222.86.136-3091
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: ca-trojan.bonds.id
   type: trojan
-- name: 32|🇨🇦CA-149.56.141.11-3963
+- name: 32|🇨🇦CA-149.56.141.11-4407
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: 149.56.141.11
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇨🇦CA-137.184.164.233-7177
+  name: 32|🇨🇦CA-137.184.164.233-7621
   network: ws
   port: 80
   server: 137.184.164.233
@@ -119,17 +70,3 @@ proxies:
     headers:
       Host: ''
     path: /vmess
-- name: '34|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #1'
-  password: humanity
-  port: 443
-  server: 104.18.22.63
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '34|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #8'
-  password: humanity
-  port: 443
-  server: 172.67.221.242
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan

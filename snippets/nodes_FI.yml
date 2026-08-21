@@ -1,12 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21,32|🇫🇮FI-95.216.186.191-1149
+  name: 32|🇫🇮FI-95.216.186.191-1214
   network: ws
   port: 80
   server: 95.216.186.191
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
@@ -16,12 +15,11 @@ proxies:
     path: /telegram-id-
 - alterId: 64
   cipher: auto
-  name: 21,32|🇫🇮FI-91.132.197.5-1218
+  name: 32|🇫🇮FI-91.132.197.5-1274
   network: ws
   port: 443
   server: 91.132.197.5
   servername: ''
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -31,7 +29,17 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 32|🇫🇮FI-65.109.134.191-4673
+  name: 32|🇫🇮FI-65.21.240.108-1532
+  network: http
+  port: 443
+  server: 65.21.240.108
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 32|🇫🇮FI-65.109.134.191-5117
   network: ws
   port: 80
   server: 65.109.134.191

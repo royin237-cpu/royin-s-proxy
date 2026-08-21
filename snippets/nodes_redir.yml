@@ -9,13 +9,3 @@ proxies:
   skip-cert-verify: true
   sni: channel.v2bamdad.tech
   type: trojan
-- name: '40|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1'
-  network: ws
-  password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
-  port: 443
-  server: 23.227.38.11
-  skip-cert-verify: true
-  sni: syndication-statutes-wanted-logo.trycloudflare.com
-  type: trojan
-  ws-opts:
-    path: /argox-tr

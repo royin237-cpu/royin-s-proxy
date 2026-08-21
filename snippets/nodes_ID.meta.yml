@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 32|🇮🇩ID-103.180.95.29-1579
+  network: ws
+  port: 80
+  server: lms.uin-antasari.ac.id
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
+  ws-opts:
+    headers:
+      Host: exa.nextvpn.cc
+    path: /

@@ -1,25 +1,25 @@
 {
-  "total": 2800,
+  "total": 2046,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 131
+      "count": 137
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 324
+      "count": 68
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 9
+      "count": 1
     },
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 22
+      "count": 12
     },
     "TW": {
       "flag": "🇹🇼",
@@ -29,22 +29,22 @@
     "CA": {
       "flag": "🇦🇨",
       "name": "加拿大",
-      "count": 6
+      "count": 3
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 24
+      "count": 14
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 16
+      "count": 44
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 13
+      "count": 8
     },
     "KR": {
       "flag": "🇰🇷",
@@ -54,17 +54,12 @@
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 7
+      "count": 2
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 11
-    },
-    "SE": {
-      "flag": "🇸🇪",
-      "name": "瑞典",
-      "count": 5
+      "count": 6
     },
     "EE": {
       "flag": "🇪🇪",
@@ -72,8 +67,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-21 10:07",
-  "server_time": "2026-08-21 10:08:01",
+  "update_time": "2026-08-21 21:26",
+  "server_time": "2026-08-21 21:26:15",
   "sources": [
     {
       "index": 0,
@@ -123,7 +118,7 @@
     {
       "index": 9,
       "url": "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
-      "nodes": 626
+      "nodes": 610
     },
     {
       "index": 10,
@@ -153,7 +148,7 @@
     {
       "index": 15,
       "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
-      "nodes": 20
+      "nodes": 13
     },
     {
       "index": 16,
@@ -168,12 +163,12 @@
     {
       "index": 18,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
-      "nodes": 48
+      "nodes": 51
     },
     {
       "index": 19,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 62
+      "nodes": 64
     },
     {
       "index": 20,
@@ -183,7 +178,7 @@
     {
       "index": 21,
       "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
-      "nodes": 2181
+      "nodes": 566
     },
     {
       "index": 22,
@@ -238,7 +233,7 @@
     {
       "index": 32,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 4587
+      "nodes": 4648
     },
     {
       "index": 33,
@@ -248,7 +243,7 @@
     {
       "index": 34,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
-      "nodes": 288
+      "nodes": 93
     },
     {
       "index": 35,

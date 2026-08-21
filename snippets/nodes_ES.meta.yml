@@ -1,83 +1,11 @@
 proxies:
-- name: 21|西班牙 001
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.18.250.245
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 21|西班牙 002
-  network: ws
-  port: 443
-  server: 185.18.250.245
-  servername: crm.lotussec.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17540a16-a0dd-5694-7e1e-14e281ccc032
-  ws-opts:
-    headers:
-      Host: crm.lotussec.com
-    path: /
-- name: 21|西班牙 003
-  network: ws
-  port: 443
-  server: 185.18.250.252
-  servername: crm.lotussec.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17540a16-a0dd-5694-7e1e-14e281ccc032
-  ws-opts:
-    headers:
-      Host: crm.lotussec.com
-    path: /
-- client-fingerprint: chrome
-  name: 21|西班牙 004
-  network: ws
-  port: 2053
-  server: 95.182.97.46
-  servername: kjgdksgghre466.pages.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 21|西班牙 005
-  network: tcp
-  port: 443
-  server: 85.155.98.40
-  servername: nl2.fast-connect-service.site
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 64
   cipher: auto
-  name: 21,32|🇪🇸ES-37.120.142.250-1203
+  name: 32|🇪🇸ES-37.120.142.250-1259
   network: ws
   port: 443
   server: 37.120.142.250
   servername: ''
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -85,19 +13,6 @@ proxies:
     headers:
       Host: www.82210771.xyz
     path: /path/191019072927
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 21|西班牙 009
-  network: tcp
-  port: 443
-  server: s306.gogocs.xyz
-  servername: u643766uccbf75e5s298.wagahaha.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
 - name: 40|🇪🇸+ES+西班牙+9
   network: ws
   port: 2053

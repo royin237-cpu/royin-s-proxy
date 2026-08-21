@@ -1,22 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '21,31,32|🇯🇵JP-140.83.57.20-0228 #1'
-  network: ws
-  port: 13118
-  server: 140.83.57.20
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
-  ws-opts:
-    headers:
-      Host: sg.11160321.de5.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21,32|🏁RELAY-1.1.1.1-0527
+  name: 21,32|🏁RELAY-1.1.1.1-0575
   network: ws
   port: 443
   server: 1.1.1.1
@@ -30,47 +15,13 @@ proxies:
     headers:
       Host: usbk.cfip.top
     path: /cctv13/hd.m3u8
-- client-fingerprint: chrome
-  name: 21|澳大利亚 013
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 43.169.19.179
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 21|澳大利亚 014
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 43.170.8.95
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: 21|澳大利亚 020
-  network: tcp
-  port: 9527
-  server: 43.132.192.16
-  skip-cert-verify: true
-  type: vmess
-  uuid: ae862e1d-3b8c-443a-027b-37c6c69ef43c
 - alterId: 64
   cipher: auto
-  name: 21,32|🇦🇺AU-119.252.190.115-1206
+  name: 32|🇦🇺AU-119.252.190.115-1262
   network: ws
   port: 443
   server: 119.252.190.115
   servername: ''
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -80,27 +31,165 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-203.24.108.10-1386
+  name: 32|🇦🇺AU-103.224.212.211-1287
   network: ws
   port: 443
-  server: 203.24.108.10
+  server: 34.72img.xyz
   servername: ''
-  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   ws-opts:
     headers:
-      Host: lg10.cfcdn1.xyz
-    path: /A2DJOPFT
+      Host: 34.72img.xyz
+    path: /
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-203.24.108.8-1433
+  name: 32|🇦🇺AU-103.224.212.211-1297
   network: ws
   port: 443
-  server: 203.24.108.8
+  server: 36.72img.xyz
   servername: ''
-  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: 36.72img.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇦🇺AU-103.224.212.211-1304
+  network: ws
+  port: 443
+  server: 25.72img.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: 25.72img.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇦🇺AU-103.224.212.211-1312
+  network: ws
+  port: 443
+  server: 55.72img.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: 55.72img.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇦🇺AU-103.224.212.211-1314
+  network: ws
+  port: 443
+  server: 26.72img.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: 26.72img.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇦🇺AU-103.224.212.211-1315
+  network: ws
+  port: 443
+  server: 54.72img.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: 54.72img.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇦🇺AU-103.224.212.211-1318
+  network: ws
+  port: 443
+  server: 9.72img.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: 9.72img.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇦🇺AU-103.224.212.211-1319
+  network: ws
+  port: 443
+  server: 29.72img.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: 29.72img.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇦🇺AU-103.224.212.211-1327
+  network: ws
+  port: 443
+  server: 22.72img.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: 22.72img.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇦🇺AU-103.224.212.211-1331
+  network: ws
+  port: 443
+  server: 21.72img.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: 21.72img.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇦🇺AU-103.224.212.211-1333
+  network: ws
+  port: 443
+  server: 20.72img.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: 20.72img.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇦🇺AU-103.224.212.210-1340
+  network: ws
+  port: 443
+  server: oplg1.cfcdn2.xyz
+  servername: ''
   tls: true
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
@@ -108,23 +197,45 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
     path: /AUIKN8AU
-- name: '31,32|🇦🇺AU-87.121.33.109-0262 #1'
-  password: FH72359861
+- alterId: 0
+  cipher: auto
+  name: 32|🇦🇺AU-103.224.212.211-1461
+  network: ws
   port: 443
-  server: national-stingray.rooster465.autos
-  sni: national-stingray.rooster465.autos
-  type: trojan
-- name: 32|🇦🇺AU-103.224.212.216-1851
+  server: clash6.ssr-free.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-opts:
+    headers:
+      Host: clash6.ssr-free.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 32|🇦🇺AU-103.224.212.211-1544
+  network: ws
+  port: 443
+  server: 38.72img.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: 38.72img.xyz
+    path: /
+- name: 32|🇦🇺AU-103.224.212.216-2281
   password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
   port: 80
   server: us2.trojanvh.xyz
   type: trojan
-- name: 32|🇦🇺AU-103.224.212.216-7245
+- name: 32|🇦🇺AU-103.224.212.216-7689
   password: b640d791-ff83-4300-b509-c2a02f97f167
   port: 80
   server: uk1.trojanvh.xyz
   type: trojan
-- name: 32|🇦🇺AU-103.224.212.210-7343
+- name: 32|🇦🇺AU-103.224.212.210-7787
   network: ws
   password: 4d706727-996f-4427-930d-60f3bd414cf9
   port: 443
@@ -133,7 +244,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /rDCYQta83d0oPABKBhcIX
-- name: 32|🇦🇺AU-103.224.212.210-7345
+- name: 32|🇦🇺AU-103.224.212.210-7789
   network: ws
   password: 4d706727-996f-4427-930d-60f3bd414cf9
   port: 443
@@ -142,7 +253,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /rDCYQta83d0oPABKBhcIX
-- name: 32|🇦🇺AU-103.224.212.210-7348
+- name: 32|🇦🇺AU-103.224.212.210-7792
   network: ws
   password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
   port: 443
@@ -151,3 +262,9 @@ proxies:
   type: trojan
   ws-opts:
     path: /ywQ9KSLI4ZBm9wOAXUaN
+- name: 34|🇦🇺_AU_澳大利亚
+  password: AE62539071
+  port: 443
+  server: together-dingo.rooster465.autos
+  skip-cert-verify: true
+  type: trojan

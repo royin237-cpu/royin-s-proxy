@@ -1,105 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 21|瑞典 001
-  network: ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 21|瑞典 006
+  network: tcp
   port: 443
-  server: 185.146.173.59
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- name: 21|瑞典 002
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  servername: rb24.ir
+  server: sto5.vpntype.dev
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 046bc2bc-3ab7-4dd3-b9b2-69679c0025b6
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/
-- name: 21|瑞典 003
-  network: ws
-  port: 8880
-  server: 185.146.173.200
-  servername: www.speedtest.net.kkkkklllkokowkfwofkfkfekojg.ir
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47ce931e-32e4-4ed8-816c-9447860c70ef
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.kkkkklllkokowkfwofkfkfekojg.ir
-    path: /-LiV2ry
-- name: 21|瑞典 004
-  network: ws
-  port: 2095
-  server: 185.146.173.68
-  servername: wWw.vArZeSh3.Com.QUENTIN.1.1.1.1.radiotehran.org.
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: wWw.vArZeSh3.Com.QUENTIN.1.1.1.1.radiotehran.org.
-    path: /DigiconnecT?ed=1024
-- name: 21|瑞典 005
-  network: ws
-  port: 8080
-  server: 185.146.173.58
-  servername: dcc12.servernet.fun.
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d279702d-4d2c-4ff5-ad5e-d1db3fd54cee
-  ws-opts:
-    headers:
-      Host: dcc12.servernet.fun.
-    path: /
-- name: 21|瑞典 006
-  network: ws
-  port: 80
-  server: 185.146.173.68
-  servername: 1.www.speedtest.net.zula.ir.zemestanil.ir
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f6ba5dd7-81b3-4c1e-be70-2a4b2c3cf1c6
-  ws-opts:
-    headers:
-      Host: 1.www.speedtest.net.zula.ir.zemestanil.ir
-    path: /Proxy-MTM?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 21,32|🏁RELAY-185.146.173.25-1169
-  network: ws
-  port: 80
-  server: 185.146.173.25
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e3cb5c38-1168-46ad-aec4-62ffd3614690
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.safari-df.ir.
-    path: /
+  uuid: 601ad357-c8cf-491f-98e6-62175e130658

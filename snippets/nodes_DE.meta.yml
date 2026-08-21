@@ -1,12 +1,12 @@
 proxies:
-- name: 18|德国
+- name: '18|德国 #2'
   password: d1224950-ffab-4b9a-8696-431b40a6cfbd
   port: 443
   server: bel-03.node.lumixnet.com
   sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
-- name: '18|德国 #3'
+- name: '18|德国 #5'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: de.1.23.h2corp.org
@@ -14,259 +14,68 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 21|德国 001
-  network: ws
+- name: 19|80@oneclickvpnkeys
+  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
   port: 443
-  server: 185.243.10.109
-  servername: hys40.wba-pn.ru
+  server: player.wwwinternetvideo.click
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae2e0637-5c9d-422b-93ac-70bd3fceeb81
-  ws-opts:
-    headers:
-      Host: hys40.wba-pn.ru
-    path: /
-- alterId: 0
-  cipher: aes-128-gcm
-  client-fingerprint: chrome
+  sni: player.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
   name: 21|德国 007
-  network: tcp
-  port: 1234
-  server: 141.95.65.9
-  servername: supervpn.super.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-- alterId: 0
-  cipher: auto
-  name: 21|德国 014
-  network: tcp
-  port: 80
-  server: 128.140.109.232
-  skip-cert-verify: true
-  type: vmess
-  uuid: 05a178f9-e6ba-4006-93d7-3d980cdc3a76
-- name: 21|德国 017
-  network: tcp
-  port: 8443
-  server: 176.65.151.215
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 10af0a09-4a6a-4938-8fef-085c495d1c2f
-- name: 21|德国 029
-  network: tcp
-  port: 29690
-  server: 94.130.141.81
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 566c82d9-8652-452c-95d3-cc0b3538e866
-- name: 21|德国 032
   network: ws
-  port: 2096
-  server: 185.16.110.238
-  servername: sni.jpmj.dev
-  skip-cert-verify: false
+  port: 443
+  server: 49.12.189.237
+  servername: aglon.frederick-malaghejoon.info
+  skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: cd2e9541-3fce-4d95-9bec-919d884f911e
   ws-opts:
     headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560
-- name: 21|德国 040
-  network: tcp
-  port: 24144
-  server: 164.68.127.108
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e85ed3f-3829-45b1-8b1c-6a2e45ebc967
-- name: 21|德国 043
-  network: tcp
-  port: 8080
-  server: 91.107.244.55
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 92929b0d-a473-4ea2-bba5-f651ea263872
+      Host: aglon.frederick-malaghejoon.info
+    path: /tiger
 - client-fingerprint: chrome
-  name: 21|德国 047
+  name: 21|德国 008
   network: ws
   port: 443
-  server: 81.95.4.189
-  servername: bab-6.site
-  skip-cert-verify: false
+  server: 88.99.84.173
+  servername: yhrug.samuel-ghametnabashe.info
+  skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: cd2e9541-3fce-4d95-9bec-919d884f911e
   ws-opts:
     headers:
-      Host: bab-6.site
-    path: /vws/
+      Host: yhrug.samuel-ghametnabashe.info
+    path: /tiger
 - client-fingerprint: chrome
-  name: 21|德国 051
-  network: ws
-  port: 443
-  server: 159.65.117.197
-  servername: v7s1e040.5qqzdipkj05g8copceva.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7665648-eff9-4317-8978-4ee2fb34f752
-  ws-opts:
-    headers:
-      Host: v7s1e040.5qqzdipkj05g8copceva.workers.dev
-    path: /
-- name: 21|德国 070
+  name: 21|德国 018
   network: tcp
   port: 443
-  server: 3.126.31.60
+  server: 91.107.153.103
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: fa12c1f5-24be-4119-8506-aad16f3bcd35
-- alterId: 0
-  cipher: auto
-  name: 21,32|🇩🇪DE-91.195.240.12-0456
-  network: ws
+  uuid: 95701d09-280b-478f-9812-ae2947cc1b1e
+- client-fingerprint: chrome
+  name: 21|德国 019
+  network: tcp
   port: 443
-  server: sgp.kapok.buzz
-  servername: ''
-  skip-cert-verify: true
+  server: 91.107.246.46
+  skip-cert-verify: false
+  tfo: false
   tls: true
-  type: vmess
-  uuid: c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85
-  ws-opts:
-    headers:
-      Host: sgp.kapok.buzz
-    path: /4befdd8a6/
-- alterId: 0
-  cipher: auto
-  name: 21,32|🇫🇷FR-185.16.110.212-1113
-  network: ws
-  port: 8880
-  server: 185.16.110.212
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b209dfbf-6bb0-30b2-a77a-286e230466b5
-  ws-opts:
-    headers:
-      Host: TG.WangCai2.s4.db-link02.top
-    path: /dabai
-- alterId: 64
-  cipher: auto
-  name: 21,32|🇩🇪DE-89.163.247.25-1198
-  network: ws
-  port: 30001
-  server: 89.163.247.25
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
-  ws-opts:
-    headers:
-      Host: www.50360235.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: 21,32|🇵🇱PL-194.15.196.172-1208
-  network: ws
-  port: 443
-  server: 194.15.196.172
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4d0247e0-d1da-444c-9cda-8cc20e4e4435
-  ws-opts:
-    headers:
-      Host: www.87416132.xyz
-    path: /path/191019072927
-- alterId: 0
-  cipher: auto
-  name: 21,32|🇩🇪DE-91.195.240.94-2238
-  network: ws
-  port: 443
-  server: in-full.privateip.net
-  servername: in-full.privateip.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 07722fc6-a688-49fd-9896-fb9e1ca748d6
-  ws-opts:
-    headers:
-      Host: in-full.privateip.net
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  name: 21,32|🇩🇪DE-157.90.20.18-3885
-  network: http
-  port: 443
-  server: 157.90.20.18
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- alterId: 0
-  cipher: auto
-  name: 21,32|🇩🇪DE-94.130.25.155-3888
-  network: http
-  port: 443
-  server: 94.130.25.155
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- alterId: 0
-  cipher: auto
-  name: 21,32|🇩🇪DE-167.235.136.155-3939
-  network: http
-  port: 443
-  server: 167.235.136.155
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- alterId: 0
-  cipher: auto
-  name: 21,32|🇫🇮FI-65.21.240.108-3942
-  network: http
-  port: 443
-  server: 65.21.240.108
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+  type: vless
+  udp: true
+  uuid: 95701d09-280b-478f-9812-ae2947cc1b1e
 - name: 29|🇩🇪 FASTNET 19
   network: ws
   port: 8443
@@ -292,7 +101,149 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-94.130.184.57-3384
+  name: 32|🇩🇪DE-91.195.240.12-0457
+  network: ws
+  port: 443
+  server: sgp.kapok.buzz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85
+  ws-opts:
+    headers:
+      Host: sgp.kapok.buzz
+    path: /4befdd8a6/
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-57.129.24.142-0605
+  network: ws
+  port: 443
+  server: 57.129.24.142
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 57.129.24.142
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-142.132.178.99-0944
+  network: ws
+  port: 443
+  server: 142.132.178.99
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-57.129.59.195-1201
+  network: ws
+  port: 443
+  server: 57.129.59.195
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kampong.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-57.129.59.199-1202
+  network: ws
+  port: 443
+  server: 57.129.59.199
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kampong.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-57.129.59.201-1205
+  network: ws
+  port: 443
+  server: 57.129.59.201
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kampong.org
+    path: linkvws
+- alterId: 64
+  cipher: auto
+  name: 32|🇩🇪DE-89.163.247.25-1254
+  network: ws
+  port: 30001
+  server: 89.163.247.25
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
+  ws-opts:
+    headers:
+      Host: www.50360235.xyz
+    path: /path/191019072927
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-91.195.240.94-1478
+  network: ws
+  port: 443
+  server: in-full.privateip.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 07722fc6-a688-49fd-9896-fb9e1ca748d6
+  ws-opts:
+    headers:
+      Host: in-full.privateip.net
+    path: /racevpn
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-157.90.20.18-1528
+  network: http
+  port: 443
+  server: 157.90.20.18
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-94.130.25.155-1530
+  network: http
+  port: 443
+  server: 94.130.25.155
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-167.235.136.155-1531
+  network: http
+  port: 443
+  server: 167.235.136.155
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 32|🇩🇪DE-94.130.184.57-3828
   network: ws
   port: 80
   server: 94.130.184.57
@@ -306,7 +257,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-162.55.174.135-3484
+  name: 32|🇩🇪DE-162.55.174.135-3928
   network: ws
   port: 80
   server: 162.55.174.135
@@ -320,7 +271,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-162.55.62.193-3444
+  name: 32|🇩🇪DE-162.55.62.193-3888
   network: ws
   port: 80
   server: 162.55.62.193
@@ -334,7 +285,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-5.75.173.189-3464
+  name: 32|🇩🇪DE-5.75.173.189-3908
   network: ws
   port: 80
   server: 5.75.173.189
@@ -348,7 +299,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-78.46.129.226-3500
+  name: 32|🇩🇪DE-78.46.129.226-3944
   network: ws
   port: 80
   server: 78.46.129.226
@@ -362,7 +313,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-167.235.78.112-3542
+  name: 32|🇩🇪DE-167.235.78.112-3986
   network: ws
   port: 80
   server: 167.235.78.112
@@ -376,7 +327,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-188.40.132.107-4392
+  name: 32|🇩🇪DE-188.40.132.107-4836
   network: ws
   port: 80
   server: 188.40.132.107
@@ -393,14 +344,14 @@ proxies:
   obfs: plain
   obfs-param: ''
   password: Mv4e0QHWPwdbKiCF
-  port: '54101'
+  port: '54112'
   protocol: auth_aes128_sha1
   protocol-param: ''
-  server: show.bilibilicloud01.com
+  server: live.bilibilicloud01.com
   type: ssr
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 32|🇩🇪DE-95.179.254.136-7405
+  name: 32|🇩🇪DE-95.179.254.136-7849
   network: grpc
   password: mainssh-ddoejfv14
   port: 443
@@ -409,14 +360,14 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 32|🇩🇪DE-95.179.246.122-7407
+  name: 32|🇩🇪DE-95.179.246.122-7851
   network: grpc
   password: mainssh-niwrhf87
   port: 443
   server: 95.179.246.122
   sni: getgrpc.mainssh.xyz
   type: trojan
-- name: 32|🇩🇪DE-209.250.236.93-7702
+- name: 32|🇩🇪DE-209.250.236.93-8146
   network: grpc
   password: Cl150MQWlG
   port: 443
@@ -425,7 +376,7 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 32|🇩🇪DE-108.61.171.167-8164
+  name: 32|🇩🇪DE-108.61.171.167-8608
   network: grpc
   password: mainssh-niwrhf87
   port: 443
