@@ -31,9 +31,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 34|🇹🇭TH泰国丨
+  name: 34|🇫🇮 芬兰(mibei77.com 米贝节点分享)
   network: ws
-  port: 80
+  port: '80'
   server: www.true.th
   servername: ''
   tls: false

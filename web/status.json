@@ -1,15 +1,15 @@
 {
-  "total": 2812,
+  "total": 2800,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 128
+      "count": 131
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 329
+      "count": 324
     },
     "CN": {
       "flag": "🇨🇳",
@@ -19,7 +19,7 @@
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 24
+      "count": 22
     },
     "TW": {
       "flag": "🇹🇼",
@@ -29,12 +29,12 @@
     "CA": {
       "flag": "🇦🇨",
       "name": "加拿大",
-      "count": 9
+      "count": 6
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 19
+      "count": 24
     },
     "SG": {
       "flag": "🇸🇬",
@@ -44,7 +44,7 @@
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 14
+      "count": 13
     },
     "KR": {
       "flag": "🇰🇷",
@@ -59,7 +59,7 @@
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 12
+      "count": 11
     },
     "SE": {
       "flag": "🇸🇪",
@@ -72,8 +72,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-20 21:27",
-  "server_time": "2026-08-20 21:27:28",
+  "update_time": "2026-08-21 10:07",
+  "server_time": "2026-08-21 10:08:01",
   "sources": [
     {
       "index": 0,
@@ -168,12 +168,12 @@
     {
       "index": 18,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
-      "nodes": 47
+      "nodes": 48
     },
     {
       "index": 19,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 102
+      "nodes": 62
     },
     {
       "index": 20,
@@ -248,7 +248,7 @@
     {
       "index": 34,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
-      "nodes": 295
+      "nodes": 288
     },
     {
       "index": 35,

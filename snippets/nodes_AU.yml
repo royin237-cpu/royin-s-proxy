@@ -108,7 +108,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
     path: /AUIKN8AU
-- name: 32|🇦🇺AU-87.121.33.109-0262
+- name: '31,32|🇦🇺AU-87.121.33.109-0262 #1'
   password: FH72359861
   port: 443
   server: national-stingray.rooster465.autos

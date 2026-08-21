@@ -1,5 +1,5 @@
-# Update: 2026-08-20 21:27
-# 移动端轻量订阅：186 个存活节点（每地区最多 15 个），精简规则
+# Update: 2026-08-21 10:08
+# 移动端轻量订阅：184 个存活节点（每地区最多 15 个），精简规则
 mixed-port: 7890
 allow-lan: false
 mode: rule
@@ -288,63 +288,74 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.23.63
-  skip-cert-verify: false
+  server: 104.16.174.6
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 15,32|🏁RELAY-104.16.174.117-1544
+- name: 15,32|🏁RELAY-104.18.152.144-1662
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.117
-  skip-cert-verify: false
+  server: 104.18.152.144
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #2'
+- name: 15,32|🏁RELAY-104.17.111.3-1627
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.140
-  skip-cert-verify: false
+  server: 104.17.111.3
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 15|美国+Merit网络公司
-  network: tcp
-  password: AE62539071
-  port: 443
-  server: 35.88.120.18
-  sni: dominant-jaguar.rooster465.autos
-  type: trojan
-- name: '15|美国+Merit网络公司 #1'
-  password: AE62539071
-  port: 443
-  server: 35.88.210.26
-  sni: dear-hermit.rooster465.autos
-  type: trojan
-- name: 15|美国+加州
+- name: '15|美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
-  server: 216.24.57.7
-  skip-cert-verify: false
+  server: 104.20.6.134
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 15|美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
-  password: AE62539071
+- name: 15,32|🏁RELAY-104.26.14.137-1673
+  network: ws
+  password: humanity
   port: 443
-  server: frank-frog.rooster465.autos
-  sni: frank-frog.rooster465.autos
+  server: www.speedtest.org
+  sni: www.ignitelimit.com
   type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #5'
+  network: ws
+  port: 8880
+  server: cf3.466688.xyz
+  tls: false
+  type: vless
+  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
+  ws-opts:
+    headers:
+      Host: summer-bonus-aa63.52-c03.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+- client-fingerprint: chrome
+  name: '15|美国+CloudFlare节点 #6'
+  network: ws
+  port: 443
+  server: adf.ly
+  servername: rAyAn-007.pArViN.DpDnS.OrG
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+  ws-opts:
+    headers:
+      Host: rayan-007.parvin.dpdns.org
+    path: /?ed%3D2560
 - name: 18|HK
   obfs: salamander
   obfs-password: 1ol3tasb90
@@ -364,51 +375,51 @@ proxies:
   sni: xk7qhk307.ckpfef.top
   tls: false
   type: hysteria2
+- name: '31,32|🇭🇰HK-185.244.208.69-0258 #1'
+  password: AE62539071
+  port: 443
+  server: strong-haddock.rooster465.autos
+  sni: strong-haddock.rooster465.autos
+  type: trojan
 - name: '31,32|🇭🇰HK-91.199.84.120-0257 #1'
   password: ND91608427
   port: 443
   server: dynamic-grubworm.rooster465.autos
   sni: dynamic-grubworm.rooster465.autos
   type: trojan
-- name: 32|🇭🇰HK-185.244.208.69-0258
-  password: AE62539071
-  port: 443
-  server: strong-haddock.rooster465.autos
-  sni: strong-haddock.rooster465.autos
-  type: trojan
-- name: 32|🇭🇰HK-91.199.84.120-0254
+- name: '31,32|🇭🇰HK-91.199.84.120-0254 #1'
   password: ND91608427
   port: 443
   server: 91.199.84.120
   sni: dynamic-grubworm.rooster465.autos
   type: trojan
-- name: 32|🇭🇰HK-185.244.208.13-0253
+- name: '31,32|🇭🇰HK-185.244.208.13-0253 #1'
   password: ND91608427
   port: 443
   server: ace-starling.rooster465.autos
   sni: ace-starling.rooster465.autos
   type: trojan
-- name: 32|🇭🇰HK-91.199.84.155-0256
+- name: '31,32|🇭🇰HK-185.244.208.213-0251 #1'
+  password: FH72359861
+  port: 443
+  server: natural-swan.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-91.199.84.155-0256 #1'
   password: FH72359861
   port: 443
   server: modern-bedbug.rooster465.autos
   sni: modern-bedbug.rooster465.autos
   type: trojan
-- name: 32|🇭🇰HK-185.244.208.210-0252
+- name: '31,32|🇭🇰HK-185.244.208.219-0260 #1'
+  password: AE62539071
+  port: 443
+  server: upright-bedbug.rooster465.autos
+  type: trojan
+- name: '31,32|🇭🇰HK-185.244.208.210-0252 #1'
   password: ND91608427
   port: 443
   server: upright-hamster.rooster465.autos
   sni: upright-hamster.rooster465.autos
-  type: trojan
-- name: 32|🇭🇰HK-185.244.208.213-0251
-  password: FH72359861
-  port: 443
-  server: natural-swan.rooster465.autos
-  type: trojan
-- name: 32|🇭🇰HK-185.244.208.219-0260
-  password: AE62539071
-  port: 443
-  server: upright-bedbug.rooster465.autos
   type: trojan
 - alterId: 0
   cipher: auto
@@ -420,20 +431,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 32|🇭🇰HK-47.244.120.197-5416
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
     headers:
       Host: ''
@@ -462,6 +459,15 @@ proxies:
   port: 443
   server: 104.253.175.16
   sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    path: /
+- name: 32|🇭🇰HK-209.33.166.199-0824
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 209.33.166.199
+  sni: tjsp.hhxaf.cc.cd
   type: trojan
   ws-opts:
     path: /
@@ -620,12 +626,6 @@ proxies:
     headers:
       Host: sh-cn-1.dnspro.icu
     path: /iso
-- name: 32|🇸🇬SG-13.212.197.166-0141
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 2c.fast9988.com
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 32|🇸🇬SG-15.235.147.186-0415
@@ -699,6 +699,15 @@ proxies:
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
   server: 168.144.96.147
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    path: /
+- name: 32|🇸🇬SG-139.59.224.185-0815
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 139.59.224.185
   sni: tjsp.hhxaf.cc.cd
   type: trojan
   ws-opts:
@@ -786,6 +795,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '21,31,32|🇰🇷KR-132.145.80.230-0882 #1'
+  network: ws
+  port: 80
+  server: 132.145.80.230
+  servername: ''
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers:
+      Host: kr02.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
   name: 21,32|🇰🇷KR-52.231.200.179-2367
   network: ws
   port: 443
@@ -858,15 +882,6 @@ proxies:
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 8443
   server: 132.145.91.181
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    path: /
-- name: 32|🇰🇷KR-64.110.70.64-0795
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 64.110.70.64
   sni: tjsp.hhxaf.cc.cd
   type: trojan
   ws-opts:
@@ -1206,23 +1221,17 @@ proxies:
     headers:
       Host: pelang.org
     path: linkvws
-- name: '31,32|🇫🇷FR-13.38.35.46-0130 #1'
-  password: PQ05174892
-  port: 443
-  server: lucky-marmot.rooster465.autos
-  sni: lucky-marmot.rooster465.autos
-  type: trojan
 - name: '31,32|🇫🇷FR-13.37.222.178-0123 #1'
   password: FH72359861
   port: 443
   server: correct-pony.rooster465.autos
   sni: correct-pony.rooster465.autos
   type: trojan
-- name: '31,32|🇫🇷FR-51.44.160.58-0113 #1'
-  password: QV31589740
+- name: '31,32|🇫🇷FR-13.38.35.46-0130 #1'
+  password: PQ05174892
   port: 443
-  server: great-krill.rooster465.autos
-  sni: great-krill.rooster465.autos
+  server: lucky-marmot.rooster465.autos
+  sni: lucky-marmot.rooster465.autos
   type: trojan
 - name: '31,32|🇫🇷FR-51.44.161.22-0233 #1'
   password: AE62539071
@@ -1234,6 +1243,12 @@ proxies:
   port: 443
   server: fancy-skink.rooster465.autos
   sni: fancy-skink.rooster465.autos
+  type: trojan
+- name: '31,32|🇫🇷FR-51.44.160.58-0113 #1'
+  password: QV31589740
+  port: 443
+  server: great-krill.rooster465.autos
+  sni: great-krill.rooster465.autos
   type: trojan
 - name: 18|德国
   password: d1224950-ffab-4b9a-8696-431b40a6cfbd
@@ -1332,16 +1347,6 @@ proxies:
   type: vless
   udp: true
   uuid: 7e85ed3f-3829-45b1-8b1c-6a2e45ebc967
-- name: 21|德国 042
-  network: tcp
-  port: 62145
-  server: 84.235.164.183
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - name: 21|德国 043
   network: tcp
   port: 8080
@@ -1409,18 +1414,21 @@ proxies:
     headers:
       Host: sgp.kapok.buzz
     path: /4befdd8a6/
-- client-fingerprint: chrome
-  name: 21|加拿大 004
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇫🇷FR-185.16.110.212-1113
   network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 134.199.142.254
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
+  port: 8880
+  server: 185.16.110.212
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b209dfbf-6bb0-30b2-a77a-286e230466b5
   ws-opts:
     headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
+      Host: TG.WangCai2.s4.db-link02.top
+    path: /dabai
 - alterId: 0
   cipher: auto
   client-fingerprint: ''
@@ -1445,16 +1453,6 @@ proxies:
     headers:
       Host: apjhdggyx.com
     path: /5f72f180-b21b-4b7a-8484-240759096785
-- name: 21|加拿大 010
-  network: tcp
-  port: 10131
-  server: 45.74.159.200
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 745bac6d-e48d-4556-aa77-09b68743a9ce
 - name: 21|加拿大 012
   network: tcp
   port: 42538
@@ -1551,17 +1549,17 @@ proxies:
     headers:
       Host: ''
     path: /vmess
-- name: '34|🇫🇷 FR法国(mibei77.com 米贝节点分享) #7'
+- name: '34|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #1'
   password: humanity
   port: 443
-  server: 104.17.111.8
+  server: 104.18.22.63
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '34|🇫🇷 FR法国(mibei77.com 米贝节点分享) #16'
+- name: '34|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #8'
   password: humanity
   port: 443
-  server: 104.16.174.117
+  server: 172.67.221.242
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -1898,7 +1896,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '21,40|🇺🇸_US_美国 #23'
+  name: '21,40|🇺🇸_US_美国 #24'
   network: ws
   port: 8080
   server: yh1.dtku41.xyz
@@ -1911,7 +1909,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '21,40|🇺🇸_US_美国 #11'
+  name: '21,40|🇺🇸_US_美国 #12'
   network: ws
   port: 8080
   server: yh2.dtku41.xyz
@@ -2096,27 +2094,27 @@ proxy-groups:
   - 13|美国+6
   - 13|美国+2
   - 15|美国+CloudFlare节点
-  - 15,32|🏁RELAY-104.16.174.117-1544
-  - '15|美国+CloudFlare节点 #2'
-  - 15|美国+Merit网络公司
-  - '15|美国+Merit网络公司 #1'
-  - 15|美国+加州
-  - 15|美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+  - 15,32|🏁RELAY-104.18.152.144-1662
+  - 15,32|🏁RELAY-104.17.111.3-1627
+  - '15|美国+CloudFlare节点 #3'
+  - 15,32|🏁RELAY-104.26.14.137-1673
+  - '15|美国+CloudFlare节点 #5'
+  - '15|美国+CloudFlare节点 #6'
   - 18|HK
   - '18|HK #1'
+  - '31,32|🇭🇰HK-185.244.208.69-0258 #1'
   - '31,32|🇭🇰HK-91.199.84.120-0257 #1'
-  - 32|🇭🇰HK-185.244.208.69-0258
-  - 32|🇭🇰HK-91.199.84.120-0254
-  - 32|🇭🇰HK-185.244.208.13-0253
-  - 32|🇭🇰HK-91.199.84.155-0256
-  - 32|🇭🇰HK-185.244.208.210-0252
-  - 32|🇭🇰HK-185.244.208.213-0251
-  - 32|🇭🇰HK-185.244.208.219-0260
+  - '31,32|🇭🇰HK-91.199.84.120-0254 #1'
+  - '31,32|🇭🇰HK-185.244.208.13-0253 #1'
+  - '31,32|🇭🇰HK-185.244.208.213-0251 #1'
+  - '31,32|🇭🇰HK-91.199.84.155-0256 #1'
+  - '31,32|🇭🇰HK-185.244.208.219-0260 #1'
+  - '31,32|🇭🇰HK-185.244.208.210-0252 #1'
   - 32|🇭🇰HK-47.244.120.197-5417
-  - 32|🇭🇰HK-47.244.120.197-5416
   - 32|🇭🇰HK-8.210.29.68-0797
   - 32|🇭🇰HK-216.236.38.234-0802
   - 32|🇭🇰HK-104.253.175.16-0816
+  - 32|🇭🇰HK-209.33.166.199-0824
   - 32|🇹🇼TW-60.250.152.229-3098
   - 32|🇹🇼TW-203.69.207.175-3167
   - 32|🇹🇼TW-60.250.152.208-3212
@@ -2136,7 +2134,6 @@ proxy-groups:
   - 21|新加坡 007
   - 21,32|🇸🇬SG-139.99.61.154-1896
   - 21,32|🇸🇬SG-3.0.145.228-2202
-  - 32|🇸🇬SG-13.212.197.166-0141
   - 32|🇸🇬SG-15.235.147.186-0415
   - 32|🇸🇬SG-43.169.19.179-0672
   - 32|🇸🇬SG-43.170.8.95-0702
@@ -2145,12 +2142,14 @@ proxy-groups:
   - 32|🇸🇬SG-165.245.144.113-0800
   - 32|🇸🇬SG-66.42.51.60-0804
   - 32|🇸🇬SG-168.144.96.147-0813
+  - 32|🇸🇬SG-139.59.224.185-0815
   - 21|韩国 001
   - 21|韩国 009
   - 21|韩国 010
   - 21|韩国 011
   - 21|韩国 012
   - 21|韩国 013
+  - '21,31,32|🇰🇷KR-132.145.80.230-0882 #1'
   - 21,32|🇰🇷KR-52.231.200.179-2367
   - 32|🇰🇷KR-152.70.254.197-0776
   - 32|🇰🇷KR-150.230.249.88-0780
@@ -2159,7 +2158,6 @@ proxy-groups:
   - 32|🇰🇷KR-158.180.71.69-0787
   - 32|🇰🇷KR-158.247.199.106-0791
   - 32|🇰🇷KR-132.145.91.181-0794
-  - 32|🇰🇷KR-64.110.70.64-0795
   - 21|英国 004
   - 21|英国 007
   - 21|英国 008
@@ -2185,11 +2183,11 @@ proxy-groups:
   - 21|法国 024
   - 21,32|🇫🇷FR-51.77.20.140-1057
   - 21,32|🇫🇷FR-146.59.85.226-1161
-  - '31,32|🇫🇷FR-13.38.35.46-0130 #1'
   - '31,32|🇫🇷FR-13.37.222.178-0123 #1'
-  - '31,32|🇫🇷FR-51.44.160.58-0113 #1'
+  - '31,32|🇫🇷FR-13.38.35.46-0130 #1'
   - '31,32|🇫🇷FR-51.44.161.22-0233 #1'
   - '31,32|🇫🇷FR-15.237.137.197-0271 #1'
+  - '31,32|🇫🇷FR-51.44.160.58-0113 #1'
   - 18|德国
   - '18|德国 #3'
   - 21|德国 001
@@ -2199,16 +2197,14 @@ proxy-groups:
   - 21|德国 029
   - 21|德国 032
   - 21|德国 040
-  - 21|德国 042
   - 21|德国 043
   - 21|德国 047
   - 21|德国 051
   - 21|德国 070
   - 21,32|🇩🇪DE-91.195.240.12-0456
-  - 21|加拿大 004
+  - 21,32|🇫🇷FR-185.16.110.212-1113
   - 21|加拿大 006
   - 21|加拿大 008
-  - 21|加拿大 010
   - 21|加拿大 012
   - 21,32|🇺🇸US-162.0.232.36-1915
   - '31,32|🇨🇦CA-23.162.200.227-0561 #1'
@@ -2218,8 +2214,8 @@ proxy-groups:
   - 32|🇨🇦CA-51.222.86.136-2647
   - 32|🇨🇦CA-149.56.141.11-3963
   - 32|🇨🇦CA-137.184.164.233-7177
-  - '34|🇫🇷 FR法国(mibei77.com 米贝节点分享) #7'
-  - '34|🇫🇷 FR法国(mibei77.com 米贝节点分享) #16'
+  - '34|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #1'
+  - '34|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #8'
   - 21|俄罗斯 007
   - 21|俄罗斯 008
   - 21|俄罗斯 009
@@ -2245,8 +2241,8 @@ proxy-groups:
   - 31,32,34|🇪🇪爱沙尼亚丨yoyapai.com\r
   - 11|99_中国-1.70MB
   - 21|中国 001
-  - '21,40|🇺🇸_US_美国 #23'
-  - '21,40|🇺🇸_US_美国 #11'
+  - '21,40|🇺🇸_US_美国 #24'
+  - '21,40|🇺🇸_US_美国 #12'
   - 21|中国 004
   - 21|中国 006
   - 21,32|🇭🇰HK-119.246.1.143-0850
@@ -2287,27 +2283,27 @@ proxy-groups:
   - 13|美国+6
   - 13|美国+2
   - 15|美国+CloudFlare节点
-  - 15,32|🏁RELAY-104.16.174.117-1544
-  - '15|美国+CloudFlare节点 #2'
-  - 15|美国+Merit网络公司
-  - '15|美国+Merit网络公司 #1'
-  - 15|美国+加州
-  - 15|美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+  - 15,32|🏁RELAY-104.18.152.144-1662
+  - 15,32|🏁RELAY-104.17.111.3-1627
+  - '15|美国+CloudFlare节点 #3'
+  - 15,32|🏁RELAY-104.26.14.137-1673
+  - '15|美国+CloudFlare节点 #5'
+  - '15|美国+CloudFlare节点 #6'
   - 18|HK
   - '18|HK #1'
+  - '31,32|🇭🇰HK-185.244.208.69-0258 #1'
   - '31,32|🇭🇰HK-91.199.84.120-0257 #1'
-  - 32|🇭🇰HK-185.244.208.69-0258
-  - 32|🇭🇰HK-91.199.84.120-0254
-  - 32|🇭🇰HK-185.244.208.13-0253
-  - 32|🇭🇰HK-91.199.84.155-0256
-  - 32|🇭🇰HK-185.244.208.210-0252
-  - 32|🇭🇰HK-185.244.208.213-0251
-  - 32|🇭🇰HK-185.244.208.219-0260
+  - '31,32|🇭🇰HK-91.199.84.120-0254 #1'
+  - '31,32|🇭🇰HK-185.244.208.13-0253 #1'
+  - '31,32|🇭🇰HK-185.244.208.213-0251 #1'
+  - '31,32|🇭🇰HK-91.199.84.155-0256 #1'
+  - '31,32|🇭🇰HK-185.244.208.219-0260 #1'
+  - '31,32|🇭🇰HK-185.244.208.210-0252 #1'
   - 32|🇭🇰HK-47.244.120.197-5417
-  - 32|🇭🇰HK-47.244.120.197-5416
   - 32|🇭🇰HK-8.210.29.68-0797
   - 32|🇭🇰HK-216.236.38.234-0802
   - 32|🇭🇰HK-104.253.175.16-0816
+  - 32|🇭🇰HK-209.33.166.199-0824
   - 32|🇹🇼TW-60.250.152.229-3098
   - 32|🇹🇼TW-203.69.207.175-3167
   - 32|🇹🇼TW-60.250.152.208-3212
@@ -2327,7 +2323,6 @@ proxy-groups:
   - 21|新加坡 007
   - 21,32|🇸🇬SG-139.99.61.154-1896
   - 21,32|🇸🇬SG-3.0.145.228-2202
-  - 32|🇸🇬SG-13.212.197.166-0141
   - 32|🇸🇬SG-15.235.147.186-0415
   - 32|🇸🇬SG-43.169.19.179-0672
   - 32|🇸🇬SG-43.170.8.95-0702
@@ -2336,12 +2331,14 @@ proxy-groups:
   - 32|🇸🇬SG-165.245.144.113-0800
   - 32|🇸🇬SG-66.42.51.60-0804
   - 32|🇸🇬SG-168.144.96.147-0813
+  - 32|🇸🇬SG-139.59.224.185-0815
   - 21|韩国 001
   - 21|韩国 009
   - 21|韩国 010
   - 21|韩国 011
   - 21|韩国 012
   - 21|韩国 013
+  - '21,31,32|🇰🇷KR-132.145.80.230-0882 #1'
   - 21,32|🇰🇷KR-52.231.200.179-2367
   - 32|🇰🇷KR-152.70.254.197-0776
   - 32|🇰🇷KR-150.230.249.88-0780
@@ -2350,7 +2347,6 @@ proxy-groups:
   - 32|🇰🇷KR-158.180.71.69-0787
   - 32|🇰🇷KR-158.247.199.106-0791
   - 32|🇰🇷KR-132.145.91.181-0794
-  - 32|🇰🇷KR-64.110.70.64-0795
   - 21|英国 004
   - 21|英国 007
   - 21|英国 008
@@ -2376,11 +2372,11 @@ proxy-groups:
   - 21|法国 024
   - 21,32|🇫🇷FR-51.77.20.140-1057
   - 21,32|🇫🇷FR-146.59.85.226-1161
-  - '31,32|🇫🇷FR-13.38.35.46-0130 #1'
   - '31,32|🇫🇷FR-13.37.222.178-0123 #1'
-  - '31,32|🇫🇷FR-51.44.160.58-0113 #1'
+  - '31,32|🇫🇷FR-13.38.35.46-0130 #1'
   - '31,32|🇫🇷FR-51.44.161.22-0233 #1'
   - '31,32|🇫🇷FR-15.237.137.197-0271 #1'
+  - '31,32|🇫🇷FR-51.44.160.58-0113 #1'
   - 18|德国
   - '18|德国 #3'
   - 21|德国 001
@@ -2390,16 +2386,14 @@ proxy-groups:
   - 21|德国 029
   - 21|德国 032
   - 21|德国 040
-  - 21|德国 042
   - 21|德国 043
   - 21|德国 047
   - 21|德国 051
   - 21|德国 070
   - 21,32|🇩🇪DE-91.195.240.12-0456
-  - 21|加拿大 004
+  - 21,32|🇫🇷FR-185.16.110.212-1113
   - 21|加拿大 006
   - 21|加拿大 008
-  - 21|加拿大 010
   - 21|加拿大 012
   - 21,32|🇺🇸US-162.0.232.36-1915
   - '31,32|🇨🇦CA-23.162.200.227-0561 #1'
@@ -2409,8 +2403,8 @@ proxy-groups:
   - 32|🇨🇦CA-51.222.86.136-2647
   - 32|🇨🇦CA-149.56.141.11-3963
   - 32|🇨🇦CA-137.184.164.233-7177
-  - '34|🇫🇷 FR法国(mibei77.com 米贝节点分享) #7'
-  - '34|🇫🇷 FR法国(mibei77.com 米贝节点分享) #16'
+  - '34|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #1'
+  - '34|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #8'
   - 21|俄罗斯 007
   - 21|俄罗斯 008
   - 21|俄罗斯 009
@@ -2436,8 +2430,8 @@ proxy-groups:
   - 31,32,34|🇪🇪爱沙尼亚丨yoyapai.com\r
   - 11|99_中国-1.70MB
   - 21|中国 001
-  - '21,40|🇺🇸_US_美国 #23'
-  - '21,40|🇺🇸_US_美国 #11'
+  - '21,40|🇺🇸_US_美国 #24'
+  - '21,40|🇺🇸_US_美国 #12'
   - 21|中国 004
   - 21|中国 006
   - 21,32|🇭🇰HK-119.246.1.143-0850

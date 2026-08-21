@@ -81,12 +81,6 @@ proxies:
     headers:
       Host: sh-cn-1.dnspro.icu
     path: /iso
-- name: 32|🇸🇬SG-13.212.197.166-0141
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 2c.fast9988.com
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 32|🇸🇬SG-15.235.147.186-0415
@@ -315,7 +309,7 @@ proxies:
     path: /graphql
 - alterId: 64
   cipher: auto
-  name: '32,40|未命名 #13'
+  name: '32,40|未命名 #15'
   network: ws
   port: 80
   server: 159.223.94.156
@@ -377,6 +371,14 @@ proxies:
     headers:
       Host: ''
     path: /path/080712342310
+- name: 38,39|新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 45744
+  server: 16.162.121.244
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: 40|🇸🇬+SG+新加坡+51
   network: ws
   port: 443

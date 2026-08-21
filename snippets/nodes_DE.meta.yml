@@ -96,16 +96,6 @@ proxies:
   type: vless
   udp: true
   uuid: 7e85ed3f-3829-45b1-8b1c-6a2e45ebc967
-- name: 21|德国 042
-  network: tcp
-  port: 62145
-  server: 84.235.164.183
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - name: 21|德国 043
   network: tcp
   port: 8080

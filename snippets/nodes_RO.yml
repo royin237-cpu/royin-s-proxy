@@ -1,16 +1,4 @@
 proxies:
-- name: 15|伊朗+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 40443
-  server: 2.144.21.112
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
 - alterId: 64
   cipher: auto
   name: 21,32|🇧🇪BE-37.120.236.251-0972

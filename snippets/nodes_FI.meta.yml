@@ -1,20 +1,4 @@
 proxies:
-- name: 19||FI|@wxgqlfx|221
-  password: 133f76fc-a5ab-463e-b46d-9587d7137e55
-  port: 443
-  server: h2.vpnushka.lol
-  skip-cert-verify: true
-  sni: h2.vpnushka.lol
-  tls: false
-  type: hysteria2
-- name: 19|🇫🇮|FI|@wxgqlfx|217
-  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
-  port: 443
-  server: fast.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: fast.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
 - name: 21|芬兰 003
   network: grpc
   port: 443

@@ -17,8 +17,8 @@
 15,https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub,20
 16,https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml,0
 17,https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml,0
-18,https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2,47
-19,https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2,102
+18,https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2,48
+19,https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2,62
 20,https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2,0
 21,https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml,2181
 22,https://raw.githubusercontent.com/cxr9912/cxr2022/main/cxr.yml,0
@@ -33,7 +33,7 @@
 31,https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity,200
 32,https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt,4587
 33,https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml,0
-34,https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray,295
+34,https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray,288
 35,https://raw.githubusercontent.com/mlabalabala/v2ray-node/main/nodefree4clash.txt,10
 36,https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml,78
 37,https://raw.githubusercontent.com/qjlxg/hy2/main/splitted/hy2,0
@@ -43,4 +43,4 @@
 41,https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml,141
 42,dynamic://peasoft,2
 
-总计,,2812
+总计,,2800

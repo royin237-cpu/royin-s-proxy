@@ -378,13 +378,6 @@ proxies:
   server: 51.38.71.175
   sni: uk1.trojanvh.xyz
   type: trojan
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #2'
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
 - name: 40|🇬🇧+GB+英国+3
   network: ws
   port: 8443

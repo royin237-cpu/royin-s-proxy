@@ -1,16 +1,18 @@
 proxies:
-- name: 15|伊朗+V2CROSS.COM
+- client-fingerprint: chrome
+  name: 15|南非+V2CROSS.COM
   network: ws
-  password: humanity
-  port: 40443
-  server: 2.144.21.112
+  port: 8443
+  server: 45.192.200.133
+  servername: rubifen.adaspoloandco.com
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  tls: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
+      Host: rubifen.adaspoloandco.com
+    path: '%2FGOrbEh'
 - flow: ''
   name: 21|罗马尼亚 007
   network: ws
