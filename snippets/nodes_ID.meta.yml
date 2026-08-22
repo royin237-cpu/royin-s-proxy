@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 32|🇮🇩ID-103.180.95.29-4347
+  name: 32|🇮🇩ID-103.180.95.29-4525
   network: ws
   port: 80
   server: lms.uin-antasari.ac.id

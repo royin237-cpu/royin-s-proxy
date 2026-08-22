@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21,32|🇳🇱NL-51.15.19.206-0719
+  name: 21,32|🇳🇱NL-51.15.19.206-0713
   network: ws
   port: 80
   server: eu-2.hihu.net
@@ -16,7 +16,7 @@ proxies:
     path: /ch12y6ij
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-46.175.135.9-0339
+  name: '31,32|🇬🇧GB-46.175.135.9-0331 #1'
   network: ws
   port: 443
   server: lu1.gogogoo.cyou
@@ -30,7 +30,7 @@ proxies:
     path: /go
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-51.89.138.147-0360
+  name: '31,32|🇬🇧GB-51.89.138.147-0352 #1'
   network: ws
   port: 80
   server: 51.89.138.147
@@ -44,7 +44,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-46.175.135.9-1328
+  name: 32|🇬🇧GB-46.175.135.9-1516
   network: ws
   port: 443
   server: haxus3.janechiu.icu
@@ -56,14 +56,14 @@ proxies:
     headers:
       Host: haxus3.janechiu.icu
     path: /
-- name: 32|🇬🇧GB-132.145.51.172-2604
+- name: 32|🇬🇧GB-132.145.51.172-2782
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
   server: 132.145.51.172
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-51.75.160.126-3929
+  name: 32|🇬🇧GB-51.75.160.126-4107
   network: ws
   port: 80
   server: 51.75.160.126
@@ -75,9 +75,14 @@ proxies:
     headers:
       Host: ''
     path: /vmess
+- name: 32|🇬🇧GB-185.44.76.188-4421
+  password: 8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: 185.44.76.188
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-46.175.135.9-4160
+  name: 32|🇬🇧GB-46.175.135.9-4531
   network: ws
   port: 443
   server: us02.gogogoo.cyou
@@ -89,12 +94,7 @@ proxies:
     headers:
       Host: us02.gogogoo.cyou
     path: /go
-- name: 32|🇬🇧GB-185.44.76.188-4243
-  password: 8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: 185.44.76.188
-  type: trojan
-- name: 32|🇬🇧GB-51.38.71.175-6786
+- name: 32|🇬🇧GB-51.38.71.175-6940
   password: b640d791-ff83-4300-b509-c2a02f97f167
   port: 80
   server: 51.38.71.175

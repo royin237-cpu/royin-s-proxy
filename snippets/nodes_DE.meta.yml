@@ -1,4 +1,19 @@
 proxies:
+- name: '18|德国 #2'
+  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+  port: 443
+  server: bel-03.node.lumixnet.com
+  sni: bel-03.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: '18|德国 #5'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: de.1.23.h2corp.org
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 21|德国 007
   network: ws
@@ -78,7 +93,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-91.195.240.12-0441
+  name: 32|🇩🇪DE-91.195.240.12-0435
   network: ws
   port: 443
   server: sgp.kapok.buzz
@@ -92,7 +107,7 @@ proxies:
     path: /4befdd8a6/
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-91.195.240.94-1533
+  name: 32|🇩🇪DE-91.195.240.94-1721
   network: ws
   port: 443
   server: in-full.privateip.net
@@ -106,7 +121,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-94.130.184.57-2694
+  name: 32|🇩🇪DE-94.130.184.57-2872
   network: ws
   port: 80
   server: 94.130.184.57
@@ -120,7 +135,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-162.55.174.135-2794
+  name: 32|🇩🇪DE-162.55.174.135-2972
   network: ws
   port: 80
   server: 162.55.174.135
@@ -134,7 +149,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-162.55.62.193-2754
+  name: 32|🇩🇪DE-162.55.62.193-2932
   network: ws
   port: 80
   server: 162.55.62.193
@@ -148,7 +163,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-5.75.173.189-2774
+  name: 32|🇩🇪DE-5.75.173.189-2952
   network: ws
   port: 80
   server: 5.75.173.189
@@ -162,7 +177,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-78.46.129.226-2810
+  name: 32|🇩🇪DE-78.46.129.226-2988
   network: ws
   port: 80
   server: 78.46.129.226
@@ -176,7 +191,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-167.235.78.112-2852
+  name: 32|🇩🇪DE-167.235.78.112-3030
   network: ws
   port: 80
   server: 167.235.78.112
@@ -190,7 +205,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-157.90.20.18-3195
+  name: 32|🇩🇪DE-157.90.20.18-3373
   network: http
   port: 443
   server: 157.90.20.18
@@ -200,7 +215,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-94.130.25.155-3198
+  name: 32|🇩🇪DE-94.130.25.155-3376
   network: http
   port: 443
   server: 94.130.25.155
@@ -210,7 +225,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-167.235.136.155-3249
+  name: 32|🇩🇪DE-167.235.136.155-3427
   network: http
   port: 443
   server: 167.235.136.155
@@ -220,7 +235,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 32|🇩🇪DE-188.40.132.107-3702
+  name: 32|🇩🇪DE-188.40.132.107-3880
   network: ws
   port: 80
   server: 188.40.132.107
@@ -232,9 +247,19 @@ proxies:
     headers:
       Host: ''
     path: /p3573l6m92h1ham3q23t
+- cipher: chacha20-ietf
+  name: 32|8J%2BHr%2FCfh7VKUC0zNS43Ny4xMD...
+  obfs: plain
+  obfs-param: ''
+  password: Mv4e0QHWPwdbKiCF
+  port: '49434'
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: manga.bilibilicloud01.com
+  type: ssr
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 32|🇩🇪DE-95.179.254.136-6717
+  name: 32|🇩🇪DE-95.179.254.136-6871
   network: grpc
   password: mainssh-ddoejfv14
   port: 443
@@ -243,14 +268,14 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 32|🇩🇪DE-95.179.246.122-6719
+  name: 32|🇩🇪DE-95.179.246.122-6873
   network: grpc
   password: mainssh-niwrhf87
   port: 443
   server: 95.179.246.122
   sni: getgrpc.mainssh.xyz
   type: trojan
-- name: 32|🇩🇪DE-209.250.236.93-7014
+- name: 32|🇩🇪DE-209.250.236.93-7168
   network: grpc
   password: Cl150MQWlG
   port: 443
@@ -259,7 +284,7 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 32|🇩🇪DE-108.61.171.167-7476
+  name: 32|🇩🇪DE-108.61.171.167-7630
   network: grpc
   password: mainssh-niwrhf87
   port: 443

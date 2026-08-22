@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 32|🇰🇷KR-52.231.200.179-1662
+  name: 32|🇰🇷KR-52.231.200.179-1850
   network: ws
   port: 443
   server: fullaccesstokoreannetsubnode1.azurewebsites.net
@@ -13,22 +13,22 @@ proxies:
     headers:
       Host: fullaccesstokoreannetsubnode1.azurewebsites.net
     path: /ws
-- name: 32|🇰🇷KR-123.140.124.24-2386
+- name: 32|🇰🇷KR-123.140.124.24-2564
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.seoulcitygovernment.com.ua
   type: trojan
-- name: 32|🇰🇷KR-123.140.124.25-2597
+- name: 32|🇰🇷KR-123.140.124.25-2775
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.seoulcityhall.com.ua
   type: trojan
-- name: 32|🇰🇷KR-144.24.72.126-2637
+- name: 32|🇰🇷KR-144.24.72.126-2815
   password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
   port: 443
   server: 144.24.72.126
   type: trojan
-- name: 32|🇰🇷KR-123.140.124.25-2726
+- name: 32|🇰🇷KR-123.140.124.25-2904
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 2053
   server: official.seoulcityhall.com.ua

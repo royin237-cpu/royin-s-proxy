@@ -79,7 +79,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.97
+  server: 104.26.14.137
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -88,7 +88,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.73
+  server: 172.67.74.2
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -97,41 +97,12 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.17.177.143
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: '15|美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.77
-  skip-cert-verify: false
+  server: www.speedtest.org
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #5'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.6
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #7'
-  network: ws
-  password: humanity
-  port: 443
-  server: ip.myip2.qzz.io
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 15,32|🏁RELAY-104.20.6.134-0963
+- name: '15|美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
@@ -140,31 +111,12 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #9'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '15|美国+CloudFlare节点 #10'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.73.213
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: '21,32,40|🇺🇸_US_美国 #20'
+  name: '21,32,40|🇺🇸_US_美国 #19'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -192,7 +144,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '21,32,40|🇺🇸_US_美国 #4'
+  name: '21,32,40|🇺🇸_US_美国 #3'
   network: ws
   port: 2095
   server: russia.com
@@ -206,7 +158,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 21,32|🇺🇸US-66.241.124.229-0468
+  name: 21,32|🇺🇸US-66.241.124.229-0462
   network: ws
   port: 443
   server: cold-dawn-9246.fly.dev
@@ -234,7 +186,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: '21,32,40|🇺🇸_US_美国 #23'
+  name: '21,32,40|🇺🇸_US_美国 #22'
   network: ws
   port: 2052
   server: 104.21.82.39
@@ -302,7 +254,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '21,32,40|🇺🇸_US_美国 #18'
+  name: '21,32,40|🇺🇸_US_美国 #17'
   network: ws
   port: 8080
   server: 162.159.134.23
@@ -330,7 +282,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '21,32,40|🇺🇸_US_美国 #24'
+  name: '21,32,40|🇺🇸_US_美国 #23'
   network: ws
   port: 8080
   server: 162.159.130.208
@@ -344,7 +296,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '21,32,40|🇺🇸_US_美国 #22'
+  name: '21,32,40|🇺🇸_US_美国 #21'
   network: ws
   port: 8080
   server: 162.159.5.6
@@ -358,7 +310,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '21,32,40|🇺🇸_US_美国 #26'
+  name: '21,32,40|🇺🇸_US_美国 #25'
   network: ws
   port: 8880
   server: russia.com
@@ -372,7 +324,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '21,32,40|🇺🇸_US_美国 #5'
+  name: '21,32,40|🇺🇸_US_美国 #4'
   network: ws
   port: 80
   server: 172.67.116.48
@@ -414,7 +366,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '21,32,40|🇺🇸_US_美国 #10'
+  name: '21,32,40|🇺🇸_US_美国 #9'
   network: ws
   port: 80
   server: 104.21.234.52
@@ -428,7 +380,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '21,32,40|🇺🇸_US_美国 #16'
+  name: '21,32,40|🇺🇸_US_美国 #15'
   network: ws
   port: 2095
   server: 104.26.4.57
@@ -442,7 +394,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.197.47-0499
+  name: 21,32|🏁RELAY-104.21.76.158-0493
   network: ws
   port: 8443
   server: t1.620720.xyz
@@ -457,7 +409,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-170.114.46.6-0503
+  name: 21,32|🏁RELAY-170.114.46.6-0497
   network: ws
   port: 8080
   server: support.zoom.us
@@ -472,7 +424,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-104.21.76.158-0505
+  name: 21,32|🏁RELAY-104.21.76.158-0499
   network: ws
   port: 443
   server: sy4.620720.xyz
@@ -487,7 +439,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-104.18.17.77-0506
+  name: 21,32|🏁RELAY-104.18.16.77-0500
   network: ws
   port: 2083
   server: hgtrojan.zabc.net
@@ -502,7 +454,7 @@ proxies:
     path: /e6395c20
 - alterId: 0
   cipher: auto
-  name: 21,32|🇺🇸US-67.21.83.5-0507
+  name: 21,32|🇺🇸US-67.21.83.5-0501
   network: ws
   port: 443
   server: cg1c01.waimaojd.com
@@ -516,7 +468,7 @@ proxies:
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  name: 21,32|🇺🇸US-67.21.85.225-0508
+  name: 21,32|🇺🇸US-67.21.85.225-0502
   network: ws
   port: 443
   server: cg1c04.waimaojd.com
@@ -531,7 +483,7 @@ proxies:
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  name: 21,32|🇮🇷IR-185.143.234.238-0552
+  name: 21,32|🇮🇷IR-185.143.233.238-0546
   network: ws
   port: 80
   server: 118ejob.ir
@@ -546,7 +498,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-104.17.171.34-0560
+  name: 21,32|🏁RELAY-104.17.171.34-0554
   network: ws
   port: 80
   server: 104.17.171.34
@@ -561,7 +513,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-172.66.140.62-0615
+  name: 21,32|🏁RELAY-104.21.56.202-0609
   network: ws
   port: 8080
   server: skk.moe
@@ -576,7 +528,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.183.110-0632
+  name: 21,32|🏁RELAY-172.67.183.110-0626
   network: ws
   port: 443
   server: 172.67.183.110
@@ -591,7 +543,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-104.21.53.12-0633
+  name: 21,32|🏁RELAY-104.21.53.12-0627
   network: ws
   port: 443
   server: 104.21.53.12
@@ -606,7 +558,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-104.21.75.246-0634
+  name: 21,32|🏁RELAY-104.21.75.246-0628
   network: ws
   port: 443
   server: 104.21.75.246
@@ -621,7 +573,7 @@ proxies:
     path: /ophelia.mom:443/linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.131.150-0635
+  name: 21,32|🏁RELAY-172.67.131.150-0629
   network: ws
   port: 443
   server: 172.67.131.150
@@ -636,7 +588,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-104.21.91.254-0636
+  name: 21,32|🏁RELAY-104.21.91.254-0630
   network: ws
   port: 443
   server: 104.21.91.254
@@ -651,7 +603,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-104.21.4.29-0637
+  name: 21,32|🏁RELAY-104.21.4.29-0631
   network: ws
   port: 443
   server: 104.21.4.29
@@ -666,7 +618,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.182.187-0638
+  name: 21,32|🏁RELAY-172.67.182.187-0632
   network: ws
   port: 443
   server: 30.vmessprotocol.telegram-vmessprotocol-channel.space
@@ -681,7 +633,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.164.184-0640
+  name: 21,32|🏁RELAY-172.67.164.184-0634
   network: ws
   port: 443
   server: 172.67.164.184
@@ -696,7 +648,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-104.21.50.177-0641
+  name: 21,32|🏁RELAY-104.21.50.177-0635
   network: ws
   port: 443
   server: 104.21.50.177
@@ -711,7 +663,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.207.114-0642
+  name: 21,32|🏁RELAY-172.67.207.114-0636
   network: ws
   port: 443
   server: 172.67.207.114
@@ -726,7 +678,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.215.202-0643
+  name: 21,32|🏁RELAY-172.67.215.202-0637
   network: ws
   port: 443
   server: 172.67.215.202
@@ -741,7 +693,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.179.37-0644
+  name: 21,32|🏁RELAY-172.67.179.37-0638
   network: ws
   port: 443
   server: 172.67.179.37
@@ -756,7 +708,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-104.21.27.139-0645
+  name: 21,32|🏁RELAY-104.21.27.139-0639
   network: ws
   port: 443
   server: 104.21.27.139
@@ -771,7 +723,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.142.191-0646
+  name: 21,32|🏁RELAY-172.67.142.191-0640
   network: ws
   port: 443
   server: 172.67.142.191
@@ -786,7 +738,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.197.82-0647
+  name: 21,32|🏁RELAY-172.67.197.82-0641
   network: ws
   port: 443
   server: 172.67.197.82
@@ -801,7 +753,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.182.187-0648
+  name: 21,32|🏁RELAY-172.67.182.187-0642
   network: ws
   port: 443
   server: vmessprotocol.telegram-vmessprotocol-channel.space
@@ -816,7 +768,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-104.21.31.183-0649
+  name: 21,32|🏁RELAY-104.21.31.183-0643
   network: ws
   port: 443
   server: 104.21.31.183
@@ -831,7 +783,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-104.21.91.73-0652
+  name: 21,32|🏁RELAY-104.21.91.73-0646
   network: ws
   port: 443
   server: 104.21.91.73
@@ -846,7 +798,7 @@ proxies:
     path: /linkws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.194.2-0653
+  name: 21,32|🏁RELAY-172.67.194.2-0647
   network: ws
   port: 443
   server: 172.67.194.2
@@ -861,7 +813,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.133.113-0654
+  name: 21,32|🏁RELAY-104.21.5.123-0648
   network: ws
   port: 443
   server: octavi.cfd
@@ -876,7 +828,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-104.21.18.161-0656
+  name: 21,32|🏁RELAY-172.67.182.187-0650
   network: ws
   port: 443
   server: ophelia.mom
@@ -891,7 +843,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-104.21.21.88-0657
+  name: 21,32|🏁RELAY-104.21.21.88-0651
   network: ws
   port: 443
   server: 104.21.21.88
@@ -906,7 +858,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🇦🇺AU-103.224.212.213-0658
+  name: 21,32|🇦🇺AU-103.224.212.213-0652
   network: ws
   port: 443
   server: rlhrwtqusd.site
@@ -921,7 +873,7 @@ proxies:
     path: /kwhmvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.206.124-0659
+  name: 21,32|🏁RELAY-172.67.206.124-0653
   network: ws
   port: 443
   server: 172.67.206.124
@@ -951,7 +903,7 @@ proxies:
     path: /linkws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-104.21.18.161-0661
+  name: 21,32|🏁RELAY-104.21.18.161-0655
   network: ws
   port: 443
   server: 7.vmessprotocol.join.telegram-vmessprotocol-channel.space
@@ -966,7 +918,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.198.187-0663
+  name: 21,32|🏁RELAY-104.21.44.106-0657
   network: ws
   port: 443
   server: hms04.xmivideo.cfd
@@ -981,7 +933,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-172.67.144.33-0664
+  name: 21,32|🏁RELAY-104.21.55.23-0658
   network: ws
   port: 443
   server: glweidf.cfd
@@ -996,7 +948,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 21,32|🇺🇸US-103.224.182.215-0665
+  name: 21,32|🇺🇸US-103.224.182.215-0659
   network: ws
   port: 443
   server: afrhms16v.bestxray.buzz
@@ -1041,7 +993,7 @@ proxies:
     path: /77848824
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-162.159.140.220-0683
+  name: 21,32|🏁RELAY-162.159.140.220-0677
   network: ws
   port: 443
   server: speed.cloudflare.com
@@ -1056,7 +1008,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-172.66.0.218-0684
+  name: 21,32|🏁RELAY-172.66.0.218-0678
   network: ws
   port: 80
   server: speed.cloudflare.com
@@ -1071,7 +1023,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 21,32|🇨🇦CA-134.195.198.147-0686
+  name: '21,31,32|🇨🇦CA-134.195.198.147-0680 #1'
   network: ws
   port: 443
   server: 134.195.198.147
@@ -1086,7 +1038,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '21,31,32|🇨🇦CA-23.162.200.227-0687 #1'
+  name: '21,31,32|🇨🇦CA-23.162.200.227-0681 #1'
   network: ws
   port: 443
   server: 23.162.200.227
@@ -1101,7 +1053,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-172.66.0.218-0703
+  name: 21,32|🏁RELAY-162.159.140.220-0697
   network: ws
   port: 2095
   server: speed.cloudflare.com
@@ -1116,7 +1068,7 @@ proxies:
     path: /Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt-Seyyedmt?ed=1024
 - alterId: 0
   cipher: auto
-  name: 21,32|🇰🇿KZ-38.107.234.57-0718
+  name: 21,32|🇰🇿KZ-38.107.234.57-0712
   network: ws
   port: 80
   server: 3h-kazakhstan1.09vpn.com
@@ -1131,7 +1083,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 21,32|🇺🇸US-169.197.143.89-0727
+  name: 21,32|🇺🇸US-169.197.143.89-0721
   network: ws
   port: 443
   server: 169.197.143.89
@@ -1146,7 +1098,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-162.159.140.220-0731
+  name: 21,32|🏁RELAY-162.159.140.220-0725
   network: ws
   port: 8443
   server: speed.cloudflare.com
@@ -1163,7 +1115,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: ''
-  name: 21,32|🏁RELAY-162.159.140.220-0735
+  name: 21,32|🏁RELAY-172.66.0.218-0729
   network: grpc
   port: 2087
   server: speed.cloudflare.com
@@ -1172,21 +1124,28 @@ proxies:
   tls: true
   type: vmess
   uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25
-- name: '31,32|🇺🇸US-44.246.163.102-0149 #1'
-  password: ND91608427
-  port: 443
-  server: 44.246.163.102
-  sni: fleet-bonefish.rooster465.autos
-  type: trojan
-- name: '31,32|🇺🇸US-44.246.163.102-0147 #1'
+- name: '31,32|🇺🇸US-44.246.163.102-0117 #1'
   password: ND91608427
   port: 443
   server: fleet-bonefish.rooster465.autos
   sni: fleet-bonefish.rooster465.autos
   type: trojan
+- name: '31,32|🇺🇸US-44.246.163.102-0115 #1'
+  password: ND91608427
+  port: 443
+  server: 44.246.163.102
+  sni: fleet-bonefish.rooster465.autos
+  type: trojan
+- name: '31,32,34|🇺🇸 US美国(mibei77.com 米贝节点分享) #12'
+  password: atKbXl2I4rKzHGiRybV7fOp+OCYPz+bO
+  port: 13758
+  server: vip-us-6.hkd4fwmg.xyz
+  skip-cert-verify: false
+  sni: vip-us-6.hkd4fwmg.xyz
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '31,32|🇺🇸US-173.249.209.146-0145 #1'
+  name: '31,32|🇺🇸US-173.249.209.146-0126 #1'
   network: ws
   port: 20086
   server: 173.249.209.146
@@ -1204,7 +1163,7 @@ proxies:
     host:
     - ''
     path: ''
-  name: 32|🇺🇸US-104.168.54.205-0349
+  name: '31,32|🇺🇸US-104.168.54.205-0341 #1'
   network: h2
   port: 443
   server: a.v2ray.world
@@ -1214,7 +1173,7 @@ proxies:
   uuid: 05b6b25b-bb5d-4dcd-9710-31e374ffa584
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.239.194.103-0387
+  name: 32|🇺🇸US-172.236.108.16-0379
   network: ws
   port: 443
   server: cf-lt.sharecentre.online
@@ -1228,7 +1187,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.239.193.153-0402
+  name: 32|🇺🇸US-172.236.108.16-0394
   network: ws
   port: 443
   server: jp-oracle-s.sharecentre.online
@@ -1240,9 +1199,16 @@ proxies:
     headers:
       Host: jp-oracle-s.sharecentre.online
     path: /shirker
+- name: 32,34|🇺🇸_US_美国
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 46292
+  server: us01.duotg.top
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-161.35.229.94-0425
+  name: 32|🇺🇸US-161.35.229.94-0419
   network: ws
   port: 443
   server: 161.35.229.94
@@ -1254,23 +1220,9 @@ proxies:
     headers:
       Host: 161.35.229.94
     path: /
-- name: '32,34|🇫🇷 FR法国(mibei77.com 米贝节点分享) #6'
-  password: humanity
-  port: 443
-  server: render.com
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '32,34|🇺🇸 US美国(mibei77.com 米贝节点分享) #7'
-  password: humanity
-  port: 443
-  server: 130.250.137.171
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-13.248.169.48-0754
+  name: 32|🇺🇸US-13.248.169.48-0753
   network: ws
   port: 443
   server: zhuyong.hucloud-dns.xyz
@@ -1284,7 +1236,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.239.193.153-0847
+  name: 32|🇺🇸US-172.236.108.16-0846
   network: ws
   port: 443
   server: cf-lt-dns.sharecentre.online
@@ -1298,7 +1250,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-13.248.169.48-0929
+  name: 32|🇺🇸US-13.248.169.48-0928
   network: ws
   port: 443
   server: new3.hucloud-dns.xyz
@@ -1312,7 +1264,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.239.194.103-0935
+  name: 32|🇺🇸US-172.239.194.103-0934
   network: ws
   port: 80
   server: cf-lt.sharecentre.online
@@ -1324,7 +1276,43 @@ proxies:
     headers:
       Host: ssrsub.v10.asuka.buzz
     path: /api/v3/download.getFile
-- name: 32|🇺🇸US-216.24.57.7-0962
+- name: 32|🇺🇸US-216.24.57.1-0960
+  network: ws
+  password: humanity
+  port: 443
+  server: render.com
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 32|🇺🇸US-216.24.57.1-1056
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 32|🇺🇸US-165.215.250.14-1035
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 32|🇺🇸US-130.250.137.171-1053
+  network: ws
+  password: humanity
+  port: 443
+  server: 130.250.137.171
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 32|🇺🇸US-216.24.57.7-1046
   network: ws
   password: humanity
   port: 443
@@ -1335,7 +1323,7 @@ proxies:
     path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-3.210.192.5-1065
+  name: 32|🇺🇸US-23.22.144.165-1253
   network: ws
   port: 443
   server: ac2088.herokuapp.com
@@ -1347,9 +1335,23 @@ proxies:
     headers:
       Host: ac2088.herokuapp.com
     path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess
+- alterId: 64
+  cipher: auto
+  name: 32|🇺🇸US-23.224.101.102-1259
+  network: ws
+  port: 443
+  server: 23.224.101.102
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 946ba5df-5771-4873-a3cb-892378526147
+  ws-opts:
+    headers:
+      Host: www.76126449.xyz
+    path: /footers
 - alterId: 233
   cipher: auto
-  name: 32|🇺🇸US-76.223.54.146-1084
+  name: 32|🇺🇸US-76.223.54.146-1272
   network: ws
   port: 80
   server: free-russian01-cdn.xiaohouzi.club
@@ -1361,9 +1363,23 @@ proxies:
     headers:
       Host: free-russian01-cdn.xiaohouzi.club
     path: /
+- alterId: 64
+  cipher: auto
+  name: 32|🇺🇸US-23.224.101.102-1336
+  network: ws
+  port: 443
+  server: 23.224.101.102
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 946ba5df-5771-4873-a3cb-892378526147
+  ws-opts:
+    headers:
+      Host: 23.224.101.102
+    path: /footers
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-147.135.112.248-1157
+  name: 32|🇺🇸US-147.135.112.248-1345
   network: ws
   port: 80
   server: 147.135.112.248
@@ -1377,7 +1393,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-162.0.232.36-1210
+  name: 32|🇺🇸US-162.0.232.36-1398
   network: ws
   port: 443
   server: hohm.microsoft.com
@@ -1391,7 +1407,7 @@ proxies:
     path: /9JZFDTKE
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-23.11.32.159-1270
+  name: 32|🇺🇸US-23.11.32.159-1458
   network: ws
   port: 443
   server: cacerts.digicert.com
@@ -1405,7 +1421,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.236.108.16-1294
+  name: 32|🇺🇸US-172.236.108.16-1482
   network: ws
   port: 443
   server: buyvm.sharecentre.online
@@ -1419,7 +1435,21 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.239.193.153-1457
+  name: 32|🇺🇸US-103.224.182.217-1526
+  network: ws
+  port: 443
+  server: lg10.cfcdn1.xyz
+  servername: lg10.cfcdn1.xyz
+  tls: true
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-opts:
+    headers:
+      Host: lg10.cfcdn1.xyz
+    path: /A2DJOPFT
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.239.193.153-1645
   network: ws
   port: 443
   server: de-2.sharecentre.online
@@ -1433,7 +1463,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.236.108.16-1480
+  name: 32|🇺🇸US-172.236.108.16-1668
   network: ws
   port: 443
   server: sg-gcore.sharecentre.online
@@ -1447,7 +1477,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.239.193.153-1531
+  name: 32|🇺🇸US-172.239.194.103-1719
   network: ws
   port: 443
   server: us-dp2.sharecentre.online
@@ -1461,7 +1491,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.236.108.16-1532
+  name: 32|🇺🇸US-172.239.194.103-1720
   network: ws
   port: 443
   server: opc-jp.sharecentre.online
@@ -1475,7 +1505,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.239.194.103-1620
+  name: 32|🇺🇸US-172.239.194.103-1808
   network: ws
   port: 443
   server: nl.sharecentre.online
@@ -1489,7 +1519,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-146.190.114.190-1724
+  name: 32|🇺🇸US-146.190.114.190-1912
   network: ws
   port: 80
   server: 146.190.114.190
@@ -1503,7 +1533,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: 32|🇺🇸US-192.96.204.250-1867
+  name: 32|🇺🇸US-192.96.204.250-2045
   network: ws
   port: 443
   server: 192.96.204.250
@@ -1517,7 +1547,7 @@ proxies:
     path: /ws
 - alterId: 2
   cipher: auto
-  name: 32|🇺🇸US-13.248.169.48-1887
+  name: 32|🇺🇸US-13.248.169.48-2065
   network: ws
   port: 443
   server: 426hk.fans8.xyz
@@ -1531,7 +1561,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-162.0.232.36-2231
+  name: 32|🇺🇸US-162.0.232.36-2409
   network: ws
   port: 443
   server: hohm.microsoft.com
@@ -1545,7 +1575,7 @@ proxies:
     path: /5QNROSRV
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-51.81.220.195-2355
+  name: 32|🇺🇸US-51.81.220.195-2533
   network: ws
   port: 80
   server: 51.81.220.195
@@ -1557,14 +1587,14 @@ proxies:
     headers:
       Host: ''
     path: /sshkit/Yarayauj/6349911f83b31/
-- name: 32|🇺🇸US-13.248.169.48-2523
+- name: 32|🇺🇸US-13.248.169.48-2701
   password: 61605c66-6d41-4b9d-a496-b9898f3f95d0
   port: 443
   server: jp-h1.sshub.xyz
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-51.81.220.195-2612
+  name: 32|🇺🇸US-51.81.220.195-2790
   network: ws
   port: 80
   server: 51.81.220.195
@@ -1578,7 +1608,7 @@ proxies:
     path: /sshkit/Uvuwbwb/6373b77a048a6/
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-51.81.220.195-2658
+  name: 32|🇺🇸US-51.81.220.195-2836
   network: ws
   port: 80
   server: 51.81.220.195
@@ -1592,7 +1622,7 @@ proxies:
     path: /sshkit/Variu88/634dab7abadf1/
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-51.81.220.34-3658
+  name: 32|🇺🇸US-51.81.220.34-3836
   network: ws
   port: 80
   server: 51.81.220.34
@@ -1606,7 +1636,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.236.108.16-3712
+  name: 32|🇺🇸US-172.239.193.153-3890
   network: ws
   port: 443
   server: cf-dx-dns.sharecentre.online
@@ -1620,7 +1650,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.239.194.103-4136
+  name: 32|🇺🇸US-172.239.194.103-4314
   network: ws
   port: 443
   server: cf-lt.sharecentre.online
@@ -1634,7 +1664,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.239.193.153-4137
+  name: 32|🇺🇸US-172.239.193.153-4315
   network: ws
   port: 443
   server: cf-lt.sharecentre.online
@@ -1648,7 +1678,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.236.108.16-4138
+  name: 32|🇺🇸US-172.239.194.103-4316
   network: ws
   port: 443
   server: cf-lt.sharecentre.online
@@ -1662,7 +1692,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.236.108.16-4139
+  name: 32|🇺🇸US-172.239.194.103-4317
   network: ws
   port: 443
   server: cf-lt.sharecentre.online
@@ -1676,7 +1706,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.239.194.103-4140
+  name: 32|🇺🇸US-172.236.108.16-4318
   network: ws
   port: 443
   server: cf-lt.sharecentre.online
@@ -1690,7 +1720,7 @@ proxies:
     path: /shirker
 - alterId: 2
   cipher: auto
-  name: 32|🇺🇸US-13.248.169.48-4182
+  name: 32|🇺🇸US-13.248.169.48-4360
   network: ws
   port: 80
   server: 331tw.fans8.xyz
@@ -1704,7 +1734,7 @@ proxies:
     path: /ray
 - alterId: 2
   cipher: auto
-  name: 32|🇺🇸US-13.248.169.48-4185
+  name: 32|🇺🇸US-13.248.169.48-4363
   network: ws
   port: 80
   server: 0218tw02.fans8.xyz
@@ -1718,7 +1748,7 @@ proxies:
     path: /v2ray
 - alterId: 2
   cipher: auto
-  name: 32|🇺🇸US-13.248.169.48-4264
+  name: 32|🇺🇸US-76.223.54.146-4442
   network: ws
   port: 443
   server: 422wkl.fans8.xyz
@@ -1730,28 +1760,14 @@ proxies:
     headers:
       Host: 422wkl.fans8.xyz
     path: /
-- alterId: 4
-  cipher: auto
-  name: 32|🇺🇸US-192.96.204.250-4293
-  network: ws
-  port: 443
-  server: 192.96.204.250
-  servername: usa-washington.lvuft.com
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: usa-washington.lvuft.com
-    path: /ws
-- name: 32|🇺🇸US-172.239.194.103-4324
+- name: 32|🇺🇸US-172.239.194.103-4502
   password: 4863e1b2-ec2f-4c71-b862-ce533028e57e
   port: 443
   server: trus.moonfree.top
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.239.194.103-4362
+  name: 32|🇺🇸US-172.239.194.103-4540
   network: ws
   port: 443
   server: oz.moonfree.top
@@ -1763,9 +1779,23 @@ proxies:
     headers:
       Host: oz.moonfree.top
     path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-54.235.77.118-4545
+  network: ws
+  port: 443
+  server: xr-1.herokuapp.com
+  servername: xr-1.herokuapp.com
+  tls: true
+  type: vmess
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  ws-opts:
+    headers:
+      Host: xr-1.herokuapp.com
+    path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
 - alterId: 2
   cipher: auto
-  name: 32|🇺🇸US-13.248.169.48-4368
+  name: 32|🇺🇸US-13.248.169.48-4546
   network: ws
   port: 80
   server: 527hk1.fans8.xyz
@@ -1779,7 +1809,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-147.135.112.248-4405
+  name: 32|🇺🇸US-147.135.112.248-4583
   network: ws
   port: 80
   server: 147.135.112.248
@@ -1793,7 +1823,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.239.194.103-4417
+  name: 32|🇺🇸US-172.239.193.153-4595
   network: ws
   port: 443
   server: cf-lt-dns.sharecentre.online
@@ -1807,7 +1837,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-162.0.232.36-4428
+  name: 32|🇺🇸US-162.0.232.36-4606
   network: ws
   port: 443
   server: hohm.microsoft.com
@@ -1819,19 +1849,19 @@ proxies:
     headers:
       Host: fr1.trump2023.org
     path: /9JZFDTKE
-- name: 32|🇺🇸US-157.254.38.210-4488
+- name: 32|🇺🇸US-157.254.38.210-4666
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
   type: trojan
-- name: 32|🇺🇸US-157.254.38.210-4489
+- name: 32|🇺🇸US-157.254.38.210-4667
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20034
   server: oplosgru-c.catcat321.com
   type: trojan
 - alterId: 4
   cipher: auto
-  name: 32|🇺🇸US-3.219.96.23-4584
+  name: 32|🇺🇸US-3.219.96.23-4762
   network: ws
   port: 443
   server: mycfwork.herokuapp.com
@@ -1845,7 +1875,7 @@ proxies:
     path: /07a3a1e3-d52e-4acc-958e-c301681b5f09-vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.236.108.16-0067
+  name: 32|🇺🇸US-172.239.193.153-0057
   network: ws
   port: 443
   server: fr0810.moonfree.top
@@ -1857,27 +1887,27 @@ proxies:
     headers:
       Host: fr0810.moonfree.top
     path: /
-- name: 32|🇺🇸US-64.94.95.118-4770
+- alterId: 4
+  cipher: auto
+  name: 32|🇺🇸US-192.96.204.250-0042
+  network: ws
+  port: 443
+  server: 192.96.204.250
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: usa-washington.lvuft.com
+    path: /ws
+- name: 32|🇺🇸US-64.94.95.118-4935
   password: kkzh2prsyr2ik47as615
   port: 57142
   server: 64.94.95.118
   sni: 64.94.95.118
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 32|🇺🇸US-103.224.182.217-1338
-  network: ws
-  port: 443
-  server: lg10.cfcdn1.xyz
-  servername: lg10.cfcdn1.xyz
-  tls: true
-  type: vmess
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  ws-opts:
-    headers:
-      Host: lg10.cfcdn1.xyz
-    path: /A2DJOPFT
-- name: 32|🇺🇸US-103.224.182.211-6578
+- name: 32|🇺🇸US-103.224.182.211-6732
   network: ws
   password: e35026da-e985-49ca-b43b-276062a535a6
   port: 443
@@ -1888,7 +1918,7 @@ proxies:
     path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-75.2.65.169-6589
+  name: 32|🇺🇸US-99.83.129.68-6743
   network: ws
   port: 443
   server: nestle.ir
@@ -1900,7 +1930,7 @@ proxies:
     headers:
       Host: nestle.ir
     path: /wss51068
-- name: 32|🇺🇸US-103.224.182.211-6658
+- name: 32|🇺🇸US-103.224.182.211-6812
   network: ws
   password: 63779501-4c22-4a03-83d3-9f611b227e7b
   port: 443
@@ -1911,7 +1941,7 @@ proxies:
     path: /422Kdfwzf49IxeZJa
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-172.236.108.16-6671
+  name: 32|🇺🇸US-172.239.194.103-6825
   network: ws
   port: 80
   server: cf-lt.sharecentre.online
@@ -1925,7 +1955,7 @@ proxies:
     path: 4a47e680
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-66.241.124.93-6714
+  name: 32|🇺🇸US-66.241.124.93-6868
   network: ws
   port: 443
   server: ahsorathiyaa.fly.dev
@@ -1939,7 +1969,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-66.241.124.93-6759
+  name: 32|🇺🇸US-66.241.124.93-6913
   network: ws
   port: 443
   server: 66.241.124.93
@@ -1953,7 +1983,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-47.88.104.186-6821
+  name: 32|🇺🇸US-47.88.104.186-6975
   network: ws
   port: 80
   server: 47.88.104.186
@@ -1967,7 +1997,7 @@ proxies:
     path: /4DJIP58JF6JTq4HIG0yr
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-47.254.89.211-6822
+  name: 32|🇺🇸US-47.254.89.211-6976
   network: ws
   port: 80
   server: 47.254.89.211
@@ -1981,7 +2011,7 @@ proxies:
     path: /GSoTl9ZoYG5V2R0k4tUTGI8k
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-47.254.17.235-6824
+  name: 32|🇺🇸US-47.254.17.235-6978
   network: ws
   port: 443
   server: 47.254.17.235
@@ -1995,7 +2025,7 @@ proxies:
     path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-47.254.17.235-6825
+  name: 32|🇺🇸US-47.254.17.235-6979
   network: ws
   port: 80
   server: 47.254.17.235
@@ -2009,7 +2039,7 @@ proxies:
     path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-47.254.16.114-6827
+  name: 32|🇺🇸US-47.254.16.114-6981
   network: ws
   port: 80
   server: 47.254.16.114
@@ -2023,7 +2053,7 @@ proxies:
     path: /mePGXW6SFZZw2QyAqaYK
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-47.254.121.68-6828
+  name: 32|🇺🇸US-47.254.121.68-6982
   network: ws
   port: 80
   server: 47.254.121.68
@@ -2037,7 +2067,7 @@ proxies:
     path: /OFglbcWQ8P3dJUA7yf
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-47.253.60.200-6831
+  name: 32|🇺🇸US-47.253.60.200-6985
   network: ws
   port: 443
   server: 47.253.60.200
@@ -2051,7 +2081,7 @@ proxies:
     path: /swoole
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-47.253.55.72-6832
+  name: 32|🇺🇸US-47.253.55.72-6986
   network: ws
   port: 443
   server: 47.253.55.72
@@ -2063,13 +2093,13 @@ proxies:
     headers:
       Host: ''
     path: /swoole
-- name: 32|🇺🇸US-15.204.210.176-7380
+- name: 32|🇺🇸US-15.204.210.176-7534
   password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f
   port: 80
   server: 15.204.210.176
   sni: 15.204.210.176
   type: trojan
-- name: 32|🇺🇸US-15.204.210.176-7382
+- name: 32|🇺🇸US-15.204.210.176-7536
   password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f
   port: 80
   server: 15.204.210.176
@@ -2077,7 +2107,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸US-135.148.47.240-7431
+  name: 32|🇺🇸US-135.148.47.240-7585
   network: ws
   port: 80
   server: 135.148.47.240
@@ -2089,92 +2119,36 @@ proxies:
     headers:
       Host: ''
     path: /vmess
-- name: 32|🇺🇸US-135.148.148.4-7434
+- name: 32|🇺🇸US-135.148.148.4-7588
   password: 800eb26c-cd0c-4269-aae7-e63d75de4edd
   port: 80
   server: 135.148.148.4
   sni: us3.trojanvh.xyz
   type: trojan
-- name: 32|🇺🇸US-135.148.148.4-7438
+- name: 32|🇺🇸US-135.148.148.4-7592
   password: ee2bccd3-0f30-42d4-86d6-3d393ad230bd
   port: 80
   server: 135.148.148.4
   sni: us3.trojanvh.xyz
   type: trojan
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #123'
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #79'
   password: humanity
   port: 443
-  server: 104.18.152.187
+  server: join-telegram-channel.tirexnet.kdns.fr
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #121'
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #101'
   password: humanity
   port: 443
-  server: 104.18.152.144
+  server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '34|🇭🇰 HK香港(mibei77.com 米贝节点分享) #2'
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #5'
   password: humanity
   port: 443
-  server: 104.18.23.63
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #92'
-  password: humanity
-  port: 443
-  server: 104.18.152.159
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #87'
-  password: humanity
-  port: 443
-  server: 104.16.174.44
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '34|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #4'
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #109'
-  password: humanity
-  port: 443
-  server: 104.18.152.77
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #67'
-  password: humanity
-  port: 443
-  server: 104.18.152.155
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '34|🇺🇸 美国 CloudFlare节点 #9'
-  password: humanity
-  port: 443
-  server: 104.16.174.101
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #103'
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '34|🇫🇷 FR法国(mibei77.com 米贝节点分享) #20'
-  password: humanity
-  port: 443
-  server: 104.17.111.4
+  server: 216.24.57.7
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -2185,38 +2159,31 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '34|🇬🇧 GB英国(mibei77.com 米贝节点分享) #2'
+- name: '34|🇫🇷 FR法国(mibei77.com 米贝节点分享) #6'
   password: humanity
   port: 443
-  server: 104.26.15.137
+  server: render.com
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #11'
+- name: '34|🇭🇰 HK香港(mibei77.com 米贝节点分享) #2'
   password: humanity
   port: 443
-  server: 165.215.250.14
+  server: 104.18.23.63
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #12'
-  password: atKbXl2I4rKzHGiRybV7fOp+OCYPz+bO
-  port: 13758
-  server: vip-us-6.hkd4fwmg.xyz
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #7'
+  password: humanity
+  port: 443
+  server: 130.250.137.171
   skip-cert-verify: false
-  sni: vip-us-6.hkd4fwmg.xyz
+  sni: www.ignitelimit.com
   type: trojan
 - name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #131'
   password: humanity
   port: 443
   server: 104.17.111.3
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '34|🇭🇰 HK香港(mibei77.com 米贝节点分享) #10'
-  password: humanity
-  port: 443
-  server: 104.17.177.143
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -2241,17 +2208,24 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #92'
+  password: humanity
+  port: 443
+  server: 104.18.152.159
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇫🇷 FR法国(mibei77.com 米贝节点分享) #20'
+  password: humanity
+  port: 443
+  server: 104.17.111.4
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
 - name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #122'
   password: humanity
   port: 443
   server: 104.18.12.149
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #79'
-  password: humanity
-  port: 443
-  server: join-telegram-channel.tirexnet.kdns.fr
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -2304,13 +2278,6 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '34|🇫🇷 FR法国(mibei77.com 米贝节点分享) #14'
-  password: humanity
-  port: 443
-  server: 104.18.152.73
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
 - name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #111'
   password: humanity
   port: 443
@@ -2338,6 +2305,13 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #123'
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
 - name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #74'
   password: humanity
   port: 443
@@ -2349,13 +2323,6 @@ proxies:
   password: humanity
   port: 443
   server: 172.67.149.60
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #44'
-  password: humanity
-  port: 443
-  server: ip.myip2.qzz.io
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -2422,6 +2389,13 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
+- name: '34|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #4'
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
 - name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #129'
   password: humanity
   port: 443
@@ -2436,36 +2410,19 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '34|🇫🇷 FR法国(mibei77.com 米贝节点分享) #22'
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #121'
   password: humanity
   port: 443
-  server: 104.16.174.6
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #102'
-  password: humanity
-  port: 443
-  server: 104.20.6.134
+  server: 104.18.152.144
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 34|🇺🇸_US_美国
+  name: '34|🇺🇸_US_美国 #1'
   network: tcp
   port: 443
   server: guanwang.awsno.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- alterId: 0
-  cipher: auto
-  name: '34|🇺🇸_US_美国 #2'
-  network: tcp
-  port: 443
-  server: 23.95.248.105
   servername: ''
   tls: false
   type: vmess
@@ -2648,7 +2605,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '40|🇺🇸_US_美国 #9'
+  name: '40|🇺🇸_US_美国 #8'
   network: ws
   port: 443
   server: cold-dawn-9246.fly.dev

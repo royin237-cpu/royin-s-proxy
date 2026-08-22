@@ -1,60 +1,60 @@
 proxies:
-- name: 32|🇹🇼TW-125.227.152.109-2408
+- name: 32|🇹🇼TW-125.227.152.109-2586
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.co.ua
   type: trojan
-- name: 32|🇹🇼TW-203.69.207.175-2477
+- name: 32|🇹🇼TW-60.250.152.229-2655
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.kiev.ua
   type: trojan
-- name: 32|🇹🇼TW-203.69.207.175-2522
+- name: 32|🇹🇼TW-125.227.152.109-2700
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.if.ua
   type: trojan
-- name: 32|🇹🇼TW-60.250.152.208-2544
+- name: 32|🇹🇼TW-60.250.152.208-2722
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.org.ua
   type: trojan
-- name: 32|🇹🇼TW-61.222.160.199-2600
+- name: 32|🇹🇼TW-203.69.207.175-2778
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.kyiv.ua
   type: trojan
-- name: 32|🇹🇼TW-203.69.207.175-2602
+- name: 32|🇹🇼TW-203.69.207.175-2780
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.dp.ua
   type: trojan
-- name: 32|🇹🇼TW-61.222.160.199-2646
+- name: 32|🇹🇼TW-60.250.152.229-2824
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.ivano-frankivsk.ua
   type: trojan
-- name: 32|🇹🇼TW-60.250.152.208-2758
+- name: 32|🇹🇼TW-203.69.207.175-2936
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.biz.ua
   type: trojan
-- name: 32|🇹🇼TW-125.227.152.109-2797
+- name: 32|🇹🇼TW-60.250.152.208-2975
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.cn.ua
   type: trojan
-- name: 32|🇹🇼TW-60.250.152.229-2816
+- name: 32|🇹🇼TW-60.250.152.229-2994
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.chernovtsy.ua
   type: trojan
-- name: 32|🇹🇼TW-60.250.152.229-2819
+- name: 32|🇹🇼TW-60.250.152.229-2997
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.net.ua
   type: trojan
-- name: 32|🇹🇼TW-203.69.207.175-2865
+- name: 32|🇹🇼TW-203.69.207.175-3043
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.com.ua

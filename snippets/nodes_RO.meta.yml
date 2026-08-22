@@ -1,42 +1,33 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|塞尔维亚+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UMvz-4jhwqv9obtELN1iozBhEUsayjnOvXBSHEiX_DI
-  server: 188.255.236.213
-  servername: cosmic-aurora.cdn.cachefleet.com
-  tls: true
-  type: vless
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|比利时+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8hse7wRRL-F66rQ-aAeetKTw0MSeJC7Rr6EaDeLzdCU
-  server: 109.69.218.217
-  servername: kind-wolf.cdn.cachefleet.com
-  tls: true
-  type: vless
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- name: 15|丹麦+V2CROSS.COM
+- name: 15|伊朗+V2CROSS.COM
   network: ws
-  port: 8880
-  server: 195.85.59.30
-  tls: false
+  port: 2053
+  server: 217.60.63.206
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
   ws-opts:
     headers:
-      Host: vms.lifetime58.workers.dev
-    path: /
+      Host: forfreeuse.rtqa.ru
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '15|伊朗+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: dkaIImQrQ1ZVQGNfyrNZbtkE-8hxp_u8AH99XDFgfHw
+    short-id: 75c55b707d25ae8d
+  server: pol2.panel11.ru
+  servername: pol2.panel11.ru
+  tls: true
+  type: vless
+  uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd
 - alterId: 64
   cipher: auto
-  name: 21,32|🇧🇪BE-37.120.236.251-0628
+  name: 21,32|🇧🇪BE-37.120.236.251-0622
   network: ws
   port: 443
   server: 37.120.236.251

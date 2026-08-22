@@ -15,7 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21,32|🇫🇷FR-51.77.20.140-0713
+  name: 21,32|🇫🇷FR-51.77.20.140-0707
   network: ws
   port: 443
   server: 51.77.20.140
@@ -28,37 +28,9 @@ proxies:
     headers:
       Host: bamparda.com
     path: /linkvws
-- name: '31,32|🇫🇷FR-13.39.249.40-1036 #1'
-  password: AE62539071
-  port: 443
-  server: one-quail.rooster465.autos
-  type: trojan
-- name: '31,32|🇫🇷FR-13.37.222.178-0121 #1'
-  password: FH72359861
-  port: 443
-  server: correct-pony.rooster465.autos
-  sni: correct-pony.rooster465.autos
-  type: trojan
-- name: '31,32|🇫🇷FR-13.38.35.46-0117 #1'
-  password: PQ05174892
-  port: 443
-  server: lucky-marmot.rooster465.autos
-  sni: lucky-marmot.rooster465.autos
-  type: trojan
-- name: '31,32|🇫🇷FR-51.44.161.22-0151 #1'
-  password: AE62539071
-  port: 443
-  server: distinct-quail.rooster465.autos
-  type: trojan
-- name: '31,32|🇫🇷FR-51.44.160.58-0124 #1'
-  password: QV31589740
-  port: 443
-  server: great-krill.rooster465.autos
-  sni: great-krill.rooster465.autos
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇫🇷FR-162.19.224.175-1234
+  name: 32|🇫🇷FR-162.19.224.175-1422
   network: ws
   port: 80
   server: 162.19.224.175
@@ -70,20 +42,20 @@ proxies:
     headers:
       Host: 162.19.224.175
     path: /vmess
-- name: 32|🇫🇷FR-51.38.99.96-1375
+- name: 32|🇫🇷FR-51.38.99.96-1563
   password: b8808043-6566-4923-9195-e66bfb553d57
   port: 443
   server: 51.38.99.96
   sni: ba24.ir
   type: trojan
-- name: 32|🇫🇷FR-141.94.76.177-2422
+- name: 32|🇫🇷FR-141.94.76.177-2600
   password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
   port: 443
   server: 141.94.76.177
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇫🇷FR-51.159.2.152-2423
+  name: 32|🇫🇷FR-51.159.2.152-2601
   network: ws
   port: 80
   server: 51.159.2.152
@@ -97,7 +69,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇫🇷FR-51.83.97.167-6431
+  name: 32|🇫🇷FR-51.83.97.167-6585
   network: ws
   port: 80
   server: 51.83.97.167
@@ -111,7 +83,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇫🇷FR-152.228.191.232-6493
+  name: 32|🇫🇷FR-152.228.191.232-6647
   network: ws
   port: 443
   server: 152.228.191.232
@@ -123,25 +95,25 @@ proxies:
     headers:
       Host: ''
     path: /ray
-- name: 32|🇫🇷FR-51.159.59.186-6646
+- name: 32|🇫🇷FR-51.159.59.186-6800
   password: 9498f3a0-2992-11ee-a4c7-1239d0255272
   port: 443
   server: fr.test3.net
   sni: zula.ir
   type: trojan
-- name: 32|🇫🇷FR-51.91.11.29-6767
+- name: 32|🇫🇷FR-51.91.11.29-6921
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   port: 80
   server: 51.91.11.29
   sni: namayesh.com
   type: trojan
-- name: 32|🇫🇷FR-51.91.11.29-6769
+- name: 32|🇫🇷FR-51.91.11.29-6923
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   port: 80
   server: 51.91.11.29
   sni: asriran.com
   type: trojan
-- name: 32|🇫🇷FR-51.91.11.29-6773
+- name: 32|🇫🇷FR-51.91.11.29-6927
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   port: 80
   server: 51.91.11.29
@@ -149,7 +121,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇫🇷FR-217.182.76.202-7004
+  name: 32|🇫🇷FR-217.182.76.202-7158
   network: ws
   port: 443
   server: 217.182.76.202
@@ -161,17 +133,17 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #96'
-  password: humanity
-  port: 443
-  server: www.speedtest.org
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
 - name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #124'
   password: humanity
   port: 443
   server: 104.16.174.12
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #115'
+  password: humanity
+  port: 443
+  server: 8.6.112.0
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
