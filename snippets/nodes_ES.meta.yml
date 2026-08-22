@@ -1,18 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 32|🇪🇸ES-37.120.142.250-1259
-  network: ws
-  port: 443
-  server: 37.120.142.250
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.82210771.xyz
-    path: /path/191019072927
 - name: 40|🇪🇸+ES+西班牙+9
   network: ws
   port: 2053

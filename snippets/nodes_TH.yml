@@ -1,18 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 32|🇹🇭TH-119.59.98.39-1273
-  network: ws
-  port: 30001
-  server: 119.59.98.39
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4d24fbde-cb0e-4025-98ec-222933847d3d
-  ws-opts:
-    headers:
-      Host: www.98666598.xyz
-    path: /path/191019072927
 - alterId: 0
   cipher: auto
   name: 34|🇹🇭TH泰国丨

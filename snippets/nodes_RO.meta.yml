@@ -1,35 +1,42 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|保加利亚+V2CROSS.COM
+  name: 15|塞尔维亚+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: KOgPteoWEwtVtykS2FGV5NHdZw6197VzbITPGkUJDBQ
-  server: 94.156.45.130
-  servername: electric-mantis.cdn.cachefleet.com
+    public-key: UMvz-4jhwqv9obtELN1iozBhEUsayjnOvXBSHEiX_DI
+  server: 188.255.236.213
+  servername: cosmic-aurora.cdn.cachefleet.com
   tls: true
   type: vless
-  uuid: be3960db-f339-479a-be7b-c1a130601141
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|比利时+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8hse7wRRL-F66rQ-aAeetKTw0MSeJC7Rr6EaDeLzdCU
+  server: 109.69.218.217
+  servername: kind-wolf.cdn.cachefleet.com
+  tls: true
+  type: vless
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+- name: 15|丹麦+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 195.85.59.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: /?JOIN_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 15|拉脱维亚+V2CROSS.COM
-  network: tcp
-  port: 13443
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-  server: 195.123.210.168
-  servername: auto.cendora.ru
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+      Host: vms.lifetime58.workers.dev
+    path: /
 - alterId: 64
   cipher: auto
-  name: 21,32|🇧🇪BE-37.120.236.251-1062
+  name: 21,32|🇧🇪BE-37.120.236.251-0628
   network: ws
   port: 443
   server: 37.120.236.251

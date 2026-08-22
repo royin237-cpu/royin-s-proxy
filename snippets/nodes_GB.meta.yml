@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21,32|🇳🇱NL-51.15.19.206-1141
+  name: 21,32|🇳🇱NL-51.15.19.206-0719
   network: ws
   port: 80
   server: eu-2.hihu.net
@@ -28,7 +28,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-46.175.135.9-0345
+  name: 32|🇬🇧GB-46.175.135.9-0339
   network: ws
   port: 443
   server: lu1.gogogoo.cyou
@@ -42,7 +42,7 @@ proxies:
     path: /go
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-51.89.138.147-0366
+  name: 32|🇬🇧GB-51.89.138.147-0360
   network: ws
   port: 80
   server: 51.89.138.147
@@ -56,7 +56,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-46.175.135.9-1459
+  name: 32|🇬🇧GB-46.175.135.9-1328
   network: ws
   port: 443
   server: haxus3.janechiu.icu
@@ -68,28 +68,14 @@ proxies:
     headers:
       Host: haxus3.janechiu.icu
     path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇬🇧GB-46.175.135.9-1549
-  network: ws
-  port: 443
-  server: us02.gogogoo.cyou
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-  ws-opts:
-    headers:
-      Host: us02.gogogoo.cyou
-    path: /go
-- name: 32|🇬🇧GB-132.145.51.172-3738
+- name: 32|🇬🇧GB-132.145.51.172-2604
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
   server: 132.145.51.172
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-51.75.160.126-5063
+  name: 32|🇬🇧GB-51.75.160.126-3929
   network: ws
   port: 80
   server: 51.75.160.126
@@ -101,16 +87,37 @@ proxies:
     headers:
       Host: ''
     path: /vmess
-- name: 32|🇬🇧GB-185.44.76.188-5377
+- alterId: 0
+  cipher: auto
+  name: 32|🇬🇧GB-46.175.135.9-4160
+  network: ws
+  port: 443
+  server: us02.gogogoo.cyou
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  ws-opts:
+    headers:
+      Host: us02.gogogoo.cyou
+    path: /go
+- name: 32|🇬🇧GB-185.44.76.188-4243
   password: 8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: 185.44.76.188
   type: trojan
-- name: 32|🇬🇧GB-51.38.71.175-7918
+- name: 32|🇬🇧GB-51.38.71.175-6786
   password: b640d791-ff83-4300-b509-c2a02f97f167
   port: 80
   server: 51.38.71.175
   sni: uk1.trojanvh.xyz
+  type: trojan
+- name: '34|🇺🇸 US美国(mibei77.com 米贝节点分享) #78'
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
 - name: 40|🇬🇧+GB+英国+3
   network: ws

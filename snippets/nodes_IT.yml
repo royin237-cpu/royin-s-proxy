@@ -1,15 +1,1 @@
-proxies:
-- alterId: 64
-  cipher: auto
-  name: 32|🇮🇹IT-217.138.197.171-1276
-  network: ws
-  port: 443
-  server: 217.138.197.171
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 435c978e-2f48-4194-8d04-38cc79a24421
-  ws-opts:
-    headers:
-      Host: www.29870011.xyz
-    path: /path/191019072927
+proxies: []

@@ -23,13 +23,6 @@ proxies:
   ws-headers:
     host: dl.filmino.online
   ws-path: /graphql
-- name: '18|荷兰 #6'
-  password: netherlands_3_hysteria2_fastlane_xr3nai71s
-  port: 443
-  server: 91.84.119.49
-  sni: nl4.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: 29|🇳🇱 FASTNET 01
   network: ws
@@ -43,24 +36,24 @@ proxies:
     headers:
       Host: www.dollardoon.com
     path: '%2F%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%40V2RAYFAST_7%3Fed'
-- name: '31,32|🇳🇱NL-193.169.239.160-0162 #1'
+- name: '31,32|🇳🇱NL-193.169.239.160-0158 #1'
   password: AE62539071
   port: 443
   server: thorough-falcon.rooster465.autos
   type: trojan
-- name: '31,32|🇳🇱NL-89.39.70.120-0161 #1'
+- name: '31,32|🇳🇱NL-89.39.70.120-0162 #1'
   password: FH72359861
   port: 443
   server: pro-crane.rooster465.autos
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32,34|🇫🇮FI芬兰
+  name: '32,34|🇱🇻 拉脱维亚(mibei77.com 米贝节点分享) #2'
   network: ws
-  port: 443
+  port: '443'
   server: 185.246.152.159
   servername: ''
-  tls: false
+  tls: true
   type: vmess
   uuid: 5f72f180-b21b-4b7a-8484-240759012604
   ws-opts:
@@ -69,7 +62,7 @@ proxies:
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
   cipher: auto
-  name: 32|🇳🇱NL-104.248.80.136-5059
+  name: 32|🇳🇱NL-104.248.80.136-3925
   network: ws
   port: 80
   server: 104.248.80.136
@@ -83,7 +76,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 32|🇳🇱NL-185.246.152.159-5894
+  name: 32|🇳🇱NL-185.246.152.159-4744
   network: ws
   port: 443
   server: 185.246.152.159
@@ -95,7 +88,7 @@ proxies:
     headers:
       Host: ''
     path: /5f72f180-b21b-4b7a-8484-240759096785
-- name: 32|🇳🇱NL-51.158.146.183-7922
+- name: 32|🇳🇱NL-51.158.146.183-6790
   password: f6a0a650-306e-11ee-b692-1239d0255272
   port: 443
   server: 51.158.146.183
@@ -103,7 +96,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇳🇱NL-51.15.19.206-7924
+  name: 32|🇳🇱NL-51.15.19.206-6792
   network: ws
   port: 80
   server: 51.15.19.206
@@ -117,7 +110,21 @@ proxies:
     path: /V2RayyNGvpn
 - alterId: 0
   cipher: auto
-  name: 32|🇳🇱NL-51.15.19.206-7926
+  name: 32|🇳🇱NL-51.15.19.206-6793
+  network: ws
+  port: 8443
+  server: 51.15.19.206
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 3a3ac0c0-31f4-11ee-b337-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /V2RayyNGvpn
+- alterId: 0
+  cipher: auto
+  name: 32|🇳🇱NL-51.15.19.206-6794
   network: ws
   port: 2083
   server: 51.15.19.206
@@ -129,6 +136,13 @@ proxies:
     headers:
       Host: ''
     path: /V2RayyNGvpn
+- name: 34|🇳🇱 NL荷兰(mibei77.com 米贝节点分享)
+  password: 0PUoUQvkGLkxuukHJLje21MCg1DNeOpx
+  port: 28236
+  server: vip-nl-1.hkd4fwmg.vip
+  skip-cert-verify: false
+  sni: vip-nl-1.hkd4fwmg.vip
+  type: trojan
 - name: 41|NL_speednode_0004
   port: 9002
   server: 84.17.47.125
