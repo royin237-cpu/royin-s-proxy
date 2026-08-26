@@ -1,0 +1,14 @@
+﻿=== 采集时间 08/19/2026 19:21:16 ===
+=== WLAN IPv4 / 网关 ===
+172.20.10.3
+172.20.10.1
+=== 各域名 TCP 443 ===
+copilot.tencent.com : TCP443=True Ping=False IP=119.188.11.232
+chat.deepseek.com : TCP443=True Ping=False IP=116.205.40.114
+metaso.cn : TCP443=True Ping=False IP=8.147.223.45
+www.bilibili.com : TCP443=True Ping=False IP=2408:8726:1100:100::2:19
+pan.baidu.com : TCP443=True Ping=False IP=2408:871a:2100:14:0:ff:b05e:adf
+=== 网关 ping ===
+3.5
+=== WLAN DNS ===
+172.20.10.1,fe80::4490:bbff:fe9a:4c64

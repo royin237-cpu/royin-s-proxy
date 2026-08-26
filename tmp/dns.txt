@@ -1,0 +1,8 @@
+
+AddressFamily ServerAddresses            
+------------- ---------------            
+            2 {8.8.8.8, 223.5.5.5}       
+           23 {fe80::4490:bbff:fe9a:4c64}
+
+
+

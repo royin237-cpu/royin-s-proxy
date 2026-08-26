@@ -1,0 +1,700 @@
+﻿2026-08-19T08:50:45.8746910Z Current runner version: '2.336.0'
+2026-08-19T08:50:45.8773209Z ##[group]Runner Image Provisioner
+2026-08-19T08:50:45.8774113Z Hosted Compute Agent
+2026-08-19T08:50:45.8774754Z Version: 20260729.566
+2026-08-19T08:50:45.8775415Z Commit: cf7153fe6e25b664e8693c24944bf2b00355d109
+2026-08-19T08:50:45.8776147Z Build Date: 2026-07-29T19:17:02Z
+2026-08-19T08:50:45.8776942Z Worker ID: {12bffaf8-7518-461b-a507-3cd48b2b6cea}
+2026-08-19T08:50:45.8777713Z Azure Region: westus2
+2026-08-19T08:50:45.8778532Z ##[endgroup]
+2026-08-19T08:50:45.8780564Z ##[group]Operating System
+2026-08-19T08:50:45.8781243Z Ubuntu
+2026-08-19T08:50:45.8782206Z 24.04.4
+2026-08-19T08:50:45.8782793Z LTS
+2026-08-19T08:50:45.8783304Z ##[endgroup]
+2026-08-19T08:50:45.8783894Z ##[group]Runner Image
+2026-08-19T08:50:45.8784502Z Image: ubuntu-24.04
+2026-08-19T08:50:45.8785048Z Version: 20260810.271.1
+2026-08-19T08:50:45.8786420Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260810.271/images/ubuntu/Ubuntu2404-Readme.md
+2026-08-19T08:50:45.8787924Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260810.271
+2026-08-19T08:50:45.8789090Z ##[endgroup]
+2026-08-19T08:50:45.8790246Z ##[group]GITHUB_TOKEN Permissions
+2026-08-19T08:50:45.8792513Z Contents: write
+2026-08-19T08:50:45.8793126Z Metadata: read
+2026-08-19T08:50:45.8793766Z ##[endgroup]
+2026-08-19T08:50:45.8795928Z Secret source: Actions
+2026-08-19T08:50:45.8797152Z Prepare workflow directory
+2026-08-19T08:50:45.9165342Z Prepare all required actions
+2026-08-19T08:50:45.9240729Z Getting action download info
+2026-08-19T08:50:46.2926564Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-08-19T08:50:46.4322815Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+2026-08-19T08:50:46.5072288Z Download action repository 'egad13/purge-jsdelivr-cache@v1' (SHA:7e9b647414bbde07d4b593405c5a036bd30c597e)
+2026-08-19T08:50:47.3617434Z Complete job name: fetch
+2026-08-19T08:50:47.4431769Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-08-19T08:50:47.4440904Z ##[group]Run actions/checkout@v4
+2026-08-19T08:50:47.4441726Z with:
+2026-08-19T08:50:47.4442233Z   repository: royin237-cpu/royin-s-proxy
+2026-08-19T08:50:47.4446170Z   token: ***
+2026-08-19T08:50:47.4446639Z   ssh-strict: true
+2026-08-19T08:50:47.4447117Z   ssh-user: git
+2026-08-19T08:50:47.4447612Z   persist-credentials: true
+2026-08-19T08:50:47.4448377Z   clean: true
+2026-08-19T08:50:47.4448865Z   sparse-checkout-cone-mode: true
+2026-08-19T08:50:47.4449433Z   fetch-depth: 1
+2026-08-19T08:50:47.4449905Z   fetch-tags: false
+2026-08-19T08:50:47.4450394Z   show-progress: true
+2026-08-19T08:50:47.4450891Z   lfs: false
+2026-08-19T08:50:47.4451422Z   submodules: false
+2026-08-19T08:50:47.4451913Z   set-safe-directory: true
+2026-08-19T08:50:47.4452466Z   allow-unsafe-pr-checkout: false
+2026-08-19T08:50:47.4453328Z ##[endgroup]
+2026-08-19T08:50:47.5489938Z Syncing repository: royin237-cpu/royin-s-proxy
+2026-08-19T08:50:47.5492077Z ##[group]Getting Git version info
+2026-08-19T08:50:47.5493296Z Working directory is '/home/runner/work/royin-s-proxy/royin-s-proxy'
+2026-08-19T08:50:47.5494779Z [command]/usr/bin/git version
+2026-08-19T08:50:47.5538814Z git version 2.54.0
+2026-08-19T08:50:47.5563742Z ##[endgroup]
+2026-08-19T08:50:47.5587121Z Temporarily overriding HOME='/home/runner/work/_temp/c5f4e1c6-a0ef-41fb-bdd5-ec8834174e76' before making global git config changes
+2026-08-19T08:50:47.5590852Z Adding repository directory to the temporary git global config as a safe directory
+2026-08-19T08:50:47.5594462Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/royin-s-proxy/royin-s-proxy
+2026-08-19T08:50:47.5656027Z Deleting the contents of '/home/runner/work/royin-s-proxy/royin-s-proxy'
+2026-08-19T08:50:47.5661264Z ##[group]Initializing the repository
+2026-08-19T08:50:47.5667107Z [command]/usr/bin/git init /home/runner/work/royin-s-proxy/royin-s-proxy
+2026-08-19T08:50:47.5796327Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-08-19T08:50:47.5798280Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-08-19T08:50:47.5800471Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-08-19T08:50:47.5802100Z hint: call:
+2026-08-19T08:50:47.5803073Z hint:
+2026-08-19T08:50:47.5804416Z hint: 	git config --global init.defaultBranch <name>
+2026-08-19T08:50:47.5806049Z hint:
+2026-08-19T08:50:47.5807827Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-08-19T08:50:47.5810355Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-08-19T08:50:47.5811939Z hint:
+2026-08-19T08:50:47.5812823Z hint: 	git branch -m <name>
+2026-08-19T08:50:47.5813768Z hint:
+2026-08-19T08:50:47.5815006Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-08-19T08:50:47.5817310Z Initialized empty Git repository in /home/runner/work/royin-s-proxy/royin-s-proxy/.git/
+2026-08-19T08:50:47.5821284Z [command]/usr/bin/git remote add origin https://github.com/royin237-cpu/royin-s-proxy
+2026-08-19T08:50:47.5900710Z ##[endgroup]
+2026-08-19T08:50:47.5903003Z ##[group]Disabling automatic garbage collection
+2026-08-19T08:50:47.5904919Z [command]/usr/bin/git config --local gc.auto 0
+2026-08-19T08:50:47.5952880Z ##[endgroup]
+2026-08-19T08:50:47.5954559Z ##[group]Setting up auth
+2026-08-19T08:50:47.5960720Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-08-19T08:50:47.6004438Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-08-19T08:50:47.6447389Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-08-19T08:50:47.6493845Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-08-19T08:50:47.6725861Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-08-19T08:50:47.6763181Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-08-19T08:50:47.6992692Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-08-19T08:50:47.7034706Z ##[endgroup]
+2026-08-19T08:50:47.7044781Z ##[group]Fetching the repository
+2026-08-19T08:50:47.7046630Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +9af064bba8e7c54f56a8b0e42a1a4000ca87bc7a:refs/remotes/origin/master
+2026-08-19T08:50:48.2735367Z From https://github.com/royin237-cpu/royin-s-proxy
+2026-08-19T08:50:48.2736351Z  * [new ref]         9af064bba8e7c54f56a8b0e42a1a4000ca87bc7a -> origin/master
+2026-08-19T08:50:48.2776140Z ##[endgroup]
+2026-08-19T08:50:48.2776921Z ##[group]Determining the checkout info
+2026-08-19T08:50:48.2778779Z ##[endgroup]
+2026-08-19T08:50:48.2784606Z [command]/usr/bin/git sparse-checkout disable
+2026-08-19T08:50:48.2838850Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-08-19T08:50:48.2871358Z ##[group]Checking out the ref
+2026-08-19T08:50:48.2875844Z [command]/usr/bin/git checkout --progress --force -B master refs/remotes/origin/master
+2026-08-19T08:50:48.3100807Z Reset branch 'master'
+2026-08-19T08:50:48.3102513Z branch 'master' set up to track 'origin/master'.
+2026-08-19T08:50:48.3111734Z ##[endgroup]
+2026-08-19T08:50:48.3157805Z [command]/usr/bin/git log -1 --format=%H
+2026-08-19T08:50:48.3185663Z 9af064bba8e7c54f56a8b0e42a1a4000ca87bc7a
+2026-08-19T08:50:48.3415388Z ##[group]Run sudo timedatectl set-timezone 'Asia/Shanghai'
+2026-08-19T08:50:48.3416306Z [36;1msudo timedatectl set-timezone 'Asia/Shanghai'[0m
+2026-08-19T08:50:48.3457736Z shell: /usr/bin/bash -e {0}
+2026-08-19T08:50:48.3458747Z ##[endgroup]
+2026-08-19T08:50:48.4294990Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-08-19T08:50:48.4298249Z ##[group]Run actions/setup-python@v5
+2026-08-19T08:50:48.4298932Z with:
+2026-08-19T08:50:48.4299346Z   python-version: 3.x
+2026-08-19T08:50:48.4299797Z   cache: pip
+2026-08-19T08:50:48.4300216Z   check-latest: false
+2026-08-19T08:50:48.4303835Z   token: ***
+2026-08-19T08:50:48.4304269Z   update-environment: true
+2026-08-19T08:50:48.4304763Z   allow-prereleases: false
+2026-08-19T08:50:48.4305269Z   freethreaded: false
+2026-08-19T08:50:48.4305718Z ##[endgroup]
+2026-08-19T08:50:48.5673137Z ##[group]Installed versions
+2026-08-19T08:50:48.5758671Z (node:2096) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-08-19T08:50:48.5760289Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-08-19T08:50:48.5761407Z Successfully set up CPython (3.14.7)
+2026-08-19T08:50:48.5762310Z ##[endgroup]
+2026-08-19T08:50:48.6393418Z [command]/opt/hostedtoolcache/Python/3.14.7/x64/bin/pip cache dir
+2026-08-19T08:50:50.2449304Z /home/runner/.cache/pip
+2026-08-19T08:50:50.5254543Z Cache hit for: setup-python-Linux-x64-24.04-Ubuntu-python-3.14.7-pip-a489217d2bc764637bbdc126a988e00a0597e2aba7767044e86190b5ab465f78
+2026-08-19T08:50:50.5361823Z (node:2096) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-08-19T08:50:51.8209119Z Received 0 of 4096972 (0.0%), 0.0 MBs/sec
+2026-08-19T08:50:51.9507343Z Received 4096972 of 4096972 (100.0%), 3.5 MBs/sec
+2026-08-19T08:50:51.9508257Z Cache Size: ~4 MB (4096972 B)
+2026-08-19T08:50:51.9537730Z [command]/usr/bin/tar -xf /home/runner/work/_temp/c7b07e19-ebf4-40ef-980c-ac72dc3d9f56/cache.tzst -P -C /home/runner/work/royin-s-proxy/royin-s-proxy --use-compress-program unzstd
+2026-08-19T08:50:51.9754588Z Cache restored successfully
+2026-08-19T08:50:51.9762863Z Cache restored from key: setup-python-Linux-x64-24.04-Ubuntu-python-3.14.7-pip-a489217d2bc764637bbdc126a988e00a0597e2aba7767044e86190b5ab465f78
+2026-08-19T08:50:51.9938415Z ##[group]Run pip install -r requirements.txt
+2026-08-19T08:50:51.9938847Z [36;1mpip install -r requirements.txt[0m
+2026-08-19T08:50:51.9980893Z shell: /usr/bin/bash -e {0}
+2026-08-19T08:50:51.9981176Z env:
+2026-08-19T08:50:51.9981454Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:50:51.9981961Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib/pkgconfig
+2026-08-19T08:50:51.9982440Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:50:51.9982847Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:50:51.9983242Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:50:51.9983634Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib
+2026-08-19T08:50:51.9983974Z ##[endgroup]
+2026-08-19T08:50:53.4368454Z Collecting requests-file @ git+https://github.com/peasoft/requests-file.git@276a27c7ea390ef33f887cc4ef46593dd70da071 (from -r requirements.txt (line 3))
+2026-08-19T08:50:53.4370338Z   Using cached requests_file-1.5.1.dev13+g276a27c7e-py2.py3-none-any.whl
+2026-08-19T08:50:53.5573568Z Collecting PyYAML==6.0.1 (from -r requirements.txt (line 1))
+2026-08-19T08:50:53.5579110Z   Using cached pyyaml-6.0.1-cp314-cp314-linux_x86_64.whl
+2026-08-19T08:50:53.5807221Z Collecting requests==2.28.2 (from -r requirements.txt (line 2))
+2026-08-19T08:50:53.5821383Z   Using cached requests-2.28.2-py3-none-any.whl.metadata (4.6 kB)
+2026-08-19T08:50:53.7031569Z Collecting charset-normalizer<4,>=2 (from requests==2.28.2->-r requirements.txt (line 2))
+2026-08-19T08:50:53.7046386Z   Using cached charset_normalizer-3.5.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (45 kB)
+2026-08-19T08:50:53.7229148Z Collecting idna<4,>=2.5 (from requests==2.28.2->-r requirements.txt (line 2))
+2026-08-19T08:50:53.7242004Z   Using cached idna-3.19-py3-none-any.whl.metadata (9.2 kB)
+2026-08-19T08:50:53.7469260Z Collecting urllib3<1.27,>=1.21.1 (from requests==2.28.2->-r requirements.txt (line 2))
+2026-08-19T08:50:53.7481483Z   Using cached urllib3-1.26.20-py2.py3-none-any.whl.metadata (50 kB)
+2026-08-19T08:50:53.7725859Z Collecting certifi>=2017.4.17 (from requests==2.28.2->-r requirements.txt (line 2))
+2026-08-19T08:50:53.7738671Z   Using cached certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+2026-08-19T08:50:53.7778900Z Using cached requests-2.28.2-py3-none-any.whl (62 kB)
+2026-08-19T08:50:53.7791638Z Using cached charset_normalizer-3.5.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (251 kB)
+2026-08-19T08:50:53.7803035Z Using cached idna-3.19-py3-none-any.whl (68 kB)
+2026-08-19T08:50:53.7814117Z Using cached urllib3-1.26.20-py2.py3-none-any.whl (144 kB)
+2026-08-19T08:50:53.7825215Z Using cached certifi-2026.7.22-py3-none-any.whl (136 kB)
+2026-08-19T08:50:53.9403237Z Installing collected packages: urllib3, PyYAML, idna, charset-normalizer, certifi, requests, requests-file
+2026-08-19T08:50:54.2683487Z 
+2026-08-19T08:50:54.2700882Z Successfully installed PyYAML-6.0.1 certifi-2026.7.22 charset-normalizer-3.5.1 idna-3.19 requests-2.28.2 requests-file-1.5.1.dev13+g276a27c7e urllib3-1.26.20
+2026-08-19T08:50:54.3413712Z ##[group]Run mkdir -p mihomo_data
+2026-08-19T08:50:54.3414078Z [36;1mmkdir -p mihomo_data[0m
+2026-08-19T08:50:54.3414787Z [36;1mBIN_URL=$(curl -sL https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep -Eo 'https://[^"]*mihomo-linux-amd64-v[^"]*\.gz' | head -n1)[0m
+2026-08-19T08:50:54.3415493Z [36;1mecho "mihomo: $BIN_URL"[0m
+2026-08-19T08:50:54.3415883Z [36;1mcurl -sL "$BIN_URL" -o mihomo.gz && gunzip -f mihomo.gz && chmod +x mihomo[0m
+2026-08-19T08:50:54.3416590Z [36;1mcurl -sL "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat" -o mihomo_data/geoip.dat[0m
+2026-08-19T08:50:54.3417472Z [36;1mcurl -sL "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat" -o mihomo_data/geosite.dat[0m
+2026-08-19T08:50:54.3418659Z [36;1mcurl -sL "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb" -o mihomo_data/country.mmdb[0m
+2026-08-19T08:50:54.3419301Z [36;1mls -la mihomo mihomo_data/[0m
+2026-08-19T08:50:54.3456406Z shell: /usr/bin/bash -e {0}
+2026-08-19T08:50:54.3456660Z env:
+2026-08-19T08:50:54.3456929Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:50:54.3457380Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib/pkgconfig
+2026-08-19T08:50:54.3457836Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:50:54.3458473Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:50:54.3458867Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:50:54.3459251Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib
+2026-08-19T08:50:54.3459591Z ##[endgroup]
+2026-08-19T08:50:54.6309230Z mihomo: https://github.com/MetaCubeX/mihomo/releases/download/v1.19.30/mihomo-linux-amd64-v1-go120-v1.19.30.gz
+2026-08-19T08:50:56.5122060Z -rwxr-xr-x 1 runner runner 59064320 Aug 19 16:50 mihomo
+2026-08-19T08:50:56.5122548Z 
+2026-08-19T08:50:56.5122697Z mihomo_data/:
+2026-08-19T08:50:56.5123040Z total 28780
+2026-08-19T08:50:56.5123477Z drwxr-xr-x 2 runner runner     4096 Aug 19 16:50 .
+2026-08-19T08:50:56.5124118Z drwxr-xr-x 9 runner runner     4096 Aug 19 16:50 ..
+2026-08-19T08:50:56.5125173Z -rw-r--r-- 1 runner runner  7860583 Aug 19 16:50 country.mmdb
+2026-08-19T08:50:56.5126031Z -rw-r--r-- 1 runner runner 17344919 Aug 19 16:50 geoip.dat
+2026-08-19T08:50:56.5127280Z -rw-r--r-- 1 runner runner  4247789 Aug 19 16:50 geosite.dat
+2026-08-19T08:50:56.5182317Z ##[group]Run python ./fetch.py
+2026-08-19T08:50:56.5182629Z [36;1mpython ./fetch.py[0m
+2026-08-19T08:50:56.5218854Z shell: /usr/bin/bash -e {0}
+2026-08-19T08:50:56.5219107Z env:
+2026-08-19T08:50:56.5219370Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:50:56.5219813Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib/pkgconfig
+2026-08-19T08:50:56.5220264Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:50:56.5220654Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:50:56.5221047Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:50:56.5221434Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib
+2026-08-19T08:50:56.5221867Z   MIHOMO_BIN: /home/runner/work/royin-s-proxy/royin-s-proxy/mihomo
+2026-08-19T08:50:56.5222324Z   MIHOMO_DATA: /home/runner/work/royin-s-proxy/royin-s-proxy/mihomo_data
+2026-08-19T08:50:56.5222695Z ##[endgroup]
+2026-08-19T08:50:56.8711112Z 正在生成动态链接...
+2026-08-19T08:50:56.8711464Z 正在整理链接...
+2026-08-19T08:50:56.8711964Z 正在抓取机场列表...
+2026-08-19T08:50:57.0262713Z 合并 'https://raw.githubusercontent.com/abshare/abshare.github.io/main/README.md'... 完成！
+2026-08-19T08:50:57.3279756Z 合并 'https://raw.githubusercontent.com/mksshare/mksshare.github.io/main/README.md'... 404
+2026-08-19T08:50:57.3309437Z 正在整理链接...
+2026-08-19T08:50:57.3368785Z 开始抓取！
+2026-08-19T08:50:57.7152503Z 抓取 'https://Nr5naf.absslk.xyz/e98af01c1d1a5c4506aead30efa93f08'... 403
+2026-08-19T08:50:57.7184207Z 抓取 'https://gitlab.com/colloq168/nodefiltrate/-/raw/main/filtrate?ref_type=heads'... 403
+2026-08-19T08:50:57.7647902Z 抓取 'https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/1/config.yaml'... 404
+2026-08-19T08:50:57.7967688Z 抓取 'https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/13/config.yaml'... 404
+2026-08-19T08:50:57.8060789Z 抓取 'https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/15/config.yaml'... 404
+2026-08-19T08:50:57.8149839Z 抓取 'https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/2/config.yaml'... 404
+2026-08-19T08:50:57.8154300Z 抓取 'https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/config.yaml'... 404
+2026-08-19T08:50:57.8256280Z 抓取 'https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml'... 404
+2026-08-19T08:50:58.9320873Z 抓取 'https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/vmess'... 正在合并... 空订阅，跳过！完成！
+2026-08-19T08:51:03.9353670Z 抓取 'https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg'... 5s
+2026-08-19T08:51:03.9692482Z 抓取 'https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg'... 正在合并... 完成！
+2026-08-19T08:51:03.9792216Z 抓取 'https://raw.githubusercontent.com/Junely/clash/main/clash_near.txt'... 正在合并... 完成！
+2026-08-19T08:51:03.9823502Z 抓取 'https://raw.githubusercontent.com/Junely/clash/main/template3.yaml'... 正在合并... 完成！
+2026-08-19T08:51:03.9868951Z 抓取 'https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx1'... 正在合并... 完成！
+2026-08-19T08:51:03.9890020Z 抓取 'https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx2'... 正在合并... 完成！
+2026-08-19T08:51:03.9993332Z 抓取 'https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt'... 正在合并... 完成！
+2026-08-19T08:51:04.0021722Z 抓取 'https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub'... 正在合并... 完成！
+2026-08-19T08:51:04.0023149Z 抓取 'https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml'... 404
+2026-08-19T08:51:04.0059582Z 抓取 'https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml'... 404
+2026-08-19T08:51:04.0155163Z 抓取 'https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2'... 正在合并... 完成！
+2026-08-19T08:51:04.0251501Z 抓取 'https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2'... 正在合并... 完成！
+2026-08-19T08:51:04.0277573Z 抓取 'https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2'... 404
+2026-08-19T08:51:07.2300410Z 抓取 'https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml'... 正在合并... 完成！
+2026-08-19T08:51:07.2363712Z 抓取 'https://raw.githubusercontent.com/cxr9912/cxr2022/main/cxr.yml'... 404
+2026-08-19T08:51:07.2364621Z 抓取 'https://raw.githubusercontent.com/cxr9912/cxr2022/main/free.yaml'... 404
+2026-08-19T08:51:07.2371227Z 抓取 'https://raw.githubusercontent.com/cxr9912/cxr2022/main/ss.yaml'... 404
+2026-08-19T08:51:07.2373884Z 抓取 'https://raw.githubusercontent.com/cxr9912/cxr2022/main/vmess.yaml'... 404
+2026-08-19T08:51:07.2382144Z 抓取 'https://raw.githubusercontent.com/freefq/free/master/v2'... 正在合并... 完成！
+2026-08-19T08:51:07.2383922Z 抓取 'https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray'... 404
+2026-08-19T08:51:07.2385397Z 抓取 'https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash'... 404
+2026-08-19T08:51:07.2401150Z 抓取 'https://raw.githubusercontent.com/imohammadkhalili/V2RAY/main/Mkhalili'... 正在合并... 完成！
+2026-08-19T08:51:07.2403711Z 抓取 'https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml'... 正在合并... 空订阅，跳过！完成！
+2026-08-19T08:51:07.2446757Z 抓取 'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity'... 正在合并... 完成！
+2026-08-19T08:51:07.5893813Z Traceback (most recent call last):
+2026-08-19T08:51:07.5911844Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 854, in merge
+2026-08-19T08:51:07.5912785Z     try: n = Node(p)
+2026-08-19T08:51:07.5913184Z              ~~~~^^^
+2026-08-19T08:51:07.5913988Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 146, in __init__
+2026-08-19T08:51:07.5914816Z     self.load_url(data)
+2026-08-19T08:51:07.5915207Z     ~~~~~~~~~~~~~^^^^^^
+2026-08-19T08:51:07.5915945Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 310, in load_url
+2026-08-19T08:51:07.5916830Z     parsed = urlparse(url)
+2026-08-19T08:51:07.5917729Z   File "/opt/hostedtoolcache/Python/3.14.7/x64/lib/python3.14/urllib/parse.py", line 397, in urlparse
+2026-08-19T08:51:07.5919176Z     scheme, netloc, url, params, query, fragment = _urlparse(url, scheme, allow_fragments)
+2026-08-19T08:51:07.5920050Z                                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-08-19T08:51:07.5921095Z   File "/opt/hostedtoolcache/Python/3.14.7/x64/lib/python3.14/urllib/parse.py", line 402, in _urlparse
+2026-08-19T08:51:07.5922215Z     scheme, netloc, url, query, fragment = _urlsplit(url, scheme, allow_fragments)
+2026-08-19T08:51:07.5923008Z                                            ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-08-19T08:51:07.5924027Z   File "/opt/hostedtoolcache/Python/3.14.7/x64/lib/python3.14/urllib/parse.py", line 525, in _urlsplit
+2026-08-19T08:51:07.5924968Z     raise ValueError("Invalid IPv6 URL")
+2026-08-19T08:51:07.5925492Z ValueError: Invalid IPv6 URL
+2026-08-19T08:51:07.5925983Z Traceback (most recent call last):
+2026-08-19T08:51:07.5926820Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 854, in merge
+2026-08-19T08:51:07.5927606Z     try: n = Node(p)
+2026-08-19T08:51:07.5928245Z              ~~~~^^^
+2026-08-19T08:51:07.5929010Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 146, in __init__
+2026-08-19T08:51:07.5929841Z     self.load_url(data)
+2026-08-19T08:51:07.5930227Z     ~~~~~~~~~~~~~^^^^^^
+2026-08-19T08:51:07.5930991Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 310, in load_url
+2026-08-19T08:51:07.5931805Z     parsed = urlparse(url)
+2026-08-19T08:51:07.5932694Z   File "/opt/hostedtoolcache/Python/3.14.7/x64/lib/python3.14/urllib/parse.py", line 397, in urlparse
+2026-08-19T08:51:07.5933855Z     scheme, netloc, url, params, query, fragment = _urlparse(url, scheme, allow_fragments)
+2026-08-19T08:51:07.5934737Z                                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-08-19T08:51:07.5936275Z   File "/opt/hostedtoolcache/Python/3.14.7/x64/lib/python3.14/urllib/parse.py", line 402, in _urlparse
+2026-08-19T08:51:07.5937700Z     scheme, netloc, url, query, fragment = _urlsplit(url, scheme, allow_fragments)
+2026-08-19T08:51:07.5938751Z                                            ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-08-19T08:51:07.5939783Z   File "/opt/hostedtoolcache/Python/3.14.7/x64/lib/python3.14/urllib/parse.py", line 525, in _urlsplit
+2026-08-19T08:51:07.5940736Z     raise ValueError("Invalid IPv6 URL")
+2026-08-19T08:51:07.5941256Z ValueError: Invalid IPv6 URL
+2026-08-19T08:51:07.6201834Z 抓取 'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt'... 正在合并... 完成！
+2026-08-19T08:51:07.6204351Z 抓取 'https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml'... 正在合并... 完成！
+2026-08-19T08:51:07.6216011Z 抓取 'https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray'... 正在合并... 完成！
+2026-08-19T08:51:07.6217470Z 抓取 'https://raw.githubusercontent.com/mlabalabala/v2ray-node/main/nodefree4clash.txt'... 正在合并... 完成！
+2026-08-19T08:51:07.6222811Z 抓取 'https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml'... 正在合并... 完成！
+2026-08-19T08:51:07.6224033Z 抓取 'https://raw.githubusercontent.com/qjlxg/hy2/main/splitted/hy2'... 404
+2026-08-19T08:51:07.6225385Z 抓取 'https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash'... 正在合并... 完成！
+2026-08-19T08:51:07.6230883Z 抓取 'https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub'... 正在合并... 完成！
+2026-08-19T08:51:07.6361310Z 抓取 'https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num'... 正在合并... 完成！
+2026-08-19T08:51:07.6368775Z 抓取 'https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml'... 正在合并... 完成！
+2026-08-19T08:52:48.6396108Z Traceback (most recent call last):
+2026-08-19T08:52:48.6398521Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6399559Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6399912Z            ^^^^^
+2026-08-19T08:52:48.6400926Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 529, in url
+2026-08-19T08:52:48.6402097Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6402781Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6403290Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.6422172Z Traceback (most recent call last):
+2026-08-19T08:52:48.6425005Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6425467Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6425688Z            ^^^^^
+2026-08-19T08:52:48.6426161Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 529, in url
+2026-08-19T08:52:48.6426726Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6427136Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6427614Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.6430285Z Traceback (most recent call last):
+2026-08-19T08:52:48.6432530Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6432997Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6433212Z            ^^^^^
+2026-08-19T08:52:48.6433592Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 529, in url
+2026-08-19T08:52:48.6434125Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6434512Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6434990Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.6442668Z Traceback (most recent call last):
+2026-08-19T08:52:48.6445301Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6445922Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6446311Z            ^^^^^
+2026-08-19T08:52:48.6446981Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 529, in url
+2026-08-19T08:52:48.6448720Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6449270Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6449770Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.6451234Z Traceback (most recent call last):
+2026-08-19T08:52:48.6453685Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6454432Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6454789Z            ^^^^^
+2026-08-19T08:52:48.6455192Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 529, in url
+2026-08-19T08:52:48.6455735Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6456130Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6456412Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.6458463Z Traceback (most recent call last):
+2026-08-19T08:52:48.6460958Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6461760Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6462134Z            ^^^^^
+2026-08-19T08:52:48.6462813Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 529, in url
+2026-08-19T08:52:48.6463783Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6464414Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6464710Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.6465293Z Traceback (most recent call last):
+2026-08-19T08:52:48.6467694Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6487092Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6487611Z            ^^^^^
+2026-08-19T08:52:48.6488507Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 529, in url
+2026-08-19T08:52:48.6489378Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6490066Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6490518Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.6490771Z Traceback (most recent call last):
+2026-08-19T08:52:48.6491266Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6491706Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6491923Z            ^^^^^
+2026-08-19T08:52:48.6492284Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 529, in url
+2026-08-19T08:52:48.6492818Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6493395Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6493677Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.6493909Z Traceback (most recent call last):
+2026-08-19T08:52:48.6494444Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6494888Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6495106Z            ^^^^^
+2026-08-19T08:52:48.6495473Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 529, in url
+2026-08-19T08:52:48.6495995Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6496412Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6496693Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.6496938Z Traceback (most recent call last):
+2026-08-19T08:52:48.6497368Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6497796Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6498253Z            ^^^^^
+2026-08-19T08:52:48.6498645Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 529, in url
+2026-08-19T08:52:48.6499379Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6499925Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6500206Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.6500792Z Traceback (most recent call last):
+2026-08-19T08:52:48.6502517Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6503316Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6503693Z            ^^^^^
+2026-08-19T08:52:48.6504600Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 529, in url
+2026-08-19T08:52:48.6505536Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6506218Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6506699Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.6509790Z Traceback (most recent call last):
+2026-08-19T08:52:48.6513195Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6513987Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6514355Z            ^^^^^
+2026-08-19T08:52:48.6515006Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 529, in url
+2026-08-19T08:52:48.6515937Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6516614Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6517293Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.6520518Z Traceback (most recent call last):
+2026-08-19T08:52:48.6523509Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6524310Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6524689Z            ^^^^^
+2026-08-19T08:52:48.6525355Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 529, in url
+2026-08-19T08:52:48.6526289Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6526989Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6527660Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.6536970Z Traceback (most recent call last):
+2026-08-19T08:52:48.6540195Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6541028Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6541414Z            ^^^^^
+2026-08-19T08:52:48.6542094Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 529, in url
+2026-08-19T08:52:48.6543048Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6543763Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6544265Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.6683924Z Traceback (most recent call last):
+2026-08-19T08:52:48.6686719Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 1268, in main
+2026-08-19T08:52:48.6687635Z     txt += p.url + '\n'
+2026-08-19T08:52:48.6688286Z            ^^^^^
+2026-08-19T08:52:48.6689087Z   File "/home/runner/work/royin-s-proxy/royin-s-proxy/./fetch.py", line 505, in url
+2026-08-19T08:52:48.6690137Z     ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+2026-08-19T08:52:48.6690858Z                                     ~~~~^^^^^^^^^^^^^
+2026-08-19T08:52:48.6691408Z KeyError: 'grpc-opts'
+2026-08-19T08:52:48.7614230Z 抓取 'dynamic://peasoft'... 正在合并... 完成！
+2026-08-19T08:52:48.7614787Z 
+2026-08-19T08:52:48.7615294Z 正在做存活预检：6784 个去重地址，并发 150，超时 2.5s ...
+2026-08-19T08:52:48.7616086Z 预检完成：存活地址 2135，死地址 4649，剔除死节点 4845 个，剩余 2400 个。
+2026-08-19T08:52:48.7616517Z 
+2026-08-19T08:52:48.7616802Z 正在做云端真实测速：2264 个节点，超时 4000ms ...
+2026-08-19T08:52:48.7617403Z ⚠ mihomo 启动失败，跳过云端测速。
+2026-08-19T08:52:48.7617692Z 
+2026-08-19T08:52:48.7617939Z 正在写出 V2Ray 订阅...
+2026-08-19T08:52:48.7619042Z 不支持的类型：http
+2026-08-19T08:52:48.7619543Z 不支持的类型：http
+2026-08-19T08:52:48.7619882Z 不支持的类型：http
+2026-08-19T08:52:48.7620133Z 不支持的类型：http
+2026-08-19T08:52:48.7620391Z 不支持的类型：http
+2026-08-19T08:52:48.7620639Z 不支持的类型：http
+2026-08-19T08:52:48.7620904Z 不支持的类型：http
+2026-08-19T08:52:48.7621151Z 不支持的类型：http
+2026-08-19T08:52:48.7621399Z 不支持的类型：http
+2026-08-19T08:52:48.7621647Z 不支持的类型：http
+2026-08-19T08:52:48.7621893Z 不支持的类型：http
+2026-08-19T08:52:48.7622140Z 不支持的类型：http
+2026-08-19T08:52:48.7622807Z 不支持的类型：http
+2026-08-19T08:52:48.7623139Z 不支持的类型：http
+2026-08-19T08:52:48.7623614Z 不支持的类型：http
+2026-08-19T08:52:48.7624029Z 不支持的类型：http
+2026-08-19T08:52:48.7624332Z 不支持的类型：http
+2026-08-19T08:52:48.7624539Z 不支持的类型：http
+2026-08-19T08:52:48.7625041Z 不支持的类型：http
+2026-08-19T08:52:48.7625475Z 不支持的类型：http
+2026-08-19T08:52:48.7625716Z 不支持的类型：http
+2026-08-19T08:52:48.7625916Z 不支持的类型：http
+2026-08-19T08:52:48.7626129Z 不支持的类型：http
+2026-08-19T08:52:48.7626327Z 不支持的类型：http
+2026-08-19T08:52:48.7626529Z 不支持的类型：http
+2026-08-19T08:52:48.7626726Z 不支持的类型：http
+2026-08-19T08:52:48.7626929Z 不支持的类型：http
+2026-08-19T08:52:48.7627129Z 不支持的类型：http
+2026-08-19T08:52:48.7627333Z 不支持的类型：http
+2026-08-19T08:52:48.7627530Z 不支持的类型：http
+2026-08-19T08:52:48.7627736Z 不支持的类型：http
+2026-08-19T08:52:48.7627938Z 不支持的类型：http
+2026-08-19T08:52:48.7628636Z 不支持的类型：http
+2026-08-19T08:52:48.7628853Z 不支持的类型：http
+2026-08-19T08:52:48.7629059Z 不支持的类型：http
+2026-08-19T08:52:48.7629261Z 不支持的类型：http
+2026-08-19T08:52:48.7629460Z 不支持的类型：http
+2026-08-19T08:52:48.7629683Z 不支持的类型：http
+2026-08-19T08:52:48.7629895Z 不支持的类型：http
+2026-08-19T08:52:48.7630090Z 不支持的类型：http
+2026-08-19T08:52:48.7630290Z 不支持的类型：http
+2026-08-19T08:52:48.7630488Z 不支持的类型：http
+2026-08-19T08:52:48.7630688Z 不支持的类型：http
+2026-08-19T08:52:48.7630901Z 不支持的类型：http
+2026-08-19T08:52:48.7631117Z 不支持的类型：http
+2026-08-19T08:52:48.7631312Z 不支持的类型：http
+2026-08-19T08:52:48.7631510Z 不支持的类型：http
+2026-08-19T08:52:48.7631710Z 不支持的类型：http
+2026-08-19T08:52:48.7631907Z 不支持的类型：http
+2026-08-19T08:52:48.7632101Z 不支持的类型：http
+2026-08-19T08:52:48.7632294Z 不支持的类型：http
+2026-08-19T08:52:48.7632496Z 不支持的类型：http
+2026-08-19T08:52:48.7632693Z 不支持的类型：http
+2026-08-19T08:52:48.7632886Z 不支持的类型：http
+2026-08-19T08:52:48.7633080Z 不支持的类型：http
+2026-08-19T08:52:48.7633274Z 不支持的类型：http
+2026-08-19T08:52:48.7633469Z 不支持的类型：http
+2026-08-19T08:52:48.7633663Z 不支持的类型：http
+2026-08-19T08:52:48.7633858Z 不支持的类型：http
+2026-08-19T08:52:48.7634059Z 不支持的类型：http
+2026-08-19T08:52:48.7634255Z 不支持的类型：http
+2026-08-19T08:52:48.7634450Z 不支持的类型：http
+2026-08-19T08:52:48.7634660Z 不支持的类型：http
+2026-08-19T08:52:48.7634856Z 不支持的类型：http
+2026-08-19T08:52:48.7635051Z 不支持的类型：http
+2026-08-19T08:52:48.7635245Z 不支持的类型：http
+2026-08-19T08:52:48.7635440Z 不支持的类型：http
+2026-08-19T08:52:48.7635670Z 不支持的类型：http
+2026-08-19T08:52:48.7635878Z 不支持的类型：http
+2026-08-19T08:52:48.7636072Z 不支持的类型：http
+2026-08-19T08:52:48.7636267Z 不支持的类型：http
+2026-08-19T08:52:48.7636469Z 不支持的类型：http
+2026-08-19T08:52:48.7636665Z 不支持的类型：http
+2026-08-19T08:52:48.7636864Z 不支持的类型：http
+2026-08-19T08:52:48.7637062Z 不支持的类型：http
+2026-08-19T08:52:48.7637259Z 不支持的类型：http
+2026-08-19T08:52:48.7637459Z 不支持的类型：http
+2026-08-19T08:52:48.7637663Z 不支持的类型：http
+2026-08-19T08:52:48.7637861Z 不支持的类型：http
+2026-08-19T08:52:48.7638197Z 不支持的类型：http
+2026-08-19T08:52:48.7638397Z 不支持的类型：http
+2026-08-19T08:52:48.7638596Z 不支持的类型：http
+2026-08-19T08:52:48.7638795Z 不支持的类型：http
+2026-08-19T08:52:48.7639002Z 不支持的类型：http
+2026-08-19T08:52:48.7639208Z 不支持的类型：http
+2026-08-19T08:52:48.7639410Z 不支持的类型：http
+2026-08-19T08:52:48.7639611Z 不支持的类型：http
+2026-08-19T08:52:48.7639997Z 不支持的类型：http
+2026-08-19T08:52:48.7640192Z 不支持的类型：http
+2026-08-19T08:52:48.7640392Z 不支持的类型：http
+2026-08-19T08:52:48.7640592Z 不支持的类型：http
+2026-08-19T08:52:48.7640786Z 不支持的类型：http
+2026-08-19T08:52:48.7640982Z 不支持的类型：http
+2026-08-19T08:52:48.7641377Z 不支持的类型：http
+2026-08-19T08:52:48.7641593Z 不支持的类型：http
+2026-08-19T08:52:48.7641800Z 不支持的类型：http
+2026-08-19T08:52:48.7642014Z 不支持的类型：http
+2026-08-19T08:52:48.7642223Z 不支持的类型：http
+2026-08-19T08:52:48.7642431Z 不支持的类型：http
+2026-08-19T08:52:48.7642639Z 不支持的类型：http
+2026-08-19T08:52:48.7642841Z 不支持的类型：http
+2026-08-19T08:52:48.7643041Z 不支持的类型：http
+2026-08-19T08:52:48.7643250Z 不支持的类型：http
+2026-08-19T08:52:48.7643447Z 不支持的类型：http
+2026-08-19T08:52:48.7643651Z 不支持的类型：http
+2026-08-19T08:52:48.7643862Z 不支持的类型：http
+2026-08-19T08:52:48.7644075Z 不支持的类型：http
+2026-08-19T08:52:48.7644279Z 不支持的类型：http
+2026-08-19T08:52:48.7644483Z 不支持的类型：http
+2026-08-19T08:52:48.7644688Z 不支持的类型：http
+2026-08-19T08:52:48.7644891Z 不支持的类型：http
+2026-08-19T08:52:48.7645089Z 不支持的类型：http
+2026-08-19T08:52:48.7645303Z 不支持的类型：http
+2026-08-19T08:52:48.7645507Z 不支持的类型：http
+2026-08-19T08:52:48.7645705Z 不支持的类型：http
+2026-08-19T08:52:48.7645902Z 不支持的类型：http
+2026-08-19T08:52:48.7646098Z 不支持的类型：http
+2026-08-19T08:52:48.7646296Z 不支持的类型：http
+2026-08-19T08:52:48.7646524Z 不支持的类型：http
+2026-08-19T08:52:48.7646727Z 不支持的类型：http
+2026-08-19T08:52:48.7646925Z 不支持的类型：http
+2026-08-19T08:52:48.7647127Z 不支持的类型：http
+2026-08-19T08:52:48.7647329Z 不支持的类型：http
+2026-08-19T08:52:48.7647528Z 不支持的类型：http
+2026-08-19T08:52:48.7647730Z 不支持的类型：http
+2026-08-19T08:52:48.7648048Z 不支持的类型：http
+2026-08-19T08:52:48.7648267Z 不支持的类型：http
+2026-08-19T08:52:48.7648467Z 不支持的类型：http
+2026-08-19T08:52:48.7648667Z 不支持的类型：http
+2026-08-19T08:52:48.7648866Z 不支持的类型：http
+2026-08-19T08:52:48.7649063Z 不支持的类型：http
+2026-08-19T08:52:48.7649265Z 不支持的类型：http
+2026-08-19T08:52:48.7649462Z 不支持的类型：http
+2026-08-19T08:52:48.7649665Z 不支持的类型：http
+2026-08-19T08:52:48.7649859Z 不支持的类型：http
+2026-08-19T08:52:48.7650053Z 不支持的类型：http
+2026-08-19T08:52:48.7650249Z 不支持的类型：http
+2026-08-19T08:52:48.7650458Z 不支持的类型：http
+2026-08-19T08:52:48.7650655Z 不支持的类型：http
+2026-08-19T08:52:48.7650849Z 不支持的类型：http
+2026-08-19T08:52:48.7651043Z 不支持的类型：http
+2026-08-19T08:52:48.7651245Z 不支持的类型：http
+2026-08-19T08:52:48.7651471Z 不支持的类型：http
+2026-08-19T08:52:48.7651681Z 不支持的类型：http
+2026-08-19T08:52:48.7652014Z 共有 2399 个正常节点，9 个无法解析的节点，共 2409 个。1 个节点不被 V2Ray 支持。
+2026-08-19T08:52:48.7652340Z 写出完成！
+2026-08-19T08:52:55.0845142Z 正在解析 Adblock 列表... 共有 7061 条规则
+2026-08-19T08:52:55.0845683Z 正在按地区分类节点...
+2026-08-19T08:52:55.0846066Z 正在写出 Clash & Meta 订阅...
+2026-08-19T08:52:55.0846523Z bbc.co.uk 已被 KEYWORD co.uk 命中
+2026-08-19T08:52:55.0847016Z bbci.co.uk 已被 KEYWORD co.uk 命中
+2026-08-19T08:52:55.0847489Z foxplus.com 已被 KEYWORD foxplus 命中
+2026-08-19T08:52:55.0848469Z execute-api.ap-southeast-1.amazonaws.com 已被 SUFFIX amazonaws.com 命中
+2026-08-19T08:52:55.0849192Z googlevideo.com 已被 KEYWORD google 命中
+2026-08-19T08:52:55.0849682Z bilibili.com 已被 KEYWORD bilibili 命中
+2026-08-19T08:52:55.0850173Z iqiyi.com 已被 KEYWORD qiyi 命中
+2026-08-19T08:52:55.0851055Z iqiyipic.com 已被 KEYWORD qiyi 命中
+2026-08-19T08:52:55.0851531Z telegram.me 已被 KEYWORD telegram 命中
+2026-08-19T08:52:55.0852031Z telegram.org 已被 KEYWORD telegram 命中
+2026-08-19T08:52:55.0852527Z bloomberg.cn 已被 SUFFIX cn 命中
+2026-08-19T08:52:55.0855127Z discordapp.com 已被 KEYWORD discord 命中
+2026-08-19T08:52:55.0855793Z discordapp.net 已被 KEYWORD discord 命中
+2026-08-19T08:52:55.0856404Z shadowsocks.org 已被 KEYWORD shadowsocks 命中
+2026-08-19T08:52:55.0856945Z v2ray.com 已被 KEYWORD v2ray 命中
+2026-08-19T08:52:55.0857433Z depositphotos.cn 已被 SUFFIX cn 命中
+2026-08-19T08:52:55.0858161Z abc.go.com 已被 SUFFIX go.com 命中
+2026-08-19T08:52:55.0858681Z hosting.co.uk 已被 KEYWORD co.uk 命中
+2026-08-19T08:52:55.0859206Z safebrowsing.urlsec.qq.com 已被 SUFFIX qq.com 命中
+2026-08-19T08:52:55.0859827Z safebrowsing.googleapis.com 已被 KEYWORD google 命中
+2026-08-19T08:52:55.0860388Z bilibili.com 已被 KEYWORD bilibili 命中
+2026-08-19T08:52:55.0860847Z iqiyi.com 已被 KEYWORD qiyi 命中
+2026-08-19T08:52:55.0861278Z qiyipic.com 已被 KEYWORD qiyi 命中
+2026-08-19T08:52:55.0861752Z taobao.com 已被 KEYWORD taobao 命中
+2026-08-19T08:52:55.0862221Z blogspot.com 已被 KEYWORD blogspot 命中
+2026-08-19T08:52:55.0862709Z blogspot.hk 已被 KEYWORD blogspot 命中
+2026-08-19T08:52:55.0863200Z pinterest.com 已被 KEYWORD pinterest 命中
+2026-08-19T08:52:55.0863743Z shadowsocks.org 已被 KEYWORD shadowsocks 命中
+2026-08-19T08:52:55.0864274Z spotify.com 已被 KEYWORD spotify 命中
+2026-08-19T08:52:55.0864796Z wikileaks.org 已被 KEYWORD wikileaks 命中
+2026-08-19T08:52:55.0865341Z telegram.org 已被 KEYWORD telegram 命中
+2026-08-19T08:52:55.0865793Z 正在写出配置片段...
+2026-08-19T08:52:55.0866132Z 正在写出统计信息...
+2026-08-19T08:52:55.0866463Z 写出完成！
+2026-08-19T08:52:55.1486622Z ##[group]Run python ./gen_status.py
+2026-08-19T08:52:55.1486978Z [36;1mpython ./gen_status.py[0m
+2026-08-19T08:52:55.1524821Z shell: /usr/bin/bash -e {0}
+2026-08-19T08:52:55.1525088Z env:
+2026-08-19T08:52:55.1525361Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:52:55.1525814Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib/pkgconfig
+2026-08-19T08:52:55.1526305Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:52:55.1526702Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:52:55.1527084Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:52:55.1527484Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib
+2026-08-19T08:52:55.1527819Z ##[endgroup]
+2026-08-19T08:52:55.1845424Z [gen_status] web/status.json generated: 2400 nodes, 43 sources, 13 regions
+2026-08-19T08:52:55.1916776Z ##[group]Run python ./gen_mobile.py
+2026-08-19T08:52:55.1917145Z [36;1mpython ./gen_mobile.py[0m
+2026-08-19T08:52:55.1953995Z shell: /usr/bin/bash -e {0}
+2026-08-19T08:52:55.1954244Z env:
+2026-08-19T08:52:55.1954512Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:52:55.1954963Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib/pkgconfig
+2026-08-19T08:52:55.1955400Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:52:55.1956094Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:52:55.1956482Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:52:55.1956873Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib
+2026-08-19T08:52:55.1957216Z ##[endgroup]
+2026-08-19T08:52:56.1277095Z [gen_mobile] list.mobile.yml generated: 164 nodes, 51 KB
+2026-08-19T08:52:56.1374914Z ##[group]Run git config --local user.email "actions@github.com"
+2026-08-19T08:52:56.1375792Z [36;1mgit config --local user.email "actions@github.com"[0m
+2026-08-19T08:52:56.1376502Z [36;1mgit config --local user.name "GitHub Actions"[0m
+2026-08-19T08:52:56.1377086Z [36;1mgit pull origin master[0m
+2026-08-19T08:52:56.1377538Z [36;1mgit add list*[0m
+2026-08-19T08:52:56.1377934Z [36;1mgit add snippets/[0m
+2026-08-19T08:52:56.1378649Z [36;1mgit add web/status.json[0m
+2026-08-19T08:52:56.1379207Z [36;1mgit commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"[0m
+2026-08-19T08:52:56.1429333Z shell: /usr/bin/bash -e {0}
+2026-08-19T08:52:56.1429628Z env:
+2026-08-19T08:52:56.1429928Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:52:56.1430431Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib/pkgconfig
+2026-08-19T08:52:56.1430924Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:52:56.1431445Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:52:56.1431887Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+2026-08-19T08:52:56.1432356Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib
+2026-08-19T08:52:56.1432719Z ##[endgroup]
+2026-08-19T08:52:56.7765390Z From https://github.com/royin237-cpu/royin-s-proxy
+2026-08-19T08:52:56.7765985Z  * branch            master     -> FETCH_HEAD
+2026-08-19T08:52:56.7766364Z    9af064b..2d34ee6  master     -> origin/master
+2026-08-19T08:52:56.7869737Z error: Your local changes to the following files would be overwritten by merge:
+2026-08-19T08:52:56.7870537Z 	list.meta.yml
+2026-08-19T08:52:56.7870922Z 	list.mobile.yml
+2026-08-19T08:52:56.7871294Z 	list.txt
+2026-08-19T08:52:56.7871627Z 	list.yml
+2026-08-19T08:52:56.7871943Z 	list_raw.txt
+2026-08-19T08:52:56.7872334Z 	list_result.csv
+2026-08-19T08:52:56.7872709Z 	snippets/adblock.yml
+2026-08-19T08:52:56.7873121Z 	snippets/nodes.meta.yml
+2026-08-19T08:52:56.7873536Z 	snippets/nodes.yml
+2026-08-19T08:52:56.7873930Z 	snippets/nodes_CA.meta.yml
+2026-08-19T08:52:56.7874351Z 	snippets/nodes_CA.yml
+2026-08-19T08:52:56.7874754Z 	snippets/nodes_DE.meta.yml
+2026-08-19T08:52:56.7875182Z 	snippets/nodes_DE.yml
+2026-08-19T08:52:56.7875583Z 	snippets/nodes_HK.meta.yml
+2026-08-19T08:52:56.7876006Z 	snippets/nodes_HK.yml
+2026-08-19T08:52:56.7876399Z 	snippets/nodes_ID.meta.yml
+2026-08-19T08:52:56.7876815Z 	snippets/nodes_ID.yml
+2026-08-19T08:52:56.7877263Z 	snippets/nodes_IN.meta.yml
+2026-08-19T08:52:56.7877691Z 	snippets/nodes_IN.yml
+2026-08-19T08:52:56.7878336Z 	snippets/nodes_JP.meta.yml
+2026-08-19T08:52:56.7878788Z 	snippets/nodes_JP.yml
+2026-08-19T08:52:56.7879221Z 	snippets/nodes_KR.meta.yml
+2026-08-19T08:52:56.7879634Z 	snippets/nodes_KR.yml
+2026-08-19T08:52:56.7880019Z 	snippets/nodes_US.meta.yml
+2026-08-19T08:52:56.7880436Z 	snippets/nodes_US.yml
+2026-08-19T08:52:56.7880814Z 	web/status.json
+2026-08-19T08:52:56.7881312Z Please commit your changes or stash them before you merge.
+2026-08-19T08:52:56.7881890Z Aborting
+2026-08-19T08:52:56.7882281Z Updating 9af064b..2d34ee6
+2026-08-19T08:52:56.7893832Z ##[error]Process completed with exit code 1.
+2026-08-19T08:52:56.8063714Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-08-19T08:52:56.8065021Z Post job cleanup.
+2026-08-19T08:52:56.8955577Z [command]/usr/bin/git version
+2026-08-19T08:52:56.9006133Z git version 2.54.0
+2026-08-19T08:52:56.9053585Z Temporarily overriding HOME='/home/runner/work/_temp/156c1bd3-70a6-4458-ae79-22ee8faebf44' before making global git config changes
+2026-08-19T08:52:56.9055074Z Adding repository directory to the temporary git global config as a safe directory
+2026-08-19T08:52:56.9061071Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/royin-s-proxy/royin-s-proxy
+2026-08-19T08:52:56.9108666Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-08-19T08:52:56.9155809Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-08-19T08:52:56.9434814Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-08-19T08:52:56.9471230Z http.https://github.com/.extraheader
+2026-08-19T08:52:56.9485767Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-08-19T08:52:56.9529241Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-08-19T08:52:56.9829336Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-08-19T08:52:56.9869391Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-08-19T08:52:57.0305188Z Cleaning up orphan processes
+2026-08-19T08:52:57.0726439Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

@@ -1,0 +1,22 @@
+﻿
+Name  InterfaceAlias NetworkCategory
+----  -------------- ---------------
+隐藏的网络 WLAN                   Private
+
+
+
+
+InterfaceAlias ConnectionState NlMtu
+-------------- --------------- -----
+WLAN                 Connected  1450
+
+
+
+=== aTrust 适配器 ===
+
+Name Status      InterfaceDescription
+---- ------      --------------------
+本地连接 Not Present Sangfor aTrust VNIC 
+
+
+

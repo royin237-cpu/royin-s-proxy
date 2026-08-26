@@ -1,0 +1,32 @@
+=== 适配器状态 ===
+
+Name                          Status       InterfaceDescription                
+----                          ------       --------------------                
+WLAN                          Up           Intel(R) Dual Band Wireless-AC 3165 
+本地连接                          Not Present  Sangfor aTrust VNIC                 
+蓝牙网络连接                        Disconnected Bluetooth Device (Personal Area N...
+vEthernet (Default Switch)    Up           Hyper-V Virtual Ethernet Adapter    
+VMware Network Adapter VMnet8 Up           VMware Virtual Ethernet Adapter f...
+VMware Network Adapter VMnet1 Up           VMware Virtual Ethernet Adapter f...
+以太网                           Disconnected Realtek PCIe GBE Family Controller  
+
+
+
+=== WLAN 路由 ===
+
+DestinationPrefix NextHop                   RouteMetric InterfaceMetric
+----------------- -------                   ----------- ---------------
+0.0.0.0/0         172.20.10.1                         0              55
+::/0              fe80::4490:bbff:fe9a:4c64         256              55
+
+
+
+=== WLAN DNS ===
+
+AddressFamily ServerAddresses            
+------------- ---------------            
+            2 {8.8.8.8, 223.5.5.5}       
+           23 {fe80::4490:bbff:fe9a:4c64}
+
+
+

@@ -1,0 +1,416 @@
+﻿2026-08-19T09:10:27.4693835Z Current runner version: '2.336.0'
+2026-08-19T09:10:27.4722640Z ##[group]Runner Image Provisioner
+2026-08-19T09:10:27.4723558Z Hosted Compute Agent
+2026-08-19T09:10:27.4724181Z Version: 20260729.566
+2026-08-19T09:10:27.4725027Z Commit: cf7153fe6e25b664e8693c24944bf2b00355d109
+2026-08-19T09:10:27.4725864Z Build Date: 2026-07-29T19:17:02Z
+2026-08-19T09:10:27.4726572Z Worker ID: {55fed266-9380-412e-927f-e71f2f5955b6}
+2026-08-19T09:10:27.4727270Z Azure Region: centralus
+2026-08-19T09:10:27.4727938Z ##[endgroup]
+2026-08-19T09:10:27.4729419Z ##[group]Operating System
+2026-08-19T09:10:27.4730141Z Ubuntu
+2026-08-19T09:10:27.4730693Z 24.04.4
+2026-08-19T09:10:27.4731219Z LTS
+2026-08-19T09:10:27.4731799Z ##[endgroup]
+2026-08-19T09:10:27.4732360Z ##[group]Runner Image
+2026-08-19T09:10:27.4733460Z Image: ubuntu-24.04
+2026-08-19T09:10:27.4734062Z Version: 20260810.271.1
+2026-08-19T09:10:27.4735515Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260810.271/images/ubuntu/Ubuntu2404-Readme.md
+2026-08-19T09:10:27.4737113Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260810.271
+2026-08-19T09:10:27.4738085Z ##[endgroup]
+2026-08-19T09:10:27.4739371Z ##[group]GITHUB_TOKEN Permissions
+2026-08-19T09:10:27.4741772Z Contents: read
+2026-08-19T09:10:27.4742490Z Metadata: read
+2026-08-19T09:10:27.4743105Z Pages: write
+2026-08-19T09:10:27.4743708Z ##[endgroup]
+2026-08-19T09:10:27.4746355Z Secret source: Actions
+2026-08-19T09:10:27.4747849Z Prepare workflow directory
+2026-08-19T09:10:27.5089806Z Prepare all required actions
+2026-08-19T09:10:27.5139155Z Getting action download info
+2026-08-19T09:10:27.7399221Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-08-19T09:10:27.8813962Z Download action repository 'actions/jekyll-build-pages@v1' (SHA:44a6e6beabd48582f863aeeb6cb2151cc1716697)
+2026-08-19T09:10:28.3820994Z Download action repository 'actions/upload-pages-artifact@v3' (SHA:56afc609e74202658d3ffba0e8f6dda462b719fa)
+2026-08-19T09:10:28.6630179Z Getting action download info
+2026-08-19T09:10:28.7536851Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-08-19T09:10:28.8978785Z Complete job name: build
+2026-08-19T09:10:28.9471000Z ##[group]Pull down action image 'ghcr.io/actions/jekyll-build-pages:v1.0.13'
+2026-08-19T09:10:28.9536228Z ##[command]/usr/bin/docker pull ghcr.io/actions/jekyll-build-pages:v1.0.13
+2026-08-19T09:10:29.6275455Z v1.0.13: Pulling from actions/jekyll-build-pages
+2026-08-19T09:10:29.6277035Z efc2b5ad9eec: Pulling fs layer
+2026-08-19T09:10:29.6278285Z 165b60d1bb48: Pulling fs layer
+2026-08-19T09:10:29.6279615Z 2a328af1ca3a: Pulling fs layer
+2026-08-19T09:10:29.6280673Z 32b58fa44788: Pulling fs layer
+2026-08-19T09:10:29.6281715Z 590ab93c22d2: Pulling fs layer
+2026-08-19T09:10:29.6282693Z 26ea96c4c14c: Pulling fs layer
+2026-08-19T09:10:29.6283765Z bd7e451dfea1: Pulling fs layer
+2026-08-19T09:10:29.6284906Z c209e9dadc51: Pulling fs layer
+2026-08-19T09:10:29.6285963Z a4925b5c711a: Pulling fs layer
+2026-08-19T09:10:29.6287001Z cd9459784e3c: Pulling fs layer
+2026-08-19T09:10:29.6288098Z bd7e451dfea1: Waiting
+2026-08-19T09:10:29.6289094Z c209e9dadc51: Waiting
+2026-08-19T09:10:29.6290059Z a4925b5c711a: Waiting
+2026-08-19T09:10:29.6290965Z cd9459784e3c: Waiting
+2026-08-19T09:10:29.6291885Z 32b58fa44788: Waiting
+2026-08-19T09:10:29.6292804Z 590ab93c22d2: Waiting
+2026-08-19T09:10:29.6293757Z 26ea96c4c14c: Waiting
+2026-08-19T09:10:29.7725303Z 2a328af1ca3a: Verifying Checksum
+2026-08-19T09:10:29.9808600Z 2a328af1ca3a: Download complete
+2026-08-19T09:10:29.9811353Z 165b60d1bb48: Verifying Checksum
+2026-08-19T09:10:29.9813115Z 165b60d1bb48: Download complete
+2026-08-19T09:10:30.1132072Z efc2b5ad9eec: Download complete
+2026-08-19T09:10:30.1629074Z 590ab93c22d2: Download complete
+2026-08-19T09:10:30.2078676Z 32b58fa44788: Verifying Checksum
+2026-08-19T09:10:30.2082534Z 32b58fa44788: Download complete
+2026-08-19T09:10:30.3188586Z bd7e451dfea1: Verifying Checksum
+2026-08-19T09:10:30.3191147Z bd7e451dfea1: Download complete
+2026-08-19T09:10:30.5693566Z a4925b5c711a: Verifying Checksum
+2026-08-19T09:10:30.5695577Z a4925b5c711a: Download complete
+2026-08-19T09:10:30.6122176Z c209e9dadc51: Verifying Checksum
+2026-08-19T09:10:30.6124033Z c209e9dadc51: Download complete
+2026-08-19T09:10:30.8195901Z cd9459784e3c: Verifying Checksum
+2026-08-19T09:10:30.8196636Z cd9459784e3c: Download complete
+2026-08-19T09:10:31.1275635Z 26ea96c4c14c: Verifying Checksum
+2026-08-19T09:10:31.1276147Z 26ea96c4c14c: Download complete
+2026-08-19T09:10:31.4955993Z efc2b5ad9eec: Pull complete
+2026-08-19T09:10:33.7750682Z 165b60d1bb48: Pull complete
+2026-08-19T09:10:33.7858633Z 2a328af1ca3a: Pull complete
+2026-08-19T09:10:34.7614433Z 32b58fa44788: Pull complete
+2026-08-19T09:10:34.7715523Z 590ab93c22d2: Pull complete
+2026-08-19T09:10:39.0253783Z 26ea96c4c14c: Pull complete
+2026-08-19T09:10:39.0334011Z bd7e451dfea1: Pull complete
+2026-08-19T09:10:41.0939718Z c209e9dadc51: Pull complete
+2026-08-19T09:10:41.1194291Z a4925b5c711a: Pull complete
+2026-08-19T09:10:41.1281876Z cd9459784e3c: Pull complete
+2026-08-19T09:10:41.1312411Z Digest: sha256:6791ebfd912185ed59bfb5fb102664fa872496b79f87ff8b9cfba292a7345041
+2026-08-19T09:10:41.1322024Z Status: Downloaded newer image for ghcr.io/actions/jekyll-build-pages:v1.0.13
+2026-08-19T09:10:41.1331417Z ghcr.io/actions/jekyll-build-pages:v1.0.13
+2026-08-19T09:10:41.1372223Z ##[endgroup]
+2026-08-19T09:10:41.1695244Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-08-19T09:10:41.1703339Z ##[group]Run actions/checkout@v4
+2026-08-19T09:10:41.1703742Z with:
+2026-08-19T09:10:41.1703956Z   ref: master
+2026-08-19T09:10:41.1704169Z   submodules: recursive
+2026-08-19T09:10:41.1704432Z   repository: royin237-cpu/royin-s-proxy
+2026-08-19T09:10:41.1707440Z   token: ***
+2026-08-19T09:10:41.1707671Z   ssh-strict: true
+2026-08-19T09:10:41.1707889Z   ssh-user: git
+2026-08-19T09:10:41.1708120Z   persist-credentials: true
+2026-08-19T09:10:41.1708359Z   clean: true
+2026-08-19T09:10:41.1708574Z   sparse-checkout-cone-mode: true
+2026-08-19T09:10:41.1708833Z   fetch-depth: 1
+2026-08-19T09:10:41.1709074Z   fetch-tags: false
+2026-08-19T09:10:41.1709370Z   show-progress: true
+2026-08-19T09:10:41.1709587Z   lfs: false
+2026-08-19T09:10:41.1709792Z   set-safe-directory: true
+2026-08-19T09:10:41.1710040Z   allow-unsafe-pr-checkout: false
+2026-08-19T09:10:41.1710502Z ##[endgroup]
+2026-08-19T09:10:41.2791417Z Syncing repository: royin237-cpu/royin-s-proxy
+2026-08-19T09:10:41.2793324Z ##[group]Getting Git version info
+2026-08-19T09:10:41.2793991Z Working directory is '/home/runner/work/royin-s-proxy/royin-s-proxy'
+2026-08-19T09:10:41.2795093Z [command]/usr/bin/git version
+2026-08-19T09:10:41.2900528Z git version 2.54.0
+2026-08-19T09:10:41.2925009Z ##[endgroup]
+2026-08-19T09:10:41.2943429Z Temporarily overriding HOME='/home/runner/work/_temp/c53f1fbb-d9fd-42de-9b69-28ffb5bcdbf0' before making global git config changes
+2026-08-19T09:10:41.2945365Z Adding repository directory to the temporary git global config as a safe directory
+2026-08-19T09:10:41.2950325Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/royin-s-proxy/royin-s-proxy
+2026-08-19T09:10:41.3010474Z Deleting the contents of '/home/runner/work/royin-s-proxy/royin-s-proxy'
+2026-08-19T09:10:41.3015179Z ##[group]Initializing the repository
+2026-08-19T09:10:41.3021056Z [command]/usr/bin/git init /home/runner/work/royin-s-proxy/royin-s-proxy
+2026-08-19T09:10:41.3135259Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-08-19T09:10:41.3136806Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-08-19T09:10:41.3138163Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-08-19T09:10:41.3139486Z hint: call:
+2026-08-19T09:10:41.3140136Z hint:
+2026-08-19T09:10:41.3140983Z hint: 	git config --global init.defaultBranch <name>
+2026-08-19T09:10:41.3141566Z hint:
+2026-08-19T09:10:41.3142051Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-08-19T09:10:41.3142895Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-08-19T09:10:41.3143535Z hint:
+2026-08-19T09:10:41.3143854Z hint: 	git branch -m <name>
+2026-08-19T09:10:41.3144215Z hint:
+2026-08-19T09:10:41.3144970Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-08-19T09:10:41.3145920Z Initialized empty Git repository in /home/runner/work/royin-s-proxy/royin-s-proxy/.git/
+2026-08-19T09:10:41.3149254Z [command]/usr/bin/git remote add origin https://github.com/royin237-cpu/royin-s-proxy
+2026-08-19T09:10:41.3200403Z ##[endgroup]
+2026-08-19T09:10:41.3201158Z ##[group]Disabling automatic garbage collection
+2026-08-19T09:10:41.3208370Z [command]/usr/bin/git config --local gc.auto 0
+2026-08-19T09:10:41.3245068Z ##[endgroup]
+2026-08-19T09:10:41.3245702Z ##[group]Setting up auth
+2026-08-19T09:10:41.3252640Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-08-19T09:10:41.3299033Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-08-19T09:10:41.3715201Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-08-19T09:10:41.3759330Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-08-19T09:10:41.4017413Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-08-19T09:10:41.4058538Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-08-19T09:10:41.4311146Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-08-19T09:10:41.4441418Z ##[endgroup]
+2026-08-19T09:10:41.4442754Z ##[group]Fetching the repository
+2026-08-19T09:10:41.4443869Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +refs/heads/master*:refs/remotes/origin/master* +refs/tags/master*:refs/tags/master*
+2026-08-19T09:10:42.1873228Z From https://github.com/royin237-cpu/royin-s-proxy
+2026-08-19T09:10:42.1873904Z  * [new branch]      master     -> origin/master
+2026-08-19T09:10:42.1910439Z ##[endgroup]
+2026-08-19T09:10:42.1910999Z ##[group]Determining the checkout info
+2026-08-19T09:10:42.1920330Z [command]/usr/bin/git branch --list --remote origin/master
+2026-08-19T09:10:42.1956521Z   origin/master
+2026-08-19T09:10:42.1960981Z ##[endgroup]
+2026-08-19T09:10:42.1967989Z [command]/usr/bin/git sparse-checkout disable
+2026-08-19T09:10:42.2024455Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-08-19T09:10:42.2062164Z ##[group]Checking out the ref
+2026-08-19T09:10:42.2065131Z [command]/usr/bin/git checkout --progress --force -B master refs/remotes/origin/master
+2026-08-19T09:10:42.2301278Z Reset branch 'master'
+2026-08-19T09:10:42.2304200Z branch 'master' set up to track 'origin/master'.
+2026-08-19T09:10:42.2313456Z ##[endgroup]
+2026-08-19T09:10:42.2314038Z ##[group]Setting up auth for fetching submodules
+2026-08-19T09:10:42.2320838Z [command]/usr/bin/git config --global http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-08-19T09:10:42.2371600Z [command]/usr/bin/git config --global --unset-all url.https://github.com/.insteadOf
+2026-08-19T09:10:42.2407203Z [command]/usr/bin/git config --global --add url.https://github.com/.insteadOf git@github.com:
+2026-08-19T09:10:42.2446602Z [command]/usr/bin/git config --global --add url.https://github.com/.insteadOf org-255385930@github.com:
+2026-08-19T09:10:42.2481851Z ##[endgroup]
+2026-08-19T09:10:42.2482448Z ##[group]Fetching submodules
+2026-08-19T09:10:42.2487715Z [command]/usr/bin/git submodule sync --recursive
+2026-08-19T09:10:42.2754402Z [command]/usr/bin/git -c protocol.version=2 submodule update --init --force --depth=1 --recursive
+2026-08-19T09:10:42.3035620Z [command]/usr/bin/git submodule foreach --recursive git config --local gc.auto 0
+2026-08-19T09:10:42.3305788Z ##[endgroup]
+2026-08-19T09:10:42.3306251Z ##[group]Persisting credentials for submodules
+2026-08-19T09:10:42.3316384Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'url\.https\:\/\/github\.com\/\.insteadOf' && git config --local --unset-all 'url.https://github.com/.insteadOf' || :"
+2026-08-19T09:10:42.3590025Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local 'http.https://github.com/.extraheader' 'AUTHORIZATION: basic ***' && git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2026-08-19T09:10:42.3862223Z [command]/usr/bin/git submodule foreach --recursive git config --local --add 'url.https://github.com/.insteadOf' 'git@github.com:'
+2026-08-19T09:10:42.4112535Z [command]/usr/bin/git submodule foreach --recursive git config --local --add 'url.https://github.com/.insteadOf' 'org-255385930@github.com:'
+2026-08-19T09:10:42.4355156Z ##[endgroup]
+2026-08-19T09:10:42.4405450Z [command]/usr/bin/git log -1 --format=%H
+2026-08-19T09:10:42.4434678Z 54b42e022f603dc35f73e4488243aa42ade5022e
+2026-08-19T09:10:42.4652652Z ##[group]Run actions/jekyll-build-pages@v1
+2026-08-19T09:10:42.4652951Z with:
+2026-08-19T09:10:42.4653143Z   source: .
+2026-08-19T09:10:42.4653337Z   destination: ./_site
+2026-08-19T09:10:42.4653553Z   future: false
+2026-08-19T09:10:42.4653806Z   build_revision: 54b42e022f603dc35f73e4488243aa42ade5022e
+2026-08-19T09:10:42.4654114Z   verbose: true
+2026-08-19T09:10:42.4657033Z   token: ***
+2026-08-19T09:10:42.4657249Z ##[endgroup]
+2026-08-19T09:10:42.4756005Z ##[command]/usr/bin/docker run --name ghcrioactionsjekyllbuildpagesv1013_970fe0 --label ebedfd --workdir /github/workspace --rm -e "INPUT_SOURCE" -e "INPUT_DESTINATION" -e "INPUT_FUTURE" -e "INPUT_BUILD_REVISION" -e "INPUT_VERBOSE" -e "INPUT_TOKEN" -e "HOME" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "GITHUB_ARTIFACTS" -e "GITHUB_ARTIFACTS_LIST" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_ENVIRONMENT" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" -e "ACTIONS_ID_TOKEN_REQUEST_URL" -e "ACTIONS_ID_TOKEN_REQUEST_TOKEN" -e "ACTIONS_RESULTS_URL" -e "ACTIONS_ORCHESTRATION_ID" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work/_temp":"/github/runner_temp" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" -v "/home/runner/work/_temp/_runner_file_commands":"/github/file_commands" -v "/home/runner/work/royin-s-proxy/royin-s-proxy":"/github/workspace" ghcr.io/actions/jekyll-build-pages:v1.0.13
+2026-08-19T09:10:43.2667032Z [33mConfiguration file: none[0m
+2026-08-19T09:10:43.3897705Z To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+2026-08-19T09:10:45.3869291Z   Logging at level: debug
+2026-08-19T09:10:45.3870215Z       GitHub Pages: github-pages v232
+2026-08-19T09:10:45.3870730Z       GitHub Pages: jekyll v3.10.0
+2026-08-19T09:10:45.3871906Z              Theme: jekyll-theme-primer
+2026-08-19T09:10:45.3872485Z       Theme source: /usr/local/bundle/gems/jekyll-theme-primer-0.6.0
+2026-08-19T09:10:45.3872999Z          Requiring: jekyll-github-metadata
+2026-08-19T09:10:45.3873282Z          Requiring: jekyll-seo-tag
+2026-08-19T09:10:45.3873583Z          Requiring: jekyll-coffeescript
+2026-08-19T09:10:45.3873898Z          Requiring: jekyll-commonmark-ghpages
+2026-08-19T09:10:45.3874198Z          Requiring: jekyll-gist
+2026-08-19T09:10:45.3874836Z          Requiring: jekyll-github-metadata
+2026-08-19T09:10:45.3875127Z          Requiring: jekyll-paginate
+2026-08-19T09:10:45.3875400Z          Requiring: jekyll-relative-links
+2026-08-19T09:10:45.3875883Z          Requiring: jekyll-optional-front-matter
+2026-08-19T09:10:45.3876228Z          Requiring: jekyll-readme-index
+2026-08-19T09:10:45.3876608Z          Requiring: jekyll-default-layout
+2026-08-19T09:10:45.3876898Z          Requiring: jekyll-titles-from-headings
+2026-08-19T09:10:45.3877293Z    GitHub Metadata: Initializing...
+2026-08-19T09:10:45.3877611Z             Source: /github/workspace/.
+2026-08-19T09:10:45.3877910Z        Destination: /github/workspace/./_site
+2026-08-19T09:10:45.3878356Z  Incremental build: disabled. Enable with --incremental
+2026-08-19T09:10:45.3878677Z       Generating... 
+2026-08-19T09:10:45.3885540Z         Generating: JekyllOptionalFrontMatter::Generator finished in 0.000347177 seconds.
+2026-08-19T09:10:45.3886355Z         Generating: JekyllReadmeIndex::Generator finished in 0.001847602 seconds.
+2026-08-19T09:10:45.3887209Z         Generating: Jekyll::Paginate::Pagination finished in 8.182e-06 seconds.
+2026-08-19T09:10:45.3887817Z    GitHub Metadata: Generating for royin237-cpu/royin-s-proxy
+2026-08-19T09:10:45.3888288Z    GitHub Metadata: Calling @client.pages("royin237-cpu/royin-s-proxy", {})
+2026-08-19T09:10:45.3889016Z         Generating: JekyllRelativeLinks::Generator finished in 0.27735691 seconds.
+2026-08-19T09:10:45.3889682Z         Generating: JekyllDefaultLayout::Generator finished in 0.000160449 seconds.
+2026-08-19T09:10:45.3890096Z          Requiring: kramdown-parser-gfm
+2026-08-19T09:10:45.3890766Z         Generating: JekyllTitlesFromHeadings::Generator finished in 0.009499368 seconds.
+2026-08-19T09:10:45.3891471Z          Rendering: assets/css/style.scss
+2026-08-19T09:10:45.3891912Z   Pre-Render Hooks: assets/css/style.scss
+2026-08-19T09:10:45.3892370Z   Rendering Markup: assets/css/style.scss
+2026-08-19T09:10:45.3892788Z          Rendering: DEPLOY.md
+2026-08-19T09:10:45.3893213Z   Pre-Render Hooks: DEPLOY.md
+2026-08-19T09:10:45.3893585Z   Rendering Markup: DEPLOY.md
+2026-08-19T09:10:45.3893829Z   Rendering Layout: DEPLOY.md
+2026-08-19T09:10:45.3894063Z      Layout source: theme
+2026-08-19T09:10:45.3895034Z    GitHub Metadata: Calling @client.repository("royin237-cpu/royin-s-proxy", {:accept=>"application/vnd.github.drax-preview+json"})
+2026-08-19T09:10:45.3895784Z          Rendering: snippets/README.md
+2026-08-19T09:10:45.3896069Z   Pre-Render Hooks: snippets/README.md
+2026-08-19T09:10:45.3896443Z   Rendering Markup: snippets/README.md
+2026-08-19T09:10:45.3896716Z   Rendering Layout: snippets/README.md
+2026-08-19T09:10:45.3896973Z      Layout source: theme
+2026-08-19T09:10:45.3897410Z            Writing: /github/workspace/_site/assets/css/style.css
+2026-08-19T09:10:45.3898007Z            Writing: /github/workspace/_site/DEPLOY.html
+2026-08-19T09:10:45.3898402Z            Writing: /github/workspace/_site/snippets/index.html
+2026-08-19T09:10:45.3898911Z                     done in 1.684 seconds.
+2026-08-19T09:10:45.3899399Z  Auto-regeneration: disabled. Use --watch to enable.
+2026-08-19T09:10:45.4741219Z ##[group]Run actions/upload-pages-artifact@v3
+2026-08-19T09:10:45.4741531Z with:
+2026-08-19T09:10:45.4741726Z   path: ./_site
+2026-08-19T09:10:45.4742137Z   name: github-pages
+2026-08-19T09:10:45.4742358Z   retention-days: 1
+2026-08-19T09:10:45.4742566Z ##[endgroup]
+2026-08-19T09:10:45.4810308Z ##[start-action display=Archive artifact;id=__actions_upload-pages-artifact.__run]
+2026-08-19T09:10:45.4859903Z ##[group]Run echo ::group::Archive artifact
+2026-08-19T09:10:45.4860305Z [36;1mecho ::group::Archive artifact[0m
+2026-08-19T09:10:45.4860587Z [36;1mtar \[0m
+2026-08-19T09:10:45.4860840Z [36;1m  --dereference --hard-dereference \[0m
+2026-08-19T09:10:45.4861172Z [36;1m  --directory "$INPUT_PATH" \[0m
+2026-08-19T09:10:45.4861475Z [36;1m  -cvf "$RUNNER_TEMP/artifact.tar" \[0m
+2026-08-19T09:10:45.4861751Z [36;1m  --exclude=.git \[0m
+2026-08-19T09:10:45.4861996Z [36;1m  --exclude=.github \[0m
+2026-08-19T09:10:45.4862261Z [36;1m  .[0m
+2026-08-19T09:10:45.4862543Z [36;1mecho ::endgroup::[0m
+2026-08-19T09:10:45.4903944Z shell: /usr/bin/sh -e {0}
+2026-08-19T09:10:45.4904209Z env:
+2026-08-19T09:10:45.4904413Z   INPUT_PATH: ./_site
+2026-08-19T09:10:45.4904854Z ##[endgroup]
+2026-08-19T09:10:45.4979145Z ##[group]Archive artifact
+2026-08-19T09:10:45.4998011Z ./
+2026-08-19T09:10:45.4998335Z ./list_result.csv
+2026-08-19T09:10:45.4998659Z ./web/
+2026-08-19T09:10:45.4998950Z ./web/status.json
+2026-08-19T09:10:45.4999261Z ./web/index.html
+2026-08-19T09:10:45.5005332Z ./web/dashboard.html
+2026-08-19T09:10:45.5005678Z ./list_raw.txt
+2026-08-19T09:10:45.5015115Z ./snippets/
+2026-08-19T09:10:45.5025210Z ./snippets/nodes.meta.yml
+2026-08-19T09:10:45.5025589Z ./snippets/direct.yml
+2026-08-19T09:10:45.5025923Z ./snippets/nodes_PL.yml
+2026-08-19T09:10:45.5026267Z ./snippets/nodes_UA.meta.yml
+2026-08-19T09:10:45.5026634Z ./snippets/nodes_EE.yml
+2026-08-19T09:10:45.5026911Z ./snippets/nodes_ID.yml
+2026-08-19T09:10:45.5027120Z ./snippets/nodes_SG.yml
+2026-08-19T09:10:45.5027357Z ./snippets/nodes_ES.yml
+2026-08-19T09:10:45.5027567Z ./snippets/nodes_TH.yml
+2026-08-19T09:10:45.5027786Z ./snippets/nodes_VN.meta.yml
+2026-08-19T09:10:45.5028022Z ./snippets/nodes_TW.meta.yml
+2026-08-19T09:10:45.5028256Z ./snippets/nodes_DE.yml
+2026-08-19T09:10:45.5028558Z ./snippets/index.html
+2026-08-19T09:10:45.5028883Z ./snippets/nodes_HK.meta.yml
+2026-08-19T09:10:45.5029248Z ./snippets/nodes_redir.meta.yml
+2026-08-19T09:10:45.5029621Z ./snippets/nodes_redir.yml
+2026-08-19T09:10:45.5029965Z ./snippets/nodes_TR.yml
+2026-08-19T09:10:45.5030216Z ./snippets/nodes_AU.meta.yml
+2026-08-19T09:10:45.5030444Z ./snippets/nodes_IT.yml
+2026-08-19T09:10:45.5030659Z ./snippets/nodes_SE.meta.yml
+2026-08-19T09:10:45.5030880Z ./snippets/region.yml
+2026-08-19T09:10:45.5031095Z ./snippets/nodes_SG.meta.yml
+2026-08-19T09:10:45.5031318Z ./snippets/nodes_CN.yml
+2026-08-19T09:10:45.5031520Z ./snippets/nodes_HK.yml
+2026-08-19T09:10:45.5031729Z ./snippets/nodes_BR.yml
+2026-08-19T09:10:45.5031942Z ./snippets/nodes_RO.meta.yml
+2026-08-19T09:10:45.5032171Z ./snippets/nodes_PH.meta.yml
+2026-08-19T09:10:45.5032431Z ./snippets/nodes_NL.yml
+2026-08-19T09:10:45.5032642Z ./snippets/nodes_UA.yml
+2026-08-19T09:10:45.5032858Z ./snippets/nodes_TR.meta.yml
+2026-08-19T09:10:45.5033080Z ./snippets/nodes_VN.yml
+2026-08-19T09:10:45.5033289Z ./snippets/proxy.yml
+2026-08-19T09:10:45.5033507Z ./snippets/nodes_NL.meta.yml
+2026-08-19T09:10:45.5033753Z ./snippets/nodes_PL.meta.yml
+2026-08-19T09:10:45.5033978Z ./snippets/nodes_IT.meta.yml
+2026-08-19T09:10:45.5034200Z ./snippets/nodes_CA.yml
+2026-08-19T09:10:45.5034411Z ./snippets/adblock.yml
+2026-08-19T09:10:45.5034867Z ./snippets/nodes_RU.meta.yml
+2026-08-19T09:10:45.5035218Z ./snippets/nodes_BR.meta.yml
+2026-08-19T09:10:45.5035560Z ./snippets/nodes_US.yml
+2026-08-19T09:10:45.5035885Z ./snippets/nodes_CA.meta.yml
+2026-08-19T09:10:45.5036178Z ./snippets/nodes_US.meta.yml
+2026-08-19T09:10:45.5036402Z ./snippets/README.md
+2026-08-19T09:10:45.5036613Z ./snippets/nodes_TH.meta.yml
+2026-08-19T09:10:45.5037124Z ./snippets/nodes_DE.meta.yml
+2026-08-19T09:10:45.5037353Z ./snippets/nodes_SE.yml
+2026-08-19T09:10:45.5037564Z ./snippets/nodes_KR.meta.yml
+2026-08-19T09:10:45.5037785Z ./snippets/nodes_PH.yml
+2026-08-19T09:10:45.5038154Z ./snippets/nodes_FI.meta.yml
+2026-08-19T09:10:45.5038379Z ./snippets/nodes_GB.yml
+2026-08-19T09:10:45.5038590Z ./snippets/nodes_IN.yml
+2026-08-19T09:10:45.5038796Z ./snippets/nodes_FR.yml
+2026-08-19T09:10:45.5039012Z ./snippets/nodes_RU.yml
+2026-08-19T09:10:45.5039231Z ./snippets/nodes_GB.meta.yml
+2026-08-19T09:10:45.5039458Z ./snippets/nodes.yml
+2026-08-19T09:10:45.5039664Z ./snippets/nodes_JP.yml
+2026-08-19T09:10:45.5039877Z ./snippets/nodes_ID.meta.yml
+2026-08-19T09:10:45.5040109Z ./snippets/nodes_AU.yml
+2026-08-19T09:10:45.5045230Z ./snippets/nodes_JP.meta.yml
+2026-08-19T09:10:45.5045586Z ./snippets/nodes_RO.yml
+2026-08-19T09:10:45.5045906Z ./snippets/nodes_TW.yml
+2026-08-19T09:10:45.5046232Z ./snippets/nodes_CH.meta.yml
+2026-08-19T09:10:45.5046573Z ./snippets/nodes_ES.meta.yml
+2026-08-19T09:10:45.5046812Z ./snippets/nodes_IN.meta.yml
+2026-08-19T09:10:45.5047040Z ./snippets/nodes_KR.yml
+2026-08-19T09:10:45.5047246Z ./snippets/nodes_FI.yml
+2026-08-19T09:10:45.5047463Z ./snippets/nodes_CN.meta.yml
+2026-08-19T09:10:45.5047684Z ./snippets/nodes_CH.yml
+2026-08-19T09:10:45.5047895Z ./snippets/nodes_EE.meta.yml
+2026-08-19T09:10:45.5048120Z ./snippets/nodes_FR.meta.yml
+2026-08-19T09:10:45.5048337Z ./index.html
+2026-08-19T09:10:45.5048525Z ./DEPLOY.html
+2026-08-19T09:10:45.5048725Z ./abpwhite.txt
+2026-08-19T09:10:45.5048917Z ./list.meta.yml
+2026-08-19T09:10:45.5049122Z ./DEPLOY.md
+2026-08-19T09:10:45.5049316Z ./dynamic.py
+2026-08-19T09:10:45.5049506Z ./LICENSE.md
+2026-08-19T09:10:45.5049697Z ./fetch.py
+2026-08-19T09:10:45.5049893Z ./assets/
+2026-08-19T09:10:45.5050072Z ./assets/css/
+2026-08-19T09:10:45.5050266Z ./assets/css/style.css
+2026-08-19T09:10:45.5050484Z ./list.mobile.yml
+2026-08-19T09:10:45.5050685Z ./list.txt
+2026-08-19T09:10:45.5051980Z ./README.md
+2026-08-19T09:10:45.5052256Z ./gen_mobile.py
+2026-08-19T09:10:45.5052558Z ./requirements.txt
+2026-08-19T09:10:45.5052855Z ./config.yml
+2026-08-19T09:10:45.5053453Z ./serve.py
+2026-08-19T09:10:45.5053842Z ./list.yml
+2026-08-19T09:10:45.5061922Z ./tmp/
+2026-08-19T09:10:45.5062211Z ./tmp/test.meta.yml
+2026-08-19T09:10:45.5069363Z ./gen_status.py
+2026-08-19T09:10:45.5069663Z ./sources.list
+2026-08-19T09:10:45.5072902Z ##[endgroup]
+2026-08-19T09:10:45.5089602Z ##[end-action id=__actions_upload-pages-artifact.__run;outcome=success;conclusion=success;duration_ms=27]
+2026-08-19T09:10:45.5093580Z ##[start-action display=Archive artifact;id=__actions_upload-pages-artifact.__run_2]
+2026-08-19T09:10:45.5099564Z ##[end-action id=__actions_upload-pages-artifact.__run_2;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-08-19T09:10:45.5102268Z ##[start-action display=Archive artifact;id=__actions_upload-pages-artifact.__run_3]
+2026-08-19T09:10:45.5106056Z ##[end-action id=__actions_upload-pages-artifact.__run_3;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-08-19T09:10:45.5107958Z ##[start-action display=Upload artifact;id=__actions_upload-pages-artifact.upload-artifact]
+2026-08-19T09:10:45.5160722Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-08-19T09:10:45.5162649Z ##[group]Run actions/upload-artifact@v4
+2026-08-19T09:10:45.5162971Z with:
+2026-08-19T09:10:45.5163246Z   name: github-pages
+2026-08-19T09:10:45.5163503Z   path: /home/runner/work/_temp/artifact.tar
+2026-08-19T09:10:45.5163862Z   retention-days: 1
+2026-08-19T09:10:45.5164129Z   if-no-files-found: error
+2026-08-19T09:10:45.5164638Z   compression-level: 6
+2026-08-19T09:10:45.5164968Z   overwrite: false
+2026-08-19T09:10:45.5165283Z   include-hidden-files: false
+2026-08-19T09:10:45.5165660Z ##[endgroup]
+2026-08-19T09:10:45.6848467Z (node:2674) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-08-19T09:10:45.6849647Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-08-19T09:10:45.6896871Z With the provided path, there will be 1 file uploaded
+2026-08-19T09:10:45.6901978Z Artifact name is valid!
+2026-08-19T09:10:45.6902694Z Root directory input is valid!
+2026-08-19T09:10:45.9803720Z Beginning upload of artifact content to blob storage
+2026-08-19T09:10:46.0986766Z (node:2674) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-08-19T09:10:46.4335259Z Uploaded bytes 1036043
+2026-08-19T09:10:46.4727321Z Finished uploading artifact content to blob storage!
+2026-08-19T09:10:46.4728292Z SHA256 digest of uploaded artifact zip is 654df77721b5b8a1a19101a86395e56bcecb8654551127605ea6cced39869c6e
+2026-08-19T09:10:46.4729643Z Finalizing artifact upload
+2026-08-19T09:10:46.6979188Z Artifact github-pages.zip successfully finalized. Artifact ID 9359051612
+2026-08-19T09:10:46.6980204Z Artifact github-pages has been successfully uploaded! Final size is 1036043 bytes. Artifact ID is 9359051612
+2026-08-19T09:10:46.6982469Z Artifact download URL: https://github.com/royin237-cpu/royin-s-proxy/actions/runs/32236243276/artifacts/9359051612
+2026-08-19T09:10:46.7099837Z ##[end-action id=__actions_upload-pages-artifact.upload-artifact;outcome=success;conclusion=success;duration_ms=1199]
+2026-08-19T09:10:46.7217620Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-08-19T09:10:46.7218822Z Post job cleanup.
+2026-08-19T09:10:46.8129351Z [command]/usr/bin/git version
+2026-08-19T09:10:46.8172857Z git version 2.54.0
+2026-08-19T09:10:46.8215699Z Temporarily overriding HOME='/home/runner/work/_temp/ef4be700-61b6-4ecd-8c4e-5a416bdbe9eb' before making global git config changes
+2026-08-19T09:10:46.8216921Z Adding repository directory to the temporary git global config as a safe directory
+2026-08-19T09:10:46.8217864Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/royin-s-proxy/royin-s-proxy
+2026-08-19T09:10:46.8258542Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-08-19T09:10:46.8296691Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-08-19T09:10:46.8570915Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-08-19T09:10:46.8602727Z http.https://github.com/.extraheader
+2026-08-19T09:10:46.8615642Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-08-19T09:10:46.8653178Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-08-19T09:10:46.8971682Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-08-19T09:10:46.9016394Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-08-19T09:10:46.9463845Z Cleaning up orphan processes
+2026-08-19T09:10:46.9840377Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

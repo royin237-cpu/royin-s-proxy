@@ -1,0 +1,20 @@
+﻿=== IPv4 MTU ===
+
+NlMtu ConnectionState
+----- ---------------
+ 1500       Connected
+
+
+
+=== IPv6 是否在用 ===
+
+IPAddress                               PrefixLength
+---------                               ------------
+fe80::d242:bc06:f1fd:9b9f%23                      64
+2408:8406:1961:5521:c9c1:5378:3c80:d647          128
+2408:8406:1961:5521:43f1:2e56:7389:8935           64
+
+
+
+=== 强制 IPv4 vs 强制 IPv6 连接 copilot ===
+IPv4(默认): True
