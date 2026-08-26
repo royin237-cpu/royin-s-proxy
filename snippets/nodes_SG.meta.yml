@@ -20,7 +20,7 @@ proxies:
   uuid: 0ca45842-71e2-47fe-889f-9e75f93ea459
 - alterId: 0
   cipher: auto
-  name: 21,32|🇸🇬SG-139.99.61.154-1163
+  name: 21,32|🇸🇬SG-139.99.61.154-1184
   network: ws
   port: 80
   server: 139.99.61.154
@@ -33,7 +33,12 @@ proxies:
     headers:
       Host: 139.99.61.154
     path: /vmess
-- name: 32|🇸🇬SG-142.91.102.42-0274
+- name: '31,32|🇸🇬SG-68.183.184.107-0078 #1'
+  password: 1a205ae2-be41-42b0-abdf-795a2ea3df4e
+  port: 443
+  server: t1.gitvpn.eu.org
+  type: trojan
+- name: 32|🇸🇬SG-142.91.102.42-0275
   password: Sn+JPr7a1JGWKxUrlhKrgTGajkOxbxUg
   port: 58277
   server: vip-sg-2.hkd4fwmg.vip
@@ -41,7 +46,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-15.235.147.186-0417
+  name: 32|🇸🇬SG-15.235.147.186-0418
   network: ws
   port: 80
   server: 15.235.147.186
@@ -55,7 +60,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
 - alterId: 64
   cipher: auto
-  name: 32|🇸🇬SG-202.79.172.53-1259
+  name: 32|🇸🇬SG-202.79.172.53-1280
   network: ws
   port: 443
   server: 202.79.172.53
@@ -69,7 +74,7 @@ proxies:
     path: /path/220128071100
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-143.198.219.182-1275
+  name: 32|🇸🇬SG-143.198.219.182-1296
   network: ws
   port: 80
   server: 143.198.219.182
@@ -83,7 +88,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-18.143.123.35-1348
+  name: 32|🇸🇬SG-18.143.123.35-1369
   network: ws
   port: 80
   server: 18.143.123.35
@@ -97,7 +102,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-15.235.184.36-2052
+  name: 32|🇸🇬SG-15.235.184.36-2089
   network: ws
   port: 80
   server: 15.235.184.36
@@ -111,7 +116,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-139.99.61.154-2057
+  name: 32|🇸🇬SG-139.99.61.154-2094
   network: ws
   port: 80
   server: 139.99.61.154
@@ -125,7 +130,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-109.123.237.41-2084
+  name: 32|🇸🇬SG-109.123.237.41-2121
   network: ws
   port: 80
   server: 109.123.237.41
@@ -139,7 +144,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-109.123.237.41-2246
+  name: 32|🇸🇬SG-109.123.237.41-2283
   network: ws
   port: 80
   server: 109.123.237.41
@@ -153,7 +158,7 @@ proxies:
     path: /fastssh
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-15.235.192.196-2338
+  name: 32|🇸🇬SG-15.235.192.196-2375
   network: ws
   port: 80
   server: 15.235.192.196
@@ -167,7 +172,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-157.230.36.235-2339
+  name: 32|🇸🇬SG-157.230.36.235-2376
   network: ws
   port: 80
   server: 157.230.36.235
@@ -181,7 +186,7 @@ proxies:
     path: /graphql
 - alterId: 64
   cipher: auto
-  name: '32,40|未命名 #11'
+  name: '32,40|未命名 #10'
   network: ws
   port: 80
   server: 159.223.94.156
@@ -193,19 +198,19 @@ proxies:
     headers:
       Host: 159.223.94.156
     path: /anti13.zingfast.vn
-- name: 32|🇸🇬SG-172.104.51.247-5110
+- name: 32|🇸🇬SG-172.104.51.247-5149
   password: affae2e0-e84b-11ec-b09f-1239d0255272
   port: 443
   server: trojan1.udpgw.com
   type: trojan
-- name: 32|🇸🇬SG-18.140.67.76-5113
+- name: 32|🇸🇬SG-18.140.67.76-5152
   password: iyinglong
   port: 443
   server: 18.140.67.76
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇸🇬SG-8.219.123.35-6708
+  name: 32|🇸🇬SG-8.219.123.35-6747
   network: ws
   port: 80
   server: 8.219.123.35
@@ -217,13 +222,13 @@ proxies:
     headers:
       Host: 8.219.123.35
     path: /2TokGE9A/
-- name: 32|🇸🇬SG-15.235.197.4-7340
+- name: 32|🇸🇬SG-15.235.197.4-7379
   password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
   port: 80
   server: 15.235.197.4
   sni: 15.235.197.4
   type: trojan
-- name: 32|🇸🇬SG-15.235.197.4-7342
+- name: 32|🇸🇬SG-15.235.197.4-7381
   password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
   port: 80
   server: 15.235.197.4
@@ -231,7 +236,7 @@ proxies:
   type: trojan
 - alterId: 64
   cipher: auto
-  name: 32|🇸🇬SG-118.107.46.173-7440
+  name: 32|🇸🇬SG-118.107.46.173-7479
   network: ws
   port: 443
   server: 118.107.46.173

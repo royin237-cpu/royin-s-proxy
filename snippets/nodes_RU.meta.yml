@@ -104,6 +104,16 @@ proxies:
     headers:
       Host: forfreeuse.rtqa.ru
     path: /
+- name: 21|俄罗斯 017
+  network: tcp
+  port: 443
+  server: 95.182.114.74
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5948eae-ef1b-45e4-81aa-d27076b56530
 - name: 21|俄罗斯 018
   network: ws
   port: 4100
@@ -152,7 +162,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21,32|🇬🇧GB-46.175.135.9-0347
+  name: 21,32|🇬🇧GB-46.175.135.9-0348
   network: ws
   port: 443
   server: lu1.gogogoo.cyou
@@ -167,7 +177,7 @@ proxies:
     path: /go
 - alterId: 0
   cipher: auto
-  name: 21,32|🇬🇧GB-46.175.135.9-1300
+  name: 21,32|🇬🇧GB-46.175.135.9-1321
   network: ws
   port: 443
   server: haxus3.janechiu.icu
@@ -182,7 +192,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21,32|🇬🇧GB-46.175.135.9-4163
+  name: 21,32|🇬🇧GB-46.175.135.9-4200
   network: ws
   port: 443
   server: us02.gogogoo.cyou
@@ -209,7 +219,7 @@ proxies:
     path: '%2F'
 - alterId: 64
   cipher: auto
-  name: 32|🇷🇺RU-171.22.134.12-7218
+  name: 32|🇷🇺RU-171.22.134.12-7257
   network: ws
   port: 443
   server: 171.22.134.12
@@ -223,7 +233,7 @@ proxies:
     path: /path/1689849487190
 - alterId: 64
   cipher: auto
-  name: 32|🇷🇺RU-171.22.134.12-7219
+  name: 32|🇷🇺RU-171.22.134.12-7258
   network: ws
   port: 443
   server: 171.22.134.12

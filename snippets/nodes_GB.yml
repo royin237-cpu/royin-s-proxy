@@ -47,7 +47,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-185.162.228.228-0798
+  name: 21,32|🏁RELAY-185.162.228.228-0806
   network: ws
   port: 443
   server: 185.162.228.228
@@ -62,7 +62,7 @@ proxies:
     path: /ECTCJ0DF
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-185.162.228.110-0851
+  name: 21,32|🏁RELAY-185.162.228.110-0859
   network: ws
   port: 443
   server: 185.162.228.110
@@ -77,7 +77,7 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-185.162.228.230-0858
+  name: 21,32|🏁RELAY-185.162.228.230-0866
   network: ws
   port: 443
   server: 185.162.228.230
@@ -92,7 +92,7 @@ proxies:
     path: /A2DJOPFT
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-51.89.138.147-0368
+  name: 32|🇬🇧GB-51.89.138.147-0369
   network: ws
   port: 80
   server: 51.89.138.147
@@ -104,14 +104,14 @@ proxies:
     headers:
       Host: 51.89.138.147
     path: /vmess
-- name: 32|🇬🇧GB-132.145.51.172-2607
+- name: 32|🇬🇧GB-132.145.51.172-2644
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
   server: 132.145.51.172
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-51.75.160.126-3932
+  name: 32|🇬🇧GB-51.75.160.126-3969
   network: ws
   port: 80
   server: 51.75.160.126
@@ -123,12 +123,12 @@ proxies:
     headers:
       Host: 51.75.160.126
     path: /vmess
-- name: 32|🇬🇧GB-185.44.76.188-4246
+- name: 32|🇬🇧GB-185.44.76.188-4283
   password: 8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
   server: 185.44.76.188
   type: trojan
-- name: 32|🇬🇧GB-51.38.71.175-6752
+- name: 32|🇬🇧GB-51.38.71.175-6791
   password: b640d791-ff83-4300-b509-c2a02f97f167
   port: 80
   server: 51.38.71.175

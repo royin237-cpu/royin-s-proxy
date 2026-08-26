@@ -1,11 +1,4 @@
 proxies:
-- name: 34|🇵🇱_PL_波兰->🇺🇦_UA_乌克兰
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
 - grpc-opts:
     grpc-service-name: lK1wclmJRbMxj4FxIzvwxUDoX
   name: 40|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦

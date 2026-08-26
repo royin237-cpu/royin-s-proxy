@@ -4,22 +4,17 @@
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 7
+      "count": 6
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 217
+      "count": 11
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
       "count": 6
-    },
-    "HK": {
-      "flag": "🇭🇰",
-      "name": "香港",
-      "count": 3
     },
     "TW": {
       "flag": "🇹🇼",
@@ -29,22 +24,12 @@
     "CA": {
       "flag": "🇦🇨",
       "name": "加拿大",
-      "count": 5
-    },
-    "FR": {
-      "flag": "🇫🇷",
-      "name": "法国",
-      "count": 9
+      "count": 1
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 8
-    },
-    "GB": {
-      "flag": "🇬🇧",
-      "name": "英国",
-      "count": 10
+      "count": 9
     },
     "KR": {
       "flag": "🇰🇷",
@@ -54,17 +39,12 @@
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 9
+      "count": 10
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 12
-    },
-    "SE": {
-      "flag": "🇸🇪",
-      "name": "瑞典",
-      "count": 2
+      "count": 3
     },
     "EE": {
       "flag": "🇪🇪",
@@ -72,8 +52,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-26 21:33",
-  "server_time": "2026-08-26 21:33:18",
+  "update_time": "2026-08-27 01:59",
+  "server_time": "2026-08-27 02:00:11",
   "sources": [
     {
       "index": 0,
@@ -168,12 +148,12 @@
     {
       "index": 18,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
-      "nodes": 58
+      "nodes": 59
     },
     {
       "index": 19,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 71
+      "nodes": 70
     },
     {
       "index": 20,
@@ -238,7 +218,7 @@
     {
       "index": 32,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 3981
+      "nodes": 4011
     },
     {
       "index": 33,
@@ -248,7 +228,7 @@
     {
       "index": 34,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
-      "nodes": 104
+      "nodes": 36
     },
     {
       "index": 35,

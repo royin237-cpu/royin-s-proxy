@@ -44,16 +44,6 @@ proxies:
     headers:
       Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
     path: /
-- name: 21|日本 008
-  network: tcp
-  port: 443
-  server: 134.122.154.210
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
 - flow: ''
   name: 21|日本 009
   network: tcp
@@ -104,7 +94,7 @@ proxies:
   uuid: cd09dc43-a55a-4f9d-920a-9e91e11e26fc
 - alterId: 0
   cipher: auto
-  name: 21,32|🇯🇵JP-40.74.100.129-0376
+  name: 21,32|🇯🇵JP-40.74.100.129-0377
   network: ws
   port: 443
   server: fullaccesstojapannetsubnode1.azurewebsites.net
@@ -119,7 +109,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 21,32|🇯🇵JP-18.183.84.93-1464
+  name: 21,32|🇸🇬SG-3.1.103.94-1485
   network: ws
   port: 9111
   server: st-1.dnspro.icu
@@ -134,7 +124,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: 21,32|🇸🇬SG-13.250.95.117-1465
+  name: 21,32|🇸🇬SG-3.1.103.94-1486
   network: ws
   port: 5100
   server: st-2.dnspro.icu
@@ -149,7 +139,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: 21,32|🇯🇵JP-18.183.84.93-1469
+  name: 21,32|🇯🇵JP-52.68.9.210-1490
   network: ws
   port: 20025
   server: sh-cn-1.dnspro.icu
@@ -164,7 +154,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: 32|🇯🇵JP-172.104.78.98-1573
+  name: 32|🇯🇵JP-172.104.78.98-1594
   network: ws
   port: 443
   server: 172.104.78.98
@@ -176,7 +166,7 @@ proxies:
     headers:
       Host: 172.104.78.98
     path: /chat
-- name: 32|🇯🇵JP-153.125.148.41-4083
+- name: 32|🇯🇵JP-153.125.148.41-4120
   password: 14bdba6dede262387ebdebaa706e1c90
   port: 443
   server: trs12.bolab.net

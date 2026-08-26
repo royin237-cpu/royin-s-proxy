@@ -11,7 +11,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 32|🇫🇮FI-65.109.134.191-3986
+  name: 32|🇫🇮FI-65.109.134.191-4023
   network: ws
   port: 80
   server: 65.109.134.191
