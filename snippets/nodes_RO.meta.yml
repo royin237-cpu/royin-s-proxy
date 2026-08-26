@@ -1,13 +1,58 @@
 proxies:
-- name: 15|立陶宛+V2CROSS.COM
-  network: ws
-  password: humanity
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|伊朗+V2CROSS.COM
+  network: tcp
   port: 443
-  server: 86.38.214.205
-  sni: www.ignitelimit.com
-  type: trojan
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 151.242.160.49
+  servername: eu-central.cendora.ru
+  tls: true
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- name: 21|罗马尼亚 002
+  network: tcp
+  port: 53147
+  server: 93.114.98.84
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 077add45-55fa-4f07-86b2-fed58f189f96
+- client-fingerprint: chrome
+  name: 21|罗马尼亚 004
+  network: ws
+  port: 443
+  server: 188.214.35.66
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- name: 21|罗马尼亚 006
+  network: ws
+  port: 2053
+  server: 188.241.241.37
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
 - alterId: 64
   cipher: auto
   name: 21,32|🇧🇪BE-37.120.236.251-0648

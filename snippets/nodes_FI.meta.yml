@@ -1,14 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 32|🇫🇮FI-65.21.240.108-3255
-  network: http
+- name: 21|芬兰 002
+  network: grpc
   port: 443
-  server: 65.21.240.108
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+  server: 135.181.41.45
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 32|🇫🇮FI-65.109.134.191-3986

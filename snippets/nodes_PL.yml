@@ -1,4 +1,12 @@
 proxies:
+- name: 21,34,38,39|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1103
+  server: 95.40.24.109
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 21,32|🇺🇸US-91.149.239.214-0522

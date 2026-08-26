@@ -1,4 +1,52 @@
 proxies:
+- client-fingerprint: chrome
+  name: 21|乌克兰 003
+  network: ws
+  port: 2096
+  server: 31.43.179.111
+  servername: newgen14.hozheen.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 359b9ad3-0009-4655-8872-d0ab566751d3
+  ws-opts:
+    headers:
+      Host: newgen14.hozheen.ir
+    path: /ws?ed=2560
+- client-fingerprint: chrome
+  name: 21|乌克兰 004
+  network: ws
+  port: 2053
+  server: 91.224.75.127
+  servername: yykir7al.ndaiwcu.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42e2dd45-2323-4929-9ab7-98f43591416e
+  ws-opts:
+    headers:
+      Host: yykir7al.ndaiwcu.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 21|乌克兰 007
+  network: ws
+  port: 2087
+  server: 45.67.215.159
+  servername: probabblynot.fazelextremeisreal.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: probabblynot.fazelextremeisreal.com
+    path: /
 - name: 40|🇺🇦+UA+乌克兰+75
   network: ws
   port: 443

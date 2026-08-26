@@ -1,4 +1,38 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 21|新加坡 003
+  network: tcp
+  port: 47630
+  server: 43.228.126.187
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb
+- name: 21|新加坡 004
+  network: tcp
+  port: 44915
+  server: 134.122.202.244
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ca45842-71e2-47fe-889f-9e75f93ea459
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇸🇬SG-139.99.61.154-1163
+  network: ws
+  port: 80
+  server: 139.99.61.154
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
+  ws-opts:
+    headers:
+      Host: 139.99.61.154
+    path: /vmess
 - name: 32|🇸🇬SG-142.91.102.42-0274
   password: Sn+JPr7a1JGWKxUrlhKrgTGajkOxbxUg
   port: 58277
@@ -19,20 +53,6 @@ proxies:
     headers:
       Host: ''
     path: /sshkit/Ertusg86/635014638c264/
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-139.99.61.154-1163
-  network: ws
-  port: 80
-  server: 139.99.61.154
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
-  ws-opts:
-    headers:
-      Host: 139.99.61.154
-    path: /vmess
 - alterId: 64
   cipher: auto
   name: 32|🇸🇬SG-202.79.172.53-1259
@@ -75,20 +95,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-13.250.95.117-1465
-  network: ws
-  port: 5100
-  server: st-2.dnspro.icu
-  servername: lg-hkg-b.gcorelabs.info
-  tls: false
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: st-2.dnspro.icu
-    path: /iso
 - alterId: 0
   cipher: auto
   name: 32|🇸🇬SG-15.235.184.36-2052

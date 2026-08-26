@@ -1,11 +1,12 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 32|🇹🇷TR-37.221.79.48-0812
+  name: 21,32|🇹🇷TR-37.221.79.48-0812
   network: ws
   port: 443
   server: v2ray.online
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D

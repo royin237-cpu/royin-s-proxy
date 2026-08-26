@@ -13,27 +13,104 @@ proxies:
   sni: jp.cryptoofarm.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '31,32|🇯🇵JP-140.83.57.20-0165 #1'
+- name: 21|日本 004
   network: ws
-  port: 13118
-  server: 140.83.57.20
-  servername: ''
+  port: 443
+  server: 91.193.58.201
+  servername: vangoghhh.info
+  skip-cert-verify: false
+  tfo: false
   tls: true
-  type: vmess
-  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  type: vless
+  udp: true
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
   ws-opts:
     headers:
-      Host: sg.11160321.de5.net
+      Host: vangoghhh.info
+    path: /rdfgtws
+- client-fingerprint: chrome
+  flow: ''
+  name: 21|日本 006
+  network: ws
+  port: 14750
+  server: 45.76.87.125
+  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30f6c75f-8fcd-4555-854f-439f09d3e2e3
+  ws-opts:
+    headers:
+      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
     path: /
+- name: 21|日本 008
+  network: tcp
+  port: 443
+  server: 134.122.154.210
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+- flow: ''
+  name: 21|日本 009
+  network: tcp
+  port: 18233
+  server: 14.137.244.44
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 93cc16ff-60bd-4a48-8b4b-0ca1ce5f22ba
+- name: 21|日本 010
+  network: tcp
+  port: 443
+  server: 137.220.221.179
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+- name: 21|日本 011
+  network: ws
+  port: 443
+  server: 151.101.109.223
+  servername: pan1.global.ssl.fastly.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c8541f02-4efd-401d-beb7-dc017b12ee94
+  ws-opts:
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    path: /
+- client-fingerprint: chrome
+  name: 21|日本 012
+  network: xhttp
+  port: 2087
+  server: 91.193.58.201
+  servername: shop.xn--fjqyexxidv2znoe9rk1n8ada0532g6usa.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd09dc43-a55a-4f9d-920a-9e91e11e26fc
 - alterId: 0
   cipher: auto
-  name: 32|🇯🇵JP-40.74.100.129-0376
+  name: 21,32|🇯🇵JP-40.74.100.129-0376
   network: ws
   port: 443
   server: fullaccesstojapannetsubnode1.azurewebsites.net
   servername: fullaccesstojapannetsubnode1.azurewebsites.net
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
@@ -43,25 +120,12 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 32,34|JP 🇯🇵 日本丨
-  network: ws
-  port: 36801
-  server: cindy50.ceoiii.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 32|🇯🇵JP-18.183.84.93-1464
+  name: 21,32|🇯🇵JP-18.183.84.93-1464
   network: ws
   port: 9111
   server: st-1.dnspro.icu
   servername: hkt02.dnspro.icu
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
@@ -71,11 +135,27 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: 32|🇯🇵JP-18.183.84.93-1469
+  name: 21,32|🇸🇬SG-13.250.95.117-1465
+  network: ws
+  port: 5100
+  server: st-2.dnspro.icu
+  servername: lg-hkg-b.gcorelabs.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-2.dnspro.icu
+    path: /iso
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇯🇵JP-18.183.84.93-1469
   network: ws
   port: 20025
   server: sh-cn-1.dnspro.icu
   servername: sh-cn-1.dnspro.icu
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
@@ -97,46 +177,6 @@ proxies:
     headers:
       Host: ''
     path: /chat
-- name: 32|🇯🇵JP-133.125.55.109-2400
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.odesa.ua
-  type: trojan
-- name: 32|🇯🇵JP-133.125.55.109-2533
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.kherson.ua
-  type: trojan
-- name: 32|🇯🇵JP-133.125.55.109-2542
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.kharkov.ua
-  type: trojan
-- name: 32|🇯🇵JP-133.125.55.109-2609
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.ivano-frankivsk.ua
-  type: trojan
-- name: 32|🇯🇵JP-133.125.55.109-2655
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.kyiv.ua
-  type: trojan
-- name: 32|🇯🇵JP-133.125.55.109-2682
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.chernigov.ua
-  type: trojan
-- name: 32|🇯🇵JP-133.125.55.109-2791
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.odessa.ua
-  type: trojan
-- name: 32|🇯🇵JP-133.125.55.109-2820
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.kiev.ua
-  type: trojan
 - name: 32|🇯🇵JP-153.125.148.41-4083
   password: 14bdba6dede262387ebdebaa706e1c90
   port: 443

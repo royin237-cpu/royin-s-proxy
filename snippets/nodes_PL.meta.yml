@@ -7,6 +7,14 @@ proxies:
   sni: streambox.wwwinternetvideo.click
   tls: false
   type: hysteria2
+- name: 21,34,38,39|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1103
+  server: 95.40.24.109
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 21,32|🇺🇸US-91.149.239.214-0522
@@ -36,6 +44,21 @@ proxies:
     headers:
       Host: cg1c14.waimaojd.com
     path: /api/v1/graphql
+- name: 21|波兰 007
+  network: ws
+  port: 2053
+  server: 31.133.0.133
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
 - name: '31,32|🇵🇱PL-202.78.163.19-0248 #1'
   password: AE62539071
   port: 443

@@ -1,4 +1,185 @@
 proxies:
+- client-fingerprint: ios
+  name: 21|英国 001
+  network: ws
+  port: 443
+  server: 158.180.75.201
+  servername: edgood.889876.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: edgood.889876.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 21|英国 004
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 21|英国 005
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 21|英国 006
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 21|英国 007
+  network: tcp
+  port: 2053
+  server: 51.38.71.147
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
+- alterId: 0
+  cipher: auto
+  name: 21|英国 008
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 21|英国 009
+  network: ws
+  port: 443
+  server: 45.8.211.217
+  servername: vangoghhh.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  ws-opts:
+    headers:
+      Host: vangoghhh.info
+    path: /rdfgtws
+- client-fingerprint: chrome
+  name: 21|英国 016
+  network: ws
+  port: 8443
+  server: 193.219.99.65
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: 21|英国 017
+  network: ws
+  port: 443
+  server: 164.38.155.135
+  servername: alfi.yas-nowin.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: alfi.yas-nowin.ir
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 21|英国 020
+  network: xhttp
+  port: 443
+  server: 212.104.128.85
+  servername: 1.lovemehrad.dpdns.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bdb71be0-0fe6-4df7-970f-f271ad77d8ab
+- name: 21|英国 022
+  network: ws
+  port: 443
+  server: 194.154.30.154
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-185.162.228.228-0798
+  network: ws
+  port: 443
+  server: 185.162.228.228
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-opts:
+    headers:
+      Host: lg1.trump2023.us
+    path: /ECTCJ0DF
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-185.162.228.110-0851
+  network: ws
+  port: 443
+  server: 185.162.228.110
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-opts:
+    headers:
+      Host: oplg1.cfcdn2.xyz
+    path: /AUIKN8AU
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-185.162.228.230-0858
+  network: ws
+  port: 443
+  server: 185.162.228.230
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-opts:
+    headers:
+      Host: lg10.cfcdn1.xyz
+    path: /A2DJOPFT
 - name: 29|🇬🇧 FASTNET 10
   network: ws
   port: 8443
@@ -13,20 +194,6 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: 32|🇬🇧GB-46.175.135.9-0347
-  network: ws
-  port: 443
-  server: lu1.gogogoo.cyou
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-  ws-opts:
-    headers:
-      Host: lu1.gogogoo.cyou
-    path: /go
-- alterId: 0
-  cipher: auto
   name: 32|🇬🇧GB-51.89.138.147-0368
   network: ws
   port: 80
@@ -39,20 +206,6 @@ proxies:
     headers:
       Host: ''
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 32|🇬🇧GB-46.175.135.9-1300
-  network: ws
-  port: 443
-  server: haxus3.janechiu.icu
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0df258cb-a376-4b8e-a378-a556a4658aeb
-  ws-opts:
-    headers:
-      Host: haxus3.janechiu.icu
-    path: /
 - name: 32|🇬🇧GB-132.145.51.172-2607
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
@@ -72,20 +225,6 @@ proxies:
     headers:
       Host: ''
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 32|🇬🇧GB-46.175.135.9-4163
-  network: ws
-  port: 443
-  server: us02.gogogoo.cyou
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-  ws-opts:
-    headers:
-      Host: us02.gogogoo.cyou
-    path: /go
 - name: 32|🇬🇧GB-185.44.76.188-4246
   password: 8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443

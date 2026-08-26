@@ -1,46 +1,54 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '31,32|🇨🇦CA-158.51.121.63-0160 #1'
-  network: ws
-  port: 443
-  server: 158.51.121.63
-  servername: ''
-  tls: true
+  name: 21|加拿大 003
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  skip-cert-verify: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- name: 21|加拿大 005
+  network: tcp
+  port: 443
+  server: 184.107.106.68
+  servername: lizca2.footballfantasyforum.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+- name: 21|加拿大 006
+  network: ws
+  port: 80
+  server: 151.101.215.2
+  servername: anycast.leslie.ch
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8820e16b-fbc2-49d3-90e4-eeeb8301c83c
   ws-opts:
     headers:
-      Host: seribus.org
-    path: /
+      Host: anycast.leslie.ch
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: '31,32|🇨🇦CA-23.162.200.227-0229 #1'
+  name: 21,32|🇺🇸US-162.0.232.36-1182
   network: ws
   port: 443
-  server: 23.162.200.227
+  server: hohm.microsoft.com
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
   ws-opts:
     headers:
-      Host: vk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '31,32|🇨🇦CA-134.195.198.147-0234 #1'
-  network: ws
-  port: 443
-  server: 134.195.198.147
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: vk.com
-    path: /
+      Host: hohm.microsoft.com
+    path: /9JZFDTKE
 - name: 32|🇨🇦CA-148.113.141.99-0777
   password: HdsUZmsHQW
   port: 443

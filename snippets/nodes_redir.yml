@@ -1,11 +1,4 @@
 proxies:
-- name: 34|🇵🇱_PL_波兰->🇮🇹_IT_意大利
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20065
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
 - name: 34|🇵🇱_PL_波兰->🇺🇦_UA_乌克兰
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20066

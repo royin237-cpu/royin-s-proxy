@@ -1,6 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 21,32|🇺🇸US-23.11.32.159-1242
+  network: ws
+  port: 443
+  server: cacerts.digicert.com
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-opts:
+    headers:
+      Host: cacerts.digicert.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 34|🇹🇭TH泰国丨
   network: ws
   port: 80
