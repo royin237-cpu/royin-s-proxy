@@ -1,1 +1,2776 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: 10,11|201_美国-1.02MB
+  password: amazonskr05
+  port: '443'
+  server: 54.185.193.85
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 10,11|256_美国-334.7KB
+  network: ws
+  port: '80'
+  server: 205.185.113.46
+  tls: 0
+  type: vmess
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  ws-headers:
+    host: ''
+  ws-path: /shirker
+- alterId: '0'
+  cipher: auto
+  name: 10,11|274_美国-315.7KB
+  network: ws
+  port: '80'
+  server: 172.67.73.165
+  tls: 0
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-headers:
+    host: lg.v2ray8.xyz
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 10,11|458_亚美亚-383.4KB
+  network: ws
+  port: '80'
+  server: 185.162.228.229
+  tls: 0
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-headers:
+    host: lg.v2ray8.xyz
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 11|236_美国-519.8KB
+  network: ws
+  port: '443'
+  server: cf-lt.sharecentre.online
+  tls: 1
+  type: vmess
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  ws-headers:
+    host: de1.sharecentrepro.org
+  ws-path: /shirker
+- name: 13|美国+3
+  password: 414dff55-922a-4dc8-b5d3-b6517942b25a
+  port: 15003
+  server: east.eeeeeef998.buzz
+  skip-cert-verify: true
+  sni: data.steamdownload.top
+  type: trojan
+- name: 13|美国+5
+  password: 414dff55-922a-4dc8-b5d3-b6517942b25a
+  port: 15005
+  server: east.eeeeeef998.buzz
+  skip-cert-verify: true
+  sni: data.steamdownload.top
+  type: trojan
+- name: 13|美国+6
+  password: 414dff55-922a-4dc8-b5d3-b6517942b25a
+  port: 15006
+  server: east.eeeeeef998.buzz
+  skip-cert-verify: true
+  sni: data.steamdownload.top
+  type: trojan
+- name: 13|美国+2
+  password: 414dff55-922a-4dc8-b5d3-b6517942b25a
+  port: 15002
+  server: east.eeeeeef998.buzz
+  skip-cert-verify: true
+  sni: data.steamdownload.top
+  type: trojan
+- name: 15|美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.144
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - h2
+  name: '15|美国+CloudFlare节点 #4'
+  network: ws
+  password: epc3ufz9q4ocqeqh
+  port: 2087
+  server: uwu.blueknightnet.qzz.io
+  skip-cert-verify: false
+  sni: uwu.dianaw.cc.cd
+  type: trojan
+  ws-opts:
+    path: '%2F%40BlueKnight_net--%40BlueKnight_net--%40BlueKnight_net'
+- name: '15|美国+CloudFlare节点 #5'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #6'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.149
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #7'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #8'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.109
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '15|美国+CloudFlare节点 #9'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇺🇸_US_美国 #17'
+  network: ws
+  port: 8080
+  server: 162.159.1.33
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 21,32,40|🏁RELAY-172.67.152.170-1176
+  network: ws
+  port: 2052
+  server: 172.67.152.170
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: mahilu.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇺🇸_US_美国 #1'
+  network: ws
+  port: 2095
+  server: russia.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇺🇸US-66.241.124.229-0488
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    headers:
+      Host: cold-dawn-9246.fly.dev
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇺🇸_US_美国->🇨🇦_CA_加拿大 #4'
+  network: ws
+  port: 8080
+  server: 162.159.137.249
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇺🇸_US_美国 #20'
+  network: ws
+  port: 2052
+  server: 104.21.82.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: mahilu.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇨🇦_CA_加拿大 #2'
+  network: ws
+  port: 8080
+  server: 23.227.39.24
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: 8080
+  server: 23.227.38.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- name: 21|美国 009
+  network: ws
+  password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
+  port: 443
+  server: 23.227.38.11
+  skip-cert-verify: true
+  sni: syndication-statutes-wanted-logo.trycloudflare.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: syndication-statutes-wanted-logo.trycloudflare.com
+    path: /argox-tr
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|美国|@ripaojiedian #1'
+  network: ws
+  port: '8080'
+  server: fbi.gov
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇺🇸_US_美国 #15'
+  network: ws
+  port: 8080
+  server: 162.159.134.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+  ws-opts:
+    headers:
+      Host: championship-bidding-oxygen-brochure.trycloudflare.com
+    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇨🇦_CA_加拿大 #4'
+  network: ws
+  port: 8080
+  server: 23.227.38.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇺🇸_US_美国 #21'
+  network: ws
+  port: 8080
+  server: 162.159.130.208
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
+  ws-opts:
+    headers:
+      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇺🇸_US_美国 #19'
+  network: ws
+  port: 8080
+  server: 162.159.5.6
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇺🇸_US_美国 #23'
+  network: ws
+  port: 8880
+  server: russia.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇺🇸_US_美国 #2'
+  network: ws
+  port: 80
+  server: 172.67.116.48
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
+  ws-opts:
+    headers:
+      Host: wap.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,32,40|🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇺🇸_US_美国 #7'
+  network: ws
+  port: 80
+  server: 104.21.234.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇺🇸_US_美国 #13'
+  network: ws
+  port: 2095
+  server: 104.26.4.57
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.76.158-0519
+  network: ws
+  port: 8443
+  server: t1.620720.xyz
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: t1.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-170.114.46.6-0523
+  network: ws
+  port: 8080
+  server: support.zoom.us
+  servername: node4.rtxconfigz.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+  ws-opts:
+    headers:
+      Host: node4.rtxconfigz.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-172.67.197.47-0525
+  network: ws
+  port: 443
+  server: sy4.620720.xyz
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-104.18.16.77-0526
+  network: ws
+  port: 2083
+  server: hgtrojan.zabc.net
+  servername: hgtrojan.zabc.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  ws-opts:
+    headers:
+      Host: hgtrojan.zabc.net
+    path: /e6395c20
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇺🇸US-67.21.83.5-0527
+  network: ws
+  port: 443
+  server: cg1c01.waimaojd.com
+  servername: cg1c01.waimaojd.com
+  tls: true
+  type: vmess
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c01.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇺🇸US-67.21.85.225-0528
+  network: ws
+  port: 443
+  server: cg1c04.waimaojd.com
+  servername: cg1c04.waimaojd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c04.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇮🇷IR-185.143.234.238-0572
+  network: ws
+  port: 80
+  server: 118ejob.ir
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 47d0805b-6b81-49f1-9813-776032d2c076
+  ws-opts:
+    headers:
+      Host: at1-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-104.17.171.34-0580
+  network: ws
+  port: 80
+  server: 104.17.171.34
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 60be5ddb-c9f1-48ec-b0ee-f6bd4364b3ce
+  ws-opts:
+    headers:
+      Host: ccs.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.89.181-0635
+  network: ws
+  port: 8080
+  server: skk.moe
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 54d4d640-731c-4572-d0d4-e8a617816470
+  ws-opts:
+    headers:
+      Host: icu4.mac2win.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-172.67.183.110-0652
+  network: ws
+  port: 443
+  server: 172.67.183.110
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: waynn.makeup
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.53.12-0653
+  network: ws
+  port: 443
+  server: 104.21.53.12
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ophelia.mom
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.75.246-0654
+  network: ws
+  port: 443
+  server: 104.21.75.246
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: cf.tonyluk.link
+    path: /ophelia.mom:443/linkvws
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-172.67.131.150-0655
+  network: ws
+  port: 443
+  server: 172.67.131.150
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: oliv.beauty
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.91.254-0656
+  network: ws
+  port: 443
+  server: 104.21.91.254
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: waynn.makeup
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.4.29-0657
+  network: ws
+  port: 443
+  server: 104.21.4.29
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: oliv.beauty
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-172.67.182.187-0658
+  network: ws
+  port: 443
+  server: 30.vmessprotocol.telegram-vmessprotocol-channel.space
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ophelia.mom
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-172.67.164.184-0660
+  network: ws
+  port: 443
+  server: 172.67.164.184
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: alvvin.click
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.50.177-0661
+  network: ws
+  port: 443
+  server: 104.21.50.177
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: alvvin.click
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-172.67.207.114-0662
+  network: ws
+  port: 443
+  server: 172.67.207.114
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ophelia.mom
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-172.67.215.202-0663
+  network: ws
+  port: 443
+  server: 172.67.215.202
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: octavi.cfd
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-172.67.179.37-0664
+  network: ws
+  port: 443
+  server: 172.67.179.37
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: octavi.cfd
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.27.139-0665
+  network: ws
+  port: 443
+  server: 104.21.27.139
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: edeen.makeup
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-172.67.142.191-0666
+  network: ws
+  port: 443
+  server: 172.67.142.191
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: edeen.makeup
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-172.67.197.82-0667
+  network: ws
+  port: 443
+  server: 172.67.197.82
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: odelia.autos
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-172.67.182.187-0668
+  network: ws
+  port: 443
+  server: vmessprotocol.telegram-vmessprotocol-channel.space
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ophelia.mom
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.31.183-0669
+  network: ws
+  port: 443
+  server: 104.21.31.183
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: octavi.cfd
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.91.73-0672
+  network: ws
+  port: 443
+  server: 104.21.91.73
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
+  ws-opts:
+    headers:
+      Host: adenc35.fixedlfoat.top
+    path: /linkws
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-172.67.194.2-0673
+  network: ws
+  port: 443
+  server: 172.67.194.2
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: alvvin.click
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.5.123-0674
+  network: ws
+  port: 443
+  server: octavi.cfd
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: octavi.cfd
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.18.161-0676
+  network: ws
+  port: 443
+  server: ophelia.mom
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ophelia.mom
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.21.88-0677
+  network: ws
+  port: 443
+  server: 104.21.21.88
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: odelia.autos
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇦🇺AU-103.224.212.213-0678
+  network: ws
+  port: 443
+  server: rlhrwtqusd.site
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617
+  ws-opts:
+    headers:
+      Host: rlhrwtqusd.site
+    path: /kwhmvws
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-172.67.206.124-0679
+  network: ws
+  port: 443
+  server: 172.67.206.124
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617
+  ws-opts:
+    headers:
+      Host: rlhrwtqusd.site
+    path: /kwhmvws
+- alterId: 0
+  cipher: auto
+  name: 21,32,40|🏁RELAY-172.67.183.220-3842
+  network: ws
+  port: 443
+  server: jahfkjha.cfd
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: jahfkjha.cfd
+    path: /linkws
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-172.67.182.187-0681
+  network: ws
+  port: 443
+  server: 7.vmessprotocol.join.telegram-vmessprotocol-channel.space
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ophelia.mom
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.44.106-0683
+  network: ws
+  port: 443
+  server: hms04.xmivideo.cfd
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  ws-opts:
+    headers:
+      Host: xmivideo.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 21,32|🏁RELAY-104.21.55.23-0684
+  network: ws
+  port: 443
+  server: glweidf.cfd
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: glweidf.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇺🇸US-103.224.182.215-0685
+  network: ws
+  port: 443
+  server: afrhms16v.bestxray.buzz
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: afrhms16v.bestxray.buzz
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '21,26,32,40|github.com/freefq - 美国CloudFla... #7'
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,26,40|美国测试节点
+  network: ws
+  port: '443'
+  server: gov.uk
+  servername: gov.uk
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- name: '31,32|🇺🇸US-44.246.163.102-0168 #1'
+  password: ND91608427
+  port: 443
+  server: 44.246.163.102
+  sni: fleet-bonefish.rooster465.autos
+  type: trojan
+- name: '31,32|🇺🇸US-44.246.163.102-0162 #1'
+  password: ND91608427
+  port: 443
+  server: fleet-bonefish.rooster465.autos
+  sni: fleet-bonefish.rooster465.autos
+  type: trojan
+- name: '31,32|🇺🇸US-157.254.38.210-1810 #1'
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20056
+  server: kkvlvvq-a.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '31,32|🇺🇸US-54.165.58.209-0051 #1'
+  network: ws
+  port: 443
+  server: kukuprogram1.herokuapp.com
+  servername: kukuprogram1.herokuapp.com
+  tls: true
+  type: vmess
+  uuid: d170fb8f-bb43-41a0-930b-5889483c087f
+  ws-opts:
+    headers:
+      Host: kukuprogram1.herokuapp.com
+    path: /
+- name: 32|🇺🇸US-23.19.230.63-0267
+  password: atKbXl2I4rKzHGiRybV7fOp+OCYPz+bO
+  port: 13758
+  server: vip-us-6.hkd4fwmg.xyz
+  sni: vip-us-6.hkd4fwmg.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.236.108.16-0270
+  network: ws
+  port: 443
+  server: fr0810.moonfree.top
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a8ce5e05-d5c9-48c0-a082-7b39453b29c0
+  ws-opts:
+    headers:
+      Host: fr0810.moonfree.top
+    path: /
+- alterId: 64
+  cipher: auto
+  h2-opts:
+    host:
+    - ''
+    path: ''
+  name: 32|🇺🇸US-104.168.54.205-0357
+  network: h2
+  port: 443
+  server: a.v2ray.world
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 05b6b25b-bb5d-4dcd-9710-31e374ffa584
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.236.108.16-0395
+  network: ws
+  port: 443
+  server: cf-lt.sharecentre.online
+  servername: sg-gcore.sharecentre.online
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: cf-lt.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.236.108.16-0410
+  network: ws
+  port: 443
+  server: jp-oracle-s.sharecentre.online
+  servername: jp-oracle-s.sharecentre.online
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: jp-oracle-s.sharecentre.online
+    path: /shirker
+- name: '32,34|🇵🇱_PL_波兰->🇳🇴_NO_挪威 #1'
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20085
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-161.35.229.94-0445
+  network: ws
+  port: 443
+  server: 161.35.229.94
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 27848739-7e62-4138-9fd3-098a63964b6b
+  ws-opts:
+    headers:
+      Host: 161.35.229.94
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-13.248.169.48-0717
+  network: ws
+  port: 443
+  server: zhuyong.hucloud-dns.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4ce21a11-44fe-4814-a639-4b7caf501031
+  ws-opts:
+    headers:
+      Host: zhuyong.hucloud-dns.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.236.108.16-0810
+  network: ws
+  port: 443
+  server: cf-lt-dns.sharecentre.online
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: cf-lt-dns.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.239.193.67-0835
+  network: ws
+  port: 443
+  server: cvywfavasdc.cymlr.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 23f4bc80-3b0a-4aa3-cbe5-b8be4e8c32fc
+  ws-opts:
+    headers:
+      Host: cvywfavasdc.cymlr.xyz
+    path: /ksebupo
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-13.248.169.48-0892
+  network: ws
+  port: 443
+  server: new3.hucloud-dns.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2926bbcf-eef0-4d0d-d8a7-400e417608aa
+  ws-opts:
+    headers:
+      Host: new3.hucloud-dns.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.239.194.103-0898
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6c46e17d-4f90-4fda-8484-98f192524bc7
+  ws-opts:
+    headers:
+      Host: ssrsub.v10.asuka.buzz
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.239.193.67-0912
+  network: ws
+  port: 443
+  server: khvwycch.cymlr.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db39ef95-4245-418a-84c0-14c202f29bc6
+  ws-opts:
+    headers:
+      Host: khvwycch.cymlr.xyz
+    path: /videnset
+- name: 32,34|🇺🇸US美国丨yoyapai.com\r
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-174.129.128.48-1037
+  network: ws
+  port: 443
+  server: ac2088.herokuapp.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc
+  ws-opts:
+    headers:
+      Host: ac2088.herokuapp.com
+    path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess
+- alterId: 64
+  cipher: auto
+  name: 32|🇺🇸US-23.224.101.102-1043
+  network: ws
+  port: 443
+  server: 23.224.101.102
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 946ba5df-5771-4873-a3cb-892378526147
+  ws-opts:
+    headers:
+      Host: www.76126449.xyz
+    path: /footers
+- alterId: 233
+  cipher: auto
+  name: 32|🇺🇸US-76.223.54.146-1056
+  network: ws
+  port: 80
+  server: free-russian01-cdn.xiaohouzi.club
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3d31728e-064d-42b8-b945-f79c008f73fc
+  ws-opts:
+    headers:
+      Host: free-russian01-cdn.xiaohouzi.club
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 32|🇺🇸US-23.224.101.102-1120
+  network: ws
+  port: 443
+  server: 23.224.101.102
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 946ba5df-5771-4873-a3cb-892378526147
+  ws-opts:
+    headers:
+      Host: 23.224.101.102
+    path: /footers
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-147.135.112.248-1129
+  network: ws
+  port: 80
+  server: 147.135.112.248
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 973c2639-c9c2-484d-ae9b-3d68b2f30d9e
+  ws-opts:
+    headers:
+      Host: 147.135.112.248
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-162.0.232.36-1182
+  network: ws
+  port: 443
+  server: hohm.microsoft.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  ws-opts:
+    headers:
+      Host: hohm.microsoft.com
+    path: /9JZFDTKE
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-23.11.32.159-1242
+  network: ws
+  port: 443
+  server: cacerts.digicert.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-opts:
+    headers:
+      Host: cacerts.digicert.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.236.108.16-1266
+  network: ws
+  port: 443
+  server: buyvm.sharecentre.online
+  servername: buyvm.sharecentre.online
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: buyvm.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-103.224.182.217-1310
+  network: ws
+  port: 443
+  server: lg10.cfcdn1.xyz
+  servername: lg10.cfcdn1.xyz
+  tls: true
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-opts:
+    headers:
+      Host: lg10.cfcdn1.xyz
+    path: /A2DJOPFT
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.239.193.153-1429
+  network: ws
+  port: 443
+  server: de-2.sharecentre.online
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: de-2.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.239.193.153-1452
+  network: ws
+  port: 443
+  server: sg-gcore.sharecentre.online
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: sg-gcore.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.239.193.153-1503
+  network: ws
+  port: 443
+  server: us-dp2.sharecentre.online
+  servername: us-dp2.sharecentre.online
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: us-dp2.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.236.108.16-1504
+  network: ws
+  port: 443
+  server: opc-jp.sharecentre.online
+  servername: opc-jp.sharecentre.online
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: opc-jp.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.239.193.153-1592
+  network: ws
+  port: 443
+  server: nl.sharecentre.online
+  servername: nl.sharecentre.online
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: nl.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-146.190.114.190-1696
+  network: ws
+  port: 80
+  server: 146.190.114.190
+  servername: tms.dingtalk.com
+  tls: false
+  type: vmess
+  uuid: db8f8bbe-c589-4316-8063-49baaf0fd858
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: '32,34|🇵🇱_PL_波兰->🇺🇦_UA_乌克兰 #1'
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20066
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- name: 32,34|🇵🇱_PL_波兰->🇳🇴_NO_挪威
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20085
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- name: 32|🇺🇸US-157.254.38.210-1814
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20023
+  server: kkvlvvq-a.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- name: 32|🇺🇸US-157.254.38.210-1824
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  type: trojan
+- name: 32|🇺🇸US-157.254.38.210-1825
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20034
+  server: oplosgru-c.catcat321.com
+  type: trojan
+- alterId: 4
+  cipher: auto
+  name: 32|🇺🇸US-192.96.204.250-1870
+  network: ws
+  port: 443
+  server: 192.96.204.250
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws
+- alterId: 2
+  cipher: auto
+  name: 32|🇺🇸US-13.248.169.48-1890
+  network: ws
+  port: 443
+  server: 426hk.fans8.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2
+  ws-opts:
+    headers:
+      Host: 426hk.fans8.xyz
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-162.0.232.36-2234
+  network: ws
+  port: 443
+  server: hohm.microsoft.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-opts:
+    headers:
+      Host: hohm.microsoft.com
+    path: /5QNROSRV
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-51.81.220.195-2358
+  network: ws
+  port: 80
+  server: 51.81.220.195
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-opts:
+    headers:
+      Host: ''
+    path: /sshkit/Yarayauj/6349911f83b31/
+- name: 32|🇺🇸US-13.248.169.48-2526
+  password: 61605c66-6d41-4b9d-a496-b9898f3f95d0
+  port: 443
+  server: jp-h1.sshub.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-51.81.220.195-2615
+  network: ws
+  port: 80
+  server: 51.81.220.195
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-opts:
+    headers:
+      Host: ''
+    path: /sshkit/Uvuwbwb/6373b77a048a6/
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-51.81.220.195-2661
+  network: ws
+  port: 80
+  server: 51.81.220.195
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-opts:
+    headers:
+      Host: ''
+    path: /sshkit/Variu88/634dab7abadf1/
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-51.81.220.34-3661
+  network: ws
+  port: 80
+  server: 51.81.220.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0842be25-d718-491a-bca8-5e9d080150e6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.236.108.16-3715
+  network: ws
+  port: 443
+  server: cf-dx-dns.sharecentre.online
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: cf-dx-dns.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.236.108.16-4139
+  network: ws
+  port: 443
+  server: cf-lt.sharecentre.online
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: lu.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.236.108.16-4140
+  network: ws
+  port: 443
+  server: cf-lt.sharecentre.online
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: sg-gcore.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.239.194.103-4141
+  network: ws
+  port: 443
+  server: cf-lt.sharecentre.online
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: lvryzenkvm1gb.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.239.194.103-4142
+  network: ws
+  port: 443
+  server: cf-lt.sharecentre.online
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: us-dp.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.236.108.16-4143
+  network: ws
+  port: 443
+  server: cf-lt.sharecentre.online
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: us-east.sharecentre.online
+    path: /shirker
+- alterId: 2
+  cipher: auto
+  name: 32|🇺🇸US-13.248.169.48-4185
+  network: ws
+  port: 80
+  server: 331tw.fans8.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    headers:
+      Host: 331tw.fans8.xyz
+    path: /ray
+- alterId: 2
+  cipher: auto
+  name: 32|🇺🇸US-13.248.169.48-4188
+  network: ws
+  port: 80
+  server: 0218tw02.fans8.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  ws-opts:
+    headers:
+      Host: 0218tw02.fans8.xyz
+    path: /v2ray
+- alterId: 2
+  cipher: auto
+  name: 32|🇺🇸US-13.248.169.48-4267
+  network: ws
+  port: 443
+  server: 422wkl.fans8.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    headers:
+      Host: 422wkl.fans8.xyz
+    path: /
+- alterId: 4
+  cipher: auto
+  name: 32|🇺🇸US-192.96.204.250-4296
+  network: ws
+  port: 443
+  server: 192.96.204.250
+  servername: usa-washington.lvuft.com
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: usa-washington.lvuft.com
+    path: /ws
+- name: 32|🇺🇸US-172.239.193.153-4327
+  password: 4863e1b2-ec2f-4c71-b862-ce533028e57e
+  port: 443
+  server: trus.moonfree.top
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.239.194.103-4365
+  network: ws
+  port: 443
+  server: oz.moonfree.top
+  servername: oz.moonfree.top
+  tls: true
+  type: vmess
+  uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d
+  ws-opts:
+    headers:
+      Host: oz.moonfree.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-99.83.231.39-4370
+  network: ws
+  port: 443
+  server: xr-1.herokuapp.com
+  servername: xr-1.herokuapp.com
+  tls: true
+  type: vmess
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  ws-opts:
+    headers:
+      Host: xr-1.herokuapp.com
+    path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
+- alterId: 2
+  cipher: auto
+  name: 32|🇺🇸US-13.248.169.48-4371
+  network: ws
+  port: 80
+  server: 527hk1.fans8.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    headers:
+      Host: 527hk1.fans8.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-147.135.112.248-4408
+  network: ws
+  port: 80
+  server: 147.135.112.248
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 973c2639-c9c2-484d-ae9b-3d68b2f30d9e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.236.108.16-4420
+  network: ws
+  port: 443
+  server: cf-lt-dns.sharecentre.online
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-opts:
+    headers:
+      Host: us-dp.sharecentre.online
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-162.0.232.36-4431
+  network: ws
+  port: 443
+  server: hohm.microsoft.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  ws-opts:
+    headers:
+      Host: fr1.trump2023.org
+    path: /9JZFDTKE
+- alterId: 4
+  cipher: auto
+  name: 32|🇺🇸US-54.243.238.66-4587
+  network: ws
+  port: 443
+  server: mycfwork.herokuapp.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 07a3a1e3-d52e-4acc-958e-c301681b5f09
+  ws-opts:
+    headers:
+      Host: mycfwork.herokuapp.com
+    path: /07a3a1e3-d52e-4acc-958e-c301681b5f09-vmess
+- name: 32|🇺🇸US-64.94.95.118-4750
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.118
+  sni: 64.94.95.118
+  type: trojan
+- name: 32|🇺🇸US-103.224.182.211-6544
+  network: ws
+  password: e35026da-e985-49ca-b43b-276062a535a6
+  port: 443
+  server: notdirect.howhealthyistoomajreally.homes
+  sni: notdirect.howhealthyistoomajreally.homes
+  type: trojan
+  ws-opts:
+    path: /ilb9fuWfuqWDjlQrGCkIH66kMFPa
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-75.2.65.169-6555
+  network: ws
+  port: 443
+  server: nestle.ir
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+  ws-opts:
+    headers:
+      Host: nestle.ir
+    path: /wss51068
+- name: 32|🇺🇸US-103.224.182.211-6624
+  network: ws
+  password: 63779501-4c22-4a03-83d3-9f611b227e7b
+  port: 443
+  server: cnamemc1.cdncisco4.co
+  sni: c1mc.cdncisco4.co
+  type: trojan
+  ws-opts:
+    path: /422Kdfwzf49IxeZJa
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-172.239.193.153-6637
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
+  ws-opts:
+    headers:
+      Host: cf-lt.sharecentre.online
+    path: 4a47e680
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-66.241.124.93-6680
+  network: ws
+  port: 443
+  server: ahsorathiyaa.fly.dev
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  ws-opts:
+    headers:
+      Host: ahsorathiyaa.fly.dev
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-66.241.124.93-6725
+  network: ws
+  port: 443
+  server: 66.241.124.93
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-47.88.104.186-6787
+  network: ws
+  port: 80
+  server: 47.88.104.186
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9dc5466-3768-4d45-8fd0-f1181139bb4e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /4DJIP58JF6JTq4HIG0yr
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-47.254.89.211-6788
+  network: ws
+  port: 80
+  server: 47.254.89.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 203b2ab2-4994-4193-8193-6631a575edb0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /GSoTl9ZoYG5V2R0k4tUTGI8k
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-47.254.17.235-6790
+  network: ws
+  port: 443
+  server: 47.254.17.235
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2caa5a0e-519b-4503-80d4-5363193e5018
+  ws-opts:
+    headers:
+      Host: ''
+    path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-47.254.17.235-6791
+  network: ws
+  port: 80
+  server: 47.254.17.235
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2caa5a0e-519b-4503-80d4-5363193e5018
+  ws-opts:
+    headers:
+      Host: ''
+    path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-47.254.16.114-6793
+  network: ws
+  port: 80
+  server: 47.254.16.114
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f3464642-f113-4575-aa33-f68aef56b5c0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /mePGXW6SFZZw2QyAqaYK
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-47.254.121.68-6794
+  network: ws
+  port: 80
+  server: 47.254.121.68
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c778fc8d-ce2f-4cd3-a949-1b99091c41da
+  ws-opts:
+    headers:
+      Host: ''
+    path: /OFglbcWQ8P3dJUA7yf
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-47.253.60.200-6797
+  network: ws
+  port: 443
+  server: 47.253.60.200
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b36473e1-49c5-438e-85c4-d56796200585
+  ws-opts:
+    headers:
+      Host: ''
+    path: /swoole
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-47.253.55.72-6798
+  network: ws
+  port: 443
+  server: 47.253.55.72
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: aa482fd0-21fc-4f24-974a-987a6c75a05d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /swoole
+- name: 32|🇺🇸US-15.204.210.176-7346
+  password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f
+  port: 80
+  server: 15.204.210.176
+  sni: 15.204.210.176
+  type: trojan
+- name: 32|🇺🇸US-15.204.210.176-7348
+  password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f
+  port: 80
+  server: 15.204.210.176
+  sni: telewebion.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸US-135.148.47.240-7397
+  network: ws
+  port: 80
+  server: 135.148.47.240
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: deafc56d-ba76-4ff2-b3b3-a9335b0982e0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- name: 32|🇺🇸US-135.148.148.4-7400
+  password: 800eb26c-cd0c-4269-aae7-e63d75de4edd
+  port: 80
+  server: 135.148.148.4
+  sni: us3.trojanvh.xyz
+  type: trojan
+- name: 32|🇺🇸US-135.148.148.4-7404
+  password: ee2bccd3-0f30-42d4-86d6-3d393ad230bd
+  port: 80
+  server: 135.148.148.4
+  sni: us3.trojanvh.xyz
+  type: trojan
+- name: 34|🇺🇸 美国 CloudFlare节点
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 美国 CloudFlare节点 #1'
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 美国 CloudFlare节点 #2'
+  password: humanity
+  port: 443
+  server: 104.16.72.41
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+- name: 34|🇺🇸 美国 加州
+  password: humanity
+  port: 443
+  server: render.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 美国 CloudFlare节点 #3'
+  password: humanity
+  port: 443
+  server: 104.18.152.229
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 美国 CloudFlare节点 #4'
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 美国 CloudFlare节点 #5'
+  password: humanity
+  port: 443
+  server: 104.16.174.72
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 美国 CloudFlare节点 #6'
+  password: humanity
+  port: 443
+  server: 104.21.46.3
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 美国 CloudFlare节点 #7'
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '34|🇺🇸 美国 CloudFlare节点 #8'
+  password: humanity
+  port: 443
+  server: 104.18.12.149
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 40|美国 CloudFlare节点
+  network: ws
+  port: '80'
+  server: 104.21.224.8
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #2'
+  network: ws
+  port: 80
+  server: 104.21.224.129
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳@WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #3'
+  network: ws
+  port: '80'
+  server: 104.21.230.53
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #4'
+  network: ws
+  port: 80
+  server: 104.21.224.56
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #5'
+  network: ws
+  port: '80'
+  server: 104.21.235.76
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳 @WangCai08
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #8'
+  network: ws
+  port: 80
+  server: 104.21.224.24
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: 40|🇺🇸 United States 01 @nodpai
+  network: ws
+  port: '8080'
+  server: hytron.io
+  tls: false
+  type: vmess
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  ws-opts:
+    headers:
+      Host: hytron.io
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #10'
+  network: ws
+  port: 80
+  server: 104.21.238.90
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #11'
+  network: ws
+  port: 80
+  server: 104.21.237.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #12'
+  network: ws
+  port: 80
+  server: 104.21.224.157
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #13'
+  network: ws
+  port: '80'
+  server: 104.21.237.65
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #14'
+  network: ws
+  port: 80
+  server: 104.21.221.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #15'
+  network: ws
+  port: 80
+  server: 104.21.237.87
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|🇺🇸_US_美国 #6'
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #17'
+  network: ws
+  port: 80
+  server: 104.21.230.31
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #18'
+  network: ws
+  port: '80'
+  server: 104.21.224.23
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /?ed=2048&Telegram🇨🇳
+- name: "40|TG频道:@hkaa0▓美国\r_1"
+  network: tcp
+  password: 62011b3d-2706-4a97-98b7-9986003c5fe0
+  port: 443
+  server: kz-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #19'
+  network: ws
+  port: 80
+  server: 104.21.239.76
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 40|🇺🇸US-92.38.145.145-0139
+  network: ws
+  port: 80
+  server: gcore.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b9b72788-a5eb-43fa-baa3-87581fe393c1
+  ws-opts:
+    headers:
+      Host: aparat-movies.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #20'
+  network: ws
+  port: 80
+  server: 104.21.228.42
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #21'
+  network: ws
+  port: '80'
+  server: 104.21.234.74
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #22'
+  network: ws
+  port: '80'
+  server: 104.21.230.50
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #23'
+  network: ws
+  port: '80'
+  server: 104.21.228.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #24'
+  network: ws
+  port: '80'
+  server: 104.21.228.41
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #25'
+  network: ws
+  port: 80
+  server: 104.21.234.72
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #26'
+  network: ws
+  port: '80'
+  server: 104.21.232.63
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #27'
+  network: ws
+  port: 80
+  server: 104.21.221.95
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- name: "40|TG频道:@hkaa0▓美国\r_2"
+  network: tcp
+  password: e2486b91-71a6-421b-9d53-3c080fb0edb8
+  port: 443
+  server: es-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #28'
+  network: ws
+  port: 80
+  server: 104.21.224.16
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳@WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #29'
+  network: ws
+  port: 80
+  server: 104.21.224.174
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #30'
+  network: ws
+  port: 80
+  server: 104.21.221.215
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #31'
+  network: ws
+  port: 80
+  server: 104.21.226.14
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /?ed=2048&Telegram🇨🇳 @WangCai08
+- alterId: 0
+  cipher: auto
+  name: 40|TG频道:@hkaa0▓美国_1
+  network: ws
+  port: 8080
+  server: 104.21.54.252
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #32'
+  network: ws
+  port: 80
+  server: 104.21.235.57
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /?ed=2048&Telegram🇨🇳 @WangCai08
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #33'
+  network: ws
+  port: 80
+  server: 104.21.224.240
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: 40|TG频道:@hkaa0▓美国_6
+  network: ws
+  port: 80
+  server: 104.21.69.44
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #34'
+  network: ws
+  port: '80'
+  server: 104.21.230.51
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: '/?ed=2048&Telegram🇨🇳 '
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #35'
+  network: ws
+  port: 80
+  server: 104.21.231.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #36'
+  network: ws
+  port: 80
+  server: 104.21.224.46
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #37'
+  network: ws
+  port: '80'
+  server: 104.21.236.60
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #38'
+  network: ws
+  port: '80'
+  server: 104.21.238.92
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #39'
+  network: ws
+  port: '80'
+  server: 104.21.239.77
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #40'
+  network: ws
+  port: 8080
+  server: 172.67.143.192
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #41'
+  network: ws
+  port: '80'
+  server: 104.21.229.26
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 40|TG频道:@hkaa0▓美国_4
+  network: ws
+  port: 8080
+  server: 172.67.136.12
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.ywnouvbale.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #42'
+  network: ws
+  port: '80'
+  server: 104.21.227.15
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳@WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #43'
+  network: ws
+  port: '80'
+  server: 104.21.228.20
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #44'
+  network: ws
+  port: 80
+  server: 104.21.231.57
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: '40|美国 CloudFlare节点 #45'
+  network: ws
+  port: '80'
+  server: 104.21.229.47
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳

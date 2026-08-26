@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇵🇭PH-120.28.10.46-0567
+  network: ws
+  port: 80
+  server: 120.28.10.46
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f
+  ws-opts:
+    headers:
+      Host: sazgar.serveirc.com
+    path: /

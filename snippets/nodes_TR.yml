@@ -1,1 +1,57 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 32|🇹🇷TR-37.221.79.48-0812
+  network: ws
+  port: 443
+  server: v2ray.online
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
+  ws-opts:
+    headers:
+      Host: Kansas.v2ray.online
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 32|🇹🇷TR-37.221.79.48-1168
+  network: ws
+  port: 443
+  server: v2ray.online
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  ws-opts:
+    headers:
+      Host: v2ray.online
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 32|🇹🇷TR-37.221.79.48-4430
+  network: ws
+  port: 443
+  server: v2ray.online
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  ws-opts:
+    headers:
+      Host: Phoenix.v2ray.online
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 32|🇹🇷TR-45.94.169.142-6803
+  network: ws
+  port: 443
+  server: 45.94.169.142
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 824c58b1-65ba-4680-a609-663a000dbb92
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wss13889

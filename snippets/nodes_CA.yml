@@ -1,1 +1,86 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '31,32|🇨🇦CA-158.51.121.63-0160 #1'
+  network: ws
+  port: 443
+  server: 158.51.121.63
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: seribus.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '31,32|🇨🇦CA-23.162.200.227-0229 #1'
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '31,32|🇨🇦CA-134.195.198.147-0234 #1'
+  network: ws
+  port: 443
+  server: 134.195.198.147
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vk.com
+    path: /
+- name: 32|🇨🇦CA-148.113.141.99-0777
+  password: HdsUZmsHQW
+  port: 443
+  server: 148.113.141.99
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇨🇦CA-158.51.121.36-1938
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- name: 32|🇨🇦CA-51.222.86.136-1960
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  type: trojan
+- name: 32|🇨🇦CA-149.56.141.11-3276
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  port: 443
+  server: 149.56.141.11
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇨🇦CA-137.184.164.233-6455
+  network: ws
+  port: 80
+  server: 137.184.164.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5cee90e3-b915-4f1e-bb8d-efadad0c6feb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess

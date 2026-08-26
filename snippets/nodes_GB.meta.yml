@@ -1,1 +1,147 @@
-proxies: []
+proxies:
+- name: 29|🇬🇧 FASTNET 10
+  network: ws
+  port: 8443
+  server: www.speedtest.net
+  servername: lease-11.access.name.ng
+  tls: true
+  type: vless
+  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
+  ws-opts:
+    headers:
+      Host: lease-11.access.name.ng
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: 32|🇬🇧GB-46.175.135.9-0347
+  network: ws
+  port: 443
+  server: lu1.gogogoo.cyou
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  ws-opts:
+    headers:
+      Host: lu1.gogogoo.cyou
+    path: /go
+- alterId: 0
+  cipher: auto
+  name: 32|🇬🇧GB-51.89.138.147-0368
+  network: ws
+  port: 80
+  server: 51.89.138.147
+  servername: 51.89.138.147
+  tls: false
+  type: vmess
+  uuid: 0f95cb36-4f7d-45be-b44d-d7a4f221ad49
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 32|🇬🇧GB-46.175.135.9-1300
+  network: ws
+  port: 443
+  server: haxus3.janechiu.icu
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0df258cb-a376-4b8e-a378-a556a4658aeb
+  ws-opts:
+    headers:
+      Host: haxus3.janechiu.icu
+    path: /
+- name: 32|🇬🇧GB-132.145.51.172-2607
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  port: 443
+  server: 132.145.51.172
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇬🇧GB-51.75.160.126-3932
+  network: ws
+  port: 80
+  server: 51.75.160.126
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 32|🇬🇧GB-46.175.135.9-4163
+  network: ws
+  port: 443
+  server: us02.gogogoo.cyou
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  ws-opts:
+    headers:
+      Host: us02.gogogoo.cyou
+    path: /go
+- name: 32|🇬🇧GB-185.44.76.188-4246
+  password: 8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: 185.44.76.188
+  type: trojan
+- name: 32|🇬🇧GB-51.38.71.175-6752
+  password: b640d791-ff83-4300-b509-c2a02f97f167
+  port: 80
+  server: 51.38.71.175
+  sni: uk1.trojanvh.xyz
+  type: trojan
+- name: 40|🇬🇧+GB+英国+3
+  network: ws
+  port: 8443
+  server: 194.36.55.198
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 40|🇬🇧+GB+英国+76
+  network: ws
+  port: 8443
+  server: 94.247.142.245
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 40|🇬🇧+GB+英国+13
+  network: ws
+  port: 2096
+  server: 94.247.142.245
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 40|🇬🇧+GB+英国+68
+  network: ws
+  port: 2096
+  server: 91.193.58.98
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2

@@ -1,1 +1,66 @@
-proxies: []
+proxies:
+- alterId: '0'
+  cipher: auto
+  name: 11|99_中国-1.70MB
+  network: ws
+  port: '2086'
+  server: cloudflare.quest
+  tls: 0
+  type: vmess
+  uuid: 833de9d2-98c5-4ac5-9d30-e3a7ad929d10
+  ws-headers:
+    host: buyvm.cloudflare.quest
+  ws-path: /aries
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇺🇸_US_美国 #22'
+  network: ws
+  port: 8080
+  server: yh1.dtku41.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: '21,32,40|🇺🇸_US_美国 #10'
+  network: ws
+  port: 8080
+  server: yh2.dtku41.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 2
+  cipher: auto
+  name: 21,34,39|香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 32|🇨🇳CN-124.222.189.225-1762
+  network: ws
+  port: 80
+  server: 124.222.189.225
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a8c9ad5b-1f58-4234-b5fe-a895bee9a047
+  ws-opts:
+    headers:
+      Host: ''
+    path: /

@@ -1,1 +1,66 @@
-proxies: []
+proxies:
+- name: '31,32|🇰🇷KR-144.24.72.126-2640 #1'
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  port: 443
+  server: 144.24.72.126
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇰🇷KR-52.231.200.179-1634
+  network: ws
+  port: 443
+  server: fullaccesstokoreannetsubnode1.azurewebsites.net
+  servername: fullaccesstokoreannetsubnode1.azurewebsites.net
+  tls: true
+  type: vmess
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstokoreannetsubnode1.azurewebsites.net
+    path: /ws
+- name: 32|🇰🇷KR-123.140.124.24-2389
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.seoulcitygovernment.com.ua
+  type: trojan
+- name: 32|🇰🇷KR-123.140.124.25-2600
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.seoulcityhall.com.ua
+  type: trojan
+- name: 32|🇰🇷KR-123.140.124.25-2729
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.seoulcityhall.com.ua
+  type: trojan
+- name: 32|🇰🇷KR-3.34.6.217-3699
+  password: xxoo
+  port: 443
+  server: 3.34.6.217
+  type: trojan
+- client-fingerprint: random
+  name: 40|TG@ZDYZ2 -KR5
+  network: ws
+  port: 443
+  server: 129.154.198.48
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 40|TG@ZDYZ2 -KR2
+  network: ws
+  port: 2096
+  server: 91.193.58.98
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2

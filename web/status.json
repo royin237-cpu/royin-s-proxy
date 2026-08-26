@@ -1,15 +1,15 @@
 {
-  "total": 1809,
+  "total": 1483,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 91
+      "count": 11
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 105
+      "count": 61
     },
     "CN": {
       "flag": "🇨🇳",
@@ -19,7 +19,7 @@
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 14
+      "count": 5
     },
     "TW": {
       "flag": "🇹🇼",
@@ -29,37 +29,37 @@
     "CA": {
       "flag": "🇦🇨",
       "name": "加拿大",
-      "count": 11
+      "count": 3
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 24
+      "count": 6
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 15
+      "count": 7
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 19
+      "count": 8
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 42
+      "count": 5
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 4
+      "count": 2
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 8
+      "count": 3
     },
     "EE": {
       "flag": "🇪🇪",
@@ -67,8 +67,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-19 07:36",
-  "server_time": "2026-08-19 07:36:35",
+  "update_time": "2026-08-26 18:21",
+  "server_time": "2026-08-26 18:21:13",
   "sources": [
     {
       "index": 0,
@@ -118,7 +118,7 @@
     {
       "index": 9,
       "url": "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
-      "nodes": 626
+      "nodes": 589
     },
     {
       "index": 10,
@@ -163,12 +163,12 @@
     {
       "index": 18,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
-      "nodes": 48
+      "nodes": 58
     },
     {
       "index": 19,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 121
+      "nodes": 71
     },
     {
       "index": 20,
@@ -178,7 +178,7 @@
     {
       "index": 21,
       "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
-      "nodes": 130
+      "nodes": 251
     },
     {
       "index": 22,
@@ -233,7 +233,7 @@
     {
       "index": 32,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 4037
+      "nodes": 3981
     },
     {
       "index": 33,
@@ -243,7 +243,7 @@
     {
       "index": 34,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
-      "nodes": 297
+      "nodes": 104
     },
     {
       "index": 35,
@@ -278,7 +278,7 @@
     {
       "index": 41,
       "url": "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml",
-      "nodes": 159
+      "nodes": 141
     },
     {
       "index": 42,
