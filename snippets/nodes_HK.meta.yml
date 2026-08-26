@@ -1,4 +1,10 @@
 proxies:
+- name: 18|🇭🇰 HK
+  password: f4927789e58bcd24b6f6
+  port: 10444
+  server: h.zz2233.cyou
+  sni: h.zz2233.cyou
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '31,32|🇭🇰HK-47.244.120.197-4702 #1'
@@ -11,7 +17,7 @@ proxies:
   uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
-      Host: ''
+      Host: 47.244.120.197
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
@@ -25,7 +31,7 @@ proxies:
   uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
     headers:
-      Host: ''
+      Host: 47.244.120.197
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
@@ -53,7 +59,7 @@ proxies:
   uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
-      Host: ''
+      Host: 47.244.120.197
     path: /
 - alterId: 0
   cipher: auto
@@ -67,7 +73,7 @@ proxies:
   uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
     headers:
-      Host: ''
+      Host: 47.244.120.197
     path: /
 - alterId: 0
   cipher: auto
@@ -81,7 +87,21 @@ proxies:
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     headers:
-      Host: ''
+      Host: 156.245.232.239
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '31,32|🇭🇰HK-219.76.13.177-0215 #1'
+  network: ws
+  port: 443
+  server: 219.76.13.177
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f033bd38-fe03-4705-883c-e45654eaa082
+  ws-opts:
+    headers:
+      Host: hkhgc.meizhiyuanya.xyz
     path: /
 - name: '31,32|🇭🇰HK-185.244.208.13-0244 #1'
   password: ND91608427
@@ -89,6 +109,72 @@ proxies:
   server: ace-starling.rooster465.autos
   sni: ace-starling.rooster465.autos
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 32|🇭🇰HK-47.239.189.182-0457
+  network: ws
+  port: 80
+  server: ee.oppo.quest
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
+  ws-opts:
+    headers:
+      Host: ee.oppo.quest
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇭🇰HK-47.239.189.182-0465
+  network: ws
+  port: 80
+  server: cfhk.oppo.quest
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
+  ws-opts:
+    headers:
+      Host: scw.cloudflare.quest
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇭🇰HK-207.46.147.148-1609
+  network: ws
+  port: 443
+  server: fullaccesstohongkongnet.azurewebsites.net
+  servername: fullaccesstohongkongnet.azurewebsites.net
+  tls: true
+  type: vmess
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstohongkongnet.azurewebsites.net
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: 32|🇭🇰HK-43.100.32.4-1819
+  network: ws
+  port: 443
+  server: n1747624260.4u9ma.icu
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  ws-opts:
+    headers:
+      Host: n1747624260.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|🇭🇰HK-8.210.206.163-1972
+  network: http
+  port: 45719
+  server: 8.210.206.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a220dad2-a34e-4460-b0f7-eaba9c46e639
 - name: 32|🇭🇰HK-20.187.85.198-4174
   password: b26e31e5-eac1-45b0-9069-83830bd69521
   port: 443
@@ -101,16 +187,14 @@ proxies:
   server: 219.76.13.181
   sni: arbettp.freetrade.link
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 34,39|香港|@ripaojiedian
+- name: 34,38,39|香港4|@ripaojiedian
   network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  password: BxceQaOe
+  port: 1103
+  server: 95.40.24.109
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: '38|🇭🇰 香港|@ripaojiedian #1'

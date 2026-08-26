@@ -1,28 +1,30 @@
 proxies:
-- alterId: '0'
+- alterId: 0
   cipher: auto
   name: 10,11|471_荷兰-584.2KB
   network: ws
-  port: '80'
+  port: 80
   server: 188.114.99.2
-  tls: 0
+  tls: false
   type: vmess
   uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  ws-headers:
-    host: fr.v2ray1.xyz
-  ws-path: /
-- alterId: '0'
+  ws-opts:
+    headers:
+      Host: fr.v2ray1.xyz
+    path: /
+- alterId: 0
   cipher: auto
   name: 11|437_荷兰-3.85MB
   network: ws
-  port: '2096'
+  port: 2096
   server: mkh.ircf.space
-  tls: 1
+  tls: true
   type: vmess
   uuid: 6cf2745b-f46e-4820-8b1d-00082b2544b0
-  ws-headers:
-    host: dl.filmino.online
-  ws-path: /graphql
+  ws-opts:
+    headers:
+      Host: dl.filmino.online
+    path: /graphql
 - name: 18|荷兰
   obfs: salamander
   obfs-password: HysteriaHowdy
@@ -31,7 +33,6 @@ proxies:
   server: hysteria.udpgw.com
   skip-cert-verify: true
   sni: sni-here.com
-  tls: false
   type: hysteria2
 - client-fingerprint: chrome
   name: 21|荷兰 002
@@ -493,7 +494,7 @@ proxies:
   uuid: df756db8-a7de-4ff9-a847-d2632bd021e2
   ws-opts:
     headers:
-      Host: ''
+      Host: 104.248.80.136
     path: /graphql
 - name: 32|🇳🇱NL-51.158.146.183-6756
   password: f6a0a650-306e-11ee-b692-1239d0255272
@@ -513,7 +514,7 @@ proxies:
   uuid: d8d8b6c0-2ec6-11ee-b836-205c6d5f5d78
   ws-opts:
     headers:
-      Host: ''
+      Host: 51.15.19.206
     path: /V2RayyNGvpn
 - alterId: 0
   cipher: auto
@@ -527,7 +528,7 @@ proxies:
   uuid: 3a3ac0c0-31f4-11ee-b337-205c6d5f5d78
   ws-opts:
     headers:
-      Host: ''
+      Host: 51.15.19.206
     path: /V2RayyNGvpn
 - alterId: 0
   cipher: auto
@@ -541,7 +542,7 @@ proxies:
   uuid: d8d8b6c0-2ec6-11ee-b836-205c6d5f5d78
   ws-opts:
     headers:
-      Host: ''
+      Host: 51.15.19.206
     path: /V2RayyNGvpn
 - name: 41|NL_speednode_0004
   port: 9002

@@ -11,5 +11,5 @@ proxies:
   uuid: 91698747-92b3-4a07-b5da-22694edbea82
   ws-opts:
     headers:
-      Host: ''
+      Host: 65.109.134.191
     path: /graphql

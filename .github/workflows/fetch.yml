@@ -52,6 +52,15 @@ jobs:
         MIHOMO_DATA: ${{ github.workspace }}/mihomo_data
       run: python ./fetch.py
 
+    - name: 真实代理测活并过滤订阅
+      env:
+        MIHOMO_BIN: ${{ github.workspace }}/mihomo
+        ALIVE_TEST_URL: https://www.gstatic.com/generate_204
+        ALIVE_TIMEOUT_MS: '7000'
+        ALIVE_WORKERS: '128'
+        ALIVE_RETRY: '1'
+      run: python ./check_alive.py
+
     - name: 生成面板状态 JSON
       run: python ./gen_status.py
 

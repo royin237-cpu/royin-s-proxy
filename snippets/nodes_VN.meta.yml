@@ -11,7 +11,7 @@ proxies:
   uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
   ws-opts:
     headers:
-      Host: ''
+      Host: dl.kgvn.garenanow.com
     path: /tandung288.click
 - alterId: 0
   cipher: auto
@@ -25,7 +25,7 @@ proxies:
   uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
   ws-opts:
     headers:
-      Host: ''
+      Host: 103.56.160.184
     path: /tandung288.click
 - alterId: 0
   cipher: auto
@@ -39,7 +39,7 @@ proxies:
   uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
   ws-opts:
     headers:
-      Host: ''
+      Host: 103.75.186.153
     path: /tandung288.click
 - name: 32|🇻🇳VN-103.195.236.24-2384
   password: 5623be5f-c9da-4511-81a9-b4b39b16edae
@@ -63,5 +63,5 @@ proxies:
   uuid: ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c
   ws-opts:
     headers:
-      Host: ''
+      Host: 103.82.25.106
     path: /fuzzyng?ed=2048

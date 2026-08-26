@@ -150,7 +150,62 @@ class Node:
         if 'password' in self.data:
             self.data['password'] = str(self.data['password'])
         self.data['type'] = self.type
+        self.normalize_data()
         self.name: str = self.data['name']
+
+    def normalize_data(self) -> None:
+        """Normalize fields that differ between old Clash YAML and current cores."""
+        data = self.data
+
+        for key in ('port', 'alterId'):
+            if key in data:
+                try:
+                    data[key] = int(str(data[key]).strip())
+                except (TypeError, ValueError):
+                    pass
+
+        for key in ('tls', 'skip-cert-verify', 'udp'):
+            if key not in data or isinstance(data[key], bool):
+                continue
+            if isinstance(data[key], int):
+                data[key] = bool(data[key])
+            elif isinstance(data[key], str):
+                value = data[key].strip().lower()
+                if value in ('1', 'true', 'yes', 'on', 'tls'):
+                    data[key] = True
+                elif value in ('0', 'false', 'no', 'off', ''):
+                    data[key] = False
+
+        if self.type == 'vmess':
+            if data.get('network') == 'ws':
+                opts = data.get('ws-opts', {})
+                if not isinstance(opts, dict):
+                    opts = {}
+
+                # Some upstream files still use the pre-Meta ws-headers/ws-path layout.
+                old_headers = data.pop('ws-headers', {})
+                if isinstance(old_headers, dict):
+                    host = old_headers.get('Host', old_headers.get('host'))
+                    if host:
+                        opts.setdefault('headers', {})['Host'] = host
+
+                old_path = data.pop('ws-path', None)
+                if old_path:
+                    opts['path'] = old_path
+                opts.setdefault('path', '/')
+
+                headers = opts.get('headers', {})
+                if not headers.get('Host'):
+                    headers['Host'] = str(data.get('servername') or data.get('server') or '')
+                opts['headers'] = headers
+                data['ws-opts'] = opts
+            else:
+                data.pop('ws-headers', None)
+                data.pop('ws-path', None)
+
+        # Hysteria2 is always TLS based; its schema does not use a tls switch.
+        if self.type == 'hysteria2':
+            data.pop('tls', None)
 
     def __str__(self):
         return self.url
@@ -484,7 +539,7 @@ class Node:
             ret = (':'.join([str(self.data[_]) for _ in ('server','port',
                                         'protocol','cipher','obfs')]) +
                     b64encodes_safe(self.data['password']) +
-                    f"remarks={b64encodes_safe(self.data['name'])}")
+                    f"/?remarks={b64encodes_safe(self.data['name'])}")
             for k, urlk in (('obfs-param','obfsparam'), ('protocol-param','protoparam'), ('group','group')):
                 if k in self.data:
                     ret += '&'+urlk+'='+b64encodes_safe(self.data[k])
@@ -502,7 +557,8 @@ class Node:
                 ret += f"alpn={quote(','.join(data['alpn']))}&"
             if 'network' in data:
                 if data['network'] == 'grpc':
-                    ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+                    grpc_name = data.get('grpc-opts', {}).get('grpc-service-name', '')
+                    ret += f"type=grpc&serviceName={quote(str(grpc_name))}&"
                 elif data['network'] == 'ws':
                     ret += f"type=ws&"
                     if 'ws-opts' in data:
@@ -526,7 +582,8 @@ class Node:
                 ret += f"alpn={quote(','.join(data['alpn']))}&"
             if 'network' in data:
                 if data['network'] == 'grpc':
-                    ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+                    grpc_name = data.get('grpc-opts', {}).get('grpc-service-name', '')
+                    ret += f"type=grpc&serviceName={quote(str(grpc_name))}&"
                 elif data['network'] == 'ws':
                     ret += f"type=ws&"
                     if 'ws-opts' in data:
@@ -568,6 +625,18 @@ class Node:
                     ret += f"{k}={data[k]}&"
             ret = ret.rstrip('&')+'#'+name
             return ret
+
+        if self.type in ('http', 'socks5'):
+            username = data.get('username')
+            password = data.get('password')
+            if username is not None:
+                auth = quote(str(username))
+                if password is not None:
+                    auth += ':'+quote(str(password))
+                ret = f"{self.type}://{auth}@{data['server']}:{data['port']}"
+            else:
+                ret = f"{self.type}://{data['server']}:{data['port']}"
+            return ret+f"#{quote(data['name'])}"
 
         raise UnsupportedType(self.type)
 
@@ -1264,7 +1333,7 @@ def main():
         # 地区子组模板：fallback 类型，自动逐个探测首个可用节点
         ctg_auto = ctg_base.copy()
         ctg_auto['type'] = 'fallback'
-        ctg_auto['url'] = 'https://www.google.com/'
+        ctg_auto['url'] = 'http://www.gstatic.com/generate_204'
         ctg_auto['interval'] = 300
         for ctg, payload in ctg_nodes.items():
             if ctg in ctg_disp:
@@ -1299,7 +1368,7 @@ def main():
         # 地区子组模板：fallback 类型，自动逐个探测首个可用节点
         ctg_auto = ctg_base.copy()
         ctg_auto['type'] = 'fallback'
-        ctg_auto['url'] = 'https://www.google.com/'
+        ctg_auto['url'] = 'http://www.gstatic.com/generate_204'
         ctg_auto['interval'] = 300
         for ctg, payload in ctg_nodes_meta.items():
             if ctg in ctg_disp:

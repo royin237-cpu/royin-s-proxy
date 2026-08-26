@@ -124,7 +124,7 @@ proxies:
   uuid: 43587dc1-34f1-4254-ab90-56507e72d7a8
   ws-opts:
     headers:
-      Host: ''
+      Host: 51.159.2.152
     path: /
 - alterId: 0
   cipher: auto
@@ -138,7 +138,7 @@ proxies:
   uuid: 6e7ef21f-4736-480e-93aa-1f7d54f28089
   ws-opts:
     headers:
-      Host: ''
+      Host: 51.83.97.167
     path: /vmess
 - alterId: 0
   cipher: auto
@@ -152,7 +152,7 @@ proxies:
   uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   ws-opts:
     headers:
-      Host: ''
+      Host: lg30.cfcdn3.xyz
     path: /ray
 - name: 32|🇫🇷FR-51.159.59.186-6612
   password: 9498f3a0-2992-11ee-a4c7-1239d0255272
@@ -190,5 +190,5 @@ proxies:
   uuid: 2e68015f-a8b2-4893-a7a3-4edb19b178d9
   ws-opts:
     headers:
-      Host: ''
+      Host: 217.182.76.202
     path: /

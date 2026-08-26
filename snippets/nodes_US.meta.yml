@@ -2,57 +2,61 @@ proxies:
 - cipher: aes-256-cfb
   name: 10,11|201_美国-1.02MB
   password: amazonskr05
-  port: '443'
+  port: 443
   server: 54.185.193.85
   type: ss
-- alterId: '0'
+- alterId: 0
   cipher: auto
   name: 10,11|256_美国-334.7KB
   network: ws
-  port: '80'
+  port: 80
   server: 205.185.113.46
-  tls: 0
+  tls: false
   type: vmess
   uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-  ws-headers:
-    host: ''
-  ws-path: /shirker
-- alterId: '0'
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: 205.185.113.46
+- alterId: 0
   cipher: auto
   name: 10,11|274_美国-315.7KB
   network: ws
-  port: '80'
+  port: 80
   server: 172.67.73.165
-  tls: 0
+  tls: false
   type: vmess
   uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  ws-headers:
-    host: lg.v2ray8.xyz
-  ws-path: /
-- alterId: '0'
+  ws-opts:
+    headers:
+      Host: lg.v2ray8.xyz
+    path: /
+- alterId: 0
   cipher: auto
   name: 10,11|458_亚美亚-383.4KB
   network: ws
-  port: '80'
+  port: 80
   server: 185.162.228.229
-  tls: 0
+  tls: false
   type: vmess
   uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  ws-headers:
-    host: lg.v2ray8.xyz
-  ws-path: /
-- alterId: '0'
+  ws-opts:
+    headers:
+      Host: lg.v2ray8.xyz
+    path: /
+- alterId: 0
   cipher: auto
   name: 11|236_美国-519.8KB
   network: ws
-  port: '443'
+  port: 443
   server: cf-lt.sharecentre.online
-  tls: 1
+  tls: true
   type: vmess
   uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-  ws-headers:
-    host: de1.sharecentrepro.org
-  ws-path: /shirker
+  ws-opts:
+    headers:
+      Host: de1.sharecentrepro.org
+    path: /shirker
 - name: 13|美国+3
   password: 414dff55-922a-4dc8-b5d3-b6517942b25a
   port: 15003
@@ -223,7 +227,6 @@ proxies:
   server: nl1.sferavpn.pro
   skip-cert-verify: true
   sni: nl1.sferavpn.pro
-  tls: false
   type: hysteria2
 - client-fingerprint: chrome
   name: 21,34|🇵🇱_PL_波兰->🇮🇹_IT_意大利
@@ -661,7 +664,7 @@ proxies:
   cipher: auto
   name: '21,32,40|美国|@ripaojiedian #1'
   network: ws
-  port: '8080'
+  port: 8080
   server: fbi.gov
   servername: ''
   tls: false
@@ -9300,7 +9303,7 @@ proxies:
   cipher: auto
   name: 26,40|美国测试节点
   network: ws
-  port: '443'
+  port: 443
   server: gov.uk
   servername: gov.uk
   tls: true
@@ -9387,7 +9390,7 @@ proxies:
   uuid: db8f8bbe-c589-4316-8063-49baaf0fd858
   ws-opts:
     headers:
-      Host: ''
+      Host: tms.dingtalk.com
     path: /
 - name: '32,34|🇵🇱_PL_波兰->🇺🇦_UA_乌克兰 #1'
   password: a126f35c-e832-4115-8593-b723ade3f7be
@@ -9431,7 +9434,7 @@ proxies:
   uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
   ws-opts:
     headers:
-      Host: ''
+      Host: 192.96.204.250
     path: /ws
 - alterId: 0
   cipher: auto
@@ -9459,7 +9462,7 @@ proxies:
   uuid: 6fea1649-425b-4092-bf53-29792152c925
   ws-opts:
     headers:
-      Host: ''
+      Host: 51.81.220.195
     path: /sshkit/Yarayauj/6349911f83b31/
 - name: 32|🇺🇸US-13.248.169.48-2526
   password: 61605c66-6d41-4b9d-a496-b9898f3f95d0
@@ -9478,7 +9481,7 @@ proxies:
   uuid: 6fea1649-425b-4092-bf53-29792152c925
   ws-opts:
     headers:
-      Host: ''
+      Host: 51.81.220.195
     path: /sshkit/Uvuwbwb/6373b77a048a6/
 - alterId: 0
   cipher: auto
@@ -9492,7 +9495,7 @@ proxies:
   uuid: 6fea1649-425b-4092-bf53-29792152c925
   ws-opts:
     headers:
-      Host: ''
+      Host: 51.81.220.195
     path: /sshkit/Variu88/634dab7abadf1/
 - alterId: 0
   cipher: auto
@@ -9506,7 +9509,7 @@ proxies:
   uuid: 0842be25-d718-491a-bca8-5e9d080150e6
   ws-opts:
     headers:
-      Host: ''
+      Host: 51.81.220.34
     path: /vmess
 - alterId: 0
   cipher: auto
@@ -9609,7 +9612,7 @@ proxies:
   uuid: 973c2639-c9c2-484d-ae9b-3d68b2f30d9e
   ws-opts:
     headers:
-      Host: ''
+      Host: 147.135.112.248
     path: /
 - alterId: 0
   cipher: auto
@@ -9689,7 +9692,7 @@ proxies:
   uuid: de04add9-5c68-8bab-950c-08cd5320df18
   ws-opts:
     headers:
-      Host: ''
+      Host: 66.241.124.93
     path: /vmess
 - alterId: 0
   cipher: auto
@@ -9703,7 +9706,7 @@ proxies:
   uuid: e9dc5466-3768-4d45-8fd0-f1181139bb4e
   ws-opts:
     headers:
-      Host: ''
+      Host: 47.88.104.186
     path: /4DJIP58JF6JTq4HIG0yr
 - alterId: 0
   cipher: auto
@@ -9717,7 +9720,7 @@ proxies:
   uuid: 203b2ab2-4994-4193-8193-6631a575edb0
   ws-opts:
     headers:
-      Host: ''
+      Host: 47.254.89.211
     path: /GSoTl9ZoYG5V2R0k4tUTGI8k
 - alterId: 0
   cipher: auto
@@ -9731,7 +9734,7 @@ proxies:
   uuid: 2caa5a0e-519b-4503-80d4-5363193e5018
   ws-opts:
     headers:
-      Host: ''
+      Host: 47.254.17.235
     path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
 - alterId: 0
   cipher: auto
@@ -9745,7 +9748,7 @@ proxies:
   uuid: 2caa5a0e-519b-4503-80d4-5363193e5018
   ws-opts:
     headers:
-      Host: ''
+      Host: 47.254.17.235
     path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
 - alterId: 0
   cipher: auto
@@ -9759,7 +9762,7 @@ proxies:
   uuid: f3464642-f113-4575-aa33-f68aef56b5c0
   ws-opts:
     headers:
-      Host: ''
+      Host: 47.254.16.114
     path: /mePGXW6SFZZw2QyAqaYK
 - alterId: 0
   cipher: auto
@@ -9773,7 +9776,7 @@ proxies:
   uuid: c778fc8d-ce2f-4cd3-a949-1b99091c41da
   ws-opts:
     headers:
-      Host: ''
+      Host: 47.254.121.68
     path: /OFglbcWQ8P3dJUA7yf
 - alterId: 0
   cipher: auto
@@ -9787,7 +9790,7 @@ proxies:
   uuid: b36473e1-49c5-438e-85c4-d56796200585
   ws-opts:
     headers:
-      Host: ''
+      Host: 47.253.60.200
     path: /swoole
 - alterId: 0
   cipher: auto
@@ -9801,7 +9804,7 @@ proxies:
   uuid: aa482fd0-21fc-4f24-974a-987a6c75a05d
   ws-opts:
     headers:
-      Host: ''
+      Host: 47.253.55.72
     path: /swoole
 - name: 32|🇺🇸US-15.204.210.176-7346
   password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f
@@ -9827,7 +9830,7 @@ proxies:
   uuid: deafc56d-ba76-4ff2-b3b3-a9335b0982e0
   ws-opts:
     headers:
-      Host: ''
+      Host: 135.148.47.240
     path: /vmess
 - name: 32|🇺🇸US-135.148.148.4-7400
   password: 800eb26c-cd0c-4269-aae7-e63d75de4edd
@@ -9915,7 +9918,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #1'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.224.8
   tls: false
   type: vmess
@@ -9941,7 +9944,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #4'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.230.53
   servername: ''
   tls: false
@@ -9969,7 +9972,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #6'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.235.76
   tls: false
   type: vmess
@@ -10007,7 +10010,7 @@ proxies:
   cipher: auto
   name: 40|🇺🇸 United States 01 @nodpai
   network: ws
-  port: '8080'
+  port: 8080
   server: hytron.io
   tls: false
   type: vmess
@@ -10062,7 +10065,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #14'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.237.65
   tls: false
   type: vmess
@@ -10110,6 +10113,8 @@ proxies:
   uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
   ws-opts:
     path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+    headers:
+      Host: cold-dawn-9246.fly.dev
 - alterId: 0
   cipher: auto
   name: '40|美国 CloudFlare节点 #18'
@@ -10128,7 +10133,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #19'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.224.23
   tls: false
   type: vmess
@@ -10201,7 +10206,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #22'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.234.74
   tls: false
   type: vmess
@@ -10214,7 +10219,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #23'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.230.50
   servername: ''
   tls: false
@@ -10228,7 +10233,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #24'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.228.40
   servername: ''
   tls: false
@@ -10242,7 +10247,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #25'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.228.41
   tls: false
   type: vmess
@@ -10269,7 +10274,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #27'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.232.63
   tls: false
   type: vmess
@@ -10469,7 +10474,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #35'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.230.51
   servername: ''
   tls: false
@@ -10511,7 +10516,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #38'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.236.60
   tls: false
   type: vmess
@@ -10524,7 +10529,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #39'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.238.92
   tls: false
   type: vmess
@@ -10537,7 +10542,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #40'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.239.77
   tls: false
   type: vmess
@@ -10564,7 +10569,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #42'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.229.26
   tls: false
   type: vmess
@@ -10590,7 +10595,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #43'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.227.15
   tls: false
   type: vmess
@@ -10603,7 +10608,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #44'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.228.20
   tls: false
   type: vmess
@@ -10642,7 +10647,7 @@ proxies:
   cipher: auto
   name: '40|美国 CloudFlare节点 #46'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.229.47
   tls: false
   type: vmess

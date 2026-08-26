@@ -21,7 +21,11 @@ REGIONS = OrderedDict([
     ("JP", "日本"), ("US", "美国"), ("HK", "香港"), ("TW", "台湾"),
     ("SG", "新加坡"), ("KR", "韩国"), ("GB", "英国"), ("FR", "法国"),
     ("DE", "德国"), ("CA", "加拿大"), ("RU", "俄罗斯"), ("SE", "瑞典"),
-    ("EE", "爱沙尼亚"), ("CN", "中国"),
+    ("EE", "爱沙尼亚"), ("NL", "荷兰"), ("RO", "罗马尼亚"),
+    ("IN", "印度"), ("TH", "泰国"), ("TR", "土耳其"), ("AU", "澳大利亚"),
+    ("IT", "意大利"), ("ES", "西班牙"), ("BR", "巴西"), ("VN", "越南"),
+    ("ID", "印尼"), ("PH", "菲律宾"), ("UA", "乌克兰"), ("PL", "波兰"),
+    ("FI", "芬兰"), ("CN", "中国"),
 ])
 
 
@@ -45,8 +49,40 @@ def load_region_proxies():
             nodes = []
         for n in nodes[:TAKE_PER_REGION]:
             if isinstance(n, dict) and n.get("name"):
-                proxies.append(n)
+                proxies.append(normalize_proxy(n))
     return proxies
+
+
+def normalize_proxy(node):
+    node = dict(node)
+    if node.get("type") == "hysteria2":
+        node.pop("tls", None)
+    if node.get("type") == "vmess" and node.get("network") == "ws":
+        opts = dict(node.get("ws-opts") or {})
+        headers = dict(opts.get("headers") or {})
+        headers.setdefault("Host", str(node.get("servername") or node.get("server") or ""))
+        opts["headers"] = headers
+        opts.setdefault("path", "/")
+        node["ws-opts"] = opts
+    node.pop("ws-headers", None)
+    node.pop("ws-path", None)
+    for key in ("port", "alterId"):
+        if key in node:
+            try:
+                node[key] = int(str(node[key]).strip())
+            except (TypeError, ValueError):
+                pass
+    for key in ("tls", "udp", "skip-cert-verify"):
+        if key in node and type(node[key]) is not bool:
+            if isinstance(node[key], int):
+                node[key] = bool(node[key])
+            elif isinstance(node[key], str):
+                value = node[key].strip().lower()
+                if value in ("1", "true", "yes", "on", "tls"):
+                    node[key] = True
+                elif value in ("0", "false", "no", "off", ""):
+                    node[key] = False
+    return node
 
 
 def main():

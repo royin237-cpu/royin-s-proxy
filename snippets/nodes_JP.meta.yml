@@ -2,7 +2,7 @@ proxies:
 - cipher: aes-256-cfb
   name: 10,11|370_日本-4.55MB
   password: amazonskr05
-  port: '443'
+  port: 443
   server: 43.207.205.208
   type: ss
 - name: 18|日本
@@ -11,7 +11,6 @@ proxies:
   server: jp.cryptoofarm.com
   skip-cert-verify: true
   sni: jp.cryptoofarm.com
-  tls: false
   type: hysteria2
 - name: 21|日本 004
   network: ws
@@ -175,7 +174,7 @@ proxies:
   uuid: 927094d3-d678-4763-8591-e240d0bcae87
   ws-opts:
     headers:
-      Host: ''
+      Host: 172.104.78.98
     path: /chat
 - name: 32|🇯🇵JP-153.125.148.41-4083
   password: 14bdba6dede262387ebdebaa706e1c90
@@ -198,7 +197,7 @@ proxies:
   cipher: auto
   name: 40|🇯🇵日本 01
   network: ws
-  port: '2086'
+  port: 2086
   server: linode.appleid.bf
   tls: false
   type: vmess

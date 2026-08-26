@@ -64,5 +64,5 @@ proxies:
   uuid: 824c58b1-65ba-4680-a609-663a000dbb92
   ws-opts:
     headers:
-      Host: ''
+      Host: 45.94.169.142
     path: /wss13889

@@ -56,7 +56,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: ''
+      Host: 171.22.134.12
     path: /path/1689849487190
 - alterId: 64
   cipher: auto
@@ -70,5 +70,5 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: ''
+      Host: 171.22.134.12
     path: /path/1689935243027
