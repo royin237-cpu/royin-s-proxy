@@ -344,7 +344,7 @@ async function init() {
 // ── 获取状态（读取静态 JSON） ──
 async function fetchStatus() {
   try {
-    const res = await fetch('status.json');
+    const res = await fetch('status.json?_=' + Date.now(), { cache: 'no-store' });
     const data = await res.json();
     document.getElementById('stat-total').textContent = data.total || 0;
     document.getElementById('ann-total').textContent = data.total || 0;
