@@ -1,6 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|UA 10 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: de2-full.privateip.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0069f6f7-5b7d-4a0f-82f2-8e689d88c9be
+  ws-opts:
+    headers:
+      Host: de2-full.privateip.net
+    path: /RACEVPN
+- name: 16|UA 12 → tg@nicevpn123
+  password: 17fdf23d-2cc4-48bb-a8d4-6d0cabda51f9
+  port: 443
+  server: kz-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 16|UA 36 → tg@nicevpn123
+  password: f8552bb4-47ed-4fa0-af14-ad8874ac4f9d
+  port: 443
+  server: tr-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
   name: 16|UA 45 → tg@nicevpn123
   network: ws
   port: 80
@@ -14,6 +43,109 @@ proxies:
     headers:
       Host: ee2-vmess.sshmax.xyz
     path: /vmess
+- name: 16|UA 46 → tg@nicevpn123
+  password: c73406e2-1d3a-4724-a691-4d0b7f36cee9
+  port: 443
+  server: it-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16|UA 5 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: uk1-vmess.greenssh.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b5aafe8c-3527-4502-8add-9ca7417cfc88
+  ws-opts:
+    headers:
+      Host: uk1-vmess.greenssh.xyz
+    path: /
+- name: 16|UA 50 → tg@nicevpn123
+  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
+  port: 443
+  server: de2-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 16|UA 51 → tg@nicevpn123
+  password: 6e28f704-29a0-4c86-b25b-dd090603c741
+  port: 443
+  server: nl2-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16|UA 54 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: kz-full.privateip.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fc5348ee-1fb4-4050-af65-bba3580df5fd
+  ws-opts:
+    headers:
+      Host: kz-full.privateip.net
+    path: /RACEVPN
+- name: 16|UA 55 → tg@nicevpn123
+  password: 70eb38a6-673c-4877-bceb-dbe6369fa210
+  port: 443
+  server: it-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16|UA 59 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: nl2-full.privateip.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b7a0cf39-99fa-47a4-8d9f-5263806e8cce
+  ws-opts:
+    headers:
+      Host: nl2-full.privateip.net
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 16|UA 62 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: de2-full.privateip.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7a24704b-5d64-48a9-94d7-726ba993d51f
+  ws-opts:
+    headers:
+      Host: de2-full.privateip.net
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 16|UA 69 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: tr-full.privateip.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5d23f47a-0c7f-4280-82e5-5993d50e1f18
+  ws-opts:
+    headers:
+      Host: tr-full.privateip.net
+    path: /RACEVPN
 - alterId: 0
   cipher: auto
   name: 16|UA 7 → tg@nicevpn123
@@ -29,6 +161,20 @@ proxies:
     headers:
       Host: tr2-vless.sshmax.xyz
     path: /vmess
+- name: 16|UA 71 → tg@nicevpn123
+  password: dcf0fcec-3800-4f42-9b78-1323f6a4a004
+  port: 443
+  server: de2-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 16|UA 73 → tg@nicevpn123
+  password: 4e0f0b6d-8164-4b4b-99be-1f7ad19c7600
+  port: 443
+  server: tr-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 16|UA 74 → tg@nicevpn123
@@ -46,6 +192,35 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
+  name: 16|UA 75 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: it-full.privateip.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: adf0e49b-36b3-41fa-b2df-2977c35e1021
+  ws-opts:
+    headers:
+      Host: it-full.privateip.net
+    path: /RACEVPN
+- name: 16|UA 77 → tg@nicevpn123
+  password: 63384531-a43e-4250-bd1e-b20c5cffed6c
+  port: 443
+  server: kz-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 16|UA 78 → tg@nicevpn123
+  password: 296121e4-0b5e-40dd-8538-b254e555e9fa
+  port: 443
+  server: de2-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
   name: 16|UA 82 → tg@nicevpn123
   network: ws
   port: 443
@@ -59,6 +234,23 @@ proxies:
     headers:
       Host: tr2-vless.sshmax.xyz
     path: /vmess
+- name: 16|UA 9 → tg@nicevpn123
+  password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
+  port: 443
+  server: nl2-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 25,46|未知94
+  network: tcp
+  port: 22324
+  server: 85.90.217.42
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - name: 25|乌克兰 005
   network: ws
   port: 443
@@ -74,3 +266,31 @@ proxies:
     headers:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
     path: /pg/10086-dfc816f117c491730|+🇧🇪+比利时+03+|+188.190.26.243:443
+- client-fingerprint: chrome
+  name: 25|乌克兰 006
+  network: ws
+  port: 2087
+  server: 45.67.215.159
+  servername: probabblynot.fazelextremeisreal.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: probabblynot.fazelextremeisreal.com
+    path: /
+- name: 47|🇺🇦+UA+乌克兰+75
+  network: ws
+  port: 443
+  server: 45.80.111.198
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'

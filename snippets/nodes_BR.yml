@@ -1,7 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.96.145-0579
+  name: 25|巴西 001
+  network: ws
+  port: 443
+  server: 188.114.97.110
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  ws-opts:
+    headers:
+      Host: v2fly.samrt.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.96.145-0579
   network: ws
   port: 80
   server: 188.114.96.145
@@ -16,7 +30,7 @@ proxies:
     path: /?BIA_TELEGRAM
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.96.42-0580
+  name: 25,38|🏁RELAY-188.114.96.42-0580
   network: ws
   port: 80
   server: 188.114.96.42
@@ -31,7 +45,7 @@ proxies:
     path: /?BIA_TELEGRAM
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.96.9-0581
+  name: 25,38|🏁RELAY-188.114.96.9-0581
   network: ws
   port: 80
   server: 188.114.96.9
@@ -46,7 +60,7 @@ proxies:
     path: /?BIA_TELEGRAM
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.96.7-0724
+  name: 25,38|🏁RELAY-188.114.96.7-0724
   network: ws
   port: 443
   server: 188.114.96.7
@@ -61,7 +75,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.96.58-0725
+  name: 25,38|🏁RELAY-188.114.96.58-0725
   network: ws
   port: 443
   server: 188.114.96.58
@@ -76,7 +90,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.98.0-0726
+  name: 25,38|🏁RELAY-188.114.98.0-0726
   network: ws
   port: 443
   server: 188.114.98.0
@@ -91,7 +105,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.97.1-0727
+  name: 25,38|🏁RELAY-188.114.97.1-0727
   network: ws
   port: 443
   server: 22.vmessprotocol.telegram-vmessprotocol-channel.space
@@ -106,7 +120,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.97.7-0728
+  name: 25,38|🏁RELAY-188.114.97.7-0728
   network: ws
   port: 443
   server: 188.114.97.7
@@ -121,7 +135,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.96.2-0729
+  name: 25,38|🏁RELAY-188.114.96.2-0729
   network: ws
   port: 443
   server: 188.114.96.2
@@ -136,7 +150,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.97.1-0730
+  name: 25,38|🏁RELAY-188.114.97.1-0730
   network: ws
   port: 443
   server: 188.114.97.1
@@ -151,7 +165,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.96.3-0731
+  name: 25,38|🏁RELAY-188.114.96.3-0731
   network: ws
   port: 443
   server: 188.114.96.3
@@ -166,7 +180,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.97.18-0732
+  name: 25,38|🏁RELAY-188.114.97.18-0732
   network: ws
   port: 443
   server: 188.114.97.18
@@ -181,7 +195,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.97.3-0733
+  name: 25,38|🏁RELAY-188.114.97.3-0733
   network: ws
   port: 443
   server: 188.114.97.3
@@ -196,7 +210,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.99.0-0734
+  name: 25,38|🏁RELAY-188.114.99.0-0734
   network: ws
   port: 443
   server: 188.114.99.0
@@ -211,7 +225,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.99.9-0790
+  name: 25,38|🏁RELAY-188.114.99.9-0790
   network: ws
   port: 443
   server: 188.114.99.9
@@ -226,7 +240,7 @@ proxies:
     path: /ECTCJ0DF
 - alterId: 0
   cipher: auto
-  name: 21,32|🏁RELAY-188.114.99.10-0832
+  name: 25,38|🏁RELAY-188.114.99.10-0832
   network: ws
   port: 443
   server: 188.114.99.10
@@ -239,3 +253,18 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
     path: /5QNROSRV
+- alterId: 0
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.97.113-0011
+  network: ws
+  port: 443
+  server: 188.114.97.113
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  ws-opts:
+    headers:
+      Host: v2fly.samrt.website
+    path: /chcar

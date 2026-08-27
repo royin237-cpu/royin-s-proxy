@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '21,31,32|🇯🇵JP-140.83.57.20-0165 #1'
+  name: '25,37,38|🇯🇵JP-140.83.57.20-0165 #1'
   network: ws
   port: 13118
   server: 140.83.57.20

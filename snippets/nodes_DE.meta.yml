@@ -1,12 +1,121 @@
 proxies:
-- name: 21|德国 019
+- name: 21|🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  port: 2082
+  server: 88.99.253.36
+  type: http
+- name: 21|🟠🇩🇪[🤖📺🎭🎪]_github.com/Ruk1ng001...
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  port: 443
+  server: 130.61.112.125
+  type: http
+- name: 21|🟠🇩🇪[🤖📺🎪✨]_github.com/Ruk1ng001...
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 21|🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- name: '21|🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  password: None
+  port: 443
+  server: 138.201.56.241
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.yL52oipni1qsoE_Bc1L5RUIy5S8C8HKhwDLj90F2mDc
+  name: '21|🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
   network: tcp
-  port: 8443
-  server: 193.23.194.167
-  servername: neth.lckdwn.ru
+  port: 2037
+  reality-opts:
+    public-key: msnKLyL5B0sHMB-FD6hcx1L8JVX6ceeJ7Pz88TCGgV8
+    short-id: 9721fb0a
+  server: vttsoqbr6b7c.dxdx3.com
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43b392cd-72d7-410b-b1c0-cff6c29127b7
+  xudp: true
+- name: '21|🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
+  password: None
+  port: 8889
+  server: 37.114.34.217
+  type: http
+  username: null
+- name: 21|🔴🇩🇪[📺🎭🎪]_github.com/Ruk1ng001_...
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  skip-cert-verify: true
+  sni: a7acacbe.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: '21|🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
+  port: 443
+  server: 185.44.107.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 21|🟢🇩🇪[🤖📺🎭🎪]_github.com/Ruk1ng001...
+  password: None
+  port: 443
+  server: 141.17.83.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🟢🇩🇪[🤖📺🎭🎪]_github.com/Ruk1ng001... #1'
+  port: 443
+  server: fan.973511.xyz
+  sni: fan.973511.xyz
+  tls: true
+  type: http
+- name: 21|🔴🇩🇪[📺]_github.com/Ruk1ng001_7f...
+  password: None
+  port: 9050
+  server: 45.61.129.165
+  type: socks5
+  udp: true
+  username: null
+- name: 23|56@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: de1.sferavpn.pro
+  skip-cert-verify: true
+  sni: de1.sferavpn.pro
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 25|德国 045
+  network: ws
+  port: 443
+  server: 81.95.4.189
+  servername: bab-6.site
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  ws-opts:
+    headers:
+      Host: bab-6.site
+    path: /vws/

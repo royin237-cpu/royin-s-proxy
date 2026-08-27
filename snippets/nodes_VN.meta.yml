@@ -1,7 +1,40 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 32|🇻🇳VN-103.166.183.226-0357
+  name: 16|VN 1 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 103.75.185.221
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9e5999ba-870a-46b1-8500-37c640371ec6
+  ws-opts:
+    headers:
+      Host: 103.75.185.221
+    path: /bs
+- name: 16|VN 5 → tg@nicevpn123
+  password: 5a92d674-308c-4d95-b283-28383e63a59b
+  port: 443
+  server: vn-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 16|VN 6 → tg@nicevpn123
+  password: 5a92d674-308c-4d95-b283-28383e63a59b
+  port: 443
+  server: 103.9.77.6
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 21|🔴🇻🇳_github.com/Ruk1ng001_701d2...
+  port: 9999
+  server: 163.181.207.213
+  type: http
+- alterId: 0
+  cipher: auto
+  name: 38|🇻🇳VN-103.166.183.226-0357
   network: ws
   port: 80
   server: 103.166.183.226
@@ -15,7 +48,7 @@ proxies:
     path: /tandung288.click
 - alterId: 0
   cipher: auto
-  name: 32|🇻🇳VN-103.56.160.184-0420
+  name: 38|🇻🇳VN-103.56.160.184-0420
   network: ws
   port: 80
   server: 103.56.160.184
@@ -29,7 +62,7 @@ proxies:
     path: /tandung288.click
 - alterId: 0
   cipher: auto
-  name: 32|🇻🇳VN-103.75.186.153-0421
+  name: 38|🇻🇳VN-103.75.186.153-0421
   network: ws
   port: 80
   server: 103.75.186.153
@@ -43,7 +76,7 @@ proxies:
     path: /tandung288.click
 - alterId: 0
   cipher: auto
-  name: 32|🇻🇳VN-103.82.25.106-8021
+  name: 38|🇻🇳VN-103.82.25.106-8021
   network: ws
   port: 80
   server: 103.82.25.106

@@ -1,5 +1,49 @@
 proxies:
-- name: 21|土耳其 002
+- alterId: 0
+  cipher: auto
+  name: 16|TR 4 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: jp-full.privateip.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1c3f3cc3-e856-45ec-a824-a742c0bfcdcf
+  ws-opts:
+    headers:
+      Host: jp-full.privateip.net
+    path: /RACEVPN
+- name: 16|TR 5 → tg@nicevpn123
+  password: d22c4619-9dd1-41b1-a00e-c565a09066c8
+  port: 443
+  server: jp-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 16|TR 6 → tg@nicevpn123
+  password: 15bec329-c502-48d7-bf46-8210ade5d918
+  port: 443
+  server: jp-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 21|🟠🇹🇷[🤖📺🎭🎪]_github.com/Ruk1ng001...
+  network: tcp
+  port: 12000
+  reality-opts:
+    public-key: bOX8VehpirA-tUYgoE1cg2_sHtwcoVun3QTmR209XDY
+    short-id: 8763bbe17535ea3f
+  server: vttsoqbr6b7c.dxdx3.com
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43b392cd-72d7-410b-b1c0-cff6c29127b7
+  xudp: true
+- name: 25|土耳其 002
   network: tcp
   port: 443
   server: 139.28.241.77
@@ -11,7 +55,7 @@ proxies:
   uuid: 5d5c40b1-102c-4343-94cc-d5b794dbd0c6
 - alterId: 0
   cipher: auto
-  name: 21,32|🇹🇷TR-37.221.79.48-0805
+  name: 25,38|🇹🇷TR-37.221.79.48-0805
   network: ws
   port: 443
   server: v2ray.online
@@ -26,7 +70,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 32|🇹🇷TR-37.221.79.48-1571
+  name: 38|🇹🇷TR-37.221.79.48-1571
   network: ws
   port: 443
   server: v2ray.online
@@ -40,7 +84,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 32|🇹🇷TR-37.221.79.48-4830
+  name: 38|🇹🇷TR-37.221.79.48-4830
   network: ws
   port: 443
   server: v2ray.online
@@ -54,7 +98,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 32|🇹🇷TR-45.94.169.142-7205
+  name: 38|🇹🇷TR-45.94.169.142-7205
   network: ws
   port: 443
   server: 45.94.169.142

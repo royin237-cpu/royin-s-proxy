@@ -1,36 +1,565 @@
 proxies:
-- name: 15|美国+CloudFlare节点
-  network: ws
-  port: 8080
-  server: 104.18.46.234
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- cipher: aes-256-cfb
+  name: 21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+  udp: true
+- name: 21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
   tls: false
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 15|美国+Eastman
-  password: b492c1192f7aa3433c9818baf5ebb4ff
+  type: http
+  username: fQ67Dpe5dU
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  password: None
   port: 443
-  server: 134.185.87.191
+  server: fan.365747.xyz
   skip-cert-verify: true
-  sni: sb.jmx666.eu.cc
-  type: hysteria2
-- flow: ''
-  name: '15|美国+CloudFlare节点 #3'
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  password: ''
+  port: 443
+  server: mmgr.club
+  skip-cert-verify: true
+  sni: mmgr.club
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
+  port: 443
+  server: tzoa.fun
+  sni: tzoa.fun
+  tls: true
+  type: http
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  sni: goedkoopgeluid.icu
+  tls: true
+  type: http
+- name: 21,48|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
+  sni: voteshirleysew.club
+  tls: true
+  type: http
+  udp: true
+- name: 21,48|US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  skip-cert-verify: false
+  tls: true
+  type: http
+  udp: true
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #7'
+  password: None
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #8'
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #9'
+  password: None
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #10'
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #11'
+  password: None
+  port: 443
+  server: jgwynphotoarts.pro
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #12'
+  password: None
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #8'
+  port: 3111
+  server: 104.168.218.25
+  type: http
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #13'
+  password: None
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #14'
+  password: None
+  port: 443
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #15'
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #16'
+  password: ''
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #17'
+  port: 443
+  server: jgwynphotoarts.pro
+  sni: jgwynphotoarts.pro
+  tls: true
+  type: http
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #18'
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #19'
+  port: 443
+  server: webdrone.club
+  sni: webdrone.club
+  tls: true
+  type: http
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #20'
+  password: ''
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '21|🔴🇺🇸[🎬📺🎭🎪]_github.com/Ruk1ng001... #1'
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #28'
+  password: None
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #22'
+  port: 443
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  sni: purecambogiasl.live
+  tls: true
+  type: http
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #23'
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #24'
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  sni: jewelscollecti.icu
+  tls: true
+  type: http
+- name: '21|🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  port: 5999
+  server: 24.52.147.103
+  type: http
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #25'
+  port: 443
+  server: berniesbodybla.fun
+  sni: berniesbodybla.fun
+  tls: true
+  type: http
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #26'
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #27'
+  password: None
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #29'
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #30'
+  password: None
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #31'
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #32'
+  password: None
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #33'
+  password: None
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #34'
+  password: None
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- alterId: 0
+  cipher: auto
+  encryption: none
+  name: '21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #10'
   network: ws
   port: 2095
   server: cdn.asshole.eu.cc
   tls: false
   type: vless
+  udp: true
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
       Host: cdn.asshole.eu.cc
     path: /
-- name: 18|美国
+  xudp: true
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #35'
+  port: 443
+  server: fan.226278.xyz
+  sni: fan.226278.xyz
+  tls: true
+  type: http
+- name: '21|🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  port: 8056
+  server: 24.153.226.234
+  type: http
+- name: 21|🔴🇺🇸[🎬🤖📺🎪]_github.com/Ruk1ng001...
+  port: 16062
+  server: 172.85.99.17
+  type: http
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #36'
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #37'
+  password: None
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #38'
+  password: None
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #11'
+  port: 6005
+  server: 23.95.112.143
+  type: http
+- cipher: aes-256-cfb
+  name: 21|🟠🇺🇸[📺🎭]_github.com/Ruk1ng001_c...
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #39'
+  password: None
+  port: 16062
+  server: 104.251.93.55
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #40'
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 21|🟡🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  port: 5252
+  server: 148.100.84.192
+  type: http
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #41'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #42'
+  password: None
+  port: 443
+  server: fan.596189.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #43'
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #45'
+  password: None
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #46'
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #48'
+  port: 16062
+  server: 104.218.199.8
+  type: http
+- name: '21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #12'
+  port: 10010
+  server: 23.225.34.122
+  type: socks5
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #50'
+  port: 443
+  server: zebpay.site
+  sni: zebpay.site
+  tls: true
+  type: http
+- name: '21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #13'
+  password: None
+  port: 10010
+  server: 23.225.34.122
+  type: socks5
+  udp: true
+  username: null
+- name: '21|🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 11996
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: us67.pulsarcore.site
+  type: anytls
+  udp: true
+- name: '21|🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #4'
+  port: 3210
+  server: 192.198.84.3
+  type: http
+- name: 21|🔴🇺🇸_github.com/Ruk1ng001_430ed...
+  password: None
+  port: 16062
+  server: 172.85.99.128
+  type: http
+  username: null
+- name: '21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #15'
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 38400
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: us16.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 21|🟠🇺🇸[🤖📺📦🔍]_github.com/Ruk1ng001...
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 30370
+  server: test01.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: jd-yz122g.y1static-content-distribution.shop
+  type: anytls
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #51'
+  password: None
+  port: 16062
+  server: 104.251.93.167
+  type: http
+  username: null
+- name: 21|🔴🇺🇸[🤖📺🎭🎪]_github.com/Ruk1ng001...
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 162.243.146.243
+  sni: a2f392f3.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: '21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #17'
+  port: 3193
+  server: 160.153.172.106
+  type: http
+- name: '21|🔴🇺🇸[🤖📺🎭🎪]_github.com/Ruk1ng001... #1'
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬📺🎭🎪]_github.com/Ruk1ng001... #2'
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 19070
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: us30.lunartrace.io
+  type: anytls
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #53'
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
+  sni: 93b6d804.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #54'
+  password: None
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 21|🔴🇺🇸[📺🎭🎪]_github.com/Ruk1ng001_...
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 107.151.238.27
+  sni: 6b97ee1b.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #55'
+  password: None
+  port: 8090
+  server: 209.148.53.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #18'
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #56'
+  port: 443
+  server: 216.107.139.82
+  skip-cert-verify: true
+  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
+  tls: true
+  type: http
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #57'
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #58'
+  port: 16062
+  server: 104.218.199.24
+  type: http
+- name: 21|🔴🇺🇸[📺]_github.com/Ruk1ng001_18...
+  port: 9050
+  server: 45.61.129.165
+  type: socks5
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #60'
+  port: 1080
+  server: 141.148.158.143
+  type: socks5
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #61'
+  port: 16062
+  server: 104.218.199.152
+  type: http
+- name: '21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #21'
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 29023
+  server: test01.y1static-content-distribution.shop
+  sni: us01.lunartrace.io
+  type: anytls
+- name: '22|美国 #1'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -39,20 +568,17 @@ proxies:
   skip-cert-verify: true
   sni: nl1.sferavpn.pro
   type: hysteria2
-- client-fingerprint: chrome
-  name: 21,31,32,34|🇵🇱_PL_波兰->🇮🇹_IT_意大利
-  network: raw
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20065
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: false
-  type: trojan
-  udp: true
+- name: 23|45@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: ru1.sferavpn.pro
+  sni: ru1.sferavpn.pro
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '21,31,32|🏁RELAY-104.21.84.182-0145 #1'
+  name: '25,37,38|🏁RELAY-104.21.84.182-0145 #1'
   network: ws
   port: 443
   server: rush-t2tvv.ceeopp.site
@@ -67,151 +593,117 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '21,31,32|🏁RELAY-104.21.58.173-0147 #1'
+  name: 25,37,38,46|未知103
   network: ws
   port: 443
   server: rush-6it6b.teeopp.quest
   servername: rush-6it6b.teeopp.quest
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
       Host: rush-6it6b.teeopp.quest
+      host: rush-6it6b.teeopp.quest
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|美国 061
-  network: tcp
-  port: 18000
-  server: 38.91.107.49
+  delay: 1785
+  name: 25|美国 020
+  network: ws
+  port: 443
+  server: www.shopify.com
+  servername: included-shaw-lean-believe.trycloudflare.com
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 21|美国 067
-  network: tcp
-  port: 22324
-  server: 67.220.72.237
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 21|美国 068
-  network: tcp
-  port: 18000
-  server: 67.220.85.46
-  skip-cert-verify: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3
+  ws-opts:
+    headers:
+      Host: included-shaw-lean-believe.trycloudflare.com
+    path: /a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3-vm
 - alterId: 0
   cipher: aes-128-gcm
-  name: 21|美国 069
+  name: 25,46|未知34
   network: tcp
-  port: 18000
-  server: 67.220.95.3
+  port: 1234
+  server: 159.223.13.109
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - alterId: 0
   cipher: auto
-  name: 21|美国 074
-  network: tcp
-  port: 443
-  server: 165.140.216.141
-  skip-cert-verify: true
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- alterId: 0
-  cipher: auto
-  name: 21|美国 077
+  name: 25|美国 075
   network: tcp
   port: 22324
-  server: 216.106.183.35
+  server: 66.163.117.58
   skip-cert-verify: true
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 21|美国 078
+  name: 25|美国 084
   network: tcp
-  port: 18000
-  server: 23.162.200.198
+  port: 1234
+  server: 162.19.204.71
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- client-fingerprint: chrome
+  name: 25|美国 206
+  network: ws
+  port: 443
+  server: 162.159.254.3
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- client-fingerprint: chrome
+  name: 25|美国 207
+  network: ws
+  port: 443
+  server: 172.67.156.147
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
 - alterId: 0
   cipher: auto
-  name: 21|美国 079
-  network: tcp
-  port: 18000
-  server: 38.110.1.246
+  name: 30|🇺🇸_US_美国_1
+  port: 443
+  server: guanwang.awsno.com
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- client-fingerprint: chrome
-  name: 21|美国 386
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: 30|🇺🇸_US_美国_2
   network: ws
-  port: 443
-  server: 208.103.161.5
-  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d042a74a-c305-4eec-a89f-39a348022c92
-  ws-opts:
-    headers:
-      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 21|美国 454
-  network: tcp
-  port: 443
-  server: 162.19.10.99
-  servername: nasnet-162191099-direct.mbghalibaf.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
-- client-fingerprint: chrome
-  name: 21|美国 472
-  network: ws
-  port: 443
-  server: 129.121.95.159
-  servername: 129.121.95.159
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-  ws-opts:
-    headers:
-      Host: 129.121.95.159
-    path: /connect
-- name: 32,34|🇵🇱_PL_波兰->🇺🇦_UA_乌克兰
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
+  port: 8080
+  server: 40.160.68.72
   skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- name: '32,34|🇵🇱_PL_波兰->🇺🇦_UA_乌克兰 #1'
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20066
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- name: 41|US_speednode_0131
+  tls: false
+  type: vless
+  udp: true
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+- name: 48|US_speednode_0131
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -220,34 +712,21 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 41|US_speednode_0133
+- name: 48|US_speednode_0133
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 41|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
-- name: 41|US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-- name: 41|US_speednode_0141
+- name: 48|US_speednode_0141
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 41|US_speednode_0143
+- name: 48|US_speednode_0143
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true

@@ -1,272 +1,60 @@
 proxies:
-- name: 21|新加坡 004
-  network: tcp
-  port: 44915
-  server: 134.122.202.244
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0ca45842-71e2-47fe-889f-9e75f93ea459
-- alterId: 0
-  cipher: auto
-  name: 21,32|🇸🇬SG-139.99.61.154-0895
-  network: ws
-  port: 80
-  server: 139.99.61.154
-  servername: ''
+- name: 21|🟠🇸🇬[🤖🎞️📦]_github.com/Ruk1ng001...
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 16406
+  server: test01.y1static-content-distribution.shop
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
-  ws-opts:
-    headers:
-      Host: 139.99.61.154
-    path: /vmess
-- name: '31,32|🇸🇬SG-68.183.184.107-0078 #1'
-  password: 1a205ae2-be41-42b0-abdf-795a2ea3df4e
+  sni: yz203.y1static-content-distribution.shop
+  type: anytls
+- name: 21|🟠🇸🇬[🎬🤖📺🎪]_github.com/Ruk1ng001...
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 10778
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: xjp20.jdddyy01.cc
+  type: anytls
+  udp: true
+- name: 21|🟠🇸🇬[🤖✨🎞️📦]_github.com/Ruk1ng00...
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 47096
+  server: test01.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: xjp33.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 21|🟠🇸🇬[🎬📺🎭✨]_github.com/Ruk1ng001...
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 14855
+  server: test01.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: yz238.y1static-content-distribution.shop
+  type: anytls
+- name: 21|🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 47053
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: xjp202.pulsarcore.site
+  type: anytls
+- name: 21|🟠🇸🇬[📺🎪✈️🔍]_github.com/Ruk1ng00...
+  password: 5b2012ba-d040-4281-b92c-4f005badd179
+  port: 55003
+  server: dafeizhu.xxxyun.top
+  sni: atlsg1.jueduibupao.top
+  type: anytls
+- name: 21|🔴🇸🇬[🤖✨🎞️✈️]_github.com/Ruk1ng0...
+  port: 9090
+  server: 104.248.151.93
+  type: http
+- name: 21|🔴🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  port: 9090
+  server: 128.199.254.13
+  type: http
+- name: '21|🔴🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  password: e4b72b531a2d10900519
   port: 443
-  server: t1.gitvpn.eu.org
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-15.235.147.186-0418
-  network: ws
-  port: 80
-  server: 15.235.147.186
-  servername: 15.235.147.186
-  tls: false
-  type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  ws-opts:
-    headers:
-      Host: 15.235.147.186
-    path: /sshkit/Ertusg86/635014638c264/
-- alterId: 64
-  cipher: auto
-  name: 32|🇸🇬SG-202.79.172.53-1662
-  network: ws
-  port: 443
-  server: 202.79.172.53
-  servername: ''
+  server: 146.70.29.45
+  sni: 92461d2d.acsnet.co
   tls: true
-  type: vmess
-  uuid: 30216206-14b7-40e7-995d-61c1219ba584
-  ws-opts:
-    headers:
-      Host: 202.79.172.53
-    path: /path/220128071100
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-143.198.219.182-1678
-  network: ws
-  port: 80
-  server: 143.198.219.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606
-  ws-opts:
-    headers:
-      Host: 143.198.219.182
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-18.143.123.35-1751
-  network: ws
-  port: 80
-  server: 18.143.123.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
-  ws-opts:
-    headers:
-      Host: 18.143.123.35
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-15.235.184.36-2452
-  network: ws
-  port: 80
-  server: 15.235.184.36
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7ce525f5-3a9b-4627-ae0e-3ca0b57519e3
-  ws-opts:
-    headers:
-      Host: 15.235.184.36
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-139.99.61.154-2457
-  network: ws
-  port: 80
-  server: 139.99.61.154
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6a620223-84f8-40f4-b6ba-ed6abfe4e4f2
-  ws-opts:
-    headers:
-      Host: 139.99.61.154
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-109.123.237.41-2484
-  network: ws
-  port: 80
-  server: 109.123.237.41
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: 109.123.237.41
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-109.123.237.41-2646
-  network: ws
-  port: 80
-  server: 109.123.237.41
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: 109.123.237.41
-    path: /fastssh
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-15.235.192.196-2738
-  network: ws
-  port: 80
-  server: 15.235.192.196
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3701ded3-09ba-4154-970d-a9f4a090a382
-  ws-opts:
-    headers:
-      Host: 15.235.192.196
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-157.230.36.235-2739
-  network: ws
-  port: 80
-  server: 157.230.36.235
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
-  ws-opts:
-    headers:
-      Host: 157.230.36.235
-    path: /graphql
-- alterId: 64
-  cipher: auto
-  name: '32,40|未命名 #10'
-  network: ws
-  port: 80
-  server: 159.223.94.156
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
-  ws-opts:
-    headers:
-      Host: 159.223.94.156
-    path: /anti13.zingfast.vn
-- name: 32|🇸🇬SG-172.104.51.247-5512
-  password: affae2e0-e84b-11ec-b09f-1239d0255272
-  port: 443
-  server: trojan1.udpgw.com
-  type: trojan
-- name: 32|🇸🇬SG-18.140.67.76-5515
-  password: iyinglong
-  port: 443
-  server: 18.140.67.76
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 32|🇸🇬SG-8.219.123.35-7110
-  network: ws
-  port: 80
-  server: 8.219.123.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
-  ws-opts:
-    headers:
-      Host: 8.219.123.35
-    path: /2TokGE9A/
-- name: 32|🇸🇬SG-15.235.197.4-7742
-  password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
-  port: 80
-  server: 15.235.197.4
-  sni: 15.235.197.4
-  type: trojan
-- name: 32|🇸🇬SG-15.235.197.4-7744
-  password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
-  port: 80
-  server: 15.235.197.4
-  sni: getandroid.com
-  type: trojan
-- alterId: 64
-  cipher: auto
-  name: 32|🇸🇬SG-118.107.46.173-7842
-  network: ws
-  port: 443
-  server: 118.107.46.173
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: 118.107.46.173
-    path: /path/080712342310
-- name: 40|🇸🇬+SG+新加坡+51
-  network: ws
-  port: 443
-  server: 13.250.131.37
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg%40zdyz2
-- name: 40|🇸🇬+SG+新加坡+18
-  network: ws
-  port: 443
-  server: 27.50.48.222
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
-- client-fingerprint: random
-  name: 40|TG@ZDYZ2 -SG-Singapore2
-  network: ws
-  port: 443
-  server: 13.250.131.37
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
+  type: http
+  username: testuser1

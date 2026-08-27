@@ -1,7 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '31,32|🇭🇰HK-47.244.120.197-5097 #1'
+  name: 21,25|美国 799
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  type: vmess
+  uuid: 62319519-82bc-46ff-99cd-237bd0882cef
+  ws-opts:
+    headers:
+      Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001...
+  network: http
+  port: 55314
+  server: 103.240.197.112
+  type: vmess
+  uuid: bdb68629-1c6a-4eed-8083-7d4379a2dd52
+- alterId: 0
+  cipher: auto
+  name: '37,38|🇭🇰HK-47.244.120.197-5097 #1'
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -15,7 +36,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '31,32|🇭🇰HK-47.244.120.197-5098 #1'
+  name: '37,38|🇭🇰HK-47.244.120.197-5098 #1'
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -27,3 +48,13 @@ proxies:
     headers:
       Host: 47.244.120.197
     path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: 40,45|香港|@ripaojiedian
+  network: tcp
+  port: 30807
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

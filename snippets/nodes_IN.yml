@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '31,32|🇮🇳IN-152.67.8.205-0177 #1'
+  name: '37,38|🇮🇳IN-152.67.8.205-0177 #1'
   network: ws
   port: 80
   server: 152.67.8.205
@@ -13,8 +13,3 @@ proxies:
     headers:
       Host: 152.67.8.205
     path: /
-- name: 32|🇮🇳IN-152.67.160.174-1137
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  port: 443
-  server: 152.67.160.174
-  type: trojan

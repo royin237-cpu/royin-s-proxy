@@ -1,43 +1,36 @@
 proxies:
-- name: 18|荷兰
-  obfs: salamander
-  obfs-password: HysteriaHowdy
-  password: HowdyHysteria2023w0W
-  port: 8443
-  server: hysteria.udpgw.com
-  skip-cert-verify: true
-  sni: sni-here.com
-  type: hysteria2
-- name: 41|NL_speednode_0004
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-128-cfb
+  name: 16|🇳🇱 NL 2 → tg@nicevpn123
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
+  type: ss
   udp: true
-- name: 41|NL_speednode_0005
+- name: 21|🔴🇳🇱[🤖📺🎭🎪]_github.com/Ruk1ng001...
   password: None
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 41|NL_speednode_0006
   port: 9002
   server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 41|NL_speednode_0007
-  port: 9002
-  server: 84.17.47.148
+  username: null
+- name: '21|🟠🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  password: None
+  port: 443
+  server: 51.158.243.91
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 41|NL_speednode_0008
+  username: null
+- name: 21|🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: None
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 21,48|NL_speednode_0008
   password: None
   port: 9002
   server: 84.17.47.148
@@ -45,14 +38,93 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 41|NL_speednode_0009
+  username: null
+- name: '21|🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  password: None
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇳🇱[🤖📺🎭🎪]_github.com/Ruk1ng001... #1'
+  port: 443
+  server: 185.246.153.28
+  skip-cert-verify: true
+  sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
+  tls: true
+  type: http
+- name: 21,48|NL_speednode_0005
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: null
+- name: '21|🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
+  password: None
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇳🇱[🤖📺🎭🎪]_github.com/Ruk1ng001... #2'
+  password: Private
+  port: 1080
+  server: 85.17.179.81
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: M_YOU_D
+- name: 21,48|NL_speednode_0009
+  password: ''
   port: 9002
   server: 84.17.47.146
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 41|NL_speednode_0010
+  username: ''
+- name: '21|🟢🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  port: 65432
+  server: 87.215.14.228
+  type: http
+- name: 21|🔴🇳🇱_github.com/Ruk1ng001_8fd33...
+  port: 5222
+  server: 144.124.232.204
+  type: socks5
+- name: '21|🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #8'
+  port: 443
+  server: 103.97.88.154
+  skip-cert-verify: true
+  sni: 4a8c2906c96058315dffbc2b0e7ff19b-98005bea43f9ac33.apache-iv.com
+  tls: true
+  type: http
+- name: 48|NL_speednode_0004
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 48|NL_speednode_0006
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 48|NL_speednode_0007
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 48|NL_speednode_0010
   port: 9002
   server: 84.17.47.149
   skip-cert-verify: true

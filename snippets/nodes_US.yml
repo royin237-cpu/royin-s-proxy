@@ -1,18 +1,20 @@
 proxies:
-- client-fingerprint: chrome
-  name: 21,31,32,34|🇵🇱_PL_波兰->🇮🇹_IT_意大利
-  network: raw
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20065
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: false
-  type: trojan
+- cipher: aes-256-cfb
+  name: 21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 21|🟠🇺🇸[📺🎭]_github.com/Ruk1ng001_c...
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '21,31,32|🏁RELAY-104.21.84.182-0145 #1'
+  name: '25,37,38|🏁RELAY-104.21.84.182-0145 #1'
   network: ws
   port: 443
   server: rush-t2tvv.ceeopp.site
@@ -27,102 +29,72 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '21,31,32|🏁RELAY-104.21.58.173-0147 #1'
+  name: 25,37,38,46|未知103
   network: ws
   port: 443
   server: rush-6it6b.teeopp.quest
   servername: rush-6it6b.teeopp.quest
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
       Host: rush-6it6b.teeopp.quest
+      host: rush-6it6b.teeopp.quest
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|美国 061
-  network: tcp
-  port: 18000
-  server: 38.91.107.49
+  delay: 1785
+  name: 25|美国 020
+  network: ws
+  port: 443
+  server: www.shopify.com
+  servername: included-shaw-lean-believe.trycloudflare.com
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 21|美国 067
-  network: tcp
-  port: 22324
-  server: 67.220.72.237
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 21|美国 068
-  network: tcp
-  port: 18000
-  server: 67.220.85.46
-  skip-cert-verify: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3
+  ws-opts:
+    headers:
+      Host: included-shaw-lean-believe.trycloudflare.com
+    path: /a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3-vm
 - alterId: 0
   cipher: aes-128-gcm
-  name: 21|美国 069
+  name: 25,46|未知34
   network: tcp
-  port: 18000
-  server: 67.220.95.3
+  port: 1234
+  server: 159.223.13.109
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - alterId: 0
   cipher: auto
-  name: 21|美国 074
-  network: tcp
-  port: 443
-  server: 165.140.216.141
-  skip-cert-verify: true
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- alterId: 0
-  cipher: auto
-  name: 21|美国 077
+  name: 25|美国 075
   network: tcp
   port: 22324
-  server: 216.106.183.35
+  server: 66.163.117.58
   skip-cert-verify: true
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 21|美国 078
+  name: 25|美国 084
   network: tcp
-  port: 18000
-  server: 23.162.200.198
+  port: 1234
+  server: 162.19.204.71
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - alterId: 0
   cipher: auto
-  name: 21|美国 079
-  network: tcp
-  port: 18000
-  server: 38.110.1.246
+  name: 30|🇺🇸_US_美国_1
+  port: 443
+  server: guanwang.awsno.com
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 32,34|🇵🇱_PL_波兰->🇺🇦_UA_乌克兰
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- name: '32,34|🇵🇱_PL_波兰->🇺🇦_UA_乌克兰 #1'
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20066
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a

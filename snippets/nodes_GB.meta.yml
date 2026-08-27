@@ -1,36 +1,91 @@
 proxies:
-- name: 15|英国+伦敦Virgin+Media
-  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+- name: 21|🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001...
   port: 443
-  server: us.frkn.org
-  skip-cert-verify: true
-  sni: us.frkn.org
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 21|英国 006
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 21|英国 007
-  network: tcp
-  port: 2053
-  server: 51.38.71.147
+  server: 185.235.0.34
   skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
-- alterId: 0
-  cipher: auto
-  name: 21|英国 008
-  network: tcp
-  port: 180
-  server: 82.198.246.37
+  type: http
+- name: 21|🟢🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 53991
+  server: yazhouany02.downapptwo.cc
   skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  sni: jp03.pulsarcore.site
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  auth: 50767b5d-7e5d-4aee-af39-5a07d36ccc36
+  name: '21|🟠🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #6'
+  password: 50767b5d-7e5d-4aee-af39-5a07d36ccc36
+  port: 443
+  server: uk59.mechvpn.online
+  skip-cert-verify: true
+  sni: uk59.mechvpn.online
+  type: hysteria2
+- name: '21|🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  password: None
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🟠🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #7'
+  port: 5002
+  server: 92.48.125.152
+  type: http
+- name: '21|🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  password: None
+  port: 443
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🟠🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #8'
+  password: None
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '21|🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #6'
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
+  password: None
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 21|🟠🇬🇧[🤖📺🎭🎪]_github.com/Ruk1ng001...
+  password: None
+  port: 443
+  server: 193.36.118.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '21|🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #7'
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

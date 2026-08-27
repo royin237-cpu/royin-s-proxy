@@ -1,5 +1,5 @@
 proxies:
-- name: 21|芬兰 002
+- name: 25|芬兰 001
   network: grpc
   port: 443
   server: 135.181.41.45
@@ -11,7 +11,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 32|🇫🇮FI-65.109.134.191-4386
+  name: 38|🇫🇮FI-65.109.134.191-4386
   network: ws
   port: 80
   server: 65.109.134.191

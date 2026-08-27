@@ -1,7 +1,126 @@
 proxies:
+- name: 21|🔴🇭🇰[🧠📺🎭🎪]_github.com/Ruk1ng001...
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
+- name: 21|🟠🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001...
+  password: admin
+  port: 1080
+  server: 47.239.116.165
+  type: socks5
+  username: admin
 - alterId: 0
   cipher: auto
-  name: '31,32|🇭🇰HK-47.244.120.197-5097 #1'
+  name: 21,25|美国 799
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  type: vmess
+  uuid: 62319519-82bc-46ff-99cd-237bd0882cef
+  ws-opts:
+    headers:
+      Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
+    path: /
+- name: '21|🔴🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #2'
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 35853
+  server: yzany01.downapptwo.cc
+  sni: hk01.pulsarcore.site
+  type: anytls
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 21|🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001...
+  network: http
+  port: 55314
+  server: 103.240.197.112
+  type: vmess
+  uuid: bdb68629-1c6a-4eed-8083-7d4379a2dd52
+- name: '21|🟠🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #1'
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 24318
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: hk08.jdddyy01.cc
+  type: anytls
+  udp: true
+- name: 21|🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_...
+  password: 5b2012ba-d040-4281-b92c-4f005badd179
+  port: 55102
+  server: dafeizhu.xxxyun.top
+  sni: atlhk2.jueduibupao.top
+  type: anytls
+- name: 21|🟠🇭🇰_github.com/Ruk1ng001_09945...
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  skip-cert-verify: true
+  type: socks5
+  username: '111'
+- name: 21|🟢🇭🇰[📺🎪🔍]_github.com/Ruk1ng001_...
+  password: 5b2012ba-d040-4281-b92c-4f005badd179
+  port: 55001
+  server: dafeizhu.xxxyun.top
+  sni: atlhk1.jueduibupao.top
+  type: anytls
+- name: '21|🟠🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #2'
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 25135
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: hk27.pulsarcore.site
+  type: anytls
+- client-fingerprint: chrome
+  name: '21|🟠🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #3'
+  password: cba96915-8098-41a7-9997-efb01ccc598a
+  port: 42316
+  server: a16.toppp.cc
+  skip-cert-verify: true
+  sni: osxapps.itunes.apple.com
+  type: anytls
+- name: 21|🔴🇭🇰[🎬📺🎭🎪]_github.com/Ruk1ng001...
+  password: None
+  port: 443
+  server: fan.240104.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 21|🟠🇭🇰[📺🎭📦]_github.com/Ruk1ng001_...
+  password: admin
+  port: 8899
+  server: 47.242.19.215
+  skip-cert-verify: true
+  type: socks5
+  username: admin
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 21|🟢🇭🇰[📺🎭✨📦]_github.com/Ruk1ng001...
+  network: ws
+  port: 443
+  server: mfa.gov.ua
+  servername: mao.kipfel.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  ws-opts:
+    headers:
+      Host: mao.kipfel.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 21|🟠🇭🇰_github.com/Ruk1ng001_4ce7f...
+  password: '!!str 8888'
+  port: 1080
+  server: 8.210.31.250
+  type: socks5
+  username: '8888'
+- alterId: 0
+  cipher: auto
+  name: '37,38|🇭🇰HK-47.244.120.197-5097 #1'
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -15,7 +134,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '31,32|🇭🇰HK-47.244.120.197-5098 #1'
+  name: '37,38|🇭🇰HK-47.244.120.197-5098 #1'
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -27,3 +146,13 @@ proxies:
     headers:
       Host: 47.244.120.197
     path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: 40,45|香港|@ripaojiedian
+  network: tcp
+  port: 30807
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
