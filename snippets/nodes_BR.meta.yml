@@ -15,7 +15,3 @@ proxies:
   port: 9191
   server: 177.222.248.54
   type: http
-- name: 21|🟢🇧🇷[🎭]_github.com/Ruk1ng001_35...
-  port: 9292
-  server: 45.232.76.98
-  type: http

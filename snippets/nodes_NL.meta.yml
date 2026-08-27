@@ -71,14 +71,6 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '21|🔴🇳🇱[🤖📺🎭🎪]_github.com/Ruk1ng001... #2'
-  password: Private
-  port: 1080
-  server: 85.17.179.81
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: M_YOU_D
 - name: 21,48|NL_speednode_0009
   password: ''
   port: 9002

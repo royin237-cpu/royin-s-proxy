@@ -1,4 +1,12 @@
 proxies:
+- name: '21|🟢🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 443
+  server: tw74.cybergalaxy.me
+  skip-cert-verify: true
+  sni: tw74.cybergalaxy.me
+  type: anytls
+  udp: true
 - name: 21|🟠🇹🇼[🎬🤖📺🎭]_github.com/Ruk1ng001...
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 33368
@@ -21,3 +29,9 @@ proxies:
   sni: tw2.jueduibupao.top
   type: anytls
   udp: true
+- name: 21|🟢🇹🇼_github.com/Ruk1ng001_c5568...
+  password: '!!str 111'
+  port: 1080
+  server: 106.107.236.110
+  type: socks5
+  username: '111'

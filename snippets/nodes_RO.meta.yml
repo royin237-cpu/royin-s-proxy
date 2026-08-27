@@ -1,18 +1,16 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 17,30|🇵🇱_PL_波兰
+  name: 17|伊朗+V2CROSS.COM
   network: tcp
-  port: 443
+  port: 13443
   reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: a7f3c91b2e6d84c0
   server: 31.59.125.49
-  servername: eu-central.cendora.ru
-  skip-cert-verify: true
+  servername: auto.cendora.ru
   tls: true
   type: vless
-  udp: true
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - name: 21|🟢🇷🇴[🎬📺🎭🎪]_github.com/Ruk1ng001...
   password: 29204996-a723-4291-8c70-30843b592d40

@@ -1,10 +1,4 @@
 proxies:
-- name: 21|🟠🇯🇵[🤖️]_github.com/Ruk1ng001_1...
-  password: '!!str 123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
 - name: 21|🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001...
   password: 'null'
   port: 443
@@ -20,13 +14,6 @@ proxies:
   skip-cert-verify: true
   sni: jp10.pulsarcore.site
   type: anytls
-- name: 21|🟠🇯🇵[🤖📺🎭🎪]_github.com/Ruk1ng001...
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 443
-  server: jd-us77.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: jd-us77.y1static-content-distribution.shop
-  type: anytls
 - name: '21|🟢🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
   password: 4kch6iOn
   port: 443
@@ -34,24 +21,10 @@ proxies:
   skip-cert-verify: true
   sni: down413.mihoyo.yuanshen.com
   type: anytls
-- name: '21|🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 443
-  server: as-jp37.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: as-jp37.y1static-content-distribution.shop
-  type: anytls
 - name: '21|🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
   port: 10808
   server: 101.36.104.46
   type: socks5
-- name: '21|🟠🇯🇵[🤖📺🎭🎪]_github.com/Ruk1ng001... #1'
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 443
-  server: as-jp39.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: as-jp39.y1static-content-distribution.shop
-  type: anytls
 - name: 21|🔴🇯🇵_github.com/Ruk1ng001_58024...
   port: 10808
   server: 101.36.104.239

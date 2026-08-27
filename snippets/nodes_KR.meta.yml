@@ -1,4 +1,18 @@
 proxies:
+- name: '21|🔴🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  password: ''
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
+  udp: true
+  username: ''
+- name: '21|🔴🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - name: 21|🟢🇰🇷[🎬📺🎭📦]_github.com/Ruk1ng001...
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 15503

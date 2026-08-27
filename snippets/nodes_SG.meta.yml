@@ -1,10 +1,25 @@
 proxies:
+- name: 21|🟠🇸🇬[🤖🎞️📦]_github.com/Ruk1ng001...
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 16406
+  server: test01.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: yz203.y1static-content-distribution.shop
+  type: anytls
 - name: 21|🟠🇸🇬[🎬🤖📺🎪]_github.com/Ruk1ng001...
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 10778
   server: yzany01.downapptwo.cc
   skip-cert-verify: true
   sni: xjp20.jdddyy01.cc
+  type: anytls
+  udp: true
+- name: 21|🟠🇸🇬[🤖✨🎞️📦]_github.com/Ruk1ng00...
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 47096
+  server: test01.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: xjp33.pulsarcore.site
   type: anytls
   udp: true
 - name: 21|🟠🇸🇬[🎬📺🎭✨]_github.com/Ruk1ng001...
@@ -21,6 +36,26 @@ proxies:
   skip-cert-verify: true
   sni: xjp202.pulsarcore.site
   type: anytls
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|🔴🇸🇬[🤖📺🎭🎪]_github.com/Ruk1ng001...
+  network: tcp
+  port: 15006
+  reality-opts:
+    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+    short-id: 029a6cc4
+  server: nian.001.url111.kcloud02.top
+  servername: www.adobe.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  xudp: true
 - name: 21|🟠🇸🇬[📺🎪✈️🔍]_github.com/Ruk1ng00...
   password: 5b2012ba-d040-4281-b92c-4f005badd179
   port: 55003

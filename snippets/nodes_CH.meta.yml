@@ -21,9 +21,3 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '21|🔴🇨🇭[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  password: 1Telegram_MojiVPN
-  port: 1080
-  server: ch-zur.pvdata.host
-  type: socks5
-  username: N9cyF6jvgy3ZEmCNKe04zBIR

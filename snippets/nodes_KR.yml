@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 25,46|未知45 485.1KB/s
+  network: tcp
+  port: 443
+  server: 140.238.2.250
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+- alterId: 0
+  cipher: auto
   name: 25,38|🇰🇷KR-52.231.200.179-0938
   network: ws
   port: 443

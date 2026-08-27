@@ -4,12 +4,12 @@
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 9
+      "count": 5
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 82
+      "count": 89
     },
     "CN": {
       "flag": "🇨🇳",
@@ -24,17 +24,17 @@
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 3
+      "count": 5
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 10
+      "count": 8
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 8
+      "count": 10
     },
     "GB": {
       "flag": "🇬🇧",
@@ -44,12 +44,12 @@
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 1
+      "count": 3
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 1
+      "count": 30
     },
     "DE": {
       "flag": "🇩🇪",
@@ -64,11 +64,11 @@
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 2
+      "count": 1
     }
   },
-  "update_time": "2026-08-28 04:58",
-  "server_time": "2026-08-28 04:59:42",
+  "update_time": "2026-08-28 06:29",
+  "server_time": "2026-08-28 06:30:21",
   "sources": [
     {
       "index": 0,
@@ -108,7 +108,7 @@
     {
       "index": 7,
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clas",
-      "nodes": 1637
+      "nodes": 1716
     },
     {
       "index": 8,
@@ -158,7 +158,7 @@
     {
       "index": 17,
       "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
-      "nodes": 11
+      "nodes": 20
     },
     {
       "index": 18,

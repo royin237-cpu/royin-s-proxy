@@ -1,4 +1,8 @@
 proxies:
+- name: 21|🔴🇮🇳[🎬🤖📺🎪]_github.com/Ruk1ng001...
+  port: 1088
+  server: 144.24.111.128
+  type: socks5
 - name: 21|🟠🇮🇳[🤖📺🎭✨]_github.com/Ruk1ng001...
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 61088

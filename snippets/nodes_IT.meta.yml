@@ -5,12 +5,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 21|🟢🇮🇹[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  port: 443
-  server: 178.237.4.200
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 21|🔴🇮🇹[📺]_github.com/Ruk1ng001_59...
   port: 443
   server: 95.229.15.89
