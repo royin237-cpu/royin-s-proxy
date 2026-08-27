@@ -1,11 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21|法国 002
+  name: '21,31,32|🇫🇷FR-62.210.127.120-0571 #1'
   network: ws
   port: 23388
   server: 62.210.127.120
+  servername: ''
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
   ws-opts:

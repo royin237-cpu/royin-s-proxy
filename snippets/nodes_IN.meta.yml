@@ -1,7 +1,23 @@
 proxies:
+- client-fingerprint: chrome
+  name: 21|印度 001
+  network: ws
+  port: 443
+  server: 113.30.191.181
+  servername: jacbgoff.davdlpck1znnhvqh64hl.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c20c6ab3-0495-48e3-bf01-77144b2a89c1
+  ws-opts:
+    headers:
+      Host: jacbgoff.davdlpck1znnhvqh64hl.workers.dev
+    path: /ranking/help/downloads?ed=2560
 - alterId: 0
   cipher: auto
-  name: '31,32|🇮🇳IN-152.67.8.205-0182 #1'
+  name: '31,32|🇮🇳IN-152.67.8.205-0177 #1'
   network: ws
   port: 80
   server: 152.67.8.205
@@ -13,3 +29,8 @@ proxies:
     headers:
       Host: 152.67.8.205
     path: /
+- name: 32|🇮🇳IN-152.67.160.174-1137
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  port: 443
+  server: 152.67.160.174
+  type: trojan

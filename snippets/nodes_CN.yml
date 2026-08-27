@@ -14,7 +14,7 @@ proxies:
     path: /aries
 - alterId: 0
   cipher: auto
-  name: '21,31,32|🇭🇰HK-43.100.32.4-0187 #1'
+  name: 21,32|🇭🇰HK-43.100.32.4-0490
   network: ws
   port: 443
   server: n1747624260.4u9ma.icu
@@ -29,7 +29,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '21,31,32|🇭🇰HK-219.76.13.177-0213 #1'
+  name: '21,31,32|🇭🇰HK-219.76.13.177-0214 #1'
   network: ws
   port: 443
   server: 219.76.13.177
@@ -72,11 +72,20 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: 21,32|🇭🇰HK-207.46.147.148-1630
+  name: 21|中国 014
+  network: tcp
+  port: 59121
+  server: 129.226.157.220
+  skip-cert-verify: true
+  type: vmess
+  uuid: d9865d63-d95c-454b-ba07-8e88b838a801
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇭🇰HK-207.46.147.148-0935
   network: ws
   port: 443
   server: fullaccesstohongkongnet.azurewebsites.net
-  servername: fullaccesstohongkongnet.azurewebsites.net
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -87,7 +96,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 21,32|🇭🇰HK-8.210.206.163-2009
+  name: 21,32|🇭🇰HK-8.210.206.163-0976
   network: http
   port: 45719
   server: 8.210.206.163
@@ -98,7 +107,7 @@ proxies:
   uuid: a220dad2-a34e-4460-b0f7-eaba9c46e639
 - alterId: 0
   cipher: auto
-  name: 32|🇨🇳CN-124.222.189.225-1783
+  name: 32|🇨🇳CN-124.222.189.225-2165
   network: ws
   port: 80
   server: 124.222.189.225

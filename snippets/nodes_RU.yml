@@ -16,7 +16,7 @@ proxies:
     path: /go
 - alterId: 0
   cipher: auto
-  name: 21,32|🇬🇧GB-46.175.135.9-1321
+  name: 21,32|🇬🇧GB-46.175.135.9-0911
   network: ws
   port: 443
   server: haxus3.janechiu.icu
@@ -31,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21,32|🇬🇧GB-46.175.135.9-4200
+  name: 21,32|🇬🇧GB-46.175.135.9-1014
   network: ws
   port: 443
   server: us02.gogogoo.cyou
@@ -46,7 +46,7 @@ proxies:
     path: /go
 - alterId: 64
   cipher: auto
-  name: 32|🇷🇺RU-171.22.134.12-7257
+  name: 32|🇷🇺RU-171.22.134.12-7620
   network: ws
   port: 443
   server: 171.22.134.12
@@ -60,7 +60,7 @@ proxies:
     path: /path/1689849487190
 - alterId: 64
   cipher: auto
-  name: 32|🇷🇺RU-171.22.134.12-7258
+  name: 32|🇷🇺RU-171.22.134.12-7621
   network: ws
   port: 443
   server: 171.22.134.12

@@ -1,4 +1,13 @@
 proxies:
+- name: 18|荷兰
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  password: HowdyHysteria2023w0W
+  port: 8443
+  server: hysteria.udpgw.com
+  skip-cert-verify: true
+  sni: sni-here.com
+  type: hysteria2
 - name: 41|NL_speednode_0004
   port: 9002
   server: 84.17.47.125

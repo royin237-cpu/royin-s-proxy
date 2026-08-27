@@ -12,7 +12,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '21,31,32,34|🇺🇸 美国 CloudFlare节点 #6'
+  name: '21,31,32|🏁RELAY-104.21.84.182-0145 #1'
   network: ws
   port: 443
   server: rush-t2tvv.ceeopp.site
@@ -27,13 +27,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|美国 058
-  network: tcp
+  name: '21,31,32|🏁RELAY-104.21.58.173-0147 #1'
+  network: ws
   port: 443
-  server: 165.140.216.142
-  skip-cert-verify: true
+  server: rush-6it6b.teeopp.quest
+  servername: rush-6it6b.teeopp.quest
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: rush-6it6b.teeopp.quest
+    path: /
 - alterId: 0
   cipher: auto
   name: 21|美国 061
@@ -43,15 +49,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 21|美国 066
-  network: tcp
-  port: 22324
-  server: 66.163.117.58
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 21|美国 067
@@ -81,6 +78,15 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
+  name: 21|美国 074
+  network: tcp
+  port: 443
+  server: 165.140.216.141
+  skip-cert-verify: true
+  type: vmess
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+- alterId: 0
+  cipher: auto
   name: 21|美国 077
   network: tcp
   port: 22324
@@ -106,18 +112,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: '31,32|🇺🇸US-44.246.163.102-0161 #1'
-  password: ND91608427
-  port: 443
-  server: fleet-bonefish.rooster465.autos
-  sni: fleet-bonefish.rooster465.autos
-  type: trojan
-- name: '31,32|🇺🇸US-44.246.163.102-0165 #1'
-  password: ND91608427
-  port: 443
-  server: 44.246.163.102
-  sni: fleet-bonefish.rooster465.autos
-  type: trojan
 - name: 32,34|🇵🇱_PL_波兰->🇺🇦_UA_乌克兰
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20066
@@ -132,13 +126,3 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 34|🇺🇸_US_美国
-  network: http
-  port: 50269
-  server: 103.179.142.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba

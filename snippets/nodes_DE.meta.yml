@@ -1,18 +1,4 @@
 proxies:
-- name: 19|62@oneclickvpnkeys
-  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
-  port: 443
-  server: 5.83.129.11
-  skip-cert-verify: true
-  sni: germany1.h2corp.local
-  type: hysteria2
-- name: 19|66@oneclickvpnkeys
-  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
-  port: 443
-  server: de.1.22.washing.help
-  skip-cert-verify: true
-  sni: germany1.h2corp.local
-  type: hysteria2
 - name: 21|德国 019
   network: tcp
   port: 8443
@@ -24,19 +10,3 @@ proxies:
   type: vless
   udp: true
   uuid: 32349ee8-8551-45fa-a265-8704cec72936
-- client-fingerprint: chrome
-  name: 21|德国 046
-  network: ws
-  port: 443
-  server: 81.95.4.189
-  servername: bab-6.site
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  ws-opts:
-    headers:
-      Host: bab-6.site
-    path: /vws/

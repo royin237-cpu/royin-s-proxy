@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21,32|🇺🇸US-91.149.239.214-0520
+  name: 21,32|🇺🇸US-91.149.239.214-0556
   network: ws
   port: 443
   server: cg1c07.waimaojd.com
@@ -15,7 +15,7 @@ proxies:
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  name: 21,32|🇺🇸US-91.149.239.165-0527
+  name: 21,32|🇺🇸US-91.149.239.165-0563
   network: ws
   port: 443
   server: cg1c14.waimaojd.com
@@ -28,77 +28,77 @@ proxies:
     headers:
       Host: cg1c14.waimaojd.com
     path: /api/v1/graphql
-- name: '31,32|🇵🇱PL-202.78.163.19-0249 #1'
+- name: 32|🇵🇱PL-202.78.163.19-0275
   password: AE62539071
   port: 443
   server: game-firefly.rooster465.autos
   sni: game-firefly.rooster465.autos
   type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.164-0250 #1'
+- name: 32|🇵🇱PL-202.78.163.164-0276
   password: EQ30679154
   port: 443
   server: pretty-mollusk.rooster465.autos
   type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.148-0251 #1'
+- name: 32|🇵🇱PL-202.78.163.148-0277
   password: ND91608427
   port: 443
   server: 202.78.163.148
   sni: discrete-basilisk.rooster465.autos
   type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.132-0252 #1'
+- name: 32|🇵🇱PL-202.78.163.132-0278
   password: AE62539071
   port: 443
   server: relative-locust.rooster465.autos
   type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.248-0254 #1'
+- name: 32|🇵🇱PL-202.78.163.248-0279
   password: ND91608427
   port: 443
   server: relaxed-gull.rooster465.autos
   sni: relaxed-gull.rooster465.autos
   type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.100-0255 #1'
+- name: 32|🇵🇱PL-202.78.163.100-0280
   password: AE62539071
   port: 443
   server: enough-basilisk.rooster465.autos
   sni: enough-basilisk.rooster465.autos
   type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.248-0257 #1'
+- name: 32|🇵🇱PL-202.78.163.248-0282
   password: ND91608427
   port: 443
   server: 202.78.163.248
   sni: relaxed-gull.rooster465.autos
   type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.156-0258 #1'
+- name: 32|🇵🇱PL-202.78.163.156-0283
   password: FH72359861
   port: 443
   server: primary-leech.rooster465.autos
   sni: primary-leech.rooster465.autos
   type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.89-0259 #1'
+- name: 32|🇵🇱PL-202.78.163.89-0284
   password: AE62539071
   port: 443
   server: tolerant-mosquito.rooster465.autos
   sni: tolerant-mosquito.rooster465.autos
   type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.233-0260 #1'
+- name: 32|🇵🇱PL-202.78.163.233-0285
   password: FH72359861
   port: 443
   server: magnetic-caiman.rooster465.autos
   sni: magnetic-caiman.rooster465.autos
   type: trojan
-- name: '31,32|🇵🇱PL-202.78.163.148-0261 #1'
+- name: 32|🇵🇱PL-202.78.163.148-0286
   password: ND91608427
   port: 443
   server: discrete-basilisk.rooster465.autos
   sni: discrete-basilisk.rooster465.autos
   type: trojan
-- name: 32|🇵🇱PL-51.83.186.142-2715
+- name: 32|🇵🇱PL-51.83.186.142-3078
   password: 555034c8-6420-45d0-893c-905c02342150
   port: 443
   server: 51.83.186.142
   sni: pl1.trojanvh.xyz
   type: trojan
-- name: 32|🇵🇱PL-51.83.186.142-3744
+- name: 32|🇵🇱PL-51.83.186.142-4107
   password: 555034c8-6420-45d0-893c-905c02342150
   port: 80
   server: 51.83.186.142

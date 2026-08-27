@@ -43,7 +43,7 @@ proxies:
     path: /tandung288.click
 - alterId: 0
   cipher: auto
-  name: 32|🇻🇳VN-103.82.25.106-7658
+  name: 32|🇻🇳VN-103.82.25.106-8021
   network: ws
   port: 80
   server: 103.82.25.106

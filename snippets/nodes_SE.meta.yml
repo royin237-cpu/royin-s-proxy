@@ -1,4 +1,19 @@
 proxies:
+- name: 21|瑞典 001
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  servername: rb24.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05d2f580-0faa-40fe-ab98-b18e7f9ed8eb
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: ws/?ed=2048/
 - client-fingerprint: chrome
   name: 21|瑞典 002
   network: ws
@@ -15,3 +30,18 @@ proxies:
     headers:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
     path: /pg/10086-dfc816f117c49173
+- name: 21|瑞典 003
+  network: ws
+  port: 8080
+  server: 185.146.173.143
+  servername: unlimiteddev-vpn.unlimiteddev.Community.
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cbd0bb00-295e-448f-b07f-47164e8e8196
+  ws-opts:
+    headers:
+      Host: unlimiteddev-vpn.unlimiteddev.Community.
+    path: '/Telegram:'

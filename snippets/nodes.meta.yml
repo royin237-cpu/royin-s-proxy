@@ -1,37 +1,54 @@
 proxies:
-- client-fingerprint: chrome
-  name: '15|美国+CloudFlare节点 #1'
+- name: 15|美国+CloudFlare节点
   network: ws
-  port: 2087
-  server: 104.19.214.97
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
+  port: 8080
+  server: 104.18.46.234
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  tls: false
   type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|英国+V2CROSS.COM
-  network: tcp
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 15|美国+Eastman
+  password: b492c1192f7aa3433c9818baf5ebb4ff
   port: 443
+  server: 134.185.87.191
+  skip-cert-verify: true
+  sni: sb.jmx666.eu.cc
+  type: hysteria2
+- flow: ''
+  name: '15|美国+CloudFlare节点 #3'
+  network: ws
+  port: 2095
+  server: cdn.asshole.eu.cc
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cdn.asshole.eu.cc
+    path: /
+- name: 15|英国+伦敦Virgin+Media
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+  port: 443
+  server: us.frkn.org
+  skip-cert-verify: true
+  sni: us.frkn.org
+  type: hysteria2
+- client-fingerprint: firefox
+  name: '15|伊朗+V2CROSS.COM #2'
+  network: tcp
+  port: 2053
   reality-opts:
-    public-key: 09O8bAlIWm9AGnNyxBtHwpYNQxlXPSQeQeKzS3ZMwGE
-    short-id: a1f9c0e21d7b6485
-  server: 2.26.135.193
-  servername: smorodina.mycdn-me.ru
+    public-key: Wg07hKwQjSVmOsEHn7X1iLAXR2wkKRSyv8TZmq9ZsRA
+    short-id: 58186df4a95a1504
+  server: 151.245.106.49
+  servername: www.cloudflare.com
   tls: true
   type: vless
-  uuid: 627b1c2d-2905-470f-857a-da7589968fbc
-- name: '18|未命名 #1'
-  password: 1ba59989-225e-4f1c-ab62-9bd7366009cb
-  port: 443
-  server: 194.135.34.130
-  skip-cert-verify: true
-  sni: 194.135.34.130
-  type: hysteria2
+  uuid: 9f7dddc4-6c77-4e2c-bfa4-7e5afdfd48f8
 - name: '18|未命名 #3'
   password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
   port: 443
@@ -45,6 +62,15 @@ proxies:
   server: streambox.wwwinternetvideo.click
   skip-cert-verify: true
   sni: streambox.wwwinternetvideo.click
+  type: hysteria2
+- name: 18|荷兰
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  password: HowdyHysteria2023w0W
+  port: 8443
+  server: hysteria.udpgw.com
+  skip-cert-verify: true
+  sni: sni-here.com
   type: hysteria2
 - name: 18|美国
   obfs: salamander
@@ -62,21 +88,11 @@ proxies:
   skip-cert-verify: true
   sni: replay.wwwinternetvideo.click
   type: hysteria2
-- name: 19|26@oneclickvpnkeys
-  password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
+- name: 19|🥎80@oneclickvpnkeys
+  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
   port: 443
-  server: 89.125.156.80
-  skip-cert-verify: true
-  sni: pixelcast.wwwinternetvideo.click
-  type: hysteria2
-- name: 19|✅  @vistav2ray  👈👈کانال ما ✅
-  obfs: salamander
-  obfs-password: uw9b2qq5rx
-  password: 6aab8efdf13945829ae3699c342be406
-  port: 443
-  server: 31.76.80.69
-  skip-cert-verify: false
-  sni: fiproxy1.lockdwn.com
+  server: hy2-switzerlandgopota.unlimited-access.ru
+  sni: hy2-switzerlandgopota.unlimited-access.ru
   type: hysteria2
 - name: 19|🍑54@oneclickvpnkeys
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
@@ -93,14 +109,14 @@ proxies:
   skip-cert-verify: false
   sni: hy2.aspidnet.xyz
   type: hysteria2
-- name: 19|62@oneclickvpnkeys
+- name: 19|🥎62@oneclickvpnkeys
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: 5.83.129.11
   skip-cert-verify: true
   sni: germany1.h2corp.local
   type: hysteria2
-- name: 19|66@oneclickvpnkeys
+- name: 19|🥎66@oneclickvpnkeys
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: de.1.22.washing.help
@@ -120,7 +136,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '21,31,32,34|🇺🇸 美国 CloudFlare节点 #6'
+  name: '21,31,32|🏁RELAY-104.21.84.182-0145 #1'
   network: ws
   port: 443
   server: rush-t2tvv.ceeopp.site
@@ -135,13 +151,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|美国 058
-  network: tcp
-  port: 443
-  server: 165.140.216.142
-  skip-cert-verify: true
+  name: '21,31,32|🇯🇵JP-140.83.57.20-0165 #1'
+  network: ws
+  port: 13118
+  server: 140.83.57.20
+  servername: ''
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  ws-opts:
+    headers:
+      Host: sg.11160321.de5.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21,31,32|🏁RELAY-104.21.58.173-0147 #1'
+  network: ws
+  port: 443
+  server: rush-6it6b.teeopp.quest
+  servername: rush-6it6b.teeopp.quest
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: rush-6it6b.teeopp.quest
+    path: /
 - alterId: 0
   cipher: auto
   name: 21|美国 061
@@ -153,6 +190,15 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
+  name: 21|英国 006
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
   name: 21|保加利亚 001
   network: tcp
   port: 110
@@ -162,11 +208,23 @@ proxies:
   uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
 - alterId: 0
   cipher: auto
-  name: 21|比利时 005
+  name: 21|英国 007
+  network: tcp
+  port: 2053
+  server: 51.38.71.147
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
+- alterId: 0
+  cipher: auto
+  name: 21,32|🇬🇧GB-57.129.132.223-0570
   network: ws
   port: 80
   server: 57.129.132.223
+  servername: ''
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
   ws-opts:
@@ -175,26 +233,19 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 21|法国 002
+  name: '21,31,32|🇫🇷FR-62.210.127.120-0571 #1'
   network: ws
   port: 23388
   server: 62.210.127.120
+  servername: ''
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
   ws-opts:
     headers:
       Host: engage.cloudflareclient.com
     path: /github.com/Alvin9999-newpac/fanqiang
-- alterId: 0
-  cipher: auto
-  name: 21|美国 066
-  network: tcp
-  port: 22324
-  server: 66.163.117.58
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 21|美国 067
@@ -222,6 +273,24 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 21|英国 008
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 21|美国 074
+  network: tcp
+  port: 443
+  server: 165.140.216.141
+  skip-cert-verify: true
+  type: vmess
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
 - alterId: 0
   cipher: auto
   name: 21|加拿大 003
@@ -321,54 +390,6 @@ proxies:
       Host: web-socket.tgdaosheng.ggff.net
     path: /proxyip=bpb.yousef.isegaro.comfp=chrome
 - client-fingerprint: chrome
-  name: 21|罗马尼亚 004
-  network: ws
-  port: 443
-  server: 188.214.35.66
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: chrome
-  name: 21|瑞典 002
-  network: ws
-  port: 2087
-  server: 193.180.213.30
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: chrome
-  name: 21|英国 016
-  network: ws
-  port: 8443
-  server: 193.219.99.65
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: chrome
   flow: ''
   name: 21|法国 019
   network: ws
@@ -386,21 +407,21 @@ proxies:
       Host: bab-6.site
     path: /vws/
 - client-fingerprint: chrome
-  name: 21|德国 046
+  name: 21|美国 386
   network: ws
   port: 443
-  server: 81.95.4.189
-  servername: bab-6.site
+  server: 208.103.161.5
+  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: d042a74a-c305-4eec-a89f-39a348022c92
   ws-opts:
     headers:
-      Host: bab-6.site
-    path: /vws/
+      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 21|美国 454
@@ -414,66 +435,71 @@ proxies:
   type: vless
   udp: true
   uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
-- name: '31,32|🇪🇪EE-109.206.241.10-0132 #1'
+- client-fingerprint: chrome
+  name: 21|美国 472
+  network: ws
+  port: 443
+  server: 129.121.95.159
+  servername: 129.121.95.159
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  ws-opts:
+    headers:
+      Host: 129.121.95.159
+    path: /connect
+- name: 31,32,34|🇪🇪爱沙尼亚丨yoyapai.com\r
   password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
   port: 449
   server: 109.206.241.10
+  skip-cert-verify: true
   sni: russiapower.accesscam.org
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '31,32|🏁RELAY-172.67.195.180-0932 #1'
+  name: '31,32|🏁RELAY-104.21.58.173-5141 #1'
   network: ws
   port: 443
-  server: rush-t2tvv.ceeopp.site
-  servername: ''
+  server: rush-6it6b.teeopp.quest
+  servername: rush-6it6b.teeopp.quest
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: rush-t2tvv.ceeopp.site
-    path: /video/ke716z/7x219hzy.m3u8
-- name: '31,32|🇺🇸US-44.246.163.102-0161 #1'
-  password: ND91608427
-  port: 443
-  server: fleet-bonefish.rooster465.autos
-  sni: fleet-bonefish.rooster465.autos
-  type: trojan
-- name: '31,32|🇺🇸US-44.246.163.102-0165 #1'
-  password: ND91608427
-  port: 443
-  server: 44.246.163.102
-  sni: fleet-bonefish.rooster465.autos
-  type: trojan
+      Host: rush-6it6b.teeopp.quest
+    path: /video/kz49hf/gbin5jve.m3u8
 - alterId: 0
   cipher: auto
-  name: '31,32|🇮🇳IN-152.67.8.205-0182 #1'
+  name: '31,32|🇭🇰HK-47.244.120.197-5097 #1'
   network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 152.67.8.205
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    headers:
-      Host: 152.67.8.205
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '31,32|🇭🇰HK-156.245.232.239-0194 #1'
-  network: ws
-  port: 35043
-  server: 156.245.232.239
+  port: 36703
+  server: 47.244.120.197
   servername: ''
   tls: false
   type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
-      Host: 156.245.232.239
-    path: /
+      Host: 47.244.120.197
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '31,32|🇭🇰HK-47.244.120.197-5098 #1'
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki?ed=2048
 - name: 32,34|🇵🇱_PL_波兰->🇺🇦_UA_乌克兰
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20066
@@ -488,58 +514,23 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 32|🇭🇰HK-47.244.120.197-4735
+- name: 32|🏁RELAY-104.16.72.41-1327
   network: ws
-  port: 44867
-  server: 47.244.120.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 32|🇲🇾MY-47.250.45.234-4746
-  network: ws
-  port: 8613
-  server: 47.250.45.234
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
-  ws-opts:
-    headers:
-      Host: 47.250.45.234
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 32|🏁RELAY-104.21.58.173-4778
-  network: ws
+  password: humanity
   port: 443
-  server: rush-6it6b.teeopp.quest
-  servername: rush-6it6b.teeopp.quest
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: 104.16.72.41
+  sni: www.calmlunch.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: rush-6it6b.teeopp.quest
-    path: /video/kz49hf/gbin5jve.m3u8
-- alterId: 0
-  cipher: auto
-  name: 34|🇺🇸_US_美国
-  network: http
-  port: 50269
-  server: 103.179.142.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba
+    path: '%2Fassignment'
+- name: 39|日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 9408
+  server: 18.163.115.126
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: 41|NL_speednode_0004
   port: 9002
   server: 84.17.47.125

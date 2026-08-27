@@ -1,20 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  name: 21|罗马尼亚 004
-  network: ws
-  port: 443
-  server: 188.214.35.66
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tfo: false
+- client-fingerprint: firefox
+  name: '15|伊朗+V2CROSS.COM #2'
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: Wg07hKwQjSVmOsEHn7X1iLAXR2wkKRSyv8TZmq9ZsRA
+    short-id: 58186df4a95a1504
+  server: 151.245.106.49
+  servername: www.cloudflare.com
   tls: true
   type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
+  uuid: 9f7dddc4-6c77-4e2c-bfa4-7e5afdfd48f8
 - name: 41|RO_speednode_0041
   port: 9002
   server: 193.176.84.33
