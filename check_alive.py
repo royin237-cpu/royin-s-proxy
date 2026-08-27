@@ -109,7 +109,10 @@ def measure(binary, proxies):
         except subprocess.TimeoutExpired:
             process.kill()
         try:
-            config_path.unlink()
+            try:
+                config_path.unlink()
+            except OSError:
+                pass
         except FileNotFoundError:
             pass
     return delays
@@ -218,8 +221,13 @@ def main():
         merged.update(measure(binary, proxies))
         if merged:
             break
-    if not merged or len(merged) / len(proxies) < MIN_ALIVE_RATIO:
-        raise SystemExit(f"alive check rejected result: {len(merged)}/{len(proxies)}")
+    if not merged:
+        raise SystemExit("alive check found 0 usable proxies, keeping unfiltered")
+
+    if len(merged) / len(proxies) < MIN_ALIVE_RATIO:
+        print(f"[alive] WARNING: only {len(merged)}/{len(proxies)} alive "
+              f"({len(merged)/len(proxies)*100:.2f}%), below threshold {MIN_ALIVE_RATIO*100:.2f}%")
+        print("[alive] proceeding with filtering anyway (few alive > 4000 dead)")
 
     (ROOT / "alive_result.json").write_text(
         json.dumps(merged, ensure_ascii=False, indent=2, sort_keys=True),

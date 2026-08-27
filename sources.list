@@ -96,3 +96,18 @@ https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash
 # V2RayAggregator：上游项目每日自动测速，仅发布存活节点（4000+ 合并/精选）
 https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
 https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity
+
+# ── 新增高质量源（2026-08-27 添加，全部经 curl 实测 200 可访问） ──
+# PuddinCat/BestClash - 每 30 分钟自动爬取+测速（当天有提交）
+https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml
+# Au1rxx/free-vpn-subscriptions - 每小时 HTTP-over-proxy 真实验证，仅发存活节点
+https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml
+# Ruk1ng001/freeSub - 定期筛选去重（2026-08 仍更新）
+https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
+# ermaozi - 两代订阅均活跃
+https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml
+# NiceVPN123 - 大体量聚合（1.7MB）
+https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml
+# ts-sf/fly
+https://raw.githubusercontent.com/ts-sf/fly/main/clash

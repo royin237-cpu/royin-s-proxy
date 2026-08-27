@@ -1,11 +1,1 @@
-proxies:
-- name: 21|瑞士 003
-  network: tcp
-  port: 2551
-  server: 178.83.157.130
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
+proxies: []

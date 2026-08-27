@@ -654,11 +654,13 @@ class Node:
             # 新版 mihomo 已把 fingerprint 更名为 client-fingerprint
             ret.setdefault('client-fingerprint', ret['fingerprint'])
             del ret['fingerprint']
-        if self.type == 'vless' and 'flow' in ret:
+        if self.type == 'vless' and ret.get('flow'):
             if ret['flow'].endswith('-udp443'):
                 ret['flow'] = ret['flow'][:-7]
             elif ret['flow'].endswith('!'):
                 ret['flow'] = ret['flow'][:-1]
+        elif self.type == 'vless' and 'flow' in ret and not ret['flow']:
+            del ret['flow'] # flow 为 null/空时删除，避免 mihomo 校验报错
         if 'reality-opts' in ret and not ret.get('tls'):
             ret['tls'] = True # REALITY 必须启用 TLS，部分上游订阅漏写该字段
         if self.type == 'hysteria2' and ret.get('obfs') in (None, '', 'none'):
@@ -671,7 +673,10 @@ class Node:
     def supports_meta(self, noMeta=False) -> bool:
         if self.isfake: return False
         if self.type == 'vmess':
-            supported = CLASH_CIPHER_VMESS
+            if 'client-fingerprint' in self.data and str(self.data['client-fingerprint']).strip():
+                supported = CLASH_CIPHER_VMESS + ['x-chacha20']
+            else:
+                supported = CLASH_CIPHER_VMESS
         elif self.type == 'ss' or self.type == 'ssr':
             supported = CLASH_CIPHER_SS
         elif self.type == 'trojan': return True
