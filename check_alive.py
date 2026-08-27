@@ -143,7 +143,7 @@ def update_config(path, alive_names, delay_by_name):
         group["proxies"] = [
             item
             for item in group.get("proxies", [])
-            if item not in delay_by_name or item in proxy_names
+            if item in proxy_names or item == "DIRECT"
         ]
         if not group.get("proxies"):
             group["proxies"] = ["DIRECT"]
