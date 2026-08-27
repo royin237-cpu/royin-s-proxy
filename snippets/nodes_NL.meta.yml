@@ -92,10 +92,30 @@ proxies:
   port: 65432
   server: 87.215.14.228
   type: http
-- name: 21|🔴🇳🇱_github.com/Ruk1ng001_8fd33...
-  port: 5222
-  server: 144.124.232.204
-  type: socks5
+- alterId: 0
+  cipher: auto
+  encryption: none
+  name: 21|🔴🇳🇱[🤖🎪]_github.com/Ruk1ng001_e...
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 27315937-5479-49fd-867d-6b2f17246708
+  ws-opts:
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+- name: '21|🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #7'
+  port: 443
+  server: 185.246.153.42
+  skip-cert-verify: true
+  sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
+  tls: true
+  type: http
 - name: '21|🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #8'
   port: 443
   server: 103.97.88.154
@@ -103,6 +123,31 @@ proxies:
   sni: 4a8c2906c96058315dffbc2b0e7ff19b-98005bea43f9ac33.apache-iv.com
   tls: true
   type: http
+- name: 22|荷兰
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  password: HowdyHysteria2023w0W
+  port: 8443
+  server: hysteria.udpgw.com
+  skip-cert-verify: true
+  sni: sni-here.com
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 25|荷兰 036
+  network: ws
+  port: 443
+  server: 41.216.182.105
+  servername: vod.ensf.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: /api/v1/irc
 - name: 48|NL_speednode_0004
   port: 9002
   server: 84.17.47.125

@@ -299,6 +299,15 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: 7|vmess-971093565
+  network: raw
+  port: 37515
+  server: 119.46.51.45
+  type: vmess
+  udp: true
+  uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
+- alterId: 0
+  cipher: auto
   name: 7,25|美国 076
   network: tcp
   port: 22324
@@ -971,22 +980,6 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 7|vmess-878346728
-  network: ws
-  port: 443
-  server: us-23.hihu.net
-  servername: us-23.hihu.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e9674560-9d1a-11f1-b333-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: us-23.hihu.net
-    path: /
-- alterId: 0
-  cipher: auto
   name: 7|vmess-712821982
   network: raw
   port: 22324
@@ -1020,21 +1013,6 @@ proxies:
   type: vmess
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 16|RW 60 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: 23.162.200.227
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 23.162.200.227
-    path: /linkvws
 - cipher: aes-128-cfb
   name: 16|🇳🇱 NL 2 → tg@nicevpn123
   password: shadowsocks
@@ -1042,21 +1020,42 @@ proxies:
   server: 109.201.152.181
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 18,21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 18,21|🟠🇺🇸[📺🎭]_github.com/Ruk1ng001_c...
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+- cipher: aes-256-cfb
+  name: 18,21,30|🇨🇳_CN_中国->🇰🇷_KR_韩国
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 18|us|01ca|puddincat07@Telegram
+  name: 18|us|3f57|puddincat07@Telegram
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.244
+  server: 104.19.229.21
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
-    path: /assignment
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: assignment
 - client-fingerprint: chrome
   name: 18|us|8095|puddincat07@Telegram
   network: ws
@@ -1071,6 +1070,55 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 18|us|f608|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 18|us|cc28|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.246
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 18|us|2a14|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.221.242
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: 18|us|d210|puddincat07@Telegram
@@ -1103,35 +1151,35 @@ proxies:
         like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 18|xx|9b26|puddincat07@Telegram
+  name: 18|us|98c8|puddincat07@Telegram
   network: ws
   password: humanity
   port: 443
-  server: render.com
+  server: 104.18.152.133
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 18|us|3f57|puddincat07@Telegram
+  name: 18|us|b84c|puddincat07@Telegram
   network: ws
   password: humanity
   port: 443
-  server: 104.19.229.21
+  server: 104.16.174.6
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: assignment
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
   name: 18|us|108b|puddincat07@Telegram
   network: ws
@@ -1147,103 +1195,19 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/68.0.3440.106 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: 18|us|f508|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 130.250.137.171
+- alterId: 64
+  cipher: auto
+  name: '21,40|🇨🇳_CN_中国 #2'
+  network: tcp
+  port: 50002
+  server: 112.132.215.108
+  servername: ''
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /assignment
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 18|us|b9ea|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 18|us|2a14|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.221.242
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 18|us|f410|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.74.2
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 18|us|246e|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.143
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 18|us|ea36|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /assignment
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 21,25|美国 799
@@ -1257,13 +1221,6 @@ proxies:
     headers:
       Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
     path: /
-- cipher: aes-256-cfb
-  name: 21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 21|🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001...
@@ -1278,20 +1235,6 @@ proxies:
   port: 443
   server: 16.54.243.229
   type: ss
-- cipher: aes-256-cfb
-  name: 21|🟠🇺🇸[📺🎭]_github.com/Ruk1ng001_c...
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
-- cipher: aes-256-cfb
-  name: 21,30|🇨🇳_CN_中国->🇰🇷_KR_韩国
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: 21|⚪🏳️_github.com/Ruk1ng001_79f37...
   network: ws
@@ -1337,21 +1280,25 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: 21|🔴🇫🇷[📺🎭🎪]_github.com/Ruk1ng001_...
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 21,46|未知42 123.4KB/s
   network: ws
-  password: humanity
-  port: 40443
-  server: 2.144.21.112
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 443
+  server: renderer-stream-2-62.mirra.now
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  tls: true
+  type: vmess
   udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /assignment
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+  xudp: true
 - alterId: 2
   cipher: auto
   name: '21,40|🇨🇳_CN_中国 #1'
@@ -1359,6 +1306,17 @@ proxies:
   port: 30806
   server: v6.hdacd.com
   servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 21|🟠🇺🇸_github.com/Ruk1ng001_3305b...
+  port: 30829
+  server: v29.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -1448,6 +1406,16 @@ proxies:
   uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
 - alterId: 0
   cipher: auto
+  name: 25|英国 003
+  network: tcp
+  port: 2053
+  server: 51.38.71.147
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
+- alterId: 0
+  cipher: auto
   name: '25,37,38|🇫🇷FR-62.210.127.120-0571 #1'
   network: ws
   port: 23388
@@ -1489,6 +1457,21 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- alterId: 0
+  cipher: auto
+  name: 25,38|🇬🇧GB-57.129.132.223-0570
+  network: ws
+  port: 80
+  server: 57.129.132.223
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /vmess/
 - alterId: 2
   cipher: none
   name: 30|🇭🇰_HK_中国香港_1
@@ -1519,6 +1502,16 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- alterId: 64
+  cipher: auto
+  name: 30|🇨🇳_CN_中国_1
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 30|🇨🇳_CN_中国->🇫🇷_FR_法国
@@ -1562,18 +1555,18 @@ proxies:
     path: /video/kz49hf/gbin5jve.m3u8
 - alterId: 0
   cipher: auto
-  name: '37,38|🇭🇰HK-47.244.120.197-5097 #1'
+  name: '37,38|🇭🇰HK-156.245.232.239-0245 #1'
   network: ws
-  port: 36703
-  server: 47.244.120.197
+  port: 35043
+  server: 156.245.232.239
   servername: ''
   tls: false
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     headers:
-      Host: 47.244.120.197
-    path: /arki?ed=2048
+      Host: 156.245.232.239
+    path: /
 - alterId: 0
   cipher: auto
   name: '37,38|🇭🇰HK-47.244.120.197-5098 #1'
@@ -1590,41 +1583,18 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '37,38|🇮🇳IN-152.67.8.205-0177 #1'
+  name: 38|🏁RELAY-104.17.77.77-5149
   network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 152.67.8.205
-  tls: false
+  port: 8443
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  tls: true
   type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: 152.67.8.205
-    path: /
-- name: 38|🏁RELAY-104.16.72.41-1327
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.72.41
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- alterId: 0
-  cipher: auto
-  name: 38|🇲🇾MY-47.250.45.234-5109
-  network: ws
-  port: 8613
-  server: 47.250.45.234
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
-  ws-opts:
-    headers:
-      Host: 47.250.45.234
-    path: /arki?ed=2048
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - alterId: 2
   cipher: auto
   name: 40,45|香港|@ripaojiedian
@@ -1657,6 +1627,16 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
+  name: 46|未知20
+  network: tcp
+  port: 2053
+  server: node-uk.connectsuite.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
+- alterId: 0
+  cipher: auto
   name: 46|未知58
   network: ws
   port: 443
@@ -1670,18 +1650,3 @@ proxies:
       Host: 158.51.121.63
       host: seribus.org
     path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 46|未知82 1.3MB/s
-  network: ws
-  port: 443
-  server: www.shopify.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3
-  ws-opts:
-    headers:
-      Host: www.shopify.com
-      host: included-shaw-lean-believe.trycloudflare.com
-    path: /a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3-vm

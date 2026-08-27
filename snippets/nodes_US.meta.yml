@@ -1,11 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
-  udp: true
 - name: 21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
   password: gs4BXwT6SW
   port: 10988
@@ -13,14 +6,6 @@ proxies:
   tls: false
   type: http
   username: fQ67Dpe5dU
-- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  password: None
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
   password: ''
   port: 443
@@ -304,10 +289,6 @@ proxies:
   port: 8056
   server: 24.153.226.234
   type: http
-- name: 21|🔴🇺🇸[🎬🤖📺🎪]_github.com/Ruk1ng001...
-  port: 16062
-  server: 172.85.99.17
-  type: http
 - name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #36'
   password: ''
   port: 9002
@@ -336,12 +317,6 @@ proxies:
   port: 6005
   server: 23.95.112.143
   type: http
-- cipher: aes-256-cfb
-  name: 21|🟠🇺🇸[📺🎭]_github.com/Ruk1ng001_c...
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
 - name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #39'
   password: None
   port: 16062
@@ -381,6 +356,12 @@ proxies:
   server: 138.199.35.202
   skip-cert-verify: true
   tls: true
+  type: http
+  username: null
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #44'
+  password: None
+  port: 16062
+  server: 104.218.199.249
   type: http
   username: null
 - name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #45'
@@ -431,12 +412,6 @@ proxies:
   port: 3210
   server: 192.198.84.3
   type: http
-- name: 21|🔴🇺🇸_github.com/Ruk1ng001_430ed...
-  password: None
-  port: 16062
-  server: 172.85.99.128
-  type: http
-  username: null
 - name: '21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #15'
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 38400
@@ -470,6 +445,34 @@ proxies:
   port: 3193
   server: 160.153.172.106
   type: http
+- name: 21|🟠🇺🇸[🎬🤖📺🎪]_github.com/Ruk1ng001...
+  port: 1085
+  server: 45.76.164.255
+  type: socks5
+- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #52'
+  port: 16062
+  server: 104.218.199.199
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '21|🟢🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMTA5uuaIVIeqHslZMT3CbFwP8F5ysMLii72ybsTlyY
+    short-id: e2a4c6b8
+  server: 31.76.61.232
+  servername: policies.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4829c2f5-f45a-4330-9b3c-d381b9efdbec
+  xudp: true
 - name: '21|🔴🇺🇸[🤖📺🎭🎪]_github.com/Ruk1ng001... #1'
   password: None
   port: 9002
@@ -501,14 +504,6 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 21|🔴🇺🇸[📺🎭🎪]_github.com/Ruk1ng001_...
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 107.151.238.27
-  sni: 6b97ee1b.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
 - name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #55'
   password: None
   port: 8090
@@ -537,10 +532,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #58'
-  port: 16062
-  server: 104.218.199.24
-  type: http
 - name: 21|🔴🇺🇸[📺]_github.com/Ruk1ng001_18...
   port: 9050
   server: 45.61.129.165
@@ -549,10 +540,17 @@ proxies:
   port: 1080
   server: 141.148.158.143
   type: socks5
-- name: '21|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #61'
-  port: 16062
-  server: 104.218.199.152
-  type: http
+- alterId: 2
+  cipher: auto
+  name: 21|🟠🇺🇸_github.com/Ruk1ng001_3305b...
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - name: '21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001... #21'
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 29023
@@ -653,37 +651,18 @@ proxies:
   type: vmess
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - client-fingerprint: chrome
-  name: 25|美国 206
-  network: ws
+  flow: xtls-rprx-vision
+  name: 25|美国 444
+  network: tcp
   port: 443
-  server: 162.159.254.3
-  servername: jp3.yohototo.top
+  server: 162.19.10.99
+  servername: nasnet-162191099-direct.mbghalibaf.com
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- client-fingerprint: chrome
-  name: 25|美国 207
-  network: ws
-  port: 443
-  server: 172.67.156.147
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
 - alterId: 0
   cipher: auto
   name: 30|🇺🇸_US_美国_1

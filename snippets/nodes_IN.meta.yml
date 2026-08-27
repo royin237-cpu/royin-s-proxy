@@ -1,8 +1,4 @@
 proxies:
-- name: 21|🔴🇮🇳[🎬🤖📺🎪]_github.com/Ruk1ng001...
-  port: 1088
-  server: 144.24.111.128
-  type: socks5
 - name: 21|🟠🇮🇳[🤖📺🎭✨]_github.com/Ruk1ng001...
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 61088
@@ -11,17 +7,3 @@ proxies:
   sni: yindu03.pulsarcore.site
   type: anytls
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '37,38|🇮🇳IN-152.67.8.205-0177 #1'
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 152.67.8.205
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    headers:
-      Host: 152.67.8.205
-    path: /

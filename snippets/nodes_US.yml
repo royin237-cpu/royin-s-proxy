@@ -1,17 +1,15 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 21|🟠🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 21|🟠🇺🇸_github.com/Ruk1ng001_3305b...
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
-  name: 21|🟠🇺🇸[📺🎭]_github.com/Ruk1ng001_c...
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - alterId: 0
   cipher: auto
   name: '25,37,38|🏁RELAY-104.21.84.182-0145 #1'

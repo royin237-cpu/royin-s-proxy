@@ -1,5 +1,5 @@
 proxies:
-- name: 21|🔴🇷🇺_github.com/Ruk1ng001_bb28e...
-  port: 4050
-  server: 109.94.1.23
-  type: http
+- name: 21|🟢🇷🇺_github.com/Ruk1ng001_a3c38...
+  port: 1082
+  server: 147.45.221.112
+  type: socks5
