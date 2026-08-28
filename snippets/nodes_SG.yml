@@ -37,7 +37,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 25,38|🇸🇬SG-139.99.61.154-0895
+  name: 25,38|🇸🇬SG-139.99.61.154-0887
   network: ws
   port: 80
   server: 139.99.61.154
@@ -50,14 +50,22 @@ proxies:
     headers:
       Host: 139.99.61.154
     path: /vmess
-- name: '37,38|🇸🇬SG-68.183.184.107-0078 #1'
+- name: '30,40|🇸🇬_SG_新加坡 #1'
+  password: fef70590-17a9-4ddc-a38c-2b7467c083b5
+  port: 55766
+  server: yxsgvl.rvvs.im
+  skip-cert-verify: true
+  sni: yxsgvl.rvvs.im
+  type: trojan
+  udp: true
+- name: '37,38|🇸🇬SG-68.183.184.107-0182 #1'
   password: 1a205ae2-be41-42b0-abdf-795a2ea3df4e
   port: 443
   server: t1.gitvpn.eu.org
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 38|🇸🇬SG-15.235.147.186-0418
+  name: 38|🇸🇬SG-15.235.147.186-0410
   network: ws
   port: 80
   server: 15.235.147.186
@@ -71,7 +79,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
 - alterId: 64
   cipher: auto
-  name: 38|🇸🇬SG-202.79.172.53-1662
+  name: 38|🇸🇬SG-202.79.172.53-1759
   network: ws
   port: 443
   server: 202.79.172.53
@@ -85,7 +93,7 @@ proxies:
     path: /path/220128071100
 - alterId: 0
   cipher: auto
-  name: 38|🇸🇬SG-143.198.219.182-1678
+  name: 38|🇸🇬SG-143.198.219.182-1775
   network: ws
   port: 80
   server: 143.198.219.182
@@ -99,7 +107,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 38|🇸🇬SG-18.143.123.35-1751
+  name: 38|🇸🇬SG-18.143.123.35-1848
   network: ws
   port: 80
   server: 18.143.123.35
@@ -113,7 +121,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 38|🇸🇬SG-15.235.184.36-2452
+  name: 38|🇸🇬SG-15.235.184.36-2549
   network: ws
   port: 80
   server: 15.235.184.36
@@ -127,7 +135,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 38|🇸🇬SG-139.99.61.154-2457
+  name: 38|🇸🇬SG-139.99.61.154-2554
   network: ws
   port: 80
   server: 139.99.61.154
@@ -141,7 +149,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 38|🇸🇬SG-109.123.237.41-2484
+  name: 38|🇸🇬SG-109.123.237.41-2581
   network: ws
   port: 80
   server: 109.123.237.41
@@ -155,7 +163,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 38|🇸🇬SG-109.123.237.41-2646
+  name: 38|🇸🇬SG-109.123.237.41-2743
   network: ws
   port: 80
   server: 109.123.237.41
@@ -169,7 +177,7 @@ proxies:
     path: /fastssh
 - alterId: 0
   cipher: auto
-  name: 38|🇸🇬SG-15.235.192.196-2738
+  name: 38|🇸🇬SG-15.235.192.196-2835
   network: ws
   port: 80
   server: 15.235.192.196
@@ -183,7 +191,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 38|🇸🇬SG-157.230.36.235-2739
+  name: 38|🇸🇬SG-157.230.36.235-2836
   network: ws
   port: 80
   server: 157.230.36.235
@@ -195,19 +203,19 @@ proxies:
     headers:
       Host: 157.230.36.235
     path: /graphql
-- name: 38|🇸🇬SG-172.104.51.247-5512
+- name: 38|🇸🇬SG-172.104.51.247-5592
   password: affae2e0-e84b-11ec-b09f-1239d0255272
   port: 443
   server: trojan1.udpgw.com
   type: trojan
-- name: 38|🇸🇬SG-18.140.67.76-5515
+- name: 38|🇸🇬SG-18.140.67.76-5595
   password: iyinglong
   port: 443
   server: 18.140.67.76
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 38|🇸🇬SG-8.219.123.35-7110
+  name: 38|🇸🇬SG-8.219.123.35-7190
   network: ws
   port: 80
   server: 8.219.123.35
@@ -219,13 +227,13 @@ proxies:
     headers:
       Host: 8.219.123.35
     path: /2TokGE9A/
-- name: 38|🇸🇬SG-15.235.197.4-7742
+- name: 38|🇸🇬SG-15.235.197.4-7822
   password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
   port: 80
   server: 15.235.197.4
   sni: 15.235.197.4
   type: trojan
-- name: 38|🇸🇬SG-15.235.197.4-7744
+- name: 38|🇸🇬SG-15.235.197.4-7824
   password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
   port: 80
   server: 15.235.197.4
@@ -233,7 +241,7 @@ proxies:
   type: trojan
 - alterId: 64
   cipher: auto
-  name: 38|🇸🇬SG-118.107.46.173-7842
+  name: 38|🇸🇬SG-118.107.46.173-7922
   network: ws
   port: 443
   server: 118.107.46.173

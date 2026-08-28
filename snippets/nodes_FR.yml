@@ -1,52 +1,22 @@
 proxies:
 - client-fingerprint: chrome
-  name: '21|🔴🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+  name: 21|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_386ca38a
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.149
+  server: 104.17.111.1
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 21|🟠🇫🇷[🎭🎪]_github.com/Ruk1ng001_2...
-  network: ws
-  password: humanity
-  port: 443
-  server: 176.97.66.175
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 21|🔴🇫🇷[📺🎭🎪]_github.com/Ruk1ng001_...
-  network: ws
-  password: humanity
-  port: 40443
-  server: 2.144.21.112
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /assignment
 - alterId: 0
   cipher: auto
-  name: '25,37,38|🇫🇷FR-62.210.127.120-0571 #1'
+  name: '25,37,38|🇫🇷FR-62.210.127.120-0563 #1'
   network: ws
   port: 23388
   server: 62.210.127.120

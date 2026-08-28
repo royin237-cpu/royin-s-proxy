@@ -1,21 +1,11 @@
 proxies:
-- name: 21|🟢🇨🇳_github.com/Ruk1ng001_96deb...
+- name: 21|A🟢🇨🇳_dokng.com_96deb268
   password: None
   port: 8080
   server: 112.64.135.45
   type: http
   username: null
-- name: 21|🟢🇨🇳_github.com/Ruk1ng001_0c540...
+- name: 21|A+🟢🇨🇳_dokng.com_0c5403d7
   port: 8080
   server: 112.64.135.45
   type: http
-- alterId: 2
-  cipher: auto
-  name: 30|🇨🇳_CN_中国
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

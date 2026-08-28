@@ -1,41 +1,73 @@
 proxies:
-- name: 21|🟠🇸🇬[🤖🎞️📦]_github.com/Ruk1ng001...
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 16406
-  server: test01.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: yz203.y1static-content-distribution.shop
-  type: anytls
-- name: 21|🟠🇸🇬[🎬🤖📺🎪]_github.com/Ruk1ng001...
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 10778
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: xjp20.jdddyy01.cc
-  type: anytls
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 21|C🟠🇸🇬[🎬📺🎭🎪]_dokng.com_6387bcb2
+  network: grpc
+  port: 10037
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
   udp: true
-- name: 21|🟠🇸🇬[🤖✨🎞️📦]_github.com/Ruk1ng00...
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 47096
-  server: test01.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: xjp33.pulsarcore.site
-  type: anytls
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 21|C🟠🇸🇬[🎬📺🎭🎪]_dokng.com_0aceb104
+  network: grpc
+  port: 10038
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg3-r.link-t7.com
+  servername: d1.awsstatic.com
+  tls: true
+  type: vless
   udp: true
-- name: 21|🟠🇸🇬[🎬📺🎭✨]_github.com/Ruk1ng001...
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 14855
-  server: test01.y1static-content-distribution.shop
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- name: 21|A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1
+  password: ''
+  port: 9443
+  server: 149.88.99.209
   skip-cert-verify: true
-  sni: yz238.y1static-content-distribution.shop
-  type: anytls
-- name: 21|🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 47053
-  server: yazhouany02.downapptwo.cc
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 21|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_26d0e430
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  sni: 92461d2d.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 21|D🔴🇸🇬_dokng.com_ec84b940
+  password: None
+  port: 9090
+  server: 104.248.151.93
+  type: http
+  username: null
+- client-fingerprint: chrome
+  name: 21|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_fda5f843
+  network: ws
+  port: 443
+  server: admin.jikecloud.cc
+  servername: admin.jikecloud.cc
   skip-cert-verify: true
-  sni: xjp202.pulsarcore.site
-  type: anytls
+  tls: true
+  type: vless
+  uuid: e55fa822-ad91-4133-8dcf-2587aec10baf
+  ws-opts:
+    headers:
+      Host: admin.jikecloud.cc
+    path: /vless
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -43,7 +75,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 21|🔴🇸🇬[🤖📺🎭🎪]_github.com/Ruk1ng001...
+  name: 21|D🔴🇸🇬[🎬📺🎭🎪]_dokng.com_c46c93f3
   network: tcp
   port: 15006
   reality-opts:
@@ -56,33 +88,3 @@ proxies:
   udp: true
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
   xudp: true
-- name: 21|🟠🇸🇬[📺🎪✈️🔍]_github.com/Ruk1ng00...
-  password: 5b2012ba-d040-4281-b92c-4f005badd179
-  port: 55003
-  server: dafeizhu.xxxyun.top
-  sni: atlsg1.jueduibupao.top
-  type: anytls
-- name: 21|🔴🇸🇬[🤖✨🎞️✈️]_github.com/Ruk1ng0...
-  port: 9090
-  server: 104.248.151.93
-  type: http
-- name: 21|🔴🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  port: 9090
-  server: 128.199.254.13
-  type: http
-- name: '21|🔴🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  sni: 92461d2d.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 21|🔴🇸🇬[📺🎭🎪🔍]_github.com/Ruk1ng001...
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 104.248.148.240
-  sni: us.acskey.co
-  tls: true
-  type: http
-  username: testuser1

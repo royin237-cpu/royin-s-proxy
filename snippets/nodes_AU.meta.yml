@@ -1,13 +1,15 @@
 proxies:
-- name: 21|🔴🇦🇺[🎬🤖📺🎭]_github.com/Ruk1ng001...
+- name: 21|D🔴🇦🇺[🎬🤖📺🎭]_dokng.com_6a11339c
+  password: None
   port: 443
   server: 159.13.44.228
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
 - alterId: 0
   cipher: auto
-  name: '25,37,38|🇯🇵JP-140.83.57.20-0165 #1'
+  name: '25,37,38|🇯🇵JP-140.83.57.20-0177 #1'
   network: ws
   port: 13118
   server: 140.83.57.20

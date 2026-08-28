@@ -1,22 +1,114 @@
 proxies:
-- name: '21|🔴🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  password: ''
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 21|C🟠🇰🇷[🎬📺🎭🎪]_dokng.com_d1a6d8df
+  network: grpc
+  port: 10049
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr4-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 21|C🟠🇰🇷[🎬📺🎭🎪]_dokng.com_256066c5
+  network: grpc
+  port: 10047
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 21|C🟠🇰🇷[📺🎭🎪]_dokng.com_b711111b
+  network: grpc
+  port: 10050
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 21|C🟠🇰🇷[🎬📺🎪📦]_dokng.com_fe6c2c16
+  network: grpc
+  port: 10046
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- name: 21|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_052a91b6
+  password: cba96915-8098-41a7-9997-efb01ccc598a
+  port: 42311
+  server: a11.toppp.cc
+  skip-cert-verify: true
+  sni: osxapps.itunes.apple.com
+  type: anytls
+  udp: true
+- name: 21|D🔴🇰🇷[🤖📺✨🔍]_dokng.com_c7d469b4
   port: 1080
   server: 43.164.136.189
   type: socks5
-  udp: true
-  username: ''
-- name: '21|🔴🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 21|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f4539d56
+  network: tcp
+  port: 25636
+  reality-opts:
+    public-key: 3q6CuhLN7vMBISVK5PGjjlGKrRlub5VerIonNSL4c1o
+    short-id: f34d0b76b7af0199
+  server: kghgalybqwqqnqnbdb.jiedddym.com
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 0234cdd9-35ee-40a5-b698-9820f09a04f5
+- name: 21|D🔴🇰🇷[🎬🤖📺🎭]_dokng.com_d5ac756e
   password: ''
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 21|🟢🇰🇷[🎬📺🎭📦]_github.com/Ruk1ng001...
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 15503
-  server: test01.y1static-content-distribution.shop
+- cipher: aes-256-cfb
+  name: 21|C🟠🇰🇷_dokng.com_f9dd3272
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 25|韩国 001
+  network: tcp
+  port: 443
+  server: 140.238.2.250
   skip-cert-verify: true
-  sni: kr08.lunartrace.io
-  type: anytls
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde

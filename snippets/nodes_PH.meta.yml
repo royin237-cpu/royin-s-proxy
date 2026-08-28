@@ -1,9 +1,16 @@
 proxies:
-- name: 21|🟢🇵🇭[🤖📦️]_github.com/Ruk1ng001_...
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 17930
-  server: yzany01.downapptwo.cc
+- alterId: 0
+  cipher: auto
+  name: 25,38|🇵🇭PH-120.28.10.46-0608
+  network: ws
+  port: 80
+  server: 120.28.10.46
+  servername: ''
   skip-cert-verify: true
-  sni: flv02.swiftrelay.cc
-  type: anytls
-  udp: true
+  tls: false
+  type: vmess
+  uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f
+  ws-opts:
+    headers:
+      Host: sazgar.serveirc.com
+    path: /

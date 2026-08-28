@@ -1,21 +1,15 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 30|🇨🇳_CN_中国->🇫🇷_FR_法国
-  port: 30835
-  server: v35.hdacd.com
+- name: 30|🇺🇸_US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: '40|🇨🇳_CN_中国->🇫🇷_FR_法国 #1'
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 27315937-5479-49fd-867d-6b2f17246708
+  ws-opts:
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053

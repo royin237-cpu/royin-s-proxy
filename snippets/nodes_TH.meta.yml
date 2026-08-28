@@ -1,22 +1,11 @@
 proxies:
-- name: 21|🔴🇹🇭[🎬🤖📺🎭]_github.com/Ruk1ng001...
+- name: 21|D🔴🇹🇭[🤖📺🎭🎪]_dokng.com_4dab4ce7
   password: None
   port: 31280
   server: 202.28.194.139
   type: http
   username: null
-- encryption: none
-  name: 21|🔴🇹🇭_github.com/Ruk1ng001_84455...
-  network: ws
-  port: 80
-  server: 18.239.134.69
-  type: vless
-  udp: true
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  ws-opts:
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /
-  xudp: true
+- name: 21|D🔴🇹🇭[🤖📺🎞️]_dokng.com_dbf875fe
+  port: 1080
+  server: 43.164.3.124
+  type: socks5

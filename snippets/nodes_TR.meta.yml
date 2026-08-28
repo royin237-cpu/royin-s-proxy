@@ -28,21 +28,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 21|🟠🇹🇷[🤖📺🎭🎪]_github.com/Ruk1ng001...
-  network: tcp
-  port: 12000
-  reality-opts:
-    public-key: bOX8VehpirA-tUYgoE1cg2_sHtwcoVun3QTmR209XDY
-    short-id: 8763bbe17535ea3f
-  server: vttsoqbr6b7c.dxdx3.com
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 43b392cd-72d7-410b-b1c0-cff6c29127b7
-  xudp: true
 - name: 25|土耳其 002
   network: tcp
   port: 443
@@ -55,7 +40,7 @@ proxies:
   uuid: 5d5c40b1-102c-4343-94cc-d5b794dbd0c6
 - alterId: 0
   cipher: auto
-  name: 25,38|🇹🇷TR-37.221.79.48-0805
+  name: 25,38|🇹🇷TR-37.221.79.48-0797
   network: ws
   port: 443
   server: v2ray.online
@@ -68,9 +53,17 @@ proxies:
     headers:
       Host: Kansas.v2ray.online
     path: /speedtest
+- name: 30|🇹🇷_TR_土耳其
+  port: 43979
+  server: tur.meli.alirezanawabi.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1d49678d-f622-4f20-ba58-551d2c4d91f4
 - alterId: 0
   cipher: auto
-  name: 38|🇹🇷TR-37.221.79.48-1571
+  name: 38|🇹🇷TR-37.221.79.48-1668
   network: ws
   port: 443
   server: v2ray.online
@@ -84,7 +77,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 38|🇹🇷TR-37.221.79.48-4830
+  name: 38|🇹🇷TR-37.221.79.48-4927
   network: ws
   port: 443
   server: v2ray.online
@@ -98,7 +91,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 38|🇹🇷TR-45.94.169.142-7205
+  name: 38|🇹🇷TR-45.94.169.142-7285
   network: ws
   port: 443
   server: 45.94.169.142
@@ -110,3 +103,13 @@ proxies:
     headers:
       Host: 45.94.169.142
     path: /wss13889
+- alterId: 0
+  name: 40,46|🇷TR
+  password: humanity
+  port: 443
+  server: 86.38.214.205
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true

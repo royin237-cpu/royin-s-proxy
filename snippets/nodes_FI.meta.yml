@@ -1,25 +1,33 @@
 proxies:
-- name: 25|芬兰 001
-  network: grpc
+- name: 21|C🟠🇫🇮[🎬🤖📺🎭]_dokng.com_74a9495f
+  port: 3001
+  server: 135.181.116.225
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 21|A🟢🇫🇮[🤖📺🎭🎪]_dokng.com_86e89645
+  network: tcp
   port: 443
-  server: 135.181.41.45
-  skip-cert-verify: false
-  tfo: false
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  server: fin2.helper-internet.com
+  servername: fin2.helper-internet.com
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 38|🇫🇮FI-65.109.134.191-4386
-  network: ws
-  port: 80
-  server: 65.109.134.191
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 91698747-92b3-4a07-b5da-22694edbea82
-  ws-opts:
-    headers:
-      Host: 65.109.134.191
-    path: /graphql
+  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+  xudp: true
+- client-fingerprint: ''
+  down: ''
+  name: 21|C🟠🇫🇮[🤖📺🎪✨]_dokng.com_d13341fc
+  obfs: salamander
+  obfs-password: uw9b2qq5rx
+  password: 6aab8efdf13945829ae3699c342be406
+  port: 443
+  server: fiproxy1.lockdwn.com
+  skip-cert-verify: false
+  sni: fiproxy1.lockdwn.com
+  type: hysteria2
+  up: ''

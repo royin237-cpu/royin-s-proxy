@@ -1,22 +1,14 @@
 proxies:
-- name: 21|🟢🇨🇭[🎬🤖📺🎭]_github.com/Ruk1ng001...
+- name: 21|A🟢🇨🇭[🎬🤖📺🎭]_dokng.com_ad565b9f
   password: None
   port: 7272
   server: 212.65.190.199
   type: http
   username: null
-- name: 21|🔴🇨🇭[🎬🤖📺🎭]_github.com/Ruk1ng001...
+- name: 21|D🔴🇨🇭[🎬🤖📺🎭]_dokng.com_5edb8d34
   password: None
   port: 9443
   server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 21|🟠🇨🇭[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: None
-  port: 443
-  server: 31.7.62.50
   skip-cert-verify: true
   tls: true
   type: http

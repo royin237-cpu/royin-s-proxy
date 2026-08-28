@@ -1,5 +1,5 @@
 proxies:
-- name: 21|🔴🇵🇱[🎬🤖📺🎭]_github.com/Ruk1ng001...
+- name: 21|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_12512f43
   password: ''
   port: 443
   server: 37.120.156.34
@@ -7,15 +7,22 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '21|🔴🇵🇱[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  password: None
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 21|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_108ee2a9
+  network: tcp
   port: 443
-  server: 37.120.156.34
+  reality-opts:
+    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+    short-id: ff776ff77be48b88
+  server: 217.60.25.51
+  servername: pol.freeinternat.com
   skip-cert-verify: true
+  tfo: false
   tls: true
-  type: http
-  username: null
-- name: 21|🟠🇵🇱[🤖📺🎭🎪]_github.com/Ruk1ng001...
+  type: vless
+  uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
+- name: 21|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_68a292a0
   password: None
   port: 443
   server: 151.115.54.133
@@ -23,39 +30,19 @@ proxies:
   tls: true
   type: http
   username: null
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 21|🔴🇵🇱[🎬📺🎭🎪]_github.com/Ruk1ng001...
-  network: tcp
+- name: 21|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_18ecaa3e
+  password: None
   port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  server: 2.27.244.159
-  servername: eu-central.cendora.ru
+  server: 37.120.156.34
   skip-cert-verify: true
-  tfo: false
   tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 22|波兰
+  type: http
+  username: null
+- auth: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
+  name: 21,22|波兰
   password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
   port: 443
   server: streambox.wwwinternetvideo.click
   skip-cert-verify: true
   sni: streambox.wwwinternetvideo.click
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 30|🇵🇱_PL_波兰
-  port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  server: 31.59.125.49
-  servername: eu-central.cendora.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f

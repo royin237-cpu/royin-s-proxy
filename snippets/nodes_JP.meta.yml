@@ -1,31 +1,38 @@
 proxies:
-- name: 21|🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: 'null'
+- name: 21|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_4920bfe7
   port: 443
   server: fan.571589.xyz
   sni: fan.571589.xyz
   tls: true
   type: http
-  username: 'null'
-- name: '21|🟠🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 12791
-  server: jpglobal-identity-federation-auth.younai-ytl.shop
+- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_9f3d72b4
+  password: HOrViv
+  port: 28102
+  server: 209.248.32.117
   skip-cert-verify: true
-  sni: jp10.pulsarcore.site
-  type: anytls
-- name: '21|🟢🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
+  sni: ctldl.windowsupdate.com
+  type: trojan
+- name: 21|C🟠🇯🇵[🎭🔍]_dokng.com_16f5ab4e
+  password: '!!str 123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks5
+  username: '123456'
+- name: 21|A🟢🇯🇵[🎬📺🎭✨]_dokng.com_20840051
   password: 4kch6iOn
   port: 443
   server: cn13.somethingstranges.com
   skip-cert-verify: true
   sni: down413.mihoyo.yuanshen.com
   type: anytls
-- name: '21|🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  port: 10808
-  server: 101.36.104.46
+- name: 21|D🔴🇯🇵_dokng.com_1767f2c7
+  password: Og
+  port: 8443
+  server: 112.28.149.152
   type: socks5
-- name: 21|🔴🇯🇵_github.com/Ruk1ng001_58024...
+  udp: true
+  username: Og
+- name: 21|D🔴🇯🇵[🤖📺🎪✨]_dokng.com_5802486e
   port: 10808
   server: 101.36.104.239
   type: socks5

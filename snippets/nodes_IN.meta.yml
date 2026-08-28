@@ -1,13 +1,8 @@
 proxies:
-- name: 21|🔴🇮🇳[🎬🤖📺🎪]_github.com/Ruk1ng001...
+- name: 21|D🔴🇮🇳[🎬🤖📺✨]_dokng.com_05587c1b
+  password: ''
   port: 1088
   server: 144.24.111.128
   type: socks5
-- name: 21|🟠🇮🇳[🤖📺🎭✨]_github.com/Ruk1ng001...
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 61088
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: yindu03.pulsarcore.site
-  type: anytls
   udp: true
+  username: ''

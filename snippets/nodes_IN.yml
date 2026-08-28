@@ -35,7 +35,7 @@ proxies:
     headers:
       Host: in-full.privateip.net
     path: /RACEVPN
-- name: 38|🇮🇳IN-152.67.160.174-1137
+- name: 38|🇮🇳IN-152.67.160.174-1122
   password: 54080134-2cba-4535-8599-95650bd9aa54
   port: 443
   server: 152.67.160.174

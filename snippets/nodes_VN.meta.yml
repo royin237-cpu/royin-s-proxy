@@ -28,13 +28,9 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 21|🔴🇻🇳_github.com/Ruk1ng001_701d2...
-  port: 9999
-  server: 163.181.207.213
-  type: http
 - alterId: 0
   cipher: auto
-  name: 38|🇻🇳VN-103.166.183.226-0357
+  name: 38|🇻🇳VN-103.166.183.226-0349
   network: ws
   port: 80
   server: 103.166.183.226
@@ -48,7 +44,7 @@ proxies:
     path: /tandung288.click
 - alterId: 0
   cipher: auto
-  name: 38|🇻🇳VN-103.56.160.184-0420
+  name: 38|🇻🇳VN-103.56.160.184-0412
   network: ws
   port: 80
   server: 103.56.160.184
@@ -62,7 +58,7 @@ proxies:
     path: /tandung288.click
 - alterId: 0
   cipher: auto
-  name: 38|🇻🇳VN-103.75.186.153-0421
+  name: 38|🇻🇳VN-103.75.186.153-0413
   network: ws
   port: 80
   server: 103.75.186.153
@@ -76,7 +72,7 @@ proxies:
     path: /tandung288.click
 - alterId: 0
   cipher: auto
-  name: 38|🇻🇳VN-103.82.25.106-8021
+  name: 38|🇻🇳VN-103.82.25.106-8101
   network: ws
   port: 80
   server: 103.82.25.106

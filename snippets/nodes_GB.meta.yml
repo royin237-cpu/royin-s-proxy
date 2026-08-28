@@ -1,63 +1,25 @@
 proxies:
-- name: 21|🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001...
+- name: 21|D🔴🇬🇧[🤖📺🎪✨]_dokng.com_00aa40ae
   port: 443
   server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 21|🟢🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 53991
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: jp03.pulsarcore.site
-  type: anytls
-  udp: true
-- alpn:
-  - h3
-  auth: 50767b5d-7e5d-4aee-af39-5a07d36ccc36
-  name: '21|🟠🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #6'
-  password: 50767b5d-7e5d-4aee-af39-5a07d36ccc36
-  port: 443
-  server: uk59.mechvpn.online
-  skip-cert-verify: true
-  sni: uk59.mechvpn.online
-  type: hysteria2
-- name: '21|🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #1'
-  password: None
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '21|🟠🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #7'
-  port: 5002
-  server: 92.48.125.152
-  type: http
-- name: '21|🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #2'
-  password: None
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '21|🟠🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #8'
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '21|🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #3'
+- name: 21|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_e9fcd0ea
   port: 443
   server: 185.235.0.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: '21|🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #6'
+- name: 21|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_ec95baf0
+  password: None
+  port: 443
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 21|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_e7cfa50d
   password: None
   port: 443
   server: 37.120.233.18
@@ -65,7 +27,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '21|🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #5'
+- name: 21|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_d82a0f2e
   password: None
   port: 443
   server: 185.235.0.2
@@ -73,7 +35,35 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 21|🟠🇬🇧[🤖📺🎭🎪]_github.com/Ruk1ng001...
+- name: 21|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_045fb906
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 21|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_fb736f0e
+  password: None
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 21|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_642e3258
+  password: None
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 21|A🟢🇬🇧[🎬🤖📺🎭]_dokng.com_b34d168c
+  password: None
+  port: 3118
+  server: 154.61.56.215
+  type: http
+  username: null
+- name: 21|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_5b9a32da
   password: None
   port: 443
   server: 193.36.118.210
@@ -81,7 +71,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '21|🔴🇬🇧[🎬🤖📺🎭]_github.com/Ruk1ng001... #7'
+- name: 21|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_31fdb5da
+  port: 443
+  server: 193.36.118.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 21|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_aabc5d30
   password: None
   port: 443
   server: 212.102.63.61
