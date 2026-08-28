@@ -10,6 +10,22 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
+  name: 21|C🟠🇸🇬[🤖📺🎭🎪]_dokng.com_0aceb104
+  network: grpc
+  port: 10038
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg3-r.link-t7.com
+  servername: d1.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
   name: 21|C🟠🇸🇬[🎬📺🎭🎪]_dokng.com_6387bcb2
   network: grpc
   port: 10037
@@ -22,27 +38,6 @@ proxies:
   type: vless
   udp: true
   uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 21,30|🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
-  network: tcp
-  port: 15006
-  reality-opts:
-    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
-    short-id: 029a6cc4
-  server: nian.001.url111.kcloud02.top
-  servername: www.adobe.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-  xudp: true
 - client-fingerprint: chrome
   name: 21|C🟠🇸🇬[🎬📺🎪✨]_dokng.com_fda5f843
   network: ws

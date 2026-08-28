@@ -30,8 +30,24 @@ proxies:
       Host: crm.lotussec.com
     path: /
 - client-fingerprint: chrome
+  name: 25|西班牙 003
+  network: ws
+  port: 2096
+  server: 185.18.250.127
+  servername: 69565ce3109804e7813f98ee.mmdbay.blog
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2ee26119-94e5-40b4-ba3a-16354021b600
+  ws-opts:
+    headers:
+      Host: 69565ce3109804e7813f98ee.mmdbay.blog
+    path: /graphql
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 25|西班牙 005
+  name: 25|西班牙 006
   network: tcp
   port: 443
   server: 85.155.98.40
@@ -42,6 +58,31 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 25|西班牙 007
+  network: grpc
+  port: 443
+  server: 150.241.121.61
+  servername: 1pgt5wjq9slq.bosfiles.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 98b0ccb7-325d-4dd4-b1c0-92671e94f5be
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 25|西班牙 009
+  network: tcp
+  port: 18153
+  server: s299.kukuss.top
+  servername: u643766u3f35bd4ds298.wagahaha.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
 - name: 47|🇪🇸+ES+西班牙+9
   network: ws
   port: 2053

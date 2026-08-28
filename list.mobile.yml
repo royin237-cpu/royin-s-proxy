@@ -1,18 +1,11 @@
-# Update: 2026-08-29 00:43
-# 移动端轻量订阅：160 个存活节点（每地区最多 15 个），精简规则
+# Update: 2026-08-29 06:33
+# 移动端轻量订阅：135 个存活节点（每地区最多 15 个），精简规则
 mixed-port: 7890
 allow-lan: false
 mode: rule
 log-level: info
 ipv6: false
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_ff6b300c
-  password: ljqdalu13..
-  port: 8319
-  server: 13.231.190.140
-  type: ss
-  udp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 21|A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_93cdabfe
@@ -68,6 +61,13 @@ proxies:
   skip-cert-verify: true
   sni: ctldl.windowsupdate.com
   type: trojan
+- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_6226255c
+  password: HOrViv
+  port: 28110
+  server: 209.248.32.117
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
 - name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_570bed90
   password: HOrViv
   port: 28105
@@ -90,20 +90,17 @@ proxies:
   sni: z-v2-003274.kailib.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 17|美国 CloudFlare节点
+- name: 17|美国+麻省理工学院
   network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  port: 80
+  server: 18.239.134.69
+  tls: false
+  type: vless
+  uuid: de27291c-15a9-4256-9ba7-ad517569877e
   ws-opts:
     headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+    path: /
 - cipher: aes-256-cfb
   name: 21,30|🇨🇳_CN_中国->🇺🇸_US_美国_1
   password: 7eadc6dbe2ae
@@ -112,6 +109,21 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: 21|A🟢🇺🇸[📺🎭📦️]_dokng.com_4dcf960a
+  network: grpc
+  port: 10242
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: us5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
 - name: 21|D🔴🇺🇸[🎬🤖📦✈️]_dokng.com_542c5b87
   network: ws
   packet-encoding: xudp
@@ -145,6 +157,26 @@ proxies:
   type: vless
   udp: true
   uuid: ec537bff-dc14-495c-b65f-65393ad7ee75
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|A🟢🇺🇸[🎭🎪✨📦]_dokng.com_1a42334e
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMTA5uuaIVIeqHslZMT3CbFwP8F5ysMLii72ybsTlyY
+    short-id: e2a4c6b8
+  server: 31.76.61.232
+  servername: policies.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4829c2f5-f45a-4330-9b3c-d381b9efdbec
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -222,22 +254,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '25,37,38|🏁RELAY-172.67.195.180-0144 #1'
-  network: ws
-  port: 443
-  server: rush-t2tvv.ceeopp.site
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: rush-t2tvv.ceeopp.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 25,37,38,46|未知122
+  name: 25,37,38,46|未知16
   network: ws
   port: 443
   server: rush-6it6b.teeopp.quest
@@ -253,30 +270,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  delay: 1785
-  name: '25,37,38|🏁RELAY-172.64.145.93-0521 #1'
+  name: '25,37,38|🏁RELAY-172.67.195.180-0144 #1'
   network: ws
   port: 443
-  server: www.shopify.com
-  servername: included-shaw-lean-believe.trycloudflare.com
-  skip-cert-verify: true
+  server: rush-t2tvv.ceeopp.site
+  servername: ''
+  skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: included-shaw-lean-believe.trycloudflare.com
-    path: /a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3-vm
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 25,46|未知110
-  network: tcp
-  port: 1234
-  server: 159.223.13.109
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+      Host: rush-t2tvv.ceeopp.site
+    path: /
 - name: 16|🇭🇰 HK 10 → tg@nicevpn123
   password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
   port: 443
@@ -314,12 +320,117 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 21|A🟢🇹🇼[🤖📺🎭🎪]_dokng.com_80c508b5
-  network: tcp
-  port: 10001
-  server: 106.52.57.86
+  name: '37,38|🇭🇰HK-156.245.232.239-0192 #1'
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  servername: ''
+  tls: false
   type: vmess
-  uuid: f56b9a92-47d4-4d6e-b828-1aa3e96dae65
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    headers:
+      Host: 156.245.232.239
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 40,45|香港|@ripaojiedian
+  network: tcp
+  port: 30807
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: '44|🇭🇰 香港|@ripaojiedian #1'
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 38|🇹🇼TW-203.69.207.175-2938
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.co.ua
+  type: trojan
+- name: 38|🇹🇼TW-61.216.76.139-3007
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.kiev.ua
+  type: trojan
+- name: 38|🇹🇼TW-125.227.152.109-3052
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.if.ua
+  type: trojan
+- name: 38|🇹🇼TW-61.222.160.199-3074
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.org.ua
+  type: trojan
+- name: 38|🇹🇼TW-61.216.76.139-3130
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.kyiv.ua
+  type: trojan
+- name: 38|🇹🇼TW-211.75.143.195-3132
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.dp.ua
+  type: trojan
+- name: 38|🇹🇼TW-61.222.160.199-3176
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.ivano-frankivsk.ua
+  type: trojan
+- name: 38|🇹🇼TW-61.222.160.199-3288
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.biz.ua
+  type: trojan
+- name: 38|🇹🇼TW-61.216.76.139-3327
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.cn.ua
+  type: trojan
+- name: 38|🇹🇼TW-125.227.152.109-3346
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.chernovtsy.ua
+  type: trojan
+- name: 38|🇹🇼TW-125.227.152.109-3349
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.net.ua
+  type: trojan
+- name: 38|🇹🇼TW-125.227.152.109-3395
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.com.ua
+  type: trojan
+- name: 40|TW台湾(mibei77.com 米贝节点分享)\r
+  password: humanity
+  port: 443
+  server: 176.97.66.175
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+- client-fingerprint: random
+  name: 47|TG@ZDYZ2 -TW4
+  network: ws
+  port: 8443
+  server: 89.116.161.250
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
 - name: 16|🇸🇬 SG 27 → tg@nicevpn123
   password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
   port: 443
@@ -327,6 +438,22 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 21|C🟠🇸🇬[🤖📺🎭🎪]_dokng.com_0aceb104
+  network: grpc
+  port: 10038
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg3-r.link-t7.com
+  servername: d1.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
@@ -343,27 +470,6 @@ proxies:
   type: vless
   udp: true
   uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 21,30|🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
-  network: tcp
-  port: 15006
-  reality-opts:
-    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
-    short-id: 029a6cc4
-  server: nian.001.url111.kcloud02.top
-  servername: www.adobe.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-  xudp: true
 - client-fingerprint: chrome
   name: 21|C🟠🇸🇬[🎬📺🎪✨]_dokng.com_fda5f843
   network: ws
@@ -450,14 +556,6 @@ proxies:
   sni: osxapps.itunes.apple.com
   type: anytls
   udp: true
-- cipher: aes-256-cfb
-  name: 21,30|🇨🇳_CN_中国->🇰🇷_KR_韩国
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 25|韩国 001
@@ -474,13 +572,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 21|C🟠🇬🇧[🎬📺🎭🎪]_dokng.com_b2e4fa42
-  password: amazonskr05
-  port: 443
-  server: 18.170.37.90
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   name: 21|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_5974a235
@@ -494,7 +585,16 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 25|英国 003
+  name: 25|英国 005
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 25|英国 006
   network: tcp
   port: 2053
   server: 51.38.71.147
@@ -502,6 +602,20 @@ proxies:
   tls: true
   type: vmess
   uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
+- alterId: 0
+  cipher: auto
+  name: '37,38|🇬🇧GB-57.129.132.223-0635 #1'
+  network: ws
+  port: 80
+  server: 57.129.132.223
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /vmess/
 - client-fingerprint: chrome
   name: 21|C🟠🇫🇷_dokng.com_2457ab68
   network: ws
@@ -517,6 +631,23 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
+- alterId: 0
+  cipher: auto
+  encryption: none
+  name: 21|C🟠🇫🇷[🤖📺🎭🎪]_dokng.com_16aab438
+  network: ws
+  port: 443
+  server: am8.levikogjgfdd.ir
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 238bc88c-6f47-4622-9d6f-cab2ed76f098
+  ws-opts:
+    headers:
+      Host: frenchji.global.ssl.fastly.net.
+    path: /
 - client-fingerprint: chrome
   name: 21|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_747e829f
   network: ws
@@ -549,12 +680,11 @@ proxies:
     path: /assignment
 - alterId: 0
   cipher: auto
-  name: 25,38|🇫🇷FR-62.210.127.120-0588
+  name: 38|🇫🇷FR-62.210.127.120-0588
   network: ws
   port: 23388
   server: 62.210.127.120
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
@@ -562,34 +692,17 @@ proxies:
     headers:
       Host: engage.cloudflareclient.com
     path: /github.com/Alvin9999-newpac/fanqiang
-- client-fingerprint: chrome
-  name: 25|法国 019
-  network: ws
-  port: 443
-  server: 149.202.58.99
-  servername: bab-6.site
+- alterId: 2
+  cipher: auto
+  name: 21|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
+  port: 30833
+  server: v33.hdacd.com
   skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  ws-opts:
-    headers:
-      Host: bab-6.site
-    path: /vws/
-- client-fingerprint: chrome
-  name: 25|德国 016
-  network: tcp
-  port: 8443
-  server: 193.23.194.167
-  servername: neth.lckdwn.ru
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 32349ee8-8551-45fa-a265-8704cec72936
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - name: 30|🇩🇪_DE_德国
   network: ws
   port: 443
@@ -641,6 +754,19 @@ proxies:
     headers:
       Host: ru05.abvpn.ru
     path: /websocket
+- alterId: 0
+  cipher: auto
+  name: 40|🇷🇺 俄罗斯 Samara State University
+  network: ws
+  port: 443
+  server: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
 - name: 16|SE 12 → tg@nicevpn123
   network: ws
   password: dGKXcHgs3P
@@ -791,28 +917,32 @@ proxies:
   udp: true
   ws-opts:
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252CTurk'
-- name: 25|瑞典 001
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  servername: rb24.ir
-  skip-cert-verify: false
-  tfo: false
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 21|D🔴🇸🇪[🎬🤖📺🎭]_dokng.com_5632ab85
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: pU7ElcbPMVObHoWqGThioVD4i5ux_phWFwElN97aDSQ
+    short-id: 0f4dacf89993e21f
+  server: 84.32.106.178
+  servername: sw.api-yandex.net
   tls: true
   type: vless
   udp: true
-  uuid: 05d2f580-0faa-40fe-ab98-b18e7f9ed8eb
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/
-- name: 37,38,40|🇪🇪爱沙尼亚丨yoyapai.com\r
+  uuid: 4928c901-be72-4f81-8d59-091ce9e01692
+  xudp: true
+- alterId: 0
+  name: 37,38,40,46|🇪🇪EE 569.6KB/s
   password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
   port: 449
   server: 109.206.241.10
   skip-cert-verify: true
   sni: russiapower.accesscam.org
+  tls: true
   type: trojan
+  udp: true
 - name: 16|🇳🇱 NL 9 → tg@nicevpn123
   password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
   port: 443
@@ -820,43 +950,16 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_8ad42d4d
+- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_f273a3e4
   network: tcp
   port: 62145
-  server: 92.5.229.233
+  server: 141.148.225.65
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_7a22f044
+- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_3624e2ea
   network: tcp
   port: 62145
-  server: 134.98.147.32
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_03a907f4
-  network: tcp
-  port: 62145
-  server: 134.98.143.119
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- http-opts:
-    headers:
-      Host:
-      - zula.ir
-    method: GET
-    path:
-    - /
-  name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_d3b5aa39
-  network: http
-  port: 29672
-  server: 45.76.39.145
-  tls: false
-  type: vless
-  udp: true
-  uuid: cd922ef2-6d9f-4f9d-acd5-9921da8be3b8
-- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_ff05ea2d
-  network: tcp
-  port: 62145
-  server: 84.235.161.202
+  server: 158.101.208.5
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_a2c79ac7
@@ -901,6 +1004,22 @@ proxies:
         Gecko) Chrome/40.0.2214.115 Safari/537.36
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
   xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_d9ce0787
+  network: tcp
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: ZRTNgwFRP8viY4SQOgPTfWlLWJCwY3dr0aawA7vHwhU
+    short-id: a1b2c3d4e5f6a7b8
+  server: 31.76.9.56
+  servername: xnod5x.artemida.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: a210cb80-f379-44e9-a103-97ba59357a46
+  xudp: true
 - alterId: 0
   cipher: auto
   encryption: none
@@ -927,38 +1046,7 @@ proxies:
   skip-cert-verify: true
   sni: sni-here.com
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '17,21,25,30,38,40|🇭🇰_HK_中国香港 #1'
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 62319519-82bc-46ff-99cd-237bd0882cef
-  ws-opts:
-    headers:
-      Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
-    path: /
 - name: 25|罗马尼亚 004
-  network: ws
-  port: 443
-  server: 188.214.35.66
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c491730|+🇨🇿+捷克+12+|+188.214.35.66:443
-- name: 25|罗马尼亚 005
   network: ws
   port: 2053
   server: 188.241.241.37
@@ -1100,6 +1188,22 @@ proxies:
   type: vless
   udp: true
   uuid: 5d5c40b1-102c-4343-94cc-d5b794dbd0c6
+- client-fingerprint: chrome
+  name: 25|土耳其 004
+  network: ws
+  port: 2053
+  server: 89.22.234.164
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
 - alterId: 0
   cipher: auto
   name: 25,38|🇹🇷TR-37.221.79.48-0830
@@ -1157,243 +1261,17 @@ proxies:
     headers:
       Host: 45.94.169.142
     path: /wss13889
-- alterId: 0
-  cipher: auto
-  name: '25,37,38|🇯🇵JP-140.83.57.20-0207 #1'
-  network: ws
-  port: 13118
-  server: 140.83.57.20
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
-  ws-opts:
-    headers:
-      Host: sg.11160321.de5.net
-    path: /
 - name: '37,38|🇦🇺AU-103.224.212.216-0269 #1'
   password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw
   port: 443
   server: scottie.golfland.club
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 16|IT 1 → tg@nicevpn123
-  network: ws
-  port: 8443
-  server: 188.114.98.20
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2b6ff9f6-00b6-4bc7-e16f-a7f1f4d43e4c
-  ws-opts:
-    headers:
-      Host: 188.114.98.20
-    path: /build
-- alterId: 0
-  cipher: auto
-  name: 16|IT 11 → tg@nicevpn123
-  network: ws
-  port: 8443
-  server: 188.114.99.0
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
-  ws-opts:
-    headers:
-      Host: 188.114.99.0
-    path: /cloudconebbb
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: /
-  name: 16|IT 12 → tg@nicevpn123
-  network: grpc
-  port: 443
-  server: 188.114.96.15
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5b0a489e-e9eb-41b1-902e-d4acad667ba6
-- alterId: 1
-  cipher: auto
-  name: 16|IT 13 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: 188.114.97.1
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 188.114.97.1
-    path: linkvws
-- name: 16|IT 14 → tg@nicevpn123
-  password: 01596265-168b-46a7-bcb7-25662c7a9546
-  port: 443
-  server: 188.114.98.0
-  skip-cert-verify: true
-  sni: hdfy7c1.foriran2.eu.org
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16,47|🏁RELAY-188.114.97.3-0145
-  network: ws
-  port: 443
-  server: 188.114.97.3
-  servername: afrhms16v.bestxray.buzz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: afrhms16v.bestxray.buzz
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 16|IT 17 → tg@nicevpn123
-  network: ws
-  port: 8443
-  server: 188.114.96.65
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2b6ff9f6-00b6-4bc7-e16f-a7f1f4d43e4c
-  ws-opts:
-    headers:
-      Host: 188.114.96.65
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|IT 18 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: 188.114.97.3
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 188.114.97.3
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 16|IT 19 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: 188.114.97.2
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6d9911b0-4e14-44fb-8883-52d14f550cca
-  ws-opts:
-    headers:
-      Host: 188.114.97.2
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 16|IT 2 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: 188.114.97.53
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 8c929251-406f-4b32-9173-07ccd242cb58
-  ws-opts:
-    headers:
-      Host: 188.114.97.53
-    path: /vmess
-- alterId: 1
-  cipher: auto
-  name: 16|IT 21 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: 188.114.96.2
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 188.114.96.2
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 16|IT 22 → tg@nicevpn123
-  network: ws
-  port: 8443
-  server: 188.114.98.224
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2b6ff9f6-00b6-4bc7-e16f-a7f1f4d43e4c
-  ws-opts:
-    headers:
-      Host: 188.114.98.224
-    path: /build
-- alterId: 0
-  cipher: auto
-  name: 16|IT 23 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: 188.114.97.7
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: 188.114.97.7
-    path: /linkws
-- alterId: 1
-  cipher: auto
-  name: 16|IT 24 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: 188.114.97.7
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 188.114.97.7
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: /
-  name: 16|IT 25 → tg@nicevpn123
-  network: grpc
-  port: 2087
-  server: 188.114.96.2
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 8c65cbad-923d-4f73-c653-83c75ca4e1aa
+- cipher: aes-256-gcm
+  name: 21|C🟠🇮🇹_dokng.com_75939be2
+  password: d1fa2f4b98a38bc8
+  port: 10901
+  server: 194.87.47.204
+  type: ss
 - name: 25|西班牙 001
   network: ws
   port: 443
@@ -1425,8 +1303,24 @@ proxies:
       Host: crm.lotussec.com
     path: /
 - client-fingerprint: chrome
+  name: 25|西班牙 003
+  network: ws
+  port: 2096
+  server: 185.18.250.127
+  servername: 69565ce3109804e7813f98ee.mmdbay.blog
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2ee26119-94e5-40b4-ba3a-16354021b600
+  ws-opts:
+    headers:
+      Host: 69565ce3109804e7813f98ee.mmdbay.blog
+    path: /graphql
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 25|西班牙 005
+  name: 25|西班牙 006
   network: tcp
   port: 443
   server: 85.155.98.40
@@ -1437,6 +1331,31 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 25|西班牙 007
+  network: grpc
+  port: 443
+  server: 150.241.121.61
+  servername: 1pgt5wjq9slq.bosfiles.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 98b0ccb7-325d-4dd4-b1c0-92671e94f5be
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 25|西班牙 009
+  network: tcp
+  port: 18153
+  server: s299.kukuss.top
+  servername: u643766u3f35bd4ds298.wagahaha.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
 - name: 47|🇪🇸+ES+西班牙+9
   network: ws
   port: 2053
@@ -1449,24 +1368,19 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: '%2f%3fed%3d2048'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 17|巴西圣保罗+CloudFlare节点
+- name: 21|C🟠🇧🇷[📺🎪]_dokng.com_67a45bda
   network: ws
-  port: 443
-  server: 188.114.97.3
-  servername: fast.iqiraq.shop.
-  skip-cert-verify: false
-  tls: true
+  port: 2200
+  server: 201.24.49.117
+  skip-cert-verify: true
+  tfo: false
+  tls: false
   type: vless
-  uuid: 5d8fae5f-0427-4da3-99ab-242905fa5c69
+  uuid: 2e228435-33a0-47d1-a1d8-9a34b5a03c45
   ws-opts:
     headers:
-      Host: fast.iqiraq.shop.
-    path: /
+      Host: rzd.ru
+    path: /v1
 - name: 16|VN 6 → tg@nicevpn123
   password: 5a92d674-308c-4d95-b283-28383e63a59b
   port: 443
@@ -1491,173 +1405,25 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|UA 10 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: de2-full.privateip.net
+  name: 25|乌克兰 002
+  network: tcp
+  port: 22324
+  server: 85.90.217.42
   skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- flow: xtls-rprx-vision
+  name: 25|乌克兰 004
+  network: tcp
+  port: 8443
+  server: 185.147.27.164
+  servername: user-6a8d949a.noooo.win
+  skip-cert-verify: false
+  tfo: false
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 0069f6f7-5b7d-4a0f-82f2-8e689d88c9be
-  ws-opts:
-    headers:
-      Host: de2-full.privateip.net
-    path: /RACEVPN
-- name: 16|UA 12 → tg@nicevpn123
-  password: 17fdf23d-2cc4-48bb-a8d4-6d0cabda51f9
-  port: 443
-  server: kz-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 16|UA 36 → tg@nicevpn123
-  password: f8552bb4-47ed-4fa0-af14-ad8874ac4f9d
-  port: 443
-  server: tr-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|UA 45 → tg@nicevpn123
-  network: ws
-  port: 80
-  server: ee2-vmess.sshmax.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
-  ws-opts:
-    headers:
-      Host: ee2-vmess.sshmax.xyz
-    path: /vmess
-- name: 16|UA 46 → tg@nicevpn123
-  password: c73406e2-1d3a-4724-a691-4d0b7f36cee9
-  port: 443
-  server: it-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|UA 5 → tg@nicevpn123
-  network: ws
-  port: 80
-  server: uk1-vmess.greenssh.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5aafe8c-3527-4502-8add-9ca7417cfc88
-  ws-opts:
-    headers:
-      Host: uk1-vmess.greenssh.xyz
-    path: /
-- name: 16|UA 50 → tg@nicevpn123
-  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
-  port: 443
-  server: de2-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 16|UA 51 → tg@nicevpn123
-  password: 6e28f704-29a0-4c86-b25b-dd090603c741
-  port: 443
-  server: nl2-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|UA 54 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: kz-full.privateip.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: fc5348ee-1fb4-4050-af65-bba3580df5fd
-  ws-opts:
-    headers:
-      Host: kz-full.privateip.net
-    path: /RACEVPN
-- name: 16|UA 55 → tg@nicevpn123
-  password: 70eb38a6-673c-4877-bceb-dbe6369fa210
-  port: 443
-  server: it-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|UA 59 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: nl2-full.privateip.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b7a0cf39-99fa-47a4-8d9f-5263806e8cce
-  ws-opts:
-    headers:
-      Host: nl2-full.privateip.net
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: 16|UA 62 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: de2-full.privateip.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 7a24704b-5d64-48a9-94d7-726ba993d51f
-  ws-opts:
-    headers:
-      Host: de2-full.privateip.net
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: 16|UA 69 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: tr-full.privateip.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5d23f47a-0c7f-4280-82e5-5993d50e1f18
-  ws-opts:
-    headers:
-      Host: tr-full.privateip.net
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: 16|UA 7 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: tr2-vless.sshmax.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1f462ed1-e07b-48e1-a8e8-1b62f8080e54
-  ws-opts:
-    headers:
-      Host: tr2-vless.sshmax.xyz
-    path: /vmess
-- name: 16|UA 71 → tg@nicevpn123
-  password: dcf0fcec-3800-4f42-9b78-1323f6a4a004
-  port: 443
-  server: de2-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  uuid: 3a90bf69-1ffe-4ebb-b9a7-ad9ba8e9f66f
 - auth: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
   name: 21,22|波兰
   password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
@@ -1666,21 +1432,6 @@ proxies:
   skip-cert-verify: true
   sni: streambox.wwwinternetvideo.click
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 21|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_221e8f7d
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  server: 31.59.125.49
-  servername: eu-central.cendora.ru
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 21|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_108ee2a9
@@ -1724,81 +1475,18 @@ proxies:
   sni: fiproxy1.lockdwn.com
   type: hysteria2
   up: ''
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 12|99_中国-1.70MB
-  network: ws
-  port: 2086
-  server: cloudflare.quest
-  tls: false
-  type: vmess
-  uuid: 833de9d2-98c5-4ac5-9d30-e3a7ad929d10
-  ws-opts:
-    headers:
-      Host: buyvm.cloudflare.quest
-    path: /aries
-- cipher: aes-256-gcm
-  name: 16|🇨🇳 CN 110 → tg@nicevpn123
-  password: e6f8da28-345b-46aa-9ef8-edf27777a533
-  port: 48009
-  server: k9.b99.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 16|🇨🇳 CN 167 → tg@nicevpn123
-  password: 96f29af6-abb3-4f1b-9b42-3dc0367176dd
-  port: 48009
-  server: k9.b99.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 16|🇨🇳 CN 21 → tg@nicevpn123
-  password: b40e67cc-b615-4f5b-ab2f-aa8a1290cc42
-  port: 48009
-  server: k9.b99.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 16|🇨🇳 CN 394 → tg@nicevpn123
-  password: 35e9f1cc-4fd4-4242-8f55-5549b47d3848
-  port: 48009
-  server: k9.b99.buzz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|🇨🇳 CN 485 → tg@nicevpn123
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
+  delay: 1330
+  name: '25,40|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: m.cnmjin.net
-    path: /
-- cipher: aes-256-gcm
-  name: 16|🇨🇳 CN 501 → tg@nicevpn123
-  password: d88dfa88-f02d-45b5-bb47-f240ad3b9db2
-  port: 48009
-  server: k9.b99.buzz
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 21|A🟢🇨🇳[🧠🎞📦]_dokng.com_0da15920
-  network: tcp
-  port: 50002
-  server: 112.132.215.108
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  xudp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 25,38|🇭🇰HK-43.100.32.4-0503
@@ -1806,7 +1494,7 @@ proxies:
   port: 443
   server: n1747624260.4u9ma.icu
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
@@ -1814,83 +1502,12 @@ proxies:
     headers:
       Host: n1747624260.4u9ma.icu
     path: /
-- alterId: 0
-  cipher: auto
-  name: '25,37,38|🇭🇰HK-219.76.13.177-0256 #1'
-  network: ws
-  port: 443
-  server: 219.76.13.177
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: f033bd38-fe03-4705-883c-e45654eaa082
-  ws-opts:
-    headers:
-      Host: hkhgc.meizhiyuanya.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 25,46|未知77 445.4KB/s
-  network: tcp
-  port: 59121
-  server: 129.226.157.220
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d9865d63-d95c-454b-ba07-8e88b838a801
-- name: 25|中国 011
-  network: tcp
-  port: 10000
-  server: 180.178.60.253
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- name: 25|中国 012
-  network: tcp
-  port: 45647
-  server: 182.16.61.4
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- name: 25|中国 013
-  network: ws
-  port: 8880
-  server: 156.243.83.30
-  servername: vms.lifetime54.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime54.workers.dev
-    path: /
-- name: 25|中国 014
-  network: tcp
-  port: 45647
-  server: 182.16.61.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6f361c37-bc54-43dd-8c8b-0f59354745a5
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_ff6b300c
   - 21|A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_93cdabfe
   - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_97160f25
   - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_71027ffe
@@ -1898,55 +1515,73 @@ proxy-groups:
   - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_9f3d72b4
   - 21|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_1e768562
   - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_d7e7e8f1
+  - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_6226255c
   - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_570bed90
   - 21|A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_20840051
   - 16|🇺🇸 US 1052 → tg@nicevpn123
-  - 17|美国 CloudFlare节点
+  - 17|美国+麻省理工学院
   - 21,30|🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 21|A🟢🇺🇸[📺🎭📦️]_dokng.com_4dcf960a
   - 21|D🔴🇺🇸[🎬🤖📦✈️]_dokng.com_542c5b87
   - 21|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_1d2de4af
+  - 21|A🟢🇺🇸[🎭🎪✨📦]_dokng.com_1a42334e
   - 21|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_f925eb12
   - 21|D🔴🇺🇸_dokng.com_aaa19e87
   - 21|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_da628814
   - 21|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_c4021a16
   - 21|A🟢🇺🇸[🎪]_dokng.com_4a841be9
   - '22|美国 #1'
+  - 25,37,38,46|未知16
   - '25,37,38|🏁RELAY-172.67.195.180-0144 #1'
-  - 25,37,38,46|未知122
-  - '25,37,38|🏁RELAY-172.64.145.93-0521 #1'
-  - 25,46|未知110
   - 16|🇭🇰 HK 10 → tg@nicevpn123
   - 16|🇭🇰 HK 9 → tg@nicevpn123
   - 21|D🔴🇭🇰[🎬🧠📺🎭]_dokng.com_9a628848
   - '37,38|🇭🇰HK-47.244.120.197-5224 #1'
-  - 21|A🟢🇹🇼[🤖📺🎭🎪]_dokng.com_80c508b5
+  - '37,38|🇭🇰HK-156.245.232.239-0192 #1'
+  - 40,45|香港|@ripaojiedian
+  - '44|🇭🇰 香港|@ripaojiedian #1'
+  - 38|🇹🇼TW-203.69.207.175-2938
+  - 38|🇹🇼TW-61.216.76.139-3007
+  - 38|🇹🇼TW-125.227.152.109-3052
+  - 38|🇹🇼TW-61.222.160.199-3074
+  - 38|🇹🇼TW-61.216.76.139-3130
+  - 38|🇹🇼TW-211.75.143.195-3132
+  - 38|🇹🇼TW-61.222.160.199-3176
+  - 38|🇹🇼TW-61.222.160.199-3288
+  - 38|🇹🇼TW-61.216.76.139-3327
+  - 38|🇹🇼TW-125.227.152.109-3346
+  - 38|🇹🇼TW-125.227.152.109-3349
+  - 38|🇹🇼TW-125.227.152.109-3395
+  - 40|TW台湾(mibei77.com 米贝节点分享)\r
+  - 47|TG@ZDYZ2 -TW4
   - 16|🇸🇬 SG 27 → tg@nicevpn123
+  - 21|C🟠🇸🇬[🤖📺🎭🎪]_dokng.com_0aceb104
   - 21|C🟠🇸🇬[🎬📺🎭🎪]_dokng.com_6387bcb2
-  - 21,30|🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
   - 21|C🟠🇸🇬[🎬📺🎪✨]_dokng.com_fda5f843
   - 21|C🟠🇰🇷[📺🎭🎪]_dokng.com_d1a6d8df
   - 21|C🟠🇰🇷[🎬📺🎪📦]_dokng.com_fe6c2c16
   - 21|C🟠🇰🇷[🎬📺🎭🎪]_dokng.com_b711111b
   - 21|C🟠🇰🇷[🎬📺🎭🎪]_dokng.com_256066c5
   - 21|A🟢🇰🇷[🎬🎭🎪🎞️]_dokng.com_052a91b6
-  - 21,30|🇨🇳_CN_中国->🇰🇷_KR_韩国
   - 25|韩国 001
   - 16|🇬🇧 GB 23 → tg@nicevpn123
-  - 21|C🟠🇬🇧[🎬📺🎭🎪]_dokng.com_b2e4fa42
   - 21|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_5974a235
-  - 25|英国 003
+  - 25|英国 005
+  - 25|英国 006
+  - '37,38|🇬🇧GB-57.129.132.223-0635 #1'
   - 21|C🟠🇫🇷_dokng.com_2457ab68
+  - 21|C🟠🇫🇷[🤖📺🎭🎪]_dokng.com_16aab438
   - 21|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_747e829f
   - 21|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_71fcaef8
-  - 25,38|🇫🇷FR-62.210.127.120-0588
-  - 25|法国 019
-  - 25|德国 016
+  - 38|🇫🇷FR-62.210.127.120-0588
+  - 21|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
   - 30|🇩🇪_DE_德国
   - 21|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_8b889344
   - 21|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_6ccac23a
   - 21|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_ba9256ca
   - 21|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_e8ab3881
   - 21|C🟠🇷🇺[📺✨🔍]_dokng.com_2438df74
+  - 40|🇷🇺 俄罗斯 Samara State University
   - 16|SE 12 → tg@nicevpn123
   - 16|SE 13 → tg@nicevpn123
   - 16|SE 16 → tg@nicevpn123
@@ -1961,22 +1596,18 @@ proxy-groups:
   - 16|SE 6 → tg@nicevpn123
   - 16|SE 8 → tg@nicevpn123
   - 16|SE 9 → tg@nicevpn123
-  - 25|瑞典 001
-  - 37,38,40|🇪🇪爱沙尼亚丨yoyapai.com\r
+  - 21|D🔴🇸🇪[🎬🤖📺🎭]_dokng.com_5632ab85
+  - 37,38,40,46|🇪🇪EE 569.6KB/s
   - 16|🇳🇱 NL 9 → tg@nicevpn123
-  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_8ad42d4d
-  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_7a22f044
-  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_03a907f4
-  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_d3b5aa39
-  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_ff05ea2d
+  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_f273a3e4
+  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_3624e2ea
   - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_a2c79ac7
   - 21|C🟠🇳🇱[📺]_dokng.com_9d739b8e
   - 21|C🟠🇳🇱[📺🎪]_dokng.com_c94895fe
+  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_d9ce0787
   - 21|D🔴🇳🇱_dokng.com_e386b171
   - 22|荷兰
-  - '17,21,25,30,38,40|🇭🇰_HK_中国香港 #1'
   - 25|罗马尼亚 004
-  - 25|罗马尼亚 005
   - 25,38|🇧🇪BE-37.120.236.251-0718
   - 21|C🟠🇮🇳[🎞️✈️🔍]_dokng.com_2c846be9
   - '37,38|🇮🇳IN-152.67.8.205-0219 #1'
@@ -1987,75 +1618,36 @@ proxy-groups:
   - 16|TR 6 → tg@nicevpn123
   - 21|C🟠🇹🇷[📺🎪]_dokng.com_4a247398
   - 25|土耳其 002
+  - 25|土耳其 004
   - 25,38|🇹🇷TR-37.221.79.48-0830
   - 38|🇹🇷TR-37.221.79.48-1696
   - 38|🇹🇷TR-37.221.79.48-4957
   - 38|🇹🇷TR-45.94.169.142-7315
-  - '25,37,38|🇯🇵JP-140.83.57.20-0207 #1'
   - '37,38|🇦🇺AU-103.224.212.216-0269 #1'
-  - 16|IT 1 → tg@nicevpn123
-  - 16|IT 11 → tg@nicevpn123
-  - 16|IT 12 → tg@nicevpn123
-  - 16|IT 13 → tg@nicevpn123
-  - 16|IT 14 → tg@nicevpn123
-  - 16,47|🏁RELAY-188.114.97.3-0145
-  - 16|IT 17 → tg@nicevpn123
-  - 16|IT 18 → tg@nicevpn123
-  - 16|IT 19 → tg@nicevpn123
-  - 16|IT 2 → tg@nicevpn123
-  - 16|IT 21 → tg@nicevpn123
-  - 16|IT 22 → tg@nicevpn123
-  - 16|IT 23 → tg@nicevpn123
-  - 16|IT 24 → tg@nicevpn123
-  - 16|IT 25 → tg@nicevpn123
+  - 21|C🟠🇮🇹_dokng.com_75939be2
   - 25|西班牙 001
   - 25|西班牙 002
-  - 25|西班牙 005
+  - 25|西班牙 003
+  - 25|西班牙 006
+  - 25|西班牙 007
+  - 25|西班牙 009
   - 47|🇪🇸+ES+西班牙+9
-  - 17|巴西圣保罗+CloudFlare节点
+  - 21|C🟠🇧🇷[📺🎪]_dokng.com_67a45bda
   - 16|VN 6 → tg@nicevpn123
   - 25,38|🇵🇭PH-120.28.10.46-0641
-  - 16|UA 10 → tg@nicevpn123
-  - 16|UA 12 → tg@nicevpn123
-  - 16|UA 36 → tg@nicevpn123
-  - 16|UA 45 → tg@nicevpn123
-  - 16|UA 46 → tg@nicevpn123
-  - 16|UA 5 → tg@nicevpn123
-  - 16|UA 50 → tg@nicevpn123
-  - 16|UA 51 → tg@nicevpn123
-  - 16|UA 54 → tg@nicevpn123
-  - 16|UA 55 → tg@nicevpn123
-  - 16|UA 59 → tg@nicevpn123
-  - 16|UA 62 → tg@nicevpn123
-  - 16|UA 69 → tg@nicevpn123
-  - 16|UA 7 → tg@nicevpn123
-  - 16|UA 71 → tg@nicevpn123
+  - 25|乌克兰 002
+  - 25|乌克兰 004
   - 21,22|波兰
-  - 21|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_221e8f7d
   - 21|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_108ee2a9
   - 21|A🟢🇫🇮_dokng.com_86e89645
   - 21|C🟠🇫🇮[🤖📺🎭🎪]_dokng.com_d13341fc
-  - 12|99_中国-1.70MB
-  - 16|🇨🇳 CN 110 → tg@nicevpn123
-  - 16|🇨🇳 CN 167 → tg@nicevpn123
-  - 16|🇨🇳 CN 21 → tg@nicevpn123
-  - 16|🇨🇳 CN 394 → tg@nicevpn123
-  - 16|🇨🇳 CN 485 → tg@nicevpn123
-  - 16|🇨🇳 CN 501 → tg@nicevpn123
-  - 21|A🟢🇨🇳[🧠🎞📦]_dokng.com_0da15920
+  - '25,40|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
   - 25,38|🇭🇰HK-43.100.32.4-0503
-  - '25,37,38|🇭🇰HK-219.76.13.177-0256 #1'
-  - 25,46|未知77 445.4KB/s
-  - 25|中国 011
-  - 25|中国 012
-  - 25|中国 013
-  - 25|中国 014
 - name: ♻️ 自动选择
   type: fallback
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_ff6b300c
   - 21|A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_93cdabfe
   - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_97160f25
   - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_71027ffe
@@ -2063,55 +1655,73 @@ proxy-groups:
   - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_9f3d72b4
   - 21|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_1e768562
   - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_d7e7e8f1
+  - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_6226255c
   - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_570bed90
   - 21|A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_20840051
   - 16|🇺🇸 US 1052 → tg@nicevpn123
-  - 17|美国 CloudFlare节点
+  - 17|美国+麻省理工学院
   - 21,30|🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 21|A🟢🇺🇸[📺🎭📦️]_dokng.com_4dcf960a
   - 21|D🔴🇺🇸[🎬🤖📦✈️]_dokng.com_542c5b87
   - 21|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_1d2de4af
+  - 21|A🟢🇺🇸[🎭🎪✨📦]_dokng.com_1a42334e
   - 21|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_f925eb12
   - 21|D🔴🇺🇸_dokng.com_aaa19e87
   - 21|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_da628814
   - 21|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_c4021a16
   - 21|A🟢🇺🇸[🎪]_dokng.com_4a841be9
   - '22|美国 #1'
+  - 25,37,38,46|未知16
   - '25,37,38|🏁RELAY-172.67.195.180-0144 #1'
-  - 25,37,38,46|未知122
-  - '25,37,38|🏁RELAY-172.64.145.93-0521 #1'
-  - 25,46|未知110
   - 16|🇭🇰 HK 10 → tg@nicevpn123
   - 16|🇭🇰 HK 9 → tg@nicevpn123
   - 21|D🔴🇭🇰[🎬🧠📺🎭]_dokng.com_9a628848
   - '37,38|🇭🇰HK-47.244.120.197-5224 #1'
-  - 21|A🟢🇹🇼[🤖📺🎭🎪]_dokng.com_80c508b5
+  - '37,38|🇭🇰HK-156.245.232.239-0192 #1'
+  - 40,45|香港|@ripaojiedian
+  - '44|🇭🇰 香港|@ripaojiedian #1'
+  - 38|🇹🇼TW-203.69.207.175-2938
+  - 38|🇹🇼TW-61.216.76.139-3007
+  - 38|🇹🇼TW-125.227.152.109-3052
+  - 38|🇹🇼TW-61.222.160.199-3074
+  - 38|🇹🇼TW-61.216.76.139-3130
+  - 38|🇹🇼TW-211.75.143.195-3132
+  - 38|🇹🇼TW-61.222.160.199-3176
+  - 38|🇹🇼TW-61.222.160.199-3288
+  - 38|🇹🇼TW-61.216.76.139-3327
+  - 38|🇹🇼TW-125.227.152.109-3346
+  - 38|🇹🇼TW-125.227.152.109-3349
+  - 38|🇹🇼TW-125.227.152.109-3395
+  - 40|TW台湾(mibei77.com 米贝节点分享)\r
+  - 47|TG@ZDYZ2 -TW4
   - 16|🇸🇬 SG 27 → tg@nicevpn123
+  - 21|C🟠🇸🇬[🤖📺🎭🎪]_dokng.com_0aceb104
   - 21|C🟠🇸🇬[🎬📺🎭🎪]_dokng.com_6387bcb2
-  - 21,30|🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
   - 21|C🟠🇸🇬[🎬📺🎪✨]_dokng.com_fda5f843
   - 21|C🟠🇰🇷[📺🎭🎪]_dokng.com_d1a6d8df
   - 21|C🟠🇰🇷[🎬📺🎪📦]_dokng.com_fe6c2c16
   - 21|C🟠🇰🇷[🎬📺🎭🎪]_dokng.com_b711111b
   - 21|C🟠🇰🇷[🎬📺🎭🎪]_dokng.com_256066c5
   - 21|A🟢🇰🇷[🎬🎭🎪🎞️]_dokng.com_052a91b6
-  - 21,30|🇨🇳_CN_中国->🇰🇷_KR_韩国
   - 25|韩国 001
   - 16|🇬🇧 GB 23 → tg@nicevpn123
-  - 21|C🟠🇬🇧[🎬📺🎭🎪]_dokng.com_b2e4fa42
   - 21|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_5974a235
-  - 25|英国 003
+  - 25|英国 005
+  - 25|英国 006
+  - '37,38|🇬🇧GB-57.129.132.223-0635 #1'
   - 21|C🟠🇫🇷_dokng.com_2457ab68
+  - 21|C🟠🇫🇷[🤖📺🎭🎪]_dokng.com_16aab438
   - 21|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_747e829f
   - 21|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_71fcaef8
-  - 25,38|🇫🇷FR-62.210.127.120-0588
-  - 25|法国 019
-  - 25|德国 016
+  - 38|🇫🇷FR-62.210.127.120-0588
+  - 21|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
   - 30|🇩🇪_DE_德国
   - 21|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_8b889344
   - 21|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_6ccac23a
   - 21|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_ba9256ca
   - 21|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_e8ab3881
   - 21|C🟠🇷🇺[📺✨🔍]_dokng.com_2438df74
+  - 40|🇷🇺 俄罗斯 Samara State University
   - 16|SE 12 → tg@nicevpn123
   - 16|SE 13 → tg@nicevpn123
   - 16|SE 16 → tg@nicevpn123
@@ -2126,22 +1736,18 @@ proxy-groups:
   - 16|SE 6 → tg@nicevpn123
   - 16|SE 8 → tg@nicevpn123
   - 16|SE 9 → tg@nicevpn123
-  - 25|瑞典 001
-  - 37,38,40|🇪🇪爱沙尼亚丨yoyapai.com\r
+  - 21|D🔴🇸🇪[🎬🤖📺🎭]_dokng.com_5632ab85
+  - 37,38,40,46|🇪🇪EE 569.6KB/s
   - 16|🇳🇱 NL 9 → tg@nicevpn123
-  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_8ad42d4d
-  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_7a22f044
-  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_03a907f4
-  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_d3b5aa39
-  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_ff05ea2d
+  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_f273a3e4
+  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_3624e2ea
   - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_a2c79ac7
   - 21|C🟠🇳🇱[📺]_dokng.com_9d739b8e
   - 21|C🟠🇳🇱[📺🎪]_dokng.com_c94895fe
+  - 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_d9ce0787
   - 21|D🔴🇳🇱_dokng.com_e386b171
   - 22|荷兰
-  - '17,21,25,30,38,40|🇭🇰_HK_中国香港 #1'
   - 25|罗马尼亚 004
-  - 25|罗马尼亚 005
   - 25,38|🇧🇪BE-37.120.236.251-0718
   - 21|C🟠🇮🇳[🎞️✈️🔍]_dokng.com_2c846be9
   - '37,38|🇮🇳IN-152.67.8.205-0219 #1'
@@ -2152,69 +1758,31 @@ proxy-groups:
   - 16|TR 6 → tg@nicevpn123
   - 21|C🟠🇹🇷[📺🎪]_dokng.com_4a247398
   - 25|土耳其 002
+  - 25|土耳其 004
   - 25,38|🇹🇷TR-37.221.79.48-0830
   - 38|🇹🇷TR-37.221.79.48-1696
   - 38|🇹🇷TR-37.221.79.48-4957
   - 38|🇹🇷TR-45.94.169.142-7315
-  - '25,37,38|🇯🇵JP-140.83.57.20-0207 #1'
   - '37,38|🇦🇺AU-103.224.212.216-0269 #1'
-  - 16|IT 1 → tg@nicevpn123
-  - 16|IT 11 → tg@nicevpn123
-  - 16|IT 12 → tg@nicevpn123
-  - 16|IT 13 → tg@nicevpn123
-  - 16|IT 14 → tg@nicevpn123
-  - 16,47|🏁RELAY-188.114.97.3-0145
-  - 16|IT 17 → tg@nicevpn123
-  - 16|IT 18 → tg@nicevpn123
-  - 16|IT 19 → tg@nicevpn123
-  - 16|IT 2 → tg@nicevpn123
-  - 16|IT 21 → tg@nicevpn123
-  - 16|IT 22 → tg@nicevpn123
-  - 16|IT 23 → tg@nicevpn123
-  - 16|IT 24 → tg@nicevpn123
-  - 16|IT 25 → tg@nicevpn123
+  - 21|C🟠🇮🇹_dokng.com_75939be2
   - 25|西班牙 001
   - 25|西班牙 002
-  - 25|西班牙 005
+  - 25|西班牙 003
+  - 25|西班牙 006
+  - 25|西班牙 007
+  - 25|西班牙 009
   - 47|🇪🇸+ES+西班牙+9
-  - 17|巴西圣保罗+CloudFlare节点
+  - 21|C🟠🇧🇷[📺🎪]_dokng.com_67a45bda
   - 16|VN 6 → tg@nicevpn123
   - 25,38|🇵🇭PH-120.28.10.46-0641
-  - 16|UA 10 → tg@nicevpn123
-  - 16|UA 12 → tg@nicevpn123
-  - 16|UA 36 → tg@nicevpn123
-  - 16|UA 45 → tg@nicevpn123
-  - 16|UA 46 → tg@nicevpn123
-  - 16|UA 5 → tg@nicevpn123
-  - 16|UA 50 → tg@nicevpn123
-  - 16|UA 51 → tg@nicevpn123
-  - 16|UA 54 → tg@nicevpn123
-  - 16|UA 55 → tg@nicevpn123
-  - 16|UA 59 → tg@nicevpn123
-  - 16|UA 62 → tg@nicevpn123
-  - 16|UA 69 → tg@nicevpn123
-  - 16|UA 7 → tg@nicevpn123
-  - 16|UA 71 → tg@nicevpn123
+  - 25|乌克兰 002
+  - 25|乌克兰 004
   - 21,22|波兰
-  - 21|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_221e8f7d
   - 21|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_108ee2a9
   - 21|A🟢🇫🇮_dokng.com_86e89645
   - 21|C🟠🇫🇮[🤖📺🎭🎪]_dokng.com_d13341fc
-  - 12|99_中国-1.70MB
-  - 16|🇨🇳 CN 110 → tg@nicevpn123
-  - 16|🇨🇳 CN 167 → tg@nicevpn123
-  - 16|🇨🇳 CN 21 → tg@nicevpn123
-  - 16|🇨🇳 CN 394 → tg@nicevpn123
-  - 16|🇨🇳 CN 485 → tg@nicevpn123
-  - 16|🇨🇳 CN 501 → tg@nicevpn123
-  - 21|A🟢🇨🇳[🧠🎞📦]_dokng.com_0da15920
+  - '25,40|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
   - 25,38|🇭🇰HK-43.100.32.4-0503
-  - '25,37,38|🇭🇰HK-219.76.13.177-0256 #1'
-  - 25,46|未知77 445.4KB/s
-  - 25|中国 011
-  - 25|中国 012
-  - 25|中国 013
-  - 25|中国 014
 - name: 🐟 漏网之鱼
   type: select
   proxies:

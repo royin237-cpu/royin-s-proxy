@@ -51,6 +51,22 @@ proxies:
   type: vless
   udp: true
   uuid: 5d5c40b1-102c-4343-94cc-d5b794dbd0c6
+- client-fingerprint: chrome
+  name: 25|土耳其 004
+  network: ws
+  port: 2053
+  server: 89.22.234.164
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
 - alterId: 0
   cipher: auto
   name: 25,38|🇹🇷TR-37.221.79.48-0830

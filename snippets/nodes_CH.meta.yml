@@ -4,7 +4,7 @@ proxies:
   port: 443
   server: 194.246.118.199
   servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  skip-cert-verify: true
+  skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
@@ -13,7 +13,7 @@ proxies:
   ws-opts:
     headers:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
+    path: /pg/10086-dfc816f117c491730|
 - name: 25|瑞士 004
   network: tcp
   port: 64584

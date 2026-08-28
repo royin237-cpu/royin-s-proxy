@@ -32,12 +32,11 @@ proxies:
     path: /assignment
 - alterId: 0
   cipher: auto
-  name: 25,38|🇫🇷FR-62.210.127.120-0588
+  name: 38|🇫🇷FR-62.210.127.120-0588
   network: ws
   port: 23388
   server: 62.210.127.120
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
