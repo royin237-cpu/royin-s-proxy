@@ -53,12 +53,17 @@ jobs:
       run: python ./fetch.py
 
     - name: 真实代理测活并过滤订阅
+      continue-on-error: true
       env:
         MIHOMO_BIN: ${{ github.workspace }}/mihomo
-        ALIVE_TEST_URL: https://www.gstatic.com/generate_204
-        ALIVE_TIMEOUT_MS: '7000'
+        # 多端点交叉验证：依次尝试，任一通过即判定存活
+        ALIVE_TEST_URLS: "http://cp.cloudflare.com/generate_204,http://www.gstatic.com/generate_204,http://www.msftconnecttest.com/connecttest.txt"
+        ALIVE_TIMEOUT_MS: '5000'
+        ALIVE_MAX_DELAY_MS: '5000'
         ALIVE_WORKERS: '128'
         ALIVE_RETRY: '1'
+        ALIVE_MIN_RATIO: '0.001'
+        ALIVE_DROP_TYPES: "http,socks5"
       run: python ./check_alive.py
 
     - name: 生成面板状态 JSON

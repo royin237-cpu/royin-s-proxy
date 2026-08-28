@@ -672,6 +672,8 @@ class Node:
 
     def supports_meta(self, noMeta=False) -> bool:
         if self.isfake: return False
+        # 垃圾协议预过滤：http/socks5 公开代理国内基本不可用，且占体积
+        if self.type in ('http', 'socks5'): return False
         if self.type == 'vmess':
             if 'client-fingerprint' in self.data and str(self.data['client-fingerprint']).strip():
                 supported = CLASH_CIPHER_VMESS + ['x-chacha20']

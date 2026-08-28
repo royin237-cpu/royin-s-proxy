@@ -16,11 +16,20 @@ import yaml
 
 
 ROOT = Path(__file__).resolve().parent
-TEST_URL = os.environ.get("ALIVE_TEST_URL", "https://www.gstatic.com/generate_204")
+# 多端点测速：逗号分隔，依次尝试，任一通过即判定存活（首个成功即返回）
+_raw_urls = os.environ.get("ALIVE_TEST_URLS") or os.environ.get(
+    "ALIVE_TEST_URL", "https://www.gstatic.com/generate_204"
+)
+TEST_URLS = [u.strip() for u in _raw_urls.split(",") if u.strip()]
 TIMEOUT_MS = int(os.environ.get("ALIVE_TIMEOUT_MS", "7000"))
+# 延迟上限：超过视为龟速节点，直接剔除（不进存活名单）
+MAX_DELAY_MS = int(os.environ.get("ALIVE_MAX_DELAY_MS", "5000"))
 WORKERS = int(os.environ.get("ALIVE_WORKERS", "128"))
 MIN_ALIVE_RATIO = float(os.environ.get("ALIVE_MIN_RATIO", "0.005"))
 RETRY = int(os.environ.get("ALIVE_RETRY", "1"))
+# 垃圾协议预过滤：公开抓取的 http/socks5 代理多为海外机房内网代理，
+# 国内直连基本不可用，且占据订阅体积，测活前直接剔除
+DROP_TYPES = {t.strip() for t in os.environ.get("ALIVE_DROP_TYPES", "http,socks5").split(",") if t.strip()}
 
 
 def free_port():
@@ -61,14 +70,19 @@ def start_mihomo(proxies, binary):
 
 
 def test_proxy(base, name):
-    endpoint = f"{base}/proxies/{quote(name, safe='')}/delay"
-    endpoint += f"?url={quote(TEST_URL, safe='')}&timeout={TIMEOUT_MS}"
-    try:
-        result = api_get(endpoint, TIMEOUT_MS / 1000 + 2)
-        delay = result.get("delay")
-        return int(delay) if isinstance(delay, int) and delay > 0 else None
-    except Exception:
-        return None
+    for test_url in TEST_URLS:
+        endpoint = f"{base}/proxies/{quote(name, safe='')}/delay"
+        endpoint += f"?url={quote(test_url, safe='')}&timeout={TIMEOUT_MS}"
+        try:
+            result = api_get(endpoint, TIMEOUT_MS / 1000 + 2)
+            delay = result.get("delay")
+            if isinstance(delay, int) and delay > 0:
+                if delay > MAX_DELAY_MS:
+                    return None  # 存活但龟速，视为不可用
+                return delay
+        except Exception:
+            continue
+    return None
 
 
 def measure(binary, proxies):
@@ -87,7 +101,7 @@ def measure(binary, proxies):
         else:
             raise RuntimeError("mihomo API did not start")
 
-        print(f"[alive] testing {len(proxies)} proxies through {TEST_URL}", flush=True)
+        print(f"[alive] testing {len(proxies)} proxies through {TEST_URLS}", flush=True)
         with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as executor:
             futures = {
                 executor.submit(test_proxy, base, proxy["name"]): proxy["name"]
@@ -215,6 +229,16 @@ def main():
     proxies = data.get("proxies", [])
     if not proxies:
         raise SystemExit("no proxies found")
+
+    # 垃圾协议预过滤：剔除 http/socks5 等公开代理类型
+    if DROP_TYPES:
+        before = len(proxies)
+        proxies = [p for p in proxies if p.get("type") not in DROP_TYPES]
+        if before != len(proxies):
+            print(f"[alive] pre-filtered {before - len(proxies)} junk-type proxies "
+                  f"(types={DROP_TYPES}), remaining {len(proxies)}", flush=True)
+    if not proxies:
+        raise SystemExit("no proxies left after junk-type filtering")
 
     merged = {}
     for _ in range(RETRY + 1):
