@@ -1,4 +1,11 @@
 proxies:
+- name: 16|🇸🇬 SG 27 → tg@nicevpn123
+  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
+  port: 443
+  server: 139.162.49.215
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
@@ -16,46 +23,28 @@ proxies:
   udp: true
   uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 21|C🟠🇸🇬[🎬📺🎭🎪]_dokng.com_0aceb104
-  network: grpc
-  port: 10038
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21,30|🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+  network: tcp
+  port: 15006
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg3-r.link-t7.com
-  servername: d1.awsstatic.com
+    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+    short-id: 029a6cc4
+  server: nian.001.url111.kcloud02.top
+  servername: www.adobe.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
-- name: 21|A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1
-  password: ''
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 21|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_26d0e430
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  sni: 92461d2d.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 21|D🔴🇸🇬_dokng.com_ec84b940
-  password: None
-  port: 9090
-  server: 104.248.151.93
-  type: http
-  username: null
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  xudp: true
 - client-fingerprint: chrome
-  name: 21|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_fda5f843
+  name: 21|C🟠🇸🇬[🎬📺🎪✨]_dokng.com_fda5f843
   network: ws
   port: 443
   server: admin.jikecloud.cc
@@ -68,23 +57,3 @@ proxies:
     headers:
       Host: admin.jikecloud.cc
     path: /vless
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 21|D🔴🇸🇬[🎬📺🎭🎪]_dokng.com_c46c93f3
-  network: tcp
-  port: 15006
-  reality-opts:
-    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
-    short-id: 029a6cc4
-  server: nian.001.url111.kcloud02.top
-  servername: www.adobe.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-  xudp: true

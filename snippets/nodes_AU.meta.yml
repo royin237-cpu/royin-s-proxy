@@ -1,15 +1,7 @@
 proxies:
-- name: 21|D🔴🇦🇺[🎬🤖📺🎭]_dokng.com_6a11339c
-  password: None
-  port: 443
-  server: 159.13.44.228
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - alterId: 0
   cipher: auto
-  name: '25,37,38|🇯🇵JP-140.83.57.20-0177 #1'
+  name: '25,37,38|🇯🇵JP-140.83.57.20-0207 #1'
   network: ws
   port: 13118
   server: 140.83.57.20
@@ -22,3 +14,8 @@ proxies:
     headers:
       Host: sg.11160321.de5.net
     path: /
+- name: '37,38|🇦🇺AU-103.224.212.216-0269 #1'
+  password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw
+  port: 443
+  server: scottie.golfland.club
+  type: trojan

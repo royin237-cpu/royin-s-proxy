@@ -148,7 +148,7 @@ proxies:
     path: /kellie.makeup/linkvws
 - alterId: 2
   cipher: auto
-  name: 21|C🟠🇩🇪_dokng.com_56c5bbea
+  name: 21|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
   port: 30833
   server: v33.hdacd.com
   skip-cert-verify: false
@@ -157,6 +157,15 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
+- alterId: 0
+  cipher: auto
+  name: 25|德国 002
+  network: tcp
+  port: 2053
+  server: 178.63.237.158
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2d4dd672-180f-415c-9035-e2fc461dd95a
 - alterId: 0
   cipher: auto
   name: 25,46|未知20
@@ -169,7 +178,7 @@ proxies:
   uuid: 05a178f9-e6ba-4006-93d7-3d980cdc3a76
 - alterId: 0
   cipher: auto
-  name: 25,38|🇩🇪DE-176.65.140.210-0568
+  name: 25,38|🇩🇪DE-176.65.140.210-0593
   network: ws
   port: 28267
   server: 176.65.140.210
@@ -184,7 +193,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 25,38|🇩🇪DE-176.65.140.210-0569
+  name: 25,38|🇩🇪DE-176.65.140.210-0594
   network: ws
   port: 23981
   server: 176.65.140.210
@@ -199,7 +208,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 25,38|🇩🇪DE-91.195.240.12-0446
+  name: 25,38|🇩🇪DE-91.195.240.12-0461
   network: ws
   port: 443
   server: sgp.kapok.buzz
@@ -214,7 +223,7 @@ proxies:
     path: /4befdd8a6/
 - alterId: 0
   cipher: auto
-  name: 25,38|🇩🇪DE-91.195.240.94-0922
+  name: 25,38|🇩🇪DE-91.195.240.94-0955
   network: ws
   port: 443
   server: in-full.privateip.net
@@ -229,7 +238,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: 25,38|🇩🇪DE-157.90.20.18-0985
+  name: 25,38|🇩🇪DE-157.90.20.18-1018
   network: http
   port: 443
   server: 157.90.20.18
@@ -240,7 +249,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 25,38|🇩🇪DE-94.130.25.155-0987
+  name: 25,38|🇩🇪DE-94.130.25.155-1020
   network: http
   port: 443
   server: 94.130.25.155
@@ -251,7 +260,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 25,38|🇩🇪DE-167.235.136.155-0988
+  name: 25,38|🇩🇪DE-167.235.136.155-1021
   network: http
   port: 443
   server: 167.235.136.155
@@ -262,7 +271,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 25,38|🇫🇮FI-65.21.240.108-0989
+  name: 25,38|🇫🇮FI-65.21.240.108-1022
   network: http
   port: 443
   server: 65.21.240.108
@@ -273,7 +282,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-94.130.184.57-3194
+  name: 38|🇩🇪DE-94.130.184.57-3224
   network: ws
   port: 80
   server: 94.130.184.57
@@ -287,7 +296,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-162.55.174.135-3294
+  name: 38|🇩🇪DE-162.55.174.135-3324
   network: ws
   port: 80
   server: 162.55.174.135
@@ -301,7 +310,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-162.55.62.193-3254
+  name: 38|🇩🇪DE-162.55.62.193-3284
   network: ws
   port: 80
   server: 162.55.62.193
@@ -315,7 +324,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-5.75.173.189-3274
+  name: 38|🇩🇪DE-5.75.173.189-3304
   network: ws
   port: 80
   server: 5.75.173.189
@@ -329,7 +338,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-78.46.129.226-3310
+  name: 38|🇩🇪DE-78.46.129.226-3340
   network: ws
   port: 80
   server: 78.46.129.226
@@ -343,7 +352,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-167.235.78.112-3352
+  name: 38|🇩🇪DE-167.235.78.112-3382
   network: ws
   port: 80
   server: 167.235.78.112
@@ -357,7 +366,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-188.40.132.107-4202
+  name: 38|🇩🇪DE-188.40.132.107-4232
   network: ws
   port: 80
   server: 188.40.132.107
@@ -371,7 +380,7 @@ proxies:
     path: /p3573l6m92h1ham3q23t
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 38|🇩🇪DE-95.179.254.136-7165
+  name: 38|🇩🇪DE-95.179.254.136-7195
   network: grpc
   password: mainssh-ddoejfv14
   port: 443
@@ -380,14 +389,14 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 38|🇩🇪DE-95.179.246.122-7167
+  name: 38|🇩🇪DE-95.179.246.122-7197
   network: grpc
   password: mainssh-niwrhf87
   port: 443
   server: 95.179.246.122
   sni: getgrpc.mainssh.xyz
   type: trojan
-- name: 38|🇩🇪DE-209.250.236.93-7462
+- name: 38|🇩🇪DE-209.250.236.93-7492
   network: grpc
   password: Cl150MQWlG
   port: 443
@@ -396,7 +405,7 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 38|🇩🇪DE-108.61.171.167-7924
+  name: 38|🇩🇪DE-108.61.171.167-7954
   network: grpc
   password: mainssh-niwrhf87
   port: 443

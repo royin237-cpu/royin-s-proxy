@@ -1,4 +1,29 @@
 proxies:
+- name: 16|🇬🇧 GB 23 → tg@nicevpn123
+  password: 1d7692c0-f51c-11ee-91eb-1239d0255272
+  port: 443
+  server: 51.38.65.155
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 21|C🟠🇬🇧[🎬📺🎭🎪]_dokng.com_b2e4fa42
+  password: amazonskr05
+  port: 443
+  server: 18.170.37.90
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 21|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_5974a235
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 25|英国 003

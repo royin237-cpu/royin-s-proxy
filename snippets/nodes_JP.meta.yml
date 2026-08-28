@@ -1,10 +1,45 @@
 proxies:
-- name: 21|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_4920bfe7
+- cipher: chacha20-ietf-poly1305
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_ff6b300c
+  password: ljqdalu13..
+  port: 8319
+  server: 13.231.190.140
+  type: ss
+  udp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 21|A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_93cdabfe
+  network: tcp
   port: 443
-  server: fan.571589.xyz
-  sni: fan.571589.xyz
+  reality-opts:
+    public-key: jp4bv75imDovZ58AQZPGJwQidhqU5ikkCC147xOKwX8
+    short-id: 44713534120e5151
+  server: 103.76.85.49
+  servername: www.apple.com
   tls: true
-  type: http
+  type: vless
+  uuid: ec13817e-790e-4eab-b287-0d94edd28750
+- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_97160f25
+  password: HOrViv
+  port: 28106
+  server: 209.248.32.116
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_71027ffe
+  password: HOrViv
+  port: 28133
+  server: 209.248.32.116
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
+- name: 21|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_3db6efb4
+  password: HOrViv
+  port: 28126
+  server: 209.248.32.117
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
 - name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_9f3d72b4
   password: HOrViv
   port: 28102
@@ -12,27 +47,31 @@ proxies:
   skip-cert-verify: true
   sni: ctldl.windowsupdate.com
   type: trojan
-- name: 21|C🟠🇯🇵[🎭🔍]_dokng.com_16f5ab4e
-  password: '!!str 123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
-- name: 21|A🟢🇯🇵[🎬📺🎭✨]_dokng.com_20840051
+- name: 21|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_1e768562
+  password: HOrViv
+  port: 28122
+  server: 209.248.32.116
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
+- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_d7e7e8f1
+  password: HOrViv
+  port: 28104
+  server: 209.248.32.117
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
+- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_570bed90
+  password: HOrViv
+  port: 28105
+  server: 209.248.32.117
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
+- name: 21|A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_20840051
   password: 4kch6iOn
   port: 443
   server: cn13.somethingstranges.com
   skip-cert-verify: true
   sni: down413.mihoyo.yuanshen.com
   type: anytls
-- name: 21|D🔴🇯🇵_dokng.com_1767f2c7
-  password: Og
-  port: 8443
-  server: 112.28.149.152
-  type: socks5
-  udp: true
-  username: Og
-- name: 21|D🔴🇯🇵[🤖📺🎪✨]_dokng.com_5802486e
-  port: 10808
-  server: 101.36.104.239
-  type: socks5

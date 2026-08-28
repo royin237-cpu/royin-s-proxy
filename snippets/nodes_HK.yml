@@ -1,23 +1,28 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '21,25,30,40|🇭🇰_HK_中国香港 #1'
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  servername: ''
+- name: 16|🇭🇰 HK 10 → tg@nicevpn123
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: chjs.lydurlclub.top
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 62319519-82bc-46ff-99cd-237bd0882cef
-  ws-opts:
-    headers:
-      Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
-    path: /
+- name: 16|🇭🇰 HK 9 → tg@nicevpn123
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: hkjs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 21|D🔴🇭🇰[🎬🧠📺🎭]_dokng.com_9a628848
+  password: HOrViv
+  port: 18293
+  server: 209.248.32.117
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '37,38|🇭🇰HK-47.244.120.197-5194 #1'
+  name: '37,38|🇭🇰HK-47.244.120.197-5224 #1'
   network: ws
   port: 44867
   server: 47.244.120.197

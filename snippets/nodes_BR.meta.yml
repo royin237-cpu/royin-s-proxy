@@ -1,33 +1,19 @@
 proxies:
-- name: 21|A🟢🇧🇷[🤖✈️🔍]_dokng.com_39e53745
-  port: 2138
-  server: 170.80.131.249
-  type: http
-- name: 21|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_afc9c322
-  port: 61234
-  server: 187.103.125.104
-  type: http
-- name: 21|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_84cf438e
-  port: 8989
-  server: 138.204.95.193
-  type: http
-- name: 21|A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_5363a834
-  port: 9191
-  server: 177.222.248.54
-  type: http
-- name: 21|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_75602843
-  port: 44443
-  server: 179.184.163.133
-  type: http
-- name: 21|A🟢🇧🇷_dokng.com_35b157c8
-  port: 9292
-  server: 45.232.76.98
-  type: http
-- name: 21|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_15a794cc
-  port: 8085
-  server: 45.236.65.182
-  type: http
-- name: 21|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_ca3b1afa
-  port: 9091
-  server: 164.163.237.196
-  type: http
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 17|巴西圣保罗+CloudFlare节点
+  network: ws
+  port: 443
+  server: 188.114.97.3
+  servername: fast.iqiraq.shop.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 5d8fae5f-0427-4da3-99ab-242905fa5c69
+  ws-opts:
+    headers:
+      Host: fast.iqiraq.shop.
+    path: /

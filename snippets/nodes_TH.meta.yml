@@ -1,11 +1,30 @@
 proxies:
-- name: 21|D🔴🇹🇭[🤖📺🎭🎪]_dokng.com_4dab4ce7
-  password: None
-  port: 31280
-  server: 202.28.194.139
-  type: http
-  username: null
-- name: 21|D🔴🇹🇭[🤖📺🎞️]_dokng.com_dbf875fe
-  port: 1080
-  server: 43.164.3.124
-  type: socks5
+- alterId: 0
+  cipher: auto
+  name: 25,38|🇺🇸US-23.11.32.159-0933
+  network: ws
+  port: 443
+  server: cacerts.digicert.com
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-opts:
+    headers:
+      Host: cacerts.digicert.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 40|🇹🇭TH泰国丨
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a150d554-e962-4632-829f-ee583ada3f95
+  ws-opts:
+    headers:
+      Host: d7pu5mzr9c4b0.cloudfront.net
+    path: /htun

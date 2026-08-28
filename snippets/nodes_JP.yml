@@ -1,7 +1,56 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_ff6b300c
+  password: ljqdalu13..
+  port: 8319
+  server: 13.231.190.140
+  type: ss
+  udp: true
+- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_97160f25
+  password: HOrViv
+  port: 28106
+  server: 209.248.32.116
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_71027ffe
+  password: HOrViv
+  port: 28133
+  server: 209.248.32.116
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
+- name: 21|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_3db6efb4
+  password: HOrViv
+  port: 28126
+  server: 209.248.32.117
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
 - name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_9f3d72b4
   password: HOrViv
   port: 28102
+  server: 209.248.32.117
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
+- name: 21|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_1e768562
+  password: HOrViv
+  port: 28122
+  server: 209.248.32.116
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
+- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_d7e7e8f1
+  password: HOrViv
+  port: 28104
+  server: 209.248.32.117
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
+- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_570bed90
+  password: HOrViv
+  port: 28105
   server: 209.248.32.117
   skip-cert-verify: true
   sni: ctldl.windowsupdate.com

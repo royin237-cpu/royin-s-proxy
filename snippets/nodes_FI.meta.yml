@@ -1,12 +1,8 @@
 proxies:
-- name: 21|C🟠🇫🇮[🎬🤖📺🎭]_dokng.com_74a9495f
-  port: 3001
-  server: 135.181.116.225
-  type: http
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 21|A🟢🇫🇮[🤖📺🎭🎪]_dokng.com_86e89645
+  name: 21|A🟢🇫🇮_dokng.com_86e89645
   network: tcp
   port: 443
   reality-opts:
@@ -21,7 +17,7 @@ proxies:
   xudp: true
 - client-fingerprint: ''
   down: ''
-  name: 21|C🟠🇫🇮[🤖📺🎪✨]_dokng.com_d13341fc
+  name: 21|C🟠🇫🇮[🤖📺🎭🎪]_dokng.com_d13341fc
   obfs: salamander
   obfs-password: uw9b2qq5rx
   password: 6aab8efdf13945829ae3699c342be406

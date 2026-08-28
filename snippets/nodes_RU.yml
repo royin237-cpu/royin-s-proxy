@@ -6,13 +6,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 16|🇷🇺 RU 13 → tg@nicevpn123
-  password: U6qnYRhfyDmn8sgn
-  port: 9041
-  server: 5.188.181.201
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 16|🇷🇺 RU 14 → tg@nicevpn123
@@ -137,13 +130,6 @@ proxies:
     headers:
       Host: ab-test-frosty-flower-e7fb.tariroc864.workers.dev
     path: /hms02.fxiaomi.sbs/link
-- cipher: aes-256-cfb
-  name: 16|🇷🇺 RU 43 → tg@nicevpn123
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 5.188.181.201
-  type: ss
-  udp: true
 - name: 16|🇷🇺 RU 45 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -300,7 +286,16 @@ proxies:
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - alterId: 0
   cipher: auto
-  name: 25,38|🇬🇧GB-46.175.135.9-0340
+  name: 25|俄罗斯 002
+  network: tcp
+  port: 8080
+  server: 213.156.152.63
+  skip-cert-verify: true
+  type: vmess
+  uuid: d9681916-5a85-44c8-86a2-9fcae87cf850
+- alterId: 0
+  cipher: auto
+  name: 25,38|🇬🇧GB-46.175.135.9-0358
   network: ws
   port: 443
   server: lu1.gogogoo.cyou
@@ -315,7 +310,7 @@ proxies:
     path: /go
 - alterId: 0
   cipher: auto
-  name: 25,38|🇬🇧GB-46.175.135.9-0903
+  name: 25,38|🇬🇧GB-46.175.135.9-0936
   network: ws
   port: 443
   server: haxus3.janechiu.icu
@@ -330,7 +325,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 25,38|🇬🇧GB-46.175.135.9-1006
+  name: 25,38|🇬🇧GB-46.175.135.9-1039
   network: ws
   port: 443
   server: us02.gogogoo.cyou
@@ -345,7 +340,7 @@ proxies:
     path: /go
 - alterId: 64
   cipher: auto
-  name: 38|🇷🇺RU-171.22.134.12-7700
+  name: 38|🇷🇺RU-171.22.134.12-7730
   network: ws
   port: 443
   server: 171.22.134.12
@@ -359,7 +354,7 @@ proxies:
     path: /path/1689849487190
 - alterId: 64
   cipher: auto
-  name: 38|🇷🇺RU-171.22.134.12-7701
+  name: 38|🇷🇺RU-171.22.134.12-7731
   network: ws
   port: 443
   server: 171.22.134.12

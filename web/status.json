@@ -1,60 +1,50 @@
 {
-  "total": 4656,
+  "total": 4660,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 6
+      "count": 8
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 83
+      "count": 6
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 2
+      "count": 9
     },
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 5
-    },
-    "FR": {
-      "flag": "🇫🇷",
-      "name": "法国",
-      "count": 8
+      "count": 3
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 3
+      "count": 1
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 12
+      "count": 1
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 3
-    },
-    "RU": {
-      "flag": "🇷🇺",
-      "name": "俄罗斯",
-      "count": 2
+      "count": 1
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 12
+      "count": 1
     },
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 2
+      "count": 16
     },
     "EE": {
       "flag": "🇪🇪",
@@ -62,8 +52,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-28 19:37",
-  "server_time": "2026-08-28 19:38:25",
+  "update_time": "2026-08-29 00:42",
+  "server_time": "2026-08-29 00:43:40",
   "sources": [
     {
       "index": 0,
@@ -103,7 +93,7 @@
     {
       "index": 7,
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clas",
-      "nodes": 1776
+      "nodes": 1710
     },
     {
       "index": 8,
@@ -173,7 +163,7 @@
     {
       "index": 21,
       "url": "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml",
-      "nodes": 475
+      "nodes": 418
     },
     {
       "index": 22,
@@ -218,7 +208,7 @@
     {
       "index": 30,
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-      "nodes": 29
+      "nodes": 20
     },
     {
       "index": 31,
@@ -258,7 +248,7 @@
     {
       "index": 38,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 4061
+      "nodes": 4081
     },
     {
       "index": 39,
