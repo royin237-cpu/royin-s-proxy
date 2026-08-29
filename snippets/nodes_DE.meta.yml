@@ -14,14 +14,15 @@ proxies:
   tls: true
   type: vless
   uuid: 20bcb7a8-c51b-4771-9686-6b4509dc9cd2
-- alterId: 2
-  cipher: auto
-  name: 21|C🟠🇩🇪[🎬📺🎭🎪]_dokng.com_56c5bbea
-  port: 30833
-  server: v33.hdacd.com
+- client-fingerprint: chrome
+  name: 25|德国 015
+  network: tcp
+  port: 8443
+  server: 193.23.194.167
+  servername: neth.lckdwn.ru
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  tfo: false
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+  uuid: 32349ee8-8551-45fa-a265-8704cec72936

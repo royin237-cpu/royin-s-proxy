@@ -7,7 +7,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf
-  name: 21|A🟢🇻🇳[🤖📺🎪✨]_dokng.com_462f633a
+  name: 21|A🟢🇻🇳[🤖📺🎪]_dokng.com_462f633a
   obfs: plain
   obfs-param: 14e116735.douyin.com
   password: di15PV

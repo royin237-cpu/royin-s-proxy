@@ -1,28 +1,9 @@
 proxies:
-- name: 21|C🟠🇫🇷_dokng.com_b82a343f
-  network: ws
-  password: humanity
-  port: 2053
-  server: 168.100.9.178
+- cipher: aes-256-cfb
+  name: 21,30|🇫🇷_FR_法国
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
   skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: 21|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_deff8f28
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /assignment

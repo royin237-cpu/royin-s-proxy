@@ -6,6 +6,13 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 16|🇷🇺 RU 13 → tg@nicevpn123
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  server: 5.188.181.201
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 16|🇷🇺 RU 14 → tg@nicevpn123
@@ -21,6 +28,13 @@ proxies:
     headers:
       Host: nl-full.privateip.net
     path: /RACEVPN
+- cipher: aes-256-cfb
+  name: 16|🇷🇺 RU 16 → tg@nicevpn123
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 5.188.181.201
+  type: ss
+  udp: true
 - name: 16|🇷🇺 RU 17 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -130,6 +144,13 @@ proxies:
     headers:
       Host: ab-test-frosty-flower-e7fb.tariroc864.workers.dev
     path: /hms02.fxiaomi.sbs/link
+- cipher: aes-256-cfb
+  name: 16|🇷🇺 RU 43 → tg@nicevpn123
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  server: 5.188.181.201
+  type: ss
+  udp: true
 - name: 16|🇷🇺 RU 45 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -284,18 +305,18 @@ proxies:
   udp: true
   ws-opts:
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
-- name: 21|A🟢🇷🇺[🎬🤖📺🎭]_dokng.com_5fa0962f
+- name: 21|A🟢🇷🇺[🎬🤖📺🎪]_dokng.com_5b6fe51f
   network: ws
-  port: 2200
-  server: 201.24.49.237
+  port: 4100
+  server: 201.24.49.69
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vless
-  uuid: af412668-578c-4296-bc8c-8fac6a8d9003
+  uuid: 2cd5f052-6455-4153-b7d3-0545184dc64c
   ws-opts:
     headers:
-      Host: rzd.ru
+      Host: live.ok.ru
     path: /v1
 - name: 21|D🔴🇷🇺[🎬🤖📺🎪]_dokng.com_9b0f29e8
   network: ws
@@ -310,8 +331,21 @@ proxies:
     headers:
       Host: live.ok.ru
     path: /v1
+- name: 21|A🟢🇷🇺[🤖📺🎪📦]_dokng.com_67a45bda
+  network: ws
+  port: 2200
+  server: 201.24.49.117
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 2e228435-33a0-47d1-a1d8-9a34b5a03c45
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
 - client-fingerprint: android
-  name: 21|C🟠🇷🇺[📺🎪✨🔍]_dokng.com_2438df74
+  name: 21|C🟠🇷🇺[📺🎪✨]_dokng.com_2438df74
   network: ws
   port: 443
   server: ru05.abvpn.ru

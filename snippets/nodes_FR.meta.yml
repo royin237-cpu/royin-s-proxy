@@ -1,19 +1,27 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 21,30|🇫🇷_FR_法国
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: 21|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_0e80dd49
+  name: 21|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_67a9eaec
   network: tcp
-  packet-encoding: xudp
-  port: 443
+  port: 29239
   reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: 4fa44664f6a566d3
-  server: germany.superbuba.top
-  servername: germany.superbuba.top
+    public-key: KGI60DoZFcBFTq4yrjFE5C4QitMypVH4HJlkM9VqB1M
+    short-id: fd7069bcd5853169
+  server: 104.105.202.38
+  servername: www.sony.com
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
+  uuid: 14155d8d-14f7-4105-984b-f477e3880943
 - name: 21|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b
   password: github.com/Alvin9999-newpac/fanqiang
   port: 51133
@@ -21,30 +29,3 @@ proxies:
   sni: ip4.934618.xyz
   type: anytls
   udp: true
-- name: 21|C🟠🇫🇷_dokng.com_b82a343f
-  network: ws
-  password: humanity
-  port: 2053
-  server: 168.100.9.178
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: 21|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_deff8f28
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /assignment

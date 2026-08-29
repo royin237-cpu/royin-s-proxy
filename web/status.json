@@ -1,20 +1,20 @@
 {
-  "total": 126,
+  "total": 88,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 21
+      "count": 3
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 34
+      "count": 19
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 26
+      "count": 2
     },
     "HK": {
       "flag": "🇭🇰",
@@ -24,22 +24,22 @@
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 14
+      "count": 2
     },
     "CA": {
       "flag": "🇦🇨",
       "name": "加拿大",
-      "count": 3
+      "count": 5
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 4
+      "count": 3
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 17
+      "count": 2
     },
     "GB": {
       "flag": "🇬🇧",
@@ -54,7 +54,7 @@
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 53
+      "count": 57
     },
     "DE": {
       "flag": "🇩🇪",
@@ -64,16 +64,16 @@
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 1
+      "count": 2
     },
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 3
+      "count": 1
     }
   },
-  "update_time": "2026-08-29 20:52",
-  "server_time": "2026-08-29 20:53:26",
+  "update_time": "2026-08-29 22:04",
+  "server_time": "2026-08-29 22:04:58",
   "sources": [
     {
       "index": 0,

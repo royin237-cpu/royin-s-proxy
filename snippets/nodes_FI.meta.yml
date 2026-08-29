@@ -1,14 +1,6 @@
 proxies:
-- auth: 901113fb-2ddd-4472-84bf-307de471f32f
-  name: 21|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_1750cdd0
-  password: 901113fb-2ddd-4472-84bf-307de471f32f
-  port: 443
-  server: fi2.katanalink.net
-  skip-cert-verify: true
-  sni: fi2.katanalink.net
-  type: hysteria2
 - client-fingerprint: chrome
-  name: 21|D🔴🇫🇮_dokng.com_618ae302
+  name: 21|D🔴🇫🇮[🎬🤖📺🎭]_dokng.com_618ae302
   network: ws
   port: 443
   server: 5.45.117.125
@@ -22,6 +14,35 @@ proxies:
     headers:
       Host: freeuse.firta.ru
     path: /
+- alpn:
+  - h3
+  client-fingerprint: ''
+  down: ''
+  name: 21|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_97b46c24
+  obfs-password: ''
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  port: 443
+  server: fin14qr.wwwinternetvideo.click
+  skip-cert-verify: false
+  sni: fin14qr.wwwinternetvideo.click
+  type: hysteria2
+  up: ''
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 21|A🟢🇫🇮[🎬📺🎭🎪]_dokng.com_86e89645
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  server: fin2.helper-internet.com
+  servername: fin2.helper-internet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+  xudp: true
 - name: 25|芬兰 001
   network: grpc
   port: 443

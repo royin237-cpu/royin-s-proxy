@@ -1,18 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 30|🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
-  port: 15006
-  reality-opts:
-    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
-    short-id: 029a6cc4
-  server: nian.001.url111.kcloud02.top
-  servername: www.adobe.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 30|🇭🇰_HK_中国香港->🇸🇬_SG_新加坡_1

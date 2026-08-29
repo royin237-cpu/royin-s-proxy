@@ -6,6 +6,13 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 16|🇷🇺 RU 13 → tg@nicevpn123
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  server: 5.188.181.201
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 16|🇷🇺 RU 14 → tg@nicevpn123
@@ -21,6 +28,13 @@ proxies:
     headers:
       Host: nl-full.privateip.net
     path: /RACEVPN
+- cipher: aes-256-cfb
+  name: 16|🇷🇺 RU 16 → tg@nicevpn123
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 5.188.181.201
+  type: ss
+  udp: true
 - name: 16|🇷🇺 RU 17 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -130,6 +144,13 @@ proxies:
     headers:
       Host: ab-test-frosty-flower-e7fb.tariroc864.workers.dev
     path: /hms02.fxiaomi.sbs/link
+- cipher: aes-256-cfb
+  name: 16|🇷🇺 RU 43 → tg@nicevpn123
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  server: 5.188.181.201
+  type: ss
+  udp: true
 - name: 16|🇷🇺 RU 45 → tg@nicevpn123
   network: ws
   password: maHanVPpN

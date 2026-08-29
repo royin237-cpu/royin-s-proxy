@@ -13,80 +13,55 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_13dc4924
+- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_3e8f7fa3
   network: tcp
   port: 62145
-  server: 158.178.147.153
+  server: 84.235.163.101
+  skip-cert-verify: true
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - encryption: none
-  name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_1784f870
+  name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_0ed40042
   network: tcp
   port: 62145
-  server: 134.98.151.202
+  server: 158.178.145.147
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 21|A🟢🇳🇱[🤖✨]_dokng.com_df2231b8
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: VutAa_22WFsG2kth-PT-Ry4ZxhwtJT930N6DGT5JgF8
+    short-id: d42179376be1a110
+  server: vs-nl10.vibesignal.space
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d2aeb078-90db-4f90-b334-623bcbea8d31
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 21|C🟠🇳🇱_dokng.com_3e74a7fb
+  network: ws
+  port: 443
+  server: 72.56.115.125
+  servername: rotterdam.korgivps.ru
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 4e25f371-acc5-4eb6-afb3-b763ee75537d
+  ws-opts:
+    headers:
+      Host: rotterdam.korgivps.ru
+    path: /api/user
 - name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_056514bc
   network: tcp
   port: 62145
   server: 152.70.50.74
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_ebdf6d36
-  network: tcp
-  port: 62145
-  server: 158.178.150.159
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: chrome
-  encryption: none
-  name: 21|C🟠🇳🇱[📺🎪📦🔍]_dokng.com_c94895fe
-  network: ws
-  port: 443
-  server: 151.101.56.7
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 363c62f2-3f2e-4b20-87eb-78765a67df25
-  ws-opts:
-    headers:
-      Host: pane2.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 21|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_eab95186
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: z37XIezsPyfMgmdXyFd9qT4C4maDAs1OcRt-wfyrXVo
-    short-id: 9c2378562188c3cb
-  server: nl.superbuba.top
-  servername: nl.superbuba.top
-  tls: true
-  type: vless
-  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
-- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_e608727b
-  network: ws
-  port: 443
-  server: neth4.lckdwn.ru
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
-  ws-opts:
-    headers:
-      Host: neth4.lckdwn.ru
-    path: /
-- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_7c6f3a8d
-  network: tcp
-  port: 62145
-  server: 141.148.247.166
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
