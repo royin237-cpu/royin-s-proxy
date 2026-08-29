@@ -153,14 +153,24 @@ def update_config(path, alive_names, delay_by_name):
     data["proxies"] = proxies
     proxy_names = {p["name"] for p in proxies}
 
+    # 收集所有 proxy-group 的 name（组间引用不应被过滤）
+    group_names = {g.get("name", "") for g in data.get("proxy-groups", [])}
+    # 保留的特殊值
+    special_vals = {"DIRECT", "REJECT", "PASS"}
+
     for group in data.get("proxy-groups", []):
         group["proxies"] = [
             item
             for item in group.get("proxies", [])
-            if item in proxy_names or item == "DIRECT"
+            if item in proxy_names or item in group_names or item in special_vals
         ]
+        # 空组兜底：select→DIRECT，url-test/fallback→全部存活节点
         if not group.get("proxies"):
-            group["proxies"] = ["DIRECT"]
+            gtype = group.get("type", "select")
+            if gtype in ("url-test", "fallback", "load-balance"):
+                group["proxies"] = list(proxy_names)[:50]  # 限制最多 50 个避免过大
+            else:
+                group["proxies"] = ["DIRECT"]
 
     text = path.read_text(encoding="utf-8", errors="ignore")
     first = text.splitlines()[0] if text else ""
