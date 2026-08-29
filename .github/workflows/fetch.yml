@@ -14,6 +14,7 @@ on:
       - '**.py'
       - 'snippets/_*'
       - 'gen_status.py'
+      - 'asia_probe_result.json'   # 中国服务器探针推送后自动触发 Actions 重新过滤
 
 concurrency:
   group: fetch-serial
