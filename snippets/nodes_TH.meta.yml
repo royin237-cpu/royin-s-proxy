@@ -7,32 +7,3 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22|A🟢🇹🇭[🎬🤖📺🎭]_dokng.com_8d452c87
-  network: tcp
-  port: 15085
-  reality-opts:
-    public-key: 951GYDOTQ1gQ6TJlXk0gXJsQMGdHpF_dDyJ3AWVc0QI
-    short-id: 5ccdfcca
-  server: sgg8888.sys-metric-report.com
-  servername: mapp.cfastcdn.com
-  tls: true
-  type: vless
-  uuid: 6d148c06-71ff-4565-a7fc-f020bcfcbabf
-- alterId: 0
-  cipher: auto
-  encryption: none
-  name: 22|D🔴🇹🇭[🤖📺🎪✨]_dokng.com_9bd6484c
-  network: ws
-  port: 80
-  server: 18.239.134.69
-  tls: false
-  type: vless
-  udp: true
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  ws-opts:
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-    path: /
