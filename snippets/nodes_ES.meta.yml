@@ -1,19 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 21|C🟠🇪🇸[🎬🤖📺🎭]_dokng.com_62912eba
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: G7hjy9PEKopcPUP4mQXhwIaKIO9TCra_5LHZWuM_RjM
-    short-id: 641a87d5ecdfaeb3
-  server: 193.238.154.39
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 4c1b7e3f-6a2d-493f-b6c4-4ef37db6fcfc
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision

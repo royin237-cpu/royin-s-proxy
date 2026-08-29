@@ -755,7 +755,7 @@ proxies:
   uuid: 0aec6598-7fb5-44e6-bff7-a4d550117830
 - alterId: 0
   cipher: auto
-  name: 25,38|🇺🇸US-162.0.232.36-0928
+  name: 25,38|🇺🇸US-162.0.232.36-0930
   network: ws
   port: 443
   server: hohm.microsoft.com
@@ -768,14 +768,14 @@ proxies:
     headers:
       Host: hohm.microsoft.com
     path: /9JZFDTKE
-- name: 38|🇨🇦CA-148.113.141.99-1215
+- name: 38|🇨🇦CA-148.113.141.99-1209
   password: HdsUZmsHQW
   port: 443
   server: 148.113.141.99
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 38|🇨🇦CA-158.51.121.36-2484
+  name: 38|🇨🇦CA-158.51.121.36-2317
   network: ws
   port: 443
   server: 158.51.121.36
@@ -787,14 +787,14 @@ proxies:
     headers:
       Host: 158.51.121.36
     path: /linkvws
-- name: 38|🇨🇦CA-149.56.141.11-3822
+- name: 38|🇨🇦CA-149.56.141.11-3655
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   port: 443
   server: 149.56.141.11
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 38|🇨🇦CA-137.184.164.233-6997
+  name: 38|🇨🇦CA-137.184.164.233-6825
   network: ws
   port: 80
   server: 137.184.164.233

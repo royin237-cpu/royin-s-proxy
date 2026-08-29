@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '25,37,38|🏁RELAY-188.114.97.110-0242 #1'
+  name: '25,37,38|🏁RELAY-188.114.97.110-0272 #1'
   network: ws
   port: 443
   server: 188.114.97.110
@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.96.145-0601
+  name: 25,38|🏁RELAY-188.114.96.145-0634
   network: ws
   port: 80
   server: 188.114.96.145
@@ -31,7 +31,7 @@ proxies:
     path: /?BIA_TELEGRAM
 - alterId: 0
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.96.42-0602
+  name: 25,38|🏁RELAY-188.114.96.42-0635
   network: ws
   port: 80
   server: 188.114.96.42
@@ -46,7 +46,7 @@ proxies:
     path: /?BIA_TELEGRAM
 - alterId: 0
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.96.9-0603
+  name: 25,38|🏁RELAY-188.114.96.9-0636
   network: ws
   port: 80
   server: 188.114.96.9
@@ -61,7 +61,7 @@ proxies:
     path: /?BIA_TELEGRAM
 - alterId: 1
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.96.7-0754
+  name: 25,38|🏁RELAY-188.114.96.7-0756
   network: ws
   port: 443
   server: 188.114.96.7
@@ -76,7 +76,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.96.58-0755
+  name: 25,38|🏁RELAY-188.114.96.58-0757
   network: ws
   port: 443
   server: 188.114.96.58
@@ -91,7 +91,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.98.0-0756
+  name: 25,38|🏁RELAY-188.114.98.0-0758
   network: ws
   port: 443
   server: 188.114.98.0
@@ -106,7 +106,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.97.1-0757
+  name: 25,38|🏁RELAY-188.114.97.1-0759
   network: ws
   port: 443
   server: 22.vmessprotocol.telegram-vmessprotocol-channel.space
@@ -121,7 +121,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.97.7-0758
+  name: 25,38|🏁RELAY-188.114.97.7-0760
   network: ws
   port: 443
   server: 188.114.97.7
@@ -136,7 +136,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.96.2-0759
+  name: 25,38|🏁RELAY-188.114.96.2-0761
   network: ws
   port: 443
   server: 188.114.96.2
@@ -151,7 +151,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.97.1-0760
+  name: 25,38|🏁RELAY-188.114.97.1-0762
   network: ws
   port: 443
   server: 188.114.97.1
@@ -166,7 +166,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.96.3-0761
+  name: 25,38|🏁RELAY-188.114.96.3-0763
   network: ws
   port: 443
   server: 188.114.96.3
@@ -181,7 +181,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.97.18-0762
+  name: 25,38|🏁RELAY-188.114.97.18-0764
   network: ws
   port: 443
   server: 188.114.97.18
@@ -196,7 +196,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.97.3-0763
+  name: 25,38|🏁RELAY-188.114.97.3-0765
   network: ws
   port: 443
   server: 188.114.97.3
@@ -211,7 +211,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.99.0-0764
+  name: 25,38|🏁RELAY-188.114.99.0-0766
   network: ws
   port: 443
   server: 188.114.99.0
@@ -226,7 +226,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.99.9-0820
+  name: 25,38|🏁RELAY-188.114.99.9-0822
   network: ws
   port: 443
   server: 188.114.99.9
@@ -241,7 +241,7 @@ proxies:
     path: /ECTCJ0DF
 - alterId: 0
   cipher: auto
-  name: 25,38|🏁RELAY-188.114.99.10-0862
+  name: 25,38|🏁RELAY-188.114.99.10-0864
   network: ws
   port: 443
   server: 188.114.99.10

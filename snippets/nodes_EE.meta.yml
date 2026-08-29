@@ -15,7 +15,7 @@ proxies:
   udp: true
   uuid: 7a322a80-b9ae-0007-bec7-affed230a484
   xudp: true
-- name: '37,38|🇪🇪EE-109.206.241.10-0145 #1'
+- name: '37,38|🇪🇪EE-109.206.241.10-0138 #1'
   password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
   port: 449
   server: 109.206.241.10

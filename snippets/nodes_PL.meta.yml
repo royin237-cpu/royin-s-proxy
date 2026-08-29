@@ -6,20 +6,3 @@ proxies:
   skip-cert-verify: true
   sni: streambox.wwwinternetvideo.click
   type: hysteria2
-- name: 38|🇵🇱PL-202.78.163.19-0295
-  password: AE62539071
-  port: 443
-  server: game-firefly.rooster465.autos
-  sni: game-firefly.rooster465.autos
-  type: trojan
-- name: 38|🇵🇱PL-202.78.163.164-0296
-  password: EQ30679154
-  port: 443
-  server: pretty-mollusk.rooster465.autos
-  type: trojan
-- name: 38|🇵🇱PL-202.78.163.148-0297
-  password: ND91608427
-  port: 443
-  server: 202.78.163.148
-  sni: discrete-basilisk.rooster465.autos
-  type: trojan

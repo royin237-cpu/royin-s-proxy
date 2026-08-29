@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 38|🇫🇮FI-65.109.134.191-4532
+  name: 38|🇫🇮FI-65.109.134.191-4365
   network: ws
   port: 80
   server: 65.109.134.191

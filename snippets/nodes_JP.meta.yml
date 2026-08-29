@@ -1,10 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21,30|🇯🇵_JP_日本_1
+  name: '21,30,37,38|🇫🇷FR-162.19.192.89-0433 #1'
   network: ws
   port: 16617
   server: p4.cnb.linuxlh.xin
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -15,17 +16,3 @@ proxies:
       Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
     path: /
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 38|🇯🇵JP-172.111.146.64-5250
-  network: ws
-  port: 80
-  server: 172.111.146.64
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  ws-opts:
-    headers:
-      Host: 172.111.146.64
-    path: /vmess/

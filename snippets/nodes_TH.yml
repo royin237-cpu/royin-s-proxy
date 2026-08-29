@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 25,38|🇺🇸US-23.11.32.159-0938
+  name: 25,38|🇺🇸US-23.11.32.159-0939
   network: ws
   port: 443
   server: cacerts.digicert.com

@@ -6,12 +6,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_ff05ea2d
-  network: tcp
-  port: 62145
-  server: 84.235.161.202
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_13dc4924
   network: tcp
   port: 62145
@@ -49,39 +43,6 @@ proxies:
   server: 134.98.153.222
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: chrome
-  encryption: none
-  name: 21|C🟠🇳🇱[📺🎪📦🔍]_dokng.com_c94895fe
-  network: ws
-  port: 443
-  server: 151.101.56.7
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 363c62f2-3f2e-4b20-87eb-78765a67df25
-  ws-opts:
-    headers:
-      Host: pane2.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 21|A🟢🇳🇱[🤖🎭🎞📦]_dokng.com_68d60baf
-  network: tcp
-  port: 8449
-  server: 5.188.141.67
-  servername: edge-vk.vpn.partners
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2dfd0db2-cd4e-4c09-97fc-67c3d8ee9409
-  xudp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -97,24 +58,6 @@ proxies:
   tls: true
   type: vless
   uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
-- client-fingerprint: chrome
-  encryption: none
-  name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_9d739b8e
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a1ee277e-93b7-4aa9-86a2-c7ef85a2adb0
-  ws-opts:
-    headers:
-      Host: pane3.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-  xudp: true
 - name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_e608727b
   network: ws
   port: 443
@@ -134,17 +77,3 @@ proxies:
   server: 141.148.247.166
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 22|荷兰
-  obfs: salamander
-  obfs-password: HysteriaHowdy
-  password: HowdyHysteria2023w0W
-  port: 8443
-  server: hysteria.udpgw.com
-  skip-cert-verify: true
-  sni: sni-here.com
-  type: hysteria2
-- name: 38|🇳🇱NL-89.39.70.120-0294
-  password: FH72359861
-  port: 443
-  server: pro-crane.rooster465.autos
-  type: trojan

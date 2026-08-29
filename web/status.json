@@ -1,15 +1,20 @@
 {
-  "total": 134,
+  "total": 95,
   "regions": {
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 12
+      "count": 7
+    },
+    "CN": {
+      "flag": "🇨🇳",
+      "name": "中国",
+      "count": 6
     },
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 3
+      "count": 2
     },
     "TW": {
       "flag": "🇹🇼",
@@ -36,15 +41,15 @@
       "name": "英国",
       "count": 1
     },
-    "KR": {
-      "flag": "🇰🇷",
-      "name": "韩国",
-      "count": 1
-    },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
       "count": 1
+    },
+    "SE": {
+      "flag": "🇸🇪",
+      "name": "瑞典",
+      "count": 14
     },
     "EE": {
       "flag": "🇪🇪",
@@ -52,8 +57,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-29 15:15",
-  "server_time": "2026-08-29 15:16:52",
+  "update_time": "2026-08-29 15:51",
+  "server_time": "2026-08-29 15:53:12",
   "sources": [
     {
       "index": 0,
@@ -248,7 +253,7 @@
     {
       "index": 38,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 4093
+      "nodes": 4012
     },
     {
       "index": 39,

@@ -7,17 +7,6 @@ proxies:
   sni: z-v2-003274.kailib.com
   type: trojan
   udp: true
-- name: '17|美国+CloudFlare节点 #2'
-  network: ws
-  port: 2052
-  server: 162.159.0.169
-  tls: false
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
 - name: '17|美国+CloudFlare节点 #5'
   network: ws
   port: 8880
@@ -40,17 +29,6 @@ proxies:
     headers:
       Host: mute-sunset-0849.40-aeb.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: '17|美国+CloudFlare节点 #10'
-  network: ws
-  port: 8880
-  server: 172.64.151.134
-  tls: false
-  type: vless
-  uuid: 9bf81377-d077-4569-9fc9-5f0a55180651
-  ws-opts:
-    headers:
-      Host: super-feather-91c4.267.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
 - name: '17|美国+CloudFlare节点 #12'
   network: ws
   port: 2086
@@ -75,28 +53,27 @@ proxies:
     headers:
       Host: us3.lunariai.ru
     path: /
-- name: 21|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_c4021a16
-  password: https://xship.2fa.cat
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 21|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_10079174
+  network: tcp
   port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: hysteria2
-  udp: true
-- name: 21|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_b2f95b6e
-  password: https://xship.top
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: xship.top
-  type: hysteria2
-  udp: true
+  reality-opts:
+    public-key: OYvSeQqu0XhV12blOVAR2Cn_3m6HI95raTdlqnVobjk
+    short-id: 360de9e1
+  server: 50.7.240.210
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  uuid: ec537bff-dc14-495c-b65f-65393ad7ee75
 - alterId: 0
   cipher: auto
-  name: 21|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_4980c049
+  name: 21,38|🇺🇸US-38.147.160.203-2192
   network: http
   port: 40733
   server: 38.147.160.203
+  servername: ''
+  tls: false
   type: vmess
   uuid: 655300ee-f085-4b62-bc56-207e1c095a4a
 - client-fingerprint: firefox
@@ -119,23 +96,6 @@ proxies:
   udp: true
   uuid: 20414fb9-ccc8-4aaf-bb89-a62c3fb213cb
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 21|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_c725f014
-  network: ws
-  port: 443
-  server: 72.56.40.152
-  servername: usa.korgivps.ru
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 3f054fce-df15-4f7c-8616-56a8b17e84b4
-  ws-opts:
-    headers:
-      Host: usa.korgivps.ru
-    path: /api/user
 - name: '22|美国 #1'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
@@ -163,7 +123,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '25,37,38|🏁RELAY-104.21.84.182-0150 #1'
+  name: '25,37,38|🏁RELAY-104.21.84.182-0156 #1'
   network: ws
   port: 443
   server: rush-t2tvv.ceeopp.site
@@ -211,19 +171,6 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 25|美国 072
-  network: ws
-  port: 80
-  server: 38.107.234.57
-  skip-cert-verify: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
-    path: /vmess/
-- alterId: 0
-  cipher: auto
   name: 25|美国 073
   network: tcp
   port: 18000
@@ -232,58 +179,10 @@ proxies:
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - client-fingerprint: chrome
-  name: 25|美国 078
-  network: ws
-  port: 443
-  server: 172.67.148.180
-  servername: summer-field-3c5b.fsdfsddf.workers.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02e6ad71-7f85-4c3a-aac7-6171762bce87
-  ws-opts:
-    headers:
-      Host: summer-field-3c5b.fsdfsddf.workers.dev
-    path: /eyJqdW5rIjoia2N4eldGd0p6NVY1V3hrIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIl19?ed=2560
-- client-fingerprint: chrome
-  name: 25|美国 191
-  network: ws
-  port: 443
-  server: 104.18.1.1
-  servername: flat-night-edd0.hosein9saleazhuongooyeh87.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 49c0ae46-767c-47d1-9703-8740e0c4b15a
-  ws-opts:
-    headers:
-      Host: flat-night-edd0.hosein9saleazhuongooyeh87.workers.dev
-    path: /eyJqdW5rIjoiZU1pQlVqNTBYVmpTeDlCIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
-- client-fingerprint: chrome
   name: 25|美国 202
   network: ws
   port: 443
   server: 162.159.254.3
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- client-fingerprint: chrome
-  name: 25|美国 203
-  network: ws
-  port: 443
-  server: 172.67.156.147
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tfo: false
@@ -311,84 +210,3 @@ proxies:
     headers:
       Host: ljz5fuexub6s.nova-705deb.workers.dev
     path: /stream/PANEL_ZEUS/b45978f6d773/loc-1
-- name: 25|美国 250
-  network: ws
-  port: 443
-  server: 104.27.52.69
-  servername: icy-pine-5efc.aoigjojowfie123.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73796e63-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: icy-pine-5efc.aoigjojowfie123.workers.dev
-    path: /sync
-- client-fingerprint: chrome
-  name: 25|美国 254
-  network: ws
-  port: 2087
-  server: 104.19.214.98
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 25|美国 433
-  network: tcp
-  port: 443
-  server: 162.19.10.99
-  servername: nasnet-162191099-direct.mbghalibaf.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
-- client-fingerprint: chrome
-  name: 25|美国 453
-  network: ws
-  port: 443
-  server: 129.121.95.159
-  servername: 129.121.95.159
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
-  ws-opts:
-    headers:
-      Host: 129.121.95.159
-    path: /connect
-- alterId: 0
-  cipher: auto
-  name: 30|🇺🇸_US_美国
-  port: 443
-  server: 192.227.247.27
-  servername: 192.227.247.27
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- alterId: 0
-  cipher: auto
-  name: 30|🇺🇸_US_美国_1
-  port: 443
-  server: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a

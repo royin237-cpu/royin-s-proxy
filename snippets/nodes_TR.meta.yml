@@ -28,6 +28,16 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 25|土耳其 002
+  network: tcp
+  port: 443
+  server: 139.28.241.77
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d5c40b1-102c-4343-94cc-d5b794dbd0c6
 - client-fingerprint: chrome
   name: 25|土耳其 004
   network: ws
@@ -46,7 +56,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 25,38|🇹🇷TR-37.221.79.48-0835
+  name: 25,38|🇹🇷TR-37.221.79.48-0837
   network: ws
   port: 443
   server: v2ray.online
@@ -61,7 +71,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 38|🇹🇷TR-37.221.79.48-1715
+  name: 38|🇹🇷TR-37.221.79.48-1546
   network: ws
   port: 443
   server: v2ray.online
@@ -75,7 +85,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 38|🇹🇷TR-37.221.79.48-4976
+  name: 38|🇹🇷TR-37.221.79.48-4809
   network: ws
   port: 443
   server: v2ray.online
@@ -89,7 +99,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 38|🇹🇷TR-45.94.169.142-7345
+  name: 38|🇹🇷TR-45.94.169.142-7173
   network: ws
   port: 443
   server: 45.94.169.142
