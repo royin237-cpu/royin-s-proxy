@@ -18,6 +18,8 @@ import re
 from datetime import datetime
 from collections import OrderedDict
 
+import yaml
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 WEB_DIR = os.path.join(BASE_DIR, "web")
 OUTPUT_PATH = os.path.join(WEB_DIR, "status.json")
@@ -43,16 +45,33 @@ def parse_update_time():
     return m.group(1) if m else ""
 
 
+def _count_proxies(path):
+    """用 YAML 解析统计 proxies 节点数（权威口径）。
+
+    不能用 `- name:` 行数：节点块首字段可能是 cipher/client-fingerprint/alterId 等，
+    只有 proxy-groups 才固定以 `- name:` 开头，行数统计会严重低估节点数。
+    """
+    if not os.path.exists(path):
+        return 0
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = yaml.safe_load(f) or {}
+    except yaml.YAMLError:
+        return 0
+    if isinstance(data, dict):
+        proxies = data.get("proxies") or []
+    elif isinstance(data, list):
+        proxies = data
+    else:
+        proxies = []
+    return len(proxies)
+
+
 def parse_regions():
     regions = {}
     for code, (flag, name) in REGION_MAP.items():
         snip = os.path.join(BASE_DIR, "snippets", f"nodes_{code}.meta.yml")
-        count = 0
-        if os.path.exists(snip):
-            with open(snip, "r", encoding="utf-8") as f:
-                for line in f:
-                    if line.strip().startswith("- name:"):
-                        count += 1
+        count = _count_proxies(snip)
         if count > 0:
             regions[code] = {"flag": flag, "name": name, "count": count}
     return regions
@@ -89,16 +108,8 @@ def parse_sources():
 
 
 def count_alive_nodes():
-    """统计 check_alive 过滤后的实际节点数（从 list.meta.yml 读取）"""
-    meta_path = os.path.join(BASE_DIR, "list.meta.yml")
-    if not os.path.exists(meta_path):
-        return 0
-    count = 0
-    with open(meta_path, "r", encoding="utf-8") as f:
-        for line in f:
-            if line.strip().startswith("- name:"):
-                count += 1
-    return count
+    """统计 check_alive 过滤后的实际节点数（从 list.meta.yml 用 YAML 解析读取）"""
+    return _count_proxies(os.path.join(BASE_DIR, "list.meta.yml"))
 
 
 def main():

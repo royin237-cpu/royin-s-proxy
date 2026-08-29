@@ -50,6 +50,8 @@ def parse_list_meta():
         if m:
             update_time = m.group(1)
     # 统计各地区节点数（从 snippets 读取，避免完整 yaml 解析）
+    # 注意：节点块首字段可能是 name/cipher/client-fingerprint/alterId 等，
+    # 不能只数 `- name:` 行；每个节点块都以顶格 `- ` 开头，据此统计。
     regions = {}
     for code, (flag, name) in REGION_MAP.items():
         snip = os.path.join(BASE_DIR, "snippets", f"nodes_{code}.meta.yml")
@@ -57,7 +59,7 @@ def parse_list_meta():
         if os.path.exists(snip):
             with open(snip, "r", encoding="utf-8") as f:
                 for line in f:
-                    if line.strip().startswith("- name:"):
+                    if line.startswith("- "):
                         count += 1
         if count > 0:
             regions[code] = {"flag": flag, "name": name, "count": count}
