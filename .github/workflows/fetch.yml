@@ -70,6 +70,7 @@ jobs:
         ALIVE_DROP_TYPES: "http,socks5"
         # 不设节点数量上限：所有云端测活通过的节点全部保留
         # （无需 ALIVE_MAX_KEEP / ALIVE_MAX_PER_SOURCE，默认值 0 = 不限制）
+        # 二次过滤：check_alive.py 自动读取 asia_probe_result.json（中国服务器探针结果）
       run: python ./check_alive.py
 
     - name: 生成面板状态 JSON
