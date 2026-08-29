@@ -1,8 +1,37 @@
 proxies:
-- name: 17|🇬🇧 GB 23 → tg@nicevpn123
-  password: 1d7692c0-f51c-11ee-91eb-1239d0255272
+- cipher: aes-256-cfb
+  name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_31ee3f2b
+  password: amazonskr05
   port: 443
-  server: 51.38.65.155
-  skip-cert-verify: true
-  type: trojan
+  server: 18.132.203.206
+  type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 22,48|🇬🇧 英国 | GBR
+  password: amazonskr05
+  port: 443
+  server: 18.170.37.90
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_c99051ed
+  password: amazonskr05
+  port: 443
+  server: 18.133.240.229
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|D🔴🇬🇧[📺🎭🎪]_dokng.com_a194dacc
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: _8LiLlqEXJGXbg_G8KI1fXBlPnRoM3no-0oxxRRMcSw
+    short-id: efcfd3c41c1762b0
+  server: 78.129.184.117
+  servername: strapi.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d1231e2b-4099-40bf-8e78-5f9980f37e7c

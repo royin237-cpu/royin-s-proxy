@@ -1,17 +1,4 @@
 proxies:
-- name: 22|A🟢🇷🇺[🎬🤖📺🎪]_dokng.com_5b6fe51f
-  network: ws
-  port: 4100
-  server: 201.24.49.69
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 2cd5f052-6455-4153-b7d3-0545184dc64c
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
 - name: 22|D🔴🇷🇺[🎬🤖📺🎪]_dokng.com_9b0f29e8
   network: ws
   port: 4100

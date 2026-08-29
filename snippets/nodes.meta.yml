@@ -1,11 +1,61 @@
 proxies:
-- name: 17|🇬🇧 GB 23 → tg@nicevpn123
-  password: 1d7692c0-f51c-11ee-91eb-1239d0255272
-  port: 443
-  server: 51.38.65.155
+- cipher: aes-256-cfb
+  name: 19,22,32|🇨🇳_CN_中国->🇺🇸_US_美国_1
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
   skip-cert-verify: true
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 19|us|1c92|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.230
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 19|us|2a14|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.221.242
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 19|us|d210|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
   name: 19|xx|303c|puddincat07@Telegram
   network: ws
@@ -36,21 +86,13 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
         (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /assignment
-- client-fingerprint: chrome
-  name: 19|us|b395|puddincat07@Telegram
-  network: ws
-  password: humanity
+- cipher: aes-256-cfb
+  name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_31ee3f2b
+  password: amazonskr05
   port: 443
-  server: 104.26.15.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  server: 18.132.203.206
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /assignment
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -86,6 +128,29 @@ proxies:
   tls: true
   type: vless
   uuid: 7b15ec5b-8aea-4742-963e-78b18363c2d4
+- client-fingerprint: chrome
+  name: 22|U⚪🏳️_dokng.com_79f3708c
+  network: ws
+  password: HutaoCloud
+  port: 11543
+  server: 185.220.238.77
+  skip-cert-verify: true
+  sni: 185.220.238.77
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /api
+- cipher: aes-256-cfb
+  name: 22,32,48|🇺🇸 美国 | USA 8
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -107,20 +172,32 @@ proxies:
   uuid: 127f98dc-cc3a-48d4-8224-9a9c80e13d5e
   xudp: true
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 22|A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_e996daea
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 22|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_7b2e5b79
   network: tcp
-  port: 55596
+  port: 27898
   reality-opts:
-    public-key: QQUHUyF5Wb3XeRRrky-WOaRTxBtHokNaMec02HURWSI
-    short-id: 6ac09686189038
-  server: 206.251.54.34
+    public-key: Pd8NKW1KgKjHl6lzGTB3qIAThLbT7alN_I1uIbAQrxA
+    short-id: 9e638ff3d3d9265c
+  server: 54.95.137.141
   servername: www.amd.com
-  skip-cert-verify: true
-  tfo: false
   tls: true
   type: vless
-  uuid: 9fc6444b-987a-41d5-9bf5-195d147e0a05
+  udp: true
+  uuid: 40a726db-6815-44de-9c2f-80e7bfb8f81c
+  xudp: true
+- cipher: aes-256-cfb
+  name: 22,48|🇬🇧 英国 | GBR
+  password: amazonskr05
+  port: 443
+  server: 18.170.37.90
+  type: ss
+  udp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -141,6 +218,51 @@ proxies:
   udp: true
   uuid: 926912d3-1656-4e83-9971-411b283f7998
   xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 22|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_a8b560fd
+  network: tcp
+  port: 28573
+  reality-opts:
+    public-key: 1DJr9toke7FRuSXjibBVuNvRnLnJnN5kXwUBG6Romzg
+    short-id: 03653bc03be10c97
+  server: 18.183.215.124
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 871bfce7-8440-4394-8d82-56b51f20fdad
+  xudp: true
+- cipher: aes-256-cfb
+  name: 22,32|🇨🇦_CA_加拿大
+  password: amazonskr05
+  port: 443
+  server: 3.96.124.46
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_c99051ed
+  password: amazonskr05
+  port: 443
+  server: 18.133.240.229
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 22|A🟢🇻🇳[🤖📺🎪]_dokng.com_462f633a
+  obfs: plain
+  obfs-param: 14e116735.douyin.com
+  password: di15PV
+  port: 14048
+  protocol: auth_aes128_md5
+  protocol-param: 116735:zssrOQ
+  server: api.meituan88.com
+  type: ssr
 - cipher: aes-256-cfb
   name: 22,32,48|🇹🇭 泰国 | THA
   password: 7eadc6dbe2ae
@@ -149,12 +271,21 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- encryption: none
-  name: 22|C🟠🇨🇴[🎬🤖📺🎭]_dokng.com_b6f8d832
+- cipher: aes-256-cfb
+  name: 22,32|🇨🇳_CN_中国->🇰🇷_KR_韩国
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: 22,48|🇨🇴 哥伦比亚 | COL 2
   network: tcp
   port: 62145
-  server: 157.137.231.140
+  server: 157.137.222.54
+  tls: false
   type: vless
+  udp: true
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - encryption: none
   name: 22|C🟠🇨🇴[🎬🤖📺🎭]_dokng.com_e8198695
@@ -163,19 +294,6 @@ proxies:
   server: 157.137.239.113
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 22|A🟢🇷🇺[🎬🤖📺🎪]_dokng.com_5b6fe51f
-  network: ws
-  port: 4100
-  server: 201.24.49.69
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 2cd5f052-6455-4153-b7d3-0545184dc64c
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -191,6 +309,14 @@ proxies:
   tls: true
   type: vless
   uuid: 20bcb7a8-c51b-4771-9686-6b4509dc9cd2
+- name: 22|A🟢🇰🇷[🎬🤖🎭🎪]_dokng.com_052a91b6
+  password: cba96915-8098-41a7-9997-efb01ccc598a
+  port: 42311
+  server: a11.toppp.cc
+  skip-cert-verify: true
+  sni: osxapps.itunes.apple.com
+  type: anytls
+  udp: true
 - name: 22|D🔴🇷🇺[🎬🤖📺🎪]_dokng.com_9b0f29e8
   network: ws
   port: 4100
@@ -204,12 +330,36 @@ proxies:
     headers:
       Host: live.ok.ru
     path: /v1
-- cipher: aes-256-cfb
-  name: 22|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_8b889344
-  password: amazonskr05
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇫🇷[🤖📺🎭📦]_dokng.com_0e80dd49
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: 16.54.243.229
-  type: ss
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+  server: germany.superbuba.top
+  servername: germany.superbuba.top
+  tls: true
+  type: vless
+  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇯🇵[🤖📦🔍]_dokng.com_220a7d08
+  network: tcp
+  port: 47571
+  reality-opts:
+    public-key: OyfEDzOiDM5eMvTacJ4bVhF1V0QZgvz-vP3K456l3W4
+    short-id: 4c8b46e500b0f3ad
+  server: 35.78.59.6
+  servername: www.amd.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 88a67610-b7ae-42ba-8af0-29cfa54cef37
 - name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b
   password: github.com/Alvin9999-newpac/fanqiang
   port: 51133
@@ -232,6 +382,36 @@ proxies:
   tls: true
   type: vless
   uuid: 4c1b7e3f-6a2d-493f-b6c4-4ef37db6fcfc
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|D🔴🇬🇧[📺🎭🎪]_dokng.com_a194dacc
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: _8LiLlqEXJGXbg_G8KI1fXBlPnRoM3no-0oxxRRMcSw
+    short-id: efcfd3c41c1762b0
+  server: 78.129.184.117
+  servername: strapi.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d1231e2b-4099-40bf-8e78-5f9980f37e7c
+- client-fingerprint: chrome
+  name: 22|D🔴🇫🇮[🎬🤖📺🎭]_dokng.com_618ae302
+  network: ws
+  port: 443
+  server: 5.45.117.125
+  servername: freeuse.firta.ru
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: freeuse.firta.ru
+    path: /
 - name: 22|C🟠🇺🇸_dokng.com_da628814
   password: https://xship.best
   port: 443
@@ -264,6 +444,96 @@ proxies:
   sni: fin14qr.wwwinternetvideo.click
   type: hysteria2
   up: ''
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_e52d52e4
+  network: tcp
+  port: 60401
+  reality-opts:
+    public-key: 5U6qdtZGF_F9M52BtiOo8QKVgS91Jkqe8jxPVA7LaEo
+    short-id: 1edb6628ca013da5
+  server: us1.aaaff.top
+  servername: www.hworld.com
+  tls: true
+  type: vless
+  uuid: 2dd387bd-6d19-473a-8d5e-ecbca573b0f9
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 22,48|🇯🇵 日本 | JPN
+  network: tcp
+  port: 42263
+  reality-opts:
+    public-key: lLbzgXK1hx6K2J6rDUARlzZzjWqVXMjIhHsKmgEQI0U
+    short-id: d5cd4778d2da33
+  server: 35.77.87.249
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 37c00ed0-de07-4c7d-a4cf-049805c98713
+  xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: safari
+  name: 22,42,49|US4
+  network: tcp
+  port: 443
+  server: guanwang.awsno.com
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 22|A🟢🇺🇸_dokng.com_c725f014
+  network: ws
+  port: 443
+  server: 72.56.40.152
+  servername: usa.korgivps.ru
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 3f054fce-df15-4f7c-8616-56a8b17e84b4
+  ws-opts:
+    headers:
+      Host: usa.korgivps.ru
+    path: /api/user
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 22,32|🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+  network: tcp
+  port: 15006
+  reality-opts:
+    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+    short-id: 029a6cc4
+  server: nian.001.url111.kcloud02.top
+  servername: www.adobe.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  xudp: true
+- cipher: aes-256-cfb
+  name: 22|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_ba9256ca
+  password: amazonskr05
+  port: 443
+  server: 35.182.129.250
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: 22|D🔴🇫🇷[🤖📺🎭🎪]_dokng.com_7036b731
   network: ws
@@ -279,14 +549,31 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /assignment
-- cipher: aes-256-cfb
-  name: 32|🇮🇪_IE_爱尔兰
-  password: amazonskr05
-  port: 443
-  server: 176.34.158.52
-  skip-cert-verify: true
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 32,52|SG - zhuhai.uk
+  port: 15006
+  reality-opts:
+    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+    short-id: 029a6cc4
+  server: 82.38.46.66
+  servername: www.adobe.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - cipher: aes-256-cfb
   name: 32|🇮🇪_IE_爱尔兰_1
   password: amazonskr05
@@ -303,6 +590,20 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 48|🇬🇧 英国 | GBR 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vvpu_ljhBuTWmM9w5Hl6jj8ZTiE_JYq29S77zNDeCjQ
+    short-id: ff6975658b6cefce
+  server: 109.169.84.72
+  servername: strapi.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f437070-a14e-4355-bfbc-a6036a6bb040
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 48|🇬🇧 英国 | GBR 5
@@ -319,18 +620,32 @@ proxies:
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 48|🇸🇪 瑞典 | SWE
+  name: 48|🇳🇱 荷兰 | NLD
   network: tcp
   port: 443
   reality-opts:
-    public-key: qoahUemfDpTEl1IMf8gMj4RIDILO2dT0MKWVMvRCrU4
-    short-id: b0982475784c64cc
-  server: 2.27.23.115
-  servername: swplay.tgflow.me
+    public-key: z37XIezsPyfMgmdXyFd9qT4C4maDAs1OcRt-wfyrXVo
+    short-id: 9c2378562188c3cb
+  server: nl.superbuba.top
+  servername: nl.superbuba.top
   tls: true
   type: vless
   udp: true
-  uuid: d53f098c-c146-4c16-b8fc-263743fdb6b3
+  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 48|🇸🇬 新加坡 | SGP 14
+  network: tcp
+  port: 20859
+  reality-opts:
+    public-key: y1neNdTfDZJDNmNAsexkDXyd8plDxbRr7TH5RBiAJA8
+    short-id: cc7a57d36b14c736
+  server: 47.128.81.182
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dc513ed7-87d0-4309-947a-30b3f89a51c6
 - name: 48|🇺🇸 美国 | USA 17
   network: ws
   password: 7e7d81db-779d-4216-9b94-7a6a09874549
@@ -366,6 +681,19 @@ proxies:
   server: 104.19.174.68
   skip-cert-verify: true
   sni: huojian.usfaster.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: huojian.usfaster.top
+    path: /images
+- name: 48,52|US - zhuhai.uk 05
+  network: ws
+  password: 7e7d81db-779d-4216-9b94-7a6a09874549
+  port: 443
+  server: 8888.cloudflare.182682.xyz
+  skip-cert-verify: true
+  sni: huojian.usfaster.top
+  tls: true
   type: trojan
   ws-opts:
     headers:

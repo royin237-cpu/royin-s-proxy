@@ -14,3 +14,14 @@ proxies:
   tls: true
   type: vless
   uuid: 20bcb7a8-c51b-4771-9686-6b4509dc9cd2
+- alterId: 2
+  cipher: auto
+  name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true

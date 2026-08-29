@@ -250,16 +250,6 @@ proxies:
   uuid: f018361c-3d66-4635-80c9-22be36b70ac4
 - alterId: 0
   cipher: auto
-  name: 49|HK8 8.6KB/s
-  network: tcp
-  port: 52080
-  server: 154.37.223.56
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
-- alterId: 0
-  cipher: auto
   name: 49|HK10 16.4KB/s
   network: ws
   port: 443

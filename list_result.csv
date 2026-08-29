@@ -23,7 +23,7 @@
 21,https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml,0
 22,https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml,500
 23,https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2,58
-24,https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2,106
+24,https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2,127
 25,https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2,0
 26,https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml,245
 27,https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml,32
@@ -54,4 +54,4 @@
 52,https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml,33
 53,dynamic://peasoft,2
 
-总计,,3672
+总计,,3685
