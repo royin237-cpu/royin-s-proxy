@@ -88,6 +88,7 @@ jobs:
         git add snippets/
         git add web/status.json
         git add alive_result.json
+        git add probe_targets.json
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点" || echo "无新改动，跳过提交"
     - name: 推送更改
       run: |

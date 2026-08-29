@@ -333,16 +333,24 @@ def main():
         encoding="utf-8",
     )
 
-    # 亚洲探针二次过滤：如果存在 asia_probe_result.json（由亚洲区域探针产出），
-    # 只保留亚洲探针也通过的节点（TCP 连通），剔除"美国可达但亚洲不可达"的死节点。
+    # 亚洲探针二次过滤：如果存在 asia_probe_result.json（由中国服务器探针产出），
+    # 只保留探针也通过的节点（中国视角 TCP <=500ms），剔除"海外可达但中国不可达"的死节点。
     asia_probe_path = ROOT / "asia_probe_result.json"
     if asia_probe_path.exists():
         try:
             asia_reachable = set(json.loads(asia_probe_path.read_text(encoding="utf-8")))
             before = len(merged)
-            merged = {n: d for n, d in merged.items() if n in asia_reachable}
-            print(f"[alive] Asia probe filter: {before} -> {len(merged)} "
-                  f"(removed {before - len(merged)} Asia-unreachable)", flush=True)
+            filtered = {n: d for n, d in merged.items() if n in asia_reachable}
+            if filtered:
+                merged = filtered
+                print(f"[alive] Asia probe filter: {before} -> {len(merged)} "
+                      f"(removed {before - len(merged)} Asia-unreachable)", flush=True)
+            else:
+                # 交集为空：探针白名单与云端测活结果完全不重叠（通常是探针数据过期或源变化），
+                # 此时保留云端测活结果，避免产出空订阅或静默跳过过滤。
+                print(f"[alive] WARNING: Asia probe intersection is EMPTY "
+                      f"(cloud-alive={before}, probe-whitelist={len(asia_reachable)}). "
+                      f"Keeping cloud-alive result. Probe data may be stale.", flush=True)
         except (json.JSONDecodeError, OSError) as e:
             print(f"[alive] WARNING: failed to read asia_probe_result.json ({e}), skipping Asia filter", flush=True)
     else:
@@ -354,6 +362,18 @@ def main():
     update_v2ray(alive_names)
     update_snippets(alive_names)
     print(f"[alive] completed: {len(merged)} usable proxies")
+
+    # 导出未过滤的全量节点目标表，供中国探针下一轮直接探测（解决覆盖率鸡生蛋问题）
+    try:
+        targets = [
+            {"name": p.get("name", ""), "server": p.get("server", ""), "port": p.get("port", 0)}
+            for p in proxies if p.get("name") and p.get("server") and p.get("port")
+        ]
+        (ROOT / "probe_targets.json").write_text(
+            json.dumps(targets, ensure_ascii=False), encoding="utf-8")
+        print(f"[alive] exported {len(targets)} probe targets to probe_targets.json", flush=True)
+    except OSError as e:
+        print(f"[alive] WARNING: failed to write probe_targets.json: {e}", flush=True)
 
 
 if __name__ == "__main__":
