@@ -65,10 +65,8 @@ jobs:
         ALIVE_RETRY: '1'
         ALIVE_MIN_RATIO: '0.001'
         ALIVE_DROP_TYPES: "http,socks5"
-        # 订阅总量上限：只保留延迟最低的 150 个存活节点，减少客户端 timeout 比例
-        ALIVE_MAX_KEEP: '150'
-        # 单源配额：每个来源最多保留 40 个，防止聚合源独霸名额
-        ALIVE_MAX_PER_SOURCE: '40'
+        # 不设节点数量上限：所有云端测活通过的节点全部保留
+        # （无需 ALIVE_MAX_KEEP / ALIVE_MAX_PER_SOURCE，默认值 0 = 不限制）
       run: python ./check_alive.py
 
     - name: 生成面板状态 JSON
