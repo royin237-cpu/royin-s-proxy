@@ -292,6 +292,14 @@ def main():
     if not proxies:
         raise SystemExit("no proxies left after junk-type filtering")
 
+    try:
+        (ROOT / "probe_proxies.json").write_text(json.dumps(proxies, ensure_ascii=False), encoding="utf-8")
+        targets = [{"name": p.get("name",""), "server": p.get("server",""), "port": p.get("port",0)} for p in proxies if p.get("name") and p.get("server") and p.get("port")]
+        (ROOT / "probe_targets.json").write_text(json.dumps(targets, ensure_ascii=False), encoding="utf-8")
+        print(f"[alive] exported {len(proxies)} probe targets", flush=True)
+    except OSError as e:
+        print(f"[alive] WARNING: export probe targets failed: {e}", flush=True)
+
     # 多轮测活取交集：所有轮都通过的节点才算存活（消除偶发抖动）
     rounds = []
     for _ in range(RETRY + 1):
@@ -333,28 +341,36 @@ def main():
         encoding="utf-8",
     )
 
-    # 亚洲探针二次过滤：如果存在 asia_probe_result.json（由中国服务器探针产出），
-    # 只保留探针也通过的节点（中国视角 TCP <=500ms），剔除"海外可达但中国不可达"的死节点。
-    asia_probe_path = ROOT / "asia_probe_result.json"
-    if asia_probe_path.exists():
+    # 中国真实测活优先：asia_probe_result.json 由中国服务器 mihomo 实测产出，是用户真实视角权威结果；
+    # 云端(美国)测活仅作探针失效/过期时的兜底。
+    merged_china = None
+    asia_path = ROOT / "asia_probe_result.json"
+    meta_path = ROOT / "asia_probe_meta.json"
+    if asia_path.exists():
         try:
-            asia_reachable = set(json.loads(asia_probe_path.read_text(encoding="utf-8")))
-            before = len(merged)
-            filtered = {n: d for n, d in merged.items() if n in asia_reachable}
-            if filtered:
-                merged = filtered
-                print(f"[alive] Asia probe filter: {before} -> {len(merged)} "
-                      f"(removed {before - len(merged)} Asia-unreachable)", flush=True)
+            asia = json.loads(asia_path.read_text(encoding="utf-8"))
+            fresh = True
+            if meta_path.exists():
+                try:
+                    meta = json.loads(meta_path.read_text(encoding="utf-8"))
+                    age = time.time() - float(meta.get("generated", 0))
+                    fresh = age < 36 * 3600
+                    print(f"[alive] asia probe meta: age={age/3600:.1f}h fresh={fresh}", flush=True)
+                except (json.JSONDecodeError, OSError, ValueError):
+                    fresh = True
+            name_set = {p.get("name") for p in proxies}
+            inter = {n: d for n, d in asia.items() if n in name_set}
+            if fresh and inter:
+                merged_china = inter
+                print(f"[alive] China real-alive filter: {len(proxies)} raw -> {len(inter)} (China mihomo <=500ms)", flush=True)
             else:
-                # 交集为空：探针白名单与云端测活结果完全不重叠（通常是探针数据过期或源变化），
-                # 此时保留云端测活结果，避免产出空订阅或静默跳过过滤。
-                print(f"[alive] WARNING: Asia probe intersection is EMPTY "
-                      f"(cloud-alive={before}, probe-whitelist={len(asia_reachable)}). "
-                      f"Keeping cloud-alive result. Probe data may be stale.", flush=True)
+                print(f"[alive] WARNING: asia probe stale/empty (fresh={fresh}, inter={len(inter)}), fallback to cloud-alive", flush=True)
         except (json.JSONDecodeError, OSError) as e:
-            print(f"[alive] WARNING: failed to read asia_probe_result.json ({e}), skipping Asia filter", flush=True)
+            print(f"[alive] WARNING: read asia_probe_result.json failed ({e}), fallback to cloud-alive", flush=True)
     else:
-        print("[alive] no asia_probe_result.json found, skipping Asia filter", flush=True)
+        print("[alive] no asia_probe_result.json, fallback to cloud-alive", flush=True)
+    if merged_china is not None:
+        merged = merged_china
 
     alive_names = set(merged)
     update_config(ROOT / "list.meta.yml", alive_names, merged)
@@ -362,18 +378,6 @@ def main():
     update_v2ray(alive_names)
     update_snippets(alive_names)
     print(f"[alive] completed: {len(merged)} usable proxies")
-
-    # 导出未过滤的全量节点目标表，供中国探针下一轮直接探测（解决覆盖率鸡生蛋问题）
-    try:
-        targets = [
-            {"name": p.get("name", ""), "server": p.get("server", ""), "port": p.get("port", 0)}
-            for p in proxies if p.get("name") and p.get("server") and p.get("port")
-        ]
-        (ROOT / "probe_targets.json").write_text(
-            json.dumps(targets, ensure_ascii=False), encoding="utf-8")
-        print(f"[alive] exported {len(targets)} probe targets to probe_targets.json", flush=True)
-    except OSError as e:
-        print(f"[alive] WARNING: failed to write probe_targets.json: {e}", flush=True)
 
 
 if __name__ == "__main__":
