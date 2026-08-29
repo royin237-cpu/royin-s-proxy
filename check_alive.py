@@ -332,6 +332,22 @@ def main():
         json.dumps(merged, ensure_ascii=False, indent=2, sort_keys=True),
         encoding="utf-8",
     )
+
+    # 亚洲探针二次过滤：如果存在 asia_probe_result.json（由亚洲区域探针产出），
+    # 只保留亚洲探针也通过的节点（TCP 连通），剔除"美国可达但亚洲不可达"的死节点。
+    asia_probe_path = ROOT / "asia_probe_result.json"
+    if asia_probe_path.exists():
+        try:
+            asia_reachable = set(json.loads(asia_probe_path.read_text(encoding="utf-8")))
+            before = len(merged)
+            merged = {n: d for n, d in merged.items() if n in asia_reachable}
+            print(f"[alive] Asia probe filter: {before} -> {len(merged)} "
+                  f"(removed {before - len(merged)} Asia-unreachable)", flush=True)
+        except (json.JSONDecodeError, OSError) as e:
+            print(f"[alive] WARNING: failed to read asia_probe_result.json ({e}), skipping Asia filter", flush=True)
+    else:
+        print("[alive] no asia_probe_result.json found, skipping Asia filter", flush=True)
+
     alive_names = set(merged)
     update_config(ROOT / "list.meta.yml", alive_names, merged)
     update_config(ROOT / "list.yml", alive_names, merged)

@@ -55,12 +55,15 @@ jobs:
     - name: 真实代理测活并过滤订阅
       env:
         MIHOMO_BIN: ${{ github.workspace }}/mihomo
-        # 多端点交叉验证：依次尝试，任一通过即判定存活
-        ALIVE_TEST_URLS: "http://cp.cloudflare.com/generate_204,http://www.gstatic.com/generate_204,http://www.msftconnecttest.com/connecttest.txt"
+        # 多端点交叉验证（严格模式：全端点必须通过）：
+        #   cloudflare/gstatic/msft = 海外可达性
+        #   miui generate_204 = 中国回连验证：节点能从海外访问中国端点，
+        #     说明没被 GFW 双向阻断，对中国用户更可能可用
+        ALIVE_TEST_URLS: "http://cp.cloudflare.com/generate_204,http://www.gstatic.com/generate_204,http://connect.rom.miui.com/generate_204"
         ALIVE_TIMEOUT_MS: '3500'
-        # 延迟上限：云端到可用节点通常 <500ms；1500ms 上限在保证质量同时
-        # 给国内用户实际可用但云端延迟稍高的节点留机会（频率低不误伤）
-        ALIVE_MAX_DELAY_MS: '1500'
+        # 延迟上限：加了 miui 中国端点后，部分节点到中国延迟偏高，
+        # 放宽到 2000ms 避免误杀可用节点（严格模式已保证全端点必须通过）
+        ALIVE_MAX_DELAY_MS: '2000'
         ALIVE_WORKERS: '128'
         ALIVE_RETRY: '1'
         ALIVE_MIN_RATIO: '0.001'
