@@ -13,16 +13,3 @@ proxies:
   type: vless
   udp: true
   uuid: d53f098c-c146-4c16-b8fc-263743fdb6b3
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 48|🇸🇪 瑞典 | SWE 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-  server: de57.tranzit-net.ru
-  servername: d.tranzit-net.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb

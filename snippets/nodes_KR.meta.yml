@@ -13,6 +13,14 @@ proxies:
   tls: true
   type: vless
   uuid: 6d148c06-71ff-4565-a7fc-f020bcfcbabf
+- cipher: aes-256-cfb
+  name: 22,32|🇨🇳_CN_中国->🇰🇷_KR_韩国
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - name: 22|A🟢🇰🇷[🎬🤖🎭🎪]_dokng.com_052a91b6
   password: cba96915-8098-41a7-9997-efb01ccc598a
   port: 42311
@@ -101,9 +109,16 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
-- cipher: aes-128-gcm
+- client-fingerprint: chrome
   name: 52|KR - zhuhai.uk
-  password: 66b18308-128b-4817-8adc-0adfb03f3124
-  port: 40029
-  server: k6p9tz.5tencent.asia
-  type: ss
+  network: ws
+  port: 443
+  server: kr.mkdir.kdns.fr
+  servername: ai-verps.pages.dev
+  tls: true
+  type: vless
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+  ws-opts:
+    headers:
+      Host: ai-verps.pages.dev
+    path: /

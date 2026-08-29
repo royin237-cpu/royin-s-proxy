@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 22,32|🇨🇳_CN_中国->🇰🇷_KR_韩国
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 40|🇰🇷KR-52.231.200.179-0969
@@ -38,9 +46,3 @@ proxies:
   port: 443
   server: 3.34.6.217
   type: trojan
-- cipher: aes-128-gcm
-  name: 52|KR - zhuhai.uk
-  password: 66b18308-128b-4817-8adc-0adfb03f3124
-  port: 40029
-  server: k6p9tz.5tencent.asia
-  type: ss

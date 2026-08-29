@@ -1,45 +1,5 @@
 proxies:
 - client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 18,22,48|🇯🇵 日本 | JPN
-  network: tcp
-  port: 42263
-  reality-opts:
-    public-key: lLbzgXK1hx6K2J6rDUARlzZzjWqVXMjIhHsKmgEQI0U
-    short-id: d5cd4778d2da33
-  server: 35.77.87.249
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 37c00ed0-de07-4c7d-a4cf-049805c98713
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 22,52|JP - zhuhai.uk 02
-  network: tcp
-  port: 27898
-  reality-opts:
-    public-key: Pd8NKW1KgKjHl6lzGTB3qIAThLbT7alN_I1uIbAQrxA
-    short-id: 9e638ff3d3d9265c
-  server: 54.95.137.141
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40a726db-6815-44de-9c2f-80e7bfb8f81c
-  xudp: true
-- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 22|A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_e996daea
   network: tcp
@@ -74,31 +34,3 @@ proxies:
   udp: true
   uuid: 926912d3-1656-4e83-9971-411b283f7998
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: '39,40|🇯🇵JP-140.83.57.20-0153 #1'
-  network: ws
-  port: 13118
-  server: 140.83.57.20
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
-  ws-opts:
-    headers:
-      Host: sg.11160321.de5.net
-    path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 48|🇯🇵 日本 | JPN 6
-  network: tcp
-  port: 35229
-  reality-opts:
-    public-key: JKEgmSckzu3wmGo2_wl8Xij0-PsE8QOvrEO6jS8IfFY
-    short-id: '0056222303'
-  server: 13.231.69.194
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: caaa44ad-b3d5-4f55-9507-5b57942f6922

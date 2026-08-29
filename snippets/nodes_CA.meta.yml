@@ -5,13 +5,6 @@ proxies:
   port: 443
   server: 16.54.243.229
   type: ss
-- cipher: rc4-md5
-  name: 27|🇨🇦 Canada/Toronto [GH:MatinGha...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 32|🇨🇦_CA_加拿大_1
   password: amazonskr05

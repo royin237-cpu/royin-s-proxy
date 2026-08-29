@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 32|🇭🇰_HK_中国香港->🇸🇬_SG_新加坡_1
+  name: 32,52|SG - zhuhai.uk
   port: 15006
   reality-opts:
     public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg

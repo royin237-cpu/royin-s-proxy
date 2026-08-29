@@ -12,9 +12,3 @@ proxies:
   sni: fin14qr.wwwinternetvideo.click
   type: hysteria2
   up: ''
-- name: 27|🇫🇮 Finland/Helsinki [TG]
-  port: 39633
-  server: 65.109.215.50
-  type: vless
-  udp: true
-  uuid: 845a492d-21e6-4cc0-abbb-b66813a163c0

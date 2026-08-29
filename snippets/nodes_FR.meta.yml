@@ -1,19 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_67a9eaec
-  network: tcp
-  port: 29239
-  reality-opts:
-    public-key: KGI60DoZFcBFTq4yrjFE5C4QitMypVH4HJlkM9VqB1M
-    short-id: fd7069bcd5853169
-  server: 104.105.202.38
-  servername: www.sony.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 14155d8d-14f7-4105-984b-f477e3880943
 - name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b
   password: github.com/Alvin9999-newpac/fanqiang
   port: 51133
@@ -36,41 +21,3 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /assignment
-- cipher: chacha20-ietf-poly1305
-  name: 27|🇫🇷 France [TG]
-  password: ytw2awn
-  port: 443
-  server: 54.36.174.140
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '27|🇫🇷 France [TG] #2'
-  password: zRZNBszYyWo5
-  port: 8388
-  server: 51.77.225.200
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 27|🇫🇷 France/Paris [GH:SoliSpirit...
-  password: pFNN9jKe8jwD
-  port: 32245
-  server: 38.180.92.242
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  name: 48|🇫🇷 法国 | FRA 16
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 213.130.137.80
-  servername: panel.freesavesafe.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: panel.freesavesafe.com
-    mode: auto
-    path: /
