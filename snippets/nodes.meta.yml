@@ -86,19 +86,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /assignment
-- alterId: 64
-  cipher: auto
-  name: '21,40|🇨🇳_CN_中国 #1'
-  network: tcp
-  port: 50002
-  server: 112.132.215.108
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  xudp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -134,6 +121,26 @@ proxies:
   tls: true
   type: vless
   uuid: 7b15ec5b-8aea-4742-963e-78b18363c2d4
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_7b2e5b79
+  network: tcp
+  port: 27898
+  reality-opts:
+    public-key: Pd8NKW1KgKjHl6lzGTB3qIAThLbT7alN_I1uIbAQrxA
+    short-id: 9e638ff3d3d9265c
+  server: 54.95.137.141
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40a726db-6815-44de-9c2f-80e7bfb8f81c
+  xudp: true
 - cipher: chacha20-ietf
   name: 21|A🟢🇻🇳[🤖📺🎪]_dokng.com_462f633a
   obfs: plain
@@ -173,19 +180,6 @@ proxies:
   tls: true
   type: vless
   uuid: 20bcb7a8-c51b-4771-9686-6b4509dc9cd2
-- client-fingerprint: chrome
-  name: 21|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_73594d72
-  network: ws
-  port: 443
-  server: us.mkdir.kdns.fr
-  servername: web-jornttsa.pages.dev
-  tls: true
-  type: vless
-  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
-  ws-opts:
-    headers:
-      Host: web-jornttsa.pages.dev
-    path: /
 - name: 21|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b
   password: github.com/Alvin9999-newpac/fanqiang
   port: 51133
@@ -193,23 +187,6 @@ proxies:
   sni: ip4.934618.xyz
   type: anytls
   udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 21|C🟠🇳🇱_dokng.com_3e74a7fb
-  network: ws
-  port: 443
-  server: 72.56.115.125
-  servername: rotterdam.korgivps.ru
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 4e25f371-acc5-4eb6-afb3-b763ee75537d
-  ws-opts:
-    headers:
-      Host: rotterdam.korgivps.ru
-    path: /api/user
 - name: 21|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_a8bb49da
   network: ws
   password: 7e7d81db-779d-4216-9b94-7a6a09874549
@@ -221,6 +198,26 @@ proxies:
     headers:
       Host: huojian.usfaster.top
     path: /images
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🤖📺✨🎞️]_dokng.com_7dd9fe9b
+  network: tcp
+  port: 42263
+  reality-opts:
+    public-key: lLbzgXK1hx6K2J6rDUARlzZzjWqVXMjIhHsKmgEQI0U
+    short-id: d5cd4778d2da33
+  server: 35.77.87.249
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 37c00ed0-de07-4c7d-a4cf-049805c98713
+  xudp: true
 - client-fingerprint: chrome
   ech-opts:
     enable: true
@@ -249,13 +246,6 @@ proxies:
     headers:
       Host: fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir
     path: /
-- cipher: aes-256-cfb
-  name: 21|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_ba9256ca
-  password: amazonskr05
-  port: 443
-  server: 35.182.129.250
-  type: ss
-  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 21|C🟠🇲🇾[🎬🤖📺🎭]_dokng.com_ce205b5b
@@ -271,6 +261,14 @@ proxies:
   tls: true
   type: vless
   uuid: cb51e964-70a5-4522-9d04-d97b58fe509a
+- cipher: aes-256-cfb
+  name: 30|🇨🇦_CA_加拿大_1
+  password: amazonskr05
+  port: 443
+  server: 35.182.250.193
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: '37,38|🏁RELAY-104.21.58.173-5126 #1'
