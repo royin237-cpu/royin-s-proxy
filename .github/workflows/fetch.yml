@@ -58,11 +58,14 @@ jobs:
         # 多端点交叉验证：依次尝试，任一通过即判定存活
         ALIVE_TEST_URLS: "http://cp.cloudflare.com/generate_204,http://www.gstatic.com/generate_204,http://www.msftconnecttest.com/connecttest.txt"
         ALIVE_TIMEOUT_MS: '3500'
-        ALIVE_MAX_DELAY_MS: '3000'
+        # 延迟上限收紧：云端(海外机房)到可用节点通常 <500ms，>1000ms 多为绕远/假节点
+        ALIVE_MAX_DELAY_MS: '1000'
         ALIVE_WORKERS: '128'
         ALIVE_RETRY: '1'
         ALIVE_MIN_RATIO: '0.001'
         ALIVE_DROP_TYPES: "http,socks5"
+        # 订阅总量上限：只保留延迟最低的 150 个存活节点，减少客户端 timeout 比例
+        ALIVE_MAX_KEEP: '150'
       run: python ./check_alive.py
 
     - name: 生成面板状态 JSON
@@ -78,6 +81,7 @@ jobs:
         git add list*
         git add snippets/
         git add web/status.json
+        git add alive_result.json
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点" || echo "无新改动，跳过提交"
     - name: 推送更改
       run: |

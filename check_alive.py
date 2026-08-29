@@ -27,6 +27,10 @@ MAX_DELAY_MS = int(os.environ.get("ALIVE_MAX_DELAY_MS", "5000"))
 WORKERS = int(os.environ.get("ALIVE_WORKERS", "128"))
 MIN_ALIVE_RATIO = float(os.environ.get("ALIVE_MIN_RATIO", "0.005"))
 RETRY = int(os.environ.get("ALIVE_RETRY", "1"))
+# 订阅总量上限：按延迟升序只保留最快的 N 个存活节点（0 或未设置 = 不限制）。
+# 免费节点质量参差，云端在海外机房测活，大量节点对国内用户仍会 timeout，
+# 只保留延迟最低的一批可显著降低客户端实际测到的 timeout 比例，并控制订阅体积。
+MAX_KEEP = int(os.environ.get("ALIVE_MAX_KEEP", "0"))
 # 垃圾协议预过滤：公开抓取的 http/socks5 代理多为海外机房内网代理，
 # 国内直连基本不可用，且占据订阅体积，测活前直接剔除
 DROP_TYPES = {t.strip() for t in os.environ.get("ALIVE_DROP_TYPES", "http,socks5").split(",") if t.strip()}
@@ -169,11 +173,13 @@ def update_config(path, alive_names, delay_by_name):
             for item in group.get("proxies", [])
             if item in proxy_names or item in group_names or item in special_vals
         ]
-        # 空组兜底：select→DIRECT，url-test/fallback→全部存活节点
+        # 空组兜底：select→DIRECT，url-test/fallback→按延迟升序取存活节点
         if not group.get("proxies"):
             gtype = group.get("type", "select")
             if gtype in ("url-test", "fallback", "load-balance"):
-                group["proxies"] = list(proxy_names)[:50]  # 限制最多 50 个避免过大
+                # 按延迟升序（快节点优先），限制最多 50 个避免过大
+                ordered = sorted(proxy_names, key=lambda n: delay_by_name.get(n, 99999))
+                group["proxies"] = ordered[:50]
             else:
                 group["proxies"] = ["DIRECT"]
 
@@ -272,6 +278,13 @@ def main():
         alive_names = min((set(r) for r in rounds), key=len)
     merged = {n: rounds[-1].get(n, 0) for n in alive_names}
     print(f"[alive] rounds={[len(r) for r in rounds]}, intersection={len(merged)}", flush=True)
+
+    # 按延迟升序排序（快节点在前），并应用总量上限
+    ordered = sorted(merged.items(), key=lambda kv: kv[1])
+    if MAX_KEEP > 0 and len(ordered) > MAX_KEEP:
+        print(f"[alive] trimming {len(ordered)} -> {MAX_KEEP} fastest nodes (ALIVE_MAX_KEEP={MAX_KEEP})", flush=True)
+        ordered = ordered[:MAX_KEEP]
+    merged = dict(ordered)
 
     if len(merged) / len(proxies) < MIN_ALIVE_RATIO:
         print(f"[alive] WARNING: only {len(merged)}/{len(proxies)} alive "
