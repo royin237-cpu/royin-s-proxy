@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|IT 1 → tg@nicevpn123
+  name: 17|IT 1 → tg@nicevpn123
   network: ws
   port: 8443
   server: 188.114.98.20
@@ -16,7 +16,7 @@ proxies:
     path: /build
 - alterId: 0
   cipher: auto
-  name: 16|IT 11 → tg@nicevpn123
+  name: 17|IT 11 → tg@nicevpn123
   network: ws
   port: 8443
   server: 188.114.99.0
@@ -33,7 +33,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: /
-  name: 16|IT 12 → tg@nicevpn123
+  name: 17|IT 12 → tg@nicevpn123
   network: grpc
   port: 443
   server: 188.114.96.15
@@ -45,7 +45,7 @@ proxies:
   uuid: 5b0a489e-e9eb-41b1-902e-d4acad667ba6
 - alterId: 1
   cipher: auto
-  name: 16|IT 13 → tg@nicevpn123
+  name: 17|IT 13 → tg@nicevpn123
   network: ws
   port: 443
   server: 188.114.97.1
@@ -58,7 +58,7 @@ proxies:
     headers:
       Host: 188.114.97.1
     path: linkvws
-- name: 16|IT 14 → tg@nicevpn123
+- name: 17|IT 14 → tg@nicevpn123
   password: 01596265-168b-46a7-bcb7-25662c7a9546
   port: 443
   server: 188.114.98.0
@@ -68,7 +68,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 16,47|🏁RELAY-188.114.97.3-0145
+  name: 17,50|🏁RELAY-188.114.97.3-0145
   network: ws
   port: 443
   server: 188.114.97.3
@@ -84,7 +84,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 16|IT 17 → tg@nicevpn123
+  name: 17|IT 17 → tg@nicevpn123
   network: ws
   port: 8443
   server: 188.114.96.65
@@ -99,7 +99,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|IT 18 → tg@nicevpn123
+  name: 17|IT 18 → tg@nicevpn123
   network: ws
   port: 443
   server: 188.114.97.3
@@ -114,7 +114,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 16|IT 19 → tg@nicevpn123
+  name: 17|IT 19 → tg@nicevpn123
   network: ws
   port: 443
   server: 188.114.97.2
@@ -129,7 +129,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 16|IT 2 → tg@nicevpn123
+  name: 17|IT 2 → tg@nicevpn123
   network: ws
   port: 443
   server: 188.114.97.53
@@ -144,7 +144,7 @@ proxies:
     path: /vmess
 - alterId: 1
   cipher: auto
-  name: 16|IT 21 → tg@nicevpn123
+  name: 17|IT 21 → tg@nicevpn123
   network: ws
   port: 443
   server: 188.114.96.2
@@ -159,7 +159,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 16|IT 22 → tg@nicevpn123
+  name: 17|IT 22 → tg@nicevpn123
   network: ws
   port: 8443
   server: 188.114.98.224
@@ -174,7 +174,7 @@ proxies:
     path: /build
 - alterId: 0
   cipher: auto
-  name: 16|IT 23 → tg@nicevpn123
+  name: 17|IT 23 → tg@nicevpn123
   network: ws
   port: 443
   server: 188.114.97.7
@@ -189,7 +189,7 @@ proxies:
     path: /linkws
 - alterId: 1
   cipher: auto
-  name: 16|IT 24 → tg@nicevpn123
+  name: 17|IT 24 → tg@nicevpn123
   network: ws
   port: 443
   server: 188.114.97.7
@@ -206,7 +206,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: /
-  name: 16|IT 25 → tg@nicevpn123
+  name: 17|IT 25 → tg@nicevpn123
   network: grpc
   port: 2087
   server: 188.114.96.2
@@ -218,7 +218,7 @@ proxies:
   uuid: 8c65cbad-923d-4f73-c653-83c75ca4e1aa
 - alterId: 1
   cipher: auto
-  name: 16|IT 26 → tg@nicevpn123
+  name: 17|IT 26 → tg@nicevpn123
   network: ws
   port: 443
   server: 22.vmessprotocol.telegram-vmessprotocol-channel.space
@@ -233,7 +233,7 @@ proxies:
     path: linkvws
 - alterId: 1
   cipher: auto
-  name: 16|IT 27 → tg@nicevpn123
+  name: 17|IT 27 → tg@nicevpn123
   network: ws
   port: 443
   server: 188.114.96.7
@@ -248,7 +248,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 16|IT 29 → tg@nicevpn123
+  name: 17|IT 29 → tg@nicevpn123
   network: ws
   port: 443
   server: 188.114.97.2
@@ -263,7 +263,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 16|IT 3 → tg@nicevpn123
+  name: 17|IT 3 → tg@nicevpn123
   network: ws
   port: 443
   server: 188.114.97.3
@@ -278,7 +278,7 @@ proxies:
     path: /linkws
 - alterId: 1
   cipher: auto
-  name: 16|IT 30 → tg@nicevpn123
+  name: 17|IT 30 → tg@nicevpn123
   network: ws
   port: 443
   server: 188.114.99.0
@@ -295,7 +295,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: /
-  name: 16|IT 31 → tg@nicevpn123
+  name: 17|IT 31 → tg@nicevpn123
   network: grpc
   port: 443
   server: 188.114.96.6
@@ -307,7 +307,7 @@ proxies:
   uuid: 5b0a489e-e9eb-41b1-902e-d4acad667ba6
 - alterId: 0
   cipher: auto
-  name: 16|IT 4 → tg@nicevpn123
+  name: 17|IT 4 → tg@nicevpn123
   network: ws
   port: 8443
   server: 188.114.96.65
@@ -322,7 +322,7 @@ proxies:
     path: /build
 - alterId: 0
   cipher: auto
-  name: 16|IT 5 → tg@nicevpn123
+  name: 17|IT 5 → tg@nicevpn123
   network: ws
   port: 2086
   server: 188.114.98.0
@@ -335,7 +335,7 @@ proxies:
     headers:
       Host: 188.114.98.0
     path: /
-- name: 16|IT 6 → tg@nicevpn123
+- name: 17|IT 6 → tg@nicevpn123
   password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
   port: 2083
   server: 188.114.96.3
@@ -345,7 +345,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 16|IT 7 → tg@nicevpn123
+  name: 17|IT 7 → tg@nicevpn123
   network: ws
   port: 443
   server: 188.114.96.3
@@ -360,7 +360,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 16|IT 8 → tg@nicevpn123
+  name: 17|IT 8 → tg@nicevpn123
   network: ws
   port: 443
   server: 188.114.98.0
@@ -375,7 +375,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 16|IT 9 → tg@nicevpn123
+  name: 17|IT 9 → tg@nicevpn123
   network: ws
   port: 443
   server: 188.114.97.3
@@ -388,9 +388,16 @@ proxies:
     headers:
       Host: nl1-vmess.sshmax.xyz
     path: /vmess
+- cipher: aes-256-gcm
+  name: 27|🇮🇹 Italy [TG]
+  password: itzvpn@321
+  port: 8388
+  server: 57.131.48.45
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 38|🇮🇹IT-57.131.32.191-0574
+  name: 40|🇮🇹IT-57.131.32.191-0574
   network: ws
   port: 8443
   server: 57.131.32.191

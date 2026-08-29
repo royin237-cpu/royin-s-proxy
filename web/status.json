@@ -1,15 +1,15 @@
 {
-  "total": 29,
+  "total": 3159,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 1
+      "count": 44
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 5
+      "count": 1609
     },
     "CN": {
       "flag": "🇨🇳",
@@ -19,37 +19,37 @@
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 2
+      "count": 41
     },
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 1
+      "count": 18
     },
     "CA": {
       "flag": "🇦🇨",
       "name": "加拿大",
-      "count": 2
+      "count": 71
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 1
+      "count": 51
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 2
+      "count": 47
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 2
+      "count": 23
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 11
+      "count": 12
     },
     "RU": {
       "flag": "🇷🇺",
@@ -59,12 +59,12 @@
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 1
+      "count": 43
     },
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 16
+      "count": 18
     },
     "EE": {
       "flag": "🇪🇪",
@@ -72,8 +72,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-30 00:51",
-  "server_time": "2026-08-30 00:52:03",
+  "update_time": "2026-08-30 01:15",
+  "server_time": "2026-08-30 01:16:36",
   "sources": [
     {
       "index": 0,
@@ -122,206 +122,226 @@
     },
     {
       "index": 9,
-      "url": "https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/vmess",
+      "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/merged.yaml",
       "nodes": 0
     },
     {
       "index": 10,
+      "url": "https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/vmess",
+      "nodes": 0
+    },
+    {
+      "index": 11,
       "url": "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
       "nodes": 618
     },
     {
-      "index": 11,
+      "index": 12,
       "url": "https://raw.githubusercontent.com/Junely/clash/main/clash_near.txt",
       "nodes": 259
     },
     {
-      "index": 12,
+      "index": 13,
       "url": "https://raw.githubusercontent.com/Junely/clash/main/template3.yaml",
       "nodes": 492
     },
     {
-      "index": 13,
+      "index": 14,
       "url": "https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx1",
       "nodes": 33
     },
     {
-      "index": 14,
+      "index": 15,
       "url": "https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx2",
       "nodes": 6
     },
     {
-      "index": 15,
+      "index": 16,
       "url": "https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt",
       "nodes": 26
     },
     {
-      "index": 16,
+      "index": 17,
       "url": "https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml",
       "nodes": 3646
     },
     {
-      "index": 17,
+      "index": 18,
       "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
       "nodes": 20
     },
     {
-      "index": 18,
+      "index": 19,
       "url": "https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml",
       "nodes": 16
     },
     {
-      "index": 19,
+      "index": 20,
       "url": "https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml",
       "nodes": 0
     },
     {
-      "index": 20,
+      "index": 21,
       "url": "https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml",
       "nodes": 0
     },
     {
-      "index": 21,
+      "index": 22,
       "url": "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml",
       "nodes": 500
     },
     {
-      "index": 22,
+      "index": 23,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
       "nodes": 58
     },
     {
-      "index": 23,
+      "index": 24,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
       "nodes": 106
     },
     {
-      "index": 24,
+      "index": 25,
       "url": "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
       "nodes": 0
     },
     {
-      "index": 25,
+      "index": 26,
       "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
       "nodes": 245
     },
     {
-      "index": 26,
+      "index": 27,
+      "url": "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml",
+      "nodes": 32
+    },
+    {
+      "index": 28,
       "url": "https://raw.githubusercontent.com/cxr9912/cxr2022/main/cxr.yml",
       "nodes": 0
     },
     {
-      "index": 27,
+      "index": 29,
       "url": "https://raw.githubusercontent.com/cxr9912/cxr2022/main/free.yaml",
       "nodes": 0
     },
     {
-      "index": 28,
+      "index": 30,
       "url": "https://raw.githubusercontent.com/cxr9912/cxr2022/main/ss.yaml",
       "nodes": 0
     },
     {
-      "index": 29,
+      "index": 31,
       "url": "https://raw.githubusercontent.com/cxr9912/cxr2022/main/vmess.yaml",
       "nodes": 0
     },
     {
-      "index": 30,
+      "index": 32,
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
       "nodes": 22
     },
     {
-      "index": 31,
+      "index": 33,
       "url": "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.",
       "nodes": 18
     },
     {
-      "index": 32,
+      "index": 34,
       "url": "https://raw.githubusercontent.com/freefq/free/master/v2",
       "nodes": 15
     },
     {
-      "index": 33,
+      "index": 35,
       "url": "https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray",
       "nodes": 0
     },
     {
-      "index": 34,
+      "index": 36,
       "url": "https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash",
       "nodes": 0
     },
     {
-      "index": 35,
+      "index": 37,
       "url": "https://raw.githubusercontent.com/imohammadkhalili/V2RAY/main/Mkhalili",
       "nodes": 32
     },
     {
-      "index": 36,
+      "index": 38,
       "url": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.pr",
       "nodes": 0
     },
     {
-      "index": 37,
+      "index": 39,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity",
       "nodes": 200
     },
     {
-      "index": 38,
+      "index": 40,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
       "nodes": 4012
     },
     {
-      "index": 39,
+      "index": 41,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
       "nodes": 0
     },
     {
-      "index": 40,
+      "index": 42,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
-      "nodes": 44
+      "nodes": 42
     },
     {
-      "index": 41,
+      "index": 43,
       "url": "https://raw.githubusercontent.com/mlabalabala/v2ray-node/main/nodefree4clash.txt",
       "nodes": 10
     },
     {
-      "index": 42,
+      "index": 44,
       "url": "https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml",
       "nodes": 78
     },
     {
-      "index": 43,
+      "index": 45,
       "url": "https://raw.githubusercontent.com/qjlxg/hy2/main/splitted/hy2",
       "nodes": 0
     },
     {
-      "index": 44,
+      "index": 46,
       "url": "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash",
       "nodes": 14
     },
     {
-      "index": 45,
+      "index": 47,
       "url": "https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub",
       "nodes": 14
     },
     {
-      "index": 46,
+      "index": 48,
+      "url": "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.y",
+      "nodes": 128
+    },
+    {
+      "index": 49,
       "url": "https://raw.githubusercontent.com/ts-sf/fly/main/clash",
       "nodes": 200
     },
     {
-      "index": 47,
+      "index": 50,
       "url": "https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscrip",
       "nodes": 561
     },
     {
-      "index": 48,
+      "index": 51,
       "url": "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml",
       "nodes": 141
     },
     {
-      "index": 49,
+      "index": 52,
+      "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
+      "nodes": 28
+    },
+    {
+      "index": 53,
       "url": "dynamic://peasoft",
       "nodes": 2
     }

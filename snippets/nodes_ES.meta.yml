@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 21|C🟠🇪🇸[📺🎭🎪📦]_dokng.com_62912eba
+  name: 22|C🟠🇪🇸[📺🎭🎪📦]_dokng.com_62912eba
   network: tcp
   port: 443
   reality-opts:
@@ -14,7 +14,15 @@ proxies:
   tls: true
   type: vless
   uuid: 4c1b7e3f-6a2d-493f-b6c4-4ef37db6fcfc
-- name: 47|🇪🇸+ES+西班牙+9
+- alterId: 0
+  cipher: auto
+  name: 27|🇪🇸 Spain/Madrid [GH:barry-far/...
+  port: 22324
+  server: 85.90.217.42
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- name: 50|🇪🇸+ES+西班牙+9
   network: ws
   port: 2053
   server: 185.18.250.185

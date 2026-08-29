@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 21|D🔴🇫🇮[🎬🤖📺🎭]_dokng.com_618ae302
+  name: 22|D🔴🇫🇮[🎬🤖📺🎭]_dokng.com_618ae302
   network: ws
   port: 443
   server: 5.45.117.125
@@ -18,7 +18,7 @@ proxies:
   - h3
   client-fingerprint: ''
   down: ''
-  name: 21|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_97b46c24
+  name: 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_97b46c24
   obfs-password: ''
   password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
   port: 443
@@ -30,7 +30,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 21|A🟢🇫🇮[🎬📺🎭🎪]_dokng.com_86e89645
+  name: 22|A🟢🇫🇮[🎬📺🎭🎪]_dokng.com_86e89645
   network: tcp
   port: 443
   reality-opts:
@@ -43,9 +43,15 @@ proxies:
   udp: true
   uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
   xudp: true
+- name: 27|🇫🇮 Finland/Helsinki [TG]
+  port: 39633
+  server: 65.109.215.50
+  type: vless
+  udp: true
+  uuid: 845a492d-21e6-4cc0-abbb-b66813a163c0
 - alterId: 0
   cipher: auto
-  name: 38|🇫🇮FI-65.21.240.108-1028
+  name: 40|🇫🇮FI-65.21.240.108-1028
   network: http
   port: 443
   server: 65.21.240.108
@@ -55,7 +61,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 38|🇫🇮FI-65.109.134.191-4365
+  name: 40|🇫🇮FI-65.109.134.191-4365
   network: ws
   port: 80
   server: 65.109.134.191

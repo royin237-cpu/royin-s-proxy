@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|99_中国-1.70MB
+  name: 13|99_中国-1.70MB
   network: ws
   port: 2086
   server: cloudflare.quest
@@ -13,28 +13,28 @@ proxies:
       Host: buyvm.cloudflare.quest
     path: /aries
 - cipher: aes-256-gcm
-  name: 16|🇨🇳 CN 110 → tg@nicevpn123
+  name: 17|🇨🇳 CN 110 → tg@nicevpn123
   password: e6f8da28-345b-46aa-9ef8-edf27777a533
   port: 48009
   server: k9.b99.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 16|🇨🇳 CN 167 → tg@nicevpn123
+  name: 17|🇨🇳 CN 167 → tg@nicevpn123
   password: 96f29af6-abb3-4f1b-9b42-3dc0367176dd
   port: 48009
   server: k9.b99.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 16|🇨🇳 CN 21 → tg@nicevpn123
+  name: 17|🇨🇳 CN 21 → tg@nicevpn123
   password: b40e67cc-b615-4f5b-ab2f-aa8a1290cc42
   port: 48009
   server: k9.b99.buzz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 16|🇨🇳 CN 394 → tg@nicevpn123
+  name: 17|🇨🇳 CN 394 → tg@nicevpn123
   password: 35e9f1cc-4fd4-4242-8f55-5549b47d3848
   port: 48009
   server: k9.b99.buzz
@@ -42,7 +42,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 16|🇨🇳 CN 485 → tg@nicevpn123
+  name: 17|🇨🇳 CN 485 → tg@nicevpn123
   network: ws
   port: 16632
   server: m.cnmjin.net
@@ -56,7 +56,7 @@ proxies:
       Host: m.cnmjin.net
     path: /
 - cipher: aes-256-gcm
-  name: 16|🇨🇳 CN 501 → tg@nicevpn123
+  name: 17|🇨🇳 CN 501 → tg@nicevpn123
   password: d88dfa88-f02d-45b5-bb47-f240ad3b9db2
   port: 48009
   server: k9.b99.buzz
@@ -64,7 +64,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: '21,40|🇨🇳_CN_中国 #1'
+  name: '22,42|🇨🇳_CN_中国 #1'
   network: tcp
   port: 50002
   server: 112.132.215.108
@@ -77,7 +77,7 @@ proxies:
   xudp: true
 - alterId: 64
   cipher: auto
-  name: 30|🇨🇳_CN_中国
+  name: 32|🇨🇳_CN_中国
   port: 50002
   server: 112.132.215.108
   skip-cert-verify: true
@@ -87,7 +87,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 38|🇨🇳CN-124.222.189.225-2140
+  name: 40|🇨🇳CN-124.222.189.225-2140
   network: ws
   port: 80
   server: 124.222.189.225
@@ -99,7 +99,7 @@ proxies:
     headers:
       Host: 124.222.189.225
     path: /
-- name: 47|🇨🇳+CN+中国+34
+- name: 50|🇨🇳+CN+中国+34
   network: ws
   port: 443
   server: 43.198.53.11

@@ -1,5 +1,5 @@
 proxies:
-- name: 22|波兰
+- name: 23|波兰
   password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
   port: 443
   server: streambox.wwwinternetvideo.click
@@ -8,7 +8,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 25,38|🇺🇸US-91.149.239.214-0559
+  name: 26,40|🇺🇸US-91.149.239.214-0559
   network: ws
   port: 443
   server: cg1c07.waimaojd.com
@@ -22,7 +22,7 @@ proxies:
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  name: 25,38|🇺🇸US-91.149.239.165-0566
+  name: 26,40|🇺🇸US-91.149.239.165-0566
   network: ws
   port: 443
   server: cg1c14.waimaojd.com
@@ -35,15 +35,43 @@ proxies:
     headers:
       Host: cg1c14.waimaojd.com
     path: /api/v1/graphql
-- name: 38|🇵🇱PL-51.83.186.142-3057
+- name: 40|🇵🇱PL-51.83.186.142-3057
   password: 555034c8-6420-45d0-893c-905c02342150
   port: 443
   server: 51.83.186.142
   sni: pl1.trojanvh.xyz
   type: trojan
-- name: 38|🇵🇱PL-51.83.186.142-4086
+- name: 40|🇵🇱PL-51.83.186.142-4086
   password: 555034c8-6420-45d0-893c-905c02342150
   port: 80
   server: 51.83.186.142
   sni: pl1.trojanvh.xyz
   type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 48|🇵🇱 波兰 | POL 2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zSUGAaQT4fl4OGIGQjUkU4gVWvyexICHgLE-bM2GUV4
+    short-id: 8d7ec053417caa53
+  server: 81.90.17.173
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2aeb078-90db-4f90-b334-623bcbea8d31
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 48|🇵🇱 波兰 | POL 4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zSUGAaQT4fl4OGIGQjUkU4gVWvyexICHgLE-bM2GUV4
+    short-id: 8d7ec053417caa53
+  server: vs-pl6.vibesignal.space
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2aeb078-90db-4f90-b334-623bcbea8d31

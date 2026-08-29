@@ -1,5 +1,5 @@
 proxies:
-- name: 16|🇷🇺 RU 1 → tg@nicevpn123
+- name: 17|🇷🇺 RU 1 → tg@nicevpn123
   password: 71ab3866-4c8b-4a0b-a4bd-a64f110afe0b
   port: 443
   server: ca-full.privateip.net
@@ -8,7 +8,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 16|🇷🇺 RU 14 → tg@nicevpn123
+  name: 17|🇷🇺 RU 14 → tg@nicevpn123
   network: ws
   port: 443
   server: nl-full.privateip.net
@@ -21,7 +21,7 @@ proxies:
     headers:
       Host: nl-full.privateip.net
     path: /RACEVPN
-- name: 16|🇷🇺 RU 17 → tg@nicevpn123
+- name: 17|🇷🇺 RU 17 → tg@nicevpn123
   network: ws
   password: maHanVPpN
   port: 80
@@ -31,7 +31,7 @@ proxies:
   udp: true
   ws-opts:
     path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
-- name: 16|🇷🇺 RU 18 → tg@nicevpn123
+- name: 17|🇷🇺 RU 18 → tg@nicevpn123
   password: 8b47d63f-1f8e-4f8e-a1e8-ead3686e5da6
   port: 443
   server: ca-full.privateip.net
@@ -40,7 +40,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 16|🇷🇺 RU 22 → tg@nicevpn123
+  name: 17|🇷🇺 RU 22 → tg@nicevpn123
   network: ws
   port: 443
   server: 185.148.104.118
@@ -53,23 +53,16 @@ proxies:
     headers:
       Host: 185.148.104.118
     path: /hms02.fxiaomi.sbs/link
-- name: 16|🇷🇺 RU 29 → tg@nicevpn123
+- name: 17|🇷🇺 RU 29 → tg@nicevpn123
   password: d2b376a2-c9b7-42be-8f52-26c0987f2884
   port: 443
   server: nl-full.privateip.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 16|🇷🇺 RU 30 → tg@nicevpn123
-  password: GeregetR8cvQHzYr
-  port: 9030
-  server: 5.188.181.201
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 16|🇷🇺 RU 31 → tg@nicevpn123
+  name: 17|🇷🇺 RU 31 → tg@nicevpn123
   network: ws
   port: 80
   server: is3-vmess.sshmax.xyz
@@ -84,7 +77,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 16|🇷🇺 RU 32 → tg@nicevpn123
+  name: 17|🇷🇺 RU 32 → tg@nicevpn123
   network: ws
   port: 80
   server: de1-vmess.greenssh.xyz
@@ -99,7 +92,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|🇷🇺 RU 37 → tg@nicevpn123
+  name: 17|🇷🇺 RU 37 → tg@nicevpn123
   network: ws
   port: 443
   server: hk-full.privateip.net
@@ -112,7 +105,7 @@ proxies:
     headers:
       Host: hk-full.privateip.net
     path: /RACEVPN
-- name: 16|🇷🇺 RU 41 → tg@nicevpn123
+- name: 17|🇷🇺 RU 41 → tg@nicevpn123
   network: ws
   password: maHanVPpN
   port: 80
@@ -124,7 +117,7 @@ proxies:
     path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - alterId: 0
   cipher: auto
-  name: 16|🇷🇺 RU 42 → tg@nicevpn123
+  name: 17|🇷🇺 RU 42 → tg@nicevpn123
   network: ws
   port: 443
   server: 185.148.104.118
@@ -137,7 +130,7 @@ proxies:
     headers:
       Host: ab-test-frosty-flower-e7fb.tariroc864.workers.dev
     path: /hms02.fxiaomi.sbs/link
-- name: 16|🇷🇺 RU 45 → tg@nicevpn123
+- name: 17|🇷🇺 RU 45 → tg@nicevpn123
   network: ws
   password: maHanVPpN
   port: 80
@@ -147,7 +140,7 @@ proxies:
   udp: true
   ws-opts:
     path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
-- name: 16|🇷🇺 RU 49 → tg@nicevpn123
+- name: 17|🇷🇺 RU 49 → tg@nicevpn123
   network: ws
   password: maHanVPpN
   port: 80
@@ -157,7 +150,7 @@ proxies:
   udp: true
   ws-opts:
     path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
-- name: 16|🇷🇺 RU 50 → tg@nicevpn123
+- name: 17|🇷🇺 RU 50 → tg@nicevpn123
   network: ws
   password: maHanVPpN
   port: 80
@@ -167,7 +160,7 @@ proxies:
   udp: true
   ws-opts:
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
-- name: 16|🇷🇺 RU 58 → tg@nicevpn123
+- name: 17|🇷🇺 RU 58 → tg@nicevpn123
   network: ws
   password: maHanVPpN
   port: 80
@@ -177,14 +170,14 @@ proxies:
   udp: true
   ws-opts:
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
-- name: 16|🇷🇺 RU 61 → tg@nicevpn123
+- name: 17|🇷🇺 RU 61 → tg@nicevpn123
   password: bf2307e1-a58f-41c2-8392-d76197fc2866
   port: 443
   server: nl-full.privateip.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 16|🇷🇺 RU 64 → tg@nicevpn123
+- name: 17|🇷🇺 RU 64 → tg@nicevpn123
   network: ws
   password: maHanVPpN
   port: 80
@@ -194,7 +187,7 @@ proxies:
   udp: true
   ws-opts:
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
-- name: 16|🇷🇺 RU 67 → tg@nicevpn123
+- name: 17|🇷🇺 RU 67 → tg@nicevpn123
   network: ws
   password: maHanVPpN
   port: 80
@@ -204,7 +197,7 @@ proxies:
   udp: true
   ws-opts:
     path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
-- name: 16|🇷🇺 RU 68 → tg@nicevpn123
+- name: 17|🇷🇺 RU 68 → tg@nicevpn123
   network: ws
   password: maHanVPpN
   port: 80
@@ -216,7 +209,7 @@ proxies:
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - alterId: 0
   cipher: auto
-  name: 16|🇷🇺 RU 70 → tg@nicevpn123
+  name: 17|🇷🇺 RU 70 → tg@nicevpn123
   network: ws
   port: 80
   server: 85.117.234.167
@@ -229,7 +222,7 @@ proxies:
     headers:
       Host: 85.117.234.167
     path: /TG@dns68免费节点
-- name: 16|🇷🇺 RU 71 → tg@nicevpn123
+- name: 17|🇷🇺 RU 71 → tg@nicevpn123
   network: ws
   password: maHanVPpN
   port: 80
@@ -239,14 +232,14 @@ proxies:
   udp: true
   ws-opts:
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
-- name: 16|🇷🇺 RU 73 → tg@nicevpn123
+- name: 17|🇷🇺 RU 73 → tg@nicevpn123
   password: 01278779-3f58-4477-8ae7-7b82033a5d2e
   port: 443
   server: hk-full.privateip.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 16|🇷🇺 RU 74 → tg@nicevpn123
+- name: 17|🇷🇺 RU 74 → tg@nicevpn123
   network: ws
   password: maHanVPpN
   port: 80
@@ -256,7 +249,7 @@ proxies:
   udp: true
   ws-opts:
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
-- name: 16|🇷🇺 RU 76 → tg@nicevpn123
+- name: 17|🇷🇺 RU 76 → tg@nicevpn123
   network: ws
   password: maHanVPpN
   port: 80
@@ -268,7 +261,7 @@ proxies:
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - alterId: 0
   cipher: auto
-  name: 16|🇷🇺 RU 95 → tg@nicevpn123
+  name: 17|🇷🇺 RU 95 → tg@nicevpn123
   network: ws
   port: 443
   server: ca-full.privateip.net
@@ -281,7 +274,7 @@ proxies:
     headers:
       Host: ca-full.privateip.net
     path: /RACEVPN
-- name: 16|🇷🇺 RU 97 → tg@nicevpn123
+- name: 17|🇷🇺 RU 97 → tg@nicevpn123
   network: ws
   password: maHanVPpN
   port: 80
@@ -291,7 +284,26 @@ proxies:
   udp: true
   ws-opts:
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
-- name: 21|A🟢🇷🇺[🎬🤖📺🎪]_dokng.com_5b6fe51f
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 18|俄罗斯+新西伯利亚JustHost
+  network: tcp
+  port: 443
+  server: 45.89.229.79
+  servername: u643766ua3515167s394.csgfw.top
+  tls: true
+  type: vless
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+  ws-opts:
+    headers:
+      Host: a3515167s394.csgfw.top
+    path: ''
+- name: 22|A🟢🇷🇺[🎬🤖📺🎪]_dokng.com_5b6fe51f
   network: ws
   port: 4100
   server: 201.24.49.69
@@ -304,7 +316,7 @@ proxies:
     headers:
       Host: live.ok.ru
     path: /v1
-- name: 21|D🔴🇷🇺[🎬🤖📺🎪]_dokng.com_9b0f29e8
+- name: 22|D🔴🇷🇺[🎬🤖📺🎪]_dokng.com_9b0f29e8
   network: ws
   port: 4100
   server: 201.34.137.15
@@ -317,7 +329,7 @@ proxies:
     headers:
       Host: live.ok.ru
     path: /v1
-- name: 21|A🟢🇷🇺[🤖📺🎪📦]_dokng.com_67a45bda
+- name: 22|A🟢🇷🇺[🤖📺🎪📦]_dokng.com_67a45bda
   network: ws
   port: 2200
   server: 201.24.49.117
@@ -330,8 +342,8 @@ proxies:
     headers:
       Host: rzd.ru
     path: /v1
-- client-fingerprint: android
-  name: 21|C🟠🇷🇺[📺🎪✨]_dokng.com_2438df74
+- client-fingerprint: edge
+  name: 22,48|🇷🇺 俄罗斯 | RUS 2
   network: ws
   port: 443
   server: ru05.abvpn.ru
@@ -340,12 +352,13 @@ proxies:
   tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
   ws-opts:
     headers:
       Host: ru05.abvpn.ru
     path: /websocket
-- name: 35|🇷🇺 FASTNET 11
+- name: 37|🇷🇺 FASTNET 11
   network: ws
   port: 8443
   server: www.speedtest.net
@@ -359,7 +372,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: '37,38|🇷🇺RU-37.220.161.247-0187 #1'
+  name: '39,40|🇷🇺RU-37.220.161.247-0187 #1'
   network: ws
   port: 443
   server: renderer-stream-2-62.mirra.now
@@ -373,7 +386,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 38|🇷🇺RU-171.22.134.12-7588
+  name: 40|🇷🇺RU-171.22.134.12-7588
   network: ws
   port: 443
   server: 171.22.134.12
@@ -387,7 +400,7 @@ proxies:
     path: /path/1689849487190
 - alterId: 64
   cipher: auto
-  name: 38|🇷🇺RU-171.22.134.12-7589
+  name: 40|🇷🇺RU-171.22.134.12-7589
   network: ws
   port: 443
   server: 171.22.134.12
@@ -399,7 +412,7 @@ proxies:
     headers:
       Host: 171.22.134.12
     path: /path/1689935243027
-- name: 47|🇷🇺+RU+俄罗斯联邦+11
+- name: 50|🇷🇺+RU+俄罗斯联邦+11
   network: ws
   port: 2087
   server: 185.176.24.140

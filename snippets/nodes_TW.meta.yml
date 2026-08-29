@@ -1,7 +1,49 @@
 proxies:
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 21|C🟠🇹🇼[🎬🤖📺🎭]_dokng.com_19738b3f
+  name: 22|C🟠🇹🇼[🎬🤖📺🎭]_dokng.com_558dec31
+  packet-encoding: xudp
+  port: 14507
+  reality-opts:
+    public-key: eob9-UdF6SeEtwcnPjECI1HE4iI6Aqef09AMAh3wJTw
+    short-id: d481c1dc
+  server: sgg8888.sys-metric-report.com
+  servername: tapp.cfastcdn.com
+  tls: true
+  type: vless
+  uuid: 6d148c06-71ff-4565-a7fc-f020bcfcbabf
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇹🇼[🎬🤖📺🎭]_dokng.com_664df887
+  packet-encoding: xudp
+  port: 26396
+  reality-opts:
+    public-key: eob9-UdF6SeEtwcnPjECI1HE4iI6Aqef09AMAh3wJTw
+    short-id: d481c1dc
+  server: sgg8888.sys-metric-report.com
+  servername: tapp.cfastcdn.com
+  tls: true
+  type: vless
+  uuid: 6d148c06-71ff-4565-a7fc-f020bcfcbabf
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇹🇼[🎬🤖📺🎭]_dokng.com_542c37a1
+  packet-encoding: xudp
+  port: 40370
+  reality-opts:
+    public-key: eob9-UdF6SeEtwcnPjECI1HE4iI6Aqef09AMAh3wJTw
+    short-id: d481c1dc
+  server: sgg8888.sys-metric-report.com
+  servername: tapp.cfastcdn.com
+  tls: true
+  type: vless
+  uuid: 6d148c06-71ff-4565-a7fc-f020bcfcbabf
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22,48|🇹🇼 🇨🇳 台湾 | TWN 6
   network: tcp
   port: 12069
   reality-opts:
@@ -14,3 +56,91 @@ proxies:
   tls: true
   type: vless
   uuid: 7b15ec5b-8aea-4742-963e-78b18363c2d4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇹🇼[🎬🤖📺🎭]_dokng.com_c75b4fc2
+  network: tcp
+  port: 35155
+  reality-opts:
+    public-key: ovrSiv4IO8ANPEwSpuJFNp266_vqTC8tRZ14A3uiUgo
+    short-id: 711830eff59f40
+  server: 34.80.191.169
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b64d2f40-c46d-4997-98cd-80ef30fe92e0
+- name: 40|🇹🇼TW-125.227.152.109-2790
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.co.ua
+  type: trojan
+- name: 40|🇹🇼TW-203.69.207.175-2859
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.kiev.ua
+  type: trojan
+- name: 40|🇹🇼TW-61.216.76.139-2904
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.if.ua
+  type: trojan
+- name: 40|🇹🇼TW-61.222.160.199-2926
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.org.ua
+  type: trojan
+- name: 40|🇹🇼TW-61.216.76.139-2982
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.kyiv.ua
+  type: trojan
+- name: 40|🇹🇼TW-125.227.152.109-2984
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.dp.ua
+  type: trojan
+- name: 40|🇹🇼TW-61.222.160.199-3028
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.ivano-frankivsk.ua
+  type: trojan
+- name: 40|🇹🇼TW-61.216.76.139-3140
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.biz.ua
+  type: trojan
+- name: 40|🇹🇼TW-125.227.152.109-3179
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.cn.ua
+  type: trojan
+- name: 40|🇹🇼TW-203.69.207.175-3198
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.chernovtsy.ua
+  type: trojan
+- name: 40|🇹🇼TW-61.222.160.199-3201
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.net.ua
+  type: trojan
+- name: 40|🇹🇼TW-211.75.143.195-3247
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.com.ua
+  type: trojan
+- client-fingerprint: random
+  name: 50|TG@ZDYZ2 -TW4
+  network: ws
+  port: 8443
+  server: 89.116.161.250
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2

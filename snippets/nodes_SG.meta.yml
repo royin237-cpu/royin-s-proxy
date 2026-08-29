@@ -1,11 +1,67 @@
 proxies:
-- name: 16|🇸🇬 SG 27 → tg@nicevpn123
+- name: 17|🇸🇬 SG 27 → tg@nicevpn123
   password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
   port: 443
   server: 139.162.49.215
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 17|🇸🇬 SG 29 → tg@nicevpn123
+  password: 557340ab-4ae8-4593-989f-a8053bec73b6
+  port: 443
+  server: sg2-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 17|🇸🇬 SG 39 → tg@nicevpn123
+  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
+  port: 443
+  server: sg3-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 17|🇸🇬 SG 40 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.250.57.60
+  type: ss
+  udp: true
+- name: 17|🇸🇬 SG 7 → tg@nicevpn123
+  password: I4bO2YDEgs
+  port: 443
+  server: 188.166.252.91
+  skip-cert-verify: true
+  sni: aka.ms
+  type: trojan
+  udp: true
+- client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_2cb237ed
+  network: tcp
+  port: 47343
+  reality-opts:
+    public-key: eob9-UdF6SeEtwcnPjECI1HE4iI6Aqef09AMAh3wJTw
+    short-id: d481c1dc
+  server: sgg8888.sys-metric-report.com
+  servername: sapp.cfastcdn.com
+  tls: true
+  type: vless
+  uuid: 6d148c06-71ff-4565-a7fc-f020bcfcbabf
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_39d2fe04
+  network: tcp
+  port: 22271
+  reality-opts:
+    public-key: eob9-UdF6SeEtwcnPjECI1HE4iI6Aqef09AMAh3wJTw
+    short-id: d481c1dc
+  server: sgg8888.sys-metric-report.com
+  servername: sapp.cfastcdn.com
+  tls: true
+  type: vless
+  uuid: 6d148c06-71ff-4565-a7fc-f020bcfcbabf
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -13,7 +69,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 21|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_42112f56
+  name: 22,48|🇸🇬 新加坡 | SGP 13
   network: tcp
   port: 22872
   reality-opts:
@@ -26,3 +82,521 @@ proxies:
   udp: true
   uuid: 8abb4009-5efe-4d27-aa56-d50c37d2b1b8
   xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 22,48|🇸🇬 新加坡 | SGP 18
+  network: tcp
+  port: 20440
+  reality-opts:
+    public-key: gt0qpR8MQY1hrYZDmHwtMcESvcDbFWtjKirUqSCoUwA
+    short-id: 816de7fe3de8b0
+  server: 47.128.248.109
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 127f98dc-cc3a-48d4-8224-9a9c80e13d5e
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_8a1b4168
+  network: tcp
+  port: 12346
+  reality-opts:
+    public-key: 8CbVZ66WQw2bBVlxbQuCZu9WmbFcxzY6nNSz1JcQZkE
+    short-id: a739eb7afcffa605
+  server: 54.169.168.70
+  servername: www.intel.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: e77f740b-609e-41e0-86e7-14881c1185ea
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 22,32|🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+  network: tcp
+  port: 15006
+  reality-opts:
+    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+    short-id: 029a6cc4
+  server: nian.001.url111.kcloud02.top
+  servername: www.adobe.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 22,48|🇸🇬 新加坡 | SGP 7
+  network: tcp
+  port: 25193
+  reality-opts:
+    public-key: Qsm5dVTgDmOCvRwi8M_WVE8EmeK6Ot9i-XIfCmM1zGg
+    short-id: 702186e48d5646
+  server: 13.214.194.139
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65166c4d-a46c-40f9-83cb-ee599f5279cb
+  xudp: true
+- name: '39,40|🇸🇬SG-68.183.184.107-0257 #1'
+  password: 1a205ae2-be41-42b0-abdf-795a2ea3df4e
+  port: 443
+  server: t1.gitvpn.eu.org
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 40|🇸🇬SG-15.235.147.186-0426
+  network: ws
+  port: 80
+  server: 15.235.147.186
+  servername: 15.235.147.186
+  tls: false
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-opts:
+    headers:
+      Host: 15.235.147.186
+    path: /sshkit/Ertusg86/635014638c264/
+- alterId: 0
+  cipher: auto
+  name: 40|🇸🇬SG-139.99.61.154-0927
+  network: ws
+  port: 80
+  server: 139.99.61.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
+  ws-opts:
+    headers:
+      Host: 139.99.61.154
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 40|🇸🇬SG-13.229.70.227-0953
+  network: ws
+  port: 9111
+  server: st-1.dnspro.icu
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-1.dnspro.icu
+    path: /iso
+- alterId: 0
+  cipher: auto
+  name: 40|🇸🇬SG-13.229.70.227-0954
+  network: ws
+  port: 5100
+  server: st-2.dnspro.icu
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-2.dnspro.icu
+    path: /iso
+- alterId: 0
+  cipher: auto
+  name: 40|🇸🇬SG-13.229.70.227-0956
+  network: ws
+  port: 20025
+  server: sh-cn-1.dnspro.icu
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: sh-cn-1.dnspro.icu
+    path: /iso
+- alterId: 64
+  cipher: auto
+  name: 40|🇸🇬SG-202.79.172.53-1637
+  network: ws
+  port: 443
+  server: 202.79.172.53
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 30216206-14b7-40e7-995d-61c1219ba584
+  ws-opts:
+    headers:
+      Host: 202.79.172.53
+    path: /path/220128071100
+- alterId: 0
+  cipher: auto
+  name: 40|🇸🇬SG-143.198.219.182-1653
+  network: ws
+  port: 80
+  server: 143.198.219.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606
+  ws-opts:
+    headers:
+      Host: 143.198.219.182
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 40|🇸🇬SG-18.143.123.35-1726
+  network: ws
+  port: 80
+  server: 18.143.123.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
+  ws-opts:
+    headers:
+      Host: 18.143.123.35
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 40|🇸🇬SG-15.235.184.36-2431
+  network: ws
+  port: 80
+  server: 15.235.184.36
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7ce525f5-3a9b-4627-ae0e-3ca0b57519e3
+  ws-opts:
+    headers:
+      Host: 15.235.184.36
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 40|🇸🇬SG-139.99.61.154-2436
+  network: ws
+  port: 80
+  server: 139.99.61.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6a620223-84f8-40f4-b6ba-ed6abfe4e4f2
+  ws-opts:
+    headers:
+      Host: 139.99.61.154
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 40|🇸🇬SG-109.123.237.41-2463
+  network: ws
+  port: 80
+  server: 109.123.237.41
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: 109.123.237.41
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 40|🇸🇬SG-109.123.237.41-2625
+  network: ws
+  port: 80
+  server: 109.123.237.41
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: 109.123.237.41
+    path: /fastssh
+- alterId: 0
+  cipher: auto
+  name: 40|🇸🇬SG-15.235.192.196-2717
+  network: ws
+  port: 80
+  server: 15.235.192.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3701ded3-09ba-4154-970d-a9f4a090a382
+  ws-opts:
+    headers:
+      Host: 15.235.192.196
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 40|🇸🇬SG-157.230.36.235-2718
+  network: ws
+  port: 80
+  server: 157.230.36.235
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
+  ws-opts:
+    headers:
+      Host: 157.230.36.235
+    path: /graphql
+- name: 40|🇸🇬SG-172.104.51.247-5480
+  password: affae2e0-e84b-11ec-b09f-1239d0255272
+  port: 443
+  server: trojan1.udpgw.com
+  type: trojan
+- name: 40|🇸🇬SG-18.140.67.76-5483
+  password: iyinglong
+  port: 443
+  server: 18.140.67.76
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 40|🇸🇬SG-8.219.123.35-7078
+  network: ws
+  port: 80
+  server: 8.219.123.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
+  ws-opts:
+    headers:
+      Host: 8.219.123.35
+    path: /2TokGE9A/
+- name: 40|🇸🇬SG-15.235.197.4-7710
+  password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
+  port: 80
+  server: 15.235.197.4
+  sni: 15.235.197.4
+  type: trojan
+- name: 40|🇸🇬SG-15.235.197.4-7712
+  password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
+  port: 80
+  server: 15.235.197.4
+  sni: getandroid.com
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 40|🇸🇬SG-118.107.46.173-7810
+  network: ws
+  port: 443
+  server: 118.107.46.173
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: 118.107.46.173
+    path: /path/080712342310
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 48|🇸🇬 新加坡 | SGP
+  network: tcp
+  port: 29108
+  reality-opts:
+    public-key: 8U49WGFrxuL8I2Wxwgk_0tT22keJk0M8pZhTzqup5i0
+    short-id: 9e3762ed
+  server: fwee.gr-rhwe.gre.theghyngtzeriver.com
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 48|🇸🇬 新加坡 | SGP 2
+  network: tcp
+  port: 29107
+  reality-opts:
+    public-key: se8ho6j2sspPTPB-6I1LhdjQ2aREWthe_9Hq5TIohSY
+    short-id: 578aaf28bf
+  server: fwee.gr-rhwe.gre.theghyngtzeriver.com
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 48|🇸🇬 新加坡 | SGP 3
+  network: tcp
+  port: 29106
+  reality-opts:
+    public-key: DMboRHoaI6hfW20yLvBRcVHB5puQZ4uoBAhdFX-nRn8
+    short-id: 65e382c5
+  server: fwee.gr-rhwe.gre.theghyngtzeriver.com
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
+- client-fingerprint: random
+  name: 48|🇸🇬 新加坡 | SGP 5
+  network: ws
+  port: 443
+  server: freev2.cloudflare.182682.xyz
+  servername: do-sgp1.xhs152.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: e30a03ae-bae9-444d-ba48-2ac641c42db7
+  ws-opts:
+    headers:
+      Host: do-sgp1.xhs152.shop
+    path: /announcement?ed=2048
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 48|🇸🇬 新加坡 | SGP 8
+  network: tcp
+  port: 29101
+  reality-opts:
+    public-key: OYarDZw0CcRcK-hEqvfYNckZUJycJ1_5JeuuOgDnXn8
+    short-id: 8f
+  server: fwee.gr-rhwe.gre.theghyngtzeriver.com
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 48|🇸🇬 新加坡 | SGP 9
+  network: tcp
+  port: 29105
+  reality-opts:
+    public-key: mGcOI3VknJRcE_7rZdlk8TO3yTDg0ePEvSCLZQxP7jI
+    short-id: '02'
+  server: fwee.gr-rhwe.gre.theghyngtzeriver.com
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 48|🇸🇬 新加坡 | SGP 10
+  network: tcp
+  port: 29104
+  reality-opts:
+    public-key: w2LMKUzimtrBHMpmsYjGbuB4I7PunVSTew0RPyoCfT0
+    short-id: 49e9b7ed8f05
+  server: fwee.gr-rhwe.gre.theghyngtzeriver.com
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 48|🇸🇬 新加坡 | SGP 11
+  network: tcp
+  port: 29102
+  reality-opts:
+    public-key: Bi4Kdqs4OvUZ9AGNaky_CHMg2fQNOYL3_uQFz5RerBw
+    short-id: '32'
+  server: fwee.gr-rhwe.gre.theghyngtzeriver.com
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 48|🇸🇬 新加坡 | SGP 12
+  network: tcp
+  port: 29103
+  reality-opts:
+    public-key: x24RGYToJ-fSX9PVdMM0_xdDEdE5Nc-PJj9bjyKPnio
+    short-id: '2954'
+  server: fwee.gr-rhwe.gre.theghyngtzeriver.com
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 48|🇸🇬 新加坡 | SGP 14
+  network: tcp
+  port: 20859
+  reality-opts:
+    public-key: y1neNdTfDZJDNmNAsexkDXyd8plDxbRr7TH5RBiAJA8
+    short-id: cc7a57d36b14c736
+  server: 47.128.81.182
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dc513ed7-87d0-4309-947a-30b3f89a51c6
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 48|🇸🇬 新加坡 | SGP 15
+  network: tcp
+  port: 29109
+  reality-opts:
+    public-key: SACxzgT8JfhtQGPIPqJQIBH3IXshQhpEXVyn6oflPT8
+    short-id: fc45cca5e624
+  server: fwee.gr-rhwe.gre.theghyngtzeriver.com
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
+- name: 50|🇸🇬+SG+新加坡+51
+  network: ws
+  port: 443
+  server: 13.250.131.37
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 50|🇸🇬+SG+新加坡+18
+  network: ws
+  port: 443
+  server: 27.50.48.222
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- client-fingerprint: random
+  name: 50|TG@ZDYZ2 -SG-Singapore2
+  network: ws
+  port: 443
+  server: 13.250.131.37
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2

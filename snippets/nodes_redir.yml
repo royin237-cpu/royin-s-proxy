@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 31|🇺🇸_US_美国->🇳_IN__1
+  name: 33|🇺🇸_US_美国->🇳_IN__1
   network: ws
   port: 80
   server: 104.17.18.26
@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 31|🇺🇸_US_美国->🇮🇳_IN_印度_2
+  name: 33|🇺🇸_US_美国->🇮🇳_IN_印度_2
   network: ws
   port: 80
   server: 104.26.8.44
@@ -29,29 +29,9 @@ proxies:
       Host: 104.26.8.44
       host: a.109420.xyz
     path: /
-- alterId: 2
-  cipher: auto
-  name: 40|🇨🇳_CN_中国->🇫🇷_FR_法国
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: '40|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - grpc-opts:
     grpc-service-name: lK1wclmJRbMxj4FxIzvwxUDoX
-  name: 47|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+  name: 50|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
   network: grpc
   password: 4db45bb4-dcca-4d37-a639-cb55213ee406
   port: 2096

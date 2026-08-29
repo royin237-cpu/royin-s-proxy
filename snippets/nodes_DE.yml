@@ -1,5 +1,5 @@
 proxies:
-- name: 16|🇩🇪 DE 10 → tg@nicevpn123
+- name: 17|🇩🇪 DE 10 → tg@nicevpn123
   password: 8ea03cb9-e073-4904-8081-f43cb43fddac
   port: 443
   server: de-full.privateip.net
@@ -8,7 +8,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 16|🇩🇪 DE 16 → tg@nicevpn123
+  name: 17|🇩🇪 DE 16 → tg@nicevpn123
   network: ws
   port: 80
   server: 92.223.124.36
@@ -21,14 +21,14 @@ proxies:
     headers:
       Host: 92.223.124.36
     path: /@forwardv2ray
-- name: 16|🇩🇪 DE 17 → tg@nicevpn123
+- name: 17|🇩🇪 DE 17 → tg@nicevpn123
   password: ea630804-4d5d-4180-a464-a360e3793dc2
   port: 443
   server: de-full.privateip.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 16|🇩🇪 DE 23 → tg@nicevpn123
+- name: 17|🇩🇪 DE 23 → tg@nicevpn123
   password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
   port: 443
   server: 194.195.123.173
@@ -37,7 +37,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 16|🇩🇪 DE 25 → tg@nicevpn123
+  name: 17|🇩🇪 DE 25 → tg@nicevpn123
   network: ws
   port: 443
   server: de-full.privateip.net
@@ -52,7 +52,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 16|🇩🇪 DE 26 → tg@nicevpn123
+  name: 17|🇩🇪 DE 26 → tg@nicevpn123
   network: ws
   port: 443
   server: fr-full.privateip.net
@@ -65,14 +65,14 @@ proxies:
     headers:
       Host: fr-full.privateip.net
     path: /RACEVPN
-- name: 16|🇩🇪 DE 3 → tg@nicevpn123
+- name: 17|🇩🇪 DE 3 → tg@nicevpn123
   password: 0fe4bbdb-2854-4cc5-986c-f62dbb900bc5
   port: 443
   server: 141.94.115.231
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 16|🇩🇪 DE 35 → tg@nicevpn123
+- name: 17|🇩🇪 DE 35 → tg@nicevpn123
   password: 0fe4bbdb-2854-4cc5-986c-f62dbb900bc5
   port: 443
   server: fr-full.privateip.net
@@ -81,7 +81,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 16|🇩🇪 DE 37 → tg@nicevpn123
+  name: 17|🇩🇪 DE 37 → tg@nicevpn123
   network: ws
   port: 443
   server: fr-full.privateip.net
@@ -96,7 +96,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 16|🇩🇪 DE 42 → tg@nicevpn123
+  name: 17|🇩🇪 DE 42 → tg@nicevpn123
   network: ws
   port: 443
   server: 185.135.9.208
@@ -111,7 +111,7 @@ proxies:
     path: /nina.bond/linkvws
 - alterId: 0
   cipher: auto
-  name: 16|🇩🇪 DE 43 → tg@nicevpn123
+  name: 17|🇩🇪 DE 43 → tg@nicevpn123
   network: ws
   port: 443
   server: de-full.privateip.net
@@ -124,7 +124,7 @@ proxies:
     headers:
       Host: de-full.privateip.net
     path: /RACEVPN
-- name: 16|🇩🇪 DE 5 → tg@nicevpn123
+- name: 17|🇩🇪 DE 5 → tg@nicevpn123
   password: c55c7930-858b-45f5-9ac3-d66b805a4569
   port: 443
   server: fr-full.privateip.net
@@ -133,7 +133,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 16|🇩🇪 DE 6 → tg@nicevpn123
+  name: 17|🇩🇪 DE 6 → tg@nicevpn123
   network: ws
   port: 443
   server: 185.135.9.208
@@ -148,7 +148,7 @@ proxies:
     path: /kellie.makeup/linkvws
 - alterId: 2
   cipher: auto
-  name: 21|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
+  name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
   port: 30833
   server: v33.hdacd.com
   skip-cert-verify: false
@@ -159,7 +159,15 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '37,38|🇩🇪DE-172.238.96.215-0269 #1'
+  name: 27|🇩🇪 Germany [GH:barry-far/V2ray...
+  port: 180
+  server: 82.198.246.250
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '39,40|🇩🇪DE-172.238.96.215-0269 #1'
   network: ws
   port: 2053
   server: 172.238.96.215
@@ -173,7 +181,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-91.195.240.12-0462
+  name: 40|🇩🇪DE-91.195.240.12-0462
   network: ws
   port: 443
   server: sgp.kapok.buzz
@@ -187,7 +195,7 @@ proxies:
     path: /4befdd8a6/
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-176.65.140.210-0579
+  name: 40|🇩🇪DE-176.65.140.210-0579
   network: ws
   port: 28267
   server: 176.65.140.210
@@ -201,7 +209,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-176.65.140.210-0580
+  name: 40|🇩🇪DE-176.65.140.210-0580
   network: ws
   port: 23981
   server: 176.65.140.210
@@ -215,7 +223,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-91.195.240.94-0961
+  name: 40|🇩🇪DE-91.195.240.94-0961
   network: ws
   port: 443
   server: in-full.privateip.net
@@ -229,7 +237,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-157.90.20.18-1024
+  name: 40|🇩🇪DE-157.90.20.18-1024
   network: http
   port: 443
   server: 157.90.20.18
@@ -239,7 +247,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-94.130.25.155-1026
+  name: 40|🇩🇪DE-94.130.25.155-1026
   network: http
   port: 443
   server: 94.130.25.155
@@ -249,7 +257,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-167.235.136.155-1027
+  name: 40|🇩🇪DE-167.235.136.155-1027
   network: http
   port: 443
   server: 167.235.136.155
@@ -259,7 +267,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-94.130.184.57-3076
+  name: 40|🇩🇪DE-94.130.184.57-3076
   network: ws
   port: 80
   server: 94.130.184.57
@@ -273,7 +281,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-162.55.174.135-3176
+  name: 40|🇩🇪DE-162.55.174.135-3176
   network: ws
   port: 80
   server: 162.55.174.135
@@ -287,7 +295,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-162.55.62.193-3136
+  name: 40|🇩🇪DE-162.55.62.193-3136
   network: ws
   port: 80
   server: 162.55.62.193
@@ -301,7 +309,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-5.75.173.189-3156
+  name: 40|🇩🇪DE-5.75.173.189-3156
   network: ws
   port: 80
   server: 5.75.173.189
@@ -315,7 +323,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-78.46.129.226-3192
+  name: 40|🇩🇪DE-78.46.129.226-3192
   network: ws
   port: 80
   server: 78.46.129.226
@@ -329,7 +337,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-167.235.78.112-3234
+  name: 40|🇩🇪DE-167.235.78.112-3234
   network: ws
   port: 80
   server: 167.235.78.112
@@ -343,7 +351,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 38|🇩🇪DE-188.40.132.107-4084
+  name: 40|🇩🇪DE-188.40.132.107-4084
   network: ws
   port: 80
   server: 188.40.132.107
@@ -356,7 +364,7 @@ proxies:
       Host: 188.40.132.107
     path: /p3573l6m92h1ham3q23t
 - cipher: chacha20-ietf
-  name: 38|8J%2BHrfCfh7BISy00My4xOTkuNjYu...
+  name: 40|8J%2BHrfCfh7BISy00My4xOTkuNjYu...
   obfs: plain
   obfs-param: ''
   password: Mv4e0QHWPwdbKiCF
@@ -366,7 +374,7 @@ proxies:
   server: show.bilibilicloud01.com
   type: ssr
 - cipher: chacha20-ietf
-  name: 38|8J%2BHr%2FCfh7VKUC0xOC4xODEuNz...
+  name: 40|8J%2BHr%2FCfh7VKUC0xOC4xODEuNz...
   obfs: plain
   obfs-param: ''
   password: Mv4e0QHWPwdbKiCF
@@ -376,7 +384,7 @@ proxies:
   server: show.bilibilicloud01.com
   type: ssr
 - cipher: chacha20-ietf
-  name: '38|8J%2BHr%2FCfh7VKUC0xOC4xODEuNz... #1'
+  name: '40|8J%2BHr%2FCfh7VKUC0xOC4xODEuNz... #1'
   obfs: plain
   obfs-param: ''
   password: Mv4e0QHWPwdbKiCF
@@ -387,7 +395,7 @@ proxies:
   type: ssr
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 38|🇩🇪DE-95.179.254.136-7053
+  name: 40|🇩🇪DE-95.179.254.136-7053
   network: grpc
   password: mainssh-ddoejfv14
   port: 443
@@ -396,14 +404,14 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 38|🇩🇪DE-95.179.246.122-7055
+  name: 40|🇩🇪DE-95.179.246.122-7055
   network: grpc
   password: mainssh-niwrhf87
   port: 443
   server: 95.179.246.122
   sni: getgrpc.mainssh.xyz
   type: trojan
-- name: 38|🇩🇪DE-209.250.236.93-7350
+- name: 40|🇩🇪DE-209.250.236.93-7350
   network: grpc
   password: Cl150MQWlG
   port: 443
@@ -412,7 +420,7 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 38|🇩🇪DE-108.61.171.167-7812
+  name: 40|🇩🇪DE-108.61.171.167-7812
   network: grpc
   password: mainssh-niwrhf87
   port: 443
