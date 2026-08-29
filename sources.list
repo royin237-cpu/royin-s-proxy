@@ -113,3 +113,13 @@ https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.
 https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml
 # ts-sf/fly
 https://raw.githubusercontent.com/ts-sf/fly/main/clash
+
+# ── 新增源（2026-08-30 添加，均活跃更新） ──
+# snakem982/proxypool - 每天 4 次自动更新，支持 ss/vless/hysteria2/vmess/trojan/tuic 等
+https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml
+# awesome-vpn/awesome-vpn - 6.2k stars，每日更新 vmess/vless/trojan/ss
+https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml
+# Barabama/FreeNodes - AI 驱动爬虫，每日自动爬取+合并多站点节点
+https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/merged.yaml
+# zhuhaiuk/free-nodes - 每小时自动更新，Clash/Mihomo YAML
+https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
