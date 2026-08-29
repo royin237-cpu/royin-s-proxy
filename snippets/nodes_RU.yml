@@ -6,13 +6,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 16|🇷🇺 RU 13 → tg@nicevpn123
-  password: U6qnYRhfyDmn8sgn
-  port: 9041
-  server: 5.188.181.201
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 16|🇷🇺 RU 14 → tg@nicevpn123
@@ -28,13 +21,6 @@ proxies:
     headers:
       Host: nl-full.privateip.net
     path: /RACEVPN
-- cipher: aes-256-cfb
-  name: 16|🇷🇺 RU 16 → tg@nicevpn123
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
-  server: 5.188.181.201
-  type: ss
-  udp: true
 - name: 16|🇷🇺 RU 17 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -144,13 +130,6 @@ proxies:
     headers:
       Host: ab-test-frosty-flower-e7fb.tariroc864.workers.dev
     path: /hms02.fxiaomi.sbs/link
-- cipher: aes-256-cfb
-  name: 16|🇷🇺 RU 43 → tg@nicevpn123
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 5.188.181.201
-  type: ss
-  udp: true
 - name: 16|🇷🇺 RU 45 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -305,60 +284,6 @@ proxies:
   udp: true
   ws-opts:
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
-- alterId: 0
-  cipher: auto
-  name: 25|俄罗斯 002
-  network: tcp
-  port: 8080
-  server: 213.156.152.63
-  skip-cert-verify: true
-  type: vmess
-  uuid: d9681916-5a85-44c8-86a2-9fcae87cf850
-- alterId: 0
-  cipher: auto
-  name: 25,38|🇬🇧GB-46.175.135.9-0356
-  network: ws
-  port: 443
-  server: lu1.gogogoo.cyou
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-  ws-opts:
-    headers:
-      Host: lu1.gogogoo.cyou
-    path: /go
-- alterId: 0
-  cipher: auto
-  name: 25,38|🇬🇧GB-46.175.135.9-0942
-  network: ws
-  port: 443
-  server: haxus3.janechiu.icu
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 0df258cb-a376-4b8e-a378-a556a4658aeb
-  ws-opts:
-    headers:
-      Host: haxus3.janechiu.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 25,38|🇬🇧GB-46.175.135.9-1045
-  network: ws
-  port: 443
-  server: us02.gogogoo.cyou
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-  ws-opts:
-    headers:
-      Host: us02.gogogoo.cyou
-    path: /go
 - alterId: 0
   cipher: auto
   name: '37,38|🇷🇺RU-37.220.161.247-0187 #1'

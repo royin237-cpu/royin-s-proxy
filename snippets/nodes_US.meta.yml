@@ -1,32 +1,4 @@
 proxies:
-- name: 16|🇺🇸 US 1052 → tg@nicevpn123
-  password: wkmY1R4EcP
-  port: 443
-  server: 216.128.147.13
-  skip-cert-verify: true
-  sni: z-v2-003274.kailib.com
-  type: trojan
-  udp: true
-- name: '17|美国+CloudFlare节点 #6'
-  network: ws
-  port: 80
-  server: 162.159.0.53
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  tls: false
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- auth: 7c5566a7-4b55-4659-975f-06507d32fd3f
-  name: 21|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_75f37241
-  password: 7c5566a7-4b55-4659-975f-06507d32fd3f
-  port: 443
-  server: ltu-01.node.lumixnet.com
-  skip-cert-verify: true
-  sni: ltu-01.node.lumixnet.com
-  type: hysteria2
 - client-fingerprint: chrome
   name: 21|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_73594d72
   network: ws
@@ -40,26 +12,6 @@ proxies:
     headers:
       Host: web-jornttsa.pages.dev
     path: /
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 21|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_6116f2da
-  network: tcp
-  port: 43595
-  reality-opts:
-    public-key: waNzNRIL_3TaF3UfgeAy1M5r8YVUeOA0nx3jPiXYZSE
-    short-id: e482c0320674c651
-  server: 45.33.62.166
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2642f590-2bce-4031-8f93-7eed983621f5
-  xudp: true
 - name: 21|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_a8bb49da
   network: ws
   password: 7e7d81db-779d-4216-9b94-7a6a09874549
@@ -71,124 +23,6 @@ proxies:
     headers:
       Host: huojian.usfaster.top
     path: /images
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 21|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_6a8964d0
-  network: tcp
-  port: 27694
-  reality-opts:
-    public-key: H3Dwj3Qq5ixvkqa_DoXGnwawad76HCTNh4mHMIU_01M
-    short-id: d857077ac225
-  server: 216.167.27.162
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2de6ff95-84ca-45c9-99f6-9dbe3427cc69
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 21|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_1e884118
-  network: tcp
-  port: 40483
-  reality-opts:
-    public-key: 2eLWupp7hJlNMNOqjwxgVyIEx3rmVMa9h5AdQOpTCGk
-    short-id: 3af649036e200b
-  server: 216.167.27.205
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 20414fb9-ccc8-4aaf-bb89-a62c3fb213cb
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: '25,37,38|🏁RELAY-172.67.162.80-0143 #1'
-  network: ws
-  port: 443
-  server: rush-6it6b.teeopp.quest
-  servername: rush-6it6b.teeopp.quest
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: rush-6it6b.teeopp.quest
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 25|美国 053
-  network: tcp
-  port: 443
-  server: 165.140.216.142
-  skip-cert-verify: true
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: 25|美国 056
-  network: tcp
-  port: 443
-  server: 165.140.216.141
-  skip-cert-verify: true
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- alterId: 0
-  cipher: auto
-  name: 25|美国 062
-  network: tcp
-  port: 22324
-  server: 67.220.72.237
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 25|美国 063
-  network: tcp
-  port: 18000
-  server: 67.220.85.46
-  skip-cert-verify: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 25|美国 064
-  network: tcp
-  port: 18000
-  server: 67.220.95.3
-  skip-cert-verify: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 25|美国 068
-  network: tcp
-  port: 18000
-  server: 134.195.196.211
-  skip-cert-verify: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 25|美国 073
-  network: tcp
-  port: 18000
-  server: 38.110.1.246
-  skip-cert-verify: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 48|US_speednode_0136
@@ -209,21 +43,6 @@ proxies:
   name: 48|US_speednode_0137
   network: tcp
   port: 39399
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 155.117.199.13
-  servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 48|US_speednode_0142
-  network: tcp
-  port: 39211
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: bc8e3658db7d1323

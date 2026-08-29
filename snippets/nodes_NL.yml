@@ -1,11 +1,4 @@
 proxies:
-- cipher: aes-128-cfb
-  name: 16|🇳🇱 NL 2 → tg@nicevpn123
-  password: shadowsocks
-  port: 443
-  server: 109.201.152.181
-  type: ss
-  udp: true
 - name: 16|🇳🇱 NL 9 → tg@nicevpn123
   password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
   port: 443

@@ -1,11 +1,4 @@
 proxies:
-- cipher: aes-128-cfb
-  name: 16|🇳🇱 NL 2 → tg@nicevpn123
-  password: shadowsocks
-  port: 443
-  server: 109.201.152.181
-  type: ss
-  udp: true
 - name: 16|🇳🇱 NL 9 → tg@nicevpn123
   password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
   port: 443
@@ -13,35 +6,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_3e8f7fa3
-  network: tcp
-  port: 62145
-  server: 84.235.163.101
-  skip-cert-verify: true
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- encryption: none
-  name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_0ed40042
-  network: tcp
-  port: 62145
-  server: 158.178.145.147
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 21|A🟢🇳🇱[🤖✨]_dokng.com_df2231b8
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: VutAa_22WFsG2kth-PT-Ry4ZxhwtJT930N6DGT5JgF8
-    short-id: d42179376be1a110
-  server: vs-nl10.vibesignal.space
-  servername: cdnjs.cloudflare.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d2aeb078-90db-4f90-b334-623bcbea8d31
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -59,9 +23,3 @@ proxies:
     headers:
       Host: rotterdam.korgivps.ru
     path: /api/user
-- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_056514bc
-  network: tcp
-  port: 62145
-  server: 152.70.50.74
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a

@@ -1,20 +1,20 @@
 {
-  "total": 88,
+  "total": 27,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 3
+      "count": 39
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 19
+      "count": 4
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 2
+      "count": 1
     },
     "HK": {
       "flag": "🇭🇰",
@@ -24,17 +24,17 @@
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 2
+      "count": 1
     },
     "CA": {
       "flag": "🇦🇨",
       "name": "加拿大",
-      "count": 5
+      "count": 1
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 3
+      "count": 1
     },
     "SG": {
       "flag": "🇸🇬",
@@ -44,27 +44,27 @@
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 4
+      "count": 1
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 2
+      "count": 11
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 57
+      "count": 35
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 2
+      "count": 1
     },
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 2
+      "count": 16
     },
     "EE": {
       "flag": "🇪🇪",
@@ -72,8 +72,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-29 22:04",
-  "server_time": "2026-08-29 22:04:58",
+  "update_time": "2026-08-29 23:13",
+  "server_time": "2026-08-29 23:14:03",
   "sources": [
     {
       "index": 0,
@@ -203,7 +203,7 @@
     {
       "index": 25,
       "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
-      "nodes": 1411
+      "nodes": 245
     },
     {
       "index": 26,

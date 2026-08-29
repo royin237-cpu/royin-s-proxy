@@ -1,19 +1,4 @@
 proxies:
-- name: 25|罗马尼亚 004
-  network: ws
-  port: 2053
-  server: 188.241.241.37
-  servername: forfreeuse.rtqa.ru
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.rtqa.ru
-    path: /
 - alterId: 64
   cipher: auto
   name: 25,38|🇧🇪BE-37.120.236.251-0725
