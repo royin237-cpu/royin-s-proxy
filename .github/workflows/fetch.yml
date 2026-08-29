@@ -58,8 +58,8 @@ jobs:
         MIHOMO_BIN: ${{ github.workspace }}/mihomo
         # 多端点交叉验证：依次尝试，任一通过即判定存活
         ALIVE_TEST_URLS: "http://cp.cloudflare.com/generate_204,http://www.gstatic.com/generate_204,http://www.msftconnecttest.com/connecttest.txt"
-        ALIVE_TIMEOUT_MS: '5000'
-        ALIVE_MAX_DELAY_MS: '5000'
+        ALIVE_TIMEOUT_MS: '3500'
+        ALIVE_MAX_DELAY_MS: '3000'
         ALIVE_WORKERS: '128'
         ALIVE_RETRY: '1'
         ALIVE_MIN_RATIO: '0.001'

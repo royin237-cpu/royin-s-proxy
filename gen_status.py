@@ -88,10 +88,26 @@ def parse_sources():
     return sources, total
 
 
+def count_alive_nodes():
+    """统计 check_alive 过滤后的实际节点数（从 list.meta.yml 读取）"""
+    meta_path = os.path.join(BASE_DIR, "list.meta.yml")
+    if not os.path.exists(meta_path):
+        return 0
+    count = 0
+    with open(meta_path, "r", encoding="utf-8") as f:
+        for line in f:
+            if line.strip().startswith("- name:"):
+                count += 1
+    return count
+
+
 def main():
     update_time = parse_update_time()
     regions = parse_regions()
-    sources, total = parse_sources()
+    sources, csv_total = parse_sources()
+    # 优先使用 check_alive 过滤后的实际节点数
+    alive_total = count_alive_nodes()
+    total = alive_total if alive_total > 0 else csv_total
 
     data = {
         "total": total,
@@ -104,7 +120,7 @@ def main():
     os.makedirs(WEB_DIR, exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"[gen_status] web/status.json generated: {total} nodes, {len(sources)} sources, {len(regions)} regions")
+    print(f"[gen_status] web/status.json generated: {total} alive nodes (csv_total={csv_total}), {len(sources)} sources, {len(regions)} regions")
 
 
 if __name__ == "__main__":
