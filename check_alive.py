@@ -70,19 +70,24 @@ def start_mihomo(proxies, binary):
 
 
 def test_proxy(base, name):
+    """严格模式：所有测速端点都必须通过（延迟>0 且 <= 上限）。
+    任一端点失败/超时/龟速 → 该节点判定不可用。
+    返回值为各端点中最差延迟。"""
+    worst = 0
     for test_url in TEST_URLS:
         endpoint = f"{base}/proxies/{quote(name, safe='')}/delay"
         endpoint += f"?url={quote(test_url, safe='')}&timeout={TIMEOUT_MS}"
         try:
             result = api_get(endpoint, TIMEOUT_MS / 1000 + 2)
             delay = result.get("delay")
-            if isinstance(delay, int) and delay > 0:
-                if delay > MAX_DELAY_MS:
-                    return None  # 存活但龟速，视为不可用
-                return delay
         except Exception:
-            continue
-    return None
+            return None  # 任一端点不可达，直接剔除
+        if not (isinstance(delay, int) and delay > 0):
+            return None
+        if delay > MAX_DELAY_MS:
+            return None  # 龟速剔除
+        worst = max(worst, delay)
+    return worst if worst > 0 else None
 
 
 def measure(binary, proxies):
@@ -250,13 +255,23 @@ def main():
     if not proxies:
         raise SystemExit("no proxies left after junk-type filtering")
 
-    merged = {}
+    # 多轮测活取交集：所有轮都通过的节点才算存活（消除偶发抖动）
+    rounds = []
     for _ in range(RETRY + 1):
-        merged.update(measure(binary, proxies))
-        if merged:
-            break
-    if not merged:
-        raise SystemExit("alive check found 0 usable proxies, keeping unfiltered")
+        res = measure(binary, proxies)
+        if res:
+            rounds.append(res)
+    if not rounds:
+        raise SystemExit("alive check found 0 usable proxies in all rounds, keeping unfiltered")
+
+    alive_names = set(rounds[0])
+    for res in rounds[1:]:
+        alive_names &= set(res)
+    if not alive_names:
+        # 交集为空（极罕见），退回最严格的一轮
+        alive_names = min((set(r) for r in rounds), key=len)
+    merged = {n: rounds[-1].get(n, 0) for n in alive_names}
+    print(f"[alive] rounds={[len(r) for r in rounds]}, intersection={len(merged)}", flush=True)
 
     if len(merged) / len(proxies) < MIN_ALIVE_RATIO:
         print(f"[alive] WARNING: only {len(merged)}/{len(proxies)} alive "
