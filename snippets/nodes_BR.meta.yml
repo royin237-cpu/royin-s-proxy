@@ -1,14 +1,532 @@
 proxies:
-- name: 21|C🟠🇧🇷[📺🎪]_dokng.com_67a45bda
+- alterId: 0
+  cipher: auto
+  name: '25,37,38|🏁RELAY-188.114.97.110-0242 #1'
   network: ws
-  port: 2200
-  server: 201.24.49.117
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 2e228435-33a0-47d1-a1d8-9a34b5a03c45
+  port: 443
+  server: 188.114.97.110
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
   ws-opts:
     headers:
-      Host: rzd.ru
-    path: /v1
+      Host: v2fly.samrt.website
+    path: /
+- client-fingerprint: chrome
+  name: 25|巴西 002
+  network: ws
+  port: 8443
+  server: 188.114.99.160
+  servername: matoride.adaspoloandco.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0525f54a-568b-4f0b-89e5-c2666e800d83
+  ws-opts:
+    headers:
+      Host: matoride.adaspoloandco.com
+    path: /downloader
+- name: 25|巴西 003
+  network: ws
+  port: 443
+  server: 188.114.97.6
+  servername: dfsuporte.garena.com.ex33r.eu.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1043634e-8d9d-4736-83fa-f14ddc9d464c
+  ws-opts:
+    headers:
+      Host: dfsuporte.garena.com.ex33r.eu.cc
+    path: /id-amz
+- client-fingerprint: chrome
+  name: 25|巴西 005
+  network: xhttp
+  port: 443
+  server: 188.114.96.6
+  servername: cdn.tinfary.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 252210e6-83b2-420e-962c-c11a1367bf16
+- name: 25|巴西 006
+  network: ws
+  port: 2095
+  server: 188.114.97.6
+  servername: daRk-CHOICEzJa8lf7vEO.SPORTLANd.cOmPany.
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 371dd7e4-c3ff-42de-aebc-0ab3bc62fb2d
+  ws-opts:
+    headers:
+      Host: daRk-CHOICEzJa8lf7vEO.SPORTLANd.cOmPany.
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 25|巴西 007
+  network: tcp
+  port: 8443
+  server: 152.233.35.228
+  servername: de1.fromblancwithlove.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 25|巴西 008
+  network: ws
+  port: 443
+  server: 188.114.96.3
+  servername: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 396c904b-4b62-4334-b793-ee25fc0c61cc
+  ws-opts:
+    headers:
+      Host: 8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev
+    path: /eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+- name: 25|巴西 009
+  network: ws
+  port: 2086
+  server: 188.114.97.6
+  servername: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+    path: /
+- name: 25|巴西 010
+  network: ws
+  port: 80
+  server: 188.114.98.0
+  servername: worker3.gahekif304.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 492465ab-3855-46f2-bac3-a2cd19074a87
+  ws-opts:
+    headers:
+      Host: worker3.gahekif304.workers.dev
+    path: /NWpadfduJl5DcIDB
+- client-fingerprint: chrome
+  name: 25|巴西 011
+  network: ws
+  port: 443
+  server: 188.114.97.3
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- name: 25|巴西 012
+  network: ws
+  port: 80
+  server: 188.114.96.3
+  servername: cxrolvpn.vipserver4.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d6d8e9b-0738-43c6-994f-ab475a7b3381
+  ws-opts:
+    headers:
+      Host: cxrolvpn.vipserver4.workers.dev
+    path: /c6L2QcfPLGJiqj1c?ed=2560
+- name: 25|巴西 013
+  network: ws
+  port: 80
+  server: 188.114.97.3
+  servername: cxrolvpn.vipserver4.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d6d8e9b-0738-43c6-994f-ab475a7b3381
+  ws-opts:
+    headers:
+      Host: cxrolvpn.vipserver4.workers.dev
+    path: /I7f6VOnkgtdCosoK?ed=2560
+- name: 25|巴西 014
+  network: ws
+  port: 2082
+  server: 188.114.96.66
+  servername: war.does.not.determine.who.is.right_only.who.is.left.2.0.2.6.cEphAlon.BeauTy
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5859e7c5-c61a-4d16-b56e-8fc6321ba59a
+  ws-opts:
+    headers:
+      Host: war.does.not.determine.who.is.right_only.who.is.left.2.0.2.6.cEphAlon.BeauTy
+    path: /
+- name: 25|巴西 016
+  network: ws
+  port: 2087
+  server: 188.114.97.110
+  servername: wzknb.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  ws-opts:
+    headers:
+      Host: wzknb.pages.dev
+    path: /proxyip=179.255.104.87,179.255.116.198,179.255.101.56,142.248.218.6,142.248.218.4,45.76.79.239,179.255.152.163,208.68.180.240fp=chrome
+- client-fingerprint: chrome
+  name: 25|巴西 017
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: 5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 829658bf-03c4-4c28-81e9-dd6ea141b2d0
+  ws-opts:
+    headers:
+      Host: 5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net
+    path: /?ed=2560
+- name: 25|巴西 018
+  network: grpc
+  port: 2096
+  server: 188.114.97.6
+  servername: emotioNAl-haPPInEsswO85E1O13D.oNeeAt.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83a589e2-3680-4bc2-a4e6-ed8f2d2452b4
+- client-fingerprint: chrome
+  name: 25|巴西 019
+  network: xhttp
+  port: 443
+  server: 188.114.97.8
+  servername: allineedradiohead.dpdns.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 25|巴西 020
+  network: ws
+  port: 8443
+  server: 188.114.97.3
+  servername: gosht.asve.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d137eefd-1d3e-487d-95b4-004fef7c602c
+  ws-opts:
+    headers:
+      Host: gosht.asve.ir
+    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048
+- name: 25|巴西 021
+  network: ws
+  port: 80
+  server: 188.114.97.6
+  servername: de.vpnbase.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  ws-opts:
+    headers:
+      Host: de.vpnbase.net
+    path: /http
+- alterId: 0
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.96.145-0601
+  network: ws
+  port: 80
+  server: 188.114.96.145
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com
+    path: /?BIA_TELEGRAM
+- alterId: 0
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.96.42-0602
+  network: ws
+  port: 80
+  server: 188.114.96.42
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com
+    path: /?BIA_TELEGRAM
+- alterId: 0
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.96.9-0603
+  network: ws
+  port: 80
+  server: 188.114.96.9
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com
+    path: /?BIA_TELEGRAM
+- alterId: 1
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.96.7-0754
+  network: ws
+  port: 443
+  server: 188.114.96.7
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: octavi.cfd
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.96.58-0755
+  network: ws
+  port: 443
+  server: 188.114.96.58
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ophelia.mom
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.98.0-0756
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: odelia.autos
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.97.1-0757
+  network: ws
+  port: 443
+  server: 22.vmessprotocol.telegram-vmessprotocol-channel.space
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: odelia.autos
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.97.7-0758
+  network: ws
+  port: 443
+  server: 188.114.97.7
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: waynn.makeup
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.96.2-0759
+  network: ws
+  port: 443
+  server: 188.114.96.2
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ophelia.mom
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.97.1-0760
+  network: ws
+  port: 443
+  server: 188.114.97.1
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: odelia.autos
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.96.3-0761
+  network: ws
+  port: 443
+  server: 188.114.96.3
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: oliv.beauty
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.97.18-0762
+  network: ws
+  port: 443
+  server: 188.114.97.18
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: odelia.autos
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.97.3-0763
+  network: ws
+  port: 443
+  server: 188.114.97.3
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: oliv.beauty
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.99.0-0764
+  network: ws
+  port: 443
+  server: 188.114.99.0
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ophelia.mom
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.99.9-0820
+  network: ws
+  port: 443
+  server: 188.114.99.9
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-opts:
+    headers:
+      Host: lg1.trump2023.us
+    path: /ECTCJ0DF
+- alterId: 0
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.99.10-0862
+  network: ws
+  port: 443
+  server: 188.114.99.10
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-opts:
+    headers:
+      Host: oplg1.zhujicn2.com
+    path: /5QNROSRV
+- alterId: 0
+  cipher: auto
+  name: 25,38|🏁RELAY-188.114.97.113-1129
+  network: ws
+  port: 443
+  server: 188.114.97.113
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  ws-opts:
+    headers:
+      Host: v2fly.samrt.website
+    path: /chcar

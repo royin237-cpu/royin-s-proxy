@@ -1,6 +1,26 @@
 proxies:
-- name: '37,38|🇦🇺AU-103.224.212.216-0269 #1'
+- alterId: 0
+  cipher: auto
+  name: '25,37,38|🇯🇵JP-140.83.57.20-0157 #1'
+  network: ws
+  port: 13118
+  server: 140.83.57.20
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  ws-opts:
+    headers:
+      Host: sg.11160321.de5.net
+    path: /
+- name: 38|🇦🇺AU-103.224.212.216-0282
   password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw
   port: 443
   server: scottie.golfland.club
+  type: trojan
+- name: 38|🇦🇺AU-87.121.33.162-0293
+  password: AE62539071
+  port: 443
+  server: together-dingo.rooster465.autos
   type: trojan

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '37,38|🇮🇳IN-152.67.8.205-0219 #1'
+  name: '37,38|🇮🇳IN-152.67.8.205-0187 #1'
   network: ws
   port: 80
   server: 152.67.8.205

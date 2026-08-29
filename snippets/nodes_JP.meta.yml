@@ -1,77 +1,183 @@
 proxies:
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 21|A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_93cdabfe
-  network: tcp
-  port: 443
+- alterId: 0
+  cipher: auto
+  name: 21,30|🇯🇵_JP_日本
+  network: http
+  port: 39618
+  server: 45.159.51.180
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 09d4921e-13e9-426f-8cd3-73556e8a0199
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 21|C🟠🇯🇵[🤖📺🎭🎪]_dokng.com_279665ce
+  network: grpc
+  port: 10033
   reality-opts:
-    public-key: jp4bv75imDovZ58AQZPGJwQidhqU5ikkCC147xOKwX8
-    short-id: 44713534120e5151
-  server: 103.76.85.49
-  servername: www.apple.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp3-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
-  uuid: ec13817e-790e-4eab-b287-0d94edd28750
-- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_97160f25
-  password: HOrViv
-  port: 28106
-  server: 209.248.32.116
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_81164327
+  network: tcp
+  port: 36024
+  reality-opts:
+    public-key: z1IzZjwLcymnYShSSGE6NkK10-S6aIGbe1_qQotmplU
+    short-id: d1d28c01d2c3c6
+  server: 3.112.129.179
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ad407b1-b8f3-4591-ae75-05cf4035e09e
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_b2a30493
+  network: tcp
+  port: 33486
+  reality-opts:
+    public-key: 0XefSfdaAV77RBJrVSVBIdRNUHUlaMGmFT5mX_Aw6G8
+    short-id: 1671781f157ac27e
+  server: 52.194.245.53
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: eddee2c9-fdf9-4b55-b8ac-3481a680b060
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_13a77f7d
+  network: tcp
+  port: 24620
+  reality-opts:
+    public-key: eZthMfn0kQJFNr_srk502fr8yUHMoHQ7Oh3v4_HfTBI
+    short-id: db2cb3b3c2dbb711
+  server: 13.231.7.104
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b969ef8f-7bdb-474f-9481-d8f3c5686fb8
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_06636cee
+  network: tcp
+  port: 48203
+  reality-opts:
+    public-key: nxC5EiVCdXMnvfRa1LoNUs21ZNS2DdP36gfHayvUXRU
+    short-id: 5b63c338f69077
+  server: 3.113.9.16
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5a9a8be-886e-4522-b11d-3edde88c9c8c
+  xudp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 21|C🟠🇯🇵[🎬🤖📺🎪]_dokng.com_2a3e13aa
+  network: grpc
+  port: 10032
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- alterId: 0
+  cipher: auto
+  name: 21,30|🇯🇵_JP_日本_1
+  network: ws
+  port: 16617
+  server: p4.cnb.linuxlh.xin
   skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_71027ffe
-  password: HOrViv
-  port: 28133
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-- name: 21|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_3db6efb4
-  password: HOrViv
-  port: 28126
-  server: 209.248.32.117
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_9f3d72b4
-  password: HOrViv
-  port: 28102
-  server: 209.248.32.117
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-- name: 21|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_1e768562
-  password: HOrViv
-  port: 28122
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_d7e7e8f1
-  password: HOrViv
-  port: 28104
-  server: 209.248.32.117
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_6226255c
-  password: HOrViv
-  port: 28110
-  server: 209.248.32.117
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-- name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_570bed90
-  password: HOrViv
-  port: 28105
-  server: 209.248.32.117
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-- name: 21|A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_20840051
-  password: 4kch6iOn
-  port: 443
-  server: cn13.somethingstranges.com
-  skip-cert-verify: true
-  sni: down413.mihoyo.yuanshen.com
-  type: anytls
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c
+  ws-opts:
+    headers:
+      Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 21|A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_48bb7270
+  network: tcp
+  packet-encoding: xudp
+  port: 55555
+  reality-opts:
+    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
+    short-id: af317506
+  server: uh-jp01.ziyoufly.xyz
+  servername: pypi.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4de520cf-ccee-4a18-ab5a-e66d969c7872
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 21|C🟠🇯🇵[📺]_dokng.com_41228966
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 38|🇯🇵JP-172.111.146.64-5250
+  network: ws
+  port: 80
+  server: 172.111.146.64
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  ws-opts:
+    headers:
+      Host: 172.111.146.64
+    path: /vmess/

@@ -1,69 +1,56 @@
 proxies:
-- client-fingerprint: chrome
-  name: 21|C🟠🇫🇷_dokng.com_2457ab68
-  network: ws
-  password: humanity
-  port: 443
-  server: 176.97.66.175
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- alterId: 0
-  cipher: auto
+- client-fingerprint: firefox
   encryption: none
-  name: 21|C🟠🇫🇷[🤖📺🎭🎪]_dokng.com_16aab438
-  network: ws
+  flow: xtls-rprx-vision
+  name: 21|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_0e80dd49
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: am8.levikogjgfdd.ir
-  servername: ssl.fastly.com
-  skip-cert-verify: false
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+  server: germany.superbuba.top
+  servername: germany.superbuba.top
   tls: true
   type: vless
+  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
+- name: 21|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 51133
+  server: ip4.934618.xyz
+  sni: ip4.934618.xyz
+  type: anytls
   udp: true
-  uuid: 238bc88c-6f47-4622-9d6f-cab2ed76f098
-  ws-opts:
-    headers:
-      Host: frenchji.global.ssl.fastly.net.
-    path: /
-- client-fingerprint: chrome
-  name: 21|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_747e829f
-  network: ws
-  port: 443
-  server: adminv2.jikecloud.cc
-  servername: adminv2.jikecloud.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d896043a-440a-4377-88db-2dac132bc176
-  ws-opts:
-    headers:
-      Host: adminv2.jikecloud.cc
-    path: /vless
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 21|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_71fcaef8
+- name: 21|C🟠🇫🇷_dokng.com_b82a343f
   network: ws
   password: humanity
-  port: 443
-  server: 104.18.15.230
-  sni: www.ignitelimit.com
+  port: 2053
+  server: 168.100.9.178
+  skip-cert-verify: true
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+      Host: www.calmlunch.com
+    path: /assignment
+- client-fingerprint: chrome
+  name: 21|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_deff8f28
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /assignment
 - alterId: 0
   cipher: auto
-  name: 38|🇫🇷FR-62.210.127.120-0588
+  name: 38|🇫🇷FR-62.210.127.120-0593
   network: ws
   port: 23388
   server: 62.210.127.120

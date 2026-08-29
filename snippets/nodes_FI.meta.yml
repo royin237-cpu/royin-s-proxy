@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 21|A🟢🇫🇮_dokng.com_86e89645
+  name: 21|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_86e89645
   network: tcp
   port: 443
   reality-opts:
@@ -15,15 +15,26 @@ proxies:
   udp: true
   uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
   xudp: true
-- client-fingerprint: ''
-  down: ''
-  name: 21|C🟠🇫🇮[🤖📺🎭🎪]_dokng.com_d13341fc
-  obfs: salamander
-  obfs-password: uw9b2qq5rx
-  password: 6aab8efdf13945829ae3699c342be406
+- auth: 901113fb-2ddd-4472-84bf-307de471f32f
+  name: 21|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_1750cdd0
+  password: 901113fb-2ddd-4472-84bf-307de471f32f
   port: 443
-  server: fiproxy1.lockdwn.com
-  skip-cert-verify: false
-  sni: fiproxy1.lockdwn.com
+  server: fi2.katanalink.net
+  skip-cert-verify: true
+  sni: fi2.katanalink.net
   type: hysteria2
-  up: ''
+- client-fingerprint: chrome
+  name: 21|D🔴🇫🇮_dokng.com_618ae302
+  network: ws
+  port: 443
+  server: 5.45.117.125
+  servername: freeuse.firta.ru
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: freeuse.firta.ru
+    path: /

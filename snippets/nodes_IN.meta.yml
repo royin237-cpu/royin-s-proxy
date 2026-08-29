@@ -1,24 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  name: 21|C🟠🇮🇳[🎞️✈️🔍]_dokng.com_2c846be9
-  network: ws
-  port: 443
-  server: cfd.url0.top
-  servername: in.520782.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  ws-opts:
-    headers:
-      Host: in.520782.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /cdn/packages/runtime-core.tar.gz
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: '37,38|🇮🇳IN-152.67.8.205-0219 #1'
+  name: '37,38|🇮🇳IN-152.67.8.205-0187 #1'
   network: ws
   port: 80
   server: 152.67.8.205

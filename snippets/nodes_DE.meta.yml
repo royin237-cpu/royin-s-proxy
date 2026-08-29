@@ -1,7 +1,30 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 21|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_7d526327
+  network: tcp
+  packet-encoding: xudp
+  port: 20995
+  reality-opts:
+    public-key: GqIZ3PiZBcvHMfXhk7BDZMWhF2Q4FrGVW9sgkllXkA4
+    short-id: 6ba85179e30d4fc2
+  server: 159.69.28.178
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  uuid: 20bcb7a8-c51b-4771-9686-6b4509dc9cd2
+- auth: 901113fb-2ddd-4472-84bf-307de471f32f
+  name: 21|C🟠🇩🇪[📺🎪📦🔍]_dokng.com_9a120591
+  password: 901113fb-2ddd-4472-84bf-307de471f32f
+  port: 443
+  server: de.katanalink.net
+  skip-cert-verify: true
+  sni: de.katanalink.net
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 21|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
+  name: 21|C🟠🇩🇪[🎬📺🎭🎪]_dokng.com_56c5bbea
   port: 30833
   server: v33.hdacd.com
   skip-cert-verify: false
@@ -10,12 +33,19 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- name: 30|🇩🇪_DE_德国
+- client-fingerprint: chrome
+  name: 25|德国 044
   network: ws
   port: 443
-  server: fast.iqiraq.shop
-  skip-cert-verify: true
+  server: 81.95.4.189
+  servername: bab-6.site
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 5d8fae5f-0427-4da3-99ab-242905fa5c69
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  ws-opts:
+    headers:
+      Host: bab-6.site
+    path: /vws/

@@ -28,19 +28,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 21|C🟠🇹🇷[📺🎪]_dokng.com_4a247398
-  network: ws
-  port: 2002
-  server: tr.privatevip.ir
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 85b27fbd-33d6-4a3a-bf5b-c3cf97772893
-  ws-opts:
-    headers:
-      Host: tr.privatevip.ir
-    path: /
 - name: 25|土耳其 002
   network: tcp
   port: 443
@@ -69,7 +56,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 25,38|🇹🇷TR-37.221.79.48-0830
+  name: 25,38|🇹🇷TR-37.221.79.48-0835
   network: ws
   port: 443
   server: v2ray.online
@@ -84,7 +71,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 38|🇹🇷TR-37.221.79.48-1696
+  name: 38|🇹🇷TR-37.221.79.48-1715
   network: ws
   port: 443
   server: v2ray.online
@@ -98,7 +85,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 38|🇹🇷TR-37.221.79.48-4957
+  name: 38|🇹🇷TR-37.221.79.48-4976
   network: ws
   port: 443
   server: v2ray.online
@@ -112,7 +99,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 38|🇹🇷TR-45.94.169.142-7315
+  name: 38|🇹🇷TR-45.94.169.142-7345
   network: ws
   port: 443
   server: 45.94.169.142

@@ -13,30 +13,23 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 21|D🔴🇭🇰[🎬🧠📺🎭]_dokng.com_9a628848
-  password: HOrViv
-  port: 18293
-  server: 209.248.32.117
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: '37,38|🇭🇰HK-47.244.120.197-5224 #1'
+  name: '37,38|🇭🇰HK-47.244.120.197-5243 #1'
   network: ws
-  port: 44867
+  port: 36703
   server: 47.244.120.197
   servername: ''
   tls: false
   type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
       Host: 47.244.120.197
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '37,38|🇭🇰HK-156.245.232.239-0192 #1'
+  name: '37,38|🇭🇰HK-156.245.232.239-0247 #1'
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -48,22 +41,23 @@ proxies:
     headers:
       Host: 156.245.232.239
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 40,45|香港|@ripaojiedian
-  network: tcp
-  port: 30807
-  server: v10.hdacd.com
+  name: '37,38|🇭🇰HK-47.244.120.197-5242 #1'
+  network: ws
+  port: 44867
+  server: 47.244.120.197
   servername: ''
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: '44|🇭🇰 香港|@ripaojiedian #1'
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki?ed=2048
+- name: 38|🇭🇰HK-185.244.208.13-0291
+  password: ND91608427
+  port: 443
+  server: ace-starling.rooster465.autos
+  sni: ace-starling.rooster465.autos
+  type: trojan

@@ -6,27 +6,51 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 21|C🟠🇸🇬[🤖📺🎭🎪]_dokng.com_0aceb104
-  network: grpc
-  port: 10038
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_ff7d2e4d
+  network: tcp
+  port: 25193
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg3-r.link-t7.com
-  servername: d1.awsstatic.com
+    public-key: Qsm5dVTgDmOCvRwi8M_WVE8EmeK6Ot9i-XIfCmM1zGg
+    short-id: 702186e48d5646
+  server: 13.214.194.139
+  servername: www.intel.com
   tls: true
   type: vless
   udp: true
-  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+  uuid: 65166c4d-a46c-40f9-83cb-ee599f5279cb
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_7e14cea1
+  network: tcp
+  port: 54489
+  reality-opts:
+    public-key: b8P0DSI3bftNNT3I9QN_BDSdJ6RT8_aNXDcwwhelnzk
+    short-id: cc7a57d36b14c736
+  server: 3.1.248.148
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e0e09114-371e-4d87-b2f0-d7ee58be74a9
+  xudp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 21|C🟠🇸🇬[🎬📺🎭🎪]_dokng.com_6387bcb2
+  name: 21|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_6387bcb2
   network: grpc
   port: 10037
   reality-opts:
@@ -38,17 +62,53 @@ proxies:
   type: vless
   udp: true
   uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
-- client-fingerprint: chrome
-  name: 21|C🟠🇸🇬[🎬📺🎪✨]_dokng.com_fda5f843
-  network: ws
-  port: 443
-  server: admin.jikecloud.cc
-  servername: admin.jikecloud.cc
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_5e6ffa65
+  network: tcp
+  port: 59180
+  reality-opts:
+    public-key: NntGU23khU2ASY2g1XM5_Vl0G39MyoXre5q7vanorDM
+    short-id: 3ced8a51ce74468c
+  server: 54.151.153.129
+  servername: www.tesla.com
   tls: true
   type: vless
-  uuid: e55fa822-ad91-4133-8dcf-2587aec10baf
-  ws-opts:
-    headers:
-      Host: admin.jikecloud.cc
-    path: /vless
+  udp: true
+  uuid: 44aedcca-28f8-411d-bed2-9bd6aa491cb5
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_9b2edecd
+  network: tcp
+  port: 18516
+  reality-opts:
+    public-key: 0nAOIGPKjVAgGpN_FrdSQ1qg_J-nuIhS9-UZYLMfy2g
+    short-id: 6ce3397cbd5ada
+  server: 13.212.143.2
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e4c4ee0-9a52-421e-8427-7ad6ff027312
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 30|🇸🇬_SG_新加坡
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
