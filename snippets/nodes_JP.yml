@@ -76,7 +76,7 @@ proxies:
   uuid: b52da429-91a0-3834-a4e0-0ed299ba8121
 - alterId: 0
   cipher: auto
-  name: '21,30,37,38|🇫🇷FR-162.19.192.89-0433 #1'
+  name: '21,30,37,38,40|🇯🇵_JP_日本 #2'
   network: ws
   port: 16617
   server: p4.cnb.linuxlh.xin

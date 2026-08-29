@@ -49,6 +49,16 @@ proxies:
       Host: 104.26.8.44
       host: a.109420.xyz
     path: /
+- alterId: 2
+  cipher: auto
+  name: '40|🇨🇳_CN_中国->🇫🇷_FR_法国 #1'
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - grpc-opts:
     grpc-service-name: lK1wclmJRbMxj4FxIzvwxUDoX
   name: 47|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦

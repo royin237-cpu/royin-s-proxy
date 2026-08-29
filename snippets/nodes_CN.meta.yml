@@ -140,6 +140,26 @@ proxies:
     headers:
       Host: vms.lifetime36.workers.dev
     path: /
+- name: 25|中国 020
+  network: tcp
+  port: 10000
+  server: 220.130.75.248
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f361c37-bc54-43dd-8c8b-0f59354745a5
+- name: 25|中国 021
+  network: tcp
+  port: 10000
+  server: 220.130.75.250
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f361c37-bc54-43dd-8c8b-0f59354745a5
 - name: 25|中国 026
   network: ws
   port: 443

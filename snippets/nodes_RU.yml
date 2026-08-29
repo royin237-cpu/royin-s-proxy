@@ -21,13 +21,6 @@ proxies:
     headers:
       Host: nl-full.privateip.net
     path: /RACEVPN
-- cipher: aes-256-cfb
-  name: 16|🇷🇺 RU 16 → tg@nicevpn123
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
-  server: 5.188.181.201
-  type: ss
-  udp: true
 - name: 16|🇷🇺 RU 17 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -66,13 +59,6 @@ proxies:
   server: nl-full.privateip.net
   skip-cert-verify: true
   type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 16|🇷🇺 RU 30 → tg@nicevpn123
-  password: GeregetR8cvQHzYr
-  port: 9030
-  server: 5.188.181.201
-  type: ss
   udp: true
 - alterId: 0
   cipher: auto

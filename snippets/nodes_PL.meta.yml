@@ -1,58 +1,8 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 25,38|🇺🇸US-91.149.239.214-0559
-  network: ws
+- name: 22|波兰
+  password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
   port: 443
-  server: cg1c07.waimaojd.com
-  servername: cg1c07.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  ws-opts:
-    headers:
-      Host: cg1c07.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  name: 25,38|🇺🇸US-91.149.239.165-0566
-  network: ws
-  port: 443
-  server: cg1c14.waimaojd.com
-  servername: cg1c14.waimaojd.com
+  server: streambox.wwwinternetvideo.click
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  ws-opts:
-    headers:
-      Host: cg1c14.waimaojd.com
-    path: /api/v1/graphql
-- client-fingerprint: chrome
-  name: 25|波兰 007
-  network: ws
-  port: 443
-  server: 91.223.119.174
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173fp=chrome
-- name: 38|🇵🇱PL-51.83.186.142-3057
-  password: 555034c8-6420-45d0-893c-905c02342150
-  port: 443
-  server: 51.83.186.142
-  sni: pl1.trojanvh.xyz
-  type: trojan
-- name: 38|🇵🇱PL-51.83.186.142-4086
-  password: 555034c8-6420-45d0-893c-905c02342150
-  port: 80
-  server: 51.83.186.142
-  sni: pl1.trojanvh.xyz
-  type: trojan
+  sni: streambox.wwwinternetvideo.click
+  type: hysteria2

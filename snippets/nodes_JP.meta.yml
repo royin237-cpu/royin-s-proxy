@@ -1,79 +1,224 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 11,12|370_日本-4.55MB
-  password: amazonskr05
-  port: 443
-  server: 43.207.205.208
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|🇯🇵 JP 12 → tg@nicevpn123
-  network: ws
-  port: 8443
-  server: 45.85.119.65
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_77b25243
+  network: tcp
+  port: 14422
+  reality-opts:
+    public-key: WA02heAP6997PPTwF6hbbFXwbYmXRz1bH2ZXWk6ipEw
+    short-id: 9b0f012413fd
+  server: 13.113.195.74
+  servername: www.tesla.com
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 2b6ff9f6-00b6-4bc7-e16f-a7f1f4d43e4c
-  ws-opts:
-    headers:
-      Host: 45.85.119.65
-    path: /build
-- cipher: aes-256-cfb
-  name: 16|🇯🇵 JP 21 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 13.231.229.48
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 16|🇯🇵 JP 47 → tg@nicevpn123
-  port: 28786
-  server: 7oi23-g04.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
+  uuid: 75f0b53b-ff3b-483a-b25e-5269b0229d14
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_81164327
+  network: tcp
+  port: 36024
+  reality-opts:
+    public-key: z1IzZjwLcymnYShSSGE6NkK10-S6aIGbe1_qQotmplU
+    short-id: d1d28c01d2c3c6
+  server: 3.112.129.179
+  servername: www.nvidia.com
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: e147ce52-2598-31b0-950d-6b12c306b360
-- name: 16|🇯🇵 JP 50 → tg@nicevpn123
-  password: d22c4619-9dd1-41b1-a00e-c565a09066c8
-  port: 443
-  server: 139.162.91.35
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 16|🇯🇵 JP 56 → tg@nicevpn123
-  port: 28788
-  server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
+  uuid: 7ad407b1-b8f3-4591-ae75-05cf4035e09e
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_a1300803
+  network: tcp
+  port: 29224
+  reality-opts:
+    public-key: HqLe_f1G54_pDZGbCnermTm-vqDiNp6cXVMaasg3NWE
+    short-id: fcbdd08920d4c8
+  server: 13.231.129.39
+  servername: www.sony.com
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
-- alterId: 1
-  cipher: auto
-  name: 16|🇯🇵 JP 71 → tg@nicevpn123
-  port: 444
-  server: 7gqt4-g01.jp04-3771-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  uuid: 3298044a-024f-4b48-a598-ba56c75e99f3
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_58ffebe5
+  network: tcp
+  port: 32913
+  reality-opts:
+    public-key: iJhoNzfiPiua04PL88iAAyZz2u39su4ChSCiGVoekRQ
+    short-id: a8f0a95931a52732
+  server: 43.207.162.145
+  servername: www.intel.com
+  tls: true
+  type: vless
   udp: true
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
-- alterId: 1
-  cipher: auto
-  name: 16|🇯🇵 JP 72 → tg@nicevpn123
-  port: 444
-  server: 2ssti-g01.jp04-3771-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  uuid: 15836880-212b-4690-b29c-1889a749bf72
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_b2a30493
+  network: tcp
+  port: 33486
+  reality-opts:
+    public-key: 0XefSfdaAV77RBJrVSVBIdRNUHUlaMGmFT5mX_Aw6G8
+    short-id: 1671781f157ac27e
+  server: 52.194.245.53
+  servername: www.intel.com
+  tls: true
+  type: vless
   udp: true
-  uuid: b52da429-91a0-3834-a4e0-0ed299ba8121
+  uuid: eddee2c9-fdf9-4b55-b8ac-3481a680b060
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_42de0dea
+  network: tcp
+  port: 22536
+  reality-opts:
+    public-key: hd3qje4UtfiFnCxsD7VKCLB3ArNR5zRjkwk2MTzP3WU
+    short-id: 4c8b46e500b0f3ad
+  server: 54.238.241.88
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6b9f1019-d700-434e-adad-437fb3ad81da
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_27ad835f
+  network: tcp
+  port: 32652
+  reality-opts:
+    public-key: 6OOibzbkPmuVsl6LgqgUJ0FLHNEqt4VYSzqygL1GL2w
+    short-id: b5c421053ba4
+  server: 13.114.63.132
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5bf65fa6-d8af-4932-970e-a13d444a24af
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_a3f2376a
+  network: tcp
+  port: 25892
+  reality-opts:
+    public-key: 20EMD5w9RCv9W_MtV6PfJAcKwSUpRfdQ_uA_UBHggRE
+    short-id: 9b0f012413fd
+  server: 52.68.64.80
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31d84170-673e-4653-afaf-0656656be6dc
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_6e2fcb5e
+  network: tcp
+  port: 18921
+  reality-opts:
+    public-key: Ct9tvt4V8JSZ7uCbKWKuXNMG5Q7U_FMDWPHgi4YHAXw
+    short-id: 2e23c31063fcff
+  server: 54.249.200.131
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe113f0b-43fa-4662-9403-9f91b53fed1f
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_13a77f7d
+  network: tcp
+  port: 24620
+  reality-opts:
+    public-key: eZthMfn0kQJFNr_srk502fr8yUHMoHQ7Oh3v4_HfTBI
+    short-id: db2cb3b3c2dbb711
+  server: 13.231.7.104
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b969ef8f-7bdb-474f-9481-d8f3c5686fb8
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_06636cee
+  network: tcp
+  port: 48203
+  reality-opts:
+    public-key: nxC5EiVCdXMnvfRa1LoNUs21ZNS2DdP36gfHayvUXRU
+    short-id: 5b63c338f69077
+  server: 3.113.9.16
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5a9a8be-886e-4522-b11d-3edde88c9c8c
+  xudp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -94,22 +239,6 @@ proxies:
   udp: true
   uuid: 620ca966-d78b-4c88-a5c9-acf13c7d252f
   xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 21|C🟠🇯🇵[🎬🤖📺🎪]_dokng.com_2a3e13aa
-  network: grpc
-  port: 10032
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: jp2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -117,233 +246,136 @@ proxies:
     headers: {}
     path:
     - /
-  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_e4c8cc36
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_1a7e5919
   network: tcp
-  port: 49032
+  port: 33528
   reality-opts:
-    public-key: dzdupl2cvM0mpe_hVDDBshTivuX0bOY-3QbavnoorV0
-    short-id: 36cd768dea0661
-  server: 52.195.111.107
+    public-key: cs0Gy8Yp-GWHukLSkeq-P08qydj71eWPBinBIxm2bWU
+    short-id: adcde615c1dd88b7
+  server: 52.193.64.73
   servername: www.amd.com
   tls: true
   type: vless
   udp: true
-  uuid: ffbc5924-65f9-45b5-9089-5bc5b2048823
+  uuid: 519a17ff-05a3-4488-8fd8-47cf13d1310c
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: '21,30,37,38|🇫🇷FR-162.19.192.89-0433 #1'
-  network: ws
-  port: 16617
-  server: p4.cnb.linuxlh.xin
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c
-  ws-opts:
-    headers:
-      Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 21|A🟢🇯🇵[🎬🤖📺🎭]_dokng.com_48bb7270
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_171ef455
   network: tcp
-  packet-encoding: xudp
-  port: 55555
+  port: 18384
   reality-opts:
-    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
-    short-id: af317506
-  server: uh-jp01.ziyoufly.xyz
-  servername: pypi.org
+    public-key: cRwzK1c65HdBluJqM3GS8YN4N-TqTCmI6X_3eEgAVms
+    short-id: 3f316a236d64c1
+  server: 13.230.222.139
+  servername: www.tesla.com
   tls: true
   type: vless
   udp: true
-  uuid: 4de520cf-ccee-4a18-ab5a-e66d969c7872
+  uuid: 50641912-a16b-4ac3-aa2f-312c88b617e1
   xudp: true
-- alterId: 2
-  cipher: auto
-  name: 21|C🟠🇯🇵[📺]_dokng.com_41228966
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_e9a15d40
   network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  port: 58573
+  reality-opts:
+    public-key: P_qGsMinT163P1KLO6LzedQXEeHimWQ1CrqM4cYkFB8
+    short-id: 4de17b381e6af2
+  server: 13.230.140.251
+  servername: www.nvidia.com
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: ea3fb423-d86c-461a-9610-cbad189253e2
   xudp: true
-- name: '22|日本 #1'
-  password: ef18d810-719c-4bf1-83c6-615d01f217eb
-  port: 443
-  server: jp.cryptoofarm.com
-  skip-cert-verify: true
-  sni: jp.cryptoofarm.com
-  type: hysteria2
-- name: 25|日本 005
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_e81c3e96
   network: tcp
-  port: 443
-  server: 134.122.154.210
-  skip-cert-verify: false
-  tfo: false
+  port: 32114
+  reality-opts:
+    public-key: zsxQcqhGeGLxY7Y8PYZ0LyYvD3lJgRYd8FHp3WI9mSU
+    short-id: 9bdea8e40dba4c
+  server: 57.180.21.90
+  servername: www.amd.com
   tls: true
   type: vless
   udp: true
-  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
-- client-fingerprint: chrome
-  name: 25|日本 006
-  network: ws
-  port: 443
-  server: 172.104.81.253
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- name: 25|日本 007
+  uuid: 8d644890-a8cd-46e5-a318-f2e64cce7a60
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_0c9d71ac
   network: tcp
-  port: 443
-  server: 137.220.221.179
-  skip-cert-verify: false
-  tfo: false
+  port: 18732
+  reality-opts:
+    public-key: lsp2a_PzZnzFtikI5FMkSYh3kpTewVNgU6A0VSZCJUI
+    short-id: 7946e1980d32555c
+  server: 13.112.217.203
+  servername: www.amd.com
   tls: true
   type: vless
   udp: true
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-- name: 25|日本 008
-  network: ws
-  port: 443
-  server: 151.101.109.223
-  servername: pan1.global.ssl.fastly.net
-  skip-cert-verify: true
-  tfo: false
+  uuid: abdb9efb-a552-4b12-bd95-e56f4820fed8
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_44f8ca68
+  network: tcp
+  port: 36582
+  reality-opts:
+    public-key: RtL82236ddBzL8AmLGtUV6uOOB-g8AZ8IQMQY191Mlc
+    short-id: adcde615c1dd88b7
+  server: 13.113.18.50
+  servername: www.tesla.com
   tls: true
   type: vless
   udp: true
-  uuid: c8541f02-4efd-401d-beb7-dc017b12ee94
-  ws-opts:
-    headers:
-      Host: pan1.global.ssl.fastly.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 25,38|🇯🇵JP-40.74.100.129-0385
-  network: ws
-  port: 443
-  server: fullaccesstojapannetsubnode1.azurewebsites.net
-  servername: fullaccesstojapannetsubnode1.azurewebsites.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
-  ws-opts:
-    headers:
-      Host: fullaccesstojapannetsubnode1.azurewebsites.net
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: 38|🇯🇵JP-172.104.78.98-1951
-  network: ws
-  port: 443
-  server: 172.104.78.98
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    headers:
-      Host: 172.104.78.98
-    path: /chat
-- name: 38|🇯🇵JP-133.125.55.109-2779
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.odesa.ua
-  type: trojan
-- name: 38|🇯🇵JP-133.125.55.109-2912
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.kherson.ua
-  type: trojan
-- name: 38|🇯🇵JP-133.125.55.109-2921
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.kharkov.ua
-  type: trojan
-- name: 38|🇯🇵JP-133.125.55.109-2988
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.ivano-frankivsk.ua
-  type: trojan
-- name: 38|🇯🇵JP-133.125.55.109-3034
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.kyiv.ua
-  type: trojan
-- name: 38|🇯🇵JP-133.125.55.109-3061
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.chernigov.ua
-  type: trojan
-- name: 38|🇯🇵JP-133.125.55.109-3170
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.odessa.ua
-  type: trojan
-- name: 38|🇯🇵JP-133.125.55.109-3199
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.kiev.ua
-  type: trojan
-- name: 38|🇯🇵JP-153.125.148.41-4462
-  password: 14bdba6dede262387ebdebaa706e1c90
-  port: 443
-  server: trs12.bolab.net
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 38|🇯🇵JP-172.111.146.64-5087
-  network: ws
-  port: 80
-  server: 172.111.146.64
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  ws-opts:
-    headers:
-      Host: 172.111.146.64
-    path: /vmess/
-- name: 47|🇯🇵+JP+日本+78
-  network: ws
-  port: 2053
-  server: 31.12.75.140
-  servername: juzibaipiao.5112233.xyz
+  uuid: 65ed7834-1996-47b7-839c-35d9fea3e2d9
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_0acc3029
+  network: tcp
+  port: 18538
+  reality-opts:
+    public-key: zBZDFZ2P54fpr1-tl51jN4ZyBCrEJ0syOna-KJXZ3h4
+    short-id: d5cd4778d2da33
+  server: 54.250.13.242
+  servername: www.tesla.com
   tls: true
   type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
-- alterId: 0
-  cipher: auto
-  name: 47|🇯🇵日本 01
-  network: ws
-  port: 2086
-  server: linode.appleid.bf
-  tls: false
-  type: vmess
-  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /CAT
+  udp: true
+  uuid: 3317270c-c577-4803-9c28-011152223f79
+  xudp: true
