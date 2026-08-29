@@ -123,3 +123,7 @@ https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml
 https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/merged.yaml
 # zhuhaiuk/free-nodes - 每小时自动更新，Clash/Mihomo YAML
 https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
+
+# ── 补充源（2026-08-30 晚添加） ──
+# peasoft/NoMoreWalls - 长期维护的活跃聚合源（用户对照验证可用率高）
+https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml
