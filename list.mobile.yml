@@ -1,5 +1,5 @@
-# Update: 2026-08-30 00:42
-# 移动端轻量订阅：160 个存活节点（每地区最多 15 个），精简规则
+# Update: 2026-08-30 00:52
+# 移动端轻量订阅：164 个存活节点（每地区最多 15 个），精简规则
 mixed-port: 7890
 allow-lan: false
 mode: rule
@@ -26,26 +26,18 @@ proxies:
   udp: true
   uuid: 40a726db-6815-44de-9c2f-80e7bfb8f81c
   xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 21|C🟠🇯🇵[🤖📺✨🎞️]_dokng.com_7dd9fe9b
-  network: tcp
-  port: 42263
-  reality-opts:
-    public-key: lLbzgXK1hx6K2J6rDUARlzZzjWqVXMjIhHsKmgEQI0U
-    short-id: d5cd4778d2da33
-  server: 35.77.87.249
-  servername: www.sony.com
-  tls: true
+- name: '17|美国+CloudFlare节点 #6'
+  network: ws
+  port: 8080
+  server: 162.159.0.53
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  tls: false
   type: vless
-  udp: true
-  uuid: 37c00ed0-de07-4c7d-a4cf-049805c98713
-  xudp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
 - name: 21|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_a8bb49da
   network: ws
   password: 7e7d81db-779d-4216-9b94-7a6a09874549
@@ -77,6 +69,21 @@ proxies:
   name: 48|US_speednode_0137
   network: tcp
   port: 39399
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 48|US_speednode_0142
+  network: tcp
+  port: 39211
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: bc8e3658db7d1323
@@ -252,6 +259,13 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 21|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_b2e4fa42
+  password: amazonskr05
+  port: 443
+  server: 18.170.37.90
+  type: ss
+  udp: true
 - name: 21|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b
   password: github.com/Alvin9999-newpac/fanqiang
   port: 51133
@@ -274,6 +288,13 @@ proxies:
   tls: true
   type: vless
   uuid: 20bcb7a8-c51b-4771-9686-6b4509dc9cd2
+- cipher: aes-256-cfb
+  name: 21|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_ba9256ca
+  password: amazonskr05
+  port: 443
+  server: 35.182.129.250
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 30|🇨🇦_CA_加拿大_1
   password: amazonskr05
@@ -342,6 +363,13 @@ proxies:
   server: nl-full.privateip.net
   skip-cert-verify: true
   type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 16|🇷🇺 RU 30 → tg@nicevpn123
+  password: GeregetR8cvQHzYr
+  port: 9030
+  server: 5.188.181.201
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -443,16 +471,6 @@ proxies:
   udp: true
   ws-opts:
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
-- name: 16|🇷🇺 RU 58 → tg@nicevpn123
-  network: ws
-  password: maHanVPpN
-  port: 80
-  server: 185.176.24.84
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - name: 16|SE 12 → tg@nicevpn123
   network: ws
   password: dGKXcHgs3P
@@ -703,6 +721,20 @@ proxies:
     headers:
       Host: in-full.privateip.net
     path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: '37,38|🇮🇳IN-152.67.8.205-0231 #1'
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 152.67.8.205
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers:
+      Host: 152.67.8.205
+    path: /
 - name: 38|🇮🇳IN-152.67.160.174-1167
   password: 54080134-2cba-4535-8599-95650bd9aa54
   port: 443
@@ -1925,10 +1957,11 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_7b2e5b79
-  - 21|C🟠🇯🇵[🤖📺✨🎞️]_dokng.com_7dd9fe9b
+  - '17|美国+CloudFlare节点 #6'
   - 21|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_a8bb49da
   - 48|US_speednode_0136
   - 48|US_speednode_0137
+  - 48|US_speednode_0142
   - 16|🇭🇰 HK 10 → tg@nicevpn123
   - 16|🇭🇰 HK 9 → tg@nicevpn123
   - 21|C🟠🇹🇼[🎬🤖📺🎭]_dokng.com_19738b3f
@@ -1946,8 +1979,10 @@ proxy-groups:
   - 47|TG@ZDYZ2 -KR5
   - 47|TG@ZDYZ2 -KR2
   - 16|🇬🇧 GB 23 → tg@nicevpn123
+  - 21|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_b2e4fa42
   - 21|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b
   - 21|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_7d526327
+  - 21|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_ba9256ca
   - 30|🇨🇦_CA_加拿大_1
   - 16|🇷🇺 RU 1 → tg@nicevpn123
   - 16|🇷🇺 RU 14 → tg@nicevpn123
@@ -1955,6 +1990,7 @@ proxy-groups:
   - 16|🇷🇺 RU 18 → tg@nicevpn123
   - 16|🇷🇺 RU 22 → tg@nicevpn123
   - 16|🇷🇺 RU 29 → tg@nicevpn123
+  - 16|🇷🇺 RU 30 → tg@nicevpn123
   - 16|🇷🇺 RU 31 → tg@nicevpn123
   - 16|🇷🇺 RU 32 → tg@nicevpn123
   - 16|🇷🇺 RU 37 → tg@nicevpn123
@@ -1963,7 +1999,6 @@ proxy-groups:
   - 16|🇷🇺 RU 45 → tg@nicevpn123
   - 16|🇷🇺 RU 49 → tg@nicevpn123
   - 16|🇷🇺 RU 50 → tg@nicevpn123
-  - 16|🇷🇺 RU 58 → tg@nicevpn123
   - 16|SE 12 → tg@nicevpn123
   - 16|SE 13 → tg@nicevpn123
   - 16|SE 16 → tg@nicevpn123
@@ -1988,6 +2023,7 @@ proxy-groups:
   - 16|🇮🇳 IN 15 → tg@nicevpn123
   - 16|🇮🇳 IN 7 → tg@nicevpn123
   - 16|🇮🇳 IN 8 → tg@nicevpn123
+  - '37,38|🇮🇳IN-152.67.8.205-0231 #1'
   - 38|🇮🇳IN-152.67.160.174-1167
   - 21,30|🇹🇭_TH_泰国
   - 21|A🟢🇹🇭[🎬🤖📺🎭]_dokng.com_8d452c87
@@ -2090,10 +2126,11 @@ proxy-groups:
   interval: 300
   proxies:
   - 21|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_7b2e5b79
-  - 21|C🟠🇯🇵[🤖📺✨🎞️]_dokng.com_7dd9fe9b
+  - '17|美国+CloudFlare节点 #6'
   - 21|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_a8bb49da
   - 48|US_speednode_0136
   - 48|US_speednode_0137
+  - 48|US_speednode_0142
   - 16|🇭🇰 HK 10 → tg@nicevpn123
   - 16|🇭🇰 HK 9 → tg@nicevpn123
   - 21|C🟠🇹🇼[🎬🤖📺🎭]_dokng.com_19738b3f
@@ -2111,8 +2148,10 @@ proxy-groups:
   - 47|TG@ZDYZ2 -KR5
   - 47|TG@ZDYZ2 -KR2
   - 16|🇬🇧 GB 23 → tg@nicevpn123
+  - 21|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_b2e4fa42
   - 21|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b
   - 21|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_7d526327
+  - 21|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_ba9256ca
   - 30|🇨🇦_CA_加拿大_1
   - 16|🇷🇺 RU 1 → tg@nicevpn123
   - 16|🇷🇺 RU 14 → tg@nicevpn123
@@ -2120,6 +2159,7 @@ proxy-groups:
   - 16|🇷🇺 RU 18 → tg@nicevpn123
   - 16|🇷🇺 RU 22 → tg@nicevpn123
   - 16|🇷🇺 RU 29 → tg@nicevpn123
+  - 16|🇷🇺 RU 30 → tg@nicevpn123
   - 16|🇷🇺 RU 31 → tg@nicevpn123
   - 16|🇷🇺 RU 32 → tg@nicevpn123
   - 16|🇷🇺 RU 37 → tg@nicevpn123
@@ -2128,7 +2168,6 @@ proxy-groups:
   - 16|🇷🇺 RU 45 → tg@nicevpn123
   - 16|🇷🇺 RU 49 → tg@nicevpn123
   - 16|🇷🇺 RU 50 → tg@nicevpn123
-  - 16|🇷🇺 RU 58 → tg@nicevpn123
   - 16|SE 12 → tg@nicevpn123
   - 16|SE 13 → tg@nicevpn123
   - 16|SE 16 → tg@nicevpn123
@@ -2153,6 +2192,7 @@ proxy-groups:
   - 16|🇮🇳 IN 15 → tg@nicevpn123
   - 16|🇮🇳 IN 7 → tg@nicevpn123
   - 16|🇮🇳 IN 8 → tg@nicevpn123
+  - '37,38|🇮🇳IN-152.67.8.205-0231 #1'
   - 38|🇮🇳IN-152.67.160.174-1167
   - 21,30|🇹🇭_TH_泰国
   - 21|A🟢🇹🇭[🎬🤖📺🎭]_dokng.com_8d452c87

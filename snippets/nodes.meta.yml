@@ -41,6 +41,18 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: '17|美国+CloudFlare节点 #6'
+  network: ws
+  port: 8080
+  server: 162.159.0.53
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  tls: false
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
 - client-fingerprint: chrome
   name: 18|us|cc28|puddincat07@Telegram
   network: ws
@@ -141,6 +153,13 @@ proxies:
   udp: true
   uuid: 40a726db-6815-44de-9c2f-80e7bfb8f81c
   xudp: true
+- cipher: aes-256-cfb
+  name: 21|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_b2e4fa42
+  password: amazonskr05
+  port: 443
+  server: 18.170.37.90
+  type: ss
+  udp: true
 - cipher: chacha20-ietf
   name: 21|A🟢🇻🇳[🤖📺🎪]_dokng.com_462f633a
   obfs: plain
@@ -198,26 +217,6 @@ proxies:
     headers:
       Host: huojian.usfaster.top
     path: /images
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 21|C🟠🇯🇵[🤖📺✨🎞️]_dokng.com_7dd9fe9b
-  network: tcp
-  port: 42263
-  reality-opts:
-    public-key: lLbzgXK1hx6K2J6rDUARlzZzjWqVXMjIhHsKmgEQI0U
-    short-id: d5cd4778d2da33
-  server: 35.77.87.249
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 37c00ed0-de07-4c7d-a4cf-049805c98713
-  xudp: true
 - client-fingerprint: chrome
   ech-opts:
     enable: true
@@ -246,6 +245,13 @@ proxies:
     headers:
       Host: fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir
     path: /
+- cipher: aes-256-cfb
+  name: 21|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_ba9256ca
+  password: amazonskr05
+  port: 443
+  server: 35.182.129.250
+  type: ss
+  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 21|C🟠🇲🇾[🎬🤖📺🎭]_dokng.com_ce205b5b
@@ -303,6 +309,21 @@ proxies:
   name: 48|US_speednode_0137
   network: tcp
   port: 39399
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 48|US_speednode_0142
+  network: tcp
+  port: 39211
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: bc8e3658db7d1323

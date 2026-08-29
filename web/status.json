@@ -1,15 +1,15 @@
 {
-  "total": 26,
+  "total": 29,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 2
+      "count": 1
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 3
+      "count": 5
     },
     "CN": {
       "flag": "🇨🇳",
@@ -29,7 +29,7 @@
     "CA": {
       "flag": "🇦🇨",
       "name": "加拿大",
-      "count": 1
+      "count": 2
     },
     "FR": {
       "flag": "🇫🇷",
@@ -44,7 +44,7 @@
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 1
+      "count": 2
     },
     "KR": {
       "flag": "🇰🇷",
@@ -54,7 +54,7 @@
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 35
+      "count": 36
     },
     "DE": {
       "flag": "🇩🇪",
@@ -72,8 +72,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-30 00:41",
-  "server_time": "2026-08-30 00:42:04",
+  "update_time": "2026-08-30 00:51",
+  "server_time": "2026-08-30 00:52:03",
   "sources": [
     {
       "index": 0,

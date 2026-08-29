@@ -1,4 +1,16 @@
 proxies:
+- name: '17|美国+CloudFlare节点 #6'
+  network: ws
+  port: 8080
+  server: 162.159.0.53
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  tls: false
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
 - name: 21|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_a8bb49da
   network: ws
   password: 7e7d81db-779d-4216-9b94-7a6a09874549
@@ -30,6 +42,21 @@ proxies:
   name: 48|US_speednode_0137
   network: tcp
   port: 39399
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 48|US_speednode_0142
+  network: tcp
+  port: 39211
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: bc8e3658db7d1323

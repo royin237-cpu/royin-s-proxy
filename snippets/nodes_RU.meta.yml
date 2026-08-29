@@ -60,6 +60,13 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 16|🇷🇺 RU 30 → tg@nicevpn123
+  password: GeregetR8cvQHzYr
+  port: 9030
+  server: 5.188.181.201
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 16|🇷🇺 RU 31 → tg@nicevpn123
