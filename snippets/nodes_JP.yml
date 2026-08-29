@@ -136,6 +136,20 @@ proxies:
   uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
 - alterId: 0
   cipher: auto
+  name: '39,40|🇯🇵JP-140.83.57.20-0153 #1'
+  network: ws
+  port: 13118
+  server: 140.83.57.20
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  ws-opts:
+    headers:
+      Host: sg.11160321.de5.net
+    path: /
+- alterId: 0
+  cipher: auto
   name: '39,40|🇯🇵JP-172.111.146.64-5087 #1'
   network: ws
   port: 80

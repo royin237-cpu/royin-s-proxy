@@ -1,9 +1,9 @@
 proxies:
-- name: 18|伊朗+V2CROSS.COM
+- name: 18|立陶宛+V2CROSS.COM
   network: ws
   password: humanity
-  port: 40443
-  server: 2.144.21.112
+  port: 443
+  server: 86.38.214.205
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:

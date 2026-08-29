@@ -8,6 +8,12 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: 22|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_8b889344
+  password: amazonskr05
+  port: 443
+  server: 16.54.243.229
+  type: ss
+- cipher: aes-256-cfb
   name: 22|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_ba9256ca
   password: amazonskr05
   port: 443

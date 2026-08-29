@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 22,32,49|🇺🇸 美国 | USA 8
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - name: 22|C🟠🇺🇸_dokng.com_da628814
   password: https://xship.best
   port: 443
@@ -7,44 +15,117 @@ proxies:
   sni: xship.top
   type: hysteria2
   udp: true
-- name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_a8bb49da
-  network: ws
-  password: 7e7d81db-779d-4216-9b94-7a6a09874549
-  port: 443
-  server: 7777.cloudflare.182682.xyz
-  sni: huojian.usfaster.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: huojian.usfaster.top
-    path: /images
-- client-fingerprint: edge
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_e52d52e4
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 22,32|🇪🇪_EE_爱沙尼亚
   network: tcp
-  port: 60401
-  reality-opts:
-    public-key: 5U6qdtZGF_F9M52BtiOo8QKVgS91Jkqe8jxPVA7LaEo
-    short-id: 1edb6628ca013da5
-  server: us1.aaaff.top
-  servername: www.hworld.com
-  tls: true
-  type: vless
-  uuid: 2dd387bd-6d19-473a-8d5e-ecbca573b0f9
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 22|A🟢🇺🇸_dokng.com_c725f014
-  network: ws
   port: 443
-  server: 72.56.40.152
-  servername: usa.korgivps.ru
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: 4a46213c935e2ee4
+  server: 31.76.70.32
+  servername: baltic.cendora.ru
   skip-cert-verify: true
-  tfo: false
   tls: true
   type: vless
-  uuid: 3f054fce-df15-4f7c-8616-56a8b17e84b4
-  ws-opts:
-    headers:
-      Host: usa.korgivps.ru
-    path: /api/user
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 22|C🟠🇺🇸_dokng.com_8a217df2
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸_US_美国
+  port: 443
+  server: 192.227.247.27
+  servername: 192.227.247.27
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸_US_美国_1
+  port: 443
+  server: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- client-fingerprint: firefox
+  name: 49|🇺🇸 美国 | USA 21
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
+    short-id: 812609fa663c57fb
+  server: 162.35.231.81
+  servername: net.savesafe.run
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xhttp-opts:
+    host: net.savesafe.run
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 52|US_speednode_0136
+  network: tcp
+  port: 29893
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 52,53|FR - zhuhai.uk 01
+  network: tcp
+  port: 39399
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 52|US_speednode_0142
+  network: tcp
+  port: 39211
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3

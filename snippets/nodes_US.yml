@@ -1,12 +1,41 @@
 proxies:
-- name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_a8bb49da
-  network: ws
-  password: 7e7d81db-779d-4216-9b94-7a6a09874549
+- cipher: aes-256-cfb
+  name: 22,32,49|🇺🇸 美国 | USA 8
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 22|C🟠🇺🇸_dokng.com_8a217df2
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸_US_美国
   port: 443
-  server: 7777.cloudflare.182682.xyz
-  sni: huojian.usfaster.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: huojian.usfaster.top
-    path: /images
+  server: 192.227.247.27
+  servername: 192.227.247.27
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸_US_美国_1
+  port: 443
+  server: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
