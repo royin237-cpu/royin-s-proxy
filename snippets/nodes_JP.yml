@@ -1,17 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21,30|🇯🇵_JP_日本
-  network: http
-  port: 39618
-  server: 45.159.51.180
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 09d4921e-13e9-426f-8cd3-73556e8a0199
-- alterId: 0
-  cipher: auto
   name: 21,30|🇯🇵_JP_日本_1
   network: ws
   port: 16617

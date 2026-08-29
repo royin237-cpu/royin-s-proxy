@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 25|乌克兰 002
-  network: tcp
-  port: 22324
-  server: 85.90.217.42
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - flow: xtls-rprx-vision
   name: 25|乌克兰 004
   network: tcp

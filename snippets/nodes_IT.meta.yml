@@ -6,26 +6,6 @@ proxies:
     headers: {}
     path:
     - /
-  name: 21|C🟠🇮🇹[🎬🤖📺🎭]_dokng.com_38e3385c
-  network: tcp
-  port: 32396
-  reality-opts:
-    public-key: Pj1XWo01sxdH8jKJ_8DoJiZDFANHFKRAqOncP8RNkwU
-    short-id: dd6ce6af95001a
-  server: 172.232.196.241
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bd6ebd72-25cd-4209-a418-a8c72946da90
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
   name: 21|C🟠🇮🇹[🎬🤖📺🎭]_dokng.com_73f6a52a
   network: tcp
   port: 32833

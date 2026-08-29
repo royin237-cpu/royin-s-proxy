@@ -29,20 +29,6 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '37,38|🇭🇰HK-156.245.232.239-0247 #1'
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: 156.245.232.239
-    path: /
-- alterId: 0
-  cipher: auto
   name: '37,38|🇭🇰HK-47.244.120.197-5242 #1'
   network: ws
   port: 44867
@@ -63,7 +49,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 46|HK6 934.5KB/s
+  name: 46|HK7 21.5KB/s
   network: ws
   port: 443
   server: nycqg19zkwacpm1b.v.3dns.vip

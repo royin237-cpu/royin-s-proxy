@@ -1,10 +1,10 @@
 {
-  "total": 118,
+  "total": 134,
   "regions": {
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 9
+      "count": 12
     },
     "HK": {
       "flag": "🇭🇰",
@@ -15,6 +15,11 @@
       "flag": "🇹🇼",
       "name": "台湾",
       "count": 12
+    },
+    "CA": {
+      "flag": "🇦🇨",
+      "name": "加拿大",
+      "count": 58
     },
     "FR": {
       "flag": "🇫🇷",
@@ -40,10 +45,15 @@
       "flag": "🇷🇺",
       "name": "俄罗斯",
       "count": 1
+    },
+    "EE": {
+      "flag": "🇪🇪",
+      "name": "爱沙尼亚",
+      "count": 1
     }
   },
-  "update_time": "2026-08-29 14:01",
-  "server_time": "2026-08-29 14:02:21",
+  "update_time": "2026-08-29 15:15",
+  "server_time": "2026-08-29 15:16:52",
   "sources": [
     {
       "index": 0,
@@ -83,7 +93,7 @@
     {
       "index": 7,
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clas",
-      "nodes": 1828
+      "nodes": 1810
     },
     {
       "index": 8,

@@ -13,6 +13,26 @@ proxies:
     headers: {}
     path:
     - /
+  name: 21|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_f956cdc4
+  network: tcp
+  port: 35470
+  reality-opts:
+    public-key: LNuzvyQfOTdD2StNL3FHj5qH3r2nHaKH-ziDUhPJ81I
+    short-id: 23f6fc19bec35b76
+  server: 47.131.32.199
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 91db3abd-bb9a-4c40-9ef9-90fb62b96332
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
   name: 21|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_ff7d2e4d
   network: tcp
   port: 25193
@@ -25,64 +45,4 @@ proxies:
   type: vless
   udp: true
   uuid: 65166c4d-a46c-40f9-83cb-ee599f5279cb
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 21|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_7e14cea1
-  network: tcp
-  port: 54489
-  reality-opts:
-    public-key: b8P0DSI3bftNNT3I9QN_BDSdJ6RT8_aNXDcwwhelnzk
-    short-id: cc7a57d36b14c736
-  server: 3.1.248.148
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e0e09114-371e-4d87-b2f0-d7ee58be74a9
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 21|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_5e6ffa65
-  network: tcp
-  port: 59180
-  reality-opts:
-    public-key: NntGU23khU2ASY2g1XM5_Vl0G39MyoXre5q7vanorDM
-    short-id: 3ced8a51ce74468c
-  server: 54.151.153.129
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 44aedcca-28f8-411d-bed2-9bd6aa491cb5
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 21|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_9b2edecd
-  network: tcp
-  port: 18516
-  reality-opts:
-    public-key: 0nAOIGPKjVAgGpN_FrdSQ1qg_J-nuIhS9-UZYLMfy2g
-    short-id: 6ce3397cbd5ada
-  server: 13.212.143.2
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5e4c4ee0-9a52-421e-8427-7ad6ff027312
   xudp: true

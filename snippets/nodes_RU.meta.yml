@@ -1,16 +1,16 @@
 proxies:
-- name: 21|A🟢🇷🇺[🎬🤖📺🎭]_dokng.com_5fa0962f
+- name: 21|D🔴🇷🇺[🎬🤖📺🎪]_dokng.com_9b0f29e8
   network: ws
-  port: 2200
-  server: 201.24.49.237
+  port: 4100
+  server: 201.34.137.15
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vless
-  uuid: af412668-578c-4296-bc8c-8fac6a8d9003
+  uuid: 716903b1-e6bf-4420-9e27-65e4451692e9
   ws-opts:
     headers:
-      Host: rzd.ru
+      Host: live.ok.ru
     path: /v1
 - client-fingerprint: android
   name: 21|C🟠🇷🇺[📺🎪✨🔍]_dokng.com_2438df74
@@ -29,11 +29,12 @@ proxies:
     path: /websocket
 - alterId: 0
   cipher: auto
-  name: '37,38|🇷🇺RU-37.220.161.249-1368 #1'
+  name: 37,38,46|未知101 25.7KB/s
   network: ws
   port: 443
   server: renderer-stream-2-62.mirra.now
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154

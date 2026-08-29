@@ -22,14 +22,13 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 25|英国 006
+  name: 25|英国 004
   network: tcp
-  port: 2053
-  server: 51.38.71.147
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: '37,38|🇬🇧GB-57.129.132.223-0640 #1'

@@ -22,6 +22,19 @@ proxies:
   udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
+  name: 21|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_2bae936d
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OINuDFEDTdmtFR8QRxAZfQIMPA-wJxfGN1LjB3TFUHo
+    short-id: 535a3304
+  server: 50.7.193.131
+  servername: app5.jarvesitw.ru
+  tls: true
+  type: vless
+  uuid: ec537bff-dc14-495c-b65f-65393ad7ee75
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 21|D🔴🇬🇧[📺🎭🎪✈️]_dokng.com_a194dacc
   network: tcp
   port: 443
@@ -37,14 +50,13 @@ proxies:
   uuid: d1231e2b-4099-40bf-8e78-5f9980f37e7c
 - alterId: 0
   cipher: auto
-  name: 25|英国 006
+  name: 25|英国 004
   network: tcp
-  port: 2053
-  server: 51.38.71.147
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: '37,38|🇬🇧GB-57.129.132.223-0640 #1'

@@ -1,11 +1,7 @@
 proxies:
-- alterId: 0
-  name: 37,38,46|🇪🇪EE 569.6KB/s
+- name: '37,38|🇪🇪EE-109.206.241.10-0145 #1'
   password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
   port: 449
   server: 109.206.241.10
-  skip-cert-verify: true
   sni: russiapower.accesscam.org
-  tls: true
   type: trojan
-  udp: true

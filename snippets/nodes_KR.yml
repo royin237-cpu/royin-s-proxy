@@ -1,11 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 21|C🟠🇰🇷_dokng.com_f9dd3272
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 25|韩国 001
