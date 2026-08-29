@@ -1,4 +1,12 @@
 proxies:
+- name: 21|A🟢🇰🇷[🤖📺🎭🎪]_dokng.com_052a91b6
+  password: cba96915-8098-41a7-9997-efb01ccc598a
+  port: 42311
+  server: a11.toppp.cc
+  skip-cert-verify: true
+  sni: osxapps.itunes.apple.com
+  type: anytls
+  udp: true
 - alterId: 0
   cipher: auto
   name: 25|韩国 001

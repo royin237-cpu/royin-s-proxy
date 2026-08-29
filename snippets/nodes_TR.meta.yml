@@ -59,6 +59,20 @@ proxies:
     headers:
       Host: Kansas.v2ray.online
     path: /speedtest
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 30|🇹🇷_TR_土耳其
+  port: 443
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 201.50.115.175
+  servername: eu-central.cendora.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - alterId: 0
   cipher: auto
   name: 38|🇹🇷TR-37.221.79.48-1546

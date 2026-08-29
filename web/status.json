@@ -1,15 +1,15 @@
 {
-  "total": 80,
+  "total": 126,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 19
+      "count": 21
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 29
+      "count": 34
     },
     "CN": {
       "flag": "🇨🇳",
@@ -29,17 +29,17 @@
     "CA": {
       "flag": "🇦🇨",
       "name": "加拿大",
-      "count": 2
+      "count": 3
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 26
+      "count": 4
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 1
+      "count": 17
     },
     "GB": {
       "flag": "🇬🇧",
@@ -49,31 +49,31 @@
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 1
+      "count": 2
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 54
+      "count": 53
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 51
+      "count": 2
     },
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 17
+      "count": 1
     },
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 2
+      "count": 3
     }
   },
-  "update_time": "2026-08-29 19:48",
-  "server_time": "2026-08-29 19:49:22",
+  "update_time": "2026-08-29 20:52",
+  "server_time": "2026-08-29 20:53:26",
   "sources": [
     {
       "index": 0,
@@ -228,7 +228,7 @@
     {
       "index": 30,
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-      "nodes": 23
+      "nodes": 22
     },
     {
       "index": 31,

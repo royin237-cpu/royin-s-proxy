@@ -15,6 +15,20 @@ proxies:
   udp: true
   uuid: 7a322a80-b9ae-0007-bec7-affed230a484
   xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 30|🇪🇪_EE_爱沙尼亚
+  port: 443
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: 4a46213c935e2ee4
+  server: 31.76.70.32
+  servername: baltic.cendora.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - name: '37,38|🇪🇪EE-109.206.241.10-0138 #1'
   password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
   port: 449
