@@ -119,7 +119,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 39,40,49|未知58
+  name: 39,40,50|未知58
   network: ws
   port: 35043
   server: 156.245.232.239
@@ -268,7 +268,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 42,47|香港|@ripaojiedian
+  name: 42,48|香港|@ripaojiedian
   network: tcp
   port: 30807
   server: v10.hdacd.com
@@ -278,7 +278,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: '46|🇭🇰 香港|@ripaojiedian #1'
+  name: '47|🇭🇰 香港|@ripaojiedian #1'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -287,7 +287,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 48|🇭🇰 香港 | HKG
+  name: 49|🇭🇰 香港 | HKG
   network: tcp
   port: 21002
   reality-opts:
@@ -301,7 +301,7 @@ proxies:
   uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 48|🇭🇰 香港 | HKG 2
+  name: 49|🇭🇰 香港 | HKG 2
   network: tcp
   port: 21003
   reality-opts:
@@ -315,7 +315,7 @@ proxies:
   uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 48|🇭🇰 香港 | HKG 3
+  name: 49|🇭🇰 香港 | HKG 3
   network: tcp
   port: 21004
   reality-opts:
@@ -329,7 +329,7 @@ proxies:
   uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 48|🇭🇰 香港 | HKG 4
+  name: 49|🇭🇰 香港 | HKG 4
   network: tcp
   port: 21001
   reality-opts:
@@ -343,7 +343,7 @@ proxies:
   uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 48|🇭🇰 香港 | HKG 5
+  name: 49|🇭🇰 香港 | HKG 5
   network: tcp
   port: 21009
   reality-opts:
@@ -357,7 +357,7 @@ proxies:
   uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 48|🇭🇰 香港 | HKG 6
+  name: 49|🇭🇰 香港 | HKG 6
   network: tcp
   port: 21008
   reality-opts:
@@ -371,7 +371,7 @@ proxies:
   uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 48|🇭🇰 香港 | HKG 7
+  name: 49|🇭🇰 香港 | HKG 7
   network: tcp
   port: 21006
   reality-opts:
@@ -385,7 +385,7 @@ proxies:
   uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 48|🇭🇰 香港 | HKG 8
+  name: 49|🇭🇰 香港 | HKG 8
   network: tcp
   port: 21010
   reality-opts:
@@ -399,7 +399,7 @@ proxies:
   uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 48|🇭🇰 香港 | HKG 9
+  name: 49|🇭🇰 香港 | HKG 9
   network: tcp
   port: 21007
   reality-opts:
@@ -413,21 +413,22 @@ proxies:
   uuid: 97a3a27d-a323-44de-8045-eacbfbaf6e50
 - alterId: 0
   cipher: auto
-  name: 49|HK2
+  name: 50|HK 21.5KB/s
   network: ws
   port: 443
-  server: 47.83.19.148
+  server: 8.218.184.4
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: 47.83.19.148
+      Host: 8.218.184.4
+      host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 49|HK4 14.1KB/s
+  name: 50|HK2 3.8KB/s
   network: ws
   port: 443
   server: qtkdr8jxe3wefxjm.v.3dns.vip
@@ -442,7 +443,27 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 49|HK5
+  name: 50|HK5 92.8KB/s
+  network: tcp
+  port: 800
+  server: 47.86.167.194
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+- alterId: 0
+  cipher: auto
+  name: 50|HK6
+  network: tcp
+  port: 29009
+  server: 366-1095.rabbitpro-in-3.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
+  name: 50|HK7
   network: grpc
   port: 443
   server: hk01.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
@@ -452,22 +473,17 @@ proxies:
   uuid: f018361c-3d66-4635-80c9-22be36b70ac4
 - alterId: 0
   cipher: auto
-  name: 49|HK10 16.4KB/s
-  network: ws
-  port: 443
-  server: 43.198.204.35
+  name: 50|HK8 372.2KB/s
+  network: tcp
+  port: 55314
+  server: 103.240.197.112
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 43.198.204.35
-      host: ce0gedpxwou6cqon.v.3dns.vip
-    path: /ws-vmess
+  uuid: bdb68629-1c6a-4eed-8083-7d4379a2dd52
 - alterId: 0
   cipher: auto
-  name: 49|HK12
+  name: 50|HK9
   network: ws
   port: 443
   server: 47.83.207.148
@@ -479,8 +495,23 @@ proxies:
     headers:
       Host: 47.83.207.148
     path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 50|HK13
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
+      host: vah4urdzl3jdx5r2.v.3dns.vip
+    path: /ws-vmess
 - client-fingerprint: random
-  name: 50|TG@ZDYZ2 -HK-Hong Kong3
+  name: 51|TG@ZDYZ2 -HK-Hong Kong3
   network: ws
   port: 2096
   server: 45.80.111.38
@@ -493,7 +524,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
 - client-fingerprint: random
-  name: 50|TG@ZDYZ2 -HK-Hong Kong7
+  name: 51|TG@ZDYZ2 -HK-Hong Kong7
   network: ws
   port: 443
   server: 43.198.53.11
@@ -507,7 +538,7 @@ proxies:
     path: TG%40ZDYZ2
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 52|HK - zhuhai.uk 02
+  name: 53|HK - zhuhai.uk 02
   port: 15003
   reality-opts:
     public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
@@ -519,7 +550,7 @@ proxies:
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 52|HK - zhuhai.uk 04
+  name: 53|HK - zhuhai.uk 04
   port: 15003
   reality-opts:
     public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8

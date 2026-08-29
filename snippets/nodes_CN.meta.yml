@@ -99,7 +99,7 @@ proxies:
     headers:
       Host: 124.222.189.225
     path: /
-- name: 50|🇨🇳+CN+中国+34
+- name: 51|🇨🇳+CN+中国+34
   network: ws
   port: 443
   server: 43.198.53.11

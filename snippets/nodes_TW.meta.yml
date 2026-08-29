@@ -1,7 +1,49 @@
 proxies:
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 22,48|🇹🇼 🇨🇳 台湾 | TWN 6
+  name: 22|C🟠🇹🇼[🎬🤖📺🎭]_dokng.com_558dec31
+  packet-encoding: xudp
+  port: 14507
+  reality-opts:
+    public-key: eob9-UdF6SeEtwcnPjECI1HE4iI6Aqef09AMAh3wJTw
+    short-id: d481c1dc
+  server: sgg8888.sys-metric-report.com
+  servername: tapp.cfastcdn.com
+  tls: true
+  type: vless
+  uuid: 6d148c06-71ff-4565-a7fc-f020bcfcbabf
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇹🇼[🎬🤖📺🎭]_dokng.com_664df887
+  packet-encoding: xudp
+  port: 26396
+  reality-opts:
+    public-key: eob9-UdF6SeEtwcnPjECI1HE4iI6Aqef09AMAh3wJTw
+    short-id: d481c1dc
+  server: sgg8888.sys-metric-report.com
+  servername: tapp.cfastcdn.com
+  tls: true
+  type: vless
+  uuid: 6d148c06-71ff-4565-a7fc-f020bcfcbabf
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇹🇼[🎬🤖📺🎭]_dokng.com_542c37a1
+  packet-encoding: xudp
+  port: 40370
+  reality-opts:
+    public-key: eob9-UdF6SeEtwcnPjECI1HE4iI6Aqef09AMAh3wJTw
+    short-id: d481c1dc
+  server: sgg8888.sys-metric-report.com
+  servername: tapp.cfastcdn.com
+  tls: true
+  type: vless
+  uuid: 6d148c06-71ff-4565-a7fc-f020bcfcbabf
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22,49|🇹🇼 🇨🇳 台湾 | TWN 6
   network: tcp
   port: 12069
   reality-opts:
@@ -14,3 +56,31 @@ proxies:
   tls: true
   type: vless
   uuid: 7b15ec5b-8aea-4742-963e-78b18363c2d4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇹🇼[🎬🤖📺🎭]_dokng.com_c75b4fc2
+  network: tcp
+  port: 35155
+  reality-opts:
+    public-key: ovrSiv4IO8ANPEwSpuJFNp266_vqTC8tRZ14A3uiUgo
+    short-id: 711830eff59f40
+  server: 34.80.191.169
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b64d2f40-c46d-4997-98cd-80ef30fe92e0
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -TW4
+  network: ws
+  port: 8443
+  server: 89.116.161.250
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2

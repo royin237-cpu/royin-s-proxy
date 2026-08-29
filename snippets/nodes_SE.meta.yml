@@ -183,7 +183,7 @@ proxies:
   uuid: d2aeb078-90db-4f90-b334-623bcbea8d31
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 48|🇸🇪 瑞典 | SWE
+  name: 49|🇸🇪 瑞典 | SWE
   network: tcp
   port: 443
   reality-opts:
@@ -197,7 +197,7 @@ proxies:
   uuid: d53f098c-c146-4c16-b8fc-263743fdb6b3
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 48|🇸🇪 瑞典 | SWE 2
+  name: 49|🇸🇪 瑞典 | SWE 2
   network: tcp
   port: 443
   reality-opts:

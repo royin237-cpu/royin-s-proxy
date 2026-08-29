@@ -109,21 +109,6 @@ proxies:
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
 - cipher: aes-256-cfb
-  name: 22,32,48|🇺🇸 美国 | USA 8
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 22,48|🇬🇧 英国 | GBR
-  password: amazonskr05
-  port: 443
-  server: 18.170.37.90
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 22,32|🇨🇦_CA_加拿大
   password: amazonskr05
   port: 443
@@ -149,14 +134,6 @@ proxies:
   server: api.meituan88.com
   type: ssr
 - cipher: aes-256-cfb
-  name: 22,32,48|🇹🇭 泰国 | THA
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 22,32|🇨🇳_CN_中国->🇰🇷_KR_韩国
   password: 7eadc6dbe2ae
   port: 65443
@@ -175,18 +152,6 @@ proxies:
     headers:
       Host: huojian.usfaster.top
     path: /images
-- alterId: 0
-  cipher: auto
-  client-fingerprint: safari
-  name: 22,42,49|US4
-  network: tcp
-  port: 443
-  server: guanwang.awsno.com
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - cipher: aes-256-cfb
   name: 22|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_ba9256ca
   password: amazonskr05
@@ -236,40 +201,3 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- name: 48|🇺🇸 美国 | USA 17
-  network: ws
-  password: 7e7d81db-779d-4216-9b94-7a6a09874549
-  port: 443
-  server: 0000.cloudflare.182682.xyz
-  skip-cert-verify: true
-  sni: huoyuznhhy5gkpj2g.usgogo202510.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: huoyuznhhy5gkpj2g.usgogo202510.top
-    path: /images
-- name: 48|🇺🇸 美国 | USA 23
-  network: ws
-  password: 7e7d81db-779d-4216-9b94-7a6a09874549
-  port: 443
-  server: 104.19.174.68
-  skip-cert-verify: true
-  sni: huojian.usfaster.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: huojian.usfaster.top
-    path: /images
-- name: 48,52|US - zhuhai.uk 05
-  network: ws
-  password: 7e7d81db-779d-4216-9b94-7a6a09874549
-  port: 443
-  server: 8888.cloudflare.182682.xyz
-  skip-cert-verify: true
-  sni: huojian.usfaster.top
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: huojian.usfaster.top
-    path: /images

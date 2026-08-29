@@ -8,6 +8,22 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 18,22|A🟢🇫🇮[🎬📺🎭🎪]_dokng.com_86e89645
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  server: fin2.helper-internet.com
+  servername: fin2.helper-internet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+  xudp: true
 - alterId: 64
   cipher: auto
   name: 26,40|🇧🇪BE-37.120.236.251-0725

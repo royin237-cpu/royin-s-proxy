@@ -31,7 +31,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: lK1wclmJRbMxj4FxIzvwxUDoX
-  name: 50|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+  name: 51|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
   network: grpc
   password: 4db45bb4-dcca-4d37-a639-cb55213ee406
   port: 2096

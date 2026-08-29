@@ -26,26 +26,6 @@ proxies:
     headers: {}
     path:
     - /
-  name: 22,48|🇯🇵 日本 | JPN 5
-  network: tcp
-  port: 18614
-  reality-opts:
-    public-key: w0jjW_RLHvQc2tk_7sbxfBawdMlJZfb7rKROwg051gA
-    short-id: c6966bed91ecd9
-  server: 13.114.124.85
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 926912d3-1656-4e83-9971-411b283f7998
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
   name: 22|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_a8b560fd
   network: tcp
   port: 28573
@@ -74,23 +54,3 @@ proxies:
   tls: true
   type: vless
   uuid: 88a67610-b7ae-42ba-8af0-29cfa54cef37
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 22,48|🇯🇵 日本 | JPN
-  network: tcp
-  port: 42263
-  reality-opts:
-    public-key: lLbzgXK1hx6K2J6rDUARlzZzjWqVXMjIhHsKmgEQI0U
-    short-id: d5cd4778d2da33
-  server: 35.77.87.249
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 37c00ed0-de07-4c7d-a4cf-049805c98713
-  xudp: true
