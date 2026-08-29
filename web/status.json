@@ -1,15 +1,20 @@
 {
-  "total": 95,
+  "total": 596,
   "regions": {
+    "JP": {
+      "flag": "🇯🇵",
+      "name": "日本",
+      "count": 1
+    },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 7
+      "count": 16
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 6
+      "count": 1
     },
     "HK": {
       "flag": "🇭🇰",
@@ -19,26 +24,31 @@
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 12
+      "count": 14
     },
     "CA": {
       "flag": "🇦🇨",
       "name": "加拿大",
-      "count": 58
+      "count": 66
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 2
+      "count": 3
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 1
+      "count": 5
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
+      "count": 3
+    },
+    "KR": {
+      "flag": "🇰🇷",
+      "name": "韩国",
       "count": 1
     },
     "RU": {
@@ -46,19 +56,24 @@
       "name": "俄罗斯",
       "count": 1
     },
+    "DE": {
+      "flag": "🇩🇪",
+      "name": "德国",
+      "count": 2
+    },
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 14
+      "count": 17
     },
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 1
+      "count": 2
     }
   },
-  "update_time": "2026-08-29 15:51",
-  "server_time": "2026-08-29 15:53:12",
+  "update_time": "2026-08-29 17:42",
+  "server_time": "2026-08-29 17:43:28",
   "sources": [
     {
       "index": 0,
@@ -98,7 +113,7 @@
     {
       "index": 7,
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clas",
-      "nodes": 1810
+      "nodes": 1803
     },
     {
       "index": 8,

@@ -27,6 +27,30 @@ proxies:
   server: 149.22.87.241
   type: ss
   udp: true
+- name: 7|trojan-1015413038
+  password: 0e2e0e96-5beb-4f91-8f88-24f60451e745
+  port: 50000
+  server: jp200m.jiasu.asia
+  skip-cert-verify: false
+  sni: jp200m.jiasu.asia
+  type: trojan
+  udp: true
+- name: 7|trojan-1002783837
+  password: 0964f6b7-6aab-4b84-9e80-dd078ed1f269
+  port: 50000
+  server: jp200m.jiasu.asia
+  skip-cert-verify: false
+  sni: jp200m.jiasu.asia
+  type: trojan
+  udp: true
+- name: 7|trojan-1010956634
+  password: fd3f82cc-bf25-4d3a-a379-09834800ade9
+  port: 50000
+  server: jp200m.jiasu.asia
+  skip-cert-verify: false
+  sni: jp200m.jiasu.asia
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 7,25|加拿大 003
@@ -68,13 +92,6 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 7|shadowsocks-468218487
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 138.199.43.159
-  type: ss
-  udp: true
-- cipher: rc4-md5
   name: 7|shadowsocks-468218613
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
@@ -95,13 +112,39 @@ proxies:
   server: ca225.vpnbook.com
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 7|shadowsocks-194
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.169
-  type: ss
+- name: 7|trojan-1002783866
+  password: d9ac7c6d-9ca8-4e1b-af9f-d268f69249b5
+  port: 50000
+  server: jp200m.jiasu.asia
+  skip-cert-verify: false
+  sni: jp200m.jiasu.asia
+  type: trojan
   udp: true
+- name: 7|trojan-1015413040
+  password: 0e2e0e96-5beb-4f91-8f88-24f60451e745
+  port: 50000
+  server: hk200m.jiasu.asia
+  skip-cert-verify: false
+  sni: hk200m.jiasu.asia
+  type: trojan
+  udp: true
+- name: 7|trojan-1013161933
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 38261
+  server: 107.150.105.84
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7|vmess-197954839
+  network: raw
+  port: 35034
+  server: 165.154.195.38
+  type: vmess
+  udp: true
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
   name: 7,25|以色列 001
@@ -139,15 +182,20 @@ proxies:
   type: vmess
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 7|vmess-1005580189
-  network: tcp
-  port: 16112
-  server: zfd-hkv2.kunlun01dns.com
-  type: vmess
+- cipher: rc4-md5
+  name: 7|shadowsocks-468218487
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 138.199.43.159
+  type: ss
   udp: true
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+- cipher: aes-256-gcm
+  name: 7|shadowsocks-1013628717
+  password: fbcec76953a2d173
+  port: 10501
+  server: 166.88.130.218
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 7|shadowsocks-246
   password: Xsy8Ox4yOV3xLlpxtjzs3X
@@ -169,6 +217,14 @@ proxies:
   server: 15.204.247.124
   type: ss
   udp: true
+- name: 7|trojan-1003746524
+  password: 5259333f-7f21-47a1-80fa-2a0c23db8e4f
+  port: 50000
+  server: jp200m.jiasu.asia
+  skip-cert-verify: false
+  sni: jp200m.jiasu.asia
+  type: trojan
+  udp: true
 - name: 7|trojan-33238130
   password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
   port: 50573
@@ -185,19 +241,51 @@ proxies:
   sni: www.microsoft.com
   type: trojan
   udp: true
-- name: 7|trojan-855516857
+- name: 7|trojan-855763679
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 38261
+  port: 54657
   server: us01.duotg.top
   skip-cert-verify: true
-  sni: ''
+  sni: www.microsoft.com
   type: trojan
   udp: true
+- name: 7|trojan-1015479484
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 54657
+  server: 107.150.105.84
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: trojan
+  udp: true
+- name: 7|trojan-856210247
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 59385
+  server: us01.duotg.top
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7|vmess-1019543998
+  network: none
+  port: 8443
+  server: 13.250.114.194
+  type: vmess
+  udp: true
+  uuid: 9dcb8d73-cc0b-4fcc-a12d-d7affb56267c
 - cipher: aes-256-cfb
   name: 7,18|my|94cf|puddincat07@Telegram
   password: 7eadc6dbe2ae
   port: 65443
   server: 118.107.222.231
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 7,21|A🟢🇫🇷[🎬🤖📺🎭]_dokng.com_41e6a38f
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -235,9 +323,65 @@ proxies:
   server: 154.127.56.212
   type: ss
   udp: true
+- name: 7|trojan-1020519946
+  password: d9ac7c6d-9ca8-4e1b-af9f-d268f69249b5
+  port: 50000
+  server: 43.165.185.191
+  skip-cert-verify: false
+  sni: jp200m.jiasu.asia
+  type: trojan
+  udp: true
+- name: 7|trojan-1020519945
+  password: fd3f82cc-bf25-4d3a-a379-09834800ade9
+  port: 50000
+  server: 43.165.185.191
+  skip-cert-verify: false
+  sni: jp200m.jiasu.asia
+  type: trojan
+  udp: true
+- name: 7|trojan-1020519947
+  password: 5259333f-7f21-47a1-80fa-2a0c23db8e4f
+  port: 50000
+  server: 43.165.185.191
+  skip-cert-verify: false
+  sni: jp200m.jiasu.asia
+  type: trojan
+  udp: true
+- name: 7|trojan-1013112679
+  password: r49gssuondznyu2eex83
+  port: 50740
+  server: 14.1.28.76
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- name: 7|trojan-1013161934
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 43022
+  server: us01.duotg.top
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- name: 7|trojan-1002282332
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 27732
+  server: us01.duotg.top
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- name: 7|trojan-1002282333
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 46292
+  server: 107.150.105.84
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 7|vmess-1014860710
+  name: 7|vmess-974446965
   network: raw
   port: 55216
   server: 155.248.176.44
@@ -273,24 +417,6 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 7|vmess-1005580197
-  network: tcp
-  port: 16114
-  server: zfd-hkv1.kunlun01dns.com
-  type: vmess
-  udp: true
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-- alterId: 0
-  cipher: auto
-  name: 7|vmess-1005123971
-  network: tcp
-  port: 21018
-  server: dog-hk.kunlun01dns.com
-  type: vmess
-  udp: true
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-- alterId: 0
-  cipher: auto
   name: 7|vmess-650629605
   network: raw
   port: 22324
@@ -298,20 +424,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- cipher: chacha20-ietf-poly1305
-  name: 7|shadowsocks-912445338
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  port: 50099
-  server: 36.224.151.80
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|shadowsocks-949634791
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 36.224.151.80
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 7|shadowsocks-154
   password: G5p6ww4o67HB
@@ -327,24 +439,17 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|shadowsocks-415241977
-  password: 2YdE4lFOid5a
-  port: 8388
-  server: 51.195.126.38
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|shadowsocks-860326402
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.159
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 7|shadowsocks-11027
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.206
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|shadowsocks-11026
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.200
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -390,6 +495,13 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 7|shadowsocks-258605572
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.201
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 7|shadowsocks-198822224
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
@@ -409,22 +521,6 @@ proxies:
   port: 65443
   server: 181.41.201.242
   type: ss
-  udp: true
-- name: 7|trojan-1013112679
-  password: r49gssuondznyu2eex83
-  port: 50740
-  server: 14.1.28.76
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
-- name: 7|trojan-1013161934
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 43022
-  server: us01.duotg.top
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
   udp: true
 - name: 7|trojan-871182531
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
@@ -490,7 +586,7 @@ proxies:
   sni: us01.duotg.top
   type: trojan
   udp: true
-- name: 7|trojan-1011377612
+- name: 7|trojan-1010756368
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   port: 27732
   server: 107.150.105.84
@@ -514,20 +610,12 @@ proxies:
   sni: us01.duotg.top
   type: trojan
   udp: true
-- name: 7|trojan-856212267
+- name: 7|trojan-855080374
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   port: 46292
   server: us01.duotg.top
   skip-cert-verify: true
   sni: www.microsoft.com
-  type: trojan
-  udp: true
-- name: 7|trojan-855957144
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 54657
-  server: us01.duotg.top
-  skip-cert-verify: true
-  sni: us01.duotg.top
   type: trojan
   udp: true
 - name: 7|trojan-855516904
@@ -546,15 +634,15 @@ proxies:
   sni: us01.duotg.top
   type: trojan
   udp: true
-- name: 7|trojan-1002282333
+- name: 7|trojan-1002196466
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 46292
-  server: 107.150.105.84
+  port: 38261
+  server: us01.duotg.top
   skip-cert-verify: true
   sni: ''
   type: trojan
   udp: true
-- name: 7|trojan-912445286
+- name: 7|trojan-916255884
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   port: 20065
   server: 107.150.105.84
@@ -570,31 +658,14 @@ proxies:
   sni: 107.150.105.84
   type: trojan
   udp: true
-- name: 7|trojan-856210247
+- name: 7|trojan-1015478501
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   port: 59385
-  server: us01.duotg.top
+  server: 107.150.105.84
   skip-cert-verify: true
   sni: www.microsoft.com
   type: trojan
   udp: true
-- name: 7|trojan-860001261
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 54657
-  server: us01.duotg.top
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 7|vmess-1019543998
-  network: none
-  port: 8443
-  server: 13.250.114.194
-  type: vmess
-  udp: true
-  uuid: 9dcb8d73-cc0b-4fcc-a12d-d7affb56267c
 - alterId: 0
   cipher: auto
   name: 7|vmess-712821905
@@ -623,17 +694,10 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - cipher: chacha20-ietf-poly1305
-  name: 7|shadowsocks-817361612
-  password: ljqdalu13..
-  port: 8319
-  server: 95.40.120.162
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|shadowsocks-1014983476
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  port: 50099
-  server: 36.224.152.189
+  name: 7|shadowsocks-415241977
+  password: 2YdE4lFOid5a
+  port: 8388
+  server: 51.195.126.38
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -644,10 +708,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|shadowsocks-209
-  password: 1hhrqrokj3ag
-  port: 8388
-  server: 209.46.102.22
+  name: 7|shadowsocks-921920790
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.175
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -706,26 +770,10 @@ proxies:
   server: 149.102.149.207
   type: ss
   udp: true
-- name: 7|trojan-1017335910
-  password: 0e2e0e96-5beb-4f91-8f88-24f60451e745
-  port: 50000
-  server: hk200m.jiasu.asia
-  skip-cert-verify: true
-  sni: hk200m.jiasu.asia
-  type: trojan
-  udp: true
 - name: 7|trojan-198804551
   password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
   port: 50573
   server: 139.59.238.97
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
-- name: 7|trojan-1013161933
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 38261
-  server: 107.150.105.84
   skip-cert-verify: true
   sni: ''
   type: trojan
@@ -738,7 +786,7 @@ proxies:
   sni: www.microsoft.com
   type: trojan
   udp: true
-- name: 7|trojan-812129146
+- name: 7|trojan-956996559
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   port: 43022
   server: us01.duotg.top
@@ -754,28 +802,28 @@ proxies:
   sni: ''
   type: trojan
   udp: true
-- name: 7|trojan-855957127
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 38261
-  server: us01.duotg.top
-  skip-cert-verify: true
-  sni: us01.duotg.top
-  type: trojan
-  udp: true
-- name: 7|trojan-1002282332
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 27732
-  server: us01.duotg.top
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
 - name: 7|trojan-826756143
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   port: 20065
   server: us01.duotg.top
   skip-cert-verify: true
   sni: www.microsoft.com
+  type: trojan
+  udp: true
+- name: 7|trojan-855957144
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 54657
+  server: us01.duotg.top
+  skip-cert-verify: true
+  sni: us01.duotg.top
+  type: trojan
+  udp: true
+- name: 7|trojan-1003734376
+  password: kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi
+  port: 443
+  server: tr-switzerlandgopota.unlimited-access.ru
+  skip-cert-verify: false
+  sni: tr-switzerlandgopota.unlimited-access.ru
   type: trojan
   udp: true
 - alterId: 0
@@ -853,10 +901,10 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - cipher: chacha20-ietf-poly1305
-  name: 7|shadowsocks-42869377
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
+  name: 7|shadowsocks-817361612
+  password: ljqdalu13..
+  port: 8319
+  server: 95.40.120.162
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -864,6 +912,13 @@ proxies:
   password: TFElG2FVqyqG
   port: 8388
   server: 176.97.64.144
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|shadowsocks-181
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.205
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -881,10 +936,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|shadowsocks-176
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.57
+  name: 7|shadowsocks-209
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -894,11 +949,18 @@ proxies:
   server: 102.37.156.224
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|shadowsocks-238
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.217
+- cipher: aes-256-cfb
+  name: 7|shadowsocks-812343744
+  password: S2zDyyPcmZN2h8EC
+  port: 9076
+  server: 217.30.10.44
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|shadowsocks-717969033
+  password: jt2ekBNc9HuVtm2a
+  port: 9052
+  server: 217.30.10.44
   type: ss
   udp: true
 - cipher: aes-128-gcm
@@ -934,13 +996,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.162
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|shadowsocks-11012
-  password: eDfN7SODQceIOmIAbtJJtK
-  port: 443
-  server: 198.98.53.130
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -984,46 +1039,6 @@ proxies:
   port: 443
   server: 2.58.81.221
   type: ss
-  udp: true
-- name: 7|trojan-1020327734
-  password: 24ef7cf6-9997-4886-9ef7-9e8233c6766f
-  port: 50000
-  server: hk200m.jiasu.asia
-  skip-cert-verify: false
-  sni: hk200m.jiasu.asia
-  type: trojan
-  udp: true
-- name: 7|trojan-1002836641
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 27732
-  server: us01.duotg.top
-  skip-cert-verify: true
-  sni: us01.duotg.top
-  type: trojan
-  udp: true
-- name: 7|trojan-655646828
-  password: r49gssuondznyu2eex83
-  port: 50740
-  server: 14.1.28.76
-  skip-cert-verify: true
-  sni: 14.1.28.76
-  type: trojan
-  udp: true
-- name: 7|trojan-635823137
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.114
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
-- name: 7|trojan-474852671
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.114
-  skip-cert-verify: true
-  sni: 64.94.95.114
-  type: trojan
   udp: true
 - name: 16|VN 6 → tg@nicevpn123
   password: 5a92d674-308c-4d95-b283-28383e63a59b
@@ -1075,45 +1090,69 @@ proxies:
   sni: z-v2-003274.kailib.com
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 18|gb|b8bd|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 18.171.210.5
-  type: ss
-- cipher: aes-256-cfb
-  name: 18,21,30|🇹🇭_TH_泰国
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 18|ie|526e|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 34.244.150.119
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  - h2
-  - h3
-  client-fingerprint: chrome
-  name: 18|us|5eb0|puddincat07@Telegram
+- client-fingerprint: chrome
+  name: 18|us|cc28|puddincat07@Telegram
   network: ws
   password: humanity
   port: 443
-  server: 198.41.223.96
+  server: 104.18.152.246
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 18|xx|0c76|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: ip.myip2.qzz.io
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 18|xx|cf0d|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 18|us|f508|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 130.250.137.171
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
     path: /assignment
 - cipher: chacha20-ietf
   name: 21|A🟢🇻🇳[🤖📺🎪✨]_dokng.com_462f633a
@@ -1125,30 +1164,6 @@ proxies:
   protocol-param: 116735:zssrOQ
   server: api.meituan88.com
   type: ssr
-- cipher: aes-256-cfb
-  name: 21|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_31ee3f2b
-  password: amazonskr05
-  port: 443
-  server: 18.132.203.206
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '21,30,37,38|🇫🇷FR-162.19.192.89-0433 #1'
-  network: ws
-  port: 16617
-  server: p4.cnb.linuxlh.xin
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c
-  ws-opts:
-    headers:
-      Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
-    path: /
-  xudp: true
 - alterId: 0
   cipher: auto
   name: 21,38|🇺🇸US-38.147.160.203-2192
@@ -1159,17 +1174,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 655300ee-f085-4b62-bc56-207e1c095a4a
-- name: 21|C🟠🇫🇷_dokng.com_b82a343f
+- client-fingerprint: chrome
+  name: 21|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_2457ab68
   network: ws
   password: humanity
-  port: 2053
-  server: 168.100.9.178
-  skip-cert-verify: true
-  sni: www.calmlunch.com
+  port: 443
+  server: 176.97.66.175
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: www.calmlunch.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
 - alterId: 0
   cipher: auto
@@ -1217,6 +1235,18 @@ proxies:
     headers:
       Host: sg.11160321.de5.net
     path: /
+- alterId: 2
+  cipher: auto
+  delay: 1330
+  name: '25,40|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 25|英国 004
@@ -1262,6 +1292,16 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 2
+  cipher: auto
+  name: 30|🇨🇳_CN_中国->🇺🇸_US_美国
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: '37,38|🏁RELAY-104.21.58.173-5126 #1'
@@ -1276,32 +1316,9 @@ proxies:
     headers:
       Host: rush-6it6b.teeopp.quest
     path: /video/kz49hf/gbin5jve.m3u8
-- alterId: 0
-  cipher: auto
-  name: '37,38|🇭🇰HK-47.244.120.197-5077 #1'
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 46|未知28 1007.5KB/s
-  network: ws
-  port: 2053
-  server: 172.238.96.215
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers:
-      Host: 172.238.96.215
-      host: deapp.jisuyun.top
-    path: /devm
+- name: '37,38|🇰🇿KZ-5.180.21.146-5119 #1'
+  password: owefv0_92Z540k2F_nx83245_J9130oS_tY
+  port: 4443
+  server: 5.180.21.146
+  sni: borat-hopp.bumbleshrimp.com
+  type: trojan

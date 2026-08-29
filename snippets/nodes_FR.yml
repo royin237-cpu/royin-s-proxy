@@ -1,13 +1,16 @@
 proxies:
-- name: 21|C🟠🇫🇷_dokng.com_b82a343f
+- client-fingerprint: chrome
+  name: 21|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_2457ab68
   network: ws
   password: humanity
-  port: 2053
-  server: 168.100.9.178
-  skip-cert-verify: true
-  sni: www.calmlunch.com
+  port: 443
+  server: 176.97.66.175
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: www.calmlunch.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment

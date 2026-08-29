@@ -1,20 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 21|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_86e89645
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: ff776ff77be48b88
-  server: fin2.helper-internet.com
-  servername: fin2.helper-internet.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
-  xudp: true
 - auth: 901113fb-2ddd-4472-84bf-307de471f32f
   name: 21|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_1750cdd0
   password: 901113fb-2ddd-4472-84bf-307de471f32f

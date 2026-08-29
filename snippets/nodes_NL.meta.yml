@@ -37,12 +37,6 @@ proxies:
   server: 152.70.50.74
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 21|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_6ec140e0
-  network: tcp
-  port: 62145
-  server: 134.98.153.222
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -77,3 +71,12 @@ proxies:
   server: 141.148.247.166
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 22|荷兰
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  password: HowdyHysteria2023w0W
+  port: 8443
+  server: hysteria.udpgw.com
+  skip-cert-verify: true
+  sni: sni-here.com
+  type: hysteria2
