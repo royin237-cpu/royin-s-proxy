@@ -74,6 +74,23 @@ proxies:
   type: vmess
   udp: true
   uuid: b52da429-91a0-3834-a4e0-0ed299ba8121
+- alterId: 0
+  cipher: auto
+  name: '21,30,37,38|🇫🇷FR-162.19.192.89-0433 #1'
+  network: ws
+  port: 16617
+  server: p4.cnb.linuxlh.xin
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c
+  ws-opts:
+    headers:
+      Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - alterId: 2
   cipher: auto
   name: 21|C🟠🇯🇵[📺]_dokng.com_41228966

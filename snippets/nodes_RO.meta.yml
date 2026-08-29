@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 17|伊朗+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  server: 185.174.135.28
+  servername: eston8.helper-internet.com
+  tls: true
+  type: vless
+  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
 - name: 25|罗马尼亚 004
   network: ws
   port: 2053

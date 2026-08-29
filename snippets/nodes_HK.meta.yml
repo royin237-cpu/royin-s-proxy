@@ -13,3 +13,230 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 21|A🟢🇭🇰[🎬🧠📺🎭]_dokng.com_ccadf4a8
+  port: 443
+  reality-opts:
+    public-key: em4y1LNcT6JuLvEa3LoNYikp1vShx4ToM1rhvNe-kSY
+    short-id: c975352f
+  server: 874e71ae-6c7c-4944-a959-dd6004aab194.ad68289f-02c1-4eeb-83e3-f18114f90c86.byteprivatelink.com
+  servername: live.douyin.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2ea68849-7639-4eec-8af8-102e692fa8e6
+- name: 22| HK
+  password: f4927789e58bcd24b6f6
+  port: 10444
+  server: h.zz2233.cyou
+  sni: h.zz2233.cyou
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '37,38|🇭🇰HK-47.244.120.197-5076 #1'
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '37,38|🇭🇰HK-47.244.120.197-5077 #1'
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '37,38|🇭🇰HK-47.244.120.197-0190 #1'
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '37,38|🇭🇰HK-47.244.120.197-0192 #1'
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /
+- name: 38|🇭🇰HK-20.187.85.198-4553
+  password: b26e31e5-eac1-45b0-9069-83830bd69521
+  port: 443
+  server: 20.187.85.198
+  sni: hkt.iamnotagoodman.com
+  type: trojan
+- name: 38|🇭🇰HK-219.76.13.181-6770
+  password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
+  port: 443
+  server: 219.76.13.181
+  sni: arbettp.freetrade.link
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 40,45|香港|@ripaojiedian
+  network: tcp
+  port: 30807
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 46|HK2 13.5KB/s
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 46|HK3 18.6KB/s
+  network: ws
+  port: 443
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: qtkdr8jxe3wefxjm.v.3dns.vip
+      host: qTKDR8jXE3wEFxJM.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 46|HK5
+  network: ws
+  port: 443
+  server: i2psm3knof5qjjix.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: i2psm3knof5qjjix.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 46|HK7 21.5KB/s
+  network: ws
+  port: 443
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: nycqg19zkwacpm1b.v.3dns.vip
+      host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 46|HK8 10.1KB/s
+  network: ws
+  port: 443
+  server: 8.218.184.4
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 8.218.184.4
+      host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 46|HK9
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
+      host: vah4urdzl3jdx5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 46|HK11 9.2KB/s
+  network: ws
+  port: 443
+  server: drbkg16egf3fzlm3.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: drbkg16egf3fzlm3.v.3dns.vip
+      host: DrBKg16eGf3FZlM3.v.3dns.vip
+    path: /ws-vmess
+- client-fingerprint: random
+  name: 47|TG@ZDYZ2 -HK-Hong Kong3
+  network: ws
+  port: 2096
+  server: 45.80.111.38
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 47|TG@ZDYZ2 -HK-Hong Kong7
+  network: ws
+  port: 443
+  server: 43.198.53.11
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2

@@ -1,4 +1,20 @@
 proxies:
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 21|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_86e89645
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  server: fin2.helper-internet.com
+  servername: fin2.helper-internet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+  xudp: true
 - auth: 901113fb-2ddd-4472-84bf-307de471f32f
   name: 21|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_1750cdd0
   password: 901113fb-2ddd-4472-84bf-307de471f32f
@@ -7,3 +23,42 @@ proxies:
   skip-cert-verify: true
   sni: fi2.katanalink.net
   type: hysteria2
+- client-fingerprint: chrome
+  name: 21|D🔴🇫🇮_dokng.com_618ae302
+  network: ws
+  port: 443
+  server: 5.45.117.125
+  servername: freeuse.firta.ru
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: freeuse.firta.ru
+    path: /
+- name: 25|芬兰 001
+  network: grpc
+  port: 443
+  server: 135.181.41.45
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 38|🇫🇮FI-65.109.134.191-4365
+  network: ws
+  port: 80
+  server: 65.109.134.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 91698747-92b3-4a07-b5da-22694edbea82
+  ws-opts:
+    headers:
+      Host: 65.109.134.191
+    path: /graphql

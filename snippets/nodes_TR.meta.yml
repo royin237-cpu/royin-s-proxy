@@ -28,16 +28,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 25|土耳其 002
-  network: tcp
-  port: 443
-  server: 139.28.241.77
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d5c40b1-102c-4343-94cc-d5b794dbd0c6
 - client-fingerprint: chrome
   name: 25|土耳其 004
   network: ws

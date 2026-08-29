@@ -1,4 +1,26 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 16|VN 1 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 103.75.185.221
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9e5999ba-870a-46b1-8500-37c640371ec6
+  ws-opts:
+    headers:
+      Host: 103.75.185.221
+    path: /bs
+- name: 16|VN 5 → tg@nicevpn123
+  password: 5a92d674-308c-4d95-b283-28383e63a59b
+  port: 443
+  server: vn-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 16|VN 6 → tg@nicevpn123
   password: 5a92d674-308c-4d95-b283-28383e63a59b
   port: 443
@@ -16,3 +38,59 @@ proxies:
   protocol-param: 116735:zssrOQ
   server: api.meituan88.com
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: 38|🇻🇳VN-103.166.183.226-0365
+  network: ws
+  port: 80
+  server: 103.166.183.226
+  servername: dl.kgvn.garenanow.com
+  tls: false
+  type: vmess
+  uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
+  ws-opts:
+    headers:
+      Host: dl.kgvn.garenanow.com
+    path: /tandung288.click
+- alterId: 0
+  cipher: auto
+  name: 38|🇻🇳VN-103.56.160.184-0428
+  network: ws
+  port: 80
+  server: 103.56.160.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
+  ws-opts:
+    headers:
+      Host: 103.56.160.184
+    path: /tandung288.click
+- alterId: 0
+  cipher: auto
+  name: 38|🇻🇳VN-103.75.186.153-0429
+  network: ws
+  port: 80
+  server: 103.75.186.153
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
+  ws-opts:
+    headers:
+      Host: 103.75.186.153
+    path: /tandung288.click
+- alterId: 0
+  cipher: auto
+  name: 38|🇻🇳VN-103.82.25.106-7989
+  network: ws
+  port: 80
+  server: 103.82.25.106
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c
+  ws-opts:
+    headers:
+      Host: 103.82.25.106
+    path: /fuzzyng?ed=2048
