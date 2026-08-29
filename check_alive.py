@@ -31,6 +31,10 @@ RETRY = int(os.environ.get("ALIVE_RETRY", "1"))
 # 免费节点质量参差，云端在海外机房测活，大量节点对国内用户仍会 timeout，
 # 只保留延迟最低的一批可显著降低客户端实际测到的 timeout 比例，并控制订阅体积。
 MAX_KEEP = int(os.environ.get("ALIVE_MAX_KEEP", "0"))
+# 单源配额：每个来源最多保留的节点数（0 或未设置 = 不限制）。
+# 防止聚合源独霸名额（如 Au1rxx 曾占 150 名额中的 128 个，且其节点国内不通），
+# 保证订阅来源多样性——用户能用的节点更可能被保留。
+MAX_PER_SOURCE = int(os.environ.get("ALIVE_MAX_PER_SOURCE", "0"))
 # 垃圾协议预过滤：公开抓取的 http/socks5 代理多为海外机房内网代理，
 # 国内直连基本不可用，且占据订阅体积，测活前直接剔除
 DROP_TYPES = {t.strip() for t in os.environ.get("ALIVE_DROP_TYPES", "http,socks5").split(",") if t.strip()}
@@ -144,6 +148,33 @@ def measure(binary, proxies):
 def load_yaml(path):
     with path.open(encoding="utf-8") as stream:
         return yaml.safe_load(stream) or {}
+
+
+def source_of(name: str) -> str:
+    """从节点名提取来源标识。命名形如 '7|xxx' 或 '7,21|xxx'，取首个源序号。"""
+    if "|" in name:
+        head = name.split("|", 1)[0]
+        return head.split(",")[0].strip()
+    return "?"
+
+
+def apply_source_quota(merged: dict, per_source: int) -> dict:
+    """单源配额：按延迟升序均衡各来源节点数。
+
+    merged: {节点名: 延迟ms}，已按延迟升序传入。
+    返回：受配额约束后的新 dict（仍按延迟升序）。
+    """
+    if per_source <= 0:
+        return merged
+    counts = {}
+    result = {}
+    for name, delay in merged.items():
+        src = source_of(name)
+        if counts.get(src, 0) >= per_source:
+            continue  # 该来源已达配额，跳过（延迟更慢的同源节点被挤掉）
+        counts[src] = counts.get(src, 0) + 1
+        result[name] = delay
+    return result
 
 
 def save_yaml(path, data, header=""):
@@ -285,6 +316,12 @@ def main():
         print(f"[alive] trimming {len(ordered)} -> {MAX_KEEP} fastest nodes (ALIVE_MAX_KEEP={MAX_KEEP})", flush=True)
         ordered = ordered[:MAX_KEEP]
     merged = dict(ordered)
+
+    # 单源配额：防止某个源独霸名额
+    if MAX_PER_SOURCE > 0:
+        before = len(merged)
+        merged = apply_source_quota(merged, MAX_PER_SOURCE)
+        print(f"[alive] source quota {MAX_PER_SOURCE}/source: {before} -> {len(merged)} nodes", flush=True)
 
     if len(merged) / len(proxies) < MIN_ALIVE_RATIO:
         print(f"[alive] WARNING: only {len(merged)}/{len(proxies)} alive "

@@ -101,7 +101,9 @@ https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity
 # PuddinCat/BestClash - 每 30 分钟自动爬取+测速（当天有提交）
 https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml
 # Au1rxx/free-vpn-subscriptions - 每小时 HTTP-over-proxy 真实验证，仅发存活节点
-https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml
+# 2026-08-29 实测：该源节点(31.58.x.x 等英国机房+固定伪装SNI)对国内用户大量不可用，
+# 且曾霸占 150 名额中的 128 个，挤掉其它源可用节点。max=50 令其整源忽略（保留溯源）。
+https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml#max=50
 # Ruk1ng001/freeSub - 定期筛选去重（2026-08 仍更新）
 https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
 # ermaozi - 两代订阅均活跃
