@@ -46,22 +46,6 @@ proxies:
   udp: true
   uuid: e0e09114-371e-4d87-b2f0-d7ee58be74a9
   xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 21|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_6387bcb2
-  network: grpc
-  port: 10037
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -102,13 +86,3 @@ proxies:
   udp: true
   uuid: 5e4c4ee0-9a52-421e-8427-7ad6ff027312
   xudp: true
-- alterId: 2
-  cipher: auto
-  name: 30|🇸🇬_SG_新加坡
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

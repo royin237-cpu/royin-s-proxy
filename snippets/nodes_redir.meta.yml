@@ -1,15 +1,11 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 30|🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
-  port: 15006
-  reality-opts:
-    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
-    short-id: 029a6cc4
-  server: 82.38.46.66
-  servername: www.adobe.com
+- alterId: 2
+  cipher: auto
+  name: 30|🇨🇳_CN_中国->🇺🇸_US_美国
+  port: 30804
+  server: v4.hdacd.com
   skip-cert-verify: true
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

@@ -1,15 +1,42 @@
 proxies:
+- name: 16|🇮🇳 IN 12 → tg@nicevpn123
+  password: bedabbf8-7fee-4083-aa16-269dfa569c4a
+  port: 443
+  server: in-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 16|🇮🇳 IN 15 → tg@nicevpn123
+  password: 3e8f7ba4-be6e-4c16-9364-84a1ee62fb03
+  port: 443
+  server: in-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 16|🇮🇳 IN 7 → tg@nicevpn123
+  password: 6d1e8f64-c0e3-41ff-a647-e42a5f231baa
+  port: 443
+  server: in-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '37,38|🇮🇳IN-152.67.8.205-0187 #1'
+  name: 16|🇮🇳 IN 8 → tg@nicevpn123
   network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 152.67.8.205
-  tls: false
+  port: 443
+  server: in-full.privateip.net
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  udp: true
+  uuid: bbc7813a-5d9d-4e97-807c-3aed8189c4cb
   ws-opts:
     headers:
-      Host: 152.67.8.205
-    path: /
+      Host: in-full.privateip.net
+    path: /RACEVPN
+- name: 38|🇮🇳IN-152.67.160.174-1173
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  port: 443
+  server: 152.67.160.174
+  type: trojan

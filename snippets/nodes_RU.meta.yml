@@ -27,22 +27,6 @@ proxies:
     headers:
       Host: ru05.abvpn.ru
     path: /websocket
-- client-fingerprint: chrome
-  name: 25|俄罗斯 023
-  network: ws
-  port: 8443
-  server: 147.45.175.81
-  servername: vlessru.duckdns.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  ws-opts:
-    headers:
-      Host: vlessru.duckdns.org
-    path: /wsru
 - alterId: 0
   cipher: auto
   name: '37,38|🇷🇺RU-37.220.161.249-1368 #1'

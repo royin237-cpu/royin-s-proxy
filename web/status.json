@@ -1,5 +1,5 @@
 {
-  "total": 129,
+  "total": 118,
   "regions": {
     "US": {
       "flag": "🇺🇸",
@@ -42,8 +42,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-29 13:14",
-  "server_time": "2026-08-29 13:15:45",
+  "update_time": "2026-08-29 14:01",
+  "server_time": "2026-08-29 14:02:21",
   "sources": [
     {
       "index": 0,
@@ -83,7 +83,7 @@
     {
       "index": 7,
       "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clas",
-      "nodes": 1931
+      "nodes": 1828
     },
     {
       "index": 8,
