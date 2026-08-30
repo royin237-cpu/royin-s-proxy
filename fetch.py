@@ -930,30 +930,6 @@ def extract(url: str) -> Union[Set[str], int]:
 merged: Dict[int, Node] = {}
 unknown: Set[str] = set()
 used: Dict[int, Dict[int, str]] = {}
-def merge(source_obj: Source, sourceId=-1) -> None:
-    global merged, unknown
-    sub = source_obj.sub
-    if not sub: print("空订阅，跳过！", end='', flush=True); return
-    for p in sub:
-        if isinstance(p, str) and '://' not in p: continue
-        try: n = Node(p)
-        except KeyboardInterrupt: raise
-        except UnsupportedType as e:
-            if len(e.args) == 1:
-                print(f"不支持的类型：{e}")
-            unknown.add(p) # type: ignore
-        except: traceback.print_exc()
-        else:
-            n.format_name()
-            Node.names.add(n.data['name'])
-            hashn = hash(n)
-            if hashn not in merged:
-                merged[hashn] = n
-            else:
-                merged[hashn].data.update(n.data)
-            if hashn not in used:
-                used[hashn] = {}
-            used[hashn][sourceId] = n.name
 
 def merge_local(source_obj: Source):
     """纯解析（无全局副作用）：把已抓取的源解析为本地节点字典，供各抓取线程并行调用。
