@@ -23,11 +23,12 @@ proxies:
     path: /kwhmvws
 - alterId: 0
   cipher: auto
-  name: 40|🇦🇺AU-103.224.212.211-0729
+  name: 26,40|🇦🇺AU-103.224.212.211-0729
   network: ws
   port: 443
   server: 34.72img.xyz
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -37,11 +38,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 40|🇦🇺AU-103.224.212.211-0746
+  name: 26,40|🇦🇺AU-103.224.212.211-0746
   network: ws
   port: 443
   server: 36.72img.xyz
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -51,11 +53,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 40|🇦🇺AU-103.224.212.211-0754
+  name: 26,40|🇦🇺AU-103.224.212.211-0754
   network: ws
   port: 443
   server: 25.72img.xyz
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -65,11 +68,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 40|🇦🇺AU-103.224.212.211-0765
+  name: 26,40|🇦🇺AU-103.224.212.211-0765
   network: ws
   port: 443
   server: 55.72img.xyz
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -79,11 +83,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 40|🇦🇺AU-103.224.212.211-0767
+  name: 26,40|🇦🇺AU-103.224.212.211-0767
   network: ws
   port: 443
   server: 26.72img.xyz
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -93,11 +98,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 40|🇦🇺AU-103.224.212.211-0768
+  name: 26,40|🇦🇺AU-103.224.212.211-0768
   network: ws
   port: 443
   server: 54.72img.xyz
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -107,11 +113,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 40|🇦🇺AU-103.224.212.211-0771
+  name: 26,40|🇦🇺AU-103.224.212.211-0771
   network: ws
   port: 443
   server: 9.72img.xyz
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -121,11 +128,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 40|🇦🇺AU-103.224.212.211-0772
+  name: 26,40|🇦🇺AU-103.224.212.211-0772
   network: ws
   port: 443
   server: 29.72img.xyz
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -135,11 +143,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 40|🇦🇺AU-103.224.212.211-0788
+  name: 26,40|🇦🇺AU-103.224.212.211-0788
   network: ws
   port: 443
   server: 22.72img.xyz
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -149,11 +158,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 40|🇦🇺AU-103.224.212.211-0796
+  name: 26,40|🇦🇺AU-103.224.212.211-0796
   network: ws
   port: 443
   server: 21.72img.xyz
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -163,11 +173,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 40|🇦🇺AU-103.224.212.211-0799
+  name: 26,40|🇦🇺AU-103.224.212.211-0799
   network: ws
   port: 443
   server: 20.72img.xyz
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -177,11 +188,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 40|🇦🇺AU-103.224.212.210-0809
+  name: 26,40|🇦🇺AU-103.224.212.210-0809
   network: ws
   port: 443
   server: oplg1.cfcdn2.xyz
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
@@ -189,6 +201,36 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
     path: /AUIKN8AU
+- alterId: 0
+  cipher: auto
+  name: 26,40|🇦🇺AU-103.224.212.211-1272
+  network: ws
+  port: 443
+  server: clash6.ssr-free.xyz
+  servername: clash6.ssr-free.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-opts:
+    headers:
+      Host: clash6.ssr-free.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 26,40|🇦🇺AU-103.224.212.211-4089
+  network: ws
+  port: 443
+  server: 38.72img.xyz
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: 38.72img.xyz
+    path: /
 - name: 40|🇦🇺AU-103.224.212.216-1079
   password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
   port: 80
@@ -199,34 +241,6 @@ proxies:
   port: 80
   server: uk1.trojanvh.xyz
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 40|🇦🇺AU-103.224.212.211-1272
-  network: ws
-  port: 443
-  server: clash6.ssr-free.xyz
-  servername: clash6.ssr-free.xyz
-  tls: true
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  ws-opts:
-    headers:
-      Host: clash6.ssr-free.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 40|🇦🇺AU-103.224.212.211-4089
-  network: ws
-  port: 443
-  server: 38.72img.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    headers:
-      Host: 38.72img.xyz
-    path: /
 - name: 40|🇦🇺AU-103.224.212.210-6572
   network: ws
   password: 4d706727-996f-4427-930d-60f3bd414cf9

@@ -6,27 +6,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 22|A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1
-  password: ''
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 22|D🔴🇸🇬_dokng.com_6b1b4589
-  port: 9090
-  server: 104.248.151.93
-  type: http
-- name: 22|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_26d0e430
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  sni: 92461d2d.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -34,7 +13,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 22|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_72978fff
+  name: 22,49|🇸🇬 新加坡 | SGP 5
   network: tcp
   port: 41159
   reality-opts:
@@ -47,3 +26,20 @@ proxies:
   udp: true
   uuid: cc138c2d-5e03-4efd-a935-fc500e938033
   xudp: true
+- name: 22|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_26d0e430
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  sni: 92461d2d.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 22|A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''

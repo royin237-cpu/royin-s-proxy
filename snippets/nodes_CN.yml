@@ -1,13 +1,13 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 19,22,41,45|🇺🇸US_2|2.3MB/s
+  name: 22,41|🇨🇳CN-121.46.230.233-39
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.233
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 22,32,49|🇺🇸 美国 | USA 20
+  name: 22,32,49|🇺🇸 美国 | USA 3
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.232
@@ -15,7 +15,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 22,32,45|🇰🇷KR_1|5.9MB/s
+  name: 22,32,45|🇰🇷KR_1|2.0MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.138

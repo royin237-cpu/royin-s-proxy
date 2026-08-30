@@ -1,5 +1,5 @@
 proxies:
-- name: 22|A🟢🇹🇷[🎬🤖📺🎭]_dokng.com_6b20164e
+- name: 22,45|🇹🇷TR_1|1.4MB/s
   port: 8096
   server: 212.192.6.248
   type: http

@@ -27,7 +27,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: safari
-  name: 22,50|US7
+  name: 22|U⚪🏳️_dokng.com_54d00832
   network: tcp
   port: 443
   server: guanwang.awsno.com
@@ -36,13 +36,9 @@ proxies:
   tls: true
   type: vmess
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- alterId: 0
-  name: 40,50|🇺🇸US美国22
+- name: 40|🇺🇸US-216.24.57.1-0714
   password: humanity
   port: 443
   server: render.com
-  skip-cert-verify: true
   sni: www.ignitelimit.com
-  tls: true
   type: trojan
-  udp: true

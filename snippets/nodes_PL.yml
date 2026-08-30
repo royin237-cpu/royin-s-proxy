@@ -13,17 +13,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 50|未知45
-  network: tcp
-  port: 61977
-  server: pl2.pi10.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 113ae61b-d6da-4d08-9221-48595cb8436c
-- alterId: 0
-  cipher: auto
-  name: 50|未知65
+  name: 50|未知58
   network: tcp
   port: 45402
   server: pl2.pi10.ir

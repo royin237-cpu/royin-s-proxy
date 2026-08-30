@@ -1,4 +1,17 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 26|日本 005
+  network: ws
+  port: 80
+  server: 61.245.11.60
+  skip-cert-verify: true
+  type: vmess
+  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
+  ws-opts:
+    headers:
+      Host: 61.245.11.60
+    path: /vmess/
 - alterId: 0
   cipher: auto
   name: 26,40|🇵🇭PH-120.28.10.46-0573
@@ -14,17 +27,3 @@ proxies:
     headers:
       Host: sazgar.serveirc.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 50|未知3 132.5KB/s
-  network: ws
-  port: 80
-  server: 61.245.11.60
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
-  ws-opts:
-    headers:
-      Host: 61.245.11.60
-    path: /vmess/

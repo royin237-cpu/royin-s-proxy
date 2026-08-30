@@ -1,25 +1,45 @@
 proxies:
-- alterId: 0
-  name: 39,40,50|🇪🇪EE爱沙尼亚
-  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
-  port: 449
-  server: 109.206.241.10
-  skip-cert-verify: true
-  sni: russiapower.accesscam.org
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 49|🇪🇪 爱沙尼亚 | EST
+- client-fingerprint: chrome
+  name: 26|伊朗 003
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: t6UrJc0ABkzM0oW0l1TiGdxFUIITAj19nb0WKjM-Wkg
-    short-id: 5bce48722af99601
-  server: 95.85.249.77
-  servername: ee1.tgflow.me
+  port: 8443
+  server: 94.183.170.135
+  servername: estproxy4.lockdwn.com
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: d53f098c-c146-4c16-b8fc-263743fdb6b3
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+- name: 26|捷克 002
+  network: grpc
+  port: 8443
+  server: 95.85.224.3
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e8f7489-e65f-4be6-93ed-867a74ec6759
+- client-fingerprint: chrome
+  name: 26|爱沙尼亚 001
+  network: ws
+  port: 443
+  server: 5.45.117.125
+  servername: freeuse.firta.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: freeuse.firta.ru
+    path: /
+- name: '39,40|🇪🇪EE-109.206.241.10-0194 #1'
+  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
+  port: 449
+  server: 109.206.241.10
+  sni: russiapower.accesscam.org
+  type: trojan

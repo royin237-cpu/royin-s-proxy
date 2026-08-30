@@ -1,16 +1,20 @@
 proxies:
-- name: 22|D🔴🇭🇰[📺🎭]_dokng.com_054bd55d
+- name: 22|D🔴🇭🇰[🎬📺🎭✨]_dokng.com_054bd55d
   port: 10808
   server: 123.58.219.171
   type: socks5
-- name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_6738ba5f
-  password: None
+- name: 22|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_8cb372cb
   port: 443
   server: hk40.240104.xyz
-  skip-cert-verify: false
+  sni: hk40.240104.xyz
   tls: true
   type: http
-  username: null
+- name: 22|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_da7c41d8
+  password: admin
+  port: 1080
+  server: 47.239.116.165
+  type: socks5
+  username: admin
 - name: 22|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_d21277d2
   password: 'null'
   port: 443
@@ -19,22 +23,10 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 22|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_4c6d8eb9
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
-- name: 22|C🟠🇭🇰[📺🎭🎪📦]_dokng.com_099454ad
+- name: 22|C🟠🇭🇰[🔍]_dokng.com_099454ad
   password: '!!str 111'
   port: 11211
   server: 47.243.173.50
   skip-cert-verify: true
   type: socks5
   username: '111'
-- name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_da7c41d8
-  password: admin
-  port: 1080
-  server: 47.239.116.165
-  type: socks5
-  username: admin

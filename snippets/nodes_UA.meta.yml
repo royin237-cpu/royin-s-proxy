@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- name: 22|A🟢🇺🇦[🎬🤖📺✨]_dokng.com_1fedb69a
+  port: 6789
+  server: 91.203.61.52
+  type: http
+- client-fingerprint: random
+  name: 49|🇵🇱 波兰 | POL
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: f79448a30d
+  server: pl-xh01.tcp-reset-club.net
+  servername: s3.netavex.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0678ed07-980a-49c1-9066-05caec654967
+  xhttp-opts:
+    host: s3.netavex.com
+    mode: packet-up
+    path: /assets/v2/pkg

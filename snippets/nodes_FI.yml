@@ -1,11 +1,12 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 40|🇫🇮FI-65.21.240.108-3215
+  name: 26,40|🇫🇮FI-65.21.240.108-3215
   network: http
   port: 443
   server: 65.21.240.108
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
@@ -23,3 +24,13 @@ proxies:
     headers:
       Host: 65.109.134.191
     path: /graphql
+- alterId: 0
+  cipher: auto
+  name: 50|未知117 597.5KB/s
+  network: tcp
+  port: 26980
+  server: 65.109.215.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 845a492d-21e6-4cc0-abbb-b66813a163c0

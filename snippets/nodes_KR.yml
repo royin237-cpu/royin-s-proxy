@@ -1,11 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 40|🇰🇷KR-52.231.200.179-1595
+  name: 26|韩国 003
+  network: tcp
+  port: 443
+  server: 140.238.2.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+- alterId: 0
+  cipher: auto
+  name: 26,40|🇰🇷KR-52.231.200.179-1595
   network: ws
   port: 443
   server: fullaccesstokoreannetsubnode1.azurewebsites.net
   servername: fullaccesstokoreannetsubnode1.azurewebsites.net
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
