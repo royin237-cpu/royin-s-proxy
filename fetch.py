@@ -924,6 +924,8 @@ def extract(url: str) -> Union[Set[str], int]:
 merged: Dict[int, Node] = {}
 unknown: Set[str] = set()
 used: Dict[int, Dict[int, str]] = {}
+# merge() 在主线程按源序号串行调用（抓取本身已多线程并行），
+# 串行合并保证节点名去重（Node.names）与多源同名 data.update 的先后顺序确定。
 def merge(source_obj: Source, sourceId=-1) -> None:
     global merged, unknown
     sub = source_obj.sub
@@ -965,47 +967,42 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
     print("正在解析 Adblock 列表... ", end='', flush=True)
     blocked: Set[str] = set()
     unblock: Set[str] = set()
-    for url in ABFURLS:
+    # 所有广告列表相互独立，先并行下载（仅网络 I/O 并行），再按原顺序串行解析
+    def _fetch(url) -> Tuple[str, Optional[requests.Response], str]:
         url = raw2fastly(url)
         try:
-            res = session.get(url)
+            return (url, session.get(url), "")
         except requests.exceptions.RequestException as e:
             try:
-                print(f"{url} 下载失败：{e.args[0].reason}")
+                return (url, None, f"{url} 下载失败：{e.args[0].reason}")
             except Exception:
-                print(f"{url} 下载失败：无法解析的错误！")
                 traceback.print_exc()
-            continue
-        if res.status_code != 200:
-            print(url, res.status_code)
-            continue
-        for line in res.text.strip().splitlines():
-            line = line.strip()
-            if not line or line[0] in '!#': continue
-            elif line[:2] == '@@':
-                unblock.add(line.split('^')[0].strip('@|^'))
-            elif line[:2] == '||' and ('/' not in line) and ('?' not in line) and \
-                            (line[-1] == '^' or line.endswith("$all")):
-                blocked.add(line.strip('al').strip('|^$'))
+                return (url, None, f"{url} 下载失败：无法解析的错误！")
+    all_urls = list(ABFURLS) + list(ABFWHITE)
+    results: List[Tuple[str, Optional[requests.Response], str]] = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=min(12, max(1, len(all_urls)))) as ex:
+        results = list(ex.map(_fetch, all_urls))
 
-    for url in ABFWHITE:
-        url = raw2fastly(url)
-        try:
-            res = session.get(url)
-        except requests.exceptions.RequestException as e:
-            try:
-                print(f"{url} 下载失败：{e.args[0].reason}")
-            except Exception:
-                print(f"{url} 下载失败：无法解析的错误！")
-                traceback.print_exc()
+    for i, (url, res, err) in enumerate(results):
+        is_white = i >= len(ABFURLS)
+        if res is None:
+            print(err)
             continue
         if res.status_code != 200:
             print(url, res.status_code)
             continue
         for line in res.text.strip().splitlines():
             line = line.strip()
-            if not line or line[0] == '!': continue
-            else: unblock.add(line.split('^')[0].strip('|^'))
+            if is_white:
+                if not line or line[0] == '!': continue
+                else: unblock.add(line.split('^')[0].strip('|^'))
+            else:
+                if not line or line[0] in '!#': continue
+                elif line[:2] == '@@':
+                    unblock.add(line.split('^')[0].strip('@|^'))
+                elif line[:2] == '||' and ('/' not in line) and ('?' not in line) and \
+                                (line[-1] == '^' or line.endswith("$all")):
+                    blocked.add(line.strip('al').strip('|^$'))
 
     domain_root = DomainTree()
     domain_keys: Set[str] = set()
@@ -1085,6 +1082,24 @@ _geoip_reader = None
 _geoip_init_done = False
 _geoip_dns_cache: Dict[str, Optional[str]] = {}
 
+# CDN/anycast 前缀：这类 IP 没有固定国家（全球任播），不应硬塞进国家分组。
+# 包括 MaxMind 对这些段的伪国家码（如 "CLOUDFLARE"/"FASTLY"）与真实 CDN 前缀。
+_ANON_GEO_CODES = {"CLOUDFLARE", "FASTLY", "CDN", "GOOGLE", "AKAMAI", "AMAZON.COM",
+                   "AMAZON.COM, INC.", "MICROSOFT", "META", "FACEBOOK"}
+_ANON_IP_PREFIXES = (
+    "104.16.", "104.17.", "104.18.", "104.19.", "104.20.", "104.21.", "104.22.", "104.23.",
+    "104.24.", "104.25.", "104.26.", "104.27.", "104.28.", "104.29.", "104.30.", "104.31.",
+    "172.64.", "172.65.", "172.66.", "172.67.", "172.68.", "172.69.", "172.70.", "172.71.",
+    "173.245.", "103.21.", "103.22.2", "103.31.", "141.101.", "108.162.", "190.93.",
+    "188.114.", "197.234.", "198.41.", "162.158.", "162.159.", "131.0.72.",
+    "45.80.110.", "45.80.111.", "66.81.24", "23.227.",
+)
+
+
+def _is_anon_ip(ip: str) -> bool:
+    """判断 IP 是否属于 CDN/anycast 段（无固定国家归属）。"""
+    return any(ip.startswith(p) for p in _ANON_IP_PREFIXES)
+
 
 def _init_geoip() -> None:
     """加载 MaxMind country.mmdb（Actions 已下载到 MIHOMO_DATA 目录）。失败则静默回退名字分类。"""
@@ -1104,8 +1119,30 @@ def _init_geoip() -> None:
         print(f"GeoIP: 加载失败（{e}），回退为名字关键词匹配")
 
 
+# 中国 DoH（与国内用户视角一致，且 Actions 美国节点访问阿里 DNS 无障碍）
+_DOH_URLS = [
+    ("https://223.5.5.5/resolve", "name"),      # 阿里 DNS
+    ("https://1.12.12.12/resolve", "name"),     # 腾讯 DNSPod
+]
+
+
+def _doh_resolve(server: str) -> Optional[str]:
+    """通过中国 DoH 解析域名（与中国用户视角一致）。失败返回 None。"""
+    for base, _ in _DOH_URLS:
+        try:
+            r = session.get(base, params={"type": "A", "name": server}, timeout=5)
+            if r.status_code != 200: continue
+            data = r.json()
+            for ans in data.get("Answer", []):
+                if ans.get("type") == 1:  # A 记录
+                    return ans.get("data")
+        except Exception:
+            continue
+    return None
+
+
 def _resolve_node_ip(node: 'Node') -> Optional[str]:
-    """取节点服务器 IP；是域名则做一次 DNS 解析（带缓存、短超时）。"""
+    """取节点服务器 IP；域名依次尝试中国 DoH → 本地 DNS（带缓存）。"""
     server = str(node.data.get('server', '')).strip().strip('[]')
     if not server: return None
     try:
@@ -1114,33 +1151,81 @@ def _resolve_node_ip(node: 'Node') -> Optional[str]:
         pass
     if server in _geoip_dns_cache:
         return _geoip_dns_cache[server]
-    ip: Optional[str] = None
-    try:
-        old_timeout = socket.getdefaulttimeout()
-        socket.setdefaulttimeout(3)
-        infos = socket.getaddrinfo(server, None, type=socket.SOCK_STREAM)
-        socket.setdefaulttimeout(old_timeout)
-        for info in infos:
-            ip = info[4][0]
-            break
-    except Exception:
-        ip = None
+    ip = _doh_resolve(server)
+    if not ip:
+        try:
+            old_timeout = socket.getdefaulttimeout()
+            socket.setdefaulttimeout(3)
+            infos = socket.getaddrinfo(server, None, type=socket.SOCK_STREAM)
+            socket.setdefaulttimeout(old_timeout)
+            for info in infos:
+                ip = info[4][0]
+                break
+        except Exception:
+            ip = None
     _geoip_dns_cache[server] = ip
     return ip
 
 
+def _warmup_dns(servers: List[str]) -> None:
+    """分类前并发预热：对全部域名型节点做 DNS 解析（中国 DoH 优先），
+    避免分类阶段对几千节点串行解析。"""
+    domains = []
+    for s in servers:
+        s = str(s).strip().strip('[]')
+        if not s: continue
+        try:
+            ipaddress.ip_address(s)
+        except ValueError:
+            if s not in _geoip_dns_cache:
+                domains.append(s)
+    if not domains: return
+    # 同域名只解析一次
+    uniq = sorted(set(domains))
+    done = 0
+    with concurrent.futures.ThreadPoolExecutor(max_workers=32) as ex:
+        futs = {ex.submit(_doh_resolve, d): d for d in uniq}
+        for fut in concurrent.futures.as_completed(futs):
+            d = futs[fut]
+            try:
+                _geoip_dns_cache[d] = fut.result()
+            except Exception:
+                _geoip_dns_cache[d] = None
+            done += 1
+            if done % 200 == 0:
+                print(f"GeoIP: DNS 预热 {done}/{len(uniq)}", flush=True)
+    print(f"GeoIP: DNS 预热完成，共 {len(uniq)} 个域名", flush=True)
+
+
+# 地区分类专用哨兵：
+#   GEO_ANON  = 节点属于 CDN/anycast（无固定国家，不应硬塞国家分组）
+#   None      = GeoIP 无法判定（域名解析失败 / IP 不在库中），才允许回退名字匹配
+GEO_ANON = "__ANYCAST__"
+
+
 def _geo_country(node: 'Node') -> Optional[str]:
-    """返回节点服务器 IP 的真实国家/地区 ISO 代码（如 JP/US/CN/HK）；未知返回 None。"""
+    """返回节点服务器 IP 的真实国家/地区归属。
+
+    返回值约定：
+    - 真实国家 → ISO 代码（如 "JP"/"US"/"CN"/"HK"/"CZ"），**无论是否在本项目分组配置中**；
+    - CDN/anycast（无固定国家）→ GEO_ANON 哨兵；
+    - 无法判定（域名解析失败 / IP 不在库）→ None（此时才允许回退名字关键词匹配）。
+    """
     if _geoip_reader is None: return None
     ip = _resolve_node_ip(node)
     if not ip: return None
+    if _is_anon_ip(ip): return GEO_ANON  # CDN/anycast 无固定国家
     try:
         rec = _geoip_reader.get(ip)
     except Exception:
         return None
     if isinstance(rec, dict):
         code = (rec.get('country') or {}).get('iso_code')
-        return code if code else None
+        if not code: return None
+        code = str(code).upper()
+        # MaxMind 对部分 CDN/云段返回伪国家码（如 "CLOUDFLARE"），视为无归属
+        if code in _ANON_GEO_CODES: return GEO_ANON
+        return code
     return None
 
 
@@ -1156,12 +1241,17 @@ def main():
         print("!!! 警告：您已选择不抓取动态节点 !!!")
         AUTOURLS = AUTOFETCH = []
     print("正在生成动态链接...")
-    for auto_fun in AUTOURLS:
-        print("正在生成 '"+auto_fun.__name__+"'... ", end='', flush=True)
-        try: url = auto_fun()
+    # AUTOURLS 各自发起网络请求，串行会逐个等待；改为并行生成（顺序无关，只收集结果）
+    _AUTO_ERR = object()
+    def _run_auto(fun):
+        print("正在生成 '"+fun.__name__+"'... ", end='', flush=True)
+        try: return fun()
         except requests.exceptions.RequestException: print("失败！")
         except: print("错误：");traceback.print_exc()
-        else:
+        return _AUTO_ERR
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, len(AUTOURLS))) as ex:
+        for url in ex.map(_run_auto, AUTOURLS):
+            if url is _AUTO_ERR: continue
             if url:
                 if isinstance(url, str):
                     sources.append(url)
@@ -1195,23 +1285,28 @@ def main():
 
     if airports:
         print("正在抓取机场列表...")
-        for sub in airports:
+        # 各机场列表相互独立，并行下载（允许乱序打印）
+        def _fetch_airport(sub) -> Union[int, Set[str], None]:
             print("合并 '"+sub+"'... ", end='', flush=True)
             try:
                 res = extract(sub)
             except KeyboardInterrupt:
-                print("正在退出...")
-                break
+                return None
             except requests.exceptions.RequestException:
                 print("合并失败！")
-            except: traceback.print_exc()
-            else:
-                if isinstance(res, int):
-                    print(res)
-                else:
+                return None
+            except: traceback.print_exc(); return None
+            if isinstance(res, int):
+                print(res)
+                return res
+            print("完成！")
+            return res
+        with concurrent.futures.ThreadPoolExecutor(max_workers=min(8, max(1, len(airports)))) as ex:
+            for res in ex.map(_fetch_airport, list(airports)):
+                if res is None: continue
+                if not isinstance(res, int):
                     for url in res:
                         sources_final.add(url)
-                    print("完成！")
 
     print("正在整理链接...")
     sources_final = list(sources_final)
@@ -1321,7 +1416,10 @@ def main():
             ctg_nodes[ctg] = []
             ctg_nodes_meta[ctg] = []
         _init_geoip()
+        # 分类前并发预热 DNS（中国 DoH），避免几千节点串行解析
+        _warmup_dns([n.data.get('server', '') for n in merged.values()])
         geo_hits = 0; name_hits = 0; conflicts = 0; redir_hits = 0
+        anon_hits = 0; noregion_hits = 0
         redir_keys = [k for k in categories.get('redir', []) if k != 'OVERALL']
         for node in merged.values():
             if node.supports_meta():
@@ -1335,7 +1433,24 @@ def main():
                 else:
                     # 1) 优先用 GeoIP 真实归属（服务器 IP 的实际国家）
                     geo_code = _geo_country(node)
-                    if geo_code and geo_code in categories:
+                    if geo_code is None:
+                        # GeoIP 无法判定（域名解析失败 / IP 不在库）→ 才允许回退名字关键词
+                        ctgs = []
+                        for ctg, keys in categories.items():
+                            if ctg == 'redir': continue
+                            for key in keys:
+                                if key in disp_name:
+                                    ctgs.append(ctg)
+                                    break
+                            if ctgs and keys[-1] == 'OVERALL':
+                                break
+                        if ctgs: name_hits += 1
+                    elif geo_code == GEO_ANON:
+                        # CDN/anycast 无固定国家 → 不打地区标签（节点仍保留在主订阅）
+                        anon_hits += 1
+                        ctgs = []
+                    elif geo_code in categories:
+                        # 真实国家且分组存在
                         ctgs = [geo_code]
                         geo_hits += 1
                         # 检测名字与真实归属冲突（仅统计，不影响分类——以真实为准）
@@ -1351,23 +1466,17 @@ def main():
                         if name_ctgs and name_ctgs != [geo_code]:
                             conflicts += 1
                     else:
-                        # 2) GeoIP 不可用/解析不出，回退名字关键词匹配
+                        # 真实国家存在但本项目无对应分组（如 CZ）→ 不信任名字，不打标签
+                        noregion_hits += 1
                         ctgs = []
-                        for ctg, keys in categories.items():
-                            if ctg == 'redir': continue
-                            for key in keys:
-                                if key in disp_name:
-                                    ctgs.append(ctg)
-                                    break
-                            if ctgs and keys[-1] == 'OVERALL':
-                                break
-                        if ctgs: name_hits += 1
                 if len(ctgs) == 1:
                     if node.supports_clash():
                         ctg_nodes[ctgs[0]].append(node.clash_data)
                     ctg_nodes_meta[ctgs[0]].append(node.clash_data)
         print(f"地区分类: GeoIP 定位 {geo_hits} 个，名字回退 {name_hits} 个，"
-              f"中转 {redir_hits} 个，名字与真实归属冲突已按真实纠正 {conflicts} 个")
+              f"中转 {redir_hits} 个，CDN/anycast 不打标签 {anon_hits} 个，"
+              f"无对应分组不打标签 {noregion_hits} 个，"
+              f"名字与真实归属冲突已按真实纠正 {conflicts} 个")
         for ctg, proxies in ctg_nodes.items():
             with open("snippets/nodes_"+ctg+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'proxies': proxies}, f, allow_unicode=True)
