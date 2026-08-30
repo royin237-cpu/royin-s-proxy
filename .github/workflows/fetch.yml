@@ -68,7 +68,10 @@ jobs:
         ALIVE_WORKERS: '128'
         ALIVE_RETRY: '1'
         ALIVE_MIN_RATIO: '0.001'
-        ALIVE_DROP_TYPES: "http,socks5"
+        # 不丢弃任何协议类型（含 http/socks5）：用户选择"可用节点优先，对隐私不极端敏感"。
+        # 实测 NoMoreWalls 的 http/socks5 节点约 39% 从中国真实可用（延迟 P50≈200ms），
+        # 丢弃会损失约 75 个可用节点。置空后 check_alive.py 的 DROP_TYPES 预过滤被跳过。
+        ALIVE_DROP_TYPES: ""
         # 不设节点数量上限：所有云端测活通过的节点全部保留
         # （无需 ALIVE_MAX_KEEP / ALIVE_MAX_PER_SOURCE，默认值 0 = 不限制）
         # 二次过滤：check_alive.py 自动读取 asia_probe_result.json（中国服务器探针结果）
