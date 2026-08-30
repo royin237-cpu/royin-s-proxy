@@ -1078,6 +1078,72 @@ def precheck_alive(timeout: float = PRECHECK_TIMEOUT, workers: int = PRECHECK_WO
     return len(to_remove)
 
 
+# ── GeoIP 地区分类（用服务器 IP 真实归属，替代不可靠的节点名关键词匹配） ──
+import ipaddress
+
+_geoip_reader = None
+_geoip_init_done = False
+_geoip_dns_cache: Dict[str, Optional[str]] = {}
+
+
+def _init_geoip() -> None:
+    """加载 MaxMind country.mmdb（Actions 已下载到 MIHOMO_DATA 目录）。失败则静默回退名字分类。"""
+    global _geoip_reader, _geoip_init_done
+    if _geoip_init_done: return
+    _geoip_init_done = True
+    data_dir = os.environ.get("MIHOMO_DATA", "mihomo_data")
+    path = os.path.join(data_dir, "country.mmdb")
+    if not os.path.exists(path):
+        print(f"GeoIP: 未找到 {path}，地区分类回退为名字关键词匹配")
+        return
+    try:
+        import maxminddb
+        _geoip_reader = maxminddb.open_database(path)
+        print(f"GeoIP: 数据库已加载 {path}")
+    except Exception as e:
+        print(f"GeoIP: 加载失败（{e}），回退为名字关键词匹配")
+
+
+def _resolve_node_ip(node: 'Node') -> Optional[str]:
+    """取节点服务器 IP；是域名则做一次 DNS 解析（带缓存、短超时）。"""
+    server = str(node.data.get('server', '')).strip().strip('[]')
+    if not server: return None
+    try:
+        return str(ipaddress.ip_address(server))
+    except ValueError:
+        pass
+    if server in _geoip_dns_cache:
+        return _geoip_dns_cache[server]
+    ip: Optional[str] = None
+    try:
+        old_timeout = socket.getdefaulttimeout()
+        socket.setdefaulttimeout(3)
+        infos = socket.getaddrinfo(server, None, type=socket.SOCK_STREAM)
+        socket.setdefaulttimeout(old_timeout)
+        for info in infos:
+            ip = info[4][0]
+            break
+    except Exception:
+        ip = None
+    _geoip_dns_cache[server] = ip
+    return ip
+
+
+def _geo_country(node: 'Node') -> Optional[str]:
+    """返回节点服务器 IP 的真实国家/地区 ISO 代码（如 JP/US/CN/HK）；未知返回 None。"""
+    if _geoip_reader is None: return None
+    ip = _resolve_node_ip(node)
+    if not ip: return None
+    try:
+        rec = _geoip_reader.get(ip)
+    except Exception:
+        return None
+    if isinstance(rec, dict):
+        code = (rec.get('country') or {}).get('iso_code')
+        return code if code else None
+    return None
+
+
 def main():
     global exc_queue, merged, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
@@ -1254,20 +1320,43 @@ def main():
         for ctg in categories:
             ctg_nodes[ctg] = []
             ctg_nodes_meta[ctg] = []
+        _init_geoip()
+        geo_hits = 0; name_hits = 0; conflicts = 0
         for node in merged.values():
             if node.supports_meta():
-                ctgs: List[str] = []
-                for ctg, keys in categories.items():
-                    for key in keys:
-                        if key in node.name:
-                            ctgs.append(ctg)
+                # 1) 优先用 GeoIP 真实归属（服务器 IP 的实际国家）
+                geo_code = _geo_country(node)
+                if geo_code and geo_code in categories:
+                    ctgs: List[str] = [geo_code]
+                    geo_hits += 1
+                    # 检测名字与真实归属冲突（仅统计，不影响分类——以真实为准）
+                    name_ctgs: List[str] = []
+                    for ctg_n, keys_n in categories.items():
+                        for key_n in keys_n:
+                            if key_n in node.name:
+                                name_ctgs.append(ctg_n)
+                                break
+                        if name_ctgs and keys_n[-1] == 'OVERALL':
                             break
-                    if ctgs and keys[-1] == 'OVERALL':
-                        break
+                    if name_ctgs and name_ctgs != [geo_code]:
+                        conflicts += 1
+                else:
+                    # 2) GeoIP 不可用/解析不出，回退名字关键词匹配
+                    ctgs = []
+                    for ctg, keys in categories.items():
+                        for key in keys:
+                            if key in node.name:
+                                ctgs.append(ctg)
+                                break
+                        if ctgs and keys[-1] == 'OVERALL':
+                            break
+                    if ctgs: name_hits += 1
                 if len(ctgs) == 1:
                     if node.supports_clash():
                         ctg_nodes[ctgs[0]].append(node.clash_data)
                     ctg_nodes_meta[ctgs[0]].append(node.clash_data)
+        print(f"地区分类: GeoIP 定位 {geo_hits} 个，名字回退 {name_hits} 个，"
+              f"名字与真实归属冲突已按真实纠正 {conflicts} 个")
         for ctg, proxies in ctg_nodes.items():
             with open("snippets/nodes_"+ctg+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'proxies': proxies}, f, allow_unicode=True)
