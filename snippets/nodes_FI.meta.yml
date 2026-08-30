@@ -1,5 +1,5 @@
 proxies:
-- name: 22,45|🇫🇮FI_1|4.3MB/s
+- name: 22|C🟠🇫🇮[🎬🤖📺🎭]_dokng.com_fb968b40
   port: 8911
   server: 135.181.84.21
   type: http

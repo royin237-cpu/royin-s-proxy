@@ -16,18 +16,17 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 18,41,42|🇺🇸 美国 阿里云
+  name: 18|香港 阿里云
   network: ws
   port: 443
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  servername: DrBKg16eGf3FZlM3.v.3dns.vip
-  skip-cert-verify: true
+  server: ce0gedpxwou6cqon.v.3dns.vip
+  servername: cE0gedPXwOU6cqoN.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+      Host: cE0gedPXwOU6cqoN.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -72,6 +71,20 @@ proxies:
   ws-opts:
     headers:
       Host: 156.245.232.239
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '39,40|🇭🇰HK-18.167.20.169-0092 #1'
+  network: ws
+  port: 8080
+  server: 18.167.20.169
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  ws-opts:
+    headers:
+      Host: 18.167.20.169
     path: /
 - alterId: 0
   cipher: auto
@@ -262,12 +275,76 @@ proxies:
     headers:
       Host: 47.244.120.197
     path: /arki?ed=2048
+- cipher: chacha20-ietf
+  name: 40|8J%2BHr%2FCfh7VKUC0xOC4xODEuMj...
+  obfs: plain
+  obfs-param: ''
+  password: Mv4e0QHWPwdbKiCF
+  port: 54102
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: show.bilibilicloud01.com
+  type: ssr
+- cipher: chacha20-ietf
+  name: '40|8J%2BHr%2FCfh7VKUC0xOC4xODEuMj... #1'
+  obfs: plain
+  obfs-param: ''
+  password: Mv4e0QHWPwdbKiCF
+  port: 54103
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: show.bilibilicloud01.com
+  type: ssr
+- cipher: chacha20-ietf
+  name: 40|8J%2BHr%2FCfh7VKUC01NC4yMzguMj...
+  obfs: plain
+  obfs-param: ''
+  password: Mv4e0QHWPwdbKiCF
+  port: 54115
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: show.bilibilicloud01.com
+  type: ssr
+- cipher: chacha20-ietf
+  name: 40|8J%2BHr%2FCfh7VKUC0xOC4xODEuNz...
+  obfs: plain
+  obfs-param: ''
+  password: Mv4e0QHWPwdbKiCF
+  port: 54101
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: show.bilibilicloud01.com
+  type: ssr
+- cipher: chacha20-ietf
+  name: 40|8J%2BHr%2FCfh7VKUC0xOC4xODMuMT...
+  obfs: plain
+  obfs-param: ''
+  password: Mv4e0QHWPwdbKiCF
+  port: 54114
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: show.bilibilicloud01.com
+  type: ssr
 - name: 40|🇭🇰HK-219.76.13.181-6351
   password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
   port: 443
   server: 219.76.13.181
   sni: arbettp.freetrade.link
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 41,42|🇺🇸 美国 阿里云
+  network: ws
+  port: 443
+  server: drbkg16egf3fzlm3.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+    path: /ws-vmess
 - alterId: 2
   cipher: auto
   name: '41,42,45,48|香港|@ripaojiedian #1'
@@ -326,21 +403,6 @@ proxies:
     headers:
       Host: i2psm3knof5qjjix.v.3dns.vip
     path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 50|HK6
-  network: ws
-  port: 443
-  server: n1761296892.4u9ma.icu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d6db128f-42b9-40b1-b979-5e0095fa593c
-  ws-opts:
-    headers:
-      Host: n1761296892.4u9ma.icu
-      host: n1761296892.4u9ma.icu
-    path: /
 - alterId: 0
   cipher: auto
   name: 50|HK7 25.1KB/s

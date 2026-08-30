@@ -343,21 +343,6 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 17|🇩🇪 DE 42 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: 185.135.9.208
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: worker-noisy-paper-fa00.hetoj18200.workers.dev
-    path: /nina.bond/linkvws
-- alterId: 0
-  cipher: auto
   name: 17|🇩🇪 DE 43 → tg@nicevpn123
   network: ws
   port: 443
@@ -378,21 +363,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 17|🇩🇪 DE 6 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: 185.135.9.208
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: worker-noisy-paper-fa00.hetoj18200.workers.dev
-    path: /kellie.makeup/linkvws
 - name: 17|🇫🇷 FR 23 → tg@nicevpn123
   password: fc1e07b5-840b-4446-8232-94b0606f2e0d
   port: 443
@@ -778,6 +748,20 @@ proxies:
     headers:
       Host: sgp.kapok.buzz
     path: /4befdd8a6/
+- alterId: 0
+  cipher: auto
+  name: 40|🇺🇸US-23.11.32.159-1203
+  network: ws
+  port: 443
+  server: cacerts.digicert.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-opts:
+    headers:
+      Host: cacerts.digicert.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 40|🇩🇪DE-91.195.240.94-1466

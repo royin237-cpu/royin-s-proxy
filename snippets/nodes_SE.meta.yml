@@ -11,7 +11,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22|C🟠🇸🇪[🎬🤖📺🎭]_dokng.com_b75ac7cc
+- name: 22,45|🇸🇪SE_1|2.7MB/s
   password: None
   port: 443
   server: 79.142.77.63

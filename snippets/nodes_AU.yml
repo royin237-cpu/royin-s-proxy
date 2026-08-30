@@ -1,12 +1,4 @@
 proxies:
-- name: 17|🇦🇺 AU 3 → tg@nicevpn123
-  password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
-  port: 443
-  server: 192.65.217.183
-  skip-cert-verify: true
-  sni: psg1.pqjc.buzz
-  type: trojan
-  udp: true
 - name: 17|🇩🇪 DE 23 → tg@nicevpn123
   password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
   port: 443

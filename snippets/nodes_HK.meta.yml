@@ -38,10 +38,3 @@ proxies:
   server: 47.239.116.165
   type: socks5
   username: admin
-- name: 45|🇭🇰HK_1|1.4MB/s
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.114
-  skip-cert-verify: true
-  type: socks5
-  username: '123'

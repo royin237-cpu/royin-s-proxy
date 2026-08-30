@@ -16,6 +16,14 @@ proxies:
   port: 16668
   server: 82.115.6.209
   type: http
+- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_8d59c920
+  password: None
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: '22,45,52|NL_speednode_0009 #1'
   password: ''
   port: 9002
@@ -39,7 +47,7 @@ proxies:
   sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
   tls: true
   type: http
-- name: 22,45|🇳🇱NL_4|4.8MB/s
+- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_4aba37c2
   password: ''
   port: 23856
   server: 51.159.225.196
@@ -89,14 +97,6 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 45|🇳🇱NL_3|3.7MB/s
-  password: ''
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - name: '45,52|NL_speednode_0004 #1'
   port: 9002
   server: 84.17.47.125

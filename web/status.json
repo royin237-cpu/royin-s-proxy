@@ -1,15 +1,15 @@
 {
-  "total": 293,
+  "total": 285,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 11
+      "count": 12
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 71
+      "count": 65
     },
     "CN": {
       "flag": "🇨🇳",
@@ -19,7 +19,7 @@
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 7
+      "count": 6
     },
     "TW": {
       "flag": "🇹🇼",
@@ -29,12 +29,12 @@
     "CA": {
       "flag": "🇨🇦",
       "name": "加拿大",
-      "count": 3
+      "count": 2
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 16
+      "count": 11
     },
     "SG": {
       "flag": "🇸🇬",
@@ -44,7 +44,7 @@
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 10
+      "count": 9
     },
     "KR": {
       "flag": "🇰🇷",
@@ -59,7 +59,7 @@
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 17
+      "count": 14
     },
     "SE": {
       "flag": "🇸🇪",
@@ -69,7 +69,7 @@
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 3
+      "count": 2
     },
     "CH": {
       "flag": "🇨🇭",
@@ -89,7 +89,7 @@
     "IN": {
       "flag": "🇮🇳",
       "name": "印度",
-      "count": 4
+      "count": 1
     },
     "TH": {
       "flag": "🇹🇭",
@@ -136,11 +136,6 @@
       "name": "菲律宾",
       "count": 2
     },
-    "UA": {
-      "flag": "🇺🇦",
-      "name": "乌克兰",
-      "count": 5
-    },
     "PL": {
       "flag": "🇵🇱",
       "name": "波兰",
@@ -152,8 +147,8 @@
       "count": 2
     }
   },
-  "update_time": "2026-08-30 18:51",
-  "server_time": "2026-08-30 18:52:40",
+  "update_time": "2026-08-30 19:46",
+  "server_time": "2026-08-30 19:47:05",
   "sources": [
     {
       "index": 0,
@@ -383,7 +378,7 @@
     {
       "index": 45,
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
-      "nodes": 502
+      "nodes": 450
     },
     {
       "index": 46,

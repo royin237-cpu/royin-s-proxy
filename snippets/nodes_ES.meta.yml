@@ -1,5 +1,5 @@
 proxies:
-- name: 22,45|🇪🇸ES_1|2.1MB/s
+- name: 22|C🟠🇪🇸[🎬🤖📺🎭]_dokng.com_568dc668
   port: 3155
   server: 185.170.212.162
   type: http
@@ -9,7 +9,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22|D🔴🇪🇸[🎬🤖📺🎭]_dokng.com_297df47d
+- name: 22,45|🇪🇸ES_1|2.1MB/s
   port: 443
   server: 130.195.250.18
   skip-cert-verify: true

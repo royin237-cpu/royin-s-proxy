@@ -44,7 +44,7 @@
 42,https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray,42
 43,https://raw.githubusercontent.com/mlabalabala/v2ray-node/main/nodefree4clash.txt,10
 44,https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml,78
-45,https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml,502
+45,https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml,450
 46,https://raw.githubusercontent.com/qjlxg/hy2/main/splitted/hy2,0
 47,https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash,14
 48,https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub,14
@@ -55,4 +55,4 @@
 53,https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml,35
 54,dynamic://peasoft,2
 
-总计,,3749
+总计,,3740

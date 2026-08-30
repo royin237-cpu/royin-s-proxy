@@ -27,13 +27,6 @@ proxies:
   server: 18.132.203.206
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 22,49|🇬🇧 英国 | GBR
-  password: amazonskr05
-  port: 443
-  server: 18.170.37.90
-  type: ss
-  udp: true
 - name: 22|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_4c325231
   password: None
   port: 443
@@ -48,13 +41,13 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22,45|🇬🇧GB_9|2.8MB/s
+- name: 22|A🟢🇬🇧[🎬🤖📺🎭]_dokng.com_b34d168c
   password: None
   port: 3118
   server: 154.61.56.215
   type: http
   username: null
-- name: 22|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_a820c2d3
+- name: 22,45|🇬🇧GB_2|1.4MB/s
   port: 443
   server: 37.120.233.50
   skip-cert-verify: true

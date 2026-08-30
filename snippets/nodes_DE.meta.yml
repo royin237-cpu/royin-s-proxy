@@ -1,20 +1,5 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22,45,49|🇩🇪 德国 | DEU 3
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: 4fa44664f6a566d3
-  server: germany.superbuba.top
-  servername: germany.superbuba.top
-  tls: true
-  type: vless
-  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
-- name: 22,45|🇩🇪DE_3|4.9MB/s
+- name: 22|C🟠🇩🇪[🎬🤖📺🎪]_dokng.com_f012372a
   port: 11000
   server: 116.202.172.187
   type: http
@@ -38,12 +23,6 @@ proxies:
   port: 8989
   server: 185.110.188.4
   type: http
-- name: 22,45|🇩🇪DE_2|1.1MB/s
-  password: None
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: null
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
@@ -144,19 +123,3 @@ proxies:
   port: 9099
   server: 213.109.162.200
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 45|🇨🇭CH_2|2.9MB/s
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-    short-id: ''
-  server: de48.tranzit-net.ru
-  servername: d.tranzit-net.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
-  xudp: true
