@@ -20,10 +20,6 @@ proxies:
   server: 37.59.125.131
   type: http
   username: null
-- name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_d4f234ac
-  port: 21
-  server: 57.128.183.212
-  type: http
 - name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_f9617009
   password: None
   port: 443
@@ -33,7 +29,7 @@ proxies:
   type: http
   username: null
 - auth: gf1:gfhysteria2024
-  name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_681631ec
+  name: 22,32|🇫🇷_FR_法国_1
   password: gf1:gfhysteria2024
   port: 443
   server: 173.212.201.85

@@ -41,6 +41,27 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 18,22,32|🇪🇪_EE_爱沙尼亚
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: 4a46213c935e2ee4
+  server: 31.76.70.32
+  servername: baltic.cendora.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  xudp: true
 - cipher: aes-256-cfb
   name: 19,22,32,41,49|🇫🇷 法国 | FRA 3
   password: 7eadc6dbe2ae
@@ -102,11 +123,10 @@ proxies:
         Gecko) Chrome/51.0.2704.103 Safari/537.36
     path: /assignment
 - cipher: aes-256-cfb
-  name: 19,22,32,41,45|🇺🇸US_2|2.3MB/s
+  name: 19,22,41,45|🇺🇸US_2|2.3MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.233
-  skip-cert-verify: true
   type: ss
   udp: true
 - name: 22|D🔴🇭🇰[📺🎭]_dokng.com_054bd55d
@@ -510,10 +530,6 @@ proxies:
   port: 16668
   server: 82.115.6.209
   type: http
-- name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_d4f234ac
-  port: 21
-  server: 57.128.183.212
-  type: http
 - name: 22|D🔴🇦🇹[🎬🤖📺🎭]_dokng.com_38c4dd6a
   port: 443
   server: 146.70.244.18
@@ -639,7 +655,7 @@ proxies:
   type: http
   username: null
 - auth: gf1:gfhysteria2024
-  name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_681631ec
+  name: 22,32|🇫🇷_FR_法国_1
   password: gf1:gfhysteria2024
   port: 443
   server: 173.212.201.85
@@ -764,10 +780,11 @@ proxies:
   type: http
   udp: true
 - cipher: aes-256-cfb
-  name: 22,49|🇺🇸 美国 | USA 20
+  name: 22,32,49|🇺🇸 美国 | USA 20
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.232
+  skip-cert-verify: true
   type: ss
   udp: true
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7806b8cf
@@ -1114,10 +1131,11 @@ proxies:
   tls: true
   type: http
 - cipher: aes-256-cfb
-  name: 22|C🟠🇨🇦[🎬📺🎭🎪]_dokng.com_6ccac23a
+  name: 22,32|🇨🇦_CA_加拿大
   password: amazonskr05
   port: 443
   server: 3.96.124.46
+  skip-cert-verify: true
   type: ss
   udp: true
 - name: 22|D🔴🇩🇰[🎬🤖📺🎭]_dokng.com_d1778b29
@@ -1139,10 +1157,6 @@ proxies:
   server: 193.176.84.29
   skip-cert-verify: true
   tls: true
-  type: http
-- name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_46227203
-  port: 80
-  server: 193.37.70.182
   type: http
 - name: 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_03b9018d
   port: 8081
@@ -1340,6 +1354,10 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- name: 22|A🟢🇩🇴[🎬🤖📺🎭]_dokng.com_cdc1c1b9
+  port: 999
+  server: 154.88.164.160
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 22,45|🇸🇬SG_2|2.8MB/s
@@ -1524,6 +1542,10 @@ proxies:
   port: 1550
   server: 45.173.228.217
   type: http
+- name: 22|A🟢🇨🇴[🎬🤖📺🎭]_dokng.com_9bf5de09
+  port: 12345
+  server: 177.93.57.82
+  type: http
 - name: 22|C🟠🇫🇷[🤖📺🎭🎪]_dokng.com_67435526
   port: 443
   server: 141.94.16.4
@@ -1537,10 +1559,6 @@ proxies:
 - name: 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_1577b38e
   port: 30005
   server: 63.175.157.2
-  type: http
-- name: 22|D🔴🇪🇨[🎬🤖📺🎭]_dokng.com_956079b4
-  port: 9100
-  server: 181.39.35.94
   type: http
 - name: 22|A🟢🇪🇨[🤖📺🎭🎪]_dokng.com_ad093202
   port: 1812
@@ -1709,11 +1727,19 @@ proxies:
   tls: true
   type: vmess
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: 22|D🔴🇯🇵[🤖🎭🎪🎞️]_dokng.com_c618c95c
+  password: None
+  port: 10808
+  server: 101.36.104.46
+  type: socks5
+  udp: true
+  username: null
 - cipher: aes-256-cfb
-  name: 22,45|🇰🇷KR_1|5.9MB/s
+  name: 22,32,45|🇰🇷KR_1|5.9MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.138
+  skip-cert-verify: true
   type: ss
   udp: true
 - name: 22|D🔴🇨🇿[🤖📺🎭🎪]_dokng.com_8ad338db
@@ -1750,26 +1776,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 22|A🟢🇺🇸[🤖📺🎭🎪]_dokng.com_4a841be9
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: 4a46213c935e2ee4
-  server: 31.76.70.32
-  servername: baltic.cendora.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  xudp: true
 - name: 22|A🟢🇧🇷_dokng.com_98e8f1da
   port: 9191
   server: 177.222.248.51
@@ -1790,32 +1796,12 @@ proxies:
   port: 1080
   server: 171.25.158.95
   type: socks5
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_140955a0
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: WblkmqKUs4-IiNsawjWBV16uB_FBxLr8xFVi6eDPkxk
-    short-id: a1b2c3d4
-  server: 31.77.182.49
-  servername: fr.aeternavpn.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-  xudp: true
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_2594f999
   password: None
   port: 16062
   server: 104.251.93.167
   type: http
   username: null
-- name: 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_35b157c8
-  port: 9292
-  server: 45.232.76.98
-  type: http
 - name: '27|🇺🇸 United States/San Francisco... #7'
   network: ws
   port: 8880
@@ -1827,21 +1813,6 @@ proxies:
     headers:
       Host: lingering-glade-21ce.61-b6f.workers.dev
     path: /pyip=ProxyIP.SG.CMLiussss.net
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 32,45,52,53|FR - zhuhai.uk 02
-  network: tcp
-  port: 39399
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 155.117.199.13
-  servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - alterId: 64
   cipher: auto
   name: 32|🇨🇳_CN_中国
@@ -1857,6 +1828,21 @@ proxies:
   name: 32,45,52,53|KR - zhuhai.uk
   network: tcp
   port: 39211
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 32,45,52,53|FR - zhuhai.uk 02
+  network: tcp
+  port: 39399
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: bc8e3658db7d1323
@@ -1939,17 +1925,6 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   ws-path: h=%2Fassignment
-- alterId: 2
-  cipher: auto
-  name: '41,42|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '45,52|NL_speednode_0004 #1'
   port: 9002
   server: 84.17.47.125

@@ -63,10 +63,6 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_46227203
-  port: 80
-  server: 193.37.70.182
-  type: http
 - name: 22|C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_f467085f
   port: 443
   server: 185.44.107.166
