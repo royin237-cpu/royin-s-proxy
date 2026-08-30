@@ -983,8 +983,8 @@ def register_local(source_obj: Source, sourceId=-1) -> None:
     """把 merge_local 的本地结果按源序号注册进全局字典（主线程串行调用，
     保证名字去重与多源合并顺序与串行版完全一致）。"""
     global merged, unknown
+    if not source_obj.sub: print("空订阅，跳过！", end='', flush=True); return
     nodes, unk = source_obj.local_result
-    if not nodes and not unk: print("空订阅，跳过！", end='', flush=True); return
     unknown.update(unk)
     for hashn, n in nodes.items():
         n.format_name()
