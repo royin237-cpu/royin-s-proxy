@@ -1,23 +1,165 @@
 proxies:
-- name: 32|🇺🇸_US_美国
-  network: ws
-  port: 8080
-  server: 40.160.69.214
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
 - client-fingerprint: chrome
-  name: 53|US - zhuhai.uk 06
-  network: ws
-  port: 2096
-  server: 172.64.151.254
-  servername: oyue.rainfall0705.cc.cd
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_051ffd09
+  network: grpc
+  port: 9880
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabbccdd
+  server: 168.222.194.138
+  servername: dl.google.com
   tls: true
   type: vless
-  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
+  udp: true
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 22|B🟡🇺🇸[🎬🤖📺🎭]_dokng.com_7db19f0f
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c47ab06:133288
+    mode: tls
+  port: 2377
+  server: 3ce8ee8.hb.gladns.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 22|C🟠🇺🇸[🤖📺🎭📦]_dokng.com_c980b4b4
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+- name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_da628814
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 22,32|🇨🇳_CN_中国->🇺🇸_US_美国_1
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 22|A🟢🇺🇸[🤖📺🎭🎪]_dokng.com_4a841be9
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: 4a46213c935e2ee4
+  server: 31.76.70.32
+  servername: baltic.cendora.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  xudp: true
+- name: '27|🇺🇸 United States/San Francisco... #10'
+  network: ws
+  port: 80
+  server: 108.162.198.178
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: oyue.rainfall0705.cc.cd
-    path: /
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 40|🇺🇸US-130.250.137.171-0718
+  password: humanity
+  port: 443
+  server: 130.250.137.171
+  sni: www.ignitelimit.com
+  type: trojan
+- alterId: 0
+  name: 42,50|🇸US美国11
+  password: humanity
+  port: 443
+  server: 104.26.15.137
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #204'
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- alterId: 0
+  name: 42,50|🇺🇸US美国19
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #94'
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: 49|🇺🇸 美国 | USA 7
+  network: xhttp
+  port: 443
+  server: fi.tutvpn.com
+  servername: fi.tutvpn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
+  xhttp-opts:
+    host: fi.tutvpn.com
+    path: /tutcdn/
+- name: 49|🇺🇸 美国 | USA 8
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 49|🇺🇸 美国 | USA 23
+  network: ws
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 443
+  server: 104.19.173.68
+  skip-cert-verify: true
+  sni: azadnet-5vk.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: azadnet-5vk.pages.dev
+    path: /azadnet-5vk.pages.dev/?PROT_TYPE=trojan

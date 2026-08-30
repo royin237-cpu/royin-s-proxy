@@ -124,13 +124,6 @@ proxies:
   type: vmess
   udp: true
   uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
-- cipher: chacha20-ietf-poly1305
-  name: 22|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_262a7b88
-  password: ljqdalu13..
-  port: 8313
-  server: 52.193.171.28
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   name: 22|C🟠🇯🇵[🤖📺🎪🔍]_dokng.com_41228966
@@ -160,7 +153,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '39,40|🇯🇵JP-140.83.57.20-0153 #1'
+  name: '39,40|🇯🇵JP-140.83.57.20-0156 #1'
   network: ws
   port: 13118
   server: 140.83.57.20
@@ -174,7 +167,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '39,40|🇯🇵JP-172.111.146.64-5087 #1'
+  name: '39,40|🇯🇵JP-172.111.146.64-4668 #1'
   network: ws
   port: 80
   server: 172.111.146.64
@@ -202,21 +195,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 40,42|JP 🇯🇵 日本丨
-  network: ws
-  port: 36801
-  server: cindy50.ceoiii.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 40|🇯🇵JP-172.104.78.98-1951
+  name: 40|🇯🇵JP-172.104.78.98-1534
   network: ws
   port: 443
   server: 172.104.78.98
@@ -228,7 +207,7 @@ proxies:
     headers:
       Host: 172.104.78.98
     path: /chat
-- name: 40|🇯🇵JP-153.125.148.41-4462
+- name: 40|🇯🇵JP-153.125.148.41-4043
   password: 14bdba6dede262387ebdebaa706e1c90
   port: 443
   server: trs12.bolab.net

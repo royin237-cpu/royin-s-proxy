@@ -6,3 +6,60 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_a657f98f
+  network: tcp
+  port: 62145
+  server: 158.101.205.49
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_0533f82a
+  network: tcp
+  port: 62145
+  server: 158.178.157.219
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_7919335f
+  network: tcp
+  port: 62145
+  server: 84.235.175.73
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_592c975f
+  network: tcp
+  port: 62145
+  server: 92.5.230.120
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- client-fingerprint: chrome
+  encryption: none
+  name: 22,49|🇳🇱 荷兰 | NLD 4
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a1ee277e-93b7-4aa9-86a2-c7ef85a2adb0
+  ws-opts:
+    headers:
+      Host: pane3.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+  xudp: true
+- alterId: 0
+  cipher: auto
+  encryption: none
+  name: 22|C🟠🇳🇱[📺🎪📦]_dokng.com_c7ba76f8
+  network: ws
+  port: 443
+  server: 151.101.56.7
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 363c62f2-3f2e-4b20-87eb-78765a67df25
+  ws-opts:
+    headers:
+      Host: pane2.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER

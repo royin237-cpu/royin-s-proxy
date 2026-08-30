@@ -1,5 +1,27 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_9a7a98d6
+  network: tcp
+  port: 38551
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_052a91b6
+  password: cba96915-8098-41a7-9997-efb01ccc598a
+  port: 42311
+  server: a11.toppp.cc
+  skip-cert-verify: true
+  sni: osxapps.itunes.apple.com
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
   name: 53|KR - zhuhai.uk
   network: ws
   port: 443

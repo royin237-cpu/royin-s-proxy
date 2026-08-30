@@ -321,7 +321,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '39,40|🇷🇺RU-37.220.161.247-0187 #1'
+  name: '39,40|🇷🇺RU-195.209.86.241-0218 #1'
   network: ws
   port: 443
   server: renderer-stream-2-62.mirra.now
@@ -335,7 +335,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 40|🇷🇺RU-171.22.134.12-7588
+  name: 40|🇷🇺RU-171.22.134.12-7169
   network: ws
   port: 443
   server: 171.22.134.12
@@ -349,7 +349,7 @@ proxies:
     path: /path/1689849487190
 - alterId: 64
   cipher: auto
-  name: 40|🇷🇺RU-171.22.134.12-7589
+  name: 40|🇷🇺RU-171.22.134.12-7170
   network: ws
   port: 443
   server: 171.22.134.12

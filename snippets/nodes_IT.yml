@@ -388,17 +388,3 @@ proxies:
     headers:
       Host: nl1-vmess.sshmax.xyz
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 40|🇮🇹IT-57.131.32.191-0574
-  network: ws
-  port: 8443
-  server: 57.131.32.191
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 848af33c-81f2-40c9-93b2-4681d056936b
-  ws-opts:
-    headers:
-      Host: OV-Italy1.09vpn.com
-    path: /vmess/
