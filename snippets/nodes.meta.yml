@@ -50,14 +50,6 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 19,32,41,49|🇫🇷 法国 | FRA
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 95.170.13.47
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 19,22,45|🇬🇧GB_4|1.2MB/s
   password: amazonskr05
   port: 443
@@ -195,6 +187,10 @@ proxies:
   tls: false
   type: http
   username: fQ67Dpe5dU
+- name: 22|C🟠🇮🇹[🎬🤖📺🎭]_dokng.com_9464759f
+  port: 3133
+  server: 89.46.78.17
+  type: http
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -869,10 +865,6 @@ proxies:
   port: 80
   server: 193.37.70.182
   type: http
-- name: 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_03b9018d
-  port: 8081
-  server: 73.109.227.116
-  type: http
 - name: 22|D🔴🇨🇿[🎬🤖📺🎭]_dokng.com_9fc21f6b
   password: None
   port: 443
@@ -1290,6 +1282,10 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: '111'
+- name: 22|A🟢🇪🇨[🎬🤖📺🎭]_dokng.com_370c9262
+  port: 2010
+  server: 45.238.56.249
+  type: http
 - name: 22|A🟢🇪🇨[🎬🤖📺🎭]_dokng.com_ad093202
   port: 1812
   server: 177.53.215.196
@@ -1542,6 +1538,10 @@ proxies:
   udp: true
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
   xudp: true
+- name: 22|A🟢🇲🇽_dokng.com_d008ccab
+  port: 999
+  server: 164.163.188.113
+  type: http
 - name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_24a6e4b9
   password: test123
   port: 1080

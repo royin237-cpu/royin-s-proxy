@@ -1,4 +1,8 @@
 proxies:
+- name: 22|C🟠🇮🇹[🎬🤖📺🎭]_dokng.com_9464759f
+  port: 3133
+  server: 89.46.78.17
+  type: http
 - name: 22|D🔴🇮🇹[🎬🤖📺🎭]_dokng.com_595d4b27
   port: 443
   server: 185.183.105.130

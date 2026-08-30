@@ -268,10 +268,6 @@ proxies:
   port: 16062
   server: 104.218.199.16
   type: http
-- name: 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_03b9018d
-  port: 8081
-  server: 73.109.227.116
-  type: http
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6de140d5
   port: 16062
   server: 104.251.93.167
