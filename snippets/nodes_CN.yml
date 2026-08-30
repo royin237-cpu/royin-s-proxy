@@ -1,19 +1,6 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: '22,42|🇨🇳_CN_中国 #1'
-  network: tcp
-  port: 50002
-  server: 112.132.215.108
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  xudp: true
-- alterId: 64
-  cipher: auto
   name: 32|🇨🇳_CN_中国
   port: 50002
   server: 112.132.215.108

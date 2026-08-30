@@ -1,18 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 49|🇪🇸 西班牙 | ESP
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: G7hjy9PEKopcPUP4mQXhwIaKIO9TCra_5LHZWuM_RjM
-    short-id: 641a87d5ecdfaeb3
-  server: 193.238.154.39
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4c1b7e3f-6a2d-493f-b6c4-4ef37db6fcfc
 - name: 51|🇪🇸+ES+西班牙+9
   network: ws
   port: 2053

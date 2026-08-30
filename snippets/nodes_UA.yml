@@ -243,7 +243,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 26,50|未知10 705.0KB/s
+  name: 26,50|未知123
   network: tcp
   port: 22324
   server: 85.90.217.42

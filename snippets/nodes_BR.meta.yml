@@ -4,10 +4,11 @@ proxies:
   password: humanity
   port: 443
   server: 188.114.97.7
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    path: /assignment
 - alterId: 1
   cipher: auto
   name: 26,40|🏁RELAY-188.114.96.7-0756
@@ -173,3 +174,14 @@ proxies:
     headers:
       Host: ophelia.mom
     path: linkvws
+- name: 49|🇧🇷 巴西 | BRA
+  network: ws
+  port: 2200
+  server: 201.24.49.237
+  servername: rzd.ru
+  tls: false
+  type: vless
+  udp: true
+  uuid: af412668-578c-4296-bc8c-8fac6a8d9003
+  ws-opts:
+    path: /v1

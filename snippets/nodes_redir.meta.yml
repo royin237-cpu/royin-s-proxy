@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32,49,52,53|FR - zhuhai.uk 01
+  name: 32,52,53|FR - zhuhai.uk
   network: tcp
   port: 39399
   reality-opts:
@@ -9,14 +9,14 @@ proxies:
     short-id: bc8e3658db7d1323
   server: 155.117.199.13
   servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32,52|US_speednode_0142
+  name: 32,52,53|KR - zhuhai.uk 01
   network: tcp
   port: 39211
   reality-opts:
@@ -31,8 +31,7 @@ proxies:
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32,49|🇸🇬 新加坡 | SGP 7
-  network: tcp
+  name: 32|🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
   port: 15006
   reality-opts:
     public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg

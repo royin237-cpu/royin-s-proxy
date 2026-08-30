@@ -850,15 +850,18 @@ proxies:
     headers:
       Host: 137.184.164.233
     path: /vmess
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #167'
+- alterId: 0
+  name: 42,50|🇦CA加拿大5
   password: humanity
   port: 443
   server: 104.16.174.44
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
+  tls: true
   type: trojan
+  udp: true
 - alterId: 0
-  name: 42,50|🇺🇸US美国10
+  name: 42,50|🇦CA加拿大6
   password: humanity
   port: 443
   server: 104.18.152.204
@@ -881,13 +884,16 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #150'
+- alterId: 0
+  name: 42,50|CA
   password: humanity
   port: 443
   server: 104.18.152.140
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
+  tls: true
   type: trojan
+  udp: true
 - name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #155'
   password: humanity
   port: 443
@@ -896,7 +902,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
 - alterId: 0
-  name: 42,50|🇺🇸US美国2
+  name: 42,50|🇨🇦CA加拿大4
   password: humanity
   port: 443
   server: 104.16.174.72
@@ -912,25 +918,21 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #126'
+- alterId: 0
+  name: 42,50|🇦CA加拿大3
   password: humanity
   port: 443
   server: 104.16.174.71
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
+  tls: true
   type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #197'
+  udp: true
+- alterId: 0
+  name: 42,50|🇨🇦CA加拿大2
   password: humanity
   port: 443
   server: 104.17.111.8
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- alterId: 0
-  name: 50|CA
-  password: humanity
-  port: 443
-  server: 130.250.137.171
   skip-cert-verify: true
   sni: www.ignitelimit.com
   tls: true

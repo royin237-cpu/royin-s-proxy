@@ -1721,7 +1721,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 17|🇺🇸 US 118 → tg@nicevpn123
+  name: 17,50|未知131
   network: ws
   port: 443
   server: 104.21.15.212
@@ -1733,6 +1733,7 @@ proxies:
   ws-opts:
     headers:
       Host: 104.21.15.212
+      host: glweidf.sbs
     path: /linkws
 - name: 17|🇺🇸 US 1180 → tg@nicevpn123
   network: ws
@@ -5488,7 +5489,7 @@ proxies:
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 17,50|未知19
+  name: 17|🇺🇸 US 1583 → tg@nicevpn123
   network: ws
   port: 443
   server: 172.67.164.164
@@ -5500,7 +5501,6 @@ proxies:
   ws-opts:
     headers:
       Host: 172.67.164.164
-      host: afrhms07.xfixedfloat.cfd
     path: /linkws
 - name: 17|🇺🇸 US 1587 → tg@nicevpn123
   network: ws
@@ -6407,7 +6407,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 17,26,40,50,51|🏁RELAY-172.67.183.220-3842
+  name: 17,26,40,51|🏁RELAY-172.67.183.220-3842
   network: ws
   port: 443
   server: jahfkjha.cfd
@@ -10973,7 +10973,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: 17,50|未知7
+  name: 17|🇺🇸 US 212 → tg@nicevpn123
   network: ws
   port: 443
   server: gov.uk
@@ -10985,7 +10985,6 @@ proxies:
   ws-opts:
     headers:
       Host: gov.uk
-      host: zheshiscp.com
     path: /77848824
 - alterId: 0
   cipher: auto
@@ -18516,16 +18515,41 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: www.speedtest.org
+  server: 104.18.152.113
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- alterId: 0
+  cipher: auto
+  name: 18|美国 CloudFlare节点
+  network: ws
+  port: 8443
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: 18|美国+得克萨斯州达拉斯Cloudflare+Warp节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.0
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '18|美国+CloudFlare节点 #1'
+- name: 18,40|🏁RELAY-104.18.152.210-1362
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.109
+  server: 104.18.152.210
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -18534,7 +18558,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.77
+  server: 104.18.152.187
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -18543,16 +18567,20 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.230
+  server: 104.16.73.213
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '18|美国+CloudFlare节点 #4'
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: '18|美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.187
+  server: 198.41.223.96
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -18561,18 +18589,16 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.12
+  server: 104.18.152.179
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: '18|美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
-  server: 104.17.111.3
+  server: 104.17.177.143
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -18581,7 +18607,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.26.15.137
+  server: 104.17.111.3
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -18590,21 +18616,21 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.101
+  server: 104.16.174.12
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: '18|美国+CloudFlare节点 #9'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.34
+  server: 104.18.152.229
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - cipher: chacha20-ietf-poly1305
   name: 22|B🟡🇺🇸[🎬🤖📺🎭]_dokng.com_7db19f0f
@@ -18618,14 +18644,13 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 22,49|🇺🇸 美国 | USA 3
+  name: 22|C🟠🇺🇸[🤖📺🎭📦]_dokng.com_c980b4b4
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.232
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: 22,32|🇨🇳_CN_中国->🇺🇸_US_美国_2
+  name: 22,32,49,53|US - zhuhai.uk 05
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.233
@@ -18634,7 +18659,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 22,32,49|🇺🇸 美国 | USA 38
+  name: 22,32|🇨🇳_CN_中国->🇺🇸_US_美国_1
   port: 30804
   server: v4.hdacd.com
   skip-cert-verify: true
@@ -20158,15 +20183,6 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 40|🇺🇸US-130.250.137.171-1359
-  network: ws
-  password: humanity
-  port: 443
-  server: 130.250.137.171
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - name: 40|🇺🇸US-216.24.57.1-1368
   network: ws
   password: humanity
@@ -20613,13 +20629,16 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #187'
+- alterId: 0
+  name: 42,50|🇺🇸US美国8
   password: humanity
   port: 443
   server: 104.18.152.97
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
+  tls: true
   type: trojan
+  udp: true
 - name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #174'
   password: humanity
   port: 443
@@ -20627,13 +20646,16 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #196'
+- alterId: 0
+  name: 42,50|🇺🇸US美国7
   password: humanity
   port: 443
   server: 104.18.152.73
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
+  tls: true
   type: trojan
+  udp: true
 - name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #81'
   password: humanity
   port: 443
@@ -20668,20 +20690,26 @@ proxies:
   server: www.ignitelimit.com
   skip-cert-verify: false
   type: trojan
-- name: '42|🇫🇷 FR法国(mibei77.com 米贝节点分享) #13'
+- alterId: 0
+  name: 42,50|🇺🇸US美国17
   password: humanity
   port: 443
   server: 216.24.57.7
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
+  tls: true
   type: trojan
-- name: 42|🇺🇸 US美国(mibei77.com 米贝节点分享)
+  udp: true
+- alterId: 0
+  name: 42,50|🇺🇸US美国10
   password: humanity
   port: 443
   server: 45.80.111.7
   skip-cert-verify: true
   sni: www.calmlunch.com
+  tls: true
   type: trojan
+  udp: true
 - name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #1'
   password: humanity
   port: 443
@@ -20717,13 +20745,16 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #193'
+- alterId: 0
+  name: 42,50|🇺🇸US美国19
   password: humanity
   port: 443
   server: 104.16.174.36
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
+  tls: true
   type: trojan
+  udp: true
 - name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #44'
   password: humanity
   port: 443
@@ -20759,13 +20790,16 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #184'
+- alterId: 0
+  name: 42,50|🇺🇸US美国20
   password: humanity
   port: 443
   server: 104.18.152.50
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
+  tls: true
   type: trojan
+  udp: true
 - name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #185'
   password: humanity
   port: 443
@@ -20788,7 +20822,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
 - alterId: 0
-  name: 42,50|🇺🇸US美国4
+  name: 42,50|🇺🇸US美国13
   password: humanity
   port: 443
   server: ip.myip2.qzz.io
@@ -20811,13 +20845,16 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #166'
+- alterId: 0
+  name: 42,50|🇺🇸US美国5
   password: humanity
   port: 443
   server: 104.18.152.208
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
+  tls: true
   type: trojan
+  udp: true
 - name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #134'
   password: humanity
   port: 443
@@ -20825,20 +20862,26 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #175'
+- alterId: 0
+  name: 42,50|🇺🇸US美国12
   password: humanity
   port: 443
   server: 104.16.174.143
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
+  tls: true
   type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #74'
+  udp: true
+- alterId: 0
+  name: 42,50|🇺🇸US美国6
   password: humanity
   port: 443
   server: 141.101.90.101
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
+  tls: true
   type: trojan
+  udp: true
 - name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #203'
   password: humanity
   port: 443
@@ -20853,13 +20896,16 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #159'
+- alterId: 0
+  name: 42,50|🇺🇸US美国21
   password: humanity
   port: 443
   server: 172.67.149.60
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
+  tls: true
   type: trojan
+  udp: true
 - name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #189'
   password: humanity
   port: 443
@@ -20881,23 +20927,23 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #180'
+- alterId: 0
+  name: 42,50|🇺🇸US美国3
   password: humanity
   port: 443
   server: 104.16.7.70
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- alterId: 0
-  name: '42,50|US #1'
-  password: humanity
-  port: 443
-  server: 104.18.152.144
   skip-cert-verify: true
   sni: www.ignitelimit.com
   tls: true
   type: trojan
   udp: true
+- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #131'
+  password: humanity
+  port: 443
+  server: 104.18.152.144
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
 - name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #194'
   password: humanity
   port: 443
@@ -20926,13 +20972,16 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #188'
+- alterId: 0
+  name: 42,50|🇺🇸US美国4
   password: humanity
   port: 443
   server: 104.18.152.225
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
+  tls: true
   type: trojan
+  udp: true
 - name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #201'
   password: humanity
   port: 443
@@ -20940,13 +20989,16 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #205'
+- alterId: 0
+  name: 42,50|🇺🇸US美国22
   password: humanity
   port: 443
   server: render.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
+  tls: true
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '42|🇺🇸_US_美国 #1'
@@ -20957,11 +21009,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 49|🇺🇸 美国 | USA 10
+- alpn:
+  - http/1.1
+  name: 49|🇺🇸 美国 | USA 4
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.117
+  server: 216.24.57.7
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -20970,11 +21024,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 49|🇺🇸 美国 | USA 11
+- name: 49|🇺🇸 美国 | USA 8
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.12
+  server: 104.18.152.77
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -20983,33 +21037,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 49|🇺🇸 美国 | USA 12
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 13
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.22
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /%2Fassignment
-- name: 49|🇺🇸 美国 | USA 14
+- name: 49|🇺🇸 美国 | USA 9
   network: ws
   password: humanity
   port: 443
@@ -21026,33 +21054,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.34
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 16
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.44
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 17
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
+  server: 104.18.152.133
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -21065,59 +21067,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.72
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 19
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.3
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 20
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.4
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 21
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.8
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 22
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.103
+  server: render.com
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -21128,155 +21078,22 @@ proxies:
     path: /assignment
 - name: 49|🇺🇸 美国 | USA 23
   network: ws
-  password: humanity
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
   port: 443
-  server: 104.18.152.108
+  server: 104.19.173.68
   skip-cert-verify: true
-  sni: www.ignitelimit.com
+  sni: azadnet-5vk.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 24
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.155
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 25
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.161
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+      Host: azadnet-5vk.pages.dev
+    path: /azadnet-5vk.pages.dev/?PROT_TYPE=trojan
 - name: 49|🇺🇸 美国 | USA 26
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.219
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 27
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.229
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 28
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 29
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 30
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.26.14.137
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 31
-  network: ws
-  password: humanity
-  port: 443
-  server: 130.250.137.171
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 32
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alpn:
-  - h2
-  - http/1.1
-  name: 49|🇺🇸 美国 | USA 33
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.136.234
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 34
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.149.60
+  server: 165.215.250.14
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -21289,77 +21106,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 172.67.221.242
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 36
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.74.2
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 49|🇺🇸 美国 | USA 37
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 49|🇺🇸 美国 | USA 39
-  network: ws
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 40
-  network: ws
-  password: humanity
-  port: 443
-  server: join-telegram-channel.tirexnet.kdns.fr
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 49|🇺🇸 美国 | USA 41
-  network: ws
-  password: humanity
-  port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  server: 104.16.174.44
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -21369,81 +21116,18 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - alterId: 0
-  name: 50|🇺🇸US美国3
+  name: 50|US
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.179
+  server: 104.16.73.213
   skip-cert-verify: true
   sni: www.ignitelimit.com
   tls: true
   type: trojan
   udp: true
 - alterId: 0
-  cipher: auto
-  name: 50|US3
-  network: tcp
-  port: 6718
-  server: frkonkor.velmor.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1c46e7ee-ba01-4d3d-8625-7752253f70ac
-- alterId: 0
-  cipher: auto
-  name: 50|US4 37.9MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  name: 50|🇺🇸US美国5
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.177.143
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 50|🇺🇸US美国6
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.74.2
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 50|🇺🇸US美国7
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 50|US6
-  network: tcp
-  port: 110
-  server: USA.SixMax.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: cabf1c07-21c2-4fc7-865c-7c9ee5e36bc8
-- alterId: 0
-  name: 50|🇺🇸US美国8
+  name: 50|🇺🇸US美国2
   network: ws
   password: humanity
   port: 443
@@ -21455,20 +21139,20 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 50|US7
+  name: 50|US8
   network: tcp
-  port: 20728
-  server: usa.selqora.ir
+  port: 110
+  server: USA.SixMax.ir
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: ff96cb3b-4c7e-4f65-a69b-3f8670d3450c
+  uuid: cabf1c07-21c2-4fc7-865c-7c9ee5e36bc8
 - alterId: 0
   name: 50|🇺🇸US美国9
   network: ws
   password: humanity
   port: 443
-  server: render.com
+  server: 104.18.152.229
   skip-cert-verify: true
   sni: www.ignitelimit.com
   tls: true
@@ -21476,62 +21160,50 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 50|US9 7.5MB/s
+  name: 50|US12
   network: tcp
-  port: 22324
-  server: 216.106.183.35
+  port: 6718
+  server: frkonkor.velmor.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  name: 50|🇺🇸US美国11
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.34
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 50|🇺🇸US美国12
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.160
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
+  uuid: 1c46e7ee-ba01-4d3d-8625-7752253f70ac
 - alterId: 0
   cipher: auto
-  name: 50|US13 53.9MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.37
+  name: 50|US13
+  network: ws
+  port: 80
+  server: www.true.th
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: a150d554-e962-4632-829f-ee583ada3f95
+  ws-opts:
+    headers:
+      Host: www.true.th
+      host: d7pu5mzr9c4b0.cloudfront.net
+    path: /htun
 - alterId: 0
-  cipher: auto
-  name: 50|US15 647.8KB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.97
+  cipher: none
+  name: 50|US14
+  network: ws
+  port: 80
+  server: 66.81.247.246
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 28f8d51a-0e75-4fc3-a36e-03bf4e4d0910
+  ws-opts:
+    headers:
+      Host: 66.81.247.246
+      host: 127.0.0.1..jосисийкаде.spacecadet.day0ne.wonkacapitano.buzz.
+    path: /vmess
 - alterId: 0
-  name: 50|🇺🇸US美国13
+  name: 50|🇺🇸US美国15
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.233
+  server: 104.17.111.3
   skip-cert-verify: true
   sni: www.ignitelimit.com
   tls: true
@@ -21539,7 +21211,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 51|美国 CloudFlare节点
+  name: '51|美国 CloudFlare节点 #1'
   network: ws
   port: 80
   server: 104.21.224.8
@@ -21552,7 +21224,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #2'
+  name: '51|美国 CloudFlare节点 #3'
   network: ws
   port: 80
   server: 104.21.224.129
@@ -21565,7 +21237,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳@WangCai_8
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #3'
+  name: '51|美国 CloudFlare节点 #4'
   network: ws
   port: 80
   server: 104.21.230.53
@@ -21579,7 +21251,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #4'
+  name: '51|美国 CloudFlare节点 #5'
   network: ws
   port: 80
   server: 104.21.224.56
@@ -21593,7 +21265,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #5'
+  name: '51|美国 CloudFlare节点 #6'
   network: ws
   port: 80
   server: 104.21.235.76
@@ -21606,7 +21278,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai08
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #8'
+  name: '51|美国 CloudFlare节点 #9'
   network: ws
   port: 80
   server: 104.21.224.24
@@ -21632,7 +21304,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #10'
+  name: '51|美国 CloudFlare节点 #11'
   network: ws
   port: 80
   server: 104.21.238.90
@@ -21646,7 +21318,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #11'
+  name: '51|美国 CloudFlare节点 #12'
   network: ws
   port: 80
   server: 104.21.237.88
@@ -21660,7 +21332,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #12'
+  name: '51|美国 CloudFlare节点 #13'
   network: ws
   port: 80
   server: 104.21.224.157
@@ -21674,7 +21346,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #13'
+  name: '51|美国 CloudFlare节点 #14'
   network: ws
   port: 80
   server: 104.21.237.65
@@ -21687,7 +21359,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #14'
+  name: '51|美国 CloudFlare节点 #15'
   network: ws
   port: 80
   server: 104.21.221.135
@@ -21701,7 +21373,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #15'
+  name: '51|美国 CloudFlare节点 #16'
   network: ws
   port: 80
   server: 104.21.237.87
@@ -21715,7 +21387,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #17'
+  name: '51|美国 CloudFlare节点 #18'
   network: ws
   port: 80
   server: 104.21.230.31
@@ -21729,7 +21401,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #18'
+  name: '51|美国 CloudFlare节点 #19'
   network: ws
   port: 80
   server: 104.21.224.23
@@ -21749,7 +21421,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #19'
+  name: '51|美国 CloudFlare节点 #20'
   network: ws
   port: 80
   server: 104.21.239.76
@@ -21776,7 +21448,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #20'
+  name: '51|美国 CloudFlare节点 #21'
   network: ws
   port: 80
   server: 104.21.228.42
@@ -21790,7 +21462,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #21'
+  name: '51|美国 CloudFlare节点 #22'
   network: ws
   port: 80
   server: 104.21.234.74
@@ -21803,7 +21475,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #22'
+  name: '51|美国 CloudFlare节点 #23'
   network: ws
   port: 80
   server: 104.21.230.50
@@ -21817,7 +21489,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #23'
+  name: '51|美国 CloudFlare节点 #24'
   network: ws
   port: 80
   server: 104.21.228.40
@@ -21831,7 +21503,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #24'
+  name: '51|美国 CloudFlare节点 #25'
   network: ws
   port: 80
   server: 104.21.228.41
@@ -21844,7 +21516,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #25'
+  name: '51|美国 CloudFlare节点 #26'
   network: ws
   port: 80
   server: 104.21.234.72
@@ -21858,7 +21530,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #26'
+  name: '51|美国 CloudFlare节点 #27'
   network: ws
   port: 80
   server: 104.21.232.63
@@ -21871,7 +21543,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #27'
+  name: '51|美国 CloudFlare节点 #28'
   network: ws
   port: 80
   server: 104.21.221.95
@@ -21891,7 +21563,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #28'
+  name: '51|美国 CloudFlare节点 #29'
   network: ws
   port: 80
   server: 104.21.224.16
@@ -21904,7 +21576,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳@WangCai_8
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #29'
+  name: '51|美国 CloudFlare节点 #30'
   network: ws
   port: 80
   server: 104.21.224.174
@@ -21918,7 +21590,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #30'
+  name: '51|美国 CloudFlare节点 #31'
   network: ws
   port: 80
   server: 104.21.221.215
@@ -21932,7 +21604,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #31'
+  name: '51|美国 CloudFlare节点 #32'
   network: ws
   port: 80
   server: 104.21.226.14
@@ -21958,7 +21630,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #32'
+  name: '51|美国 CloudFlare节点 #33'
   network: ws
   port: 80
   server: 104.21.235.57
@@ -21971,7 +21643,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai08
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #33'
+  name: '51|美国 CloudFlare节点 #34'
   network: ws
   port: 80
   server: 104.21.224.240
@@ -21998,7 +21670,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #34'
+  name: '51|美国 CloudFlare节点 #35'
   network: ws
   port: 80
   server: 104.21.230.51
@@ -22012,7 +21684,7 @@ proxies:
     path: '/?ed=2048&Telegram🇨🇳 '
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #35'
+  name: '51|美国 CloudFlare节点 #36'
   network: ws
   port: 80
   server: 104.21.231.59
@@ -22026,7 +21698,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #36'
+  name: '51|美国 CloudFlare节点 #37'
   network: ws
   port: 80
   server: 104.21.224.46
@@ -22040,7 +21712,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #37'
+  name: '51|美国 CloudFlare节点 #38'
   network: ws
   port: 80
   server: 104.21.236.60
@@ -22053,7 +21725,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #38'
+  name: '51|美国 CloudFlare节点 #39'
   network: ws
   port: 80
   server: 104.21.238.92
@@ -22066,7 +21738,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #39'
+  name: '51|美国 CloudFlare节点 #40'
   network: ws
   port: 80
   server: 104.21.239.77
@@ -22079,7 +21751,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #40'
+  name: '51|美国 CloudFlare节点 #41'
   network: ws
   port: 8080
   server: 172.67.143.192
@@ -22093,7 +21765,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #41'
+  name: '51|美国 CloudFlare节点 #42'
   network: ws
   port: 80
   server: 104.21.229.26
@@ -22119,7 +21791,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #42'
+  name: '51|美国 CloudFlare节点 #43'
   network: ws
   port: 80
   server: 104.21.227.15
@@ -22132,7 +21804,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳@WangCai_8
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #43'
+  name: '51|美国 CloudFlare节点 #44'
   network: ws
   port: 80
   server: 104.21.228.20
@@ -22145,7 +21817,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #44'
+  name: '51|美国 CloudFlare节点 #45'
   network: ws
   port: 80
   server: 104.21.231.57
@@ -22159,7 +21831,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '51|美国 CloudFlare节点 #45'
+  name: '51|美国 CloudFlare节点 #46'
   network: ws
   port: 80
   server: 104.21.229.47

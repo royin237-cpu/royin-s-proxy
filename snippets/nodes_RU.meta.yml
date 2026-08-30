@@ -1,5 +1,345 @@
 proxies:
-- name: 22,49|🇷🇺 俄罗斯 | RUS 2
+- name: 17|🇷🇺 RU 1 → tg@nicevpn123
+  password: 71ab3866-4c8b-4a0b-a4bd-a64f110afe0b
+  port: 443
+  server: ca-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 17|🇷🇺 RU 13 → tg@nicevpn123
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  server: 5.188.181.201
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 17|🇷🇺 RU 14 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: nl-full.privateip.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f269033e-a955-4dee-9345-948ed5b77838
+  ws-opts:
+    headers:
+      Host: nl-full.privateip.net
+    path: /RACEVPN
+- cipher: aes-256-cfb
+  name: 17|🇷🇺 RU 16 → tg@nicevpn123
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 5.188.181.201
+  type: ss
+  udp: true
+- name: 17|🇷🇺 RU 17 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- name: 17|🇷🇺 RU 18 → tg@nicevpn123
+  password: 8b47d63f-1f8e-4f8e-a1e8-ead3686e5da6
+  port: 443
+  server: ca-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 17|🇷🇺 RU 22 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: 185.148.104.118
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: 185.148.104.118
+    path: /hms02.fxiaomi.sbs/link
+- cipher: aes-256-cfb
+  name: 17|🇷🇺 RU 23 → tg@nicevpn123
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 5.188.181.201
+  type: ss
+  udp: true
+- name: 17|🇷🇺 RU 29 → tg@nicevpn123
+  password: d2b376a2-c9b7-42be-8f52-26c0987f2884
+  port: 443
+  server: nl-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 17|🇷🇺 RU 30 → tg@nicevpn123
+  password: GeregetR8cvQHzYr
+  port: 9030
+  server: 5.188.181.201
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 17|🇷🇺 RU 31 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: is3-vmess.sshmax.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a8d33442-de64-4980-a779-540c1eedbc25
+  ws-opts:
+    headers:
+      Host: is3-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 17|🇷🇺 RU 32 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: de1-vmess.greenssh.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
+  ws-opts:
+    headers:
+      Host: de1-vmess.greenssh.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 17|🇷🇺 RU 37 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: hk-full.privateip.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f2c48b2f-c581-4d7d-846e-8bd97d93bd65
+  ws-opts:
+    headers:
+      Host: hk-full.privateip.net
+    path: /RACEVPN
+- name: 17|🇷🇺 RU 41 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- alterId: 0
+  cipher: auto
+  name: 17|🇷🇺 RU 42 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: 185.148.104.118
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: ab-test-frosty-flower-e7fb.tariroc864.workers.dev
+    path: /hms02.fxiaomi.sbs/link
+- name: 17|🇷🇺 RU 45 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- name: 17|🇷🇺 RU 49 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- name: 17|🇷🇺 RU 50 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- name: 17|🇷🇺 RU 58 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- name: 17|🇷🇺 RU 61 → tg@nicevpn123
+  password: bf2307e1-a58f-41c2-8392-d76197fc2866
+  port: 443
+  server: nl-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 17|🇷🇺 RU 64 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- name: 17|🇷🇺 RU 67 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- name: 17|🇷🇺 RU 68 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- alterId: 0
+  cipher: auto
+  name: 17|🇷🇺 RU 70 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 85.117.234.167
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1a363dc9-698c-49d2-e00d-c43005f64c40
+  ws-opts:
+    headers:
+      Host: 85.117.234.167
+    path: /TG@dns68免费节点
+- name: 17|🇷🇺 RU 71 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- name: 17|🇷🇺 RU 73 → tg@nicevpn123
+  password: 01278779-3f58-4477-8ae7-7b82033a5d2e
+  port: 443
+  server: hk-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 17|🇷🇺 RU 74 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- name: 17|🇷🇺 RU 76 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- alterId: 0
+  cipher: auto
+  name: 17|🇷🇺 RU 95 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: ca-full.privateip.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 8da41d0a-0454-4ced-a7e2-4de2a3dcc525
+  ws-opts:
+    headers:
+      Host: ca-full.privateip.net
+    path: /RACEVPN
+- name: 17|🇷🇺 RU 97 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- name: 22|A🟢🇷🇺[📺🎪]_dokng.com_67a45bda
+  network: ws
+  port: 2200
+  server: 201.24.49.117
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 2e228435-33a0-47d1-a1d8-9a34b5a03c45
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
+- client-fingerprint: android
+  name: 22|A🟢🇷🇺[🎪]_dokng.com_8c5162ff
+  network: ws
+  port: 4100
+  server: 201.24.49.240
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  uuid: aa7d939b-feaa-4ad3-9615-74216f490807
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- name: 22|D🔴🇷🇺[🤖📺🎪📦]_dokng.com_9b0f29e8
   network: ws
   port: 4100
   server: 201.34.137.15
@@ -7,9 +347,131 @@ proxies:
   tfo: false
   tls: false
   type: vless
-  udp: true
   uuid: 716903b1-e6bf-4420-9e27-65e4451692e9
   ws-opts:
     headers:
       Host: live.ok.ru
     path: /v1
+- client-fingerprint: android
+  name: 22|C🟠🇷🇺[📺🎪]_dokng.com_2438df74
+  network: ws
+  port: 443
+  server: ru05.abvpn.ru
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    headers:
+      Host: ru05.abvpn.ru
+    path: /websocket
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  encryption: mlkem768x25519plus.native.0rtt.fsGtiqlb1xuwUZF-iPrG-9aedIIVJyMnPCNu9EiNrMKVfwcDmvBNvhRpcaxvSMuhMjDI1qh0W1wI1rRzA3OB_TKFqNomhKW841Na5qKCCFYAGRENYXCVY0qqLaU1a9gqdak6T2LG9aUtXLdY_sY1jxI5JOhcNtc6lQGIj6NVHPOa5Zd3FhdRGUo8aFopsJJUaCePlkWN4UxrzUA5geFtM1g7WcVNiFpuV_vOEQKPgHQNgwAdWYGZWfVIp6TJTfk3HYvChZgjbUkeU9y6t8A9H2Ut9QiTqjA-z1IV8CgUUNa7PvuHYOUgsLipX9BeFYOf4VSpwsmMtWtywIN2LyBU69wjyhMPmEwGOdGWdvGyVJWQ4xULffWEpvlCBBCRSJAQGyIMHPVdYuU7ALzE5dgM_Aodphek1LLAcAx3ZWIAdtowSvKD9GwuPIotC-TFNaa60qCHbsW1YFQS1CJDGxDIUCYbwKGgIqM4__BYhtDIrGtmltQKyjxJJrI3ndKrHaJb4tjDc2dJ1yO_Lom8K8mZfpVM9qg0xIE3aqeBaSFIxiueWzVf4uy0FISgxip0pzw7E4tjepIXkXbI1ZkMG2VtPmwr0wR4fWddPPV-rdklaeNzonguCspC9-JEwTjFQ3nG5yXPrLm5LcovgjIHPylwDqsQiqN2J8ESI9xOQcKJ-JVrSzZwnEhO8iZ4wVhm_Ga7qIk-TDK23JDHRRJAkvy7WYWtCluPIlXK_upU_gN-BAUrC3V81AvHQqWnBeopVaGppFo7QZd9JpoXB_RqqpXGRfXGHptsPhGUR0h-7dYnEFR_MCIV_jNLCwy2U2UDd2TBBODKF5fEPisCoYMiXQrKhhhacZqL5Io5UpWYB9lmH9VFyHwTBFfJuAuYrhcKx_Ag5kNJoBJDRTiMDifBS7MewSSrzeWCoIuiK2Q5BGodsSZAdcbGs5mySwsmQBwQWCqgDObMYzeHMxu-IksLlLKMCVQET5smRdRTkgtJclAvsuB9l4rDkPcVsKCCH8ktxGO6aSPLS4ib2Hc32qNgKASVRZYfyGM6GoN5c9hsa_QVtfa4ANqaqMzJmbJaxcA2FmsHXhaG6UXGqDd32hofLjt1NyUH8DjAIksdA2Ycy5xz3yRZCIIeKHaUR5s9uoQWfZYYMYJfl6o6ohmEXrScGGN_BYgb1GSkX5OcODGDKBVdPEd20IQ62je4pYUJzjtw66MkZUuS2_VRlni1aqNz4JB3sKpAtDyMqYApa-x2v5YU1tdH1BQkYmty16pqE1w4akVZ-rJOQwnJlrY6-1gz2PtjWHQoWju_31E92WYYwoMBSPkEhgCcbTys0FAD6sxu6Mh2UrSh0AZIX3mdXWk2IlmSd7QuoFuNEClwRCiNpokoclMkyvOe7oEFa6xIGvGMGnc2RzkmCyXBjyZgIgussYtl8ZplgcOAiAZzf-sM7-XItKlWAABWituyNyOiL_FtLkGgrpYw4NjJ_iZtoJaVpkGcALwtnrSWv1M9yvMV4wFlkDiyOyaWERidV5s75sA0l_ADPKpMd0_DPh_PN_2luzFs4QMrudBp2KJEE8Jn5Ob0_dk
+  name: 22|C🟠🇷🇺[📺]_dokng.com_a50be98e
+  network: ws
+  port: 443
+  server: 193.124.125.135
+  servername: w2.tunnelgate.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 968469ec-67c9-4fe6-bf72-dd20716add3b
+  ws-opts:
+    headers:
+      Host: w2.tunnelgate.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /ws/v1/ru
+  xudp: true
+- encryption: none
+  name: 22|C🟠🇷🇺[🎪]_dokng.com_f80343b3
+  network: ws
+  port: 2200
+  server: 185.185.69.26
+  type: vless
+  udp: true
+  uuid: 7ee53e03-96ed-4121-9da2-62f3d3374506
+  ws-opts:
+    headers:
+      Host: rzd.ru
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /v1
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇷🇺 Russia/Moscow [TG]
+  password: OTgxZ
+  port: 1443
+  server: 138.124.68.88
+  type: ss
+  udp: true
+- name: 37|🇷🇺 FASTNET 11
+  network: ws
+  port: 8443
+  server: www.speedtest.net
+  servername: pq-2.access.name.ng
+  tls: true
+  type: vless
+  uuid: ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4
+  ws-opts:
+    headers:
+      Host: pq-2.access.name.ng
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: '39,40|🇷🇺RU-37.220.161.247-0187 #1'
+  network: ws
+  port: 443
+  server: renderer-stream-2-62.mirra.now
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 40|🇷🇺RU-171.22.134.12-7588
+  network: ws
+  port: 443
+  server: 171.22.134.12
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: 171.22.134.12
+    path: /path/1689849487190
+- alterId: 64
+  cipher: auto
+  name: 40|🇷🇺RU-171.22.134.12-7589
+  network: ws
+  port: 443
+  server: 171.22.134.12
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: 171.22.134.12
+    path: /path/1689935243027
+- name: 51|🇷🇺+RU+俄罗斯联邦+11
+  network: ws
+  port: 2087
+  server: 185.176.24.140
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'

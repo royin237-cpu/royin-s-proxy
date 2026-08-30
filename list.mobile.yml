@@ -1,5 +1,5 @@
-# Update: 2026-08-30 12:03
-# 移动端轻量订阅：173 个存活节点（每地区最多 15 个），精简规则
+# Update: 2026-08-30 13:37
+# 移动端轻量订阅：178 个存活节点（每地区最多 15 个），精简规则
 mixed-port: 7890
 allow-lan: false
 mode: rule
@@ -27,13 +27,6 @@ proxies:
     headers:
       Host: 45.85.119.65
     path: /build
-- cipher: aes-256-cfb
-  name: 17|🇯🇵 JP 2 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 54.248.173.222
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 17|🇯🇵 JP 21 → tg@nicevpn123
   password: amazonskr05
@@ -151,23 +144,18 @@ proxies:
   tls: true
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 22|A🟢🇺🇸_dokng.com_c725f014
-  network: ws
-  port: 443
-  server: 72.56.40.152
-  servername: usa.korgivps.ru
-  skip-cert-verify: true
-  tfo: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_956f7cc1
+  port: 39401
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
   tls: true
   type: vless
-  uuid: 3f054fce-df15-4f7c-8616-56a8b17e84b4
-  ws-opts:
-    headers:
-      Host: usa.korgivps.ru
-    path: /api/user
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - name: 32|🇺🇸_US_美国
   network: ws
   port: 8080
@@ -177,6 +165,19 @@ proxies:
   type: vless
   udp: true
   uuid: 11af1c47-865a-47c6-92ff-118013655d78
+- client-fingerprint: chrome
+  name: 53|US - zhuhai.uk 06
+  network: ws
+  port: 2096
+  server: 172.64.151.254
+  servername: oyue.rainfall0705.cc.cd
+  tls: true
+  type: vless
+  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
+  ws-opts:
+    headers:
+      Host: oyue.rainfall0705.cc.cd
+    path: /
 - name: 17|🇭🇰 HK 10 → tg@nicevpn123
   password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
   port: 443
@@ -205,13 +206,6 @@ proxies:
   type: vless
   udp: true
   uuid: 2ea68849-7639-4eec-8af8-102e692fa8e6
-- cipher: chacha20-ietf-poly1305
-  name: 27|🇹🇼 Taiwan/New Taipei City [GH:...
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-  udp: true
 - name: 40|🇹🇼TW-125.227.152.109-2790
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
@@ -285,6 +279,12 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: TG%40ZDYZ2
+- cipher: aes-256-gcm
+  name: 53|TW - zhuhai.uk
+  password: a02dba9c-05d5-42b1-9433-580aff27be2b
+  port: 10702
+  server: fcjgrg.hotssid.com
+  type: ss
 - name: 17|🇸🇬 SG 27 → tg@nicevpn123
   password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
   port: 443
@@ -293,92 +293,18 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_9a7a98d6
-  network: tcp
-  port: 38551
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 22,53|KR - zhuhai.uk
-  password: cba96915-8098-41a7-9997-efb01ccc598a
-  port: 42311
-  server: a11.toppp.cc
-  skip-cert-verify: true
-  sni: osxapps.itunes.apple.com
-  type: anytls
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 40|🇰🇷KR-52.231.200.179-0969
+  name: 53|KR - zhuhai.uk
   network: ws
   port: 443
-  server: fullaccesstokoreannetsubnode1.azurewebsites.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
-  ws-opts:
-    headers:
-      Host: fullaccesstokoreannetsubnode1.azurewebsites.net
-    path: /ws
-- name: 40|🇰🇷KR-123.140.124.24-2768
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 8443
-  server: official.seoulcitygovernment.com.ua
-  type: trojan
-- name: 40|🇰🇷KR-123.140.124.25-2979
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 8443
-  server: official.seoulcityhall.com.ua
-  type: trojan
-- name: 40|🇰🇷KR-144.24.72.126-3019
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  port: 443
-  server: 144.24.72.126
-  type: trojan
-- name: 40|🇰🇷KR-123.140.124.25-3108
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.seoulcityhall.com.ua
-  type: trojan
-- name: 40|🇰🇷KR-3.34.6.217-4078
-  password: xxoo
-  port: 443
-  server: 3.34.6.217
-  type: trojan
-- client-fingerprint: random
-  name: 51|TG@ZDYZ2 -KR5
-  network: ws
-  port: 443
-  server: 129.154.198.48
-  servername: cfed.tgzdyz2.top
+  server: kr.mkdir.kdns.fr
+  servername: ai-verps.pages.dev
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
   ws-opts:
     headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
-- client-fingerprint: random
-  name: 51|TG@ZDYZ2 -KR2
-  network: ws
-  port: 2096
-  server: 91.193.58.98
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
+      Host: ai-verps.pages.dev
+    path: /
 - name: 17|🇬🇧 GB 23 → tg@nicevpn123
   password: 1d7692c0-f51c-11ee-91eb-1239d0255272
   port: 443
@@ -411,6 +337,21 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_7d526327
+  network: tcp
+  packet-encoding: xudp
+  port: 20995
+  reality-opts:
+    public-key: GqIZ3PiZBcvHMfXhk7BDZMWhF2Q4FrGVW9sgkllXkA4
+    short-id: 6ba85179e30d4fc2
+  server: 159.69.28.178
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  uuid: 20bcb7a8-c51b-4771-9686-6b4509dc9cd2
 - name: 17|🇨🇦 CA 10 → tg@nicevpn123
   network: ws
   password: dGKXcHgs3P
@@ -601,20 +542,165 @@ proxies:
     headers:
       Host: syndication-statutes-wanted-logo.trycloudflare.com
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fargox-tr'
-- name: 22,49|🇷🇺 俄罗斯 | RUS 2
-  network: ws
-  port: 4100
-  server: 201.34.137.15
+- name: 17|🇷🇺 RU 1 → tg@nicevpn123
+  password: 71ab3866-4c8b-4a0b-a4bd-a64f110afe0b
+  port: 443
+  server: ca-full.privateip.net
   skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
+  type: trojan
   udp: true
-  uuid: 716903b1-e6bf-4420-9e27-65e4451692e9
+- cipher: aes-256-cfb
+  name: 17|🇷🇺 RU 13 → tg@nicevpn123
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  server: 5.188.181.201
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 17|🇷🇺 RU 14 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: nl-full.privateip.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f269033e-a955-4dee-9345-948ed5b77838
   ws-opts:
     headers:
-      Host: live.ok.ru
-    path: /v1
+      Host: nl-full.privateip.net
+    path: /RACEVPN
+- cipher: aes-256-cfb
+  name: 17|🇷🇺 RU 16 → tg@nicevpn123
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 5.188.181.201
+  type: ss
+  udp: true
+- name: 17|🇷🇺 RU 17 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- name: 17|🇷🇺 RU 18 → tg@nicevpn123
+  password: 8b47d63f-1f8e-4f8e-a1e8-ead3686e5da6
+  port: 443
+  server: ca-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 17|🇷🇺 RU 22 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: 185.148.104.118
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: 185.148.104.118
+    path: /hms02.fxiaomi.sbs/link
+- cipher: aes-256-cfb
+  name: 17|🇷🇺 RU 23 → tg@nicevpn123
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 5.188.181.201
+  type: ss
+  udp: true
+- name: 17|🇷🇺 RU 29 → tg@nicevpn123
+  password: d2b376a2-c9b7-42be-8f52-26c0987f2884
+  port: 443
+  server: nl-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 17|🇷🇺 RU 30 → tg@nicevpn123
+  password: GeregetR8cvQHzYr
+  port: 9030
+  server: 5.188.181.201
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 17|🇷🇺 RU 31 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: is3-vmess.sshmax.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a8d33442-de64-4980-a779-540c1eedbc25
+  ws-opts:
+    headers:
+      Host: is3-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 17|🇷🇺 RU 32 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: de1-vmess.greenssh.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
+  ws-opts:
+    headers:
+      Host: de1-vmess.greenssh.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 17|🇷🇺 RU 37 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: hk-full.privateip.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f2c48b2f-c581-4d7d-846e-8bd97d93bd65
+  ws-opts:
+    headers:
+      Host: hk-full.privateip.net
+    path: /RACEVPN
+- name: 17|🇷🇺 RU 41 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- alterId: 0
+  cipher: auto
+  name: 17|🇷🇺 RU 42 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: 185.148.104.118
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: ab-test-frosty-flower-e7fb.tariroc864.workers.dev
+    path: /hms02.fxiaomi.sbs/link
 - name: 17|SE 12 → tg@nicevpn123
   network: ws
   password: dGKXcHgs3P
@@ -778,13 +864,16 @@ proxies:
   tls: true
   type: vless
   uuid: d53f098c-c146-4c16-b8fc-263743fdb6b3
-- name: 39,40,42|🇪🇪爱沙尼亚丨yoyapai.com\r
+- alterId: 0
+  name: 39,40,42,50|🇪EE
   password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
   port: 449
   server: 109.206.241.10
   skip-cert-verify: true
   sni: russiapower.accesscam.org
+  tls: true
   type: trojan
+  udp: true
 - name: 17|🇳🇱 NL 9 → tg@nicevpn123
   password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
   port: 443
@@ -792,26 +881,17 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 18|立陶宛+V2CROSS.COM
+- name: 18|斯洛文尼亚+V2CROSS.COM
   network: ws
-  password: humanity
-  port: 443
-  server: 86.38.214.205
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 18|伊朗+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 40443
-  server: 2.144.21.112
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 8880
+  server: 92.53.189.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
+      Host: vms.lifetime19.workers.dev
+    path: /
 - alterId: 64
   cipher: auto
   name: 26,40|🇧🇪BE-37.120.236.251-0725
@@ -989,31 +1069,6 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: 49|🇹🇷 土耳其 | TUR
-  network: tcp
-  port: 110
-  server: 91.228.227.172
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9b45ab91-c1d0-419f-80bc-eab40836da61
-- client-fingerprint: edge
-  name: 49|🇹🇷 土耳其 | TUR 2
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: CDzFOfP5yLZcfcw2L7ojkdd2FZHj94dlLj2xt1M-UG8
-    short-id: 46b73eb5
-  server: tr.sysopnova.art
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8a5ec7c-b893-4441-b1e7-4f964f9dd30e
-  xhttp-opts:
-    host: max.ru
-    mode: packet-up
-    path: /assets/9178a901e4e9751df21866d3
 - name: 17|🇦🇺 AU 3 → tg@nicevpn123
   password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
   port: 443
@@ -1437,20 +1492,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 8c65cbad-923d-4f73-c653-83c75ca4e1aa
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 49|🇪🇸 西班牙 | ESP
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: G7hjy9PEKopcPUP4mQXhwIaKIO9TCra_5LHZWuM_RjM
-    short-id: 641a87d5ecdfaeb3
-  server: 193.238.154.39
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4c1b7e3f-6a2d-493f-b6c4-4ef37db6fcfc
 - name: 51|🇪🇸+ES+西班牙+9
   network: ws
   port: 2053
@@ -1468,10 +1509,11 @@ proxies:
   password: humanity
   port: 443
   server: 188.114.97.7
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    path: /assignment
 - alterId: 1
   cipher: auto
   name: 26,40|🏁RELAY-188.114.96.7-0756
@@ -1637,6 +1679,17 @@ proxies:
     headers:
       Host: ophelia.mom
     path: linkvws
+- name: 49|🇧🇷 巴西 | BRA
+  network: ws
+  port: 2200
+  server: 201.24.49.237
+  servername: rzd.ru
+  tls: false
+  type: vless
+  udp: true
+  uuid: af412668-578c-4296-bc8c-8fac6a8d9003
+  ws-opts:
+    path: /v1
 - name: 17|VN 6 → tg@nicevpn123
   password: 5a92d674-308c-4d95-b283-28383e63a59b
   port: 443
@@ -1890,6 +1943,22 @@ proxies:
   server: 51.83.186.142
   sni: pl1.trojanvh.xyz
   type: trojan
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_e5dc3cc9
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  server: 138.124.8.117
+  servername: fin2.helper-internet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+  xudp: true
 - alpn:
   - h3
   client-fingerprint: ''
@@ -1903,19 +1972,30 @@ proxies:
   sni: fin14qr.wwwinternetvideo.click
   type: hysteria2
   up: ''
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: '22,42|🇨🇳_CN_中国 #1'
-  network: tcp
-  port: 50002
-  server: 112.132.215.108
+  name: 40|🇫🇮FI-65.21.240.108-1028
+  network: http
+  port: 443
+  server: 65.21.240.108
   servername: ''
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  xudp: true
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 40|🇫🇮FI-65.109.134.191-4365
+  network: ws
+  port: 80
+  server: 65.109.134.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 91698747-92b3-4a07-b5da-22694edbea82
+  ws-opts:
+    headers:
+      Host: 65.109.134.191
+    path: /graphql
 - alterId: 64
   cipher: auto
   name: 32|🇨🇳_CN_中国
@@ -1934,7 +2014,6 @@ proxy-groups:
   - 🎯 全球直连
   - 12,13|370_日本-4.55MB
   - 17|🇯🇵 JP 12 → tg@nicevpn123
-  - 17|🇯🇵 JP 2 → tg@nicevpn123
   - 17|🇯🇵 JP 21 → tg@nicevpn123
   - 17|🇯🇵 JP 47 → tg@nicevpn123
   - 17|🇯🇵 JP 50 → tg@nicevpn123
@@ -1947,12 +2026,12 @@ proxy-groups:
   - 17|🇯🇵 JP 73 → tg@nicevpn123
   - 17|🇯🇵 JP 74 → tg@nicevpn123
   - 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_ec5e3037
-  - 22|A🟢🇺🇸_dokng.com_c725f014
+  - 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_956f7cc1
   - 32|🇺🇸_US_美国
+  - 53|US - zhuhai.uk 06
   - 17|🇭🇰 HK 10 → tg@nicevpn123
   - 17|🇭🇰 HK 9 → tg@nicevpn123
   - 22|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_2116beb6
-  - 27|🇹🇼 Taiwan/New Taipei City [GH:...
   - 40|🇹🇼TW-125.227.152.109-2790
   - 40|🇹🇼TW-203.69.207.175-2859
   - 40|🇹🇼TW-61.216.76.139-2904
@@ -1966,21 +2045,14 @@ proxy-groups:
   - 40|🇹🇼TW-61.222.160.199-3201
   - 40|🇹🇼TW-211.75.143.195-3247
   - 51|TG@ZDYZ2 -TW4
+  - 53|TW - zhuhai.uk
   - 17|🇸🇬 SG 27 → tg@nicevpn123
-  - 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_9a7a98d6
-  - 22,53|KR - zhuhai.uk
-  - 40|🇰🇷KR-52.231.200.179-0969
-  - 40|🇰🇷KR-123.140.124.24-2768
-  - 40|🇰🇷KR-123.140.124.25-2979
-  - 40|🇰🇷KR-144.24.72.126-3019
-  - 40|🇰🇷KR-123.140.124.25-3108
-  - 40|🇰🇷KR-3.34.6.217-4078
-  - 51|TG@ZDYZ2 -KR5
-  - 51|TG@ZDYZ2 -KR2
+  - 53|KR - zhuhai.uk
   - 17|🇬🇧 GB 23 → tg@nicevpn123
   - 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_31ee3f2b
   - 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b
   - 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
+  - 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_7d526327
   - 17|🇨🇦 CA 10 → tg@nicevpn123
   - 17|🇨🇦 CA 13 → tg@nicevpn123
   - 17|🇨🇦 CA 14 → tg@nicevpn123
@@ -1996,7 +2068,21 @@ proxy-groups:
   - 17|🇨🇦 CA 29 → tg@nicevpn123
   - 17|🇨🇦 CA 3 → tg@nicevpn123
   - 17|🇨🇦 CA 30 → tg@nicevpn123
-  - 22,49|🇷🇺 俄罗斯 | RUS 2
+  - 17|🇷🇺 RU 1 → tg@nicevpn123
+  - 17|🇷🇺 RU 13 → tg@nicevpn123
+  - 17|🇷🇺 RU 14 → tg@nicevpn123
+  - 17|🇷🇺 RU 16 → tg@nicevpn123
+  - 17|🇷🇺 RU 17 → tg@nicevpn123
+  - 17|🇷🇺 RU 18 → tg@nicevpn123
+  - 17|🇷🇺 RU 22 → tg@nicevpn123
+  - 17|🇷🇺 RU 23 → tg@nicevpn123
+  - 17|🇷🇺 RU 29 → tg@nicevpn123
+  - 17|🇷🇺 RU 30 → tg@nicevpn123
+  - 17|🇷🇺 RU 31 → tg@nicevpn123
+  - 17|🇷🇺 RU 32 → tg@nicevpn123
+  - 17|🇷🇺 RU 37 → tg@nicevpn123
+  - 17|🇷🇺 RU 41 → tg@nicevpn123
+  - 17|🇷🇺 RU 42 → tg@nicevpn123
   - 17|SE 12 → tg@nicevpn123
   - 17|SE 13 → tg@nicevpn123
   - 17|SE 16 → tg@nicevpn123
@@ -2012,10 +2098,9 @@ proxy-groups:
   - 17|SE 8 → tg@nicevpn123
   - 17|SE 9 → tg@nicevpn123
   - 22|C🟠🇸🇪[🎬🤖📺🎭]_dokng.com_61cad1be
-  - 39,40,42|🇪🇪爱沙尼亚丨yoyapai.com\r
+  - 39,40,42,50|🇪EE
   - 17|🇳🇱 NL 9 → tg@nicevpn123
-  - 18|立陶宛+V2CROSS.COM
-  - 18|伊朗+V2CROSS.COM
+  - 18|斯洛文尼亚+V2CROSS.COM
   - 26,40|🇧🇪BE-37.120.236.251-0725
   - '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #63'
   - 17|🇮🇳 IN 12 → tg@nicevpn123
@@ -2033,8 +2118,6 @@ proxy-groups:
   - 40|🇹🇷TR-37.221.79.48-4809
   - 40|🇹🇷TR-45.94.169.142-7173
   - '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #108'
-  - 49|🇹🇷 土耳其 | TUR
-  - 49|🇹🇷 土耳其 | TUR 2
   - 17|🇦🇺 AU 3 → tg@nicevpn123
   - 26,40|🏁RELAY-1.1.1.1-0645
   - 40|🇦🇺AU-103.224.212.211-0771
@@ -2065,7 +2148,6 @@ proxy-groups:
   - 17|IT 23 → tg@nicevpn123
   - 17|IT 24 → tg@nicevpn123
   - 17|IT 25 → tg@nicevpn123
-  - 49|🇪🇸 西班牙 | ESP
   - 51|🇪🇸+ES+西班牙+9
   - 18|巴西圣保罗+CloudFlare节点
   - 26,40|🏁RELAY-188.114.96.7-0756
@@ -2079,6 +2161,7 @@ proxy-groups:
   - 26,40|🏁RELAY-188.114.97.18-0764
   - 26,40|🏁RELAY-188.114.97.3-0765
   - 26,40|🏁RELAY-188.114.99.0-0766
+  - 49|🇧🇷 巴西 | BRA
   - 17|VN 6 → tg@nicevpn123
   - 40|🇮🇩ID-103.180.95.29-1075
   - 26,40|🇵🇭PH-120.28.10.46-0648
@@ -2102,8 +2185,10 @@ proxy-groups:
   - 26,40|🇺🇸US-91.149.239.165-0566
   - 40|🇵🇱PL-51.83.186.142-3057
   - 40|🇵🇱PL-51.83.186.142-4086
+  - 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_e5dc3cc9
   - 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_97b46c24
-  - '22,42|🇨🇳_CN_中国 #1'
+  - 40|🇫🇮FI-65.21.240.108-1028
+  - 40|🇫🇮FI-65.109.134.191-4365
   - 32|🇨🇳_CN_中国
 - name: ♻️ 自动选择
   type: fallback
@@ -2112,7 +2197,6 @@ proxy-groups:
   proxies:
   - 12,13|370_日本-4.55MB
   - 17|🇯🇵 JP 12 → tg@nicevpn123
-  - 17|🇯🇵 JP 2 → tg@nicevpn123
   - 17|🇯🇵 JP 21 → tg@nicevpn123
   - 17|🇯🇵 JP 47 → tg@nicevpn123
   - 17|🇯🇵 JP 50 → tg@nicevpn123
@@ -2125,12 +2209,12 @@ proxy-groups:
   - 17|🇯🇵 JP 73 → tg@nicevpn123
   - 17|🇯🇵 JP 74 → tg@nicevpn123
   - 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_ec5e3037
-  - 22|A🟢🇺🇸_dokng.com_c725f014
+  - 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_956f7cc1
   - 32|🇺🇸_US_美国
+  - 53|US - zhuhai.uk 06
   - 17|🇭🇰 HK 10 → tg@nicevpn123
   - 17|🇭🇰 HK 9 → tg@nicevpn123
   - 22|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_2116beb6
-  - 27|🇹🇼 Taiwan/New Taipei City [GH:...
   - 40|🇹🇼TW-125.227.152.109-2790
   - 40|🇹🇼TW-203.69.207.175-2859
   - 40|🇹🇼TW-61.216.76.139-2904
@@ -2144,21 +2228,14 @@ proxy-groups:
   - 40|🇹🇼TW-61.222.160.199-3201
   - 40|🇹🇼TW-211.75.143.195-3247
   - 51|TG@ZDYZ2 -TW4
+  - 53|TW - zhuhai.uk
   - 17|🇸🇬 SG 27 → tg@nicevpn123
-  - 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_9a7a98d6
-  - 22,53|KR - zhuhai.uk
-  - 40|🇰🇷KR-52.231.200.179-0969
-  - 40|🇰🇷KR-123.140.124.24-2768
-  - 40|🇰🇷KR-123.140.124.25-2979
-  - 40|🇰🇷KR-144.24.72.126-3019
-  - 40|🇰🇷KR-123.140.124.25-3108
-  - 40|🇰🇷KR-3.34.6.217-4078
-  - 51|TG@ZDYZ2 -KR5
-  - 51|TG@ZDYZ2 -KR2
+  - 53|KR - zhuhai.uk
   - 17|🇬🇧 GB 23 → tg@nicevpn123
   - 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_31ee3f2b
   - 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b
   - 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
+  - 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_7d526327
   - 17|🇨🇦 CA 10 → tg@nicevpn123
   - 17|🇨🇦 CA 13 → tg@nicevpn123
   - 17|🇨🇦 CA 14 → tg@nicevpn123
@@ -2174,7 +2251,21 @@ proxy-groups:
   - 17|🇨🇦 CA 29 → tg@nicevpn123
   - 17|🇨🇦 CA 3 → tg@nicevpn123
   - 17|🇨🇦 CA 30 → tg@nicevpn123
-  - 22,49|🇷🇺 俄罗斯 | RUS 2
+  - 17|🇷🇺 RU 1 → tg@nicevpn123
+  - 17|🇷🇺 RU 13 → tg@nicevpn123
+  - 17|🇷🇺 RU 14 → tg@nicevpn123
+  - 17|🇷🇺 RU 16 → tg@nicevpn123
+  - 17|🇷🇺 RU 17 → tg@nicevpn123
+  - 17|🇷🇺 RU 18 → tg@nicevpn123
+  - 17|🇷🇺 RU 22 → tg@nicevpn123
+  - 17|🇷🇺 RU 23 → tg@nicevpn123
+  - 17|🇷🇺 RU 29 → tg@nicevpn123
+  - 17|🇷🇺 RU 30 → tg@nicevpn123
+  - 17|🇷🇺 RU 31 → tg@nicevpn123
+  - 17|🇷🇺 RU 32 → tg@nicevpn123
+  - 17|🇷🇺 RU 37 → tg@nicevpn123
+  - 17|🇷🇺 RU 41 → tg@nicevpn123
+  - 17|🇷🇺 RU 42 → tg@nicevpn123
   - 17|SE 12 → tg@nicevpn123
   - 17|SE 13 → tg@nicevpn123
   - 17|SE 16 → tg@nicevpn123
@@ -2190,10 +2281,9 @@ proxy-groups:
   - 17|SE 8 → tg@nicevpn123
   - 17|SE 9 → tg@nicevpn123
   - 22|C🟠🇸🇪[🎬🤖📺🎭]_dokng.com_61cad1be
-  - 39,40,42|🇪🇪爱沙尼亚丨yoyapai.com\r
+  - 39,40,42,50|🇪EE
   - 17|🇳🇱 NL 9 → tg@nicevpn123
-  - 18|立陶宛+V2CROSS.COM
-  - 18|伊朗+V2CROSS.COM
+  - 18|斯洛文尼亚+V2CROSS.COM
   - 26,40|🇧🇪BE-37.120.236.251-0725
   - '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #63'
   - 17|🇮🇳 IN 12 → tg@nicevpn123
@@ -2211,8 +2301,6 @@ proxy-groups:
   - 40|🇹🇷TR-37.221.79.48-4809
   - 40|🇹🇷TR-45.94.169.142-7173
   - '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #108'
-  - 49|🇹🇷 土耳其 | TUR
-  - 49|🇹🇷 土耳其 | TUR 2
   - 17|🇦🇺 AU 3 → tg@nicevpn123
   - 26,40|🏁RELAY-1.1.1.1-0645
   - 40|🇦🇺AU-103.224.212.211-0771
@@ -2243,7 +2331,6 @@ proxy-groups:
   - 17|IT 23 → tg@nicevpn123
   - 17|IT 24 → tg@nicevpn123
   - 17|IT 25 → tg@nicevpn123
-  - 49|🇪🇸 西班牙 | ESP
   - 51|🇪🇸+ES+西班牙+9
   - 18|巴西圣保罗+CloudFlare节点
   - 26,40|🏁RELAY-188.114.96.7-0756
@@ -2257,6 +2344,7 @@ proxy-groups:
   - 26,40|🏁RELAY-188.114.97.18-0764
   - 26,40|🏁RELAY-188.114.97.3-0765
   - 26,40|🏁RELAY-188.114.99.0-0766
+  - 49|🇧🇷 巴西 | BRA
   - 17|VN 6 → tg@nicevpn123
   - 40|🇮🇩ID-103.180.95.29-1075
   - 26,40|🇵🇭PH-120.28.10.46-0648
@@ -2280,8 +2368,10 @@ proxy-groups:
   - 26,40|🇺🇸US-91.149.239.165-0566
   - 40|🇵🇱PL-51.83.186.142-3057
   - 40|🇵🇱PL-51.83.186.142-4086
+  - 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_e5dc3cc9
   - 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_97b46c24
-  - '22,42|🇨🇳_CN_中国 #1'
+  - 40|🇫🇮FI-65.21.240.108-1028
+  - 40|🇫🇮FI-65.109.134.191-4365
   - 32|🇨🇳_CN_中国
 - name: 🐟 漏网之鱼
   type: select

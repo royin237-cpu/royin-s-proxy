@@ -1,10 +1,10 @@
 {
-  "total": 26,
+  "total": 16,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 50
+      "count": 40
     },
     "US": {
       "flag": "🇺🇸",
@@ -14,7 +14,7 @@
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 2
+      "count": 1
     },
     "HK": {
       "flag": "🇭🇰",
@@ -29,7 +29,7 @@
     "CA": {
       "flag": "🇦🇨",
       "name": "加拿大",
-      "count": 82
+      "count": 81
     },
     "FR": {
       "flag": "🇫🇷",
@@ -49,17 +49,17 @@
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 10
+      "count": 1
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 1
+      "count": 42
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 1
+      "count": 2
     },
     "SE": {
       "flag": "🇸🇪",
@@ -72,8 +72,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-30 12:03",
-  "server_time": "2026-08-30 12:03:58",
+  "update_time": "2026-08-30 13:36",
+  "server_time": "2026-08-30 13:37:55",
   "sources": [
     {
       "index": 0,
@@ -323,7 +323,7 @@
     {
       "index": 49,
       "url": "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.y",
-      "nodes": 135
+      "nodes": 127
     },
     {
       "index": 50,
@@ -343,7 +343,7 @@
     {
       "index": 53,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 29
+      "nodes": 35
     },
     {
       "index": 54,

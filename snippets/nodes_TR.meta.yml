@@ -91,28 +91,3 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: 49|🇹🇷 土耳其 | TUR
-  network: tcp
-  port: 110
-  server: 91.228.227.172
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9b45ab91-c1d0-419f-80bc-eab40836da61
-- client-fingerprint: edge
-  name: 49|🇹🇷 土耳其 | TUR 2
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: CDzFOfP5yLZcfcw2L7ojkdd2FZHj94dlLj2xt1M-UG8
-    short-id: 46b73eb5
-  server: tr.sysopnova.art
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8a5ec7c-b893-4441-b1e7-4f964f9dd30e
-  xhttp-opts:
-    host: max.ru
-    mode: packet-up
-    path: /assets/9178a901e4e9751df21866d3

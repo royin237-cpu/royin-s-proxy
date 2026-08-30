@@ -1,21 +1,4 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 22|A🟢🇺🇸_dokng.com_c725f014
-  network: ws
-  port: 443
-  server: 72.56.40.152
-  servername: usa.korgivps.ru
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 3f054fce-df15-4f7c-8616-56a8b17e84b4
-  ws-opts:
-    headers:
-      Host: usa.korgivps.ru
-    path: /api/user
 - name: 32|🇺🇸_US_美国
   network: ws
   port: 8080
@@ -25,3 +8,16 @@ proxies:
   type: vless
   udp: true
   uuid: 11af1c47-865a-47c6-92ff-118013655d78
+- client-fingerprint: chrome
+  name: 53|US - zhuhai.uk 06
+  network: ws
+  port: 2096
+  server: 172.64.151.254
+  servername: oyue.rainfall0705.cc.cd
+  tls: true
+  type: vless
+  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
+  ws-opts:
+    headers:
+      Host: oyue.rainfall0705.cc.cd
+    path: /
