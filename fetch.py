@@ -813,9 +813,12 @@ class Source():
                 line = lines.pop(0).rstrip().decode(errors='ignore').replace('\\r','')
                 if not line: continue
                 if not tp:
-                    if ': ' in line:
-                        kv = line.split(': ')
-                        if len(kv) == 2 and kv[0].isalpha():
+                    if ': ' in line or line.endswith(':'):
+                        kv = line.split(':', 1)
+                        key = kv[0]
+                        # YAML 顶层键允许字母/数字/连字符/下划线（如 allow-lan、mixed-port）；
+                        # 旧逻辑 kv[0].isalpha() 会把含连字符的键误判为 sub，导致整个配置解析为 0 节点
+                        if key and key[0].isalpha() and all(c.isalnum() or c in '-_' for c in key):
                             tp = 'yaml'
                     elif line[0] == '#': pass
                     else: tp = 'sub'
