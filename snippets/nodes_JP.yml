@@ -114,16 +114,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
-- alterId: 1
-  cipher: auto
-  name: 17|🇯🇵 JP 74 → tg@nicevpn123
-  port: 446
-  server: od7ld-g03.jp04-3771-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
 - alterId: 2
   cipher: auto
   name: 22|C🟠🇯🇵[🤖📺🎪🔍]_dokng.com_41228966
@@ -136,14 +126,6 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- name: 27|🇯🇵 Japan/Tokyo [GH:4n0nymou3/m...
-  password: 0964f6b7-6aab-4b84-9e80-dd078ed1f269
-  port: 50000
-  server: jp200m.jiasu.asia
-  skip-cert-verify: true
-  sni: jp200m.jiasu.asia
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   name: '27|🇯🇵 Japan/Tokyo [TG] #5'
   password: 3eOFeNssde7PYYMv

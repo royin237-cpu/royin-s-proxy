@@ -30,19 +30,11 @@ proxies:
   udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
   xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22|C🟠🇩🇪_dokng.com_79cbfdf3
-  network: tcp
-  port: 5000
-  reality-opts:
-    public-key: -6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo
-    short-id: a1b2c3d4
-  server: 80.96.109.223
-  servername: special.aeternavpn.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-  xudp: true
+- auth: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  name: 49|🇩🇪 德国 | DEU 8
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  port: 443
+  server: fin14qr.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: fin14qr.wwwinternetvideo.click
+  type: hysteria2

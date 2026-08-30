@@ -1,12 +1,5 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 53|KR - zhuhai.uk 02
   password: 1234!@#$
   port: 1774

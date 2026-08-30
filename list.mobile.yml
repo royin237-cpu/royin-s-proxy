@@ -1,5 +1,5 @@
-# Update: 2026-08-30 14:48
-# 移动端轻量订阅：174 个存活节点（每地区最多 15 个），精简规则
+# Update: 2026-08-30 15:14
+# 移动端轻量订阅：176 个存活节点（每地区最多 15 个），精简规则
 mixed-port: 7890
 allow-lan: false
 mode: rule
@@ -45,24 +45,6 @@ proxies:
   tls: true
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: 18,22,49|🇺🇸 美国 | USA 22
-  network: ws
-  port: 443
-  server: k2.cloud--vpn.site
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0ee468a-084b-411d-b2be-b886a61065d1
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
-  xudp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc-tunnel
@@ -426,13 +408,6 @@ proxies:
   sni: osxapps.itunes.apple.com
   type: anytls
   udp: true
-- cipher: aes-256-cfb
-  name: 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: 53|KR - zhuhai.uk
   network: ws
@@ -719,22 +694,14 @@ proxies:
   udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
   xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22|C🟠🇩🇪_dokng.com_79cbfdf3
-  network: tcp
-  port: 5000
-  reality-opts:
-    public-key: -6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo
-    short-id: a1b2c3d4
-  server: 80.96.109.223
-  servername: special.aeternavpn.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-  xudp: true
+- auth: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  name: 49|🇩🇪 德国 | DEU 8
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  port: 443
+  server: fin14qr.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: fin14qr.wwwinternetvideo.click
+  type: hysteria2
 - cipher: aes-256-cfb
   name: 22|C🟠🇨🇦[🎬🎭🎪✨]_dokng.com_8b889344
   password: amazonskr05
@@ -888,25 +855,6 @@ proxies:
     headers:
       Host: irancelll.appsandhack2.tech
     path: /dp2.scproxy.top/shirker
-- name: 18|伊朗+V2CROSS.COM
-  network: ws
-  port: 4100
-  server: 83.147.246.153
-  tls: false
-  type: vless
-  uuid: 85223e1a-f55d-4d0d-b27d-39e8be49d220
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
-- auth: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
-  name: 18,49|🇩🇪 德国 | DEU 8
-  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
-  port: 443
-  server: fin14qr.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: fin14qr.wwwinternetvideo.click
-  type: hysteria2
 - alterId: 64
   cipher: auto
   name: 26,40|🇧🇪BE-37.120.236.251-0654
@@ -985,6 +933,21 @@ proxies:
     headers:
       Host: in-full.privateip.net
     path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 39,40,50|未知33
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 152.67.8.205
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers:
+      Host: 152.67.8.205
+    path: /
 - name: 40|🇮🇳IN-152.67.160.174-0750
   password: 54080134-2cba-4535-8599-95650bd9aa54
   port: 443
@@ -1967,6 +1930,22 @@ proxies:
   server: 51.83.186.142
   sni: pl1.trojanvh.xyz
   type: trojan
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_e5dc3cc9
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  server: 138.124.8.117
+  servername: fin2.helper-internet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+  xudp: true
 - alpn:
   - h3
   client-fingerprint: ''
@@ -1980,6 +1959,61 @@ proxies:
   sni: fin14qr.wwwinternetvideo.click
   type: hysteria2
   up: ''
+- alterId: 0
+  cipher: auto
+  name: 40|🇫🇮FI-65.21.240.108-3215
+  network: http
+  port: 443
+  server: 65.21.240.108
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 40|🇫🇮FI-65.109.134.191-3946
+  network: ws
+  port: 80
+  server: 65.109.134.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 91698747-92b3-4a07-b5da-22694edbea82
+  ws-opts:
+    headers:
+      Host: 65.109.134.191
+    path: /graphql
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 45|🇫🇮FI_3|2.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  server: fin2.helper-internet.com
+  servername: fin2.helper-internet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+  xudp: true
+- encryption: none
+  name: 45|🇫🇮FI_4|1.8MB/s
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  type: vless
+  udp: true
+  uuid: 4a49c0ba-3d57-48df-bfa4-99fcb9edac56
+  ws-opts:
+    headers:
+      Host: rb24.ir
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+  xudp: true
 - alterId: 64
   cipher: auto
   name: 32|🇨🇳_CN_中国
@@ -1999,7 +2033,6 @@ proxy-groups:
   - 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_ec5e3037
   - 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_956f7cc1
   - 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_92bfba1c
-  - 18,22,49|🇺🇸 美国 | USA 22
   - 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_051ffd09
   - 22|B🟡🇺🇸[🎬🤖📺🎭]_dokng.com_7db19f0f
   - 22,32,45,49,53|US - zhuhai.uk 05
@@ -2040,7 +2073,6 @@ proxy-groups:
   - 49|🇸🇬 新加坡 | SGP 15
   - 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_9a7a98d6
   - 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_052a91b6
-  - 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
   - 53|KR - zhuhai.uk
   - 53|KR - zhuhai.uk 02
   - 17|🇬🇧 GB 23 → tg@nicevpn123
@@ -2064,7 +2096,7 @@ proxy-groups:
   - 49|🇫🇷 法国 | FRA 21
   - 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
   - 22,45,49,53|DE - zhuhai.uk
-  - 22|C🟠🇩🇪_dokng.com_79cbfdf3
+  - 49|🇩🇪 德国 | DEU 8
   - 22|C🟠🇨🇦[🎬🎭🎪✨]_dokng.com_8b889344
   - 22|C🟠🇨🇦[🎬🤖📺🎪]_dokng.com_65f6a788
   - 42,50|🇨🇦CA加拿大
@@ -2080,8 +2112,6 @@ proxy-groups:
   - 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_592c975f
   - 22,49|🇳🇱 荷兰 | NLD 4
   - 13|401_罗马尼亚-4.59MB
-  - 18|伊朗+V2CROSS.COM
-  - 18,49|🇩🇪 德国 | DEU 8
   - 26,40|🇧🇪BE-37.120.236.251-0654
   - '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #63'
   - '45|A - 🇷🇴 RO 01 TG: @nodpai'
@@ -2090,6 +2120,7 @@ proxy-groups:
   - 17|🇮🇳 IN 15 → tg@nicevpn123
   - 17|🇮🇳 IN 7 → tg@nicevpn123
   - 17|🇮🇳 IN 8 → tg@nicevpn123
+  - 39,40,50|未知33
   - 40|🇮🇳IN-152.67.160.174-0750
   - '45|A - 🇮🇳 IN 01 TG: @nodpai'
   - 22,32,49,53|TH - zhuhai.uk
@@ -2168,7 +2199,12 @@ proxy-groups:
   - 26,40|🇺🇸US-91.149.239.165-0534
   - 40|🇵🇱PL-51.83.186.142-2638
   - 40|🇵🇱PL-51.83.186.142-3667
+  - 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_e5dc3cc9
   - 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_97b46c24
+  - 40|🇫🇮FI-65.21.240.108-3215
+  - 40|🇫🇮FI-65.109.134.191-3946
+  - 45|🇫🇮FI_3|2.2MB/s
+  - 45|🇫🇮FI_4|1.8MB/s
   - 32|🇨🇳_CN_中国
 - name: ♻️ 自动选择
   type: fallback
@@ -2178,7 +2214,6 @@ proxy-groups:
   - 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_ec5e3037
   - 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_956f7cc1
   - 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_92bfba1c
-  - 18,22,49|🇺🇸 美国 | USA 22
   - 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_051ffd09
   - 22|B🟡🇺🇸[🎬🤖📺🎭]_dokng.com_7db19f0f
   - 22,32,45,49,53|US - zhuhai.uk 05
@@ -2219,7 +2254,6 @@ proxy-groups:
   - 49|🇸🇬 新加坡 | SGP 15
   - 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_9a7a98d6
   - 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_052a91b6
-  - 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
   - 53|KR - zhuhai.uk
   - 53|KR - zhuhai.uk 02
   - 17|🇬🇧 GB 23 → tg@nicevpn123
@@ -2243,7 +2277,7 @@ proxy-groups:
   - 49|🇫🇷 法国 | FRA 21
   - 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
   - 22,45,49,53|DE - zhuhai.uk
-  - 22|C🟠🇩🇪_dokng.com_79cbfdf3
+  - 49|🇩🇪 德国 | DEU 8
   - 22|C🟠🇨🇦[🎬🎭🎪✨]_dokng.com_8b889344
   - 22|C🟠🇨🇦[🎬🤖📺🎪]_dokng.com_65f6a788
   - 42,50|🇨🇦CA加拿大
@@ -2259,8 +2293,6 @@ proxy-groups:
   - 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_592c975f
   - 22,49|🇳🇱 荷兰 | NLD 4
   - 13|401_罗马尼亚-4.59MB
-  - 18|伊朗+V2CROSS.COM
-  - 18,49|🇩🇪 德国 | DEU 8
   - 26,40|🇧🇪BE-37.120.236.251-0654
   - '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #63'
   - '45|A - 🇷🇴 RO 01 TG: @nodpai'
@@ -2269,6 +2301,7 @@ proxy-groups:
   - 17|🇮🇳 IN 15 → tg@nicevpn123
   - 17|🇮🇳 IN 7 → tg@nicevpn123
   - 17|🇮🇳 IN 8 → tg@nicevpn123
+  - 39,40,50|未知33
   - 40|🇮🇳IN-152.67.160.174-0750
   - '45|A - 🇮🇳 IN 01 TG: @nodpai'
   - 22,32,49,53|TH - zhuhai.uk
@@ -2347,7 +2380,12 @@ proxy-groups:
   - 26,40|🇺🇸US-91.149.239.165-0534
   - 40|🇵🇱PL-51.83.186.142-2638
   - 40|🇵🇱PL-51.83.186.142-3667
+  - 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_e5dc3cc9
   - 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_97b46c24
+  - 40|🇫🇮FI-65.21.240.108-3215
+  - 40|🇫🇮FI-65.109.134.191-3946
+  - 45|🇫🇮FI_3|2.2MB/s
+  - 45|🇫🇮FI_4|1.8MB/s
   - 32|🇨🇳_CN_中国
 - name: 🐟 漏网之鱼
   type: select

@@ -1,22 +1,4 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: 18,22,49|🇺🇸 美国 | USA 22
-  network: ws
-  port: 443
-  server: k2.cloud--vpn.site
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0ee468a-084b-411d-b2be-b886a61065d1
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
-  xudp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc-tunnel

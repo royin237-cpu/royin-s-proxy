@@ -60,13 +60,6 @@ proxies:
     headers:
       Host: 185.148.104.118
     path: /hms02.fxiaomi.sbs/link
-- cipher: aes-256-cfb
-  name: 17|🇷🇺 RU 23 → tg@nicevpn123
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 5.188.181.201
-  type: ss
-  udp: true
 - name: 17|🇷🇺 RU 29 → tg@nicevpn123
   password: d2b376a2-c9b7-42be-8f52-26c0987f2884
   port: 443
