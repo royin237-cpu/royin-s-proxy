@@ -1,5 +1,5 @@
-# Update: 2026-08-30 17:57
-# 移动端轻量订阅：174 个存活节点（每地区最多 15 个），精简规则
+# Update: 2026-08-30 18:09
+# 移动端轻量订阅：191 个存活节点（每地区最多 15 个），精简规则
 mixed-port: 7890
 allow-lan: false
 mode: rule
@@ -296,15 +296,93 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: '123'
-- name: 22|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_65a5452e
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 22|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_2116beb6
+  port: 443
+  reality-opts:
+    public-key: 3nFa_3MSnFQDm9XfVfFHOnMb3FOptREpe1ehXjAbk1c
+    short-id: d369dbc2
+  server: 6aa21c4d-11d4-45bf-ba55-59512593692c.7b63595a-1119-4080-80e1-3f638120be58.smartprivatelink.com
+  servername: www.douyin.com
   skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  type: vless
+  udp: true
+  uuid: 2ea68849-7639-4eec-8af8-102e692fa8e6
+- name: 22|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_c5568042
+  password: '!!str 111'
+  port: 1080
+  server: 106.107.236.110
+  type: socks5
+  username: '111'
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇹🇼 Taiwan/New Taipei City [GH:...
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+  udp: true
+- name: 40|🇹🇼TW-125.227.152.109-2371
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.co.ua
+  type: trojan
+- name: 40|🇹🇼TW-211.75.143.195-2440
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.kiev.ua
+  type: trojan
+- name: 40|🇹🇼TW-61.222.160.199-2485
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.if.ua
+  type: trojan
+- name: 40|🇹🇼TW-211.75.143.195-2507
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.org.ua
+  type: trojan
+- name: 40|🇹🇼TW-125.227.152.109-2563
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.kyiv.ua
+  type: trojan
+- name: 40|🇹🇼TW-61.216.76.139-2565
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.dp.ua
+  type: trojan
+- name: 40|🇹🇼TW-211.75.143.195-2609
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.ivano-frankivsk.ua
+  type: trojan
+- name: 40|🇹🇼TW-61.222.160.199-2721
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.biz.ua
+  type: trojan
+- name: 40|🇹🇼TW-61.216.76.139-2760
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.cn.ua
+  type: trojan
+- name: 40|🇹🇼TW-203.69.207.175-2779
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.chernovtsy.ua
+  type: trojan
+- name: 40|🇹🇼TW-61.216.76.139-2782
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.net.ua
+  type: trojan
+- name: 40|🇹🇼TW-211.75.143.195-2828
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.com.ua
+  type: trojan
 - name: 17|🇸🇬 SG 27 → tg@nicevpn123
   password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
   port: 443
@@ -774,6 +852,23 @@ proxies:
     path: /v1
 - client-fingerprint: chrome
   encryption: none
+  name: 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
+  network: ws
+  port: 443
+  server: wstg.datasynctrue.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  ws-opts:
+    headers:
+      Host: wstg.datasynctrue.online
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /api/connect
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   name: 22|U⚪🏳️[✈️]_dokng.com_483670b0
   network: ws
   port: 443
@@ -1187,23 +1282,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
-  network: ws
-  port: 443
-  server: wstg.datasynctrue.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
-  ws-opts:
-    headers:
-      Host: wstg.datasynctrue.online
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /api/connect
-  xudp: true
 - name: 22|A🟢🇧🇷[🤖✨✈️🔍]_dokng.com_d2dbe763
   port: 2138
   server: 177.105.159.24
@@ -1226,6 +1304,10 @@ proxies:
   port: 9292
   server: 131.0.120.162
   type: http
+- name: 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_15a794cc
+  port: 8085
+  server: 45.236.65.182
+  type: http
 - name: 22|A🟢🇧🇷_dokng.com_98e8f1da
   port: 9191
   server: 177.222.248.51
@@ -1241,6 +1323,12 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 22,45|🇮🇩ID_2|3.8MB/s
+  port: 443
+  server: zebpay.site
+  sni: zebpay.site
+  tls: true
+  type: http
 - name: 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_89e7191b
   password: freeuser1
   port: 9251
@@ -1437,6 +1525,16 @@ proxies:
   server: 121.46.230.138
   type: ss
   udp: true
+- alterId: 64
+  cipher: auto
+  name: 32|🇨🇳_CN_中国
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -1477,7 +1575,21 @@ proxy-groups:
   - 22|C🟠🇭🇰[📺🎭🎪📦]_dokng.com_099454ad
   - 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_da7c41d8
   - 45|🇭🇰HK_1|1.4MB/s
-  - 22|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_65a5452e
+  - 22|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_2116beb6
+  - 22|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_c5568042
+  - 27|🇹🇼 Taiwan/New Taipei City [GH:...
+  - 40|🇹🇼TW-125.227.152.109-2371
+  - 40|🇹🇼TW-211.75.143.195-2440
+  - 40|🇹🇼TW-61.222.160.199-2485
+  - 40|🇹🇼TW-211.75.143.195-2507
+  - 40|🇹🇼TW-125.227.152.109-2563
+  - 40|🇹🇼TW-61.216.76.139-2565
+  - 40|🇹🇼TW-211.75.143.195-2609
+  - 40|🇹🇼TW-61.222.160.199-2721
+  - 40|🇹🇼TW-61.216.76.139-2760
+  - 40|🇹🇼TW-203.69.207.175-2779
+  - 40|🇹🇼TW-61.216.76.139-2782
+  - 40|🇹🇼TW-211.75.143.195-2828
   - 17|🇸🇬 SG 27 → tg@nicevpn123
   - 22|A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1
   - 22|D🔴🇸🇬_dokng.com_6b1b4589
@@ -1532,6 +1644,7 @@ proxy-groups:
   - 22|A🟢🇷🇺[🎪📦🔍]_dokng.com_9af66ad2
   - 22|A🟢🇷🇺[📺🎪]_dokng.com_67a45bda
   - 22|A🟢🇷🇺[🎪]_dokng.com_8c5162ff
+  - 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
   - 22|U⚪🏳️[✈️]_dokng.com_483670b0
   - 22|C🟠🇷🇺[📺🎪]_dokng.com_2438df74
   - 49|🇷🇺 俄罗斯 | RUS
@@ -1588,15 +1701,16 @@ proxy-groups:
   - 22,45|🇪🇸ES_1|2.1MB/s
   - 22|D🔴🇪🇸[🤖📺🎭🎪]_dokng.com_148d2ee2
   - 22|D🔴🇪🇸[🎬🤖📺🎭]_dokng.com_297df47d
-  - 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
   - 22|A🟢🇧🇷[🤖✨✈️🔍]_dokng.com_d2dbe763
   - 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_ca3b1afa
   - 22|A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_290b4539
   - 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_75602843
   - 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_919b7764
+  - 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_15a794cc
   - 22|A🟢🇧🇷_dokng.com_98e8f1da
   - 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_35b157c8
   - 17|VN 6 → tg@nicevpn123
+  - 22,45|🇮🇩ID_2|3.8MB/s
   - 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_89e7191b
   - 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_87bf668a
   - 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_54a270d5
@@ -1617,6 +1731,7 @@ proxy-groups:
   - 22|C🟠🇺🇸[🤖📺🎭📦]_dokng.com_c980b4b4
   - 22,32|🇨🇳_CN_中国->🇺🇸_US_美国_1
   - 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
+  - 32|🇨🇳_CN_中国
 - name: ♻️ 自动选择
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -1656,7 +1771,21 @@ proxy-groups:
   - 22|C🟠🇭🇰[📺🎭🎪📦]_dokng.com_099454ad
   - 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_da7c41d8
   - 45|🇭🇰HK_1|1.4MB/s
-  - 22|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_65a5452e
+  - 22|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_2116beb6
+  - 22|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_c5568042
+  - 27|🇹🇼 Taiwan/New Taipei City [GH:...
+  - 40|🇹🇼TW-125.227.152.109-2371
+  - 40|🇹🇼TW-211.75.143.195-2440
+  - 40|🇹🇼TW-61.222.160.199-2485
+  - 40|🇹🇼TW-211.75.143.195-2507
+  - 40|🇹🇼TW-125.227.152.109-2563
+  - 40|🇹🇼TW-61.216.76.139-2565
+  - 40|🇹🇼TW-211.75.143.195-2609
+  - 40|🇹🇼TW-61.222.160.199-2721
+  - 40|🇹🇼TW-61.216.76.139-2760
+  - 40|🇹🇼TW-203.69.207.175-2779
+  - 40|🇹🇼TW-61.216.76.139-2782
+  - 40|🇹🇼TW-211.75.143.195-2828
   - 17|🇸🇬 SG 27 → tg@nicevpn123
   - 22|A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1
   - 22|D🔴🇸🇬_dokng.com_6b1b4589
@@ -1711,6 +1840,7 @@ proxy-groups:
   - 22|A🟢🇷🇺[🎪📦🔍]_dokng.com_9af66ad2
   - 22|A🟢🇷🇺[📺🎪]_dokng.com_67a45bda
   - 22|A🟢🇷🇺[🎪]_dokng.com_8c5162ff
+  - 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
   - 22|U⚪🏳️[✈️]_dokng.com_483670b0
   - 22|C🟠🇷🇺[📺🎪]_dokng.com_2438df74
   - 49|🇷🇺 俄罗斯 | RUS
@@ -1767,15 +1897,16 @@ proxy-groups:
   - 22,45|🇪🇸ES_1|2.1MB/s
   - 22|D🔴🇪🇸[🤖📺🎭🎪]_dokng.com_148d2ee2
   - 22|D🔴🇪🇸[🎬🤖📺🎭]_dokng.com_297df47d
-  - 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
   - 22|A🟢🇧🇷[🤖✨✈️🔍]_dokng.com_d2dbe763
   - 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_ca3b1afa
   - 22|A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_290b4539
   - 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_75602843
   - 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_919b7764
+  - 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_15a794cc
   - 22|A🟢🇧🇷_dokng.com_98e8f1da
   - 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_35b157c8
   - 17|VN 6 → tg@nicevpn123
+  - 22,45|🇮🇩ID_2|3.8MB/s
   - 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_89e7191b
   - 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_87bf668a
   - 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_54a270d5
@@ -1796,6 +1927,7 @@ proxy-groups:
   - 22|C🟠🇺🇸[🤖📺🎭📦]_dokng.com_c980b4b4
   - 22,32|🇨🇳_CN_中国->🇺🇸_US_美国_1
   - 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
+  - 32|🇨🇳_CN_中国
 - name: 🐟 漏网之鱼
   type: select
   proxies:

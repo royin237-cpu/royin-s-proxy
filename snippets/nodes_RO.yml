@@ -12,15 +12,6 @@ proxies:
     headers:
       Host: irancelll.appsandhack2.tech
     path: /dp2.scproxy.top/shirker
-- name: 18|伊朗+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 40443
-  server: 2.144.21.112
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - alterId: 64
   cipher: auto
   name: 26,40|🇧🇪BE-37.120.236.251-0654

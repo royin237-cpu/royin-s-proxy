@@ -45,6 +45,20 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
+  name: '39,40|🇭🇰HK-47.244.120.197-4658 #1'
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
   name: 39,40,50|未知25 19.3KB/s
   network: ws
   port: 35043
@@ -68,6 +82,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '39,40|🇭🇰HK-47.244.120.197-0186 #1'
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
       Host: 47.244.120.197
@@ -233,36 +261,6 @@ proxies:
     headers:
       Host: 47.244.120.197
     path: /arki?ed=2048
-- cipher: chacha20-ietf
-  name: 40|8J%2BHr%2FCfh7VKUC00My4yMDYuMT...
-  obfs: plain
-  obfs-param: ''
-  password: Mv4e0QHWPwdbKiCF
-  port: 53845
-  protocol: auth_aes128_sha1
-  protocol-param: ''
-  server: live.bilibilicloud01.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: 40|8J%2BHrfCfh7BISy00My4xOTkuNjYu...
-  obfs: plain
-  obfs-param: ''
-  password: Mv4e0QHWPwdbKiCF
-  port: 54113
-  protocol: auth_aes128_sha1
-  protocol-param: ''
-  server: live.bilibilicloud01.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '40|8J%2BHr%2FCfh7VKUC0xOC4xODEuNz... #1'
-  obfs: plain
-  obfs-param: ''
-  password: Mv4e0QHWPwdbKiCF
-  port: 54112
-  protocol: auth_aes128_sha1
-  protocol-param: ''
-  server: live.bilibilicloud01.com
-  type: ssr
 - name: 40|🇭🇰HK-219.76.13.181-6351
   password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
   port: 443
@@ -367,21 +365,6 @@ proxies:
   tls: true
   type: vmess
   uuid: f018361c-3d66-4635-80c9-22be36b70ac4
-- alterId: 0
-  cipher: auto
-  name: 50|HK10 43.7KB/s
-  network: ws
-  port: 443
-  server: nycqg19zkwacpm1b.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: nycqg19zkwacpm1b.v.3dns.vip
-      host: NYcQg19zkwaCPM1B.v.3dns.vip
-    path: /ws-vmess
 - cipher: aes-256-gcm
   name: 53|TW - zhuhai.uk
   password: a02dba9c-05d5-42b1-9433-580aff27be2b

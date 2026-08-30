@@ -321,13 +321,6 @@ proxies:
   tls: true
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 22|D🔴🇺🇸[📺✨🔍]_dokng.com_6e6a2c6c
-  password: None
-  port: 22222
-  server: 193.25.215.182
-  type: socks5
-  udp: true
-  username: null
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_87eec561
   password: e4b72b531a2d10900519
   port: 443
@@ -411,36 +404,6 @@ proxies:
     headers:
       Host: lingering-glade-21ce.61-b6f.workers.dev
     path: /pyip=ProxyIP.SG.CMLiussss.net
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 32,45,52,53|FR - zhuhai.uk
-  network: tcp
-  port: 39399
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 155.117.199.13
-  servername: cdnjs.cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 32,45,52,53|KR - zhuhai.uk 01
-  network: tcp
-  port: 39211
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 155.117.199.13
-  servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #96'
   password: humanity
   port: 443
