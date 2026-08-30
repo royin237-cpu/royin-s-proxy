@@ -736,6 +736,7 @@ class Source():
         self.content: Union[str, List[str], int] = None
         self.sub: Union[List[str], List[Dict[str, str]]] = None
         self.cfg: Dict[str, Any] = {}
+        self.local_result: Tuple[Dict[int, 'Node'], Set[str]] = ({}, set())
 
     def gen_url(self) -> None:
         self.url_source: str
@@ -791,6 +792,11 @@ class Source():
             exc_queue.append(exc)
         else:
             self.parse()
+            # 节点解析（重计算）随下载在各抓取线程内并行完成，主线程只按序注册
+            try:
+                self.local_result = merge_local(self)
+            except KeyboardInterrupt: raise
+            except: traceback.print_exc()
 
     def _download(self, r: requests.Response) -> str:
         content: str = ""
@@ -924,8 +930,6 @@ def extract(url: str) -> Union[Set[str], int]:
 merged: Dict[int, Node] = {}
 unknown: Set[str] = set()
 used: Dict[int, Dict[int, str]] = {}
-# merge() 在主线程按源序号串行调用（抓取本身已多线程并行），
-# 串行合并保证节点名去重（Node.names）与多源同名 data.update 的先后顺序确定。
 def merge(source_obj: Source, sourceId=-1) -> None:
     global merged, unknown
     sub = source_obj.sub
@@ -950,6 +954,48 @@ def merge(source_obj: Source, sourceId=-1) -> None:
             if hashn not in used:
                 used[hashn] = {}
             used[hashn][sourceId] = n.name
+
+def merge_local(source_obj: Source):
+    """纯解析（无全局副作用）：把已抓取的源解析为本地节点字典，供各抓取线程并行调用。
+    返回 (nodes 有序字典 {hash: Node}, unknown 集合)。不做名字去重注册。"""
+    nodes: Dict[int, Node] = {}
+    unk: Set[str] = set()
+    sub = source_obj.sub
+    if not sub: return nodes, unk
+    for p in sub:
+        if isinstance(p, str) and '://' not in p: continue
+        try: n = Node(p)
+        except KeyboardInterrupt: raise
+        except UnsupportedType as e:
+            if len(e.args) == 1:
+                print(f"不支持的类型：{e}")
+            unk.add(p) # type: ignore
+        except: traceback.print_exc()
+        else:
+            hashn = hash(n)
+            if hashn not in nodes:
+                nodes[hashn] = n
+            else:
+                nodes[hashn].data.update(n.data)
+    return nodes, unk
+
+def register_local(source_obj: Source, sourceId=-1) -> None:
+    """把 merge_local 的本地结果按源序号注册进全局字典（主线程串行调用，
+    保证名字去重与多源合并顺序与串行版完全一致）。"""
+    global merged, unknown
+    nodes, unk = source_obj.local_result
+    if not nodes and not unk: print("空订阅，跳过！", end='', flush=True); return
+    unknown.update(unk)
+    for hashn, n in nodes.items():
+        n.format_name()
+        Node.names.add(n.data['name'])
+        if hashn not in merged:
+            merged[hashn] = n
+        else:
+            merged[hashn].data.update(n.data)
+        if hashn not in used:
+            used[hashn] = {}
+        used[hashn][sourceId] = n.name
 
 def raw2fastly(url: str) -> str:
     if not LOCAL: return url
@@ -1337,7 +1383,8 @@ def main():
             else:
                 print("正在合并... ", end='', flush=True)
                 try:
-                    merge(sources_obj[i], sourceId=i)
+                    # 节点解析已在各抓取线程内并行完成（merge_local），此处只做串行注册
+                    register_local(sources_obj[i], sourceId=i)
                 except KeyboardInterrupt:
                     print("正在退出...")
                     break
