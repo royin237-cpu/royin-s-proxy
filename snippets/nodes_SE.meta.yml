@@ -23,17 +23,3 @@ proxies:
   port: 1080
   server: 171.25.158.95
   type: socks5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 49,53|SE - zhuhai.uk
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  server: 31.76.69.40
-  servername: eu-central.cendora.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f

@@ -6,20 +6,6 @@ proxies:
   type: socks5
   udp: true
   username: null
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_9a7a98d6
-  network: tcp
-  port: 38551
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - name: 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_052a91b6
   password: cba96915-8098-41a7-9997-efb01ccc598a
   port: 42311
@@ -28,10 +14,19 @@ proxies:
   sni: osxapps.itunes.apple.com
   type: anytls
   udp: true
-- cipher: aes-256-cfb
-  name: 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_140955a0
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: WblkmqKUs4-IiNsawjWBV16uB_FBxLr8xFVi6eDPkxk
+    short-id: a1b2c3d4
+  server: 31.77.182.49
+  servername: fr.aeternavpn.space
+  tls: true
+  type: vless
   udp: true
+  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+  xudp: true

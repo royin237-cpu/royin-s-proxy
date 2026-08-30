@@ -1,4 +1,20 @@
 proxies:
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_051ffd09
+  network: grpc
+  port: 9880
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabbccdd
+  server: 168.222.194.138
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  xudp: true
 - name: 22|A🟢🇷🇺[🎪📦🔍]_dokng.com_9af66ad2
   port: 5050
   server: 45.159.0.194
@@ -30,6 +46,40 @@ proxies:
     headers:
       Host: live.ok.ru
     path: /v1
+- client-fingerprint: chrome
+  encryption: none
+  name: 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
+  network: ws
+  port: 443
+  server: wstg.datasynctrue.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  ws-opts:
+    headers:
+      Host: wstg.datasynctrue.online
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /api/connect
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 22|U⚪🏳️[✈️]_dokng.com_483670b0
+  network: ws
+  port: 443
+  server: 91.210.169.181
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  ws-opts:
+    headers:
+      Host: wstg.datasynctrue.online
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /api/connect
+  xudp: true
 - client-fingerprint: android
   name: 22|C🟠🇷🇺[📺🎪]_dokng.com_2438df74
   network: ws
@@ -45,3 +95,35 @@ proxies:
     headers:
       Host: ru05.abvpn.ru
     path: /websocket
+- client-fingerprint: firefox
+  name: 49|🇷🇺 俄罗斯 | RUS
+  network: xhttp
+  port: 8445
+  reality-opts:
+    public-key: ypzgxQ7VhTlTqjT0pAzWBIyotcG7SYqMpErwMBDci0g
+  server: 194.55.239.190
+  servername: strm.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c59eef8-978a-4071-bda4-5bcaf6d8521f
+  xhttp-opts:
+    host: strm.yandex.net
+    mode: stream-one
+    path: /content/dash/segments/
+    x-padding-bytes: 50-150
+    x-padding-obfs-mode: false
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 49|🇷🇺 俄罗斯 | RUS 2
+  network: ws
+  port: 443
+  server: 194.55.239.20
+  servername: harknmav.fun
+  tls: true
+  type: vless
+  udp: true
+  uuid: 303035c0-dd28-4568-87bb-9a11637c5407
+  ws-opts:
+    path: /live.stream.v1.Broadcast/

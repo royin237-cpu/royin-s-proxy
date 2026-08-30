@@ -1,22 +1,4 @@
 proxies:
-- name: 17|🇭🇰 HK 10 → tg@nicevpn123
-  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
-  port: 443
-  server: chjs.lydurlclub.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 17|🇭🇰 HK 9 → tg@nicevpn123
-  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
-  port: 443
-  server: hkjs.lydurlclub.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 22|D🔴🇭🇰[📺🎭]_dokng.com_054bd55d
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
 - name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_6738ba5f
   password: None
   port: 443
@@ -25,33 +7,6 @@ proxies:
   tls: true
   type: http
   username: null
-- client-fingerprint: chrome
-  name: 22|D🔴🇭🇰[🎬📺🎭✨]_dokng.com_34a14bdf
-  network: ws
-  port: 443
-  server: jp.mkdir.kdns.fr
-  servername: python-test123.pages.dev
-  tls: true
-  type: vless
-  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
-  ws-opts:
-    headers:
-      Host: python-test123.pages.dev
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22|A🟢🇭🇰[🎬🧠📺🎭]_dokng.com_3934b71c
-  network: tcp
-  port: 38507
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - name: 22|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_d21277d2
   password: 'null'
   port: 443
@@ -79,30 +34,6 @@ proxies:
   server: 47.239.116.165
   type: socks5
   username: admin
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_a2f81acd
-  port: 31723
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 155.117.199.13
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 22|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_f320da84
-  port: 9713
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 155.117.199.13
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - name: 45|🇭🇰HK_1|1.4MB/s
   password: '!!str 123'
   port: 3060

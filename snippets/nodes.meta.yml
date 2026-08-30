@@ -41,26 +41,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 18,22|A🟢🇺🇸[🤖📺🎭🎪]_dokng.com_4a841be9
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: 4a46213c935e2ee4
-  server: 31.76.70.32
-  servername: baltic.cendora.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  xudp: true
 - cipher: aes-256-cfb
   name: 19,22,32,49|🇫🇷 法国 | FRA 13
   password: 7eadc6dbe2ae
@@ -99,10 +79,6 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- name: 22|D🔴🇭🇰[📺🎭]_dokng.com_054bd55d
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_956f7cc1
@@ -1012,10 +988,6 @@ proxies:
   port: 802
   server: 47.28.64.79
   type: http
-- name: 22|A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_d008ccab
-  port: 999
-  server: 164.163.188.113
-  type: http
 - name: 22|A🟢🇹🇷[🎬🤖📺🎭]_dokng.com_6b20164e
   port: 8096
   server: 212.192.6.248
@@ -1305,10 +1277,6 @@ proxies:
   server: 37.120.233.50
   skip-cert-verify: true
   tls: true
-  type: http
-- name: 22|A🟢🇩🇴[🎬🤖📺🎭]_dokng.com_cdc1c1b9
-  port: 999
-  server: 154.88.164.160
   type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -1621,6 +1589,10 @@ proxies:
   server: 8.209.236.192
   type: socks5
   username: '123456'
+- name: 22|A🟢🇵🇪[🎬🤖📺🎭]_dokng.com_8cd9548a
+  port: 999
+  server: 200.62.236.154
+  type: http
 - name: 22|D🔴🇹🇭[🤖🎪]_dokng.com_dbf875fe
   port: 1080
   server: 43.164.3.124
@@ -1644,10 +1616,6 @@ proxies:
 - name: 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_919b7764
   port: 9292
   server: 131.0.120.162
-  type: http
-- name: 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_15a794cc
-  port: 8085
-  server: 45.236.65.182
   type: http
 - name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_bd95cf31
   port: 3169
@@ -1730,6 +1698,26 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 22|A🟢🇺🇸[🤖📺🎭🎪]_dokng.com_4a841be9
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: 4a46213c935e2ee4
+  server: 31.76.70.32
+  servername: baltic.cendora.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  xudp: true
 - name: 22|A🟢🇧🇷_dokng.com_98e8f1da
   port: 9191
   server: 177.222.248.51
@@ -1742,6 +1730,10 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_f43c2944
+  port: 9099
+  server: 213.109.162.200
+  type: http
 - name: 22|D🔴🇸🇪[🎬🤖📺🎭]_dokng.com_5533c299
   port: 1080
   server: 171.25.158.95
@@ -1810,6 +1802,16 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- alterId: 64
+  cipher: auto
+  name: 32|🇨🇳_CN_中国
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 32,45,52,53|KR - zhuhai.uk 01
@@ -1873,6 +1875,13 @@ proxies:
   password: humanity
   port: 443
   server: 104.18.23.63
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #201'
+  password: humanity
+  port: 443
+  server: 176.97.66.175
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -2008,6 +2017,10 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 45|🇨🇴CO_1|1.7MB/s
+  port: 999
+  server: 181.79.80.74
+  type: http
 - name: 45,53|RO - zhuhai.uk 04
   port: 9002
   server: 193.176.84.31

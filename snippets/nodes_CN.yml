@@ -1,78 +1,43 @@
 proxies:
-- alterId: 0
+- cipher: aes-256-cfb
+  name: 19,22,32,45,49,53|US - zhuhai.uk 05
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 22|C🟠🇺🇸[🤖📺🎭📦]_dokng.com_c980b4b4
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+- alterId: 2
   cipher: auto
-  name: 13|99_中国-1.70MB
-  network: ws
-  port: 2086
-  server: cloudflare.quest
-  tls: false
-  type: vmess
-  uuid: 833de9d2-98c5-4ac5-9d30-e3a7ad929d10
-  ws-opts:
-    headers:
-      Host: buyvm.cloudflare.quest
-    path: /aries
-- cipher: aes-256-gcm
-  name: 17|🇨🇳 CN 110 → tg@nicevpn123
-  password: e6f8da28-345b-46aa-9ef8-edf27777a533
-  port: 48009
-  server: k9.b99.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 17|🇨🇳 CN 167 → tg@nicevpn123
-  password: 96f29af6-abb3-4f1b-9b42-3dc0367176dd
-  port: 48009
-  server: k9.b99.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 17|🇨🇳 CN 21 → tg@nicevpn123
-  password: b40e67cc-b615-4f5b-ab2f-aa8a1290cc42
-  port: 48009
-  server: k9.b99.buzz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 17|🇨🇳 CN 394 → tg@nicevpn123
-  password: 35e9f1cc-4fd4-4242-8f55-5549b47d3848
-  port: 48009
-  server: k9.b99.buzz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 17|🇨🇳 CN 485 → tg@nicevpn123
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
+  name: 22,32|🇨🇳_CN_中国->🇺🇸_US_美国_1
+  port: 30804
+  server: v4.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: m.cnmjin.net
-    path: /
-- cipher: aes-256-gcm
-  name: 17|🇨🇳 CN 501 → tg@nicevpn123
-  password: d88dfa88-f02d-45b5-bb47-f240ad3b9db2
-  port: 48009
-  server: k9.b99.buzz
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- cipher: aes-256-cfb
+  name: 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
   type: ss
   udp: true
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 40|🇨🇳CN-124.222.189.225-1723
-  network: ws
-  port: 80
-  server: 124.222.189.225
-  servername: ''
+  name: 32|🇨🇳_CN_中国
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: a8c9ad5b-1f58-4234-b5fe-a895bee9a047
-  ws-opts:
-    headers:
-      Host: 124.222.189.225
-    path: /
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

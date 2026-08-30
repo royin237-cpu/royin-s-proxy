@@ -21,10 +21,6 @@ proxies:
   port: 9292
   server: 131.0.120.162
   type: http
-- name: 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_15a794cc
-  port: 8085
-  server: 45.236.65.182
-  type: http
 - name: 22|A🟢🇧🇷_dokng.com_98e8f1da
   port: 9191
   server: 177.222.248.51

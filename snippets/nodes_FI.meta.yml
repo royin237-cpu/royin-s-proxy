@@ -3,19 +3,11 @@ proxies:
   port: 8911
   server: 135.181.84.21
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_e5dc3cc9
-  network: tcp
+- auth: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  name: 49|🇩🇪 德国 | DEU 8
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
   port: 443
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: ff776ff77be48b88
-  server: 138.124.8.117
-  servername: fin2.helper-internet.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
-  xudp: true
+  server: fin14qr.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: fin14qr.wwwinternetvideo.click
+  type: hysteria2
