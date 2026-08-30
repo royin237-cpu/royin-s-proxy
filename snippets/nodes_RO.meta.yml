@@ -1,15 +1,36 @@
 proxies:
-- name: 18|斯洛文尼亚+V2CROSS.COM
+- alterId: 0
+  cipher: auto
+  name: 13|401_罗马尼亚-4.59MB
   network: ws
-  port: 8880
-  server: 92.53.189.40
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  server: mtn.ircf.space
+  tls: true
+  type: vmess
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
   ws-opts:
     headers:
-      Host: vms.lifetime19.workers.dev
-    path: /
+      Host: irancelll.appsandhack2.tech
+    path: /dp2.scproxy.top/shirker
+- name: 18|伊朗+V2CROSS.COM
+  network: ws
+  port: 4100
+  server: 83.147.246.153
+  tls: false
+  type: vless
+  uuid: 85223e1a-f55d-4d0d-b27d-39e8be49d220
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- auth: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  name: 18,49|🇩🇪 德国 | DEU 8
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  port: 443
+  server: fin14qr.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: fin14qr.wwwinternetvideo.click
+  type: hysteria2
 - alterId: 64
   cipher: auto
   name: 26,40|🇧🇪BE-37.120.236.251-0654
@@ -32,3 +53,23 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
+- name: '45|A - 🇷🇴 RO 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 89.116.180.40
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+    path: /?ed=2560
+- name: '45|A - 🇷🇴 RO 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 194.53.53.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /

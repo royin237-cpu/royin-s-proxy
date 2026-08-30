@@ -6,7 +6,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 22,49,53|DE - zhuhai.uk
+  name: 22,45,49,53|DE - zhuhai.uk
   network: tcp
   port: 443
   reality-opts:
@@ -34,11 +34,3 @@ proxies:
   tls: true
   type: vless
   uuid: 20bcb7a8-c51b-4771-9686-6b4509dc9cd2
-- auth: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
-  name: 49|🇩🇪 德国 | DEU 8
-  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
-  port: 443
-  server: fin14qr.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: fin14qr.wwwinternetvideo.click
-  type: hysteria2

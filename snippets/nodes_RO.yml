@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|401_罗马尼亚-4.59MB
+  network: ws
+  port: 443
+  server: mtn.ircf.space
+  tls: true
+  type: vmess
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  ws-opts:
+    headers:
+      Host: irancelll.appsandhack2.tech
+    path: /dp2.scproxy.top/shirker
 - alterId: 64
   cipher: auto
   name: 26,40|🇧🇪BE-37.120.236.251-0654

@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32,52,53|FR - zhuhai.uk
+  name: 32,45,52,53|FR - zhuhai.uk
   network: tcp
   port: 39399
   reality-opts:
@@ -16,7 +16,7 @@ proxies:
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32,52,53|KR - zhuhai.uk 01
+  name: 32,45,52,53|KR - zhuhai.uk 01
   network: tcp
   port: 39211
   reality-opts:

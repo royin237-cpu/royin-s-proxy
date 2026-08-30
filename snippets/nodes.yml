@@ -158,6 +158,13 @@ proxies:
   type: vmess
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - cipher: aes-256-cfb
+  name: 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 32,49|🇮🇪 爱尔兰 | IRL
   password: amazonskr05
   port: 443
@@ -196,7 +203,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
 - alterId: 0
-  name: 42,50|🇸US美国11
+  name: 42,50|🇺🇸US美国11
   password: humanity
   port: 443
   server: 104.26.15.137
@@ -213,7 +220,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
 - alterId: 0
-  name: 42,50|CA
+  name: 42,50|🇨🇦CA加拿大
   password: humanity
   port: 443
   server: 104.18.152.140

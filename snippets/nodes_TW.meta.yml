@@ -80,6 +80,31 @@ proxies:
   port: 8443
   server: official.taipeicitygovernment.com.ua
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '45|B - 🇹🇼 TW 02 TG: @nodpai'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray
+- client-fingerprint: chrome
+  name: 45|🇹🇼TW_1|4.5MB/s
+  port: 24215
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  server: hinet1.2yly.com
+  servername: addons.mozilla.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
 - client-fingerprint: random
   name: 51|TG@ZDYZ2 -TW4
   network: ws

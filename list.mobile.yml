@@ -1,5 +1,5 @@
-# Update: 2026-08-30 13:50
-# 移动端轻量订阅：156 个存活节点（每地区最多 15 个），精简规则
+# Update: 2026-08-30 14:22
+# 移动端轻量订阅：165 个存活节点（每地区最多 15 个），精简规则
 mixed-port: 7890
 allow-lan: false
 mode: rule
@@ -64,6 +64,24 @@ proxies:
   type: vless
   udp: true
   uuid: 40a726db-6815-44de-9c2f-80e7bfb8f81c
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: 18,22,49|🇺🇸 美国 | USA 22
+  network: ws
+  port: 443
+  server: k2.cloud--vpn.site
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0ee468a-084b-411d-b2be-b886a61065d1
+  ws-opts:
+    headers:
+      Host: c12.com
+    path: /
   xudp: true
 - client-fingerprint: chrome
   grpc-opts:
@@ -155,7 +173,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
 - alterId: 0
-  name: 42,50|🇸US美国11
+  name: 42,50|🇺🇸US美国11
   password: humanity
   port: 443
   server: 104.26.15.137
@@ -216,19 +234,6 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 49|🇺🇸 美国 | USA 23
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 443
-  server: 104.19.173.68
-  skip-cert-verify: true
-  sni: azadnet-5vk.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: azadnet-5vk.pages.dev
-    path: /azadnet-5vk.pages.dev/?PROT_TYPE=trojan
 - name: 17|🇭🇰 HK 10 → tg@nicevpn123
   password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
   port: 443
@@ -244,7 +249,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 22|D🔴🇭🇰[🎬📺🎭]_dokng.com_34a14bdf
+  name: 22|D🔴🇭🇰[🎬📺🎭✨]_dokng.com_34a14bdf
   network: ws
   port: 443
   server: jp.mkdir.kdns.fr
@@ -375,19 +380,19 @@ proxies:
   port: 8443
   server: official.taipeicitygovernment.com.ua
   type: trojan
-- client-fingerprint: random
-  name: 51|TG@ZDYZ2 -TW4
+- alterId: 0
+  cipher: auto
+  name: '45|B - 🇹🇼 TW 02 TG: @nodpai'
   network: ws
-  port: 8443
-  server: 89.116.161.250
-  servername: cfed.tgzdyz2.top
+  port: 33412
+  server: ct3.ainivp.com
   tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
   ws-opts:
     headers:
-      Host: cfed.tgzdyz2.top
-    path: TG%40ZDYZ2
+      Host: ct3.ainivp.com
+    path: /ray
 - name: 17|🇸🇬 SG 27 → tg@nicevpn123
   password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
   port: 443
@@ -489,6 +494,13 @@ proxies:
   sni: osxapps.itunes.apple.com
   type: anytls
   udp: true
+- cipher: aes-256-cfb
+  name: 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: 53|KR - zhuhai.uk
   network: ws
@@ -552,7 +564,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 22,49|🇩🇪 德国 | DEU 9
+  name: 22,45,49|🇩🇪 德国 | DEU 9
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -590,7 +602,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22,32,52,53|FR - zhuhai.uk 03
+  name: 22,32,45,52,53|FR - zhuhai.uk 03
   network: tcp
   port: 29893
   reality-opts:
@@ -694,7 +706,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 22,49,53|DE - zhuhai.uk
+  name: 22,45,49,53|DE - zhuhai.uk
   network: tcp
   port: 443
   reality-opts:
@@ -722,14 +734,6 @@ proxies:
   tls: true
   type: vless
   uuid: 20bcb7a8-c51b-4771-9686-6b4509dc9cd2
-- auth: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
-  name: 49|🇩🇪 德国 | DEU 8
-  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
-  port: 443
-  server: fin14qr.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: fin14qr.wwwinternetvideo.click
-  type: hysteria2
 - cipher: aes-256-cfb
   name: 22|C🟠🇨🇦[🎬🎭🎪✨]_dokng.com_8b889344
   password: amazonskr05
@@ -744,7 +748,7 @@ proxies:
   type: ss
   udp: true
 - alterId: 0
-  name: 42,50|CA
+  name: 42,50|🇨🇦CA加拿大
   password: humanity
   port: 443
   server: 104.18.152.140
@@ -810,7 +814,7 @@ proxies:
   udp: true
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - alterId: 0
-  name: 39,40,42,50|🇪EE
+  name: 39,40,42,50|🇪🇪EE爱沙尼亚
   password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
   port: 449
   server: 109.206.241.10
@@ -819,6 +823,16 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- name: '45|A - 🇪🇪 EE 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.110.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /?ed=2560
 - name: 17|🇳🇱 NL 9 → tg@nicevpn123
   password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
   port: 443
@@ -883,17 +897,38 @@ proxies:
     headers:
       Host: pane2.global.ssl.fastly.net
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
-- name: 18|斯洛文尼亚+V2CROSS.COM
+- alterId: 0
+  cipher: auto
+  name: 13|401_罗马尼亚-4.59MB
   network: ws
-  port: 8880
-  server: 92.53.189.40
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  server: mtn.ircf.space
+  tls: true
+  type: vmess
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
   ws-opts:
     headers:
-      Host: vms.lifetime19.workers.dev
-    path: /
+      Host: irancelll.appsandhack2.tech
+    path: /dp2.scproxy.top/shirker
+- name: 18|伊朗+V2CROSS.COM
+  network: ws
+  port: 4100
+  server: 83.147.246.153
+  tls: false
+  type: vless
+  uuid: 85223e1a-f55d-4d0d-b27d-39e8be49d220
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- auth: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  name: 18,49|🇩🇪 德国 | DEU 8
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  port: 443
+  server: fin14qr.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: fin14qr.wwwinternetvideo.click
+  type: hysteria2
 - alterId: 64
   cipher: auto
   name: 26,40|🇧🇪BE-37.120.236.251-0654
@@ -916,6 +951,26 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
+- name: '45|A - 🇷🇴 RO 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 89.116.180.40
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+    path: /?ed=2560
+- name: '45|A - 🇷🇴 RO 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 194.53.53.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /
 - name: 17|🇮🇳 IN 12 → tg@nicevpn123
   password: bedabbf8-7fee-4083-aa16-269dfa569c4a
   port: 443
@@ -952,11 +1007,36 @@ proxies:
     headers:
       Host: in-full.privateip.net
     path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 39,40,50|未知33
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 152.67.8.205
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers:
+      Host: 152.67.8.205
+    path: /
 - name: 40|🇮🇳IN-152.67.160.174-0750
   password: 54080134-2cba-4535-8599-95650bd9aa54
   port: 443
   server: 152.67.160.174
   type: trojan
+- name: '45|A - 🇮🇳 IN 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 66.81.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime44.workers.dev
+    path: /
 - cipher: aes-256-cfb
   name: 22,32,49,53|TH - zhuhai.uk
   password: 7eadc6dbe2ae
@@ -1464,6 +1544,16 @@ proxies:
   type: vmess
   udp: true
   uuid: 8c65cbad-923d-4f73-c653-83c75ca4e1aa
+- name: '45|A - 🇪🇸 ES 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 192.169.223.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: /
 - name: 51|🇪🇸+ES+西班牙+9
   network: ws
   port: 2053
@@ -1692,7 +1782,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 23|波兰
+- name: '23,45|波兰 #1 #1'
   password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
   port: 443
   server: streambox.wwwinternetvideo.click
@@ -1756,6 +1846,19 @@ proxies:
   udp: true
   uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
   xudp: true
+- alpn:
+  - h3
+  client-fingerprint: ''
+  down: ''
+  name: 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_97b46c24
+  obfs-password: ''
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  port: 443
+  server: fin14qr.wwwinternetvideo.click
+  skip-cert-verify: false
+  sni: fin14qr.wwwinternetvideo.click
+  type: hysteria2
+  up: ''
 - alterId: 64
   cipher: auto
   name: 32|🇨🇳_CN_中国
@@ -1776,6 +1879,7 @@ proxy-groups:
   - 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_956f7cc1
   - 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_92bfba1c
   - 22,49|🇯🇵 日本 | JPN 3
+  - 18,22,49|🇺🇸 美国 | USA 22
   - 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_051ffd09
   - 22|B🟡🇺🇸[🎬🤖📺🎭]_dokng.com_7db19f0f
   - 22|C🟠🇺🇸[🤖📺🎭📦]_dokng.com_c980b4b4
@@ -1784,16 +1888,15 @@ proxy-groups:
   - 22|A🟢🇺🇸[🤖📺🎭🎪]_dokng.com_4a841be9
   - '27|🇺🇸 United States/San Francisco... #10'
   - 40|🇺🇸US-130.250.137.171-0718
-  - 42,50|🇸US美国11
+  - 42,50|🇺🇸US美国11
   - '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #204'
   - 42,50|🇺🇸US美国19
   - '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #94'
   - 49|🇺🇸 美国 | USA 7
   - 49|🇺🇸 美国 | USA 8
-  - 49|🇺🇸 美国 | USA 23
   - 17|🇭🇰 HK 10 → tg@nicevpn123
   - 17|🇭🇰 HK 9 → tg@nicevpn123
-  - 22|D🔴🇭🇰[🎬📺🎭]_dokng.com_34a14bdf
+  - 22|D🔴🇭🇰[🎬📺🎭✨]_dokng.com_34a14bdf
   - 22|A🟢🇭🇰[🎬🧠📺🎭]_dokng.com_3934b71c
   - 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_a2f81acd
   - 22|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_f320da84
@@ -1811,7 +1914,7 @@ proxy-groups:
   - 40|🇹🇼TW-203.69.207.175-2779
   - 40|🇹🇼TW-61.216.76.139-2782
   - 40|🇹🇼TW-211.75.143.195-2828
-  - 51|TG@ZDYZ2 -TW4
+  - '45|B - 🇹🇼 TW 02 TG: @nodpai'
   - 17|🇸🇬 SG 27 → tg@nicevpn123
   - 22|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_46258feb
   - 22|D🔴🇸🇬[🤖📺🎭🎪]_dokng.com_e4496223
@@ -1820,34 +1923,35 @@ proxy-groups:
   - 49|🇸🇬 新加坡 | SGP 15
   - 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_9a7a98d6
   - 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_052a91b6
+  - 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
   - 53|KR - zhuhai.uk
   - 17|🇬🇧 GB 23 → tg@nicevpn123
   - 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_31ee3f2b
   - 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_5974a235
   - 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_b2e4fa42
   - 22|C🟠🇬🇧[✈️]_dokng.com_5158e3b7
-  - 22,49|🇩🇪 德国 | DEU 9
+  - 22,45,49|🇩🇪 德国 | DEU 9
   - 22,32,49|🇫🇷 法国 | FRA 13
   - 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b
   - 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_681631ec
-  - 22,32,52,53|FR - zhuhai.uk 03
+  - 22,32,45,52,53|FR - zhuhai.uk 03
   - '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #93'
   - 49|🇫🇷 法国 | FRA 8
   - 49|🇫🇷 法国 | FRA 14
   - 49|🇫🇷 法国 | FRA 15
   - 49|🇫🇷 法国 | FRA 19
   - 49|🇫🇷 法国 | FRA 21
-  - 22,49,53|DE - zhuhai.uk
+  - 22,45,49,53|DE - zhuhai.uk
   - 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_7d526327
-  - 49|🇩🇪 德国 | DEU 8
   - 22|C🟠🇨🇦[🎬🎭🎪✨]_dokng.com_8b889344
   - 22|C🟠🇨🇦[🎬🤖📺🎪]_dokng.com_65f6a788
-  - 42,50|CA
+  - 42,50|🇨🇦CA加拿大
   - 22|A🟢🇷🇺[📺🎪]_dokng.com_67a45bda
   - 22|A🟢🇷🇺[🎪]_dokng.com_8c5162ff
   - 22|C🟠🇷🇺[🎪]_dokng.com_f80343b3
   - 49,53|SE - zhuhai.uk
-  - 39,40,42,50|🇪EE
+  - 39,40,42,50|🇪🇪EE爱沙尼亚
+  - '45|A - 🇪🇪 EE 01 TG: @nodpai'
   - 17|🇳🇱 NL 9 → tg@nicevpn123
   - 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_a657f98f
   - 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_0533f82a
@@ -1855,14 +1959,20 @@ proxy-groups:
   - 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_592c975f
   - 22,49|🇳🇱 荷兰 | NLD 4
   - 22|C🟠🇳🇱[📺🎪📦]_dokng.com_c7ba76f8
-  - 18|斯洛文尼亚+V2CROSS.COM
+  - 13|401_罗马尼亚-4.59MB
+  - 18|伊朗+V2CROSS.COM
+  - 18,49|🇩🇪 德国 | DEU 8
   - 26,40|🇧🇪BE-37.120.236.251-0654
   - '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #63'
+  - '45|A - 🇷🇴 RO 01 TG: @nodpai'
+  - '45|A - 🇷🇴 RO 02 TG: @nodpai'
   - 17|🇮🇳 IN 12 → tg@nicevpn123
   - 17|🇮🇳 IN 15 → tg@nicevpn123
   - 17|🇮🇳 IN 7 → tg@nicevpn123
   - 17|🇮🇳 IN 8 → tg@nicevpn123
+  - 39,40,50|未知33
   - 40|🇮🇳IN-152.67.160.174-0750
+  - '45|A - 🇮🇳 IN 01 TG: @nodpai'
   - 22,32,49,53|TH - zhuhai.uk
   - 17|TR 4 → tg@nicevpn123
   - 17|TR 5 → tg@nicevpn123
@@ -1901,6 +2011,7 @@ proxy-groups:
   - 17|IT 23 → tg@nicevpn123
   - 17|IT 24 → tg@nicevpn123
   - 17|IT 25 → tg@nicevpn123
+  - '45|A - 🇪🇸 ES 01 TG: @nodpai'
   - 51|🇪🇸+ES+西班牙+9
   - 49|🇧🇷 巴西 | BRA
   - 17|VN 6 → tg@nicevpn123
@@ -1921,12 +2032,13 @@ proxy-groups:
   - 17|UA 69 → tg@nicevpn123
   - 17|UA 7 → tg@nicevpn123
   - 17|UA 71 → tg@nicevpn123
-  - 23|波兰
+  - '23,45|波兰 #1 #1'
   - 26,40|🇺🇸US-91.149.239.214-0527
   - 26,40|🇺🇸US-91.149.239.165-0534
   - 40|🇵🇱PL-51.83.186.142-2638
   - 40|🇵🇱PL-51.83.186.142-3667
   - 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_e5dc3cc9
+  - 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_97b46c24
   - 32|🇨🇳_CN_中国
 - name: ♻️ 自动选择
   type: fallback
@@ -1937,6 +2049,7 @@ proxy-groups:
   - 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_956f7cc1
   - 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_92bfba1c
   - 22,49|🇯🇵 日本 | JPN 3
+  - 18,22,49|🇺🇸 美国 | USA 22
   - 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_051ffd09
   - 22|B🟡🇺🇸[🎬🤖📺🎭]_dokng.com_7db19f0f
   - 22|C🟠🇺🇸[🤖📺🎭📦]_dokng.com_c980b4b4
@@ -1945,16 +2058,15 @@ proxy-groups:
   - 22|A🟢🇺🇸[🤖📺🎭🎪]_dokng.com_4a841be9
   - '27|🇺🇸 United States/San Francisco... #10'
   - 40|🇺🇸US-130.250.137.171-0718
-  - 42,50|🇸US美国11
+  - 42,50|🇺🇸US美国11
   - '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #204'
   - 42,50|🇺🇸US美国19
   - '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #94'
   - 49|🇺🇸 美国 | USA 7
   - 49|🇺🇸 美国 | USA 8
-  - 49|🇺🇸 美国 | USA 23
   - 17|🇭🇰 HK 10 → tg@nicevpn123
   - 17|🇭🇰 HK 9 → tg@nicevpn123
-  - 22|D🔴🇭🇰[🎬📺🎭]_dokng.com_34a14bdf
+  - 22|D🔴🇭🇰[🎬📺🎭✨]_dokng.com_34a14bdf
   - 22|A🟢🇭🇰[🎬🧠📺🎭]_dokng.com_3934b71c
   - 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_a2f81acd
   - 22|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_f320da84
@@ -1972,7 +2084,7 @@ proxy-groups:
   - 40|🇹🇼TW-203.69.207.175-2779
   - 40|🇹🇼TW-61.216.76.139-2782
   - 40|🇹🇼TW-211.75.143.195-2828
-  - 51|TG@ZDYZ2 -TW4
+  - '45|B - 🇹🇼 TW 02 TG: @nodpai'
   - 17|🇸🇬 SG 27 → tg@nicevpn123
   - 22|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_46258feb
   - 22|D🔴🇸🇬[🤖📺🎭🎪]_dokng.com_e4496223
@@ -1981,34 +2093,35 @@ proxy-groups:
   - 49|🇸🇬 新加坡 | SGP 15
   - 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_9a7a98d6
   - 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_052a91b6
+  - 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
   - 53|KR - zhuhai.uk
   - 17|🇬🇧 GB 23 → tg@nicevpn123
   - 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_31ee3f2b
   - 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_5974a235
   - 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_b2e4fa42
   - 22|C🟠🇬🇧[✈️]_dokng.com_5158e3b7
-  - 22,49|🇩🇪 德国 | DEU 9
+  - 22,45,49|🇩🇪 德国 | DEU 9
   - 22,32,49|🇫🇷 法国 | FRA 13
   - 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b
   - 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_681631ec
-  - 22,32,52,53|FR - zhuhai.uk 03
+  - 22,32,45,52,53|FR - zhuhai.uk 03
   - '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #93'
   - 49|🇫🇷 法国 | FRA 8
   - 49|🇫🇷 法国 | FRA 14
   - 49|🇫🇷 法国 | FRA 15
   - 49|🇫🇷 法国 | FRA 19
   - 49|🇫🇷 法国 | FRA 21
-  - 22,49,53|DE - zhuhai.uk
+  - 22,45,49,53|DE - zhuhai.uk
   - 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_7d526327
-  - 49|🇩🇪 德国 | DEU 8
   - 22|C🟠🇨🇦[🎬🎭🎪✨]_dokng.com_8b889344
   - 22|C🟠🇨🇦[🎬🤖📺🎪]_dokng.com_65f6a788
-  - 42,50|CA
+  - 42,50|🇨🇦CA加拿大
   - 22|A🟢🇷🇺[📺🎪]_dokng.com_67a45bda
   - 22|A🟢🇷🇺[🎪]_dokng.com_8c5162ff
   - 22|C🟠🇷🇺[🎪]_dokng.com_f80343b3
   - 49,53|SE - zhuhai.uk
-  - 39,40,42,50|🇪EE
+  - 39,40,42,50|🇪🇪EE爱沙尼亚
+  - '45|A - 🇪🇪 EE 01 TG: @nodpai'
   - 17|🇳🇱 NL 9 → tg@nicevpn123
   - 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_a657f98f
   - 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_0533f82a
@@ -2016,14 +2129,20 @@ proxy-groups:
   - 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_592c975f
   - 22,49|🇳🇱 荷兰 | NLD 4
   - 22|C🟠🇳🇱[📺🎪📦]_dokng.com_c7ba76f8
-  - 18|斯洛文尼亚+V2CROSS.COM
+  - 13|401_罗马尼亚-4.59MB
+  - 18|伊朗+V2CROSS.COM
+  - 18,49|🇩🇪 德国 | DEU 8
   - 26,40|🇧🇪BE-37.120.236.251-0654
   - '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #63'
+  - '45|A - 🇷🇴 RO 01 TG: @nodpai'
+  - '45|A - 🇷🇴 RO 02 TG: @nodpai'
   - 17|🇮🇳 IN 12 → tg@nicevpn123
   - 17|🇮🇳 IN 15 → tg@nicevpn123
   - 17|🇮🇳 IN 7 → tg@nicevpn123
   - 17|🇮🇳 IN 8 → tg@nicevpn123
+  - 39,40,50|未知33
   - 40|🇮🇳IN-152.67.160.174-0750
+  - '45|A - 🇮🇳 IN 01 TG: @nodpai'
   - 22,32,49,53|TH - zhuhai.uk
   - 17|TR 4 → tg@nicevpn123
   - 17|TR 5 → tg@nicevpn123
@@ -2062,6 +2181,7 @@ proxy-groups:
   - 17|IT 23 → tg@nicevpn123
   - 17|IT 24 → tg@nicevpn123
   - 17|IT 25 → tg@nicevpn123
+  - '45|A - 🇪🇸 ES 01 TG: @nodpai'
   - 51|🇪🇸+ES+西班牙+9
   - 49|🇧🇷 巴西 | BRA
   - 17|VN 6 → tg@nicevpn123
@@ -2082,12 +2202,13 @@ proxy-groups:
   - 17|UA 69 → tg@nicevpn123
   - 17|UA 7 → tg@nicevpn123
   - 17|UA 71 → tg@nicevpn123
-  - 23|波兰
+  - '23,45|波兰 #1 #1'
   - 26,40|🇺🇸US-91.149.239.214-0527
   - 26,40|🇺🇸US-91.149.239.165-0534
   - 40|🇵🇱PL-51.83.186.142-2638
   - 40|🇵🇱PL-51.83.186.142-3667
   - 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_e5dc3cc9
+  - 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_97b46c24
   - 32|🇨🇳_CN_中国
 - name: 🐟 漏网之鱼
   type: select

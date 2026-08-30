@@ -1,6 +1,6 @@
 proxies:
 - alterId: 0
-  name: 39,40,42,50|🇪EE
+  name: 39,40,42,50|🇪🇪EE爱沙尼亚
   password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
   port: 449
   server: 109.206.241.10
@@ -9,3 +9,13 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- name: '45|A - 🇪🇪 EE 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.110.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /?ed=2560

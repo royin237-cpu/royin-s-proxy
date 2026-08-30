@@ -41,19 +41,24 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 18|乌克兰+V2CROSS.COM
-  network: tcp
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: 18,22,49|🇺🇸 美国 | USA 22
+  network: ws
   port: 443
-  reality-opts:
-    public-key: U1X__Tg779LinTpcP65AVLHtxAGPSKzr04K1Fq_mDy8
-    short-id: 146c918c71da5d81
-  server: 82.118.20.109
-  servername: www.cloudflare.com
+  server: k2.cloud--vpn.site
+  servername: ssl.fastly.com
   tls: true
   type: vless
-  uuid: e459d26c-0957-4695-b1ac-0719e8df64f6
+  udp: true
+  uuid: d0ee468a-084b-411d-b2be-b886a61065d1
+  ws-opts:
+    headers:
+      Host: c12.com
+    path: /
+  xudp: true
 - cipher: aes-256-cfb
   name: 19,22|C🟠🇨🇦[🎬📺🎭🎪]_dokng.com_6ccac23a
   password: amazonskr05
@@ -136,7 +141,7 @@ proxies:
   uuid: 37834c00-7fa5-46ba-a4b9-7e13c8fcdf8f
   xudp: true
 - client-fingerprint: chrome
-  name: 22|D🔴🇭🇰[🎬📺🎭]_dokng.com_34a14bdf
+  name: 22|D🔴🇭🇰[🎬📺🎭✨]_dokng.com_34a14bdf
   network: ws
   port: 443
   server: jp.mkdir.kdns.fr
@@ -265,7 +270,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 22,49|🇩🇪 德国 | DEU 9
+  name: 22,45,49|🇩🇪 德国 | DEU 9
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -300,7 +305,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc
-  name: 22|U⚪🏳️[️]_dokng.com_cf3c3780
+  name: 22|U⚪🏳️[✈️]_dokng.com_cf3c3780
   network: grpc
   port: 8443
   reality-opts:
@@ -394,7 +399,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 22|U⚪🏳️[✈️]_dokng.com_7169e124
+  name: 22|U⚪🏳️[✨✈️]_dokng.com_7169e124
   network: tcp
   port: 443
   reality-opts:
@@ -429,24 +434,6 @@ proxies:
   sni: osxapps.itunes.apple.com
   type: anytls
   udp: true
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: 22,49|🇺🇸 美国 | USA 22
-  network: ws
-  port: 443
-  server: k2.cloud--vpn.site
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0ee468a-084b-411d-b2be-b886a61065d1
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
-  xudp: true
 - auth: gf1:gfhysteria2024
   name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_681631ec
   password: gf1:gfhysteria2024
@@ -463,7 +450,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 22,49,53|DE - zhuhai.uk
+  name: 22,45,49,53|DE - zhuhai.uk
   network: tcp
   port: 443
   reality-opts:
@@ -581,7 +568,7 @@ proxies:
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22,32,52,53|FR - zhuhai.uk 03
+  name: 22,32,45,52,53|FR - zhuhai.uk 03
   network: tcp
   port: 29893
   reality-opts:
@@ -606,6 +593,19 @@ proxies:
   tls: true
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- alpn:
+  - h3
+  client-fingerprint: ''
+  down: ''
+  name: 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_97b46c24
+  obfs-password: ''
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  port: 443
+  server: fin14qr.wwwinternetvideo.click
+  skip-cert-verify: false
+  sni: fin14qr.wwwinternetvideo.click
+  type: hysteria2
+  up: ''
 - alterId: 0
   cipher: auto
   encryption: none
@@ -731,6 +731,13 @@ proxies:
   tls: true
   type: vmess
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- cipher: aes-256-cfb
+  name: 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -787,7 +794,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32,52,53|FR - zhuhai.uk
+  name: 32,45,52,53|FR - zhuhai.uk
   network: tcp
   port: 39399
   reality-opts:
@@ -812,7 +819,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32,52,53|KR - zhuhai.uk 01
+  name: 32,45,52,53|KR - zhuhai.uk 01
   network: tcp
   port: 39211
   reality-opts:
@@ -846,7 +853,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
 - alterId: 0
-  name: 42,50|🇸US美国11
+  name: 42,50|🇺🇸US美国11
   password: humanity
   port: 443
   server: 104.26.15.137
@@ -863,7 +870,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
 - alterId: 0
-  name: 42,50|CA
+  name: 42,50|🇨🇦CA加拿大
   password: humanity
   port: 443
   server: 104.18.152.140
@@ -907,14 +914,6 @@ proxies:
   uuid: af412668-578c-4296-bc8c-8fac6a8d9003
   ws-opts:
     path: /v1
-- auth: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
-  name: 49|🇩🇪 德国 | DEU 8
-  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
-  port: 443
-  server: fin14qr.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: fin14qr.wwwinternetvideo.click
-  type: hysteria2
 - client-fingerprint: chrome
   name: 49|🇫🇷 法国 | FRA 8
   network: xhttp

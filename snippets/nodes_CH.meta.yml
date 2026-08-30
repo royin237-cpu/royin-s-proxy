@@ -15,6 +15,22 @@ proxies:
   udp: true
   uuid: 2e8077d9-7bd9-444b-b2e3-de940d2eb35e
   xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 45|🇨🇭CH_2|2.9MB/s
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+    short-id: ''
+  server: de48.tranzit-net.ru
+  servername: d.tranzit-net.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
+  xudp: true
 - client-fingerprint: random
   name: 49|🇨🇱 智利 | CHL
   network: ws

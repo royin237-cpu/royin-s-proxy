@@ -15,3 +15,16 @@ proxies:
   udp: true
   uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
   xudp: true
+- alpn:
+  - h3
+  client-fingerprint: ''
+  down: ''
+  name: 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_97b46c24
+  obfs-password: ''
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  port: 443
+  server: fin14qr.wwwinternetvideo.click
+  skip-cert-verify: false
+  sni: fin14qr.wwwinternetvideo.click
+  type: hysteria2
+  up: ''

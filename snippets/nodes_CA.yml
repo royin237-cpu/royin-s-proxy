@@ -13,7 +13,7 @@ proxies:
   type: ss
   udp: true
 - alterId: 0
-  name: 42,50|CA
+  name: 42,50|🇨🇦CA加拿大
   password: humanity
   port: 443
   server: 104.18.152.140

@@ -256,3 +256,13 @@ proxies:
   type: trojan
   ws-opts:
     path: /ywQ9KSLI4ZBm9wOAXUaN
+- name: '45|A - 🇦🇺 AU 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 193.9.49.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime44.workers.dev
+    path: /
