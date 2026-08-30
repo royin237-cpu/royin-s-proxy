@@ -1,18 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22|A🟢🇵🇭[🎬🤖📺🎭]_dokng.com_ebc97cd5
-  packet-encoding: xudp
-  port: 16091
-  reality-opts:
-    public-key: T3UaE1DiP-jy28cmLY-fKVNodwXM0BPzXGf2UODqjGo
-    short-id: 7037b865
-  server: sgg8888.sys-metric-report.com
-  servername: mapp.cfastcdn.com
-  tls: true
-  type: vless
-  uuid: 6d148c06-71ff-4565-a7fc-f020bcfcbabf
 - alterId: 0
   cipher: auto
   name: 26,40|🇵🇭PH-120.28.10.46-0648

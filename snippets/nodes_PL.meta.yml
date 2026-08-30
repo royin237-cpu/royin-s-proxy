@@ -47,31 +47,3 @@ proxies:
   server: 51.83.186.142
   sni: pl1.trojanvh.xyz
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 49|🇵🇱 波兰 | POL 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zSUGAaQT4fl4OGIGQjUkU4gVWvyexICHgLE-bM2GUV4
-    short-id: 8d7ec053417caa53
-  server: 81.90.17.173
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d2aeb078-90db-4f90-b334-623bcbea8d31
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 49|🇵🇱 波兰 | POL 4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zSUGAaQT4fl4OGIGQjUkU4gVWvyexICHgLE-bM2GUV4
-    short-id: 8d7ec053417caa53
-  server: vs-pl6.vibesignal.space
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d2aeb078-90db-4f90-b334-623bcbea8d31

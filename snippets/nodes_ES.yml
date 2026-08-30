@@ -1,9 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 27|🇪🇸 Spain/Madrid [GH:barry-far/...
-  port: 22324
-  server: 85.90.217.42
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+proxies: []

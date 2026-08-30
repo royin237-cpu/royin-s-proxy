@@ -1,13 +1,19 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 22,32|🇨🇳_CN_中国->🇰🇷_KR_韩国
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- name: 22|A🟢🇰🇷[🎬🤖🎭🎪]_dokng.com_052a91b6
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_9a7a98d6
+  network: tcp
+  port: 38551
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 22,53|KR - zhuhai.uk
   password: cba96915-8098-41a7-9997-efb01ccc598a
   port: 42311
   server: a11.toppp.cc
@@ -15,3 +21,68 @@ proxies:
   sni: osxapps.itunes.apple.com
   type: anytls
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 40|🇰🇷KR-52.231.200.179-0969
+  network: ws
+  port: 443
+  server: fullaccesstokoreannetsubnode1.azurewebsites.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstokoreannetsubnode1.azurewebsites.net
+    path: /ws
+- name: 40|🇰🇷KR-123.140.124.24-2768
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.seoulcitygovernment.com.ua
+  type: trojan
+- name: 40|🇰🇷KR-123.140.124.25-2979
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.seoulcityhall.com.ua
+  type: trojan
+- name: 40|🇰🇷KR-144.24.72.126-3019
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  port: 443
+  server: 144.24.72.126
+  type: trojan
+- name: 40|🇰🇷KR-123.140.124.25-3108
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.seoulcityhall.com.ua
+  type: trojan
+- name: 40|🇰🇷KR-3.34.6.217-4078
+  password: xxoo
+  port: 443
+  server: 3.34.6.217
+  type: trojan
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -KR5
+  network: ws
+  port: 443
+  server: 129.154.198.48
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -KR2
+  network: ws
+  port: 2096
+  server: 91.193.58.98
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2

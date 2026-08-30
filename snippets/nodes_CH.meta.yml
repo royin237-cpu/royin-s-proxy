@@ -1,1 +1,30 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇨🇭[📺]_dokng.com_4a4bb674
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: PMYLdOtnvW-ca8Zf6u7CFgGXoGXCvmCMPerPjGY3AAc
+    short-id: 77d7abe2c55892f1
+  server: 45.90.58.216
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e8077d9-7bd9-444b-b2e3-de940d2eb35e
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 49|🇨🇭 瑞士 | CHE
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+  server: de48.tranzit-net.ru
+  servername: d.tranzit-net.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb

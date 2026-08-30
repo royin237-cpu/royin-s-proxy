@@ -1,19 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_7d526327
-  network: tcp
-  packet-encoding: xudp
-  port: 20995
-  reality-opts:
-    public-key: GqIZ3PiZBcvHMfXhk7BDZMWhF2Q4FrGVW9sgkllXkA4
-    short-id: 6ba85179e30d4fc2
-  server: 159.69.28.178
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  uuid: 20bcb7a8-c51b-4771-9686-6b4509dc9cd2
 - alterId: 2
   cipher: auto
   name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea

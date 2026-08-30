@@ -1,15 +1,15 @@
 {
-  "total": 82,
+  "total": 26,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 5
+      "count": 50
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 10
+      "count": 2
     },
     "CN": {
       "flag": "🇨🇳",
@@ -24,47 +24,47 @@
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 1
+      "count": 15
     },
     "CA": {
       "flag": "🇦🇨",
       "name": "加拿大",
-      "count": 4
+      "count": 82
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 5
+      "count": 1
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 5
+      "count": 1
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 6
+      "count": 2
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 2
+      "count": 10
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 4
+      "count": 1
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 2
+      "count": 1
     },
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 1
+      "count": 16
     },
     "EE": {
       "flag": "🇪🇪",
@@ -72,8 +72,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-08-30 04:16",
-  "server_time": "2026-08-30 04:17:16",
+  "update_time": "2026-08-30 12:03",
+  "server_time": "2026-08-30 12:03:58",
   "sources": [
     {
       "index": 0,
@@ -188,7 +188,7 @@
     {
       "index": 22,
       "url": "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml",
-      "nodes": 500
+      "nodes": 475
     },
     {
       "index": 23,
@@ -198,7 +198,7 @@
     {
       "index": 24,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 127
+      "nodes": 126
     },
     {
       "index": 25,
@@ -213,7 +213,7 @@
     {
       "index": 27,
       "url": "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml",
-      "nodes": 32
+      "nodes": 49
     },
     {
       "index": 28,
@@ -238,7 +238,7 @@
     {
       "index": 32,
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-      "nodes": 22
+      "nodes": 20
     },
     {
       "index": 33,
@@ -288,7 +288,7 @@
     {
       "index": 42,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
-      "nodes": 42
+      "nodes": 359
     },
     {
       "index": 43,
@@ -323,7 +323,7 @@
     {
       "index": 49,
       "url": "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.y",
-      "nodes": 128
+      "nodes": 135
     },
     {
       "index": 50,
@@ -343,7 +343,7 @@
     {
       "index": 53,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 33
+      "nodes": 29
     },
     {
       "index": 54,

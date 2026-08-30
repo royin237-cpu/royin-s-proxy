@@ -21,6 +21,13 @@ proxies:
       Host: 45.85.119.65
     path: /build
 - cipher: aes-256-cfb
+  name: 17|🇯🇵 JP 2 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.248.173.222
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 17|🇯🇵 JP 21 → tg@nicevpn123
   password: amazonskr05
   port: 443
@@ -37,16 +44,6 @@ proxies:
   type: vmess
   udp: true
   uuid: e147ce52-2598-31b0-950d-6b12c306b360
-- alterId: 1
-  cipher: auto
-  name: 17|🇯🇵 JP 49 → tg@nicevpn123
-  port: 28785
-  server: lotn9-g03.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
 - name: 17|🇯🇵 JP 50 → tg@nicevpn123
   password: d22c4619-9dd1-41b1-a00e-c565a09066c8
   port: 443
@@ -134,6 +131,40 @@ proxies:
   type: vmess
   udp: true
   uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
+- cipher: chacha20-ietf-poly1305
+  name: 22|C🟠🇯🇵[🎬🤖📺🎭]_dokng.com_262a7b88
+  password: ljqdalu13..
+  port: 8313
+  server: 52.193.171.28
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 22|C🟠🇯🇵[🤖📺🎪🔍]_dokng.com_41228966
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: 27|🇯🇵 Japan/Tokyo [GH:4n0nymou3/m...
+  password: 0964f6b7-6aab-4b84-9e80-dd078ed1f269
+  port: 50000
+  server: jp200m.jiasu.asia
+  skip-cert-verify: true
+  sni: jp200m.jiasu.asia
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: '27|🇯🇵 Japan/Tokyo [TG] #5'
+  password: 3eOFeNssde7PYYMv
+  port: 80
+  server: 84.247.155.196
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: '39,40|🇯🇵JP-140.83.57.20-0153 #1'
@@ -178,7 +209,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 40|🇯🇵JP-48.218.91.217-0894
+  name: 40,42|JP 🇯🇵 日本丨
   network: ws
   port: 36801
   server: cindy50.ceoiii.com

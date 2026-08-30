@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 22,32,49|🇹🇭 泰国 | THA
+  name: 22,32,49,53|TH - zhuhai.uk
   password: 7eadc6dbe2ae
   port: 65443
   server: 103.169.67.34
@@ -9,16 +9,15 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  encryption: none
-  name: 22|D🔴🇹🇭[🤖📺🎪✨]_dokng.com_9bd6484c
+  name: 42|🇹🇭TH泰国丨
   network: ws
   port: 80
-  server: 18.239.134.69
+  server: www.true.th
+  servername: ''
   tls: false
-  type: vless
-  udp: true
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  type: vmess
+  uuid: a150d554-e962-4632-829f-ee583ada3f95
   ws-opts:
     headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-    path: /
+      Host: d7pu5mzr9c4b0.cloudfront.net
+    path: /htun

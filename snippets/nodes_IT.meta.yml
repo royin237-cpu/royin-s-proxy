@@ -388,13 +388,6 @@ proxies:
     headers:
       Host: nl1-vmess.sshmax.xyz
     path: /vmess
-- cipher: aes-256-gcm
-  name: 27|🇮🇹 Italy [TG]
-  password: itzvpn@321
-  port: 8388
-  server: 57.131.48.45
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 40|🇮🇹IT-57.131.32.191-0574
