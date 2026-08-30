@@ -4,3 +4,9 @@ _*
 !_config*
 .vscode/
 .workbuddy/
+# 本地临时脚本与云端内核二进制（70MB，勿提交）
+tmp/
+.probe_work/
+mihomo
+mihomo.gz
+mihomo_data/
