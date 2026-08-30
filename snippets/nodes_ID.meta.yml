@@ -1,4 +1,11 @@
 proxies:
+- name: 22,45|🇺🇸US_6|3.6MB/s
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
 - alterId: 0
   cipher: auto
   name: 40|🇮🇩ID-103.180.95.29-4310

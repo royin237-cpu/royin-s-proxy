@@ -14,14 +14,6 @@ proxies:
   tls: true
   type: vless
   uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
-- cipher: aes-256-cfb
-  name: 22,32,49|🇫🇷 法国 | FRA 13
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 95.170.13.47
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b
   password: github.com/Alvin9999-newpac/fanqiang
   port: 51133

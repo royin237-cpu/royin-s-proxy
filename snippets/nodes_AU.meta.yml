@@ -7,6 +7,12 @@ proxies:
   sni: psg1.pqjc.buzz
   type: trojan
   udp: true
+- name: 22|D🔴🇦🇺[🎬🤖📺🎭]_dokng.com_27217924
+  port: 443
+  server: 159.13.44.228
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alterId: 0
   cipher: auto
   name: 26,40|🏁RELAY-1.1.1.1-0565
@@ -266,3 +272,9 @@ proxies:
     headers:
       Host: vms.lifetime44.workers.dev
     path: /
+- name: 45|🇦🇺AU_1|2.9MB/s
+  port: 443
+  server: 103.62.50.130
+  skip-cert-verify: true
+  tls: true
+  type: http

@@ -1,4 +1,8 @@
 proxies:
+- name: 22,45|🇫🇮FI_1|4.3MB/s
+  port: 8911
+  server: 135.181.84.21
+  type: http
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -15,6 +19,10 @@ proxies:
   udp: true
   uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
   xudp: true
+- name: 22,45|🇫🇮FI_2|2.3MB/s
+  port: 3001
+  server: 135.181.116.225
+  type: http
 - alpn:
   - h3
   client-fingerprint: ''

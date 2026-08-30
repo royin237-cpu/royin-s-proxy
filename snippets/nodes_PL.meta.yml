@@ -1,4 +1,28 @@
 proxies:
+- name: 22,45|🇵🇱PL_1|2.7MB/s
+  port: 443
+  server: 37.120.156.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 22|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_31efa2ea
+  port: 443
+  server: 37.120.156.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 22|C🟠🇵🇱[🤖📺🎭🎪]_dokng.com_68a292a0
+  password: None
+  port: 443
+  server: 151.115.54.133
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 22|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_805ac382
+  port: 7778
+  server: 91.238.54.189
+  type: http
 - name: '23,45|波兰 #1 #1'
   password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
   port: 443
@@ -47,3 +71,9 @@ proxies:
   server: 51.83.186.142
   sni: pl1.trojanvh.xyz
   type: trojan
+- name: 45|🇵🇱PL_2|1.7MB/s
+  port: 443
+  server: 151.115.54.133
+  skip-cert-verify: true
+  tls: true
+  type: http

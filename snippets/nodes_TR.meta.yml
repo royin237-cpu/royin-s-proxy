@@ -28,6 +28,10 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 22|A🟢🇹🇷[🎬🤖📺🎭]_dokng.com_6b20164e
+  port: 8096
+  server: 212.192.6.248
+  type: http
 - alterId: 0
   cipher: auto
   name: 40|🇹🇷TR-37.221.79.48-0827

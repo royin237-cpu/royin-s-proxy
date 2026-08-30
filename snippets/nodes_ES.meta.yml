@@ -1,4 +1,24 @@
 proxies:
+- name: 22,45|🇪🇸ES_1|2.1MB/s
+  port: 3155
+  server: 185.170.212.162
+  type: http
+- name: 22|D🔴🇪🇸[🤖📺🎭🎪]_dokng.com_148d2ee2
+  port: 443
+  server: 130.195.250.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 22|D🔴🇪🇸_dokng.com_0c4fdc77
+  port: 1083
+  server: 161.35.90.93
+  type: socks5
+- name: 22|D🔴🇪🇸[🎬🤖📺🎭]_dokng.com_297df47d
+  port: 443
+  server: 130.195.250.18
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: '45|A - 🇪🇸 ES 01 TG: @nodpai'
   network: ws
   port: 8880

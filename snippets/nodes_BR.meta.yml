@@ -1,4 +1,46 @@
 proxies:
+- name: 22|A🟢🇧🇷[🤖✨✈️🔍]_dokng.com_d2dbe763
+  port: 2138
+  server: 177.105.159.24
+  type: http
+- name: 22|A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_84cf438e
+  port: 8989
+  server: 138.204.95.193
+  type: http
+- name: 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_ca3b1afa
+  port: 9091
+  server: 164.163.237.196
+  type: http
+- name: 22|A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_290b4539
+  password: None
+  port: 61234
+  server: 187.103.125.104
+  type: http
+  username: null
+- name: 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_75602843
+  port: 44443
+  server: 179.184.163.133
+  type: http
+- name: 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_ba5e8e2f
+  port: 92
+  server: 45.70.87.228
+  type: http
+- name: 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_919b7764
+  port: 9292
+  server: 131.0.120.162
+  type: http
+- name: 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_15a794cc
+  port: 8085
+  server: 45.236.65.182
+  type: http
+- name: 22|A🟢🇧🇷_dokng.com_98e8f1da
+  port: 9191
+  server: 177.222.248.51
+  type: http
+- name: 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_35b157c8
+  port: 9292
+  server: 45.232.76.98
+  type: http
 - alterId: 1
   cipher: auto
   name: 26,40|🏁RELAY-188.114.96.7-0692
