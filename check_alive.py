@@ -358,11 +358,20 @@ def main():
                     print(f"[alive] asia probe meta: age={age/3600:.1f}h fresh={fresh}", flush=True)
                 except (json.JSONDecodeError, OSError, ValueError):
                     fresh = True
-            name_set = {p.get("name") for p in proxies}
-            inter = {n: d for n, d in asia.items() if n in name_set}
+            # 匹配键用 server|port|type 稳定身份（节点名每轮抓取会变，按名匹配会丢节点）
+            key_map = {}
+            for p in proxies:
+                k = f"{p.get('server')}|{p.get('port')}|{p.get('type')}"
+                key_map[k] = p.get("name")
+            inter = {}
+            for k, d in asia.items():
+                if k in key_map:
+                    inter[key_map[k]] = d
+                elif k in key_map.values():
+                    inter[k] = d  # 旧格式（按名）兼容
             if fresh and inter:
                 merged_china = inter
-                print(f"[alive] China real-alive filter: {len(proxies)} raw -> {len(inter)} (China mihomo <=500ms)", flush=True)
+                print(f"[alive] China real-alive filter: {len(proxies)} raw -> {len(inter)} (matched by server:port:type)", flush=True)
             else:
                 print(f"[alive] WARNING: asia probe stale/empty (fresh={fresh}, inter={len(inter)}), fallback to cloud-alive", flush=True)
         except (json.JSONDecodeError, OSError) as e:
