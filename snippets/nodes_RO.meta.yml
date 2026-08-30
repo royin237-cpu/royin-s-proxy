@@ -1,8 +1,4 @@
 proxies:
-- name: 22|A🟢🇷🇴[🎬🤖📺🎭]_dokng.com_ff494e0f
-  port: 54321
-  server: 94.53.24.61
-  type: http
 - name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_238da015
   password: None
   port: 9002
@@ -43,6 +39,29 @@ proxies:
   type: http
   udp: true
   username: null
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22,49|🇳🇱 荷兰 | NLD 10
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+    short-id: ff776ff77be48b88
+  server: mold.freeinternat.com
+  servername: mold.freeinternat.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
+  xudp: true
+- name: 22|D🔴🇷🇴[📺🎭🎪]_dokng.com_50511bed
+  port: 9002
+  server: 193.176.84.19
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
 - name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_d3a94af0
   password: None
   port: 9002
@@ -165,6 +184,21 @@ proxies:
   tls: true
   type: http
   udp: true
+- http-opts:
+    headers:
+      Host:
+      - amp-api-edge.apps.apple.com
+    method: GET
+    path:
+    - /
+  name: 49|🇬🇧 英国 | GBR 17
+  network: http
+  port: 34770
+  server: digikala.topdigit.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6aee447d-a7f5-4aa6-be7a-5999ab69e406
 - name: 53|RO - zhuhai.uk
   password: None
   port: 9002

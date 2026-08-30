@@ -1,5 +1,16 @@
 proxies:
-- name: 22,45|🇹🇷TR_1|1.4MB/s
-  port: 8096
-  server: 212.192.6.248
-  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22,49|🇹🇷 土耳其 | TUR 2
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+  server: premium-tr.geodema.network
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 78eb4455-0d07-4bc2-93e3-7c8654f11d74

@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '26,39,40|🇭🇰HK-43.100.32.4-0220 #1'
+  name: '26,39,40|🇭🇰HK-43.100.32.4-0134 #1'
   network: ws
   port: 443
   server: n1747624260.4u9ma.icu
@@ -55,7 +55,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '26,39,40|🇭🇰HK-47.83.19.148-0280 #1'
+  name: '26,39,40|🇭🇰HK-47.83.19.148-0233 #1'
   network: ws
   port: 443
   server: 47.83.19.148
@@ -90,7 +90,7 @@ proxies:
   uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
 - alterId: 0
   cipher: auto
-  name: 26,40|🇭🇰HK-47.239.189.182-0462
+  name: 26,40|🇭🇰HK-47.239.189.182-0410
   network: ws
   port: 80
   server: ee.oppo.quest
@@ -105,7 +105,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇭🇰HK-47.239.189.182-0470
+  name: 26,40|🇭🇰HK-47.239.189.182-0418
   network: ws
   port: 80
   server: cfhk.oppo.quest
@@ -120,7 +120,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇭🇰HK-207.46.147.148-1570
+  name: 26,40|🇭🇰HK-207.46.147.148-1822
   network: ws
   port: 443
   server: fullaccesstohongkongnet.azurewebsites.net
@@ -135,7 +135,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 26,40|🇭🇰HK-8.210.206.163-1932
+  name: 26,40|🇭🇰HK-8.210.206.163-2198
   network: http
   port: 45719
   server: 8.210.206.163
@@ -146,7 +146,7 @@ proxies:
   uuid: a220dad2-a34e-4460-b0f7-eaba9c46e639
 - alterId: 0
   cipher: auto
-  name: '39,40|🇭🇰HK-47.244.120.197-4658 #1'
+  name: '39,40|🇭🇰HK-47.244.120.197-4932 #1'
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -160,18 +160,18 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '39,40|🇭🇰HK-47.239.208.160-0570 #1'
+  name: '39,40|🇭🇰HK-47.244.120.197-0174 #1'
   network: ws
-  port: 443
-  server: drbkg16egf3fzlm3.v.3dns.vip
+  port: 36703
+  server: 47.244.120.197
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-    path: /ws-vmess
+      Host: 47.244.120.197
+    path: /
 - alterId: 0
   cipher: auto
   name: 39,40,50|HK13
@@ -189,7 +189,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '39,40|🇭🇰HK-47.244.120.197-0185 #1'
+  name: '39,40|🇭🇰HK-47.244.120.197-0176 #1'
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -203,19 +203,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '39,40|🇭🇰HK-47.244.120.197-0186 #1'
+  name: 40|🇭🇰HK-47.239.208.160-0518
   network: ws
-  port: 36703
-  server: 47.244.120.197
+  port: 443
+  server: drbkg16egf3fzlm3.v.3dns.vip
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: 47.244.120.197
-    path: /
-- name: 40|🇭🇰HK-20.187.85.198-4134
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+    path: /ws-vmess
+- name: 40|🇭🇰HK-20.187.85.198-4400
   password: b26e31e5-eac1-45b0-9069-83830bd69521
   port: 443
   server: 20.187.85.198
@@ -223,36 +223,6 @@ proxies:
   type: trojan
 - cipher: chacha20-ietf
   name: '40|8J%2BHrfCfh7BISy00My4yNTUuMTE5... #5'
-  obfs: plain
-  obfs-param: ODdjMjc2OTI0LmRvdXlpbi5jb20%3D
-  password: di15PV
-  port: 2112
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: api.meituan88.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '40|8J%2BHrfCfh7BISy00My4yNTUuMTE5... #7'
-  obfs: plain
-  obfs-param: MTRlMTE2NzM1LmRvdXlpbi5jb20%3D
-  password: di15PV
-  port: 14048
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: api.meituan88.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '40|8J%2BHrfCfh7BISy00My4yNTUuMTE5... #10'
-  obfs: plain
-  obfs-param: OTllMTQ0MzkxLmRvdXlpbi5jb20%3D
-  password: di15PV
-  port: 2205
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: api.meituan88.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '40|8J%2BHrfCfh7BISy00My4yNTUuMTE5... #12'
   obfs: plain
   obfs-param: NjY1MjAzNDYzLmRvdXlpbi5jb20%3D
   password: di15PV
@@ -262,17 +232,7 @@ proxies:
   server: api.meituan88.com
   type: ssr
 - cipher: rc4-md5
-  name: '40|8J%2BHrfCfh7BISy00My4yNTUuMTE5... #14'
-  obfs: plain
-  obfs-param: OTllMTQ0MzkxLmRvdXlpbi5jb20%3D
-  password: di15PV
-  port: 32414
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: api.meituan88.com
-  type: ssr
-- cipher: rc4-md5
-  name: '40|8J%2BHrfCfh7BISy00My4yNTUuMTE5... #16'
+  name: '40|8J%2BHrfCfh7BISy00My4yNTUuMTE5... #6'
   obfs: plain
   obfs-param: ODdjMjc2OTI0LmRvdXlpbi5jb20%3D
   password: di15PV
@@ -281,9 +241,39 @@ proxies:
   protocol-param: ''
   server: api.meituan88.com
   type: ssr
+- cipher: rc4-md5
+  name: '40|8J%2BHrfCfh7BISy00My4yNTUuMTE5... #8'
+  obfs: plain
+  obfs-param: OTllMTQ0MzkxLmRvdXlpbi5jb20%3D
+  password: di15PV
+  port: 32414
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: api.meituan88.com
+  type: ssr
+- cipher: chacha20-ietf
+  name: '40|8J%2BHrfCfh7BISy00My4yNTUuMTE5... #9'
+  obfs: plain
+  obfs-param: MTRlMTE2NzM1LmRvdXlpbi5jb20%3D
+  password: di15PV
+  port: 14048
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: api.meituan88.com
+  type: ssr
+- cipher: chacha20-ietf
+  name: '40|8J%2BHrfCfh7BISy00My4yNTUuMTE5... #13'
+  obfs: plain
+  obfs-param: OTllMTQ0MzkxLmRvdXlpbi5jb20%3D
+  password: di15PV
+  port: 2205
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: api.meituan88.com
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 40|🇭🇰HK-47.244.120.197-4657
+  name: 40|🇭🇰HK-47.244.120.197-4931
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -295,26 +285,22 @@ proxies:
     headers:
       Host: 47.244.120.197
     path: /arki?ed=2048
-- name: 40|🇭🇰HK-219.76.13.181-6351
+- name: 40|🇭🇰HK-219.76.13.181-6629
   password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
   port: 443
   server: 219.76.13.181
   sni: arbettp.freetrade.link
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 41,42|🇺🇸 美国 阿里云
-  network: ws
-  port: 443
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-    path: /ws-vmess
+- cipher: chacha20-ietf
+  name: '40|8J%2BHrfCfh7BISy00My4yNTUuMTE5... #17'
+  obfs: plain
+  obfs-param: ODdjMjc2OTI0LmRvdXlpbi5jb20%3D
+  password: di15PV
+  port: 2112
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: api.meituan88.com
+  type: ssr
 - alterId: 2
   cipher: auto
   name: '41,42,45,48|香港|@ripaojiedian #1'
@@ -345,21 +331,6 @@ proxies:
   tls: true
   type: vmess
   uuid: f018361c-3d66-4635-80c9-22be36b70ac4
-- alterId: 0
-  cipher: auto
-  name: 50|HK5 12.4KB/s
-  network: ws
-  port: 443
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: qtkdr8jxe3wefxjm.v.3dns.vip
-      host: qTKDR8jXE3wEFxJM.v.3dns.vip
-    path: /ws-vmess
 - alterId: 0
   cipher: auto
   name: 50|HK7

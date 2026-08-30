@@ -5,3 +5,32 @@ proxies:
   server: 212.65.190.199
   type: http
   username: null
+- name: 22|C🟠🇨🇭[🎬🤖📺🎭]_dokng.com_b962c342
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 22|D🔴🇨🇭[🎬🤖📺🎭]_dokng.com_5edb8d34
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 53|CH - zhuhai.uk 03
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: 7qOCfcEvImVg65UNXmT_84xj7yhUgDJ82ZIlsbA5Ejo
+  server: 152.67.81.171
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2adde9c-4714-4b7c-9f4c-5b32d85df5b6

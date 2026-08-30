@@ -23,7 +23,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: 26,40|🇰🇷KR-52.231.200.179-1595
+  name: 26,40|🇰🇷KR-52.231.200.179-1847
   network: ws
   port: 443
   server: fullaccesstokoreannetsubnode1.azurewebsites.net
@@ -36,27 +36,27 @@ proxies:
     headers:
       Host: fullaccesstokoreannetsubnode1.azurewebsites.net
     path: /ws
-- name: 40|🇰🇷KR-123.140.124.24-2349
+- name: 40|🇰🇷KR-123.140.124.24-2615
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.seoulcitygovernment.com.ua
   type: trojan
-- name: 40|🇰🇷KR-123.140.124.25-2560
+- name: 40|🇰🇷KR-123.140.124.25-2826
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.seoulcityhall.com.ua
   type: trojan
-- name: 40|🇰🇷KR-144.24.72.126-2600
+- name: 40|🇰🇷KR-144.24.72.126-2866
   password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
   port: 443
   server: 144.24.72.126
   type: trojan
-- name: 40|🇰🇷KR-123.140.124.25-2689
+- name: 40|🇰🇷KR-123.140.124.25-2955
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 2053
   server: official.seoulcityhall.com.ua
   type: trojan
-- name: 40|🇰🇷KR-3.34.6.217-3659
+- name: 40|🇰🇷KR-3.34.6.217-3925
   password: xxoo
   port: 443
   server: 3.34.6.217

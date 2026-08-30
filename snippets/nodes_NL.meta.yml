@@ -6,6 +6,13 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 22|D🔴🇳🇱[🤖📺🎭🎪]_dokng.com_c745045d
+  port: 443
+  server: 185.246.153.28
+  skip-cert-verify: true
+  sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
+  tls: true
+  type: http
 - name: 22|A🟢🇳🇱[🎬🤖📺🎭]_dokng.com_4f429283
   password: None
   port: 16668
@@ -16,6 +23,13 @@ proxies:
   port: 443
   server: 149.36.51.129
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_f89d41d4
+  port: 443
+  server: 103.97.88.154
+  skip-cert-verify: true
+  sni: 4a8c2906c96058315dffbc2b0e7ff19b-98005bea43f9ac33.apache-iv.com
   tls: true
   type: http
 - name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b74edc3f
@@ -77,6 +91,29 @@ proxies:
   tls: true
   type: http
   username: null
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: trgrpc
+  name: 22,45,53|SC - zhuhai.uk 01
+  network: grpc
+  port: 443
+  server: ne1385.cdn-video.pro
+  servername: ne1385.cdn-video.pro
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f980aecd-d243-4910-b231-db172d434541
+  xudp: true
+- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_147f42c4
+  password: Private
+  port: 1080
+  server: 85.17.179.81
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: M_YOU_D
 - name: '45,52|NL_speednode_0004 #1'
   port: 9002
   server: 84.17.47.125
@@ -105,3 +142,38 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 49|🇳🇱 荷兰 | NLD 3
+  network: tcp
+  port: 62145
+  server: 143.47.187.87
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- client-fingerprint: qq
+  name: 49|🇳🇱 荷兰 | NLD 4
+  network: ws
+  port: 443
+  server: 151.242.2.81
+  servername: cf9.rumedia-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  ws-opts:
+    headers:
+      Host: cf9.rumedia-cdn.com
+    path: /cdn/v3/live
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 49|🇳🇱 荷兰 | NLD 6
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mHlSdLyCi4y4Bit5YrV9SpNI4RxoC08gyxUJPDy2Ylg
+    short-id: a17b41ba
+  server: 72.56.22.69
+  servername: app9.jarvesitw.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84491c04-b011-4fdc-b97d-770975586f3a

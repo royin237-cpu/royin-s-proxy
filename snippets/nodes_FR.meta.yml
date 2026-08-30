@@ -1,4 +1,20 @@
 proxies:
+- name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_c8fcad15
+  port: 1443
+  server: 85.208.51.228
+  type: http
+- alterId: 0
+  cipher: auto
+  name: 22|D🔴🇭🇰[📺🎭📦]_dokng.com_3bc5f8aa
+  network: ws
+  port: 16622
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: e1a48fdd-747d-4a93-9f1e-04aacfcf94b7
+  ws-opts:
+    headers:
+      Host: c1b4a4f9bfe0c1b73ad7a9952428db13.mobgslb.tbcache.com
+    path: /
 - name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_68a0c571
   password: None
   port: 21
@@ -44,6 +60,14 @@ proxies:
   sni: ip4.934618.xyz
   type: anytls
   udp: true
+- name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_e73d582a
+  password: None
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_6dcdf6ed
   port: 443
   server: fan.132031.xyz
@@ -51,19 +75,32 @@ proxies:
   sni: fan.132031.xyz
   tls: true
   type: http
-- name: 22|D🔴🇫🇷[📺🎭]_dokng.com_c5db3762
-  password: None
+- name: 22|C🟠🇫🇷[🤖📺📦]_dokng.com_8c55dcfd
   port: 1088
-  server: 144.91.121.61
+  server: 51.178.49.241
   type: socks5
+- alterId: 0
+  cipher: auto
+  name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_e10a00a7
+  network: ws
+  port: 16644
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: e1a48fdd-747d-4a93-9f1e-04aacfcf94b7
+  ws-opts:
+    headers:
+      Host: c1b4a4f9bfe0c1b73ad7a9952428db13.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 53|FR - zhuhai.uk 05
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
+  server: 129.151.239.170
+  servername: tesla.com
+  tls: true
+  type: vless
   udp: true
-  username: null
-- auth: gf1:gfhysteria2024
-  name: 22,32|🇫🇷_FR_法国_1
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 173.212.201.85
-  skip-cert-verify: true
-  sni: www.docker.com
-  type: hysteria2
-  udp: true
+  uuid: a2adde9c-4714-4b7c-9f4c-5b32d85df5b6

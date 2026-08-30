@@ -26,6 +26,10 @@ proxies:
   udp: true
   uuid: cc138c2d-5e03-4efd-a935-fc500e938033
   xudp: true
+- name: 22|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_d2853196
+  port: 9090
+  server: 167.99.74.174
+  type: http
 - name: 22|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_26d0e430
   password: e4b72b531a2d10900519
   port: 443
@@ -43,3 +47,16 @@ proxies:
   type: http
   udp: true
   username: ''
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 53|SG - zhuhai.uk 01
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
+  server: 140.245.109.76
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c606644a-9b60-446e-93d2-19243373003a

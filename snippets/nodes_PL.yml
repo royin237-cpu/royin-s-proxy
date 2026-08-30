@@ -1,11 +1,11 @@
 proxies:
-- name: 40|🇵🇱PL-51.83.186.142-2638
+- name: 40|🇵🇱PL-51.83.186.142-2904
   password: 555034c8-6420-45d0-893c-905c02342150
   port: 443
   server: 51.83.186.142
   sni: pl1.trojanvh.xyz
   type: trojan
-- name: 40|🇵🇱PL-51.83.186.142-3667
+- name: 40|🇵🇱PL-51.83.186.142-3933
   password: 555034c8-6420-45d0-893c-905c02342150
   port: 80
   server: 51.83.186.142

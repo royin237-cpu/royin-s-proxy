@@ -1,70 +1,70 @@
 {
-  "total": 263,
+  "total": 348,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 8
+      "count": 10
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 61
+      "count": 82
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 4
+      "count": 3
     },
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 5
+      "count": 4
     },
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 1
+      "count": 3
     },
     "CA": {
       "flag": "🇨🇦",
       "name": "加拿大",
-      "count": 2
+      "count": 3
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 10
+      "count": 14
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 4
+      "count": 6
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 9
+      "count": 31
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 3
+      "count": 1
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 4
+      "count": 7
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 16
+      "count": 20
     },
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 4
+      "count": 5
     },
     "EE": {
       "flag": "🇪🇪",
@@ -74,17 +74,17 @@
     "CH": {
       "flag": "🇨🇭",
       "name": "瑞士",
-      "count": 1
+      "count": 4
     },
     "NL": {
       "flag": "🇳🇱",
       "name": "荷兰",
-      "count": 15
+      "count": 22
     },
     "RO": {
       "flag": "🇷🇴",
       "name": "罗马尼亚",
-      "count": 23
+      "count": 25
     },
     "IN": {
       "flag": "🇮🇳",
@@ -104,12 +104,12 @@
     "AU": {
       "flag": "🇦🇺",
       "name": "澳大利亚",
-      "count": 1
+      "count": 2
     },
     "IT": {
       "flag": "🇮🇹",
       "name": "意大利",
-      "count": 6
+      "count": 7
     },
     "ES": {
       "flag": "🇪🇸",
@@ -119,7 +119,7 @@
     "BR": {
       "flag": "🇧🇷",
       "name": "巴西",
-      "count": 8
+      "count": 10
     },
     "VN": {
       "flag": "🇻🇳",
@@ -129,7 +129,7 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 4
+      "count": 1
     },
     "PH": {
       "flag": "🇵🇭",
@@ -144,7 +144,7 @@
     "PL": {
       "flag": "🇵🇱",
       "name": "波兰",
-      "count": 3
+      "count": 5
     },
     "FI": {
       "flag": "🇫🇮",
@@ -152,8 +152,8 @@
       "count": 2
     }
   },
-  "update_time": "2026-08-31 00:54",
-  "server_time": "2026-08-31 00:55:28",
+  "update_time": "2026-08-31 01:29",
+  "server_time": "2026-08-31 01:30:17",
   "sources": [
     {
       "index": 0,
@@ -358,17 +358,17 @@
     {
       "index": 40,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 3949
+      "nodes": 4041
     },
     {
       "index": 41,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
-      "nodes": 42
+      "nodes": 44
     },
     {
       "index": 42,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
-      "nodes": 42
+      "nodes": 44
     },
     {
       "index": 43,

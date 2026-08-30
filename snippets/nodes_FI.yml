@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 26,40|🇫🇮FI-65.21.240.108-3215
+  name: 26,40|🇫🇮FI-65.21.240.108-3481
   network: http
   port: 443
   server: 65.21.240.108
@@ -12,7 +12,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 40|🇫🇮FI-65.109.134.191-3946
+  name: 40|🇫🇮FI-65.109.134.191-4212
   network: ws
   port: 80
   server: 65.109.134.191

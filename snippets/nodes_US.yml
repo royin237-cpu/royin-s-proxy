@@ -36,9 +36,20 @@ proxies:
   tls: true
   type: vmess
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 40|🇺🇸US-216.24.57.1-0714
+- name: 40|🇺🇸US-216.24.57.7-0928
   password: humanity
   port: 443
-  server: render.com
+  server: 216.24.57.7
   sni: www.ignitelimit.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '41,42|🇺🇸_US_美国 #1'
+  network: tcp
+  port: 443
+  server: 192.227.247.27
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a

@@ -14,3 +14,11 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
+- alterId: 0
+  cipher: auto
+  name: 53|CA - zhuhai.uk
+  network: http
+  port: 49432
+  server: 38.47.121.14
+  type: vmess
+  uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb

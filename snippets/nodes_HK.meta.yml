@@ -3,12 +3,6 @@ proxies:
   port: 10808
   server: 123.58.219.171
   type: socks5
-- name: 22|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_8cb372cb
-  port: 443
-  server: hk40.240104.xyz
-  sni: hk40.240104.xyz
-  tls: true
-  type: http
 - name: 22|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_da7c41d8
   password: admin
   port: 1080

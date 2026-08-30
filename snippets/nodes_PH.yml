@@ -14,7 +14,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 26,40|🇵🇭PH-120.28.10.46-0573
+  name: 26,40|🇵🇭PH-120.28.10.46-0521
   network: ws
   port: 80
   server: 120.28.10.46

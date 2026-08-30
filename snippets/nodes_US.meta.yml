@@ -24,6 +24,10 @@ proxies:
   server: 3ce8ee8.hb.gladns.com
   type: ss
   udp: true
+- name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_ed8f31c0
+  port: 12344
+  server: 154.21.89.32
+  type: http
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_a88e970f
   password: gs4BXwT6SW
   port: 10988
@@ -31,6 +35,26 @@ proxies:
   tls: false
   type: http
   username: fQ67Dpe5dU
+- name: 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_761c891b
+  password: None
+  port: 36451
+  server: 38.246.226.240
+  type: http
+  username: null
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_ce9e1b37
+  port: 443
+  server: tzoa.fun
+  sni: tzoa.fun
+  tls: true
+  type: http
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7c1cdf0b
+  password: None
+  port: 443
+  server: crosscards.site
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_2b221c73
   password: ''
   port: 9002
@@ -94,6 +118,12 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_2a3ab6a1
+  port: 443
+  server: jgwynphotoarts.pro
+  sni: jgwynphotoarts.pro
+  tls: true
+  type: http
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_256dedbc
   port: 9002
   server: 138.199.35.215
@@ -113,6 +143,10 @@ proxies:
   port: 40000
   server: 47.251.15.156
   type: socks5
+- name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_bdaa0f87
+  port: 442
+  server: 54.235.192.64
+  type: http
 - name: 22,53|US - zhuhai.uk 02
   port: 443
   server: mmgr.club
@@ -128,6 +162,10 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_817b711f
+  port: 25252
+  server: 52.168.83.190
+  type: http
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_d2c8cc68
   password: ''
   port: 9002
@@ -203,14 +241,14 @@ proxies:
   sni: fullmanfirm.icu
   tls: true
   type: http
-- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_39eed596
-  password: 'null'
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_55cb19bd
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  port: 443
+  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
   tls: true
   type: http
-  username: 'null'
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_811909ab
   password: None
   port: 9002
@@ -240,10 +278,24 @@ proxies:
   server: 148.100.84.192
   type: http
   username: null
-- name: 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_cbba6ad1
-  port: 802
-  server: 47.28.64.79
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6b515df2
+  port: 443
+  server: fan.226278.xyz
+  sni: fan.226278.xyz
+  tls: true
   type: http
+- name: 22|D🔴🇺🇸[🎬📺🎭🎪]_dokng.com_01791c4c
+  password: None
+  port: 16062
+  server: 104.251.93.159
+  type: http
+  username: null
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_d92378d8
+  password: None
+  port: 16062
+  server: 104.218.199.152
+  type: http
+  username: null
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -264,9 +316,19 @@ proxies:
   udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
   xudp: true
+- name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_076c6fa3
+  port: 4447
+  server: 54.174.5.216
+  type: http
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6f1d61d8
   port: 16062
   server: 104.218.199.16
+  type: http
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6a692313
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
   type: http
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6de140d5
   port: 16062
@@ -291,6 +353,10 @@ proxies:
   udp: true
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
   xudp: true
+- name: 22|D🔴🇺🇸[📦]_dokng.com_8fe2ffa1
+  port: 16062
+  server: 104.251.93.119
+  type: http
 - alterId: 0
   cipher: auto
   client-fingerprint: safari
@@ -308,6 +374,18 @@ proxies:
   name: 22,49|🇭🇰 香港 | HKG 2
   network: tcp
   port: 9713
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_e1c7ffbf
+  port: 39395
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: bc8e3658db7d1323
@@ -370,45 +448,54 @@ proxies:
   tls: true
   type: http
   username: testuser1
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7569cc30
+  password: None
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_6bf8c819
+  port: 443
+  server: 52.55.81.168
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 22,49|🇺🇸 美国 | USA 11
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: -x9vdxai-qKAzuhxV7H2RIbEmIh_ZgdiFxiUA5q0B1I
+    short-id: 4864db326f0b4b90
+  server: 207.241.173.146
+  servername: www.refersion.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948b843b-3cc1-494c-9d49-a95a9539fa7c
 - name: 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_1577b38e
   port: 30005
   server: 63.175.157.2
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 22,32|🇪🇪_EE_爱沙尼亚
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: 4a46213c935e2ee4
-  server: 31.76.70.32
-  servername: baltic.cendora.ru
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_00f6512a
+  password: None
+  port: 8090
+  server: 209.148.53.153
   skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  xudp: true
+  type: http
+  username: null
 - name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_24a6e4b9
   password: test123
   port: 1080
   server: 104.168.249.36
   type: socks5
   username: test123
-- name: 22|C🟠🇺🇸[🎬🤖📺🎪]_dokng.com_c4021a16
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: hysteria2
-  udp: true
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_1d385d2c
   password: e4b72b531a2d10900519
   port: 443
@@ -417,6 +504,10 @@ proxies:
   tls: true
   type: http
   username: testuser1
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_0b11cb68
+  port: 16062
+  server: 104.251.93.55
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 32,45,49,52,53|KR - zhuhai.uk 01
@@ -462,12 +553,23 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 40|🇺🇸US-216.24.57.1-0714
+- name: 40|🇺🇸US-216.24.57.7-0928
   password: humanity
   port: 443
-  server: render.com
+  server: 216.24.57.7
   sni: www.ignitelimit.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '41,42|🇺🇸_US_美国 #1'
+  network: tcp
+  port: 443
+  server: 192.227.247.27
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - name: 45,52,53|US - zhuhai.uk 10
   password: 'null'
   port: 9002
@@ -478,13 +580,6 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: '45,52|US_speednode_0141 #1'
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 45,52,53|US - zhuhai.uk 04
   port: 9002
   server: 138.199.35.198
@@ -493,6 +588,62 @@ proxies:
   tls: true
   type: http
   udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 49|🇩🇪 德国 | DEU 6
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: 4da5d1853f04af6d
+  server: 31.76.71.140
+  servername: rrr.windconnect.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 49|🇬🇧 英国 | GBR 5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ojDrVO838PScByjy1cb1-LLEpEh4LhJKG_jldp8g7xo
+    short-id: 8beb2706
+  server: 50.7.92.250
+  servername: app25.jarvestip.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d3815c21-ef06-43e2-82e1-ca313962b489
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 49|🇳🇱 荷兰 | NLD 12
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OYvSeQqu0XhV12blOVAR2Cn_3m6HI95raTdlqnVobjk
+    short-id: 360de9e1
+  server: app27.jarvestip.ru
+  servername: app27.jarvestip.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d3815c21-ef06-43e2-82e1-ca313962b489
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 49|🇸🇪 瑞典 | SWE 3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8HYqDHdQ1IuLPhAOENT70_j0prAi1PNkwlT6venYAEM
+    short-id: a78da1f7
+  server: 50.7.95.195
+  servername: app1.jarvestip.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84491c04-b011-4fdc-b97d-770975586f3a
 - name: 53|US - zhuhai.uk 03
   password: None
   port: 9002
@@ -508,3 +659,15 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 53|US - zhuhai.uk 11
+  port: 443
+  reality-opts:
+    public-key: zH-xymXbZVXJtPP6RmLatmQvujn2ijjva-H18Db7r18
+    short-id: 2d329056
+  server: 198.255.5.155
+  servername: cdn-dynmedia-1.microsoft.com
+  tls: true
+  type: vless
+  uuid: c4ed8ab1-4e2b-45e8-8ba9-d64a75b7f0f4

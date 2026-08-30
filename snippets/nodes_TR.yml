@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 26,40|🇹🇷TR-37.221.79.48-0827
+  name: 26,40|🇹🇷TR-37.221.79.48-0776
   network: ws
   port: 443
   server: v2ray.online
@@ -16,7 +16,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 40|🇹🇷TR-37.221.79.48-1129
+  name: 40|🇹🇷TR-37.221.79.48-1381
   network: ws
   port: 443
   server: v2ray.online
@@ -30,7 +30,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 40|🇹🇷TR-37.221.79.48-4390
+  name: 40|🇹🇷TR-37.221.79.48-4656
   network: ws
   port: 443
   server: v2ray.online
@@ -44,7 +44,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 40|🇹🇷TR-45.94.169.142-6754
+  name: 40|🇹🇷TR-45.94.169.142-7032
   network: ws
   port: 443
   server: 45.94.169.142
