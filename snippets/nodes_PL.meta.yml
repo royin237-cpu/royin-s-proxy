@@ -1,76 +1,14 @@
 proxies:
-- name: 22,45|🇵🇱PL_1|2.7MB/s
-  port: 443
-  server: 37.120.156.18
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 22|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_31efa2ea
   port: 443
   server: 37.120.156.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22|C🟠🇵🇱[🤖📺🎭🎪]_dokng.com_68a292a0
-  password: None
-  port: 443
-  server: 151.115.54.133
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 22|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_805ac382
   port: 7778
   server: 91.238.54.189
   type: http
-- name: '23,45|波兰 #1 #1'
-  password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
-  port: 443
-  server: streambox.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: streambox.wwwinternetvideo.click
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 26,40|🇺🇸US-91.149.239.214-0527
-  network: ws
-  port: 443
-  server: cg1c07.waimaojd.com
-  servername: cg1c07.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  ws-opts:
-    headers:
-      Host: cg1c07.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  name: 26,40|🇺🇸US-91.149.239.165-0534
-  network: ws
-  port: 443
-  server: cg1c14.waimaojd.com
-  servername: cg1c14.waimaojd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  ws-opts:
-    headers:
-      Host: cg1c14.waimaojd.com
-    path: /api/v1/graphql
-- name: 40|🇵🇱PL-51.83.186.142-2638
-  password: 555034c8-6420-45d0-893c-905c02342150
-  port: 443
-  server: 51.83.186.142
-  sni: pl1.trojanvh.xyz
-  type: trojan
-- name: 40|🇵🇱PL-51.83.186.142-3667
-  password: 555034c8-6420-45d0-893c-905c02342150
-  port: 80
-  server: 51.83.186.142
-  sni: pl1.trojanvh.xyz
-  type: trojan
 - name: 45|🇵🇱PL_2|1.7MB/s
   port: 443
   server: 151.115.54.133

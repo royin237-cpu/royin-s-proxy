@@ -9,35 +9,9 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22|D🔴🇪🇸_dokng.com_0c4fdc77
-  port: 1083
-  server: 161.35.90.93
-  type: socks5
 - name: 22|D🔴🇪🇸[🎬🤖📺🎭]_dokng.com_297df47d
   port: 443
   server: 130.195.250.18
   skip-cert-verify: true
   tls: true
   type: http
-- name: '45|A - 🇪🇸 ES 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 192.169.223.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: /
-- name: 51|🇪🇸+ES+西班牙+9
-  network: ws
-  port: 2053
-  server: 185.18.250.185
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'

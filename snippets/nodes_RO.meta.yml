@@ -1,32 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|401_罗马尼亚-4.59MB
-  network: ws
-  port: 443
-  server: mtn.ircf.space
-  tls: true
-  type: vmess
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-  ws-opts:
-    headers:
-      Host: irancelll.appsandhack2.tech
-    path: /dp2.scproxy.top/shirker
-- name: 22|D🔴🇷🇴[📺🎭🎪📦]_dokng.com_50511bed
-  port: 9002
-  server: 193.176.84.19
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_c932ef70
-  password: None
-  port: 9002
-  server: 193.176.84.32
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_25d4aed1
   port: 9002
   server: 193.176.84.21
@@ -34,14 +6,6 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_0357be42
-  password: None
-  port: 9002
-  server: 193.176.84.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_ffc53cc9
   password: None
   port: 9002
@@ -50,41 +14,10 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_34a41e08
-  password: None
-  port: 9002
-  server: 193.176.84.38
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 22|A🟢🇷🇴[🎬🤖📺🎭]_dokng.com_ff494e0f
   port: 54321
   server: 94.53.24.61
   type: http
-- name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_60c7d940
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_1f406845
-  password: None
-  port: 9002
-  server: 193.176.84.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_0d5a8c69
-  password: None
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 22,45,52,53|RO - zhuhai.uk 06
   port: 9002
   server: 193.176.84.24
@@ -130,14 +63,6 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_11acc36f
-  password: None
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 22,53|RO - zhuhai.uk 02
   port: 9002
   server: 193.176.84.34
@@ -167,23 +92,6 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: '22,45,52|RO_speednode_0094 #1'
-  password: None
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: null
-- name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_49e2e376
-  password: None
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 22,45,52,53|RO - zhuhai.uk 03
   port: 9002
   server: 193.176.84.30
@@ -192,48 +100,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- alterId: 64
-  cipher: auto
-  name: 26,40|🇧🇪BE-37.120.236.251-0654
-  network: ws
-  port: 443
-  server: 37.120.236.251
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ed162daa-ee20-44ed-830f-b522c501387a
-  ws-opts:
-    headers:
-      Host: www.42088326.xyz
-    path: /path/143013092425
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #63'
-  password: humanity
-  port: 40443
-  server: 2.144.21.112
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '45|A - 🇷🇴 RO 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 89.116.180.40
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime09.workers.dev
-    path: /?ed=2560
-- name: '45|A - 🇷🇴 RO 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 194.53.53.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: /
 - name: '45,52|RO_speednode_0124 #1'
   port: 9002
   server: 193.176.84.32

@@ -1,24 +1,14 @@
 proxies:
 - cipher: aes-256-cfb
+  name: 22|C🟠🇨🇦[🎬📺🎭🎪]_dokng.com_6ccac23a
+  password: amazonskr05
+  port: 443
+  server: 3.96.124.46
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 22|C🟠🇨🇦[🎬🎭🎪✨]_dokng.com_8b889344
   password: amazonskr05
   port: 443
   server: 16.54.243.229
   type: ss
-- cipher: aes-256-cfb
-  name: 22|C🟠🇨🇦[🎬🤖📺🎪]_dokng.com_65f6a788
-  password: amazonskr05
-  port: 443
-  server: 3.96.144.93
-  type: ss
-  udp: true
-- alterId: 0
-  name: 42,50|🇨🇦CA加拿大
-  password: humanity
-  port: 443
-  server: 104.18.152.140
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true

@@ -13,6 +13,18 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 22|D🔴🇭🇰[📺🎭]_dokng.com_054bd55d
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
+- name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_6738ba5f
+  password: None
+  port: 443
+  server: hk40.240104.xyz
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
 - client-fingerprint: chrome
   name: 22|D🔴🇭🇰[🎬📺🎭✨]_dokng.com_34a14bdf
   network: ws
@@ -40,6 +52,33 @@ proxies:
   tls: true
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 22|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_d21277d2
+  password: 'null'
+  port: 443
+  server: fan.240104.xyz
+  sni: fan.240104.xyz
+  tls: true
+  type: http
+  username: 'null'
+- name: 22|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_4c6d8eb9
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.112
+  type: socks5
+  username: '123'
+- name: 22|C🟠🇭🇰[📺🎭🎪📦]_dokng.com_099454ad
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  skip-cert-verify: true
+  type: socks5
+  username: '111'
+- name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_da7c41d8
+  password: admin
+  port: 1080
+  server: 47.239.116.165
+  type: socks5
+  username: admin
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_a2f81acd
@@ -64,3 +103,10 @@ proxies:
   tls: true
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 45|🇭🇰HK_1|1.4MB/s
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.114
+  skip-cert-verify: true
+  type: socks5
+  username: '123'

@@ -1,4 +1,10 @@
 proxies:
+- name: 22|A🟢🇨🇭[🎬🤖📺🎭]_dokng.com_ad565b9f
+  password: None
+  port: 7272
+  server: 212.65.190.199
+  type: http
+  username: null
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision

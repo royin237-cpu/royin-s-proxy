@@ -1,4 +1,8 @@
 proxies:
+- name: 22|A🟢🇷🇺[🎪📦🔍]_dokng.com_9af66ad2
+  port: 5050
+  server: 45.159.0.194
+  type: http
 - name: 22|A🟢🇷🇺[📺🎪]_dokng.com_67a45bda
   network: ws
   port: 2200
