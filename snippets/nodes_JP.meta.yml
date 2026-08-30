@@ -1,7 +1,8 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_956f7cc1
+  name: 22,53|JP - zhuhai.uk 03
+  network: tcp
   port: 39401
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
@@ -10,6 +11,7 @@ proxies:
   servername: cdnjs.cloudflare.com
   tls: true
   type: vless
+  udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   encryption: none
@@ -53,14 +55,6 @@ proxies:
     headers:
       Host: python-test123.pages.dev
     path: /
-- name: 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_9efa9595
-  password: None
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -92,7 +86,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 22,45|🇸🇬SG_1|2.4MB/s
+  name: 22,45,53|SG - zhuhai.uk 02
   network: tcp
   port: 39553
   reality-opts:
@@ -115,20 +109,20 @@ proxies:
   tls: true
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 22,53|JP - zhuhai.uk
+- name: 22|D🔴🇯🇵[🤖🎭🎪✨]_dokng.com_5802486e
   port: 10808
   server: 101.36.104.239
   type: socks5
-- name: 22,53|JP - zhuhai.uk 02
+- name: 22|C🟠🇯🇵[🤖📺📦🔍]_dokng.com_16f5ab4e
   password: '!!str 123456'
   port: 1080
   server: 8.209.236.192
   type: socks5
   username: '123456'
-- name: 22|D🔴🇯🇵[🤖🎭🎪🎞️]_dokng.com_c618c95c
-  password: None
-  port: 10808
-  server: 101.36.104.46
-  type: socks5
-  udp: true
-  username: null
+- name: 53|JP - zhuhai.uk
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  tls: true
+  type: http
+  username: 'null'

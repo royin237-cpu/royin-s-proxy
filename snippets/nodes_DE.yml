@@ -778,7 +778,7 @@ proxies:
     path: /racevpn
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-94.130.184.57-2657
+  name: 40|🇩🇪DE-94.130.184.57-2481
   network: ws
   port: 80
   server: 94.130.184.57
@@ -792,7 +792,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-162.55.174.135-2757
+  name: 40|🇩🇪DE-162.55.174.135-2599
   network: ws
   port: 80
   server: 162.55.174.135

@@ -13,6 +13,14 @@ proxies:
   port: 1999
   server: 185.201.65.242
   type: http
+- name: 22|A🟢🇮🇹[🎬🤖📺🎭]_dokng.com_71914bac
+  password: None
+  port: 443
+  server: 178.237.4.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 22|D🔴🇮🇹[🤖📺🎭🎪]_dokng.com_8a2d7b99
   password: None
   port: 443
@@ -25,12 +33,5 @@ proxies:
   port: 443
   server: 91.243.118.217
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 53|IT - zhuhai.uk
-  port: 443
-  server: 178.237.4.200
-  skip-cert-verify: true
-  sni: 178.237.4.200
   tls: true
   type: http

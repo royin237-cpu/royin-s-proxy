@@ -23,6 +23,12 @@ proxies:
   port: 8989
   server: 185.110.188.4
   type: http
+- name: 22|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_7204598f
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
@@ -67,11 +73,10 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22,53|DE - zhuhai.uk 03
+- name: 22|A🟢🇩🇪[📺🎭🎪📦]_dokng.com_3ec79ed3
   port: 443
   server: 141.17.83.73
   skip-cert-verify: true
-  sni: 141.17.83.73
   tls: true
   type: http
 - client-fingerprint: qq

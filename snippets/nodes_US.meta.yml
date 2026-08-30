@@ -53,7 +53,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_74d3e768
+- name: 22,53|US - zhuhai.uk 02
   password: ''
   port: 9002
   server: 138.199.35.212
@@ -129,7 +129,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 22,49,53|DE - zhuhai.uk
+  name: 22,49,53|DE - zhuhai.uk 01
   network: tcp
   port: 443
   reality-opts:
@@ -170,14 +170,6 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_ff929cd7
-  password: None
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: '22,45,52|US_speednode_0143 #1'
   port: 9002
   server: 138.199.35.198
@@ -192,15 +184,15 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_c66af7d3
-  password: None
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_9f49ef36
+  password: ''
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 22,45,53|US - zhuhai.uk 03
+  username: ''
+- name: 22,45|🇺🇸US_6|1.1MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.217
@@ -252,6 +244,13 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_ccc98c47
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_8dcfa499
   password: None
   port: 6005
@@ -300,7 +299,7 @@ proxies:
   type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22,45,49|🇭🇰 香港 | HKG 2
+  name: 22,45,49,53|HK - zhuhai.uk 01
   network: tcp
   port: 31723
   reality-opts:
@@ -314,7 +313,7 @@ proxies:
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22,32,45,52,53|FR - zhuhai.uk 03
+  name: 22,32,45,52,53|FR - zhuhai.uk 01
   network: tcp
   port: 29893
   reality-opts:
@@ -322,7 +321,7 @@ proxies:
     short-id: bc8e3658db7d1323
   server: 155.117.199.13
   servername: cdnjs.cloudflare.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -335,7 +334,8 @@ proxies:
   username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22,45|🇭🇰HK_3|1.7MB/s
+  name: 22,45,53|HK - zhuhai.uk 02
+  network: tcp
   port: 9713
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
@@ -344,6 +344,7 @@ proxies:
   servername: cdnjs.cloudflare.com
   tls: true
   type: vless
+  udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - name: 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_cc8acd7d
   port: 8181
@@ -454,7 +455,7 @@ proxies:
   username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32,45,52,53|FR - zhuhai.uk
+  name: 32,45,52,53|FR - zhuhai.uk 02
   network: tcp
   port: 39399
   reality-opts:
@@ -462,14 +463,14 @@ proxies:
     short-id: bc8e3658db7d1323
   server: 155.117.199.13
   servername: cdnjs.cloudflare.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32,45,52,53|KR - zhuhai.uk 01
+  name: 32,45,52,53|KR - zhuhai.uk
   network: tcp
   port: 39211
   reality-opts:
@@ -500,32 +501,18 @@ proxies:
   type: http
   udp: true
 - name: 53|US - zhuhai.uk
-  password: 'null'
   port: 9002
-  server: 138.199.35.220
+  server: 138.199.35.196
   skip-cert-verify: true
-  sni: 138.199.35.220
+  sni: 138.199.35.196
   tls: true
   type: http
-  username: 'null'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 53|SE - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  server: 31.76.69.40
-  servername: eu-central.cendora.ru
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 53|US - zhuhai.uk 02
-  password: None
+- name: 53|US - zhuhai.uk 03
+  password: 'null'
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.213
   skip-cert-verify: true
-  sni: 138.199.35.209
+  sni: 138.199.35.213
   tls: true
   type: http
   username: 'null'

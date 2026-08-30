@@ -194,7 +194,7 @@ proxies:
   port: 80
   server: us2.trojanvh.xyz
   type: trojan
-- name: 40|🇦🇺AU-103.224.212.216-6474
+- name: 40|🇦🇺AU-103.224.212.216-1163
   password: b640d791-ff83-4300-b509-c2a02f97f167
   port: 80
   server: uk1.trojanvh.xyz

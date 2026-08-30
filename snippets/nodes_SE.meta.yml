@@ -11,15 +11,13 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22,45|🇸🇪SE_1|2.7MB/s
-  password: None
+- name: 22|D🔴🇸🇪[🎬🤖📺🎭]_dokng.com_5533c299
+  port: 1080
+  server: 171.25.158.95
+  type: socks5
+- name: 53|SE - zhuhai.uk
   port: 443
   server: 79.142.77.63
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 22|D🔴🇸🇪[🎬🤖📺🎭]_dokng.com_5533c299
-  port: 1080
-  server: 171.25.158.95
-  type: socks5

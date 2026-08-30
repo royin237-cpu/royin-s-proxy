@@ -27,14 +27,6 @@ proxies:
   server: 18.132.203.206
   type: ss
   udp: true
-- name: 22|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_4c325231
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 22|D🔴🇬🇧[🎬🤖📺🎪]_dokng.com_485cc62b
   port: 443
   server: 212.102.63.31
@@ -55,7 +47,7 @@ proxies:
   type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 22|C🟠🇬🇧[✈️]_dokng.com_5158e3b7
+  name: 22,53|GB - zhuhai.uk 01
   network: tcp
   port: 443
   reality-opts:
@@ -67,4 +59,11 @@ proxies:
   tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 6c245314-225b-4999-9051-180b8dba117c
+- name: 53|GB - zhuhai.uk
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http

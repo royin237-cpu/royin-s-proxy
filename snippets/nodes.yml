@@ -102,7 +102,7 @@ proxies:
         Gecko) Chrome/51.0.2704.103 Safari/537.36
     path: /assignment
 - cipher: aes-256-cfb
-  name: 19,22,32,41,45,53|US - zhuhai.uk 05
+  name: 19,22,32,41,45|🇺🇸US_2|2.3MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.233
@@ -243,6 +243,14 @@ proxies:
   password: humanity
   port: 443
   server: join-telegram-channel-tirexnet.trex.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-path: h=%2Fassignment
+- name: 41,42|🇬🇧 英国 V2CROSS.COM
+  password: humanity
+  port: 443
+  server: 176.97.66.175
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
