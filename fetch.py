@@ -1325,8 +1325,11 @@ def main():
         redir_keys = [k for k in categories.get('redir', []) if k != 'OVERALL']
         for node in merged.values():
             if node.supports_meta():
+                # 分类一律用当前显示名 data['name']（最终名），而非 node.name（创建时快照）。
+                # 多源同名节点经 data.update() 后名字会变（如追加 "->" 中转标记），快照会漏判。
+                disp_name = node.data.get('name', '') or node.name
                 # 0) 中转/接力节点（名字含 "->" 或 "中转"）优先归入 redir，不受 GeoIP 影响
-                if any(k in node.name for k in redir_keys):
+                if any(k in disp_name for k in redir_keys):
                     ctgs: List[str] = ['redir']
                     redir_hits += 1
                 else:
@@ -1340,7 +1343,7 @@ def main():
                         for ctg_n, keys_n in categories.items():
                             if ctg_n == 'redir': continue
                             for key_n in keys_n:
-                                if key_n in node.name:
+                                if key_n in disp_name:
                                     name_ctgs.append(ctg_n)
                                     break
                             if name_ctgs and keys_n[-1] == 'OVERALL':
@@ -1353,7 +1356,7 @@ def main():
                         for ctg, keys in categories.items():
                             if ctg == 'redir': continue
                             for key in keys:
-                                if key in node.name:
+                                if key in disp_name:
                                     ctgs.append(ctg)
                                     break
                             if ctgs and keys[-1] == 'OVERALL':
