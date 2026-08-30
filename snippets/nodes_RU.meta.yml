@@ -26,18 +26,18 @@ proxies:
     headers:
       Host: live.ok.ru
     path: /v1
-- encryption: none
-  name: 22|C🟠🇷🇺[🎪]_dokng.com_f80343b3
+- client-fingerprint: android
+  name: 22|C🟠🇷🇺[📺🎪]_dokng.com_2438df74
   network: ws
-  port: 2200
-  server: 185.185.69.26
+  port: 443
+  server: ru05.abvpn.ru
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  tfo: false
+  tls: true
   type: vless
-  udp: true
-  uuid: 7ee53e03-96ed-4121-9da2-62f3d3374506
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
   ws-opts:
     headers:
-      Host: rzd.ru
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /v1
-  xudp: true
+      Host: ru05.abvpn.ru
+    path: /websocket

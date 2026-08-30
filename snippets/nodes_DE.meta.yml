@@ -1,4 +1,15 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -19,18 +30,19 @@ proxies:
   udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
   xudp: true
-- client-fingerprint: chrome
+- client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_7d526327
+  name: 22|C🟠🇩🇪_dokng.com_79cbfdf3
   network: tcp
-  packet-encoding: xudp
-  port: 20995
+  port: 5000
   reality-opts:
-    public-key: GqIZ3PiZBcvHMfXhk7BDZMWhF2Q4FrGVW9sgkllXkA4
-    short-id: 6ba85179e30d4fc2
-  server: 159.69.28.178
-  servername: itunes.apple.com
+    public-key: -6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo
+    short-id: a1b2c3d4
+  server: 80.96.109.223
+  servername: special.aeternavpn.space
   tls: true
   type: vless
-  uuid: 20bcb7a8-c51b-4771-9686-6b4509dc9cd2
+  udp: true
+  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+  xudp: true

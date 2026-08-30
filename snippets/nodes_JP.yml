@@ -136,6 +136,14 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
+- name: 27|🇯🇵 Japan/Tokyo [GH:4n0nymou3/m...
+  password: 0964f6b7-6aab-4b84-9e80-dd078ed1f269
+  port: 50000
+  server: jp200m.jiasu.asia
+  skip-cert-verify: true
+  sni: jp200m.jiasu.asia
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
   name: '27|🇯🇵 Japan/Tokyo [TG] #5'
   password: 3eOFeNssde7PYYMv

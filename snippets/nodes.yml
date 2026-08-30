@@ -41,13 +41,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 19,22|C🟠🇨🇦[🎬📺🎭🎪]_dokng.com_6ccac23a
-  password: amazonskr05
-  port: 443
-  server: 3.96.124.46
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: 22|U⚪🏳️_dokng.com_79f3708c
   network: ws
@@ -108,19 +101,25 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_b2e4fa42
-  password: amazonskr05
-  port: 443
-  server: 18.170.37.90
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_56c5bbea
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - cipher: aes-256-cfb
-  name: 22|C🟠🇺🇸[🤖📺🎭📦]_dokng.com_c980b4b4
+  name: 22,32,45,49,53|US - zhuhai.uk 05
   password: 7eadc6dbe2ae
   port: 65443
-  server: 121.46.230.232
+  server: 121.46.230.233
+  skip-cert-verify: true
   type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 22|C🟠🇨🇦[🎬🎭🎪✨]_dokng.com_8b889344
   password: amazonskr05
@@ -134,17 +133,6 @@ proxies:
   server: 3.96.144.93
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 22,32|🇨🇳_CN_中国->🇺🇸_US_美国_1
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: safari
@@ -182,6 +170,16 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 32|🇨🇳_CN_中国->🇯🇵_JP_日本
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '40,42|🇺🇸 US美国(mibei77.com 米贝节点分享) #128'
   password: humanity
   port: 443
@@ -246,6 +244,16 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- alterId: 0
+  name: 42,50|🇺🇸US美国14
+  password: humanity
+  port: 443
+  server: join-telegram-channel.tirexnet.kdns.fr
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
 - name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #94'
   password: humanity
   port: 443
@@ -253,6 +261,64 @@ proxies:
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
+- client-fingerprint: chrome
+  name: 45|🇫🇷FR_4|1.9MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.208
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 45|🇫🇷FR_5|2.0MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 45|🇫🇷FR_6|2.1MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.143
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /assignment
+- name: 49|🇫🇷 法国 | FRA 10
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.207
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: 49|🇫🇷 法国 | FRA 14
   network: ws
   password: humanity
@@ -309,16 +375,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 49|🇺🇸 美国 | USA 23
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 443
-  server: 104.19.173.68
-  skip-cert-verify: true
-  sni: azadnet-5vk.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: azadnet-5vk.pages.dev
-    path: /azadnet-5vk.pages.dev/?PROT_TYPE=trojan
+- cipher: aes-256-cfb
+  name: 53|KR - zhuhai.uk 02
+  password: 1234!@#$
+  port: 1774
+  server: 49.254.204.134
+  type: ss

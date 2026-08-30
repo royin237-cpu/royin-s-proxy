@@ -1,15 +1,15 @@
 {
-  "total": 94,
+  "total": 89,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 4
+      "count": 3
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 16
+      "count": 13
     },
     "CN": {
       "flag": "🇨🇳",
@@ -34,22 +34,22 @@
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 11
+      "count": 15
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 6
+      "count": 5
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 5
+      "count": 4
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 4
+      "count": 5
     },
     "RU": {
       "flag": "🇷🇺",
@@ -59,7 +59,7 @@
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 2
+      "count": 3
     },
     "SE": {
       "flag": "🇸🇪",
@@ -72,8 +72,8 @@
       "count": 2
     }
   },
-  "update_time": "2026-08-30 14:21",
-  "server_time": "2026-08-30 14:22:49",
+  "update_time": "2026-08-30 14:47",
+  "server_time": "2026-08-30 14:48:49",
   "sources": [
     {
       "index": 0,
@@ -198,7 +198,7 @@
     {
       "index": 24,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 126
+      "nodes": 117
     },
     {
       "index": 25,
