@@ -184,6 +184,16 @@ def save_yaml(path, data, header=""):
         yaml.safe_dump(data, stream, allow_unicode=True, sort_keys=False)
 
 
+def _region_group_names():
+    """地区分组的显示名集合（来自 snippets/_config.yml 的 categories_disp）。
+    这些组清空时必须保持为空/REJECT，绝不能塞入随机节点——否则地区组会混入各国节点。"""
+    try:
+        cfg = load_yaml(ROOT / "snippets" / "_config.yml")
+        return set((cfg.get("categories_disp") or {}).values())
+    except Exception:
+        return set()
+
+
 def update_config(path, alive_names, delay_by_name):
     data = load_yaml(path)
     old_count = len(data.get("proxies", []))
@@ -197,6 +207,8 @@ def update_config(path, alive_names, delay_by_name):
     group_names = {g.get("name", "") for g in data.get("proxy-groups", [])}
     # 保留的特殊值
     special_vals = {"DIRECT", "REJECT", "PASS"}
+    region_names = _region_group_names()
+    region_emptied = 0
 
     for group in data.get("proxy-groups", []):
         group["proxies"] = [
@@ -204,10 +216,15 @@ def update_config(path, alive_names, delay_by_name):
             for item in group.get("proxies", [])
             if item in proxy_names or item in group_names or item in special_vals
         ]
-        # 空组兜底：select→DIRECT，url-test/fallback→按延迟升序取存活节点
+        # 空组兜底：
+        #   地区组 → REJECT（无该地区存活节点时保持"无节点"，绝不塞入其他国家的节点）
+        #   其他 select → DIRECT；其他 url-test/fallback/load-balance → 按延迟取存活节点
         if not group.get("proxies"):
             gtype = group.get("type", "select")
-            if gtype in ("url-test", "fallback", "load-balance"):
+            if group.get("name") in region_names:
+                group["proxies"] = ["REJECT"]
+                region_emptied += 1
+            elif gtype in ("url-test", "fallback", "load-balance"):
                 # 按延迟升序（快节点优先），限制最多 50 个避免过大
                 ordered = sorted(proxy_names, key=lambda n: delay_by_name.get(n, 99999))
                 group["proxies"] = ordered[:50]
@@ -218,7 +235,8 @@ def update_config(path, alive_names, delay_by_name):
     first = text.splitlines()[0] if text else ""
     header = first + "\n" if first.startswith("#") else ""
     save_yaml(path, data, header)
-    print(f"[alive] {path.name}: {old_count} -> {len(proxies)}")
+    print(f"[alive] {path.name}: {old_count} -> {len(proxies)}"
+          + (f"（{region_emptied} 个地区组无存活节点，已置空为 REJECT）" if region_emptied else ""))
     return len(proxies)
 
 
