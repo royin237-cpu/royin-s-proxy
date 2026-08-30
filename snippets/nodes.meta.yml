@@ -79,6 +79,10 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+- name: 22|D🔴🇭🇰[📺🎭]_dokng.com_054bd55d
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_956f7cc1
@@ -380,22 +384,6 @@ proxies:
   server: 43.100.43.112
   type: socks5
   username: '123'
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_e5dc3cc9
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: ff776ff77be48b88
-  server: 138.124.8.117
-  servername: fin2.helper-internet.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
-  xudp: true
 - name: 22|A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1
   password: ''
   port: 9443
@@ -988,6 +976,10 @@ proxies:
   port: 802
   server: 47.28.64.79
   type: http
+- name: 22|A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_d008ccab
+  port: 999
+  server: 164.163.188.113
+  type: http
 - name: 22|A🟢🇹🇷[🎬🤖📺🎭]_dokng.com_6b20164e
   port: 8096
   server: 212.192.6.248
@@ -1278,6 +1270,10 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- name: 22|A🟢🇩🇴[🎬🤖📺🎭]_dokng.com_cdc1c1b9
+  port: 999
+  server: 154.88.164.160
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 22|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_e18e0e41
@@ -1567,10 +1563,6 @@ proxies:
   server: 104.168.249.36
   type: socks5
   username: test123
-- name: 22|A🟢🇵🇸[🎬📺🎪📦]_dokng.com_4e740cfc
-  port: 18000
-  server: 82.213.29.53
-  type: http
 - name: 22|A🟢🇪🇨[🎬🤖📺🎭]_dokng.com_bc6310d4
   port: 9696
   server: 177.234.245.71
@@ -1802,16 +1794,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- alterId: 64
-  cipher: auto
-  name: 32|🇨🇳_CN_中国
-  port: 50002
-  server: 112.132.215.108
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 32,45,52,53|KR - zhuhai.uk 01
@@ -1875,13 +1857,6 @@ proxies:
   password: humanity
   port: 443
   server: 104.18.23.63
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #201'
-  password: humanity
-  port: 443
-  server: 176.97.66.175
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan

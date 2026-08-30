@@ -1,5 +1,5 @@
-# Update: 2026-08-30 17:36
-# 移动端轻量订阅：175 个存活节点（每地区最多 15 个），精简规则
+# Update: 2026-08-30 17:57
+# 移动端轻量订阅：174 个存活节点（每地区最多 15 个），精简规则
 mixed-port: 7890
 allow-lan: false
 mode: rule
@@ -250,6 +250,10 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 22|D🔴🇭🇰[📺🎭]_dokng.com_054bd55d
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
 - name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_6738ba5f
   password: None
   port: 443
@@ -770,23 +774,6 @@ proxies:
     path: /v1
 - client-fingerprint: chrome
   encryption: none
-  name: 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
-  network: ws
-  port: 443
-  server: wstg.datasynctrue.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
-  ws-opts:
-    headers:
-      Host: wstg.datasynctrue.online
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /api/connect
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
   name: 22|U⚪🏳️[✈️]_dokng.com_483670b0
   network: ws
   port: 443
@@ -1106,21 +1093,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 39,40,50|未知33
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 152.67.8.205
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    headers:
-      Host: 152.67.8.205
-    path: /
 - name: 40|🇮🇳IN-152.67.160.174-0750
   password: 54080134-2cba-4535-8599-95650bd9aa54
   port: 443
@@ -1215,6 +1187,23 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
+  network: ws
+  port: 443
+  server: wstg.datasynctrue.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  ws-opts:
+    headers:
+      Host: wstg.datasynctrue.online
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /api/connect
+  xudp: true
 - name: 22|A🟢🇧🇷[🤖✨✈️🔍]_dokng.com_d2dbe763
   port: 2138
   server: 177.105.159.24
@@ -1448,16 +1437,6 @@ proxies:
   server: 121.46.230.138
   type: ss
   udp: true
-- alterId: 64
-  cipher: auto
-  name: 32|🇨🇳_CN_中国
-  port: 50002
-  server: 112.132.215.108
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -1491,6 +1470,7 @@ proxy-groups:
   - 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_662e8125
   - 22,45|🇺🇸US_11|3.0MB/s
   - 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_3ec254da
+  - 22|D🔴🇭🇰[📺🎭]_dokng.com_054bd55d
   - 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_6738ba5f
   - 22|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_d21277d2
   - 22|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_4c6d8eb9
@@ -1552,7 +1532,6 @@ proxy-groups:
   - 22|A🟢🇷🇺[🎪📦🔍]_dokng.com_9af66ad2
   - 22|A🟢🇷🇺[📺🎪]_dokng.com_67a45bda
   - 22|A🟢🇷🇺[🎪]_dokng.com_8c5162ff
-  - 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
   - 22|U⚪🏳️[✈️]_dokng.com_483670b0
   - 22|C🟠🇷🇺[📺🎪]_dokng.com_2438df74
   - 49|🇷🇺 俄罗斯 | RUS
@@ -1593,7 +1572,6 @@ proxy-groups:
   - 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_26763f04
   - 22,45,52,53|RO - zhuhai.uk 03
   - '45,52|RO_speednode_0124 #1'
-  - 39,40,50|未知33
   - 40|🇮🇳IN-152.67.160.174-0750
   - '45|A - 🇮🇳 IN 01 TG: @nodpai'
   - 19,22,32,49,53|TH - zhuhai.uk
@@ -1610,6 +1588,7 @@ proxy-groups:
   - 22,45|🇪🇸ES_1|2.1MB/s
   - 22|D🔴🇪🇸[🤖📺🎭🎪]_dokng.com_148d2ee2
   - 22|D🔴🇪🇸[🎬🤖📺🎭]_dokng.com_297df47d
+  - 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
   - 22|A🟢🇧🇷[🤖✨✈️🔍]_dokng.com_d2dbe763
   - 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_ca3b1afa
   - 22|A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_290b4539
@@ -1638,7 +1617,6 @@ proxy-groups:
   - 22|C🟠🇺🇸[🤖📺🎭📦]_dokng.com_c980b4b4
   - 22,32|🇨🇳_CN_中国->🇺🇸_US_美国_1
   - 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
-  - 32|🇨🇳_CN_中国
 - name: ♻️ 自动选择
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -1671,6 +1649,7 @@ proxy-groups:
   - 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_662e8125
   - 22,45|🇺🇸US_11|3.0MB/s
   - 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_3ec254da
+  - 22|D🔴🇭🇰[📺🎭]_dokng.com_054bd55d
   - 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_6738ba5f
   - 22|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_d21277d2
   - 22|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_4c6d8eb9
@@ -1732,7 +1711,6 @@ proxy-groups:
   - 22|A🟢🇷🇺[🎪📦🔍]_dokng.com_9af66ad2
   - 22|A🟢🇷🇺[📺🎪]_dokng.com_67a45bda
   - 22|A🟢🇷🇺[🎪]_dokng.com_8c5162ff
-  - 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
   - 22|U⚪🏳️[✈️]_dokng.com_483670b0
   - 22|C🟠🇷🇺[📺🎪]_dokng.com_2438df74
   - 49|🇷🇺 俄罗斯 | RUS
@@ -1773,7 +1751,6 @@ proxy-groups:
   - 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_26763f04
   - 22,45,52,53|RO - zhuhai.uk 03
   - '45,52|RO_speednode_0124 #1'
-  - 39,40,50|未知33
   - 40|🇮🇳IN-152.67.160.174-0750
   - '45|A - 🇮🇳 IN 01 TG: @nodpai'
   - 19,22,32,49,53|TH - zhuhai.uk
@@ -1790,6 +1767,7 @@ proxy-groups:
   - 22,45|🇪🇸ES_1|2.1MB/s
   - 22|D🔴🇪🇸[🤖📺🎭🎪]_dokng.com_148d2ee2
   - 22|D🔴🇪🇸[🎬🤖📺🎭]_dokng.com_297df47d
+  - 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
   - 22|A🟢🇧🇷[🤖✨✈️🔍]_dokng.com_d2dbe763
   - 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_ca3b1afa
   - 22|A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_290b4539
@@ -1818,7 +1796,6 @@ proxy-groups:
   - 22|C🟠🇺🇸[🤖📺🎭📦]_dokng.com_c980b4b4
   - 22,32|🇨🇳_CN_中国->🇺🇸_US_美国_1
   - 22|C🟠🇰🇷[🎬🤖📺🎭]_dokng.com_f9dd3272
-  - 32|🇨🇳_CN_中国
 - name: 🐟 漏网之鱼
   type: select
   proxies:

@@ -48,23 +48,6 @@ proxies:
     path: /v1
 - client-fingerprint: chrome
   encryption: none
-  name: 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
-  network: ws
-  port: 443
-  server: wstg.datasynctrue.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
-  ws-opts:
-    headers:
-      Host: wstg.datasynctrue.online
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /api/connect
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
   name: 22|U⚪🏳️[✈️]_dokng.com_483670b0
   network: ws
   port: 443

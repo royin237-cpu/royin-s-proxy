@@ -1,4 +1,8 @@
 proxies:
+- name: 22|D🔴🇭🇰[📺🎭]_dokng.com_054bd55d
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
 - name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_6738ba5f
   password: None
   port: 443

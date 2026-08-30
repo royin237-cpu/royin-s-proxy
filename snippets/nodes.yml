@@ -176,16 +176,6 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- alterId: 64
-  cipher: auto
-  name: 32|🇨🇳_CN_中国
-  port: 50002
-  server: 112.132.215.108
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: '40,42|🇺🇸 US美国(mibei77.com 米贝节点分享) #170'
   password: humanity
   port: 443
@@ -234,13 +224,6 @@ proxies:
   password: humanity
   port: 443
   server: 104.18.23.63
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #201'
-  password: humanity
-  port: 443
-  server: 176.97.66.175
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
