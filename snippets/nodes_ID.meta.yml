@@ -1,10 +1,4 @@
 proxies:
-- name: 22,45|🇮🇩ID_2|3.8MB/s
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
 - name: 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_89e7191b
   password: freeuser1
   port: 9251

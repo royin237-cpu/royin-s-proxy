@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_e5dc3cc9
+  name: 22,49|🇩🇪 德国 | DEU 11
   network: tcp
   port: 443
   reality-opts:

@@ -96,7 +96,7 @@ proxies:
       Host: ru05.abvpn.ru
     path: /websocket
 - client-fingerprint: firefox
-  name: 49|🇷🇺 俄罗斯 | RUS
+  name: 49|🇵🇱 波兰 | POL
   network: xhttp
   port: 8445
   reality-opts:
@@ -113,17 +113,3 @@ proxies:
     path: /content/dash/segments/
     x-padding-bytes: 50-150
     x-padding-obfs-mode: false
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 49|🇷🇺 俄罗斯 | RUS 2
-  network: ws
-  port: 443
-  server: 194.55.239.20
-  servername: harknmav.fun
-  tls: true
-  type: vless
-  udp: true
-  uuid: 303035c0-dd28-4568-87bb-9a11637c5407
-  ws-opts:
-    path: /live.stream.v1.Broadcast/

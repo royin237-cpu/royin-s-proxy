@@ -12,3 +12,13 @@ proxies:
   port: 443
   server: 16.54.243.229
   type: ss
+- alterId: 0
+  name: 40,50|🇨🇦CA加拿大6
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true

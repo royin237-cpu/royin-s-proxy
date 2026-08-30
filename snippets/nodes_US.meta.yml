@@ -258,7 +258,8 @@ proxies:
   type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_a2f81acd
+  name: 22,49|🇭🇰 香港 | HKG 2
+  network: tcp
   port: 31723
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
@@ -267,6 +268,7 @@ proxies:
   servername: cdnjs.cloudflare.com
   tls: true
   type: vless
+  udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -321,6 +323,13 @@ proxies:
   tls: true
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 22|D🔴🇺🇸[📺✨🔍]_dokng.com_6e6a2c6c
+  password: None
+  port: 22222
+  server: 193.25.215.182
+  type: socks5
+  udp: true
+  username: null
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_87eec561
   password: e4b72b531a2d10900519
   port: 443
@@ -358,11 +367,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: safari
-  name: 22,42,50|US7
+  name: 22,50|US7
   network: tcp
   port: 443
   server: guanwang.awsno.com
-  servername: ''
+  servername: gw.alicdn.com
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -404,33 +413,54 @@ proxies:
     headers:
       Host: lingering-glade-21ce.61-b6f.workers.dev
     path: /pyip=ProxyIP.SG.CMLiussss.net
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #96'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 32,45,52,53|FR - zhuhai.uk
+  network: tcp
+  port: 39399
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 32,45,52,53|KR - zhuhai.uk 01
+  network: tcp
+  port: 39211
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- alterId: 0
+  name: 40,50|🇺🇸US美国22
   password: humanity
   port: 443
-  server: 104.18.152.233
+  server: render.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+- name: '41,42|🇺🇸 美国 CloudFlare节点 #5'
+  password: humanity
+  port: 443
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- alterId: 0
-  name: 42,50|🇺🇸US美国11
-  password: humanity
-  port: 443
-  server: 104.26.15.137
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 42,50|🇺🇸US美国19
-  password: humanity
-  port: 443
-  server: 104.16.174.36
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
+  ws-path: h=%2Fassignment
 - name: 45|🇺🇸US_7|4.8MB/s
   password: None
   port: 9002
@@ -494,53 +524,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 49,53|SE - zhuhai.uk
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  server: 31.76.69.40
-  servername: eu-central.cendora.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 49|🇺🇸 美国 | USA 7
-  network: xhttp
-  port: 443
-  server: fi.tutvpn.com
-  servername: fi.tutvpn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
-  xhttp-opts:
-    host: fi.tutvpn.com
-    path: /tutcdn/
-- name: 49|🇺🇸 美国 | USA 8
+- name: 49|🇺🇸 美国 | USA 4
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.77
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 49|🇺🇸 美国 | USA 18
-  network: ws
-  password: humanity
-  port: 443
-  server: render.com
+  server: 104.18.152.233
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -560,6 +548,26 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- alterId: 0
+  name: 50|🇺🇸US美国11
+  password: humanity
+  port: 443
+  server: 104.26.15.137
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 50|🇺🇸US美国19
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
 - name: 53|US - zhuhai.uk
   password: 'null'
   port: 9002
@@ -569,6 +577,18 @@ proxies:
   tls: true
   type: http
   username: 'null'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 53|SE - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 31.76.69.40
+  servername: eu-central.cendora.ru
+  tls: true
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - name: 53|US - zhuhai.uk 02
   password: None
   port: 9002

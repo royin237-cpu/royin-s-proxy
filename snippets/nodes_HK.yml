@@ -16,11 +16,12 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 18|美国 阿里云
+  name: 18,41,42|🇺🇸 美国 阿里云
   network: ws
   port: 443
   server: drbkg16egf3fzlm3.v.3dns.vip
   servername: DrBKg16eGf3FZlM3.v.3dns.vip
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -269,21 +270,15 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '42,45,48|香港|@ripaojiedian #1'
+  name: '41,42,45,48|香港|@ripaojiedian #1'
   network: tcp
   port: 30807
   server: v10.hdacd.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '42|🇺🇸 US美国(mibei77.com 米贝节点分享) #114'
-  password: humanity
-  port: 443
-  server: 104.16.174.101
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
 - alterId: 2
   cipher: auto
   name: '45,47|🇭🇰 香港|@ripaojiedian #2'
@@ -333,6 +328,21 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
+  name: 50|HK6
+  network: ws
+  port: 443
+  server: n1761296892.4u9ma.icu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d6db128f-42b9-40b1-b979-5e0095fa593c
+  ws-opts:
+    headers:
+      Host: n1761296892.4u9ma.icu
+      host: n1761296892.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
   name: 50|HK7 25.1KB/s
   network: ws
   port: 23026
@@ -365,6 +375,21 @@ proxies:
   tls: true
   type: vmess
   uuid: f018361c-3d66-4635-80c9-22be36b70ac4
+- alterId: 0
+  cipher: auto
+  name: 50|HK10 43.7KB/s
+  network: ws
+  port: 443
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: nycqg19zkwacpm1b.v.3dns.vip
+      host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /ws-vmess
 - cipher: aes-256-gcm
   name: 53|TW - zhuhai.uk
   password: a02dba9c-05d5-42b1-9433-580aff27be2b

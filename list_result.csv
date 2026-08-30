@@ -40,8 +40,8 @@
 38,https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml,0
 39,https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity,200
 40,https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt,3949
-41,https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml,0
-42,https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray,359
+41,https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml,42
+42,https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray,42
 43,https://raw.githubusercontent.com/mlabalabala/v2ray-node/main/nodefree4clash.txt,10
 44,https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml,78
 45,https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml,502
@@ -55,4 +55,4 @@
 53,https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml,35
 54,dynamic://peasoft,2
 
-总计,,3802
+总计,,3749

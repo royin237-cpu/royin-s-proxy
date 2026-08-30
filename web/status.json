@@ -1,20 +1,20 @@
 {
-  "total": 296,
+  "total": 293,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 12
+      "count": 11
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 69
+      "count": 71
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 5
+      "count": 4
     },
     "HK": {
       "flag": "🇭🇰",
@@ -24,17 +24,17 @@
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 23
+      "count": 1
     },
     "CA": {
       "flag": "🇨🇦",
       "name": "加拿大",
-      "count": 2
+      "count": 3
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 20
+      "count": 16
     },
     "SG": {
       "flag": "🇸🇬",
@@ -54,12 +54,12 @@
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 9
+      "count": 8
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 16
+      "count": 17
     },
     "SE": {
       "flag": "🇸🇪",
@@ -69,7 +69,7 @@
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 2
+      "count": 3
     },
     "CH": {
       "flag": "🇨🇭",
@@ -89,7 +89,7 @@
     "IN": {
       "flag": "🇮🇳",
       "name": "印度",
-      "count": 2
+      "count": 4
     },
     "TH": {
       "flag": "🇹🇭",
@@ -129,7 +129,7 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 5
+      "count": 4
     },
     "PH": {
       "flag": "🇵🇭",
@@ -152,8 +152,8 @@
       "count": 2
     }
   },
-  "update_time": "2026-08-30 18:08",
-  "server_time": "2026-08-30 18:09:34",
+  "update_time": "2026-08-30 18:51",
+  "server_time": "2026-08-30 18:52:40",
   "sources": [
     {
       "index": 0,
@@ -363,12 +363,12 @@
     {
       "index": 41,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
-      "nodes": 0
+      "nodes": 42
     },
     {
       "index": 42,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
-      "nodes": 359
+      "nodes": 42
     },
     {
       "index": 43,

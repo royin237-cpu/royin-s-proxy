@@ -3,11 +3,16 @@ proxies:
   port: 8911
   server: 135.181.84.21
   type: http
-- auth: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
-  name: 49|🇩🇪 德国 | DEU 8
+- alpn:
+  - h3
+  client-fingerprint: ''
+  down: ''
+  name: 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_97b46c24
+  obfs-password: ''
   password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
   port: 443
   server: fin14qr.wwwinternetvideo.click
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: fin14qr.wwwinternetvideo.click
   type: hysteria2
+  up: ''
