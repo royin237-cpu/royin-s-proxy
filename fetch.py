@@ -1321,42 +1321,50 @@ def main():
             ctg_nodes[ctg] = []
             ctg_nodes_meta[ctg] = []
         _init_geoip()
-        geo_hits = 0; name_hits = 0; conflicts = 0
+        geo_hits = 0; name_hits = 0; conflicts = 0; redir_hits = 0
+        redir_keys = [k for k in categories.get('redir', []) if k != 'OVERALL']
         for node in merged.values():
             if node.supports_meta():
-                # 1) 优先用 GeoIP 真实归属（服务器 IP 的实际国家）
-                geo_code = _geo_country(node)
-                if geo_code and geo_code in categories:
-                    ctgs: List[str] = [geo_code]
-                    geo_hits += 1
-                    # 检测名字与真实归属冲突（仅统计，不影响分类——以真实为准）
-                    name_ctgs: List[str] = []
-                    for ctg_n, keys_n in categories.items():
-                        for key_n in keys_n:
-                            if key_n in node.name:
-                                name_ctgs.append(ctg_n)
-                                break
-                        if name_ctgs and keys_n[-1] == 'OVERALL':
-                            break
-                    if name_ctgs and name_ctgs != [geo_code]:
-                        conflicts += 1
+                # 0) 中转/接力节点（名字含 "->" 或 "中转"）优先归入 redir，不受 GeoIP 影响
+                if any(k in node.name for k in redir_keys):
+                    ctgs: List[str] = ['redir']
+                    redir_hits += 1
                 else:
-                    # 2) GeoIP 不可用/解析不出，回退名字关键词匹配
-                    ctgs = []
-                    for ctg, keys in categories.items():
-                        for key in keys:
-                            if key in node.name:
-                                ctgs.append(ctg)
+                    # 1) 优先用 GeoIP 真实归属（服务器 IP 的实际国家）
+                    geo_code = _geo_country(node)
+                    if geo_code and geo_code in categories:
+                        ctgs = [geo_code]
+                        geo_hits += 1
+                        # 检测名字与真实归属冲突（仅统计，不影响分类——以真实为准）
+                        name_ctgs: List[str] = []
+                        for ctg_n, keys_n in categories.items():
+                            if ctg_n == 'redir': continue
+                            for key_n in keys_n:
+                                if key_n in node.name:
+                                    name_ctgs.append(ctg_n)
+                                    break
+                            if name_ctgs and keys_n[-1] == 'OVERALL':
                                 break
-                        if ctgs and keys[-1] == 'OVERALL':
-                            break
-                    if ctgs: name_hits += 1
+                        if name_ctgs and name_ctgs != [geo_code]:
+                            conflicts += 1
+                    else:
+                        # 2) GeoIP 不可用/解析不出，回退名字关键词匹配
+                        ctgs = []
+                        for ctg, keys in categories.items():
+                            if ctg == 'redir': continue
+                            for key in keys:
+                                if key in node.name:
+                                    ctgs.append(ctg)
+                                    break
+                            if ctgs and keys[-1] == 'OVERALL':
+                                break
+                        if ctgs: name_hits += 1
                 if len(ctgs) == 1:
                     if node.supports_clash():
                         ctg_nodes[ctgs[0]].append(node.clash_data)
                     ctg_nodes_meta[ctgs[0]].append(node.clash_data)
         print(f"地区分类: GeoIP 定位 {geo_hits} 个，名字回退 {name_hits} 个，"
-              f"名字与真实归属冲突已按真实纠正 {conflicts} 个")
+              f"中转 {redir_hits} 个，名字与真实归属冲突已按真实纠正 {conflicts} 个")
         for ctg, proxies in ctg_nodes.items():
             with open("snippets/nodes_"+ctg+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'proxies': proxies}, f, allow_unicode=True)
