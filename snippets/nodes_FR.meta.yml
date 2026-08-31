@@ -3,24 +3,6 @@ proxies:
   port: 1443
   server: 85.208.51.228
   type: http
-- alterId: 0
-  cipher: auto
-  name: 22|D🔴🇭🇰[📺🎭📦]_dokng.com_3bc5f8aa
-  network: ws
-  port: 16622
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: e1a48fdd-747d-4a93-9f1e-04aacfcf94b7
-  ws-opts:
-    headers:
-      Host: c1b4a4f9bfe0c1b73ad7a9952428db13.mobgslb.tbcache.com
-    path: /
-- name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_68a0c571
-  password: None
-  port: 21
-  server: 57.128.183.212
-  type: http
-  username: null
 - name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_67435526
   port: 443
   server: 141.94.16.4
@@ -39,14 +21,14 @@ proxies:
   server: 37.59.125.131
   type: http
   username: null
-- name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_e3642aa7
+- name: 22,45|🇫🇷FR_4|1.5MB/s
   port: 443
   server: 103.82.101.44
   skip-cert-verify: true
   sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
   tls: true
   type: http
-- name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_13bb1fbc
+- name: 22,45|🇫🇷FR_5|1.2MB/s
   port: 443
   server: 103.82.101.43
   skip-cert-verify: true
@@ -75,32 +57,14 @@ proxies:
   sni: fan.132031.xyz
   tls: true
   type: http
+- name: 22|D🔴🇫🇷[📺🎭]_dokng.com_c5db3762
+  password: None
+  port: 1088
+  server: 144.91.121.61
+  type: socks5
+  udp: true
+  username: null
 - name: 22|C🟠🇫🇷[🤖📺📦]_dokng.com_8c55dcfd
   port: 1088
   server: 51.178.49.241
   type: socks5
-- alterId: 0
-  cipher: auto
-  name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_e10a00a7
-  network: ws
-  port: 16644
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: e1a48fdd-747d-4a93-9f1e-04aacfcf94b7
-  ws-opts:
-    headers:
-      Host: c1b4a4f9bfe0c1b73ad7a9952428db13.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 53|FR - zhuhai.uk 05
-  network: tcp
-  port: 8444
-  reality-opts:
-    public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
-  server: 129.151.239.170
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2adde9c-4714-4b7c-9f4c-5b32d85df5b6

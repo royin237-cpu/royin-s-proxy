@@ -1,5 +1,5 @@
 proxies:
-- name: 22|C🟠🇩🇪[🎬🤖📺🎪]_dokng.com_f012372a
+- name: 22,45|🇩🇪DE_3|4.4MB/s
   port: 11000
   server: 116.202.172.187
   type: http
@@ -23,10 +23,22 @@ proxies:
   udp: true
   uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
   xudp: true
-- name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_c87338cc
-  port: 8989
-  server: 185.110.188.4
-  type: http
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 22|U⚪🏳️[🤖✨🎞️📦]_dokng.com_e9d43f72
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+    short-id: ''
+  server: de48.tranzit-net.ru
+  servername: d.tranzit-net.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
+  xudp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc
@@ -63,7 +75,7 @@ proxies:
   udp: true
   uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
   xudp: true
-- name: 22,45|🇩🇪DE_2|1.9MB/s
+- name: 22|C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_0db00e0d
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
@@ -83,7 +95,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22|C🟠🇩🇪[🤖📺🎪✨]_dokng.com_cb6cfa3e
+- name: 22,45|🇩🇪DE_4|2.8MB/s
   password: None
   port: 9443
   server: 87.249.132.97
@@ -105,7 +117,7 @@ proxies:
   port: 80
   server: 193.37.70.182
   type: http
-- name: 22|A🟢🇩🇪[🤖📺🎭🎪]_dokng.com_3ec79ed3
+- name: 22,45|🇩🇪DE_5|1.8MB/s
   port: 443
   server: 141.17.83.73
   skip-cert-verify: true
@@ -134,51 +146,9 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 49|🇩🇪 德国 | DEU 5
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: PNofg-BBceWRX1YMelo9Xy5dFnh_vY8J0c54llXfDSk
-    short-id: 31e056654ec129aa
-  server: 2.27.43.112
-  servername: auto.quattro-tech.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d5530551-5e9a-4ac5-8539-cee87e38d9e2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 49|🇩🇪 德国 | DEU 7
-  network: tcp
-  port: 5015
-  reality-opts:
-    public-key: -6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo
-    short-id: a1b2c3d4
-  server: 31.77.220.152
-  servername: special.aeternavpn.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 49|🇳🇱 荷兰 | NLD 8
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: cszyeuoXE1nOdNWsVoh5ECs3yaZdMx_GHuPl7PaKwxc
-    short-id: 1004ce38
-  server: 89.144.35.163
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 84491c04-b011-4fdc-b97d-770975586f3a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 53|CH - zhuhai.uk
+  name: 45,49|🇨🇭 瑞士 | CHE
   network: tcp
   port: 443
   reality-opts:

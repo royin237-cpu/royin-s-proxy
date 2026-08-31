@@ -1,20 +1,20 @@
 {
-  "total": 348,
+  "total": 301,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 10
+      "count": 5
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 82
+      "count": 72
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 3
+      "count": 1
     },
     "HK": {
       "flag": "🇭🇰",
@@ -24,7 +24,7 @@
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 3
+      "count": 1
     },
     "CA": {
       "flag": "🇨🇦",
@@ -34,7 +34,7 @@
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 14
+      "count": 11
     },
     "SG": {
       "flag": "🇸🇬",
@@ -44,27 +44,27 @@
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 31
+      "count": 17
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 1
+      "count": 2
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 7
+      "count": 11
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 20
+      "count": 17
     },
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 5
+      "count": 7
     },
     "EE": {
       "flag": "🇪🇪",
@@ -74,17 +74,17 @@
     "CH": {
       "flag": "🇨🇭",
       "name": "瑞士",
-      "count": 4
+      "count": 3
     },
     "NL": {
       "flag": "🇳🇱",
       "name": "荷兰",
-      "count": 22
+      "count": 17
     },
     "RO": {
       "flag": "🇷🇴",
       "name": "罗马尼亚",
-      "count": 25
+      "count": 21
     },
     "IN": {
       "flag": "🇮🇳",
@@ -94,7 +94,7 @@
     "TH": {
       "flag": "🇹🇭",
       "name": "泰国",
-      "count": 3
+      "count": 2
     },
     "TR": {
       "flag": "🇹🇷",
@@ -109,17 +109,17 @@
     "IT": {
       "flag": "🇮🇹",
       "name": "意大利",
-      "count": 7
+      "count": 6
     },
     "ES": {
       "flag": "🇪🇸",
       "name": "西班牙",
-      "count": 3
+      "count": 2
     },
     "BR": {
       "flag": "🇧🇷",
       "name": "巴西",
-      "count": 10
+      "count": 12
     },
     "VN": {
       "flag": "🇻🇳",
@@ -129,7 +129,7 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 1
+      "count": 4
     },
     "PH": {
       "flag": "🇵🇭",
@@ -152,8 +152,8 @@
       "count": 2
     }
   },
-  "update_time": "2026-08-31 01:29",
-  "server_time": "2026-08-31 01:30:17",
+  "update_time": "2026-08-31 12:16",
+  "server_time": "2026-08-31 12:17:43",
   "sources": [
     {
       "index": 0,
@@ -278,7 +278,7 @@
     {
       "index": 24,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 135
+      "nodes": 1
     },
     {
       "index": 25,
@@ -293,7 +293,7 @@
     {
       "index": 27,
       "url": "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml",
-      "nodes": 49
+      "nodes": 46
     },
     {
       "index": 28,
@@ -318,7 +318,7 @@
     {
       "index": 32,
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-      "nodes": 24
+      "nodes": 22
     },
     {
       "index": 33,
@@ -363,12 +363,12 @@
     {
       "index": 41,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
-      "nodes": 44
+      "nodes": 0
     },
     {
       "index": 42,
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
-      "nodes": 44
+      "nodes": 0
     },
     {
       "index": 43,
@@ -383,7 +383,7 @@
     {
       "index": 45,
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
-      "nodes": 324
+      "nodes": 381
     },
     {
       "index": 46,
@@ -403,7 +403,7 @@
     {
       "index": 49,
       "url": "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.y",
-      "nodes": 130
+      "nodes": 128
     },
     {
       "index": 50,
@@ -423,7 +423,7 @@
     {
       "index": 53,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 44
+      "nodes": 29
     },
     {
       "index": 54,

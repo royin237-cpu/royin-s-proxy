@@ -6,26 +6,16 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 22,49|🇸🇬 新加坡 | SGP 5
-  network: tcp
-  port: 41159
-  reality-opts:
-    public-key: dp_CXcMGxttv9CdCq3LI7UkaHbpV9yoPKpgAGH177WY
-    short-id: 41c5dc0928f602ab
-  server: 47.129.200.244
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc138c2d-5e03-4efd-a935-fc500e938033
-  xudp: true
+- name: 22|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_ec84b940
+  password: None
+  port: 9090
+  server: 104.248.151.93
+  type: http
+  username: null
+- name: 22|D🔴🇸🇬[🔍]_dokng.com_47ce18fe
+  port: 9090
+  server: 128.199.254.13
+  type: http
 - name: 22|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_d2853196
   port: 9090
   server: 167.99.74.174
@@ -47,16 +37,3 @@ proxies:
   type: http
   udp: true
   username: ''
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 53|SG - zhuhai.uk 01
-  network: tcp
-  port: 8444
-  reality-opts:
-    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-  server: 140.245.109.76
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c606644a-9b60-446e-93d2-19243373003a

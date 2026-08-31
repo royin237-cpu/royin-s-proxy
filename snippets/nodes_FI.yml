@@ -24,13 +24,3 @@ proxies:
     headers:
       Host: 65.109.134.191
     path: /graphql
-- alterId: 0
-  cipher: auto
-  name: 50|未知117 597.5KB/s
-  network: tcp
-  port: 26980
-  server: 65.109.215.50
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 845a492d-21e6-4cc0-abbb-b66813a163c0

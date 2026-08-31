@@ -1,24 +1,12 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_d37d66fb
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 22|C🟠🇬🇧[🤖📺🎭🎪]_dokng.com_5974a235
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
-  name: 22,32,41,49|🇺🇸 美国 | USA 3
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 22,32,41,45|🇰🇷KR_1|2.0MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  skip-cert-verify: true
-  type: ss
-  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true

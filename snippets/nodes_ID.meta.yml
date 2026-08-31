@@ -1,7 +1,37 @@
 proxies:
-- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_412dd6e0
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
+- name: 22|U⚪🏳️[🤖📺🎪✨]_dokng.com_89e7191b
+  password: freeuser1
+  port: 9251
+  server: sr2-id.freeconnect.link
   tls: true
   type: http
+  username: freeuser1
+- name: 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_54a270d5
+  password: freeuser1
+  port: 9251
+  server: cr2-id.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- name: 22|U⚪🏳️[🎬🤖📺🎪]_dokng.com_87bf668a
+  password: freeuser1
+  port: 9251
+  server: cr1-id.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- alterId: 0
+  cipher: auto
+  name: 26,40|🇮🇩ID-103.180.95.29-4576
+  network: ws
+  port: 80
+  server: lms.uin-antasari.ac.id
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
+  ws-opts:
+    headers:
+      Host: exa.nextvpn.cc
+    path: /

@@ -1,5 +1,5 @@
 proxies:
-- name: 22|D🔴🇦🇺[🤖📺🎪✨]_dokng.com_75a616e0
+- name: 22,45|🇦🇺AU_1|2.1MB/s
   port: 443
   server: 103.62.50.130
   skip-cert-verify: true

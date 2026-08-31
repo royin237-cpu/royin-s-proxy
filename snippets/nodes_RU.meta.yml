@@ -3,18 +3,62 @@ proxies:
   port: 5050
   server: 45.159.0.194
   type: http
-- name: 22|A🟢🇷🇺[📺🎪✨🎞️]_dokng.com_73cc7706
-  password: None
-  port: 8120
-  server: 46.148.234.53
-  type: http
-  username: null
 - name: 22|A🟢🇷🇺[✨🎞️📦🔍]_dokng.com_965e2a11
   port: 4080
   server: 185.21.156.73
   type: http
-- client-fingerprint: android
-  name: 22|C🟠🇷🇺[📺🎪]_dokng.com_2438df74
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 22|A🟢🇺🇸[🎬📺🎭🎪]_dokng.com_051ffd09
+  network: grpc
+  port: 9880
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabbccdd
+  server: 168.222.194.138
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 22|U⚪🏳️_dokng.com_483670b0
+  network: ws
+  port: 443
+  server: 91.210.169.181
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  ws-opts:
+    headers:
+      Host: wstg.datasynctrue.online
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /api/connect
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
+  network: ws
+  port: 443
+  server: wstg.datasynctrue.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  ws-opts:
+    headers:
+      Host: wstg.datasynctrue.online
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /api/connect
+  xudp: true
+- client-fingerprint: edge
+  name: 22,49|🇷🇺 俄罗斯 | RUS 6
   network: ws
   port: 443
   server: ru05.abvpn.ru
@@ -23,25 +67,12 @@ proxies:
   tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
   ws-opts:
     headers:
       Host: ru05.abvpn.ru
     path: /websocket
-- client-fingerprint: chrome
-  name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c68a66d6
-  network: ws
-  port: 2053
-  server: bz9.wba-pn.ru
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 9a47a8ff-8cdd-4a35-b765-fbad6d40e0a0
-  ws-opts:
-    headers:
-      Host: bz9.wba-pn.ru
-    path: /
 - name: 22|A🟢🇷🇺[🎪]_dokng.com_816f5138
   network: ws
   port: 2200
@@ -57,9 +88,58 @@ proxies:
         like Gecko) Chrome/67.0.3396.87 Safari/537.36
     path: /v1
   xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  encryption: mlkem768x25519plus.native.0rtt.fsGtiqlb1xuwUZF-iPrG-9aedIIVJyMnPCNu9EiNrMKVfwcDmvBNvhRpcaxvSMuhMjDI1qh0W1wI1rRzA3OB_TKFqNomhKW841Na5qKCCFYAGRENYXCVY0qqLaU1a9gqdak6T2LG9aUtXLdY_sY1jxI5JOhcNtc6lQGIj6NVHPOa5Zd3FhdRGUo8aFopsJJUaCePlkWN4UxrzUA5geFtM1g7WcVNiFpuV_vOEQKPgHQNgwAdWYGZWfVIp6TJTfk3HYvChZgjbUkeU9y6t8A9H2Ut9QiTqjA-z1IV8CgUUNa7PvuHYOUgsLipX9BeFYOf4VSpwsmMtWtywIN2LyBU69wjyhMPmEwGOdGWdvGyVJWQ4xULffWEpvlCBBCRSJAQGyIMHPVdYuU7ALzE5dgM_Aodphek1LLAcAx3ZWIAdtowSvKD9GwuPIotC-TFNaa60qCHbsW1YFQS1CJDGxDIUCYbwKGgIqM4__BYhtDIrGtmltQKyjxJJrI3ndKrHaJb4tjDc2dJ1yO_Lom8K8mZfpVM9qg0xIE3aqeBaSFIxiueWzVf4uy0FISgxip0pzw7E4tjepIXkXbI1ZkMG2VtPmwr0wR4fWddPPV-rdklaeNzonguCspC9-JEwTjFQ3nG5yXPrLm5LcovgjIHPylwDqsQiqN2J8ESI9xOQcKJ-JVrSzZwnEhO8iZ4wVhm_Ga7qIk-TDK23JDHRRJAkvy7WYWtCluPIlXK_upU_gN-BAUrC3V81AvHQqWnBeopVaGppFo7QZd9JpoXB_RqqpXGRfXGHptsPhGUR0h-7dYnEFR_MCIV_jNLCwy2U2UDd2TBBODKF5fEPisCoYMiXQrKhhhacZqL5Io5UpWYB9lmH9VFyHwTBFfJuAuYrhcKx_Ag5kNJoBJDRTiMDifBS7MewSSrzeWCoIuiK2Q5BGodsSZAdcbGs5mySwsmQBwQWCqgDObMYzeHMxu-IksLlLKMCVQET5smRdRTkgtJclAvsuB9l4rDkPcVsKCCH8ktxGO6aSPLS4ib2Hc32qNgKASVRZYfyGM6GoN5c9hsa_QVtfa4ANqaqMzJmbJaxcA2FmsHXhaG6UXGqDd32hofLjt1NyUH8DjAIksdA2Ycy5xz3yRZCIIeKHaUR5s9uoQWfZYYMYJfl6o6ohmEXrScGGN_BYgb1GSkX5OcODGDKBVdPEd20IQ62je4pYUJzjtw66MkZUuS2_VRlni1aqNz4JB3sKpAtDyMqYApa-x2v5YU1tdH1BQkYmty16pqE1w4akVZ-rJOQwnJlrY6-1gz2PtjWHQoWju_31E92WYYwoMBSPkEhgCcbTys0FAD6sxu6Mh2UrSh0AZIX3mdXWk2IlmSd7QuoFuNEClwRCiNpokoclMkyvOe7oEFa6xIGvGMGnc2RzkmCyXBjyZgIgussYtl8ZplgcOAiAZzf-sM7-XItKlWAABWituyNyOiL_FtLkGgrpYw4NjJ_iZtoJaVpkGcALwtnrSWv1M9yvMV4wFlkDiyOyaWERidV5s75sA0l_ADPKpMd0_DPh_PN_2luzFs4QMrudBp2KJEE8Jn5Ob0_dk
+  name: 22|C🟠🇷🇺[📺]_dokng.com_a50be98e
+  network: ws
+  port: 443
+  server: 193.124.125.135
+  servername: w2.tunnelgate.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 968469ec-67c9-4fe6-bf72-dd20716add3b
+  ws-opts:
+    headers:
+      Host: w2.tunnelgate.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /ws/v1/ru
+  xudp: true
+- encryption: none
+  name: 22|C🟠🇷🇺[🎪]_dokng.com_f80343b3
+  network: ws
+  port: 2200
+  server: 185.185.69.26
+  type: vless
+  udp: true
+  uuid: 7ee53e03-96ed-4121-9da2-62f3d3374506
+  ws-opts:
+    headers:
+      Host: rzd.ru
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /v1
+  xudp: true
+- client-fingerprint: edge
+  name: 49|🇷🇺 俄罗斯 | RUS 3
+  network: ws
+  port: 443
+  server: 45.9.15.206
+  servername: ru05.abvpn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    headers:
+      Host: ru05.abvpn.ru
+    path: /websocket
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 49|🇷🇺 俄罗斯 | RUS 3
+  name: 49|🇷🇺 俄罗斯 | RUS 4
   network: tcp
   port: 443
   reality-opts:

@@ -58,7 +58,7 @@ proxies:
     path: /wss13889
 - alterId: 0
   cipher: auto
-  name: 50|未知37
+  name: 50|未知79
   network: tcp
   port: 5384
   server: dashboard.aframarket.top
@@ -66,13 +66,3 @@ proxies:
   tls: true
   type: vmess
   uuid: 130b0fbf-4f19-44d0-911f-95355e9632e4
-- alterId: 0
-  cipher: auto
-  name: 50|未知59
-  network: tcp
-  port: 13301
-  server: tr2.pi10.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 113ae61b-d6da-4d08-9221-48595cb8436c

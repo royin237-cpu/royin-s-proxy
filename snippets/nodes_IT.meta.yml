@@ -1,10 +1,4 @@
 proxies:
-- name: 22|D🔴🇮🇹[🎬🤖📺🎭]_dokng.com_595d4b27
-  port: 443
-  server: 185.183.105.130
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 22|C🟠🇮🇹[🎬🤖📺🎭]_dokng.com_374905ab
   password: None
   port: 1999

@@ -62,7 +62,16 @@ proxies:
   uuid: 2d4dd672-180f-415c-9035-e2fc461dd95a
 - alterId: 0
   cipher: auto
-  name: 26,50|US5 1.5MB/s
+  name: 26|英国 006
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 26,50|US5 536.2KB/s
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -72,29 +81,32 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 26|英国 008
+  name: 26,50|US14
   network: tcp
   port: 180
   server: 82.198.246.250
   skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 26|保加利亚 001
+  name: 26,50|未知63
   network: tcp
   port: 110
   server: 94.156.179.138
   skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
 - alterId: 0
   cipher: auto
-  name: 26|德国 009
+  name: 26,50|未知23
   network: tcp
   port: 80
   server: 128.140.109.232
   skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: 05a178f9-e6ba-4006-93d7-3d980cdc3a76
 - alterId: 0
@@ -186,14 +198,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   name: 27|🇩🇪 Germany/Frankfurt am Main [...
-  port: 110
-  server: newrelax.relaxedboy.online
-  type: vmess
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
+  type: ss
   udp: true
-  uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
+- cipher: chacha20-ietf-poly1305
+  name: '27|🇩🇪 Germany [TG] #2'
+  password: 2YdE4lFOid5a
+  port: 8388
+  server: 51.195.126.38
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 40|🇩🇪DE-94.130.184.57-2747
@@ -319,44 +337,51 @@ proxies:
   server: 108.61.171.167
   sni: getgrpc.mainssh.xyz
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 45|🇺🇸US_6|4.6MB/s
+  password: OhGXJG4nEqTN62cDDcD_8_CddrpTHn0u
+  port: 1080
+  server: de-server-1.zelnora.ir
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 50|未知2
+  name: 50|未知14
   network: tcp
-  port: 2020
-  server: cdn-api.mrmtn.xyz
+  port: 80
+  server: t.telewebion.ir.varzesh3.com.de
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 29c4a3bd-9d8c-4ac3-b279-8b201560c227
+  uuid: 305b9563-9259-4528-81a0-782c72418f93
 - alterId: 0
   cipher: auto
-  name: 50|未知45
+  name: 50|未知20
   network: tcp
-  port: 443
-  server: 167.235.28.242
+  port: 80
+  server: 167.233.242.189
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+  uuid: 7209d7ee-cfd0-46c0-a580-d92e2f0c801c
 - alterId: 0
   cipher: auto
-  name: 50|未知49
+  name: 50|未知32
   network: ws
-  port: 443
-  server: 194.164.192.16
+  port: 80
+  server: 159.89.29.136
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  uuid: d20d6ede-433c-11ed-b81f-cfd905df9958
   ws-opts:
     headers:
-      Host: 194.164.192.16
-      host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
+      Host: 159.89.29.136
+      host: cx.com
+    path: /vmess
 - alterId: 0
   cipher: auto
-  name: 50|未知65
+  name: 50|未知75
   network: ws
   port: 28267
   server: 176.65.140.210
@@ -371,71 +396,51 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 50|未知86
+  name: 50|未知110
   network: tcp
-  port: 2053
-  server: de.connfull.org
+  port: 2121
+  server: tokien.mrmtn.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: f2ff4ae6-cf2d-4d15-9f0d-b6d9980df9aa
+  uuid: 29c4a3bd-9d8c-4ac3-b279-8b201560c227
 - alterId: 0
   cipher: auto
-  name: 50|未知109 994.2KB/s
-  network: ws
-  port: 2053
-  server: 172.238.96.215
+  name: 50|未知112
+  network: tcp
+  port: 2020
+  server: cdn-api.mrmtn.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  uuid: 29c4a3bd-9d8c-4ac3-b279-8b201560c227
+- alterId: 0
+  cipher: auto
+  name: 50|未知124
+  network: ws
+  port: 443
+  server: 142.132.178.99
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
   ws-opts:
     headers:
-      Host: 172.238.96.215
-      host: deapp.jisuyun.top
-    path: /devm
+      Host: 142.132.178.99
+      host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
   cipher: auto
-  name: 50|未知127
-  network: tcp
-  port: 8853
-  server: de2.lion-lion.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 31477bd9-a29c-490c-b29d-69328ec307f1
-- alterId: 0
-  cipher: auto
-  name: 50|未知136
-  network: tcp
-  port: 80
-  server: t.telewebion.ir.varzesh3.com.de
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 305b9563-9259-4528-81a0-782c72418f93
-- alterId: 0
-  cipher: auto
-  name: 50|未知143
-  network: tcp
-  port: 80
-  server: 167.233.242.189
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7209d7ee-cfd0-46c0-a580-d92e2f0c801c
-- alterId: 0
-  cipher: auto
-  name: 50|未知145
+  name: 50|未知125
   network: ws
-  port: 80
-  server: 159.89.29.136
+  port: 23981
+  server: 176.65.140.210
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: d20d6ede-433c-11ed-b81f-cfd905df9958
+  uuid: 3a98c196-7408-4c49-bbbf-da50188b14e0
   ws-opts:
     headers:
-      Host: 159.89.29.136
-      host: cx.com
-    path: /vmess
+      Host: 176.65.140.210
+      host: bobo.badrangteb.ir
+    path: /

@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 19,32,41,49|🇹🇭 泰国 | THA 2
+  name: 32,49,53|TH - zhuhai.uk
   password: 7eadc6dbe2ae
   port: 65443
   server: 103.169.67.34

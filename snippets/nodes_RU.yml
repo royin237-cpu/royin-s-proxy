@@ -29,13 +29,6 @@ proxies:
     headers:
       Host: renderer-stream-2-62.mirra.now
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 27|🇷🇺 Russia/Moscow [TG]
-  password: OTgxZ
-  port: 1443
-  server: 138.124.68.88
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
   name: 40|🇷🇺RU-171.22.134.12-7447
@@ -66,7 +59,7 @@ proxies:
     path: /path/1689935243027
 - alterId: 0
   cipher: auto
-  name: 50|未知116 78.9KB/s
+  name: 50|未知109
   network: ws
   port: 443
   server: renderer-stream-2-62.mirra.now

@@ -6,13 +6,21 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 19,22,45|🇬🇧GB_4|1.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.133.240.229
-  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 18,32,49|🇸🇬 新加坡 | SGP
+  network: tcp
+  port: 15006
+  reality-opts:
+    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+    short-id: 029a6cc4
+  server: nian.001.url111.kcloud02.top
+  servername: www.adobe.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - cipher: aes-256-cfb
   name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_d36956b1
   password: amazonskr05
@@ -27,14 +35,38 @@ proxies:
   server: 35.179.104.254
   type: ss
   udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22,49|🇯🇵 日本 | JPN 3
+  network: tcp
+  port: 15007
+  reality-opts:
+    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
+    short-id: 2c4d005b
+  server: 82.38.46.66
+  servername: www.bing.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - cipher: aes-256-cfb
-  name: 22,45|🇬🇧GB_1|1.9MB/s
+  name: 22,32,49|🇬🇧 英国 | GBR
   password: amazonskr05
   port: 443
   server: 18.132.203.206
+  skip-cert-verify: true
   type: ss
   udp: true
-- name: 22|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_d82a0f2e
+- cipher: aes-256-cfb
+  name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_c99051ed
+  password: amazonskr05
+  port: 443
+  server: 18.133.240.229
+  type: ss
+  udp: true
+- name: 22,45|🇬🇧GB_5|2.8MB/s
   password: None
   port: 443
   server: 185.235.0.2
@@ -42,13 +74,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22,53|GB - zhuhai.uk 04
+- name: 22,45|🇬🇧GB_1|2.4MB/s
   port: 443
   server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_2e1f53fe
+- name: 22,45|🇬🇧GB_2|2.1MB/s
   password: None
   port: 443
   server: 185.235.0.66
@@ -56,6 +88,12 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_045fb906
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 22|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_a820c2d3
   port: 443
   server: 37.120.233.50
@@ -68,7 +106,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22|A🟢🇬🇧[🎬🤖📺🎭]_dokng.com_b34d168c
+- name: 22,45|🇬🇧GB_4|3.3MB/s
   password: None
   port: 3118
   server: 154.61.56.215
@@ -96,279 +134,3 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22|D🔴🇺🇸_dokng.com_5476324f
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks5
-  udp: true
-  username: test123
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 22|C🟠🇬🇧[📺🎭🎪✈️]_dokng.com_82a68e66
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA
-    short-id: 16498ac98306ce31
-  server: 95.154.196.62
-  servername: foodnetwork.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a6de5675-5bfe-4fc2-b9b4-4bf4a24f6474
-- name: 45|🇬🇧GB_2|2.1MB/s
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
-  encryption: none
-  name: 45,49|🇬🇧 英国 | GBR 7
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.11
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 45,49|🇬🇧 英国 | GBR 9
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.121
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 45,49|🇬🇧 英国 | GBR 10
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.151
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 45|🇬🇧GB_8|2.3MB/s
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.21
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 45,49|🇬🇧 英国 | GBR 11
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.31
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 45,49|🇬🇧 英国 | GBR 12
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.41
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 45|🇬🇧GB_11|1.9MB/s
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.51
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 45|🇬🇧GB_12|1.0MB/s
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.61
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 45|🇬🇧GB_13|1.3MB/s
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.81
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 45,49|🇬🇧 英国 | GBR 14
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.91
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    mode: auto
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 45,49|🇬🇧 英国 | GBR 6
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.101
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    mode: auto
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  name: 49|🇬🇧 英国 | GBR 8
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.111
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
-- client-fingerprint: firefox
-  name: 49|🇬🇧 英国 | GBR 13
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-  server: 82.152.220.71
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    mode: auto
-    path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 49|🇬🇧 英国 | GBR 16
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: tPyAWkalFM4yi9lYY0zLDRxQyfSwPDwiexAy9QOjrWI
-    short-id: 42171a632f3b99ed
-  server: 95.154.221.153
-  servername: strapi.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: b41084bb-e613-42f9-8062-51cc9c55f1e8

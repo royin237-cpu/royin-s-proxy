@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇵🇱 Poland/Warsaw [TG]
+  password: U9YAoqBgg5VyGBc6vQv1sN
+  port: 7538
+  server: 194.61.121.93
+  type: ss
+  udp: true
 - name: 40|🇵🇱PL-51.83.186.142-2904
   password: 555034c8-6420-45d0-893c-905c02342150
   port: 443
@@ -11,13 +18,3 @@ proxies:
   server: 51.83.186.142
   sni: pl1.trojanvh.xyz
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 50|未知58
-  network: tcp
-  port: 45402
-  server: pl2.pi10.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 113ae61b-d6da-4d08-9221-48595cb8436c

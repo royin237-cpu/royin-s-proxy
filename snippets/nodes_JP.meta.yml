@@ -35,70 +35,10 @@ proxies:
   type: socks5
   udp: true
   username: null
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 22,49|🇯🇵 日本 | JPN 2
-  network: tcp
-  port: 39411
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_92bfba1c
-  network: tcp
-  port: 39409
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 22,49|🇯🇵 日本 | JPN
-  network: tcp
-  port: 39401
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
+- name: 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_c618c95c
+  password: None
+  port: 10808
+  server: 101.36.104.46
+  type: socks5
   udp: true
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 49|🇸🇬 新加坡 | SGP 4
-  network: tcp
-  port: 39553
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 53|JP - zhuhai.uk
-  port: 10000
-  server: 14.137.238.140
-  type: vless
-  uuid: 6f361c37-bc54-43dd-8c8b-0f59354745a5
-- alterId: 0
-  cipher: auto
-  name: 53|CA - zhuhai.uk
-  network: http
-  port: 49432
-  server: 38.47.121.14
-  type: vmess
-  uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
+  username: null
