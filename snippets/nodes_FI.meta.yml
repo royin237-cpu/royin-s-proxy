@@ -1,18 +1,93 @@
 proxies:
-- name: 22|C🟠🇫🇮[🎬🤖📺🎭]_dokng.com_fb968b40
-  port: 8911
-  server: 135.181.84.21
-  type: http
-- alpn:
-  - h3
-  client-fingerprint: ''
-  down: ''
-  name: 22|A🟢🇫🇮[🎬🤖📺🎭]_dokng.com_97b46c24
-  obfs-password: ''
+- name: '23,45|芬兰 #2 #1'
   password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
   port: 443
   server: fin14qr.wwwinternetvideo.click
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: fin14qr.wwwinternetvideo.click
   type: hysteria2
-  up: ''
+- name: '24,45|✅  @vistav2ray  👈👈کانال ما ✅ #...'
+  obfs: salamander
+  obfs-password: uw9b2qq5rx
+  password: 6aab8efdf13945829ae3699c342be406
+  port: 443
+  server: 31.76.80.69
+  skip-cert-verify: false
+  sni: fiproxy1.lockdwn.com
+  type: hysteria2
+- name: '24,45|@Azaranv2ray #1'
+  obfs: salamander
+  obfs-password: d6pv15sghiq1onts
+  password: t8t2qojzsykqazfu
+  port: 52026
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 26|芬兰 001
+  network: xhttp
+  port: 443
+  server: 196.196.203.13
+  servername: 0d81b209.ferrin.uk
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0d81b209-0722-4b32-9163-542f54ba56ed
+- name: 26|伊朗 025
+  network: tcp
+  port: 22886
+  server: 77.42.73.91
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 61344a01-5e77-45ad-9f0b-243eedff1dd3
+- name: 26|马恩岛 001
+  network: tcp
+  port: 8080
+  server: 81.27.110.79
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cde8e374-bf71-4a1f-9386-db050bc46190
+- name: 26|芬兰 004
+  network: grpc
+  port: 443
+  server: 135.181.41.45
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 26,40|🇫🇮FI-65.21.240.108-0951
+  network: http
+  port: 443
+  server: 65.21.240.108
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 40|🇫🇮FI-65.109.134.191-4296
+  network: ws
+  port: 80
+  server: 65.109.134.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 91698747-92b3-4a07-b5da-22694edbea82
+  ws-opts:
+    headers:
+      Host: 65.109.134.191
+    path: /graphql

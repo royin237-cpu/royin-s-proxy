@@ -1,9 +1,7 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 32|🇹🇭_TH_泰国
+  name: 19|th|55f8|puddincat07@Telegram
   password: 7eadc6dbe2ae
   port: 65443
   server: 103.169.67.34
-  skip-cert-verify: true
   type: ss
-  udp: true

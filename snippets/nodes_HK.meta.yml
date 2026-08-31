@@ -1,23 +1,35 @@
 proxies:
-- name: 22|D🔴🇭🇰[🎬📺🎭✨]_dokng.com_054bd55d
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
-- name: 22|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_da7c41d8
+- name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_da7c41d8
   password: admin
   port: 1080
   server: 47.239.116.165
   type: socks5
   username: admin
-- name: 22|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_d21277d2
-  password: 'null'
+- name: 22|U⚪🏳️_dokng.com_054bd55d
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
+- name: 22|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_8cb372cb
+  port: 443
+  server: hk40.240104.xyz
+  sni: hk40.240104.xyz
+  tls: true
+  type: http
+- name: 22|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_de4eaa15
   port: 443
   server: fan.240104.xyz
+  skip-cert-verify: true
   sni: fan.240104.xyz
   tls: true
   type: http
-  username: 'null'
-- name: 22|C🟠🇭🇰[🔍]_dokng.com_099454ad
+- name: 22|A🟢🇭🇰[🎬🧠📺🎭]_dokng.com_a1b6c46a
+  password: 302cf77d-6fb7-4ac8-ae61-88e286340d59
+  port: 52224
+  server: hk04.qianmoip.win
+  skip-cert-verify: true
+  sni: taobao.com
+  type: trojan
+- name: 22,53|HK - zhuhai.uk
   password: '!!str 111'
   port: 11211
   server: 47.243.173.50

@@ -1,56 +1,36 @@
 proxies:
-- name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_c8fcad15
-  port: 1443
-  server: 85.208.51.228
-  type: http
-- name: 22,53|FR - zhuhai.uk
-  port: 443
-  server: 141.94.16.4
-  skip-cert-verify: true
-  sni: 141.94.16.4
-  tls: true
-  type: http
-- name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_5dd3a037
-  password: None
-  port: 3169
-  server: 51.38.129.42
-  type: http
-  username: null
-- name: 22|D🔴🇫🇷[🤖📺🎭🎪]_dokng.com_26e7e011
-  password: None
-  port: 8888
-  server: 37.59.125.131
-  type: http
-  username: null
-- name: 22,45|🇫🇷FR_4|1.5MB/s
+- name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_e3642aa7
   port: 443
   server: 103.82.101.44
   skip-cert-verify: true
   sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
   tls: true
   type: http
-- name: 22,45|🇫🇷FR_5|1.2MB/s
+- name: 22,45,49|🇫🇷 法国 | FRA 6
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 51133
+  server: ip4.934618.xyz
+  skip-cert-verify: true
+  sni: ip4.934618.xyz
+  type: anytls
+  udp: true
+- name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_26e7e011
+  password: None
+  port: 8888
+  server: 37.59.125.131
+  type: http
+  username: null
+- name: 22|D🔴🇫🇷[🤖📺🎭🎪]_dokng.com_13bb1fbc
   port: 443
   server: 103.82.101.43
   skip-cert-verify: true
   sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
   tls: true
   type: http
-- name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_fe74c83b
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 51133
-  server: ip4.934618.xyz
-  sni: ip4.934618.xyz
-  type: anytls
-  udp: true
-- name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_e73d582a
-  password: None
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+- name: 22|C🟠🇫🇷[🤖📺🎪✈️]_dokng.com_8c55dcfd
+  port: 1088
+  server: 51.178.49.241
+  type: socks5
 - name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_6dcdf6ed
   port: 443
   server: fan.132031.xyz
@@ -58,14 +38,33 @@ proxies:
   sni: fan.132031.xyz
   tls: true
   type: http
-- name: 22|D🔴🇫🇷[📺🎭]_dokng.com_c5db3762
+- name: 22,45|🇫🇷FR_4|1.4MB/s
   password: None
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_5dd3a037
+  password: None
+  port: 3169
+  server: 51.38.129.42
+  type: http
+  username: null
+- name: 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_e50054e0
   port: 1088
   server: 144.91.121.61
   type: socks5
-  udp: true
-  username: null
-- name: 22|C🟠🇫🇷[🤖📺📦]_dokng.com_8c55dcfd
-  port: 1088
-  server: 51.178.49.241
-  type: socks5
+- alterId: 0
+  cipher: auto
+  name: 53|IN - zhuhai.uk
+  network: ws
+  port: 16626
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: b37accbd-e547-409b-9b99-b2b7e3888780
+  ws-opts:
+    headers:
+      Host: 013511f6a7570067f2dcfd8359e2885b.mobgslb.tbcache.com
+    path: /

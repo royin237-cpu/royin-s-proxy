@@ -1,8 +1,4 @@
 proxies:
-- name: 22,45|🇩🇪DE_3|4.4MB/s
-  port: 11000
-  server: 116.202.172.187
-  type: http
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
@@ -23,22 +19,40 @@ proxies:
   udp: true
   uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
   xudp: true
-- client-fingerprint: firefox
+- name: 22|D🔴🇩🇪[🤖📺🎪✨]_dokng.com_dd701156
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: 22|U⚪🏳️[🤖✨🎞️📦]_dokng.com_e9d43f72
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 22|U⚪🏳️[✈️]_dokng.com_a8482bc1
   network: tcp
   port: 443
   reality-opts:
-    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+    public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
     short-id: ''
-  server: de48.tranzit-net.ru
-  servername: d.tranzit-net.ru
+  server: 176.96.138.122
+  servername: plucky-xenon.cdn.cachefleet.com
   tls: true
   type: vless
   udp: true
-  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
+  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
   xudp: true
+- name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_c8de15d9
+  password: None
+  port: 11000
+  server: 116.202.172.187
+  type: http
+  username: null
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc
@@ -55,33 +69,7 @@ proxies:
   udp: true
   uuid: fe8e2ffb-8796-408c-af5b-0d4774215e00
   xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 22|U⚪🏳️_dokng.com_a8482bc1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
-    short-id: ''
-  server: 176.96.138.122
-  servername: plucky-xenon.cdn.cachefleet.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
-  xudp: true
-- name: 22|C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_0db00e0d
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 22|C🟠🇩🇪[🎬🤖📺🎪]_dokng.com_febed325
+- name: 22|C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_2b514860
   password: None
   port: 443
   server: 149.36.50.157
@@ -89,18 +77,26 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_46227203
+  port: 80
+  server: 193.37.70.182
+  type: http
+- name: 22,45|🇩🇪DE_1|2.0MB/s
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_16307951
   port: 443
   server: 138.201.56.241
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22,45|🇩🇪DE_4|2.8MB/s
+- name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_d407cced
   password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
+  port: 443
+  server: 148.230.110.203
   type: http
   username: null
 - name: 22|C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_f467085f
@@ -109,28 +105,12 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22|C🟠🇩🇪_dokng.com_f43c2944
-  port: 9099
-  server: 213.109.162.200
-  type: http
-- name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_46227203
-  port: 80
-  server: 193.37.70.182
-  type: http
-- name: 22,45|🇩🇪DE_5|1.8MB/s
+- name: 22|A🟢🇩🇪[🤖📺🎭🎪]_dokng.com_3ec79ed3
   port: 443
   server: 141.17.83.73
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22|A🟢🇩🇪[🎬🤖📺🎭]_dokng.com_b8f89117
-  password: None
-  port: 443
-  server: fan.973511.xyz
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
 - name: 22|D🔴🇩🇪[🤖📺🎭🎪]_dokng.com_62113475
   password: e4b72b531a2d10900519
   port: 443
@@ -140,16 +120,11 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 45|🇫🇮FI_1|4.0MB/s
-  network: tcp
+- name: 22|A🟢🇩🇪[📺🎭🎪📦]_dokng.com_b8f89117
+  password: None
   port: 443
-  reality-opts:
-    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-  server: 159.200.230.117
-  servername: d.tranzit-net.ru
+  server: fan.973511.xyz
+  skip-cert-verify: false
   tls: true
-  type: vless
-  udp: true
-  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
+  type: http
+  username: null

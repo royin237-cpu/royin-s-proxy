@@ -1,17 +1,8 @@
 proxies:
-- name: 22|A🟢🇷🇺[🎪📦🔍]_dokng.com_9af66ad2
-  port: 5050
-  server: 45.159.0.194
-  type: http
-- name: 22|A🟢🇷🇺[✨🎞️📦🔍]_dokng.com_965e2a11
-  port: 4080
-  server: 185.21.156.73
-  type: http
 - client-fingerprint: chrome
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: grpc-tunnel
-  name: 22,49|🇫🇷 法国 | FRA 8
+  name: 22|A🟢🇺🇸[🎬📺🎭🎪]_dokng.com_051ffd09
   network: grpc
   port: 9880
   reality-opts:
@@ -24,9 +15,17 @@ proxies:
   udp: true
   uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
   xudp: true
+- name: 22|A🟢🇷🇺[🎪📦🔍]_dokng.com_9af66ad2
+  port: 5050
+  server: 45.159.0.194
+  type: http
+- name: 22|A🟢🇷🇺[✨🎞️📦🔍]_dokng.com_965e2a11
+  port: 4080
+  server: 185.21.156.73
+  type: http
 - client-fingerprint: chrome
   encryption: none
-  name: 22|U⚪🏳️_dokng.com_483670b0
+  name: 22|U⚪🏳️[✈️]_dokng.com_483670b0
   network: ws
   port: 443
   server: 91.210.169.181
@@ -43,7 +42,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 22|U⚪🏳️[✈️]_dokng.com_bdcb20f7
+  name: 22|U⚪🏳️_dokng.com_bdcb20f7
   network: ws
   port: 443
   server: wstg.datasynctrue.online
@@ -57,49 +56,4 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /api/connect
-  xudp: true
-- client-fingerprint: android
-  name: 22|C🟠🇷🇺[📺🎪]_dokng.com_2438df74
-  network: ws
-  port: 443
-  server: ru05.abvpn.ru
-  servername: ru05.abvpn.ru
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
-    path: /websocket
-- name: 22|A🟢🇷🇺[🎪]_dokng.com_816f5138
-  network: ws
-  port: 2200
-  server: 201.24.49.79
-  servername: rzd.ru
-  type: vless
-  udp: true
-  uuid: 3b4274c1-4744-452e-9903-e11ccc0c9900
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /v1
-  xudp: true
-- encryption: none
-  name: 22|C🟠🇷🇺[🎪]_dokng.com_f80343b3
-  network: ws
-  port: 2200
-  server: 185.185.69.26
-  type: vless
-  udp: true
-  uuid: 7ee53e03-96ed-4121-9da2-62f3d3374506
-  ws-opts:
-    headers:
-      Host: rzd.ru
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /v1
   xudp: true

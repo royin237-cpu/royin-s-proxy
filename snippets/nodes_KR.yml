@@ -63,3 +63,9 @@ proxies:
   port: 443
   server: 3.34.6.217
   type: trojan
+- cipher: aes-256-cfb
+  name: 53|KR - zhuhai.uk
+  password: 1234!@#$
+  port: 1774
+  server: 49.254.204.134
+  type: ss

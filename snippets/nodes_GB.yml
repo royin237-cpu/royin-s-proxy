@@ -7,13 +7,6 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_d36956b1
-  password: amazonskr05
-  port: 443
-  server: 13.40.94.70
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_54894c69
   password: amazonskr05
   port: 443
@@ -21,17 +14,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 22,32|🇬🇧_GB_英国
-  password: amazonskr05
-  port: 443
-  server: 18.132.203.206
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_c99051ed
+  name: 32|🇬🇧_GB_英国
   password: amazonskr05
   port: 443
   server: 18.133.240.229
+  skip-cert-verify: true
   type: ss
   udp: true

@@ -1,25 +1,25 @@
 {
-  "total": 297,
+  "total": 246,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 5
+      "count": 4
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 72
+      "count": 56
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 1
+      "count": 4
     },
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 4
+      "count": 6
     },
     "TW": {
       "flag": "🇹🇼",
@@ -29,42 +29,42 @@
     "CA": {
       "flag": "🇨🇦",
       "name": "加拿大",
-      "count": 3
+      "count": 2
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 11
+      "count": 10
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 7
+      "count": 4
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 16
+      "count": 12
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 2
+      "count": 1
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 8
+      "count": 5
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 16
+      "count": 14
     },
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 6
+      "count": 5
     },
     "EE": {
       "flag": "🇪🇪",
@@ -79,22 +79,22 @@
     "NL": {
       "flag": "🇳🇱",
       "name": "荷兰",
-      "count": 18
+      "count": 17
     },
     "RO": {
       "flag": "🇷🇴",
       "name": "罗马尼亚",
-      "count": 22
+      "count": 23
     },
     "IN": {
       "flag": "🇮🇳",
       "name": "印度",
-      "count": 2
+      "count": 1
     },
     "TH": {
       "flag": "🇹🇭",
       "name": "泰国",
-      "count": 2
+      "count": 1
     },
     "TR": {
       "flag": "🇹🇷",
@@ -109,7 +109,7 @@
     "IT": {
       "flag": "🇮🇹",
       "name": "意大利",
-      "count": 6
+      "count": 7
     },
     "ES": {
       "flag": "🇪🇸",
@@ -129,7 +129,7 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 6
+      "count": 4
     },
     "PH": {
       "flag": "🇵🇭",
@@ -139,21 +139,21 @@
     "UA": {
       "flag": "🇺🇦",
       "name": "乌克兰",
-      "count": 2
+      "count": 1
     },
     "PL": {
       "flag": "🇵🇱",
       "name": "波兰",
-      "count": 5
+      "count": 4
     },
     "FI": {
       "flag": "🇫🇮",
       "name": "芬兰",
-      "count": 2
+      "count": 9
     }
   },
-  "update_time": "2026-08-31 13:54",
-  "server_time": "2026-08-31 13:55:10",
+  "update_time": "2026-09-01 00:10",
+  "server_time": "2026-09-01 00:11:52",
   "sources": [
     {
       "index": 0,
@@ -248,7 +248,7 @@
     {
       "index": 18,
       "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
-      "nodes": 20
+      "nodes": 18
     },
     {
       "index": 19,
@@ -268,17 +268,17 @@
     {
       "index": 22,
       "url": "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml",
-      "nodes": 479
+      "nodes": 454
     },
     {
       "index": 23,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
-      "nodes": 56
+      "nodes": 44
     },
     {
       "index": 24,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 1
+      "nodes": 143
     },
     {
       "index": 25,
@@ -383,7 +383,7 @@
     {
       "index": 45,
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
-      "nodes": 381
+      "nodes": 341
     },
     {
       "index": 46,
@@ -403,7 +403,7 @@
     {
       "index": 49,
       "url": "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.y",
-      "nodes": 128
+      "nodes": 64
     },
     {
       "index": 50,
@@ -423,7 +423,7 @@
     {
       "index": 53,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 40
+      "nodes": 42
     },
     {
       "index": 54,
