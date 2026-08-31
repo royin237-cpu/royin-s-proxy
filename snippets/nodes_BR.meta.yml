@@ -45,7 +45,3 @@ proxies:
   port: 9292
   server: 131.0.120.162
   type: http
-- name: 22|A🟢🇧🇷[🎪]_dokng.com_84cf438e
-  port: 8989
-  server: 138.204.95.193
-  type: http

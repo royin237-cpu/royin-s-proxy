@@ -43,7 +43,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 19,32,49|🇫🇷 法国 | FRA 20
+  name: 19,32|🇫🇷_FR_法国
   password: 7eadc6dbe2ae
   port: 65443
   server: 95.170.13.47
@@ -76,10 +76,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26|美国 002
+  name: '26,39,40|🇫🇷FR-162.19.192.89-0148 #1'
   network: ws
   port: 16617
   server: p4.cnb.linuxlh.xin
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -90,7 +91,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇫🇷FR-162.19.224.175-1419
+  name: 26,40|🇫🇷FR-162.19.224.175-0859
   network: ws
   port: 80
   server: 162.19.224.175
@@ -110,20 +111,20 @@ proxies:
   server: 51.77.225.200
   type: ss
   udp: true
-- name: 40|🇫🇷FR-51.38.99.96-1560
+- name: 40|🇫🇷FR-51.38.99.96-1657
   password: b8808043-6566-4923-9195-e66bfb553d57
   port: 443
   server: 51.38.99.96
   sni: ba24.ir
   type: trojan
-- name: 40|🇫🇷FR-141.94.76.177-2651
+- name: 40|🇫🇷FR-141.94.76.177-2735
   password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
   port: 443
   server: 141.94.76.177
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 40|🇫🇷FR-51.159.2.152-2652
+  name: 40|🇫🇷FR-51.159.2.152-2736
   network: ws
   port: 80
   server: 51.159.2.152
@@ -137,7 +138,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 40|🇫🇷FR-51.83.97.167-6626
+  name: 40|🇫🇷FR-51.83.97.167-6710
   network: ws
   port: 80
   server: 51.83.97.167
@@ -151,7 +152,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 40|🇫🇷FR-152.228.191.232-6688
+  name: 40|🇫🇷FR-152.228.191.232-6772
   network: ws
   port: 443
   server: 152.228.191.232
@@ -163,25 +164,25 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
     path: /ray
-- name: 40|🇫🇷FR-51.159.59.186-6841
+- name: 40|🇫🇷FR-51.159.59.186-6925
   password: 9498f3a0-2992-11ee-a4c7-1239d0255272
   port: 443
   server: fr.test3.net
   sni: zula.ir
   type: trojan
-- name: 40|🇫🇷FR-51.91.11.29-6962
+- name: 40|🇫🇷FR-51.91.11.29-7046
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   port: 80
   server: 51.91.11.29
   sni: namayesh.com
   type: trojan
-- name: 40|🇫🇷FR-51.91.11.29-6964
+- name: 40|🇫🇷FR-51.91.11.29-7048
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   port: 80
   server: 51.91.11.29
   sni: asriran.com
   type: trojan
-- name: 40|🇫🇷FR-51.91.11.29-6968
+- name: 40|🇫🇷FR-51.91.11.29-7052
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   port: 80
   server: 51.91.11.29
@@ -189,7 +190,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 40|🇫🇷FR-217.182.76.202-7199
+  name: 40|🇫🇷FR-217.182.76.202-7283
   network: ws
   port: 443
   server: 217.182.76.202
@@ -213,7 +214,7 @@ proxies:
   uuid: 1c46e7ee-ba01-4d3d-8625-7752253f70ac
 - alterId: 0
   cipher: auto
-  name: 50|未知140
+  name: 50|未知138
   network: tcp
   port: 2053
   server: fr.connfull.org
@@ -221,3 +222,15 @@ proxies:
   tls: true
   type: vmess
   uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
+- alterId: 0
+  cipher: auto
+  name: 53|IN - zhuhai.uk
+  network: ws
+  port: 16626
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 45c4a7a4-a1d4-4657-a92a-ab45558afac0
+  ws-opts:
+    headers:
+      Host: 6418046cd66ae322ebd1b8f4d82fd12c.mobgslb.tbcache.com
+    path: /

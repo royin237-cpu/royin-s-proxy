@@ -14,13 +14,6 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '22,45,52|RO_speednode_0041 #1'
-  port: 9002
-  server: 193.176.84.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 22,45|🇷🇴RO_6|1.2MB/s
   port: 9002
   server: 193.176.84.19
@@ -73,15 +66,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_0cb603c3
-  password: None
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '22,45,52|RO_speednode_0124 #1'
+- name: 22,45,52,53|RO - zhuhai.uk
   port: 9002
   server: 193.176.84.32
   skip-cert-verify: true
@@ -145,10 +130,41 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '45,52|RO_speednode_0126 #1'
+- name: 45,52,53|RO - zhuhai.uk 03
   port: 9002
   server: 193.176.84.39
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- http-opts:
+    headers:
+      Host:
+      - amp-api-edge.apps.apple.com
+    method: GET
+    path:
+    - /
+  name: 49|🇬🇧 英国 | GBR
+  network: http
+  port: 34770
+  server: digikala.topdigit.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6aee447d-a7f5-4aa6-be7a-5999ab69e406
+- name: 53|RO - zhuhai.uk 02
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  sni: 193.176.84.37
+  tls: true
+  type: http
+- name: 53|RO - zhuhai.uk 04
+  password: None
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
+  sni: 193.176.84.33
+  tls: true
+  type: http
+  username: 'null'

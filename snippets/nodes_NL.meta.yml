@@ -98,7 +98,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 45,52,53|NL - zhuhai.uk 02
+- name: '45,52|NL_speednode_0007 #1'
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
@@ -119,3 +119,17 @@ proxies:
   tls: true
   type: http
   udp: true
+- client-fingerprint: qq
+  name: 49|🇳🇱 荷兰 | NLD 5
+  network: ws
+  port: 443
+  server: 151.242.2.81
+  servername: cf9.rumedia-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  ws-opts:
+    headers:
+      Host: cf9.rumedia-cdn.com
+    path: /cdn/v3/live

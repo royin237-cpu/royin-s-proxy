@@ -5,14 +5,6 @@ proxies:
   server: 8.209.236.192
   type: socks5
   username: '123456'
-- name: 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_404a572e
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-  username: 'null'
 - client-fingerprint: chrome
   name: 22|U⚪🏳️_dokng.com_79f3708c
   network: ws
@@ -42,3 +34,9 @@ proxies:
   type: socks5
   udp: true
   username: null
+- name: 53|JP - zhuhai.uk 02
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http

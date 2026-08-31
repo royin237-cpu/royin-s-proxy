@@ -1,12 +1,11 @@
 proxies:
-- alterId: 2
+- alterId: 64
   cipher: auto
-  name: 22|C🟠🇬🇧[🤖📺🎭🎪]_dokng.com_5974a235
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: false
+  name: 32|🇨🇳_CN_中国
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

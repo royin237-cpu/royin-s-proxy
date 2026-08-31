@@ -21,7 +21,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 22,32,49|🇬🇧 英国 | GBR
+  name: 22,32|🇬🇧_GB_英国
   password: amazonskr05
   port: 443
   server: 18.132.203.206

@@ -6,21 +6,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 18,32,49|🇸🇬 新加坡 | SGP
-  network: tcp
-  port: 15006
-  reality-opts:
-    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
-    short-id: 029a6cc4
-  server: nian.001.url111.kcloud02.top
-  servername: www.adobe.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - cipher: aes-256-cfb
   name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_d36956b1
   password: amazonskr05
@@ -35,9 +20,9 @@ proxies:
   server: 35.179.104.254
   type: ss
   udp: true
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22,49|🇯🇵 日本 | JPN 3
+  name: 22|D🔴🇯🇵_dokng.com_fe5386b2
   network: tcp
   port: 15007
   reality-opts:
@@ -49,10 +34,9 @@ proxies:
   tfo: false
   tls: true
   type: vless
-  udp: true
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - cipher: aes-256-cfb
-  name: 22,32,49|🇬🇧 英国 | GBR
+  name: 22,32|🇬🇧_GB_英国
   password: amazonskr05
   port: 443
   server: 18.132.203.206

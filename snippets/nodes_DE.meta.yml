@@ -131,12 +131,6 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_8a373a16
-  password: udp-relay=true
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: None
 - name: 22|D🔴🇩🇪[🤖📺🎭🎪]_dokng.com_62113475
   password: e4b72b531a2d10900519
   port: 443
@@ -148,7 +142,7 @@ proxies:
   username: testuser1
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 45,49|🇨🇭 瑞士 | CHE
+  name: 45|🇫🇮FI_1|4.0MB/s
   network: tcp
   port: 443
   reality-opts:

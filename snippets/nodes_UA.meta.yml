@@ -4,7 +4,7 @@ proxies:
   server: 91.203.61.52
   type: http
 - client-fingerprint: random
-  name: 45,49|🇵🇱 波兰 | POL 2
+  name: 45|🇺🇦UA_1|1.8MB/s
   network: xhttp
   port: 443
   reality-opts:

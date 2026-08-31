@@ -6,13 +6,13 @@ proxies:
   type: socks5
   udp: true
   username: null
-- client-fingerprint: chrome
+- client-fingerprint: qq
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: 22|C🟠🇫🇮[📦]_dokng.com_cb2c22fe
+  name: 22,49,53|FI - zhuhai.uk
   network: tcp
   port: 5000
   reality-opts:

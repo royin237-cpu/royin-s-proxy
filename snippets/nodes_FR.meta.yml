@@ -3,10 +3,11 @@ proxies:
   port: 1443
   server: 85.208.51.228
   type: http
-- name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_67435526
+- name: 22,53|FR - zhuhai.uk
   port: 443
   server: 141.94.16.4
   skip-cert-verify: true
+  sni: 141.94.16.4
   tls: true
   type: http
 - name: 22|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_5dd3a037

@@ -1,4 +1,18 @@
 proxies:
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_06c11c91
+  password: None
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_4628e154
+  port: 443
+  server: efr-marktplatz.club
+  sni: efr-marktplatz.club
+  tls: true
+  type: http
 - name: 22|U⚪🏳️[🤖📺🎪✨]_dokng.com_89e7191b
   password: freeuser1
   port: 9251
@@ -22,7 +36,7 @@ proxies:
   username: freeuser1
 - alterId: 0
   cipher: auto
-  name: 26,40|🇮🇩ID-103.180.95.29-4576
+  name: 26,40|🇮🇩ID-103.180.95.29-1000
   network: ws
   port: 80
   server: lms.uin-antasari.ac.id

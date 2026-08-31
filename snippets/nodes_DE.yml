@@ -38,7 +38,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '26,39,40|🇩🇪DE-172.238.96.215-0231 #1'
+  name: 26,40|🇩🇪DE-172.238.96.215-0238
   network: ws
   port: 2053
   server: 172.238.96.215
@@ -62,16 +62,17 @@ proxies:
   uuid: 2d4dd672-180f-415c-9035-e2fc461dd95a
 - alterId: 0
   cipher: auto
-  name: 26|英国 006
+  name: 26,50|US3 312.0MB/s
   network: tcp
   port: 180
   server: 82.198.246.233
   skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 26,50|US5 536.2KB/s
+  name: 26,50|US13 314.1MB/s
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -81,7 +82,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 26,50|US14
+  name: 26,50|US11 315.0MB/s
   network: tcp
   port: 180
   server: 82.198.246.250
@@ -91,7 +92,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 26,50|未知63
+  name: 26,50|未知4
   network: tcp
   port: 110
   server: 94.156.179.138
@@ -101,7 +102,7 @@ proxies:
   uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
 - alterId: 0
   cipher: auto
-  name: 26,50|未知23
+  name: 26,50|未知59
   network: tcp
   port: 80
   server: 128.140.109.232
@@ -111,11 +112,13 @@ proxies:
   uuid: 05a178f9-e6ba-4006-93d7-3d980cdc3a76
 - alterId: 0
   cipher: auto
-  name: 26|德国 010
+  name: 26,40|🇩🇪DE-176.65.140.210-0540
   network: ws
   port: 28267
   server: 176.65.140.210
+  servername: ''
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 5a07247c-ea05-4dac-ab9f-6d778b5e0583
   ws-opts:
@@ -124,11 +127,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26|德国 011
+  name: 26,40|🇩🇪DE-176.65.140.210-0541
   network: ws
   port: 23981
   server: 176.65.140.210
+  servername: ''
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: e2ab9425-a3d5-4001-8b31-6a259935fe72
   ws-opts:
@@ -137,7 +142,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇩🇪DE-91.195.240.12-0414
+  name: 26,40|🇩🇪DE-91.195.240.12-0417
   network: ws
   port: 443
   server: sgp.kapok.buzz
@@ -152,22 +157,7 @@ proxies:
     path: /4befdd8a6/
 - alterId: 0
   cipher: auto
-  name: 26,40|🇺🇸US-23.11.32.159-1455
-  network: ws
-  port: 443
-  server: cacerts.digicert.com
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  ws-opts:
-    headers:
-      Host: cacerts.digicert.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 26,40|🇩🇪DE-157.90.20.18-3424
+  name: 26,40|🇩🇪DE-157.90.20.18-0947
   network: http
   port: 443
   server: 157.90.20.18
@@ -178,7 +168,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 26,40|🇩🇪DE-94.130.25.155-3427
+  name: 26,40|🇩🇪DE-94.130.25.155-0949
   network: http
   port: 443
   server: 94.130.25.155
@@ -189,7 +179,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 26,40|🇩🇪DE-167.235.136.155-3478
+  name: 26,40|🇩🇪DE-167.235.136.155-0950
   network: http
   port: 443
   server: 167.235.136.155
@@ -214,7 +204,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-94.130.184.57-2747
+  name: 40|🇩🇪DE-94.130.184.57-2831
   network: ws
   port: 80
   server: 94.130.184.57
@@ -228,7 +218,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-162.55.174.135-2865
+  name: 40|🇩🇪DE-162.55.174.135-2949
   network: ws
   port: 80
   server: 162.55.174.135
@@ -242,7 +232,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-162.55.62.193-2983
+  name: 40|🇩🇪DE-162.55.62.193-3067
   network: ws
   port: 80
   server: 162.55.62.193
@@ -256,7 +246,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-5.75.173.189-3003
+  name: 40|🇩🇪DE-5.75.173.189-3087
   network: ws
   port: 80
   server: 5.75.173.189
@@ -270,7 +260,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-78.46.129.226-3039
+  name: 40|🇩🇪DE-78.46.129.226-3123
   network: ws
   port: 80
   server: 78.46.129.226
@@ -284,7 +274,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-167.235.78.112-3081
+  name: 40|🇩🇪DE-167.235.78.112-3165
   network: ws
   port: 80
   server: 167.235.78.112
@@ -298,7 +288,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-188.40.132.107-3931
+  name: 40|🇩🇪DE-188.40.132.107-4015
   network: ws
   port: 80
   server: 188.40.132.107
@@ -312,7 +302,7 @@ proxies:
     path: /p3573l6m92h1ham3q23t
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 40|🇩🇪DE-95.179.254.136-6912
+  name: 40|🇩🇪DE-95.179.254.136-6996
   network: grpc
   password: mainssh-ddoejfv14
   port: 443
@@ -321,7 +311,7 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 40|🇩🇪DE-95.179.246.122-6914
+  name: 40|🇩🇪DE-95.179.246.122-6998
   network: grpc
   password: mainssh-niwrhf87
   port: 443
@@ -330,7 +320,7 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 40|🇩🇪DE-108.61.171.167-7671
+  name: 40|🇩🇪DE-108.61.171.167-7755
   network: grpc
   password: mainssh-niwrhf87
   port: 443
@@ -346,42 +336,22 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 50|未知14
-  network: tcp
-  port: 80
-  server: t.telewebion.ir.varzesh3.com.de
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 305b9563-9259-4528-81a0-782c72418f93
-- alterId: 0
-  cipher: auto
-  name: 50|未知20
-  network: tcp
-  port: 80
-  server: 167.233.242.189
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7209d7ee-cfd0-46c0-a580-d92e2f0c801c
-- alterId: 0
-  cipher: auto
-  name: 50|未知32
+  name: 50|未知
   network: ws
-  port: 80
-  server: 159.89.29.136
+  port: 23981
+  server: 176.65.140.210
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: d20d6ede-433c-11ed-b81f-cfd905df9958
+  uuid: 3a98c196-7408-4c49-bbbf-da50188b14e0
   ws-opts:
     headers:
-      Host: 159.89.29.136
-      host: cx.com
-    path: /vmess
+      Host: 176.65.140.210
+      host: bobo.badrangteb.ir
+    path: /
 - alterId: 0
   cipher: auto
-  name: 50|未知75
+  name: 50|未知17
   network: ws
   port: 28267
   server: 176.65.140.210
@@ -396,7 +366,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 50|未知110
+  name: 50|未知23 739.6KB/s
+  network: tcp
+  port: 110
+  server: 94.156.170.102
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
+- alterId: 0
+  cipher: auto
+  name: 50|未知26
   network: tcp
   port: 2121
   server: tokien.mrmtn.xyz
@@ -406,17 +386,7 @@ proxies:
   uuid: 29c4a3bd-9d8c-4ac3-b279-8b201560c227
 - alterId: 0
   cipher: auto
-  name: 50|未知112
-  network: tcp
-  port: 2020
-  server: cdn-api.mrmtn.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 29c4a3bd-9d8c-4ac3-b279-8b201560c227
-- alterId: 0
-  cipher: auto
-  name: 50|未知124
+  name: 50|未知40
   network: ws
   port: 443
   server: 142.132.178.99
@@ -431,16 +401,66 @@ proxies:
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
   cipher: auto
-  name: 50|未知125
-  network: ws
-  port: 23981
-  server: 176.65.140.210
+  name: 50|未知94
+  network: tcp
+  port: 8853
+  server: de2.lion-lion.ir
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 3a98c196-7408-4c49-bbbf-da50188b14e0
+  uuid: 31477bd9-a29c-490c-b29d-69328ec307f1
+- alterId: 0
+  cipher: auto
+  name: 50|未知96
+  network: ws
+  port: 443
+  server: 194.164.192.16
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
   ws-opts:
     headers:
-      Host: 176.65.140.210
-      host: bobo.badrangteb.ir
-    path: /
+      Host: 194.164.192.16
+      host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+- alterId: 0
+  cipher: auto
+  name: 50|US16 58.2MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 50|未知142
+  network: tcp
+  port: 2020
+  server: cdn-api.mrmtn.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 29c4a3bd-9d8c-4ac3-b279-8b201560c227
+- alterId: 0
+  cipher: auto
+  name: 50|未知147
+  network: tcp
+  port: 80
+  server: t.telewebion.ir.varzesh3.com.de
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 305b9563-9259-4528-81a0-782c72418f93
+- alterId: 0
+  cipher: auto
+  name: 50|未知153
+  network: tcp
+  port: 80
+  server: y.telewebion.ir.varzesh3.com.de
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 524646b7-fe8f-42ee-8b73-e1ccc6855773
