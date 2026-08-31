@@ -1,11 +1,13 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 22|A🟢🇨🇳[🧠🎞️📦]_dokng.com_0da15920
+  delay: 195
+  name: 22,26|中国 005
   network: tcp
   port: 50002
   server: 112.132.215.108
-  skip-cert-verify: false
+  servername: 112.132.215.108
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true

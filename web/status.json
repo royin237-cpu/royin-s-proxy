@@ -1,5 +1,5 @@
 {
-  "total": 246,
+  "total": 245,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
@@ -69,7 +69,7 @@
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 4
+      "count": 5
     },
     "CH": {
       "flag": "🇨🇭",
@@ -89,7 +89,7 @@
     "IN": {
       "flag": "🇮🇳",
       "name": "印度",
-      "count": 1
+      "count": 2
     },
     "TH": {
       "flag": "🇹🇭",
@@ -129,7 +129,7 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 4
+      "count": 3
     },
     "PH": {
       "flag": "🇵🇭",
@@ -149,11 +149,11 @@
     "FI": {
       "flag": "🇫🇮",
       "name": "芬兰",
-      "count": 9
+      "count": 11
     }
   },
-  "update_time": "2026-09-01 00:10",
-  "server_time": "2026-09-01 00:11:52",
+  "update_time": "2026-09-01 03:12",
+  "server_time": "2026-09-01 03:13:36",
   "sources": [
     {
       "index": 0,
@@ -248,7 +248,7 @@
     {
       "index": 18,
       "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
-      "nodes": 18
+      "nodes": 10
     },
     {
       "index": 19,
@@ -278,7 +278,7 @@
     {
       "index": 24,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 143
+      "nodes": 145
     },
     {
       "index": 25,
@@ -288,7 +288,7 @@
     {
       "index": 26,
       "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
-      "nodes": 1517
+      "nodes": 1412
     },
     {
       "index": 27,

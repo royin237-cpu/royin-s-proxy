@@ -49,11 +49,13 @@ proxies:
   username: admin
 - alterId: 64
   cipher: auto
-  name: 22|A🟢🇨🇳[🧠🎞️📦]_dokng.com_0da15920
+  delay: 195
+  name: 22,26|中国 005
   network: tcp
   port: 50002
   server: 112.132.215.108
-  skip-cert-verify: false
+  servername: 112.132.215.108
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -1393,7 +1395,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: safari
-  name: 22,50|US19
+  name: 22|U⚪🏳️_dokng.com_54d00832
   network: tcp
   port: 443
   server: guanwang.awsno.com
@@ -1435,22 +1437,6 @@ proxies:
   type: socks5
   udp: true
   username: M_YOU_D
-- client-fingerprint: chrome
-  name: 26|美国 263
-  network: ws
-  port: 443
-  server: 172.67.156.147
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
 - cipher: aes-256-cfb
   name: 32|🇬🇧_GB_英国
   password: amazonskr05

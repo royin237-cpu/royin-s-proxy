@@ -1,4 +1,10 @@
 proxies:
+- name: 22|C🟠🇫🇮_dokng.com_6b6eea02
+  password: None
+  port: 3001
+  server: 135.181.116.225
+  type: http
+  username: null
 - name: '23,45|芬兰 #2 #1'
   password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
   port: 443
@@ -14,6 +20,13 @@ proxies:
   server: 31.76.80.69
   skip-cert-verify: false
   sni: fiproxy1.lockdwn.com
+  type: hysteria2
+- name: 24|🇫🇮157441 | ⚡️Telegram = t.me/S...
+  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+  port: 443
+  server: 31.76.30.97
+  skip-cert-verify: true
+  sni: fast.wwwinternetvideo.click
   type: hysteria2
 - name: '24,45|@Azaranv2ray #1'
   obfs: salamander
@@ -36,16 +49,18 @@ proxies:
   type: vless
   udp: true
   uuid: 0d81b209-0722-4b32-9163-542f54ba56ed
-- name: 26|伊朗 025
-  network: tcp
-  port: 22886
-  server: 77.42.73.91
+- client-fingerprint: chrome
+  name: 26|美国 165
+  network: grpc
+  port: 2101
+  server: 132.243.223.227
+  servername: 132-243-223-227.sslip.io
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 61344a01-5e77-45ad-9f0b-243eedff1dd3
+  uuid: 2edfd299-fd54-4056-9d79-3c99f19bdae1
 - name: 26|马恩岛 001
   network: tcp
   port: 8080
@@ -56,7 +71,7 @@ proxies:
   type: vless
   udp: true
   uuid: cde8e374-bf71-4a1f-9386-db050bc46190
-- name: 26|芬兰 004
+- name: 26|芬兰 006
   network: grpc
   port: 443
   server: 135.181.41.45

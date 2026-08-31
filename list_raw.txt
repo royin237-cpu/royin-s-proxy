@@ -203,7 +203,6 @@ socks5://111:111@47.243.173.50:11211#22%2C53%7CHK%20-%20zhuhai.uk
 socks5://101.36.104.46:10808#22%7CD%F0%9F%94%B4%F0%9F%87%AF%F0%9F%87%B5%5B%F0%9F%8E%AC%F0%9F%A4%96%F0%9F%93%BA%F0%9F%8E%AD%5D_dokng.com_1b81f86d
 http://109.116.41.154:443#22%7CD%F0%9F%94%B4%F0%9F%87%AE%F0%9F%87%B9%5B%F0%9F%A4%96%F0%9F%93%BA%F0%9F%8E%AD%F0%9F%8E%AA%5D_dokng.com_9b8722f4
 socks5://M_YOU_D:Private@85.17.179.81:1080#22%7CD%F0%9F%94%B4%F0%9F%87%B3%F0%9F%87%B1%5B%F0%9F%8E%AC%F0%9F%A4%96%F0%9F%93%BA%F0%9F%8E%AD%5D_dokng.com_147f42c4
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@172.67.156.147:443?allowInsecure=0&sni=jp3.yohototo.top&type=ws&host=jp3.yohototo.top&path=/tyxywsfp=chrome&security=tls#26%7C%E7%BE%8E%E5%9B%BD%20263
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@18.133.240.229:443#32%7C%F0%9F%87%AC%F0%9F%87%A7_GB_%E8%8B%B1%E5%9B%BD
 vless://d4cae7df-50a1-428c-bd62-881c8f3bbd90@germany.superbuba.top:443?allowInsecure=1&sni=germany.superbuba.top&flow=xtls-rprx-vision-udp443&fp=firefox&security=tls#32%2C49%7C%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%203
 trojan://humanity@172.67.74.2:443?sni=www.ignitelimit.com#40%7C%F0%9F%8F%81RELAY-172.67.74.2-1053

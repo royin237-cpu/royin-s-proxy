@@ -1,6 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  name: 26|伊朗 003
+- name: 26|伊朗 003
   network: tcp
   port: 8443
   server: 94.183.170.135
@@ -11,6 +10,22 @@ proxies:
   type: vless
   udp: true
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+- client-fingerprint: chrome
+  name: 26|美国 285
+  network: ws
+  port: 443
+  server: 64.188.82.152
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7836b28e-8451-4596-ad3e-e3601b2335ba
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket?ed=2560
 - name: 26|捷克 002
   network: grpc
   port: 8443
