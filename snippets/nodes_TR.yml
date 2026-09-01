@@ -1,22 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 26,50|未知43
-  network: tcp
-  port: 8080
-  server: 213.156.152.63
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d9681916-5a85-44c8-86a2-9fcae87cf850
-- alterId: 0
-  cipher: auto
-  name: 26,40|🇹🇷TR-37.221.79.48-0773
+  name: 40|🇹🇷TR-37.221.79.48-0773
   network: ws
   port: 443
   server: v2ray.online
   servername: ''
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
@@ -76,6 +65,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 130b0fbf-4f19-44d0-911f-95355e9632e4
+- alterId: 0
+  cipher: auto
+  name: 50|未知43
+  network: tcp
+  port: 8080
+  server: 213.156.152.63
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d9681916-5a85-44c8-86a2-9fcae87cf850
 - alterId: 0
   cipher: auto
   name: 50|未知45

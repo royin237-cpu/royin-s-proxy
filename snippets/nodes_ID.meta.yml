@@ -1,7 +1,8 @@
 proxies:
-- name: 22|D🔴🇮🇩[🎬🤖📺🎭]_dokng.com_4628e154
+- name: 45|🇺🇸US_10|2.0MB/s
   port: 443
-  server: efr-marktplatz.club
-  sni: efr-marktplatz.club
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
   tls: true
   type: http

@@ -1,12 +1,5 @@
 proxies:
-- name: 22|U⚪🏳️[🤖📺🎭🎪]_dokng.com_342f3e57
-  password: freeuser1
-  port: 9251
-  server: br3-tr.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: 22|U⚪🏳️[📺✨📦✈️]_dokng.com_d66d3f2e
+- name: 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_d66d3f2e
   password: freeuser1
   port: 9251
   server: br4-tr.freeconnect.link
@@ -15,6 +8,28 @@ proxies:
   tls: true
   type: http
   username: freeuser1
+- name: 22|U⚪🏳️[📺🎪📦🔍]_dokng.com_342f3e57
+  password: freeuser1
+  port: 9251
+  server: br3-tr.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- encryption: mlkem768x25519plus.native.0rtt.5SJmX8GGvlmVzd0r_T8yMc25nAj-kXw9Q4Cp831Vj1Y
+  name: 22|C🟠🇹🇷[🎬🤖📺🎭]_dokng.com_97e37ec8
+  network: ws
+  port: 21570
+  server: direct-tr01.korvexe.ir
+  type: vless
+  udp: true
+  uuid: c7a9c7f0-4a6b-414e-bdfc-8ad8980f858b
+  ws-opts:
+    headers:
+      Host: direct-tr01.korvexe.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true
 - name: '23,45|土耳其 #3'
   password: 1ba59989-225e-4f1c-ab62-9bd7366009cb
   port: 443
@@ -24,52 +39,11 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 26,50|未知43
-  network: tcp
-  port: 8080
-  server: 213.156.152.63
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d9681916-5a85-44c8-86a2-9fcae87cf850
-- name: 26|美国 234
-  network: tcp
-  port: 58416
-  server: 212.87.199.122
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5626ce32-dad0-468b-952c-e53d609100f1
-- name: 26|俄罗斯 015
-  network: tcp
-  port: 443
-  server: 91.228.227.172
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 96172b09-2ec8-418d-a539-7e9fb118caf8
-- name: 26|美国 378
-  network: tcp
-  port: 56539
-  server: 212.115.103.189
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5539644-22ce-4140-96c9-9e844318ce24
-- alterId: 0
-  cipher: auto
-  name: 26,40|🇹🇷TR-37.221.79.48-0773
+  name: 40|🇹🇷TR-37.221.79.48-0773
   network: ws
   port: 443
   server: v2ray.online
   servername: ''
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
@@ -129,6 +103,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 130b0fbf-4f19-44d0-911f-95355e9632e4
+- alterId: 0
+  cipher: auto
+  name: 50|未知43
+  network: tcp
+  port: 8080
+  server: 213.156.152.63
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d9681916-5a85-44c8-86a2-9fcae87cf850
 - alterId: 0
   cipher: auto
   name: 50|未知45

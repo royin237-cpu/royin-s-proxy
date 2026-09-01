@@ -1,13 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 26|加拿大 003
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
-  skip-cert-verify: true
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- cipher: chacha20-ietf-poly1305
+  name: 22|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_1303c27e
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)7eb777f:123571
+    mode: tls
+  port: 2377
+  server: 59.125.62.188
+  type: ss
 - name: 40|🇹🇼TW-61.222.160.199-2684
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443

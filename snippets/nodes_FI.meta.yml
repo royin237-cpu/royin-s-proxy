@@ -24,61 +24,6 @@ proxies:
   skip-cert-verify: false
   sni: assets.gateway-stream.com
   type: hysteria2
-- client-fingerprint: chrome
-  name: 26|芬兰 001
-  network: xhttp
-  port: 443
-  server: 196.196.203.13
-  servername: 0d81b209.ferrin.uk
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0d81b209-0722-4b32-9163-542f54ba56ed
-- client-fingerprint: chrome
-  name: 26|美国 165
-  network: grpc
-  port: 2101
-  server: 132.243.223.227
-  servername: 132-243-223-227.sslip.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2edfd299-fd54-4056-9d79-3c99f19bdae1
-- name: 26|马恩岛 001
-  network: tcp
-  port: 8080
-  server: 81.27.110.79
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cde8e374-bf71-4a1f-9386-db050bc46190
-- name: 26|芬兰 006
-  network: grpc
-  port: 443
-  server: 135.181.41.45
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 26,40|🇫🇮FI-65.21.240.108-0960
-  network: http
-  port: 443
-  server: 65.21.240.108
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - client-fingerprint: safari
   name: 27|🇫🇮 Finland [TG]
   port: 8443
@@ -91,6 +36,16 @@ proxies:
   type: vless
   udp: true
   uuid: 785923c4-0b40-43b4-8506-523e31578d21
+- alterId: 0
+  cipher: auto
+  name: 40|🇫🇮FI-65.21.240.108-0960
+  network: http
+  port: 443
+  server: 65.21.240.108
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
   name: 40|🇫🇮FI-65.109.134.191-4259

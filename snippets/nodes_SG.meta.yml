@@ -6,37 +6,28 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 22|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_af7b1aad
-  network: none
-  port: 29521
-  server: 47.236.207.245
-  tls: false
-  type: vmess
-  uuid: f1bb29bf-a342-44d4-9ac5-5ca4566a216a
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 22,45|🇸🇬SG_2|5.5MB/s
+  name: 22|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_622ca83c
   network: grpc
-  port: 10036
+  port: 10039
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
+  server: sg4-r.link-t7.com
+  servername: d1.awsstatic.com
   tls: true
   type: vless
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 22,45|🇸🇬SG_3|5.0MB/s
+  name: 22,45|🇸🇬SG_1|5.4MB/s
   network: grpc
   packet-encoding: xudp
   port: 10040
@@ -47,6 +38,24 @@ proxies:
   servername: d1.awsstatic.com
   tls: true
   type: vless
+  udp: true
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 22,45,49|🇸🇬 新加坡 | SGP
+  network: grpc
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
 - name: 22|A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1
   password: ''
@@ -57,19 +66,58 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 22|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_26d0e430
-  password: e4b72b531a2d10900519
+- name: 40|🇸🇬SG-91.243.81.223-5034
+  password: XG59623478
   port: 443
-  server: 146.70.29.45
-  sni: 92461d2d.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 22|D🔴🇸🇬_dokng.com_8496ce1e
-  password: e4b72b531a2d10900519
+  server: enabling-asp.rooster465.autos
+  type: trojan
+- name: 40|🇸🇬SG-91.243.81.39-5035
+  password: CF68213490
   port: 443
-  server: 104.248.148.240
-  sni: us.acskey.co
-  tls: true
-  type: http
-  username: testuser1
+  server: harmless-lab.rooster465.autos
+  type: trojan
+- name: 40|🇸🇬SG-45.135.228.19-5044
+  password: NQ26071394
+  port: 443
+  server: fun-labrador.rooster465.autos
+  type: trojan
+- name: 40|🇸🇬SG-91.243.81.142-5045
+  password: WG39087154
+  port: 443
+  server: grateful-unicorn.rooster465.autos
+  type: trojan
+- name: 40|🇸🇬SG-45.135.228.66-5046
+  password: OD90375861
+  port: 443
+  server: wired-tick.rooster465.autos
+  type: trojan
+- name: 40|🇸🇬SG-81.28.13.151-5058
+  password: JA96378052
+  port: 443
+  server: primary-mallard.rooster465.autos
+  type: trojan
+- name: 40|🇸🇬SG-45.135.228.6-5060
+  password: HW85960347
+  port: 443
+  server: firm-squid.rooster465.autos
+  type: trojan
+- name: 40|🇸🇬SG-81.28.13.86-5063
+  password: WG39087154
+  port: 443
+  server: caring-ghoul.rooster465.autos
+  type: trojan
+- name: 40|🇸🇬SG-81.28.13.69-5064
+  password: NQ26071394
+  port: 443
+  server: quiet-condor.rooster465.autos
+  type: trojan
+- name: 40|🇸🇬SG-91.243.81.188-5065
+  password: CF68213490
+  port: 443
+  server: polite-coyote.rooster465.autos
+  type: trojan
+- name: 40|🇸🇬SG-81.28.13.162-5067
+  password: KV63147582
+  port: 443
+  server: evolving-baboon.rooster465.autos
+  type: trojan

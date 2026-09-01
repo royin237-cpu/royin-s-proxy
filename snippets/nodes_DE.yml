@@ -48,79 +48,11 @@ proxies:
   uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
 - alterId: 0
   cipher: auto
-  name: 26|德国 002
-  network: tcp
-  port: 2053
-  server: 178.63.237.158
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2d4dd672-180f-415c-9035-e2fc461dd95a
-- alterId: 0
-  cipher: auto
-  name: 26,50|US11 141.8MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 26|英国 005
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 26,50|US7 285.1MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 26|英国 008
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 26,50|未知24
-  network: tcp
-  port: 110
-  server: 94.156.179.138
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
-- alterId: 0
-  cipher: auto
-  name: 26,50|未知41
-  network: tcp
-  port: 80
-  server: 128.140.109.232
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05a178f9-e6ba-4006-93d7-3d980cdc3a76
-- alterId: 0
-  cipher: auto
-  name: 26,40|🇩🇪DE-91.195.240.12-0426
+  name: 40|🇩🇪DE-91.195.240.12-0426
   network: ws
   port: 443
   server: sgp.kapok.buzz
   servername: ''
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85
@@ -128,84 +60,6 @@ proxies:
     headers:
       Host: sgp.kapok.buzz
     path: /4befdd8a6/
-- alterId: 0
-  cipher: auto
-  name: 26,40|🇩🇪DE-176.65.140.210-0577
-  network: ws
-  port: 28267
-  server: 176.65.140.210
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5a07247c-ea05-4dac-ab9f-6d778b5e0583
-  ws-opts:
-    headers:
-      Host: bobo.badrangteb.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 26,40|🇩🇪DE-176.65.140.210-0578
-  network: ws
-  port: 23981
-  server: 176.65.140.210
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e2ab9425-a3d5-4001-8b31-6a259935fe72
-  ws-opts:
-    headers:
-      Host: bobo.badrangteb.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 26,40|🇺🇸US-23.11.32.159-0872
-  network: ws
-  port: 443
-  server: cacerts.digicert.com
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  ws-opts:
-    headers:
-      Host: cacerts.digicert.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 26,40|🇩🇪DE-157.90.20.18-0956
-  network: http
-  port: 443
-  server: 157.90.20.18
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- alterId: 0
-  cipher: auto
-  name: 26,40|🇩🇪DE-94.130.25.155-0958
-  network: http
-  port: 443
-  server: 94.130.25.155
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- alterId: 0
-  cipher: auto
-  name: 26,40|🇩🇪DE-167.235.136.155-0959
-  network: http
-  port: 443
-  server: 167.235.136.155
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
   name: 40|🇩🇪DE-31.22.109.209-0448
@@ -220,6 +74,78 @@ proxies:
     headers:
       Host: 31.22.109.209
     path: /4ba99a39b90faa/
+- alterId: 0
+  cipher: auto
+  name: 40|🇩🇪DE-176.65.140.210-0577
+  network: ws
+  port: 28267
+  server: 176.65.140.210
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a07247c-ea05-4dac-ab9f-6d778b5e0583
+  ws-opts:
+    headers:
+      Host: bobo.badrangteb.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 40|🇩🇪DE-176.65.140.210-0578
+  network: ws
+  port: 23981
+  server: 176.65.140.210
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e2ab9425-a3d5-4001-8b31-6a259935fe72
+  ws-opts:
+    headers:
+      Host: bobo.badrangteb.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 40|🇺🇸US-23.11.32.159-0872
+  network: ws
+  port: 443
+  server: cacerts.digicert.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-opts:
+    headers:
+      Host: cacerts.digicert.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 40|🇩🇪DE-157.90.20.18-0956
+  network: http
+  port: 443
+  server: 157.90.20.18
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 40|🇩🇪DE-94.130.25.155-0958
+  network: http
+  port: 443
+  server: 94.130.25.155
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 40|🇩🇪DE-167.235.136.155-0959
+  network: http
+  port: 443
+  server: 167.235.136.155
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
   name: 40|🇩🇪DE-94.130.184.57-2794
@@ -353,6 +279,30 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 50|未知23 1.6MB/s
+  network: ws
+  port: 2053
+  server: deapp.jisuyun.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: deapp.jisuyun.top
+    path: /devm
+- alterId: 0
+  cipher: auto
+  name: 50|未知24
+  network: tcp
+  port: 110
+  server: 94.156.179.138
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
+- alterId: 0
+  cipher: auto
   name: 50|未知25
   network: tcp
   port: 2053
@@ -373,6 +323,16 @@ proxies:
   uuid: 7209d7ee-cfd0-46c0-a580-d92e2f0c801c
 - alterId: 0
   cipher: auto
+  name: 50|未知41
+  network: tcp
+  port: 80
+  server: 128.140.109.232
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05a178f9-e6ba-4006-93d7-3d980cdc3a76
+- alterId: 0
+  cipher: auto
   name: 50|未知46
   network: tcp
   port: 80
@@ -381,6 +341,26 @@ proxies:
   tls: true
   type: vmess
   uuid: 524646b7-fe8f-42ee-8b73-e1ccc6855773
+- alterId: 0
+  cipher: auto
+  name: 50|US7 285.1MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 50|US11 141.8MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 50|未知103

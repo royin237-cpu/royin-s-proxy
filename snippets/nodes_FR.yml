@@ -1,17 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 45|🇭🇰HK_1|1.5MB/s
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 56174c24-a84b-4caf-b033-739728cc2773
-  ws-opts:
-    headers:
-      Host: af47ea9d24759da2ccb4dbdb6c4bb073.mobgslb.tbcache.com
-    path: /
-  xudp: true
+- cipher: aes-256-cfb
+  name: 19|fr|2802|puddincat07@Telegram
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
+  type: ss
