@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: 19,49,53|TH - zhuhai.uk 02
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 103.169.67.34
+  type: ss
+  udp: true
+- name: 22|D🔴🇹🇭[🎬🤖📺🎪]_dokng.com_46d8ebd8
+  port: 31280
+  server: 202.28.194.139
+  type: http
+- name: 22,53|TH - zhuhai.uk
+  port: 1080
+  server: 43.164.3.124
+  type: socks5
+- name: 22|D🔴🇹🇭[🎬🤖📺🎭]_dokng.com_0cbd3120
+  port: 8888
+  server: 47.81.56.193
+  type: http

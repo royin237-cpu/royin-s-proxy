@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 17|VN 6 → tg@nicevpn123
+  password: 5a92d674-308c-4d95-b283-28383e63a59b
+  port: 443
+  server: 103.9.77.6
+  skip-cert-verify: true
+  type: trojan
+  udp: true

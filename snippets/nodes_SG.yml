@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- name: 17|🇸🇬 SG 27 → tg@nicevpn123
+  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
+  port: 443
+  server: 139.162.49.215
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 22|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_af7b1aad
+  network: none
+  port: 29521
+  server: 47.236.207.245
+  tls: false
+  type: vmess
+  uuid: f1bb29bf-a342-44d4-9ac5-5ca4566a216a

@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: 22,32,45|🇺🇸US_3|3.5MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 22,32,49|🇰🇷 韩国 | KOR 2
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 32|🇨🇳_CN_中国
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

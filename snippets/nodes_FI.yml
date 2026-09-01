@@ -1,1 +1,36 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 26,40|🇫🇮FI-65.21.240.108-0960
+  network: http
+  port: 443
+  server: 65.21.240.108
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 40|🇫🇮FI-65.109.134.191-4259
+  network: ws
+  port: 80
+  server: 65.109.134.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 91698747-92b3-4a07-b5da-22694edbea82
+  ws-opts:
+    headers:
+      Host: 65.109.134.191
+    path: /graphql
+- name: 40|🇫🇮FI-135.181.41.169-5072
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  port: 443
+  server: bbbnhj.131.pp.ua
+  type: trojan
+- name: 40|🇫🇮FI-135.181.41.169-5074
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  port: 443
+  server: nnnmjju.131.pp.ua
+  type: trojan

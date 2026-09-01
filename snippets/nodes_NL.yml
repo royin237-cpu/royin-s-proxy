@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 17|🇳🇱 NL 9 → tg@nicevpn123
+  password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
+  port: 443
+  server: 142.93.226.128
+  skip-cert-verify: true
+  type: trojan
+  udp: true

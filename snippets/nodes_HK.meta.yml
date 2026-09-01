@@ -1,1 +1,147 @@
-proxies: []
+proxies:
+- name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_da7c41d8
+  password: admin
+  port: 1080
+  server: 47.239.116.165
+  type: socks5
+  username: admin
+- name: 22|C🟠🇭🇰[📺🎭🎪🎞️]_dokng.com_d8a84f16
+  password: abc123
+  port: 1080
+  server: 47.239.98.42
+  type: socks5
+  username: abc123
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: movie
+  name: 22,45,53|HK - zhuhai.uk 04
+  network: grpc
+  packet-encoding: xudp
+  port: 10130
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk5-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: 22,45|🇭🇰HK_6|4.0MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10128
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk3-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: 22,45|🇭🇰HK_7|4.9MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10136
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk6-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- name: 22|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_de4eaa15
+  port: 443
+  server: fan.240104.xyz
+  skip-cert-verify: true
+  sni: fan.240104.xyz
+  tls: true
+  type: http
+- name: 22|C🟠🇭🇰[📺🎭📦]_dokng.com_db363b3a
+  password: admin
+  port: 8899
+  server: 47.242.19.215
+  skip-cert-verify: true
+  type: socks5
+  username: admin
+- name: 22|D🔴🇭🇰[🎬🧠📺🎭]_dokng.com_6598b91f
+  password: 302cf77d-6fb7-4ac8-ae61-88e286340d59
+  port: 50222
+  server: hk03.qianmoip.win
+  skip-cert-verify: true
+  sni: taobao.com
+  type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 22|A🟢🇭🇰[🎬🧠📺🎭]_dokng.com_224b2a1d
+  network: ws
+  password: 04e30e9f-661a-4a40-9973-4f2961298e99
+  port: 28443
+  server: 152.175.28.15
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- name: 22|C🟠🇭🇰[📺✈️🔍]_dokng.com_099454ad
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  skip-cert-verify: true
+  type: socks5
+  username: '111'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 22|A🟢🇭🇰[🎬📺🎭🎪]_dokng.com_c970db79
+  network: ws
+  password: 0f3963f9-0530-434d-be2c-87e9b61143c8
+  port: 28443
+  server: 58.152.46.127
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- cipher: chacha20-ietf
+  name: '40|8J%2BHrfCfh7BISy00My4yNTUuMTE5... #16'
+  obfs: plain
+  obfs-param: MTRlMTE2NzM1LmRvdXlpbi5jb20%3D
+  password: di15PV
+  port: 14048
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: api.meituan88.com
+  type: ssr
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: movie
+  name: 53|HK - zhuhai.uk
+  network: grpc
+  port: 10129
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk4-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F

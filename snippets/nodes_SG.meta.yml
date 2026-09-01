@@ -1,1 +1,75 @@
-proxies: []
+proxies:
+- name: 17|🇸🇬 SG 27 → tg@nicevpn123
+  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
+  port: 443
+  server: 139.162.49.215
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 22|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_af7b1aad
+  network: none
+  port: 29521
+  server: 47.236.207.245
+  tls: false
+  type: vmess
+  uuid: f1bb29bf-a342-44d4-9ac5-5ca4566a216a
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 22,45|🇸🇬SG_2|5.5MB/s
+  network: grpc
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 22,45|🇸🇬SG_3|5.0MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10040
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg5-r.link-t7.com
+  servername: d1.awsstatic.com
+  tls: true
+  type: vless
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- name: 22|A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 22|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_26d0e430
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  sni: 92461d2d.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 22|D🔴🇸🇬_dokng.com_8496ce1e
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 104.248.148.240
+  sni: us.acskey.co
+  tls: true
+  type: http
+  username: testuser1

@@ -1,1 +1,31 @@
-proxies: []
+proxies:
+- name: 22|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_70bbae38
+  port: 2053
+  server: 194.110.4.164
+  type: http
+- name: 22|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_c8c42a57
+  port: 443
+  server: 37.120.156.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 22|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_7886d398
+  password: None
+  port: 443
+  server: 151.115.54.133
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 22|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_12512f43
+  password: ''
+  port: 443
+  server: 37.120.156.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 22|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_805ac382
+  port: 7778
+  server: 91.238.54.189
+  type: http

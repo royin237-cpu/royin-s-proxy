@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- name: 53|AU - zhuhai.uk
+  port: 443
+  server: 159.13.44.228
+  skip-cert-verify: true
+  tls: true
+  type: http

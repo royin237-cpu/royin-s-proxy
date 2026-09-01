@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- name: 22|D🔴🇮🇩[🎬🤖📺🎭]_dokng.com_4628e154
+  port: 443
+  server: efr-marktplatz.club
+  sni: efr-marktplatz.club
+  tls: true
+  type: http
