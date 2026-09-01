@@ -1,13 +1,13 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 26,40|🇵🇭PH-61.245.11.60-0533
+  name: 26,40,50|未知151 455.3KB/s
   network: ws
   port: 80
   server: 61.245.11.60
   servername: ''
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
   ws-opts:
@@ -16,7 +16,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 26,40|🇵🇭PH-120.28.10.46-0571
+  name: 26,40|🇵🇭PH-120.28.10.46-0584
   network: ws
   port: 80
   server: 120.28.10.46

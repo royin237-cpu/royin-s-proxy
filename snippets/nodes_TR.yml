@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 26,40|🇹🇷TR-37.221.79.48-0761
+  name: 26,40|🇹🇷TR-37.221.79.48-0774
   network: ws
   port: 443
   server: v2ray.online
@@ -16,7 +16,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 40|🇹🇷TR-37.221.79.48-1478
+  name: 40|🇹🇷TR-37.221.79.48-1452
   network: ws
   port: 443
   server: v2ray.online
@@ -30,7 +30,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 40|🇹🇷TR-37.221.79.48-4740
+  name: 40|🇹🇷TR-37.221.79.48-4715
   network: ws
   port: 443
   server: v2ray.online
@@ -44,7 +44,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 40|🇹🇷TR-45.94.169.142-7116
+  name: 40|🇹🇷TR-45.94.169.142-7156
   network: ws
   port: 443
   server: 45.94.169.142
@@ -58,7 +58,7 @@ proxies:
     path: /wss13889
 - alterId: 0
   cipher: auto
-  name: 50|未知68
+  name: 50|未知131
   network: tcp
   port: 5384
   server: dashboard.aframarket.top

@@ -14,19 +14,17 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- name: 22|C🟠🇯🇵[🔍]_dokng.com_16f5ab4e
+- name: 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_404a572e
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+  username: 'null'
+- name: 22,53|JP - zhuhai.uk 02
   password: '!!str 123456'
   port: 1080
   server: 8.209.236.192
   type: socks5
   username: '123456'
-- name: 22|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_1b81f86d
-  port: 10808
-  server: 101.36.104.46
-  type: socks5
-- name: 53|JP - zhuhai.uk
-  port: 443
-  server: fan.571589.xyz
-  tls: true
-  type: http
-  username: bnVsbDpudWxs

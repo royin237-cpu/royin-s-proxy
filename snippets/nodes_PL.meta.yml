@@ -1,4 +1,14 @@
 proxies:
+- name: 22,45|🇵🇱PL_1|3.1MB/s
+  port: 2053
+  server: 194.110.4.164
+  type: http
+- name: 22|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_c8c42a57
+  port: 443
+  server: 37.120.156.18
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 22|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_7886d398
   password: None
   port: 443
@@ -19,19 +29,3 @@ proxies:
   port: 7778
   server: 91.238.54.189
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_5397da52
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: U1X__Tg779LinTpcP65AVLHtxAGPSKzr04K1Fq_mDy8
-    short-id: 146c918c71da5d81
-  server: 82.118.20.109
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e459d26c-0957-4695-b1ac-0719e8df64f6
-  xudp: true

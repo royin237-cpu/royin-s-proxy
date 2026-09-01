@@ -12,7 +12,7 @@ proxies:
   server: 82.115.6.209
   type: http
   username: null
-- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_aecf5208
+- name: 22,45|🇳🇱NL_5|1.0MB/s
   password: None
   port: 23856
   server: 51.159.225.196
@@ -40,14 +40,14 @@ proxies:
   sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
   tls: true
   type: http
-- name: 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_0d5bc13d
+- name: 22,45,53|NL - zhuhai.uk 02
   password: None
   port: 443
   server: 51.158.243.91
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
+  username: 'null'
 - name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_400cf18e
   port: 9002
   server: 84.17.47.147
@@ -69,7 +69,15 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_147f42c4
+- name: 22|D🔴🇳🇱[🤖📺🎭🎪]_dokng.com_62caac5f
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 82.196.9.7
+  sni: 52c40907.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 22,45|🇳🇱NL_7|3.5MB/s
   password: Private
   port: 1080
   server: 85.17.179.81
@@ -77,6 +85,13 @@ proxies:
   type: socks5
   udp: true
   username: M_YOU_D
+- name: '45,52|NL_speednode_0006 #1'
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: '45,52|NL_speednode_0005 #1'
   password: None
   port: 9002
@@ -85,15 +100,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '45,52|NL_speednode_0006 #1'
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '45,52|NL_speednode_0008 #1'
-  password: None
+- name: '45,52|NL_speednode_0007 #1'
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
@@ -114,20 +121,3 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: random
-  name: 49|🇳🇱 荷兰 | NLD 5
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: f79448a30d
-  server: nl-xh01.tcp-reset-club.net
-  servername: s3.netavex.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0678ed07-980a-49c1-9066-05caec654967
-  xhttp-opts:
-    host: s3.netavex.com
-    mode: packet-up
-    path: /assets/v2/pkg

@@ -27,7 +27,7 @@ proxies:
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸_US_美国_2
+  name: 32|🇺🇸_US_美国
   port: 443
   server: 192.227.247.27
   skip-cert-verify: true

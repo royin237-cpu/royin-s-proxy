@@ -1,20 +1,23 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 27|🇵🇱 Poland/Warsaw [TG]
-  password: U9YAoqBgg5VyGBc6vQv1sN
-  port: 7538
-  server: 194.61.121.93
-  type: ss
-  udp: true
-- name: 40|🇵🇱PL-51.83.186.142-2988
+- name: 40|🇵🇱PL-51.83.186.142-2963
   password: 555034c8-6420-45d0-893c-905c02342150
   port: 443
   server: 51.83.186.142
   sni: pl1.trojanvh.xyz
   type: trojan
-- name: 40|🇵🇱PL-51.83.186.142-4017
+- name: 40|🇵🇱PL-51.83.186.142-3992
   password: 555034c8-6420-45d0-893c-905c02342150
   port: 80
   server: 51.83.186.142
   sni: pl1.trojanvh.xyz
+  type: trojan
+- name: 40|🇵🇱PL-202.78.163.173-5051
+  password: WF42809561
+  port: 443
+  server: top-goshawk.rooster465.autos
+  type: trojan
+- name: 40|🇵🇱PL-202.78.163.19-5066
+  password: KV63147582
+  port: 443
+  server: game-firefly.rooster465.autos
   type: trojan

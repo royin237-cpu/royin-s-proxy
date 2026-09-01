@@ -1,4 +1,10 @@
 proxies:
+- name: 22|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_7204598f
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
@@ -81,7 +87,7 @@ proxies:
   port: 80
   server: 193.37.70.182
   type: http
-- name: 22,45|🇩🇪DE_1|2.0MB/s
+- name: 22,45|🇩🇪DE_3|2.3MB/s
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
@@ -93,7 +99,11 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_d407cced
+- name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_95f62f7e
+  port: 8443
+  server: 128.140.82.50
+  type: socks5
+- name: 22,45|🇱🇹LT_1|2.7MB/s
   password: None
   port: 443
   server: 148.230.110.203

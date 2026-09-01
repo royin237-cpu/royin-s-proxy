@@ -7,13 +7,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_54894c69
+  name: 22,45|🇬🇧GB_2|4.4MB/s
   password: amazonskr05
   port: 443
   server: 35.179.104.254
   type: ss
   udp: true
-- name: 22|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_2e1f53fe
+- name: 22,45|🇬🇧GB_3|2.8MB/s
   password: None
   port: 443
   server: 185.235.0.66
@@ -21,6 +21,22 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 22|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_b218a6a3
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 22|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_0b79ac8a
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_e832c82d
+  port: 32766
+  server: 178.62.83.124
+  type: http
 - name: 22|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_fed9fc96
   password: None
   port: 443
@@ -29,7 +45,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_ec95baf0
+- name: 22,45|🇬🇧GB_4|3.8MB/s
   password: None
   port: 443
   server: 185.235.0.34
@@ -37,13 +53,19 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22,45|🇬🇧GB_2|1.3MB/s
+- name: 22,45|🇬🇧GB_5|2.9MB/s
+  port: 443
+  server: 193.36.118.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_045fb906
   port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_8074dc82
+- name: 22,45|🇬🇧GB_6|1.8MB/s
   password: None
   port: 443
   server: 185.235.0.2
@@ -57,6 +79,11 @@ proxies:
   server: 154.61.56.215
   type: http
   username: null
+- name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_7d7f3a77
+  port: 8443
+  server: 5.101.149.245
+  tls: true
+  type: http
 - name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_aabc5d30
   password: None
   port: 443
@@ -65,25 +92,29 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22,45|🇬🇧GB_4|1.3MB/s
+- name: 22|D🔴🇬🇧[🎬🤖📺🎪]_dokng.com_485cc62b
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
-- cipher: aes-256-cfb
-  name: 32|🇬🇧_GB_英国
-  password: amazonskr05
-  port: 443
-  server: 18.133.240.229
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- name: 45|🇬🇧GB_3|3.9MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 22|D🔴🇯🇵[📺🎭]_dokng.com_e0bbac6c
+  network: tcp
+  port: 15007
+  reality-opts:
+    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
+    short-id: 2c4d005b
+  server: nian.001.url111.kcloud02.top
+  servername: www.bing.com
   tls: true
-  type: http
-  username: null
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  xudp: true

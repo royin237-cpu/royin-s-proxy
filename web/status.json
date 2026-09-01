@@ -1,15 +1,15 @@
 {
-  "total": 245,
+  "total": 276,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 4
+      "count": 3
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 56
+      "count": 60
     },
     "CN": {
       "flag": "🇨🇳",
@@ -19,7 +19,7 @@
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 6
+      "count": 13
     },
     "TW": {
       "flag": "🇹🇼",
@@ -29,22 +29,22 @@
     "CA": {
       "flag": "🇨🇦",
       "name": "加拿大",
-      "count": 2
+      "count": 3
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 10
+      "count": 9
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 4
+      "count": 7
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 12
+      "count": 16
     },
     "KR": {
       "flag": "🇰🇷",
@@ -59,7 +59,7 @@
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 14
+      "count": 16
     },
     "SE": {
       "flag": "🇸🇪",
@@ -84,7 +84,7 @@
     "RO": {
       "flag": "🇷🇴",
       "name": "罗马尼亚",
-      "count": 23
+      "count": 21
     },
     "IN": {
       "flag": "🇮🇳",
@@ -94,7 +94,7 @@
     "TH": {
       "flag": "🇹🇭",
       "name": "泰国",
-      "count": 1
+      "count": 4
     },
     "TR": {
       "flag": "🇹🇷",
@@ -104,7 +104,7 @@
     "AU": {
       "flag": "🇦🇺",
       "name": "澳大利亚",
-      "count": 2
+      "count": 1
     },
     "IT": {
       "flag": "🇮🇹",
@@ -119,7 +119,7 @@
     "BR": {
       "flag": "🇧🇷",
       "name": "巴西",
-      "count": 11
+      "count": 14
     },
     "VN": {
       "flag": "🇻🇳",
@@ -136,24 +136,19 @@
       "name": "菲律宾",
       "count": 2
     },
-    "UA": {
-      "flag": "🇺🇦",
-      "name": "乌克兰",
-      "count": 1
-    },
     "PL": {
       "flag": "🇵🇱",
       "name": "波兰",
-      "count": 4
+      "count": 5
     },
     "FI": {
       "flag": "🇫🇮",
       "name": "芬兰",
-      "count": 11
+      "count": 13
     }
   },
-  "update_time": "2026-09-01 03:12",
-  "server_time": "2026-09-01 03:13:36",
+  "update_time": "2026-09-01 12:09",
+  "server_time": "2026-09-01 12:10:15",
   "sources": [
     {
       "index": 0,
@@ -248,7 +243,7 @@
     {
       "index": 18,
       "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
-      "nodes": 10
+      "nodes": 20
     },
     {
       "index": 19,
@@ -278,7 +273,7 @@
     {
       "index": 24,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 145
+      "nodes": 157
     },
     {
       "index": 25,
@@ -293,7 +288,7 @@
     {
       "index": 27,
       "url": "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml",
-      "nodes": 46
+      "nodes": 50
     },
     {
       "index": 28,
@@ -318,7 +313,7 @@
     {
       "index": 32,
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-      "nodes": 22
+      "nodes": 26
     },
     {
       "index": 33,
@@ -358,7 +353,7 @@
     {
       "index": 40,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 3987
+      "nodes": 4026
     },
     {
       "index": 41,
@@ -383,7 +378,7 @@
     {
       "index": 45,
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
-      "nodes": 341
+      "nodes": 374
     },
     {
       "index": 46,
@@ -403,7 +398,7 @@
     {
       "index": 49,
       "url": "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.y",
-      "nodes": 64
+      "nodes": 62
     },
     {
       "index": 50,
@@ -423,7 +418,7 @@
     {
       "index": 53,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 42
+      "nodes": 37
     },
     {
       "index": 54,

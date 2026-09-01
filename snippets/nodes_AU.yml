@@ -8,7 +8,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.213-0673
+  name: 26,40|🇦🇺AU-103.224.212.213-0686
   network: ws
   port: 443
   server: rlhrwtqusd.site
@@ -23,7 +23,7 @@ proxies:
     path: /kwhmvws
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.211-0695
+  name: 26,40|🇦🇺AU-103.224.212.211-0708
   network: ws
   port: 443
   server: 34.72img.xyz
@@ -38,7 +38,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.211-0705
+  name: 26,40|🇦🇺AU-103.224.212.211-0718
   network: ws
   port: 443
   server: 36.72img.xyz
@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.211-0712
+  name: 26,40|🇦🇺AU-103.224.212.211-0725
   network: ws
   port: 443
   server: 25.72img.xyz
@@ -68,7 +68,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.211-0720
+  name: 26,40|🇦🇺AU-103.224.212.211-0733
   network: ws
   port: 443
   server: 55.72img.xyz
@@ -83,7 +83,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.211-0722
+  name: 26,40|🇦🇺AU-103.224.212.211-0735
   network: ws
   port: 443
   server: 26.72img.xyz
@@ -98,7 +98,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.211-0723
+  name: 26,40|🇦🇺AU-103.224.212.211-0736
   network: ws
   port: 443
   server: 54.72img.xyz
@@ -113,7 +113,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.211-0726
+  name: 26,40|🇦🇺AU-103.224.212.211-0739
   network: ws
   port: 443
   server: 9.72img.xyz
@@ -128,7 +128,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.211-0727
+  name: 26,40|🇦🇺AU-103.224.212.211-0740
   network: ws
   port: 443
   server: 29.72img.xyz
@@ -143,7 +143,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.211-0735
+  name: 26,40|🇦🇺AU-103.224.212.211-0748
   network: ws
   port: 443
   server: 22.72img.xyz
@@ -158,7 +158,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.211-0739
+  name: 26,40|🇦🇺AU-103.224.212.211-0752
   network: ws
   port: 443
   server: 21.72img.xyz
@@ -173,7 +173,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.211-0741
+  name: 26,40|🇦🇺AU-103.224.212.211-0754
   network: ws
   port: 443
   server: 20.72img.xyz
@@ -188,7 +188,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.210-0748
+  name: 26,40|🇦🇺AU-103.224.212.210-0761
   network: ws
   port: 443
   server: oplg1.cfcdn2.xyz
@@ -203,7 +203,7 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.211-0867
+  name: 26,40|🇦🇺AU-103.224.212.211-0880
   network: ws
   port: 443
   server: clash6.ssr-free.xyz
@@ -218,7 +218,7 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 26,40|🇦🇺AU-103.224.212.211-0964
+  name: 26,40|🇦🇺AU-103.224.212.211-0977
   network: ws
   port: 443
   server: 38.72img.xyz
@@ -231,17 +231,27 @@ proxies:
     headers:
       Host: 38.72img.xyz
     path: /
-- name: 40|🇦🇺AU-103.224.212.216-1428
+- name: 40|🇦🇺AU-103.224.212.216-1402
   password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
   port: 80
   server: us2.trojanvh.xyz
   type: trojan
-- name: 40|🇦🇺AU-103.224.212.216-1512
+- name: 40|🇦🇺AU-103.224.212.216-1486
   password: b640d791-ff83-4300-b509-c2a02f97f167
   port: 80
   server: uk1.trojanvh.xyz
   type: trojan
-- name: 40|🇦🇺AU-103.224.212.210-6934
+- name: 40|🇦🇺AU-87.121.33.164-5044
+  password: JA96378052
+  port: 443
+  server: evident-gnat.rooster465.autos
+  type: trojan
+- name: 40|🇦🇺AU-87.121.33.14-5069
+  password: PD07395842
+  port: 443
+  server: true-pony.rooster465.autos
+  type: trojan
+- name: 40|🇦🇺AU-103.224.212.210-6974
   network: ws
   password: 4d706727-996f-4427-930d-60f3bd414cf9
   port: 443
@@ -250,7 +260,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /rDCYQta83d0oPABKBhcIX
-- name: 40|🇦🇺AU-103.224.212.210-6936
+- name: 40|🇦🇺AU-103.224.212.210-6976
   network: ws
   password: 4d706727-996f-4427-930d-60f3bd414cf9
   port: 443
@@ -259,7 +269,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /rDCYQta83d0oPABKBhcIX
-- name: 40|🇦🇺AU-103.224.212.210-6939
+- name: 40|🇦🇺AU-103.224.212.210-6979
   network: ws
   password: 5de2dfab-28e4-4773-b0d3-8d43da0d9ac3
   port: 443

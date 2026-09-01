@@ -6,7 +6,7 @@ proxies:
   sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
   tls: true
   type: http
-- name: 22,45,49|🇫🇷 法国 | FRA 6
+- name: 22,49|🇫🇷 法国 | FRA 11
   password: github.com/Alvin9999-newpac/fanqiang
   port: 51133
   server: ip4.934618.xyz
@@ -38,7 +38,7 @@ proxies:
   sni: fan.132031.xyz
   tls: true
   type: http
-- name: 22,45|🇫🇷FR_4|1.4MB/s
+- name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_e73d582a
   password: None
   port: 443
   server: 149.102.245.65
@@ -52,19 +52,19 @@ proxies:
   server: 51.38.129.42
   type: http
   username: null
-- name: 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_e50054e0
-  port: 1088
-  server: 144.91.121.61
-  type: socks5
 - alterId: 0
   cipher: auto
-  name: 53|IN - zhuhai.uk
+  name: 26|美国 007
   network: ws
-  port: 16626
-  server: planb.mojcn.com.linuxlh.xin
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: b37accbd-e547-409b-9b99-b2b7e3888780
+  udp: true
+  uuid: d7e9f3c3-57c6-457e-b10f-df27907ef081
   ws-opts:
     headers:
-      Host: 013511f6a7570067f2dcfd8359e2885b.mobgslb.tbcache.com
+      Host: 18a598fcab3909734096beb9fe7bc5b4.mobgslb.tbcache.com
     path: /
+  xudp: true

@@ -1,13 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 53|IN - zhuhai.uk
+  name: 26|美国 007
   network: ws
-  port: 16626
-  server: planb.mojcn.com.linuxlh.xin
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: b37accbd-e547-409b-9b99-b2b7e3888780
+  udp: true
+  uuid: d7e9f3c3-57c6-457e-b10f-df27907ef081
   ws-opts:
     headers:
-      Host: 013511f6a7570067f2dcfd8359e2885b.mobgslb.tbcache.com
+      Host: 18a598fcab3909734096beb9fe7bc5b4.mobgslb.tbcache.com
     path: /
+  xudp: true
