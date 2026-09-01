@@ -9,7 +9,7 @@ proxies:
   port: 1999
   server: 185.201.65.242
   type: http
-- name: 22,53|IT - zhuhai.uk
+- name: 22|A🟢🇮🇹[🎬🤖🎪📦]_dokng.com_8d725197
   port: 443
   server: 178.237.4.200
   skip-cert-verify: true

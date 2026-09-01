@@ -62,7 +62,7 @@ proxies:
     path: /assignment
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_c27a09a6
+  name: 22,53|US - zhuhai.uk 01
   network: tcp
   port: 50159
   reality-opts:
@@ -72,6 +72,7 @@ proxies:
   servername: www.ibm.com
   tls: true
   type: vless
+  udp: true
   uuid: c8f8b628-f984-4449-bfa1-481d865ac728
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_a88e970f
   password: gs4BXwT6SW
@@ -142,18 +143,25 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_399742db
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 22|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_bdaa0f87
   port: 442
   server: 54.235.192.64
   type: http
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6db0fc2c
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 22,45|🇺🇸US_7|1.3MB/s
+  password: None
+  port: 443
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_067d2b9f
   password: ''
   port: 9002
@@ -187,6 +195,14 @@ proxies:
   port: 4447
   server: 54.174.5.216
   type: http
+- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_9f49ef36
+  password: ''
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - name: 22|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_a108a37f
   port: 8056
   server: 24.153.226.234
@@ -290,7 +306,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 22|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6b515df2
+- name: 22,53|US - zhuhai.uk 07
   port: 443
   server: fan.226278.xyz
   sni: fan.226278.xyz
@@ -509,7 +525,7 @@ proxies:
   udp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 49|🇺🇸 美国 | USA 6
+  name: 49,53|US - zhuhai.uk
   network: tcp
   port: 443
   reality-opts:
@@ -521,7 +537,7 @@ proxies:
   type: vless
   udp: true
   uuid: 43ecb6db-829f-4e5b-9bd6-4bdd1c537395
-- name: 53|US - zhuhai.uk
+- name: 53|US - zhuhai.uk 03
   password: 'null'
   port: 9002
   server: 138.199.35.213
@@ -529,25 +545,9 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 53|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 53|US - zhuhai.uk 05
-  port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 53|US - zhuhai.uk 06
-  password: 'null'
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'

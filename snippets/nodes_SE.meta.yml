@@ -21,7 +21,7 @@ proxies:
   type: socks5
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 45|🇸🇪SE_4|1.1MB/s
+  name: 45,53|SE - zhuhai.uk
   network: tcp
   port: 443
   reality-opts:
@@ -29,6 +29,7 @@ proxies:
     short-id: 26f7082dd0e36ca1
   server: 2.26.124.85
   servername: cdn.jsdelivr.net
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true

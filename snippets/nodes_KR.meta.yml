@@ -8,9 +8,8 @@ proxies:
   username: null
 - client-fingerprint: chrome
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: update
-  name: 22|C🟠🇰🇷[🎬📺🎭🎪]_dokng.com_f3bc68e2
+  name: 22,53|KR - zhuhai.uk 04
   network: grpc
   port: 10048
   reality-opts:
@@ -22,6 +21,12 @@ proxies:
   type: vless
   udp: true
   uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
+- name: 22,53|KR - zhuhai.uk
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: Og%3D%3D
 - name: 40|🇰🇷KR-109.61.127.63-5056
   password: IQ68037294
   port: 443

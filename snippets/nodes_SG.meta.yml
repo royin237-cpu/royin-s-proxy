@@ -18,9 +18,8 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: update
-  name: 22|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_622ca83c
+  name: 22,53|SG - zhuhai.uk 03
   network: grpc
   port: 10039
   reality-opts:
@@ -30,42 +29,8 @@ proxies:
   servername: d1.awsstatic.com
   tls: true
   type: vless
+  udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 22,45|🇸🇬SG_1|5.4MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 10040
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg5-r.link-t7.com
-  servername: d1.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 22,45,49|🇸🇬 新加坡 | SGP
-  network: grpc
-  port: 10036
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
 - name: 40|🇸🇬SG-91.243.81.142-5045
   password: WG39087154
   port: 443
@@ -122,3 +87,17 @@ proxies:
   type: vless
   udp: true
   uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 53|SG - zhuhai.uk
+  network: grpc
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6

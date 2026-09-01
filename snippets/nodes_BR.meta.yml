@@ -17,10 +17,6 @@ proxies:
   port: 8666
   server: 45.228.89.114
   type: http
-- name: 22|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_39e2be1f
-  port: 5566
-  server: 200.225.129.110
-  type: http
 - name: 22|A🟢🇧🇷[📺🎭🎪]_dokng.com_75602843
   port: 44443
   server: 179.184.163.133

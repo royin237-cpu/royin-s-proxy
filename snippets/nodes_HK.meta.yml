@@ -21,22 +21,6 @@ proxies:
   tls: true
   type: vless
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 22|C🟠🇭🇰[🤖🧠📺🎭]_dokng.com_d4367aa9
-  network: grpc
-  port: 10127
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - name: 22|C🟠🇭🇰[🎬📺]_dokng.com_db363b3a
   password: admin
   port: 8899
@@ -47,9 +31,8 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: movie
-  name: 22,45,49|🇭🇰 香港 | HKG 5
+  name: 22,45,49,53|HK - zhuhai.uk 01
   network: grpc
   packet-encoding: xudp
   port: 10136
@@ -124,9 +107,8 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: movie
-  name: 45|🇭🇰HK_5|5.0MB/s
+  name: 45,53|HK - zhuhai.uk 03
   network: grpc
   packet-encoding: xudp
   port: 10130
@@ -137,6 +119,7 @@ proxies:
   servername: s0.awsstatic.com
   tls: true
   type: vless
+  udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - client-fingerprint: chrome
   grpc-opts:
@@ -153,3 +136,18 @@ proxies:
   tls: true
   type: vless
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 53|HK - zhuhai.uk 02
+  network: grpc
+  port: 10127
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk2-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232

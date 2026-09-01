@@ -51,7 +51,7 @@ proxies:
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
     path: /8f2690e2d016
-- name: 22|U⚪🏳️_dokng.com_5476324f
+- name: 22,53|US - zhuhai.uk 04
   password: test123
   port: 1080
   server: 185.145.99.41
@@ -73,7 +73,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 45,53|JP - zhuhai.uk 02
+  name: 45|🇯🇵JP_1|1.7MB/s
   network: tcp
   port: 15007
   reality-opts:
@@ -81,7 +81,6 @@ proxies:
     short-id: 2c4d005b
   server: 82.38.46.66
   servername: www.bing.com
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -97,22 +96,6 @@ proxies:
   uuid: 3165b4d0-40f7-4df0-9f59-4c89ccdac92d
   ws-opts:
     path: /3bfc3e3ed603
-- name: 49|🇬🇧 英国 | GBR
-  network: tcp
-  port: 22222
-  server: 51.24.3.30
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 49|🇬🇧 英国 | GBR 2
-  network: tcp
-  port: 22223
-  server: 51.24.3.30
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 49|🇬🇧 英国 | GBR 4

@@ -27,7 +27,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_62bb2c7c
+- name: 22,53|NL - zhuhai.uk
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
@@ -135,6 +135,23 @@ proxies:
   port: 443
   server: nl-1.tr202607.com
   type: trojan
+- client-fingerprint: edge
+  name: 45|🇩🇪DE_5|1.4MB/s
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: f79448a30d
+  server: de-xh01.tcp-reset-club.net
+  servername: s3.netavex.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0678ed07-980a-49c1-9066-05caec654967
+  xhttp-opts:
+    mode: packet-up
+    path: /assets/v2/pkg
+  xudp: true
 - name: '45,52|NL_speednode_0005 #1'
   password: None
   port: 9002

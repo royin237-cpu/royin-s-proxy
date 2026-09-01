@@ -1,5 +1,5 @@
 {
-  "total": 291,
+  "total": 285,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
@@ -14,7 +14,7 @@
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 2
+      "count": 3
     },
     "HK": {
       "flag": "🇭🇰",
@@ -34,22 +34,22 @@
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 10
+      "count": 9
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 14
+      "count": 13
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 14
+      "count": 12
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 5
+      "count": 6
     },
     "RU": {
       "flag": "🇷🇺",
@@ -59,7 +59,7 @@
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 20
+      "count": 19
     },
     "SE": {
       "flag": "🇸🇪",
@@ -79,7 +79,7 @@
     "NL": {
       "flag": "🇳🇱",
       "name": "荷兰",
-      "count": 23
+      "count": 24
     },
     "RO": {
       "flag": "🇷🇴",
@@ -114,12 +114,12 @@
     "ES": {
       "flag": "🇪🇸",
       "name": "西班牙",
-      "count": 9
+      "count": 6
     },
     "BR": {
       "flag": "🇧🇷",
       "name": "巴西",
-      "count": 7
+      "count": 6
     },
     "VN": {
       "flag": "🇻🇳",
@@ -152,8 +152,8 @@
       "count": 8
     }
   },
-  "update_time": "2026-09-02 00:10",
-  "server_time": "2026-09-02 00:11:33",
+  "update_time": "2026-09-02 00:50",
+  "server_time": "2026-09-02 00:51:27",
   "sources": [
     {
       "index": 0,
@@ -423,7 +423,7 @@
     {
       "index": 53,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 33
+      "nodes": 45
     },
     {
       "index": 54,

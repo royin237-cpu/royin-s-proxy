@@ -1,5 +1,5 @@
 proxies:
-- name: 22,53|PL - zhuhai.uk
+- name: 22|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_537be64e
   port: 443
   server: 151.115.54.133
   skip-cert-verify: true

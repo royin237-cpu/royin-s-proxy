@@ -53,10 +53,10 @@ proxies:
   udp: true
   uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
   xudp: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 22,53|DE - zhuhai.uk 01
+  name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_5344266d
   network: tcp
   port: 443
   reality-opts:
@@ -121,7 +121,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22,53|DE - zhuhai.uk
+- name: 22|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_62113475
   password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190
@@ -164,23 +164,6 @@ proxies:
   server: 148.230.110.203
   type: http
   username: null
-- client-fingerprint: edge
-  name: 45|🇩🇪DE_5|1.4MB/s
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: f79448a30d
-  server: de-xh01.tcp-reset-club.net
-  servername: s3.netavex.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0678ed07-980a-49c1-9066-05caec654967
-  xhttp-opts:
-    mode: packet-up
-    path: /assets/v2/pkg
-  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 49|🇩🇪 德国 | DEU 5
@@ -211,7 +194,7 @@ proxies:
   uuid: c2564a65-0821-3241-b090-45d49cef58fd
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 49|🇭🇰 香港 | HKG 8
+  name: 49,53|CA - zhuhai.uk 01
   network: tcp
   port: 10043
   reality-opts:
@@ -225,7 +208,7 @@ proxies:
   uuid: c2564a65-0821-3241-b090-45d49cef58fd
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 49|🇸🇬 新加坡 | SGP 3
+  name: 49,53|SG - zhuhai.uk 10
   network: tcp
   port: 10018
   reality-opts:

@@ -42,7 +42,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 19,22|B🟡🇹🇭[🎬🤖📺🎭]_dokng.com_aa18a91a
+  name: 19,22,53|TH - zhuhai.uk 02
   password: 7eadc6dbe2ae
   port: 65443
   server: 103.169.67.34
@@ -305,13 +305,27 @@ proxies:
       Host: vpn-node.internal
     path: /xVpnTrojanWsSvc7f3a
 - cipher: aes-256-cfb
-  name: 22,32|🇨🇳_CN_中国->🇰🇷_KR_韩国
+  name: 22,32,53|KR - zhuhai.uk 02
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.138
   skip-cert-verify: true
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 26,49|🇭🇰 香港 | HKG 9
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  ws-opts:
+    headers:
+      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 32|🇨🇳_CN_中国
@@ -467,27 +481,3 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 53|IN - zhuhai.uk 02
-  network: ws
-  port: 16626
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: 62e0878c-ff8c-4a67-b18f-89886e24750c
-  ws-opts:
-    headers:
-      Host: 706a0a2fb2f7729acf9a103060a7abc3.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 53|HK - zhuhai.uk 02
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: bc8a58c9-a544-4f85-87cf-274f6eb4d8cb
-  ws-opts:
-    headers:
-      Host: 9531724e3efc3135bdf7f4339b2e04d7.mobgslb.tbcache.com
-    path: /
