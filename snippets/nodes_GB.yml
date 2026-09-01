@@ -6,3 +6,26 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 22|C🟠🇬🇧[🎬📺🎭🎪]_dokng.com_5cec019e
+  password: amazonskr05
+  port: 443
+  server: 18.175.119.181
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 22|C🟠🇬🇧[🤖]_dokng.com_31ee3f2b
+  password: amazonskr05
+  port: 443
+  server: 18.132.203.206
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  name: 22|A🟢🇬🇧[🎬🤖📺🎭]_dokng.com_2885fd20
+  password: tripitropa994825
+  port: 2234
+  server: 45.85.88.194
+  skip-cert-verify: true
+  sni: vps.tropicalhosting.net
+  type: trojan

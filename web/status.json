@@ -1,20 +1,20 @@
 {
-  "total": 274,
+  "total": 291,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 7
+      "count": 18
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 58
+      "count": 68
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 3
+      "count": 2
     },
     "HK": {
       "flag": "🇭🇰",
@@ -24,27 +24,27 @@
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 1
+      "count": 2
     },
     "CA": {
       "flag": "🇨🇦",
       "name": "加拿大",
-      "count": 3
+      "count": 1
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 8
+      "count": 10
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 16
+      "count": 14
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 19
+      "count": 14
     },
     "KR": {
       "flag": "🇰🇷",
@@ -54,17 +54,17 @@
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 2
+      "count": 8
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 17
+      "count": 20
     },
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 5
+      "count": 3
     },
     "EE": {
       "flag": "🇪🇪",
@@ -74,12 +74,12 @@
     "CH": {
       "flag": "🇨🇭",
       "name": "瑞士",
-      "count": 2
+      "count": 1
     },
     "NL": {
       "flag": "🇳🇱",
       "name": "荷兰",
-      "count": 17
+      "count": 23
     },
     "RO": {
       "flag": "🇷🇴",
@@ -89,7 +89,7 @@
     "IN": {
       "flag": "🇮🇳",
       "name": "印度",
-      "count": 1
+      "count": 2
     },
     "TH": {
       "flag": "🇹🇭",
@@ -104,7 +104,7 @@
     "AU": {
       "flag": "🇦🇺",
       "name": "澳大利亚",
-      "count": 1
+      "count": 3
     },
     "IT": {
       "flag": "🇮🇹",
@@ -114,7 +114,7 @@
     "ES": {
       "flag": "🇪🇸",
       "name": "西班牙",
-      "count": 2
+      "count": 9
     },
     "BR": {
       "flag": "🇧🇷",
@@ -129,7 +129,7 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 1
+      "count": 3
     },
     "PH": {
       "flag": "🇵🇭",
@@ -144,7 +144,7 @@
     "PL": {
       "flag": "🇵🇱",
       "name": "波兰",
-      "count": 7
+      "count": 4
     },
     "FI": {
       "flag": "🇫🇮",
@@ -152,8 +152,8 @@
       "count": 8
     }
   },
-  "update_time": "2026-09-01 23:56",
-  "server_time": "2026-09-01 23:57:38",
+  "update_time": "2026-09-02 00:10",
+  "server_time": "2026-09-02 00:11:33",
   "sources": [
     {
       "index": 0,

@@ -1,4 +1,9 @@
 proxies:
+- name: 40|🇦🇺AU-87.121.33.164-5032
+  password: JA96378052
+  port: 443
+  server: evident-gnat.rooster465.autos
+  type: trojan
 - name: 40|🇦🇺AU-87.121.33.14-5057
   password: PD07395842
   port: 443

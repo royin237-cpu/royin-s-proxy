@@ -1,22 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
-  name: 22,45,49|🇭🇰 香港 | HKG
-  network: grpc
-  packet-encoding: xudp
-  port: 10128
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk3-r.link-t7.com
-  servername: s0.awsstatic.com
+- name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_8cb372cb
+  port: 443
+  server: hk40.240104.xyz
+  sni: hk40.240104.xyz
   tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+  type: http
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
@@ -33,6 +21,22 @@ proxies:
   tls: true
   type: vless
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 22|C🟠🇭🇰[🤖🧠📺🎭]_dokng.com_d4367aa9
+  network: grpc
+  port: 10127
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - name: 22|C🟠🇭🇰[🎬📺]_dokng.com_db363b3a
   password: admin
   port: 8899
@@ -58,13 +62,6 @@ proxies:
   type: vless
   udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- name: 22|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_de4eaa15
-  port: 443
-  server: fan.240104.xyz
-  skip-cert-verify: true
-  sni: fan.240104.xyz
-  tls: true
-  type: http
 - name: 22|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_d8a84f16
   password: abc123
   port: 1080
@@ -92,6 +89,21 @@ proxies:
     headers:
       Host: vpn-node.internal
     path: /xVpnTrojanWsSvc7f3a
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 22|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_9cf9cd36
+  network: ws
+  password: d59fc9a4-14db-49d7-b922-59976bcd49cb
+  port: 49167
+  server: 58.152.46.127
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
 - name: 22|C🟠🇭🇰[✈️🔍]_dokng.com_099454ad
   password: '!!str 111'
   port: 11211
@@ -108,11 +120,6 @@ proxies:
   password: IL37892054
   port: 443
   server: just-alpaca.rooster465.autos
-  type: trojan
-- name: 40|🇭🇰HK-91.199.84.204-5051
-  password: XG59623478
-  port: 443
-  server: growing-oyster.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
   encryption: none

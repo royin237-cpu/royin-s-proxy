@@ -1,8 +1,23 @@
 proxies:
-- name: 45|🇺🇸US_10|2.0MB/s
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  sni: fullmanfirm.icu
+- name: 22,53|ID - zhuhai.uk
+  password: freeuser1
+  port: 9251
+  server: sr2-id.freeconnect.link
+  sni: sr2-id.freeconnect.link
   tls: true
   type: http
+  username: freeuser1
+- name: 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_54a270d5
+  password: freeuser1
+  port: 9251
+  server: cr2-id.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- name: 22|U⚪🏳️[🎬🤖📺🎪]_dokng.com_87bf668a
+  password: freeuser1
+  port: 9251
+  server: cr1-id.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1

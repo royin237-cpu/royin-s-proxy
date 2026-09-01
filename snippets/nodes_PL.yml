@@ -4,8 +4,3 @@ proxies:
   port: 443
   server: top-goshawk.rooster465.autos
   type: trojan
-- name: 40|🇵🇱PL-202.78.163.19-5054
-  password: KV63147582
-  port: 443
-  server: game-firefly.rooster465.autos
-  type: trojan

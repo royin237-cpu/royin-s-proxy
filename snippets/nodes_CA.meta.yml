@@ -1,24 +1,8 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 19,22,45|🇨🇦CA_1|1011KB/s
+  name: 22|C🟠🇨🇦[🎬🤖📺🎭]_dokng.com_6623638c
   password: amazonskr05
   port: 443
-  server: 35.182.129.250
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 32,49|🇨🇦 加拿大 | CAN
-  password: amazonskr05
-  port: 443
-  server: 3.96.124.46
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 32|🇨🇦_CA_加拿大_1
-  password: amazonskr05
-  port: 443
-  server: 35.182.226.121
-  skip-cert-verify: true
+  server: 3.97.16.160
   type: ss
   udp: true

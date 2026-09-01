@@ -14,6 +14,21 @@ proxies:
     headers:
       Host: vpn-node.internal
     path: /xVpnTrojanWsSvc7f3a
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 22|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_9cf9cd36
+  network: ws
+  password: d59fc9a4-14db-49d7-b922-59976bcd49cb
+  port: 49167
+  server: 58.152.46.127
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
 - name: 40|🇭🇰HK-185.14.47.56-5041
   password: NQ26071394
   port: 443
@@ -23,9 +38,4 @@ proxies:
   password: IL37892054
   port: 443
   server: just-alpaca.rooster465.autos
-  type: trojan
-- name: 40|🇭🇰HK-91.199.84.204-5051
-  password: XG59623478
-  port: 443
-  server: growing-oyster.rooster465.autos
   type: trojan

@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 22,49|🇯🇵 日本 | JPN
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  type: ss
 - alterId: 64
   cipher: auto
   name: 32|🇨🇳_CN_中国

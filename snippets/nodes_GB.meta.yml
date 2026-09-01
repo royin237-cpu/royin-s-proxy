@@ -6,100 +6,58 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 22,32|🇭🇰_HK_中国香港_1
-  network: tcp
-  port: 15003
-  reality-opts:
-    public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
-    short-id: 4c517b9e
-  server: nian.001.url111.kcloud02.top
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 22|C🟠🇬🇧[🎬📺🎭🎪]_dokng.com_5cec019e
+  password: amazonskr05
+  port: 443
+  server: 18.175.119.181
+  type: ss
   udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-  xudp: true
-- name: 22|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_0b79ac8a
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 22,45|🇬🇧GB_4|1.2MB/s
-  password: None
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 22|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_b747b935
-  password: None
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 22|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_b218a6a3
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 22,45,53|GB - zhuhai.uk
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_426f07c5
-  password: None
-  port: 32766
-  server: 178.62.83.124
-  type: http
-  username: null
 - name: 22|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_7d7f3a77
   port: 8443
   server: 5.101.149.245
   tls: true
   type: http
-- name: 22|D🔴🇬🇧[🎬🤖📺🎪]_dokng.com_485cc62b
+- cipher: aes-256-cfb
+  name: 22|C🟠🇬🇧[🤖]_dokng.com_31ee3f2b
+  password: amazonskr05
   port: 443
-  server: 212.102.63.31
+  server: 18.132.203.206
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  name: 22|A🟢🇬🇧[🎬🤖📺🎭]_dokng.com_2885fd20
+  password: tripitropa994825
+  port: 2234
+  server: 45.85.88.194
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 22|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_566b18be
+  sni: vps.tropicalhosting.net
+  type: trojan
+- name: 22|A🟢🇬🇧[🎬🤖📺🎭]_dokng.com_2b63c5ca
   password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
+  port: 3118
+  server: 154.61.56.215
   type: http
   username: null
-- name: 22|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_fed9fc96
-  password: None
-  port: 443
-  server: 37.120.233.50
+- name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_2e110cfe
+  network: ws
+  port: 2087
+  server: 188.220.67.181
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 22|C🟠🇬🇧[🤖📺🎭🎪]_dokng.com_31fdb5da
-  port: 443
-  server: 193.36.118.210
-  skip-cert-verify: true
-  tls: true
-  type: http
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    path: /8f2690e2d016
+- name: 22|U⚪🏳️_dokng.com_5476324f
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks5
+  udp: true
+  username: test123
 - client-fingerprint: chrome
   name: 32,49|🇩🇪 德国 | DEU
   network: ws
@@ -113,51 +71,48 @@ proxies:
   ws-opts:
     path: /8f2690e2d016
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 45|🇭🇰HK_4|1.4MB/s
-  port: 15003
+  name: 45,53|JP - zhuhai.uk 02
+  network: tcp
+  port: 15007
   reality-opts:
-    public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
-    short-id: 4c517b9e
+    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
+    short-id: 2c4d005b
   server: 82.38.46.66
-  servername: www.cloudflare.com
+  servername: www.bing.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 45,53|SG - zhuhai.uk
-  port: 15006
-  reality-opts:
-    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
-    short-id: 029a6cc4
-  server: nian.001.url111.kcloud02.top
-  servername: www.adobe.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- name: 45|🇬🇧GB_1|1.1MB/s
-  password: None
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 49|🇩🇪 德国 | DEU 2
+  xudp: true
+- name: 49|🇩🇪 德国 | DEU 3
   network: ws
   port: 2087
-  server: 188.220.67.224
+  server: 82.24.203.10
   tls: false
   type: vless
   udp: true
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  uuid: 3165b4d0-40f7-4df0-9f59-4c89ccdac92d
   ws-opts:
-    path: /8f2690e2d016
+    path: /3bfc3e3ed603
+- name: 49|🇬🇧 英国 | GBR
+  network: tcp
+  port: 22222
+  server: 51.24.3.30
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 49|🇬🇧 英国 | GBR 2
+  network: tcp
+  port: 22223
+  server: 51.24.3.30
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 49|🇬🇧 英国 | GBR 4

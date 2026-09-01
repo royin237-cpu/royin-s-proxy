@@ -6,21 +6,15 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 40|🇸🇬SG-91.243.81.223-5034
-  password: XG59623478
-  port: 443
-  server: enabling-asp.rooster465.autos
-  type: trojan
-- name: 40|🇸🇬SG-91.243.81.39-5035
-  password: CF68213490
-  port: 443
-  server: harmless-lab.rooster465.autos
-  type: trojan
-- name: 40|🇸🇬SG-45.135.228.19-5044
-  password: NQ26071394
-  port: 443
-  server: fun-labrador.rooster465.autos
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 22|C🟠🇸🇬[📺🔍]_dokng.com_4834a126
+  network: none
+  port: 23267
+  server: 47.236.207.245
+  tls: false
+  type: vmess
+  uuid: 6a15faf6-3d61-4c93-974e-8ca01f2aa451
 - name: 40|🇸🇬SG-91.243.81.142-5045
   password: WG39087154
   port: 443
@@ -41,15 +35,15 @@ proxies:
   port: 443
   server: firm-squid.rooster465.autos
   type: trojan
+- name: 40|🇸🇬SG-81.28.13.63-5062
+  password: CF68213490
+  port: 443
+  server: tolerant-rattler.rooster465.autos
+  type: trojan
 - name: 40|🇸🇬SG-81.28.13.86-5063
   password: WG39087154
   port: 443
   server: caring-ghoul.rooster465.autos
-  type: trojan
-- name: 40|🇸🇬SG-81.28.13.69-5064
-  password: NQ26071394
-  port: 443
-  server: quiet-condor.rooster465.autos
   type: trojan
 - name: 40|🇸🇬SG-91.243.81.188-5065
   password: CF68213490
