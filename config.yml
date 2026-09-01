@@ -44,13 +44,13 @@ proxy-groups:
   - 🗺️ 选择地区
 - name: ♻ 自动选择
   type: url-test
-  url: http://www.gstatic.com/generate_204
+  url: https://speed.cloudflare.com/__down?bytes=200000
   interval: 300
   proxies: []
   tolerance: 150
 - name: 🔰 延迟最低
   type: url-test
-  url: http://www.gstatic.com/generate_204
+  url: https://speed.cloudflare.com/__down?bytes=200000
   interval: 300
   proxies: []
   tolerance: 100

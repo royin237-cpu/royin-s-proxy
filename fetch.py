@@ -1575,7 +1575,7 @@ def main():
         # 地区子组模板：fallback 类型，自动逐个探测首个可用节点
         ctg_auto = ctg_base.copy()
         ctg_auto['type'] = 'fallback'
-        ctg_auto['url'] = 'http://www.gstatic.com/generate_204'
+        ctg_auto['url'] = 'https://speed.cloudflare.com/__down?bytes=200000'
         ctg_auto['interval'] = 300
         for ctg, payload in ctg_nodes.items():
             if ctg in ctg_disp:
@@ -1610,7 +1610,7 @@ def main():
         # 地区子组模板：fallback 类型，自动逐个探测首个可用节点
         ctg_auto = ctg_base.copy()
         ctg_auto['type'] = 'fallback'
-        ctg_auto['url'] = 'http://www.gstatic.com/generate_204'
+        ctg_auto['url'] = 'https://speed.cloudflare.com/__down?bytes=200000'
         ctg_auto['interval'] = 300
         for ctg, payload in ctg_nodes_meta.items():
             if ctg in ctg_disp:

@@ -1,8 +1,1 @@
-proxies:
-- name: 22|D🔴🇰🇷[🎬🤖📺🎭]_dokng.com_07e047d3
-  password: ''
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
-  udp: true
-  username: ''
+proxies: []
