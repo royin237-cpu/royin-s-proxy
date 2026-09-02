@@ -23,11 +23,3 @@ proxies:
   server: 112.64.135.45
   type: http
   username: null
-- cipher: aes-256-cfb
-  name: 22,32,53|US - zhuhai.uk 07
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  skip-cert-verify: true
-  type: ss
-  udp: true

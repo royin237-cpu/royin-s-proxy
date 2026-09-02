@@ -16,7 +16,7 @@ proxies:
   sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
   tls: true
   type: http
-- name: 22,45,49,53|FR - zhuhai.uk
+- name: 22,45,49|🇫🇷 法国 | FRA 4
   password: github.com/Alvin9999-newpac/fanqiang
   port: 51133
   server: ip4.934618.xyz
@@ -58,10 +58,11 @@ proxies:
   type: socks5
 - alterId: 0
   cipher: auto
-  name: 45|🇭🇰HK_3|5.2MB/s
+  name: 39,40,45|🇭🇰HK_3|5.2MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess

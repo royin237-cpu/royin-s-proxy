@@ -24,9 +24,8 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: update
-  name: 22,49|🇭🇰 香港 | HKG 2
+  name: 22,49,53|HK - zhuhai.uk 03
   network: grpc
   port: 10127
   reality-opts:
@@ -42,7 +41,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: movie
-  name: 22,45,49,53|HK - zhuhai.uk 03
+  name: 22,45,49,53|HK - zhuhai.uk 04
   network: grpc
   packet-encoding: xudp
   port: 10130
@@ -117,17 +116,17 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: '111'
-- name: 40|🇭🇰HK-185.14.47.56-5046
+- name: 40|🇭🇰HK-185.14.47.56-4599
   password: NQ26071394
   port: 443
   server: kind-unicorn.rooster465.autos
   type: trojan
-- name: 40|🇭🇰HK-185.244.208.25-5048
+- name: 40|🇭🇰HK-185.244.208.25-4601
   password: IL37892054
   port: 443
   server: just-alpaca.rooster465.autos
   type: trojan
-- name: 40|🇭🇰HK-91.199.84.204-5100
+- name: 40|🇭🇰HK-91.199.84.204-4651
   password: XG59623478
   port: 443
   server: growing-oyster.rooster465.autos

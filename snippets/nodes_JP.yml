@@ -14,33 +14,33 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- name: 40|🇯🇵JP-85.234.83.230-4965
+- name: '39,40|🇯🇵JP-95.85.94.57-4711 #1'
+  password: CF68213490
+  port: 443
+  server: gentle-mastiff.rooster465.autos
+  type: trojan
+- name: 40|🇯🇵JP-85.234.83.230-4528
   password: ND91608427
   port: 443
   server: sensible-mongrel.rooster465.autos
   type: trojan
-- name: 40|🇯🇵JP-95.85.94.208-5005
+- name: 40|🇯🇵JP-95.85.94.208-4559
   password: NQ26071394
   port: 443
   server: ready-kangaroo.rooster465.autos
   type: trojan
-- name: 40|🇯🇵JP-31.223.184.104-5057
+- name: 40|🇯🇵JP-31.223.184.104-4610
   password: NQ26071394
   port: 443
   server: correct-starfish.rooster465.autos
   type: trojan
-- name: 40|🇯🇵JP-85.234.83.45-5096
+- name: 40|🇯🇵JP-85.234.83.45-4645
   password: NQ26071394
   port: 443
   server: gentle-platypus.rooster465.autos
   type: trojan
-- name: 40|🇯🇵JP-94.177.131.233-5161
+- name: 40|🇯🇵JP-94.177.131.233-4709
   password: JT80563429
   port: 443
   server: musical-shrew.rooster465.autos
-  type: trojan
-- name: 40|🇯🇵JP-95.85.94.57-5164
-  password: CF68213490
-  port: 443
-  server: gentle-mastiff.rooster465.autos
   type: trojan

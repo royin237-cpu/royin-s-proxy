@@ -9,67 +9,67 @@ proxies:
   port: 2377
   server: 59.125.62.188
   type: ss
-- name: 40|🇹🇼TW-211.75.143.195-2744
+- name: 40|🇹🇼TW-203.69.207.175-2297
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.co.ua
   type: trojan
-- name: 40|🇹🇼TW-61.222.160.199-2813
+- name: 40|🇹🇼TW-61.216.76.139-2366
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.kiev.ua
   type: trojan
-- name: 40|🇹🇼TW-125.227.152.109-2858
+- name: 40|🇹🇼TW-203.69.207.175-2411
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.if.ua
   type: trojan
-- name: 40|🇹🇼TW-61.222.160.199-2880
+- name: 40|🇹🇼TW-125.227.152.109-2433
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.org.ua
   type: trojan
-- name: 40|🇹🇼TW-125.227.152.109-2936
+- name: 40|🇹🇼TW-61.222.160.199-2489
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.kyiv.ua
   type: trojan
-- name: 40|🇹🇼TW-125.227.152.109-2938
+- name: 40|🇹🇼TW-125.227.152.109-2491
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.dp.ua
   type: trojan
-- name: 40|🇹🇼TW-61.216.76.139-2982
+- name: 40|🇹🇼TW-61.222.160.199-2535
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.ivano-frankivsk.ua
   type: trojan
-- name: 40|🇹🇼TW-61.216.76.139-3094
+- name: 40|🇹🇼TW-61.222.160.199-2647
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.biz.ua
   type: trojan
-- name: 40|🇹🇼TW-211.75.143.195-3133
+- name: 40|🇹🇼TW-61.216.76.139-2686
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.cn.ua
   type: trojan
-- name: 40|🇹🇼TW-61.216.76.139-3152
+- name: 40|🇹🇼TW-211.75.143.195-2705
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.chernovtsy.ua
   type: trojan
-- name: 40|🇹🇼TW-211.75.143.195-3155
+- name: 40|🇹🇼TW-61.222.160.199-2708
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.net.ua
   type: trojan
-- name: 40|🇹🇼TW-61.216.76.139-3201
+- name: 40|🇹🇼TW-203.69.207.175-2754
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.com.ua
   type: trojan
-- name: 40|🇹🇼TW-125.227.152.109-4999
+- name: 40|🇹🇼TW-61.216.76.139-4551
   password: 736cd94d-7b94-3e44-8106-3419f64eaf09
   port: 3462
   server: a12.taipeicitygovernment.org.ua

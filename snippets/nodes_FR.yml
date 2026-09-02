@@ -7,10 +7,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 45|🇭🇰HK_3|5.2MB/s
+  name: 39,40,45|🇭🇰HK_3|5.2MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess

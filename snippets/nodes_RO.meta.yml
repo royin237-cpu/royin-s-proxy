@@ -37,15 +37,15 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22,45,52,53|RO - zhuhai.uk
+- name: 22,45,52,53|RO - zhuhai.uk 02
   port: 9002
   server: 193.176.84.20
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: 193.176.84.20
   tls: true
   type: http
   udp: true
-- name: '22,45,52|RO_speednode_0045 #1'
+- name: 22,45,52,53|RO - zhuhai.uk 03
   port: 9002
   server: 193.176.84.17
   skip-cert-verify: true
@@ -128,14 +128,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 45,53|RO - zhuhai.uk 03
+- name: 45|🇷🇴RO_7|2.3MB/s
   port: 9002
   server: 193.176.84.26
   skip-cert-verify: true
-  sni: 193.176.84.26
+  sni: www.bing.com
   tls: true
   type: http
-- name: 45|🇷🇴RO_8|3.4MB/s
+- name: 45,53|RO - zhuhai.uk
   port: 9002
   server: 193.176.84.31
   skip-cert-verify: true

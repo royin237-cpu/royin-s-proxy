@@ -29,10 +29,11 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22|D🔴🇮🇹[🎬🤖📺🎭]_dokng.com_9b8722f4
+- name: 22,53|IT - zhuhai.uk
   port: 443
   server: 109.116.41.154
   skip-cert-verify: true
+  sni: 109.116.41.154
   tls: true
   type: http
 - name: 22|D🔴🇮🇹[🎬🤖📺🎪]_dokng.com_d1cc6278

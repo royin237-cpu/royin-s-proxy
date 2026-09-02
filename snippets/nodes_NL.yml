@@ -6,7 +6,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 40|🇳🇱NL-78.142.194.96-5044
+- name: 40|🇳🇱NL-78.142.194.96-4597
   password: LSS6HLnp7IeEEJUcox
   port: 443
   server: nl-1.tr202607.com

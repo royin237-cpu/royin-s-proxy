@@ -1,7 +1,1 @@
-proxies:
-- name: 40|🇨🇭CH-138.124.63.106-0297
-  password: kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi
-  port: 443
-  server: tr-latvia1.unlimited-access.ru
-  sni: tr-latvia1.unlimited-access.ru
-  type: trojan
+proxies: []

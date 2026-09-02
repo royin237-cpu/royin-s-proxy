@@ -9,12 +9,12 @@
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 65
+      "count": 66
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 4
+      "count": 3
     },
     "HK": {
       "flag": "🇭🇰",
@@ -24,7 +24,7 @@
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 1
+      "count": 16
     },
     "CA": {
       "flag": "🇨🇦",
@@ -74,7 +74,7 @@
     "CH": {
       "flag": "🇨🇭",
       "name": "瑞士",
-      "count": 3
+      "count": 2
     },
     "NL": {
       "flag": "🇳🇱",
@@ -99,7 +99,7 @@
     "TR": {
       "flag": "🇹🇷",
       "name": "土耳其",
-      "count": 12
+      "count": 11
     },
     "AU": {
       "flag": "🇦🇺",
@@ -119,7 +119,7 @@
     "BR": {
       "flag": "🇧🇷",
       "name": "巴西",
-      "count": 10
+      "count": 11
     },
     "VN": {
       "flag": "🇻🇳",
@@ -152,8 +152,8 @@
       "count": 10
     }
   },
-  "update_time": "2026-09-02 12:23",
-  "server_time": "2026-09-02 12:24:47",
+  "update_time": "2026-09-02 12:52",
+  "server_time": "2026-09-02 12:54:08",
   "sources": [
     {
       "index": 0,
@@ -358,7 +358,7 @@
     {
       "index": 40,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 4161
+      "nodes": 4068
     },
     {
       "index": 41,
@@ -423,7 +423,7 @@
     {
       "index": 53,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 32
+      "nodes": 39
     },
     {
       "index": 54,

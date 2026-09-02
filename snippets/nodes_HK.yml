@@ -1,15 +1,15 @@
 proxies:
-- name: 40|🇭🇰HK-185.14.47.56-5046
+- name: 40|🇭🇰HK-185.14.47.56-4599
   password: NQ26071394
   port: 443
   server: kind-unicorn.rooster465.autos
   type: trojan
-- name: 40|🇭🇰HK-185.244.208.25-5048
+- name: 40|🇭🇰HK-185.244.208.25-4601
   password: IL37892054
   port: 443
   server: just-alpaca.rooster465.autos
   type: trojan
-- name: 40|🇭🇰HK-91.199.84.204-5100
+- name: 40|🇭🇰HK-91.199.84.204-4651
   password: XG59623478
   port: 443
   server: growing-oyster.rooster465.autos
