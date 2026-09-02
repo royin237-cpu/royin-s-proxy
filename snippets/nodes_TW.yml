@@ -1,14 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 15|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_1303c27e
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)7eb777f:123571
-    mode: tls
-  port: 2377
-  server: 59.125.62.188
-  type: ss
 - name: 27|🇹🇼TW-203.69.207.175-2297
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443

@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 33|未知152
+  name: 33|未知18
   network: ws
   port: 80
   server: 61.245.11.60

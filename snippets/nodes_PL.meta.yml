@@ -1,4 +1,16 @@
 proxies:
+- name: 15|D🔴🇵🇱[🎬🤖📺🎪]_dokng.com_18ecaa3e
+  password: None
+  port: 443
+  server: 37.120.156.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 15|A🟢🇵🇱[🤖📺🎭🎪]_dokng.com_805ac382
+  port: 7778
+  server: 91.238.54.189
+  type: http
 - name: 15|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_6d895544
   password: None
   port: 443
@@ -7,42 +19,8 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_537be64e
+- name: 27|🇵🇱PL-202.78.163.173-4604
+  password: WF42809561
   port: 443
-  server: 151.115.54.133
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 15,28|🇵🇱PL_2|2.7MB/s
-  password: None
-  port: 2053
-  server: 194.110.4.164
-  type: http
-  username: null
-- name: 15|D🔴🇵🇱[🤖📺🎭🎪]_dokng.com_12512f43
-  password: ''
-  port: 443
-  server: 37.120.156.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 15|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_805ac382
-  port: 7778
-  server: 91.238.54.189
-  type: http
-- encryption: none
-  name: 15|A🟢🇺🇸[🎬🤖🎪✨]_dokng.com_3dbfbac9
-  network: ws
-  port: 2087
-  server: 178.95.170.115
-  type: vless
-  udp: true
-  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /4bc027a44532
-  xudp: true
+  server: top-goshawk.rooster465.autos
+  type: trojan

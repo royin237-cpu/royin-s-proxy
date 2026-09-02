@@ -1,5 +1,5 @@
 proxies:
-- name: 15|U⚪🏳️[🎬🤖📺🎭]_dokng.com_d66d3f2e
+- name: 15|U⚪🏳️[🤖📺🎭✨]_dokng.com_d66d3f2e
   password: freeuser1
   port: 9251
   server: br4-tr.freeconnect.link
@@ -8,28 +8,13 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: 15|U⚪🏳️[📺🎪📦🔍]_dokng.com_342f3e57
+- name: 15|U⚪🏳️[🤖📺🎭🎪]_dokng.com_342f3e57
   password: freeuser1
   port: 9251
   server: br3-tr.freeconnect.link
   tls: true
   type: http
   username: freeuser1
-- encryption: mlkem768x25519plus.native.0rtt.5SJmX8GGvlmVzd0r_T8yMc25nAj-kXw9Q4Cp831Vj1Y
-  name: 15|C🟠🇹🇷[🎬🤖📺🎭]_dokng.com_97e37ec8
-  network: ws
-  port: 21570
-  server: direct-tr01.korvexe.ir
-  type: vless
-  udp: true
-  uuid: c7a9c7f0-4a6b-414e-bdfc-8ad8980f858b
-  ws-opts:
-    headers:
-      Host: direct-tr01.korvexe.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
 - name: '16,28|土耳其 #3'
   password: 1ba59989-225e-4f1c-ab62-9bd7366009cb
   port: 443
@@ -39,11 +24,12 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇷TR-37.221.79.48-0784
+  name: 19,27|🇹🇷TR-37.221.79.48-0784
   network: ws
   port: 443
   server: v2ray.online
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
@@ -51,6 +37,66 @@ proxies:
     headers:
       Host: Kansas.v2ray.online
     path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 19,33|未知120
+  network: tcp
+  port: 8080
+  server: 213.156.152.63
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d9681916-5a85-44c8-86a2-9fcae87cf850
+- name: 19|俄罗斯 009
+  network: tcp
+  port: 110
+  server: 91.228.227.172
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02a96d4d-f2f5-4c0b-ba83-d24aec5defb8
+- name: 19|俄罗斯 010
+  network: tcp
+  port: 443
+  server: 91.228.227.172
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02a96d4d-f2f5-4c0b-ba83-d24aec5defb8
+- name: 19|土耳其 003
+  network: tcp
+  port: 443
+  server: 139.28.241.77
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d5c40b1-102c-4343-94cc-d5b794dbd0c6
+- name: 19|美国 693
+  network: tcp
+  port: 56539
+  server: 212.115.103.189
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5539644-22ce-4140-96c9-9e844318ce24
+- name: 19|俄罗斯 026
+  network: tcp
+  port: 8080
+  server: 91.228.227.172
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: baf36ee9-0e2c-40b9-bf1a-76e542b4da9f
 - alterId: 0
   cipher: auto
   name: 27|🇹🇷TR-37.221.79.48-1054
@@ -95,27 +141,7 @@ proxies:
     path: /wss13889
 - alterId: 0
   cipher: auto
-  name: 33|未知49
-  network: tcp
-  port: 13301
-  server: tr2.pi10.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 113ae61b-d6da-4d08-9221-48595cb8436c
-- alterId: 0
-  cipher: auto
-  name: 33|未知137
-  network: tcp
-  port: 8080
-  server: 213.156.152.63
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d9681916-5a85-44c8-86a2-9fcae87cf850
-- alterId: 0
-  cipher: auto
-  name: 33|未知145
+  name: 33|未知78
   network: tcp
   port: 5384
   server: dashboard.aframarket.top
@@ -123,3 +149,13 @@ proxies:
   tls: true
   type: vmess
   uuid: 130b0fbf-4f19-44d0-911f-95355e9632e4
+- alterId: 0
+  cipher: auto
+  name: 33|未知126
+  network: tcp
+  port: 13301
+  server: tr2.pi10.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 113ae61b-d6da-4d08-9221-48595cb8436c

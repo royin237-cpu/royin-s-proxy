@@ -1,11 +1,12 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇮FI-65.21.240.108-3141
+  name: 19,27|🇫🇮FI-65.21.240.108-3141
   network: http
   port: 443
   server: 65.21.240.108
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
