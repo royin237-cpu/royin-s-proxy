@@ -3,12 +3,6 @@ proxies:
   port: 7676
   server: 65.109.179.182
   type: http
-- name: 15|U⚪🏳️_dokng.com_6b6eea02
-  password: None
-  port: 3001
-  server: 135.181.116.225
-  type: http
-  username: null
 - name: '16,17,28|5🔒@oneclickvpnkeys #1'
   password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
   port: 443

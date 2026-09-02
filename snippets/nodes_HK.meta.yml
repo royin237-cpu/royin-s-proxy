@@ -2,9 +2,8 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: movie
-  name: 15,24,28|🇭🇰HK_4|5.1MB/s
+  name: 15,24,28,35|HK - zhuhai.uk 03
   network: grpc
   packet-encoding: xudp
   port: 10128
@@ -29,6 +28,23 @@ proxies:
   server: 47.239.98.42
   type: socks5
   username: abc123
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: movie
+  name: 15,24,28,35|HK - zhuhai.uk
+  network: grpc
+  packet-encoding: xudp
+  port: 10136
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk6-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - name: 15|C🟠🇭🇰[📦✈️🔍]_dokng.com_099454ad
   password: '!!str 111'
   port: 11211
@@ -47,7 +63,7 @@ proxies:
   port: 10808
   server: 123.58.219.171
   type: socks5
-- name: 15,35|HK - zhuhai.uk 02
+- name: 15|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_de4eaa15
   port: 443
   server: fan.240104.xyz
   skip-cert-verify: true
@@ -56,8 +72,9 @@ proxies:
   type: http
 - client-fingerprint: chrome
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: update
-  name: 24,32,35|HK - zhuhai.uk 03
+  name: 24,32|🇭🇰 香港 | HKG
   network: grpc
   port: 10127
   reality-opts:
@@ -73,7 +90,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: movie
-  name: 24,28|🇭🇰HK_2|3.6MB/s
+  name: 24,28,35|HK - zhuhai.uk 06
   network: grpc
   packet-encoding: xudp
   port: 10129
@@ -87,18 +104,3 @@ proxies:
   udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
   xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  name: 35|HK - zhuhai.uk
-  network: grpc
-  port: 10136
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk6-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F

@@ -133,6 +133,14 @@ proxies:
   port: 443
   server: caring-wallaby.rooster465.autos
   type: trojan
+- name: 32|🇸🇬 新加坡 | SGP 7
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 47053
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: xjp202.pulsarcore.site
+  type: anytls
+  udp: true
 - name: 32|🇺🇸 美国 | USA 2
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 21386

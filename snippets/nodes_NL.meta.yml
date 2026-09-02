@@ -123,6 +123,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: '28,34|NL_speednode_0009 #1'
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 32|🇳🇱 荷兰 | NLD
   network: tcp
   port: 62145
@@ -130,11 +137,3 @@ proxies:
   tls: false
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 35|NL - zhuhai.uk
-  password: 'null'
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'

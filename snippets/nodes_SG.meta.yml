@@ -9,9 +9,8 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: update
-  name: 15,24|🇸🇬SG_3|3.4MB/s
+  name: 15,24,35|SG - zhuhai.uk 03
   network: grpc
   port: 10037
   reality-opts:
@@ -21,6 +20,7 @@ proxies:
   servername: s0.awsstatic.com
   tls: true
   type: vless
+  udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - name: 15|A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1
   password: ''
@@ -43,7 +43,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: update
-  name: 24,28|🇸🇬SG_1|5.7MB/s
+  name: 24,28,35|SG - zhuhai.uk 01
   network: grpc
   port: 10039
   reality-opts:
@@ -59,9 +59,8 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: update
-  name: 24|🇸🇬SG_2|2.6MB/s
+  name: 24,35|SG - zhuhai.uk 02
   network: grpc
   packet-encoding: xudp
   port: 10040
@@ -72,6 +71,7 @@ proxies:
   servername: d1.awsstatic.com
   tls: true
   type: vless
+  udp: true
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
 - name: '26,27|🇸🇬SG-81.28.13.69-4713 #1'
   password: NQ26071394
@@ -143,11 +143,3 @@ proxies:
   port: 443
   server: firm-squid.rooster465.autos
   type: trojan
-- name: 32|🇸🇬 新加坡 | SGP 7
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 47053
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: xjp202.pulsarcore.site
-  type: anytls
-  udp: true

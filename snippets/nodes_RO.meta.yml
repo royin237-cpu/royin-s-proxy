@@ -7,19 +7,12 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_0cb603c3
-  password: None
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '15,28,34|RO_speednode_0110 #1'
+- name: 15,28,34,35|RO - zhuhai.uk 04
   password: ''
   port: 9002
   server: 193.176.84.27
   skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -39,7 +32,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇷🇴[🤖📺]_dokng.com_37c76867
+- name: 15,35|RO - zhuhai.uk
   port: 9002
   server: 193.176.84.34
   skip-cert-verify: true
@@ -49,14 +42,6 @@ proxies:
   password: None
   port: 9002
   server: 193.176.84.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_9742de7b
-  password: None
-  port: 9002
-  server: 193.176.84.22
   skip-cert-verify: true
   tls: true
   type: http
@@ -78,7 +63,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: '15,28,34|RO_speednode_0124 #1'
+- name: 15,28,34,35|RO - zhuhai.uk 05
   port: 9002
   server: 193.176.84.32
   skip-cert-verify: true
@@ -86,11 +71,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15,35|RO - zhuhai.uk
+- name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_50511bed
   port: 9002
   server: 193.176.84.19
   skip-cert-verify: true
-  sni: 193.176.84.19
+  sni: www.bing.com
   tls: true
   type: http
 - name: '24,28,34|RO_speednode_0041 #1'
@@ -107,11 +92,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 24,28,34,35|RO - zhuhai.uk 02
+- name: '24,28,34|RO_speednode_0082 #1'
   port: 9002
   server: 193.176.84.24
   skip-cert-verify: true
-  sni: 193.176.84.24
   tls: true
   type: http
   udp: true
@@ -158,11 +142,24 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|RO - zhuhai.uk 04
-  password: 'null'
+- name: 35|RO - zhuhai.uk 02
+  port: 9002
+  server: 193.176.84.22
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 35|RO - zhuhai.uk 03
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 35|RO - zhuhai.uk 06
   port: 9002
   server: 193.176.84.23
   skip-cert-verify: true
+  sni: 193.176.84.23
   tls: true
   type: http
-  username: 'null'
