@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 22,32|🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
+  name: 15,21|🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
   network: tcp
   port: 443
   reality-opts:
@@ -15,7 +15,7 @@ proxies:
   udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
 - client-fingerprint: chrome
-  name: 32|🇬🇧_GB_英国->🇩🇪_DE_德国
+  name: 21|🇬🇧_GB_英国->🇩🇪_DE_德国
   network: ws
   port: 2087
   server: 188.220.67.198
@@ -28,7 +28,7 @@ proxies:
     path: /8f2690e2d016
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 32|🇨🇭_CH_瑞士->🇫🇮_FI_芬兰
+  name: 21|🇨🇭_CH_瑞士->🇫🇮_FI_芬兰
   port: 5001
   reality-opts:
     public-key: HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ

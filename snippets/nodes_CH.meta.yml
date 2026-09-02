@@ -1,11 +1,11 @@
 proxies:
-- name: 22|A🟢🇨🇭[🎬🤖📺🎭]_dokng.com_ad565b9f
+- name: 15|A🟢🇨🇭[🎬🤖📺🎭]_dokng.com_ad565b9f
   password: None
   port: 7272
   server: 212.65.190.199
   type: http
   username: null
-- name: 22,45|🇨🇭CH_1|3.4MB/s
+- name: 15,28|🇨🇭CH_1|3.4MB/s
   password: None
   port: 9443
   server: 37.120.213.210

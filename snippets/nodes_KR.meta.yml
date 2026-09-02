@@ -1,5 +1,5 @@
 proxies:
-- name: 22|D🔴🇰🇷[🎬🤖📺🎭]_dokng.com_15ee4ed9
+- name: 15|D🔴🇰🇷[🎬🤖📺🎭]_dokng.com_15ee4ed9
   password: None
   port: 1080
   server: 43.164.136.189
@@ -10,7 +10,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 22,45|🇰🇷KR_4|2.6MB/s
+  name: 15,28|🇰🇷KR_4|2.6MB/s
   network: grpc
   port: 10048
   reality-opts:
@@ -22,7 +22,7 @@ proxies:
   type: vless
   udp: true
   uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
-- name: 22|D🔴🇰🇷[🎬🤖📺🎭]_dokng.com_5b8e1a9b
+- name: 15|D🔴🇰🇷[🎬🤖📺🎭]_dokng.com_5b8e1a9b
   port: 1090
   server: 121.169.46.116
   tls: false
@@ -32,7 +32,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 45|🇰🇷KR_1|4.4MB/s
+  name: 28|🇰🇷KR_1|4.4MB/s
   network: grpc
   port: 10050
   reality-opts:
@@ -48,7 +48,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 45|🇰🇷KR_2|3.9MB/s
+  name: 28|🇰🇷KR_2|3.9MB/s
   network: grpc
   port: 10047
   reality-opts:

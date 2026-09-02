@@ -1,38 +1,21 @@
 proxies:
-- name: 17|🇭🇰 HK 10 → tg@nicevpn123
+- name: 11|🇭🇰 HK 10 → tg@nicevpn123
   password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
   port: 443
   server: chjs.lydurlclub.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 17|🇭🇰 HK 9 → tg@nicevpn123
+- name: 11|🇭🇰 HK 9 → tg@nicevpn123
   password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
   port: 443
   server: hkjs.lydurlclub.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 19|us|b9ea|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
 - alterId: 0
   cipher: auto
-  name: 32|🇺🇸_US_美国_5
+  name: 21|🇺🇸_US_美国_5
   port: 443
   server: guanwang.awsno.com
   skip-cert-verify: true

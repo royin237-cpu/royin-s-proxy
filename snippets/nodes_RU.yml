@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 17|🇷🇺 RU 70 → tg@nicevpn123
+  name: 11|🇷🇺 RU 70 → tg@nicevpn123
   network: ws
   port: 80
   server: 85.117.234.167
@@ -16,7 +16,7 @@ proxies:
     path: /TG@dns68免费节点
 - alterId: 64
   cipher: auto
-  name: 40|🇷🇺RU-171.22.134.12-7264
+  name: 27|🇷🇺RU-171.22.134.12-7264
   network: ws
   port: 443
   server: 171.22.134.12
@@ -30,7 +30,7 @@ proxies:
     path: /path/1689849487190
 - alterId: 64
   cipher: auto
-  name: 40|🇷🇺RU-171.22.134.12-7265
+  name: 27|🇷🇺RU-171.22.134.12-7265
   network: ws
   port: 443
   server: 171.22.134.12
@@ -44,7 +44,7 @@ proxies:
     path: /path/1689935243027
 - alterId: 0
   cipher: auto
-  name: 50|未知55
+  name: 33|未知55
   network: ws
   port: 443
   server: renderer-stream-2-62.mirra.now

@@ -1,32 +1,32 @@
 proxies:
-- name: 17|🇸🇬 SG 27 → tg@nicevpn123
+- name: 11|🇸🇬 SG 27 → tg@nicevpn123
   password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
   port: 443
   server: 139.162.49.215
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 40|🇸🇬SG-91.243.81.142-4609
+- name: 27|🇸🇬SG-91.243.81.142-4609
   password: WG39087154
   port: 443
   server: grateful-unicorn.rooster465.autos
   type: trojan
-- name: 40|🇸🇬SG-81.28.13.162-4710
+- name: 27|🇸🇬SG-81.28.13.162-4710
   password: KV63147582
   port: 443
   server: evolving-baboon.rooster465.autos
   type: trojan
-- name: 40|🇸🇬SG-81.28.13.63-4715
+- name: 27|🇸🇬SG-81.28.13.63-4715
   password: CF68213490
   port: 443
   server: tolerant-rattler.rooster465.autos
   type: trojan
-- name: 40|🇸🇬SG-81.28.13.151-4719
+- name: 27|🇸🇬SG-81.28.13.151-4719
   password: JA96378052
   port: 443
   server: primary-mallard.rooster465.autos
   type: trojan
-- name: 40|🇸🇬SG-91.243.81.188-4712
+- name: 27|🇸🇬SG-91.243.81.188-4712
   password: CF68213490
   port: 443
   server: polite-coyote.rooster465.autos

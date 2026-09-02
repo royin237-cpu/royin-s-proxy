@@ -1,5 +1,5 @@
 proxies:
-- name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_8cb372cb
+- name: 15|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_8cb372cb
   port: 443
   server: hk40.240104.xyz
   sni: hk40.240104.xyz
@@ -8,24 +8,8 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: update
-  name: 22|C🟠🇭🇰[🎬🧠📺🎪]_dokng.com_ddcae44c
-  network: grpc
-  port: 10126
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 22,49,53|HK - zhuhai.uk 03
+  name: 15,32,35|HK - zhuhai.uk 03
   network: grpc
   port: 10127
   reality-opts:
@@ -37,25 +21,7 @@ proxies:
   type: vless
   udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: movie
-  name: 22,45,49,53|HK - zhuhai.uk 04
-  network: grpc
-  packet-encoding: xudp
-  port: 10130
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk5-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-- name: 22|C🟠🇭🇰[🎬📺]_dokng.com_db363b3a
+- name: 15|C🟠🇭🇰[🎬📺]_dokng.com_db363b3a
   password: admin
   port: 8899
   server: 47.242.19.215
@@ -67,7 +33,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: movie
-  name: 22|C🟠🇭🇰[🎬🤖🧠📺]_dokng.com_d59ca89c
+  name: 15|C🟠🇭🇰[🎬🤖🧠📺]_dokng.com_d59ca89c
   network: grpc
   packet-encoding: xudp
   port: 10136
@@ -84,7 +50,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: movie
-  name: 22|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_0effc3db
+  name: 15|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_0effc3db
   network: grpc
   packet-encoding: xudp
   port: 10129
@@ -96,37 +62,37 @@ proxies:
   tls: true
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- name: 22|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_de4eaa15
+- name: 15|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_de4eaa15
   port: 443
   server: fan.240104.xyz
   skip-cert-verify: true
   sni: fan.240104.xyz
   tls: true
   type: http
-- name: 22|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_da7c41d8
+- name: 15|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_da7c41d8
   password: admin
   port: 1080
   server: 47.239.116.165
   type: socks5
   username: admin
-- name: 22|C🟠🇭🇰[✈️🔍]_dokng.com_099454ad
+- name: 15|C🟠🇭🇰[✈️🔍]_dokng.com_099454ad
   password: '!!str 111'
   port: 11211
   server: 47.243.173.50
   skip-cert-verify: true
   type: socks5
   username: '111'
-- name: 40|🇭🇰HK-185.14.47.56-4599
+- name: 27|🇭🇰HK-185.14.47.56-4599
   password: NQ26071394
   port: 443
   server: kind-unicorn.rooster465.autos
   type: trojan
-- name: 40|🇭🇰HK-185.244.208.25-4601
+- name: 27|🇭🇰HK-185.244.208.25-4601
   password: IL37892054
   port: 443
   server: just-alpaca.rooster465.autos
   type: trojan
-- name: 40|🇭🇰HK-91.199.84.204-4651
+- name: 27|🇭🇰HK-91.199.84.204-4651
   password: XG59623478
   port: 443
   server: growing-oyster.rooster465.autos

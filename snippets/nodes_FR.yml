@@ -1,13 +1,13 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 19|fr|2802|puddincat07@Telegram
+  name: 12|fr|2802|puddincat07@Telegram
   password: 7eadc6dbe2ae
   port: 65443
   server: 95.170.13.47
   type: ss
 - alterId: 0
   cipher: auto
-  name: 39,40,45|🇭🇰HK_3|5.2MB/s
+  name: 24,26,27,28|🇭🇰HK_3|5.2MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin

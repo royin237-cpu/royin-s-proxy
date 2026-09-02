@@ -1,23 +1,17 @@
 proxies:
-- name: 22,53|ID - zhuhai.uk
-  password: freeuser1
-  port: 9251
-  server: sr2-id.freeconnect.link
+- name: 15,28|🇺🇸US_10|3.2MB/s
+  password: None
+  port: 443
+  server: tzoa.fun
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_19f240f6
+  password: None
+  port: 443
+  server: fullmanfirm.icu
   skip-cert-verify: true
   tls: true
   type: http
-  username: freeuser1
-- name: 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_54a270d5
-  password: freeuser1
-  port: 9251
-  server: cr2-id.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: 22|U⚪🏳️[🎬🤖📺🎪]_dokng.com_87bf668a
-  password: freeuser1
-  port: 9251
-  server: cr1-id.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
+  username: null

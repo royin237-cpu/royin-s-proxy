@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 17|🇩🇪 DE 16 → tg@nicevpn123
+  name: 11|🇩🇪 DE 16 → tg@nicevpn123
   network: ws
   port: 80
   server: 92.223.124.36
@@ -16,7 +16,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 17|🇺🇸 US 1034 → tg@nicevpn123
+  name: 11|🇺🇸 US 1034 → tg@nicevpn123
   network: ws
   port: 443
   server: 23.158.56.229
@@ -29,7 +29,7 @@ proxies:
     headers:
       Host: 23.158.56.229
     path: /linkvws
-- name: 17|🇺🇸 US 1059 → tg@nicevpn123
+- name: 11|🇺🇸 US 1059 → tg@nicevpn123
   password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
   port: 443
   server: 164.90.167.242
@@ -38,7 +38,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 26|保加利亚 001
+  name: 19|保加利亚 001
   network: tcp
   port: 110
   server: 94.156.170.102
@@ -47,7 +47,7 @@ proxies:
   uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-91.195.240.12-0424
+  name: 27|🇩🇪DE-91.195.240.12-0424
   network: ws
   port: 443
   server: sgp.kapok.buzz
@@ -61,7 +61,7 @@ proxies:
     path: /4befdd8a6/
 - alterId: 0
   cipher: auto
-  name: 40|🇺🇸US-23.11.32.159-1128
+  name: 27|🇺🇸US-23.11.32.159-1128
   network: ws
   port: 443
   server: cacerts.digicert.com
@@ -75,7 +75,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-94.130.184.57-2407
+  name: 27|🇩🇪DE-94.130.184.57-2407
   network: ws
   port: 80
   server: 94.130.184.57
@@ -89,7 +89,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-162.55.174.135-2525
+  name: 27|🇩🇪DE-162.55.174.135-2525
   network: ws
   port: 80
   server: 162.55.174.135
@@ -103,7 +103,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-162.55.62.193-2643
+  name: 27|🇩🇪DE-162.55.62.193-2643
   network: ws
   port: 80
   server: 162.55.62.193
@@ -117,7 +117,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-5.75.173.189-2663
+  name: 27|🇩🇪DE-5.75.173.189-2663
   network: ws
   port: 80
   server: 5.75.173.189
@@ -131,7 +131,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-78.46.129.226-2699
+  name: 27|🇩🇪DE-78.46.129.226-2699
   network: ws
   port: 80
   server: 78.46.129.226
@@ -145,7 +145,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-167.235.78.112-2741
+  name: 27|🇩🇪DE-167.235.78.112-2741
   network: ws
   port: 80
   server: 167.235.78.112
@@ -159,7 +159,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-157.90.20.18-3084
+  name: 27|🇩🇪DE-157.90.20.18-3084
   network: http
   port: 443
   server: 157.90.20.18
@@ -169,7 +169,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-94.130.25.155-3087
+  name: 27|🇩🇪DE-94.130.25.155-3087
   network: http
   port: 443
   server: 94.130.25.155
@@ -179,7 +179,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-167.235.136.155-3138
+  name: 27|🇩🇪DE-167.235.136.155-3138
   network: http
   port: 443
   server: 167.235.136.155
@@ -189,7 +189,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-188.40.132.107-3591
+  name: 27|🇩🇪DE-188.40.132.107-3591
   network: ws
   port: 80
   server: 188.40.132.107
@@ -201,19 +201,19 @@ proxies:
     headers:
       Host: 188.40.132.107
     path: /p3573l6m92h1ham3q23t
-- name: 40|🇩🇪DE-18.192.67.47-4634
+- name: 27|🇩🇪DE-18.192.67.47-4634
   password: NQ26071394
   port: 443
   server: direct-hawk.rooster465.autos
   type: trojan
-- name: 40|🇩🇪DE-3.67.79.54-4639
+- name: 27|🇩🇪DE-3.67.79.54-4639
   password: CF68213490
   port: 443
   server: composed-sheep.rooster465.autos
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 40|🇩🇪DE-95.179.254.136-6729
+  name: 27|🇩🇪DE-95.179.254.136-6729
   network: grpc
   password: mainssh-ddoejfv14
   port: 443
@@ -222,7 +222,7 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 40|🇩🇪DE-95.179.246.122-6731
+  name: 27|🇩🇪DE-95.179.246.122-6731
   network: grpc
   password: mainssh-niwrhf87
   port: 443
@@ -231,7 +231,7 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: trojangrpc
-  name: 40|🇩🇪DE-108.61.171.167-7488
+  name: 27|🇩🇪DE-108.61.171.167-7488
   network: grpc
   password: mainssh-niwrhf87
   port: 443
@@ -239,14 +239,14 @@ proxies:
   sni: getgrpc.mainssh.xyz
   type: trojan
 - cipher: aes-256-cfb
-  name: 45,47|tg频道:@ripaojiedian
+  name: 28,30|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 0
   cipher: auto
-  name: 50|未知
+  name: 33|未知
   network: tcp
   port: 2121
   server: tokien.mrmtn.xyz
@@ -256,7 +256,7 @@ proxies:
   uuid: 29c4a3bd-9d8c-4ac3-b279-8b201560c227
 - alterId: 0
   cipher: auto
-  name: 50|未知23
+  name: 33|未知23
   network: tcp
   port: 54102
   server: de2.pi10.ir
@@ -266,7 +266,7 @@ proxies:
   uuid: 113ae61b-d6da-4d08-9221-48595cb8436c
 - alterId: 0
   cipher: auto
-  name: 50|未知29
+  name: 33|未知29
   network: tcp
   port: 2053
   server: de.connfull.org
@@ -276,7 +276,7 @@ proxies:
   uuid: f2ff4ae6-cf2d-4d15-9f0d-b6d9980df9aa
 - alterId: 0
   cipher: auto
-  name: 50|未知35 1.3MB/s
+  name: 33|未知35 1.3MB/s
   network: ws
   port: 2053
   server: 104.105.6.167
@@ -291,7 +291,7 @@ proxies:
     path: /devm
 - alterId: 0
   cipher: auto
-  name: 50|未知38
+  name: 33|未知38
   network: ws
   port: 28267
   server: 176.65.140.210
@@ -306,7 +306,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 50|未知59
+  name: 33|未知59
   network: ws
   port: 443
   server: 194.164.192.16
@@ -321,7 +321,7 @@ proxies:
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
   cipher: auto
-  name: 50|未知71 2.4MB/s
+  name: 33|未知71 2.4MB/s
   network: ws
   port: 2053
   server: deapp.jisuyun.top
@@ -335,7 +335,7 @@ proxies:
     path: /devm
 - alterId: 0
   cipher: auto
-  name: 50|未知78
+  name: 33|未知78
   network: tcp
   port: 8853
   server: de2.lion-lion.ir
@@ -345,7 +345,7 @@ proxies:
   uuid: 31477bd9-a29c-490c-b29d-69328ec307f1
 - alterId: 0
   cipher: auto
-  name: 50|未知107
+  name: 33|未知107
   network: tcp
   port: 110
   server: 94.156.179.138
@@ -355,7 +355,7 @@ proxies:
   uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
 - alterId: 0
   cipher: auto
-  name: 50|未知115
+  name: 33|未知115
   network: tcp
   port: 80
   server: 167.233.242.189
@@ -365,7 +365,7 @@ proxies:
   uuid: 7209d7ee-cfd0-46c0-a580-d92e2f0c801c
 - alterId: 0
   cipher: auto
-  name: 50|未知129
+  name: 33|未知129
   network: tcp
   port: 80
   server: 128.140.109.232
@@ -375,7 +375,7 @@ proxies:
   uuid: 05a178f9-e6ba-4006-93d7-3d980cdc3a76
 - alterId: 0
   cipher: auto
-  name: 50|未知132
+  name: 33|未知132
   network: ws
   port: 23981
   server: 176.65.140.210
@@ -390,7 +390,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 50|US17 204.6MB/s
+  name: 33|US17 204.6MB/s
   network: tcp
   port: 180
   server: 82.198.246.250

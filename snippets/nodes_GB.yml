@@ -1,5 +1,5 @@
 proxies:
-- name: 17|🇬🇧 GB 23 → tg@nicevpn123
+- name: 11|🇬🇧 GB 23 → tg@nicevpn123
   password: 1d7692c0-f51c-11ee-91eb-1239d0255272
   port: 443
   server: 51.38.65.155
@@ -8,7 +8,7 @@ proxies:
   udp: true
 - alpn:
   - http/1.1
-  name: 22|A🟢🇬🇧[🎬🤖📺🎭]_dokng.com_2885fd20
+  name: 15|A🟢🇬🇧[🎬🤖📺🎭]_dokng.com_2885fd20
   password: tripitropa994825
   port: 2234
   server: 45.85.88.194

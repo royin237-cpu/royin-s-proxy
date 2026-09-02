@@ -1,5 +1,5 @@
 proxies:
-- name: 22|U⚪🏳️[🎬🤖📺🎭]_dokng.com_d66d3f2e
+- name: 15|U⚪🏳️[🎬🤖📺🎭]_dokng.com_d66d3f2e
   password: freeuser1
   port: 9251
   server: br4-tr.freeconnect.link
@@ -8,7 +8,7 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: 22|U⚪🏳️[📺🎪📦🔍]_dokng.com_342f3e57
+- name: 15|U⚪🏳️[📺🎪📦🔍]_dokng.com_342f3e57
   password: freeuser1
   port: 9251
   server: br3-tr.freeconnect.link
@@ -16,7 +16,7 @@ proxies:
   type: http
   username: freeuser1
 - encryption: mlkem768x25519plus.native.0rtt.5SJmX8GGvlmVzd0r_T8yMc25nAj-kXw9Q4Cp831Vj1Y
-  name: 22|C🟠🇹🇷[🎬🤖📺🎭]_dokng.com_97e37ec8
+  name: 15|C🟠🇹🇷[🎬🤖📺🎭]_dokng.com_97e37ec8
   network: ws
   port: 21570
   server: direct-tr01.korvexe.ir
@@ -30,7 +30,7 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /
   xudp: true
-- name: '23,45|土耳其 #3'
+- name: '16,28|土耳其 #3'
   password: 1ba59989-225e-4f1c-ab62-9bd7366009cb
   port: 443
   server: 194.135.34.130
@@ -39,7 +39,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 40|🇹🇷TR-37.221.79.48-0784
+  name: 27|🇹🇷TR-37.221.79.48-0784
   network: ws
   port: 443
   server: v2ray.online
@@ -53,7 +53,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 40|🇹🇷TR-37.221.79.48-1054
+  name: 27|🇹🇷TR-37.221.79.48-1054
   network: ws
   port: 443
   server: v2ray.online
@@ -67,7 +67,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 40|🇹🇷TR-37.221.79.48-4316
+  name: 27|🇹🇷TR-37.221.79.48-4316
   network: ws
   port: 443
   server: v2ray.online
@@ -81,7 +81,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 40|🇹🇷TR-45.94.169.142-6849
+  name: 27|🇹🇷TR-45.94.169.142-6849
   network: ws
   port: 443
   server: 45.94.169.142
@@ -95,7 +95,7 @@ proxies:
     path: /wss13889
 - alterId: 0
   cipher: auto
-  name: 50|未知49
+  name: 33|未知49
   network: tcp
   port: 13301
   server: tr2.pi10.ir
@@ -105,7 +105,7 @@ proxies:
   uuid: 113ae61b-d6da-4d08-9221-48595cb8436c
 - alterId: 0
   cipher: auto
-  name: 50|未知137
+  name: 33|未知137
   network: tcp
   port: 8080
   server: 213.156.152.63
@@ -115,7 +115,7 @@ proxies:
   uuid: d9681916-5a85-44c8-86a2-9fcae87cf850
 - alterId: 0
   cipher: auto
-  name: 50|未知145
+  name: 33|未知145
   network: tcp
   port: 5384
   server: dashboard.aframarket.top

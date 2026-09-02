@@ -1,25 +1,25 @@
 proxies:
-- name: 17|🇳🇱 NL 9 → tg@nicevpn123
+- name: 11|🇳🇱 NL 9 → tg@nicevpn123
   password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
   port: 443
   server: 142.93.226.128
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 22,45|🇳🇱NL_3|1.3MB/s
+- name: 15,28|🇳🇱NL_3|1.3MB/s
   password: None
   port: 16668
   server: 82.115.6.209
   type: http
   username: null
-- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_f89d41d4
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_f89d41d4
   port: 443
   server: 103.97.88.154
   skip-cert-verify: true
   sni: 4a8c2906c96058315dffbc2b0e7ff19b-98005bea43f9ac33.apache-iv.com
   tls: true
   type: http
-- name: 22,45|🇳🇱NL_4|2.3MB/s
+- name: 15,28|🇳🇱NL_4|2.3MB/s
   password: None
   port: 9002
   server: 84.17.47.147
@@ -27,19 +27,19 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_62bb2c7c
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_62bb2c7c
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22,45|🇳🇱NL_6|3.4MB/s
+- name: 15,28|🇳🇱NL_6|3.4MB/s
   port: 443
   server: 149.36.51.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: '22,45,52|NL_speednode_0009 #1'
+- name: '15,24,28,34|NL_speednode_0009 #1'
   password: ''
   port: 9002
   server: 84.17.47.146
@@ -48,37 +48,37 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 22,45|🇳🇱NL_7|1.0MB/s
+- name: 15,28|🇳🇱NL_7|1.0MB/s
   port: 443
   server: 185.140.209.235
   skip-cert-verify: true
   sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
   tls: true
   type: http
-- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b74edc3f
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b74edc3f
   port: 443
   server: 185.246.153.42
   skip-cert-verify: true
   sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
   tls: true
   type: http
-- name: 22|A🟢🇳🇱[🎬🤖📺🎭]_dokng.com_1fac1dff
+- name: 15|A🟢🇳🇱[🎬🤖📺🎭]_dokng.com_1fac1dff
   port: 65432
   server: 87.215.14.228
   type: http
-- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c745045d
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c745045d
   port: 443
   server: 185.246.153.28
   skip-cert-verify: true
   sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
   tls: true
   type: http
-- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c36b3d06
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c36b3d06
   port: 443
   server: 157.22.183.72
   tls: true
   type: http
-- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_62caac5f
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_62caac5f
   password: e4b72b531a2d10900519
   port: 443
   server: 82.196.9.7
@@ -86,13 +86,13 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 22|D🔴🇳🇱[🤖📺🎭🎪]_dokng.com_ca5ed24f
+- name: 15|D🔴🇳🇱[🤖📺🎭🎪]_dokng.com_ca5ed24f
   port: 9090
   server: 185.53.129.141
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22,45|🇳🇱NL_8|4.0MB/s
+- name: 15,28|🇳🇱NL_8|4.0MB/s
   password: None
   port: 443
   server: 51.158.243.91
@@ -100,24 +100,48 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_485d2d71
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_485d2d71
   port: 1080
   server: 5.255.103.55
   type: socks5
-- name: 40|🇳🇱NL-78.142.194.96-4597
-  password: LSS6HLnp7IeEEJUcox
-  port: 443
-  server: nl-1.tr202607.com
-  type: trojan
-- name: '45,52|NL_speednode_0006 #1'
+- name: '24,28,34|NL_speednode_0005 #1'
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '24,28,34|NL_speednode_0006 #1'
   port: 9002
   server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: '24,28,34|NL_speednode_0008 #1'
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 24,28,34,35|NL - zhuhai.uk 02
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  sni: 84.17.47.149
+  tls: true
+  type: http
+  udp: true
+- name: 27|🇳🇱NL-78.142.194.96-4597
+  password: LSS6HLnp7IeEEJUcox
+  port: 443
+  server: nl-1.tr202607.com
+  type: trojan
 - client-fingerprint: firefox
-  name: 45,49|🇳🇱 荷兰 | NLD 2
+  name: 28,32|🇳🇱 荷兰 | NLD 2
   network: xhttp
   port: 443
   reality-opts:
@@ -134,26 +158,3 @@ proxies:
     mode: packet-up
     path: /assets/v2/pkg
   xudp: true
-- name: '45,52|NL_speednode_0005 #1'
-  password: None
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '45,52|NL_speednode_0008 #1'
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '45,52|NL_speednode_0010 #1'
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true

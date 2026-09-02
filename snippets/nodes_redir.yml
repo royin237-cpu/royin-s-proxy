@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 22,32|🇨🇳_CN_中国->🇺🇸_US_美国
+  name: 15,21|🇨🇳_CN_中国->🇺🇸_US_美国
   port: 30804
   server: v4.hdacd.com
   skip-cert-verify: true
@@ -10,93 +10,9 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 26,40,51|🇺🇸_US_美国->🇨🇦_CA_加拿大
-  network: ws
-  port: 8080
-  server: 162.159.1.33
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  ws-opts:
-    headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- alterId: 0
-  cipher: auto
-  name: '26,40,51|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 8080
-  server: 162.159.137.249
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  ws-opts:
-    headers:
-      Host: nest-emily-healing-h.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- alterId: 0
-  cipher: auto
-  name: 26,40,51|🇨🇦_CA_加拿大->🇺🇸_US_美国
-  network: ws
-  port: 8080
-  server: 23.227.38.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: '26,40,51|🇨🇦_CA_加拿大->🇺🇸_US_美国 #2'
-  network: ws
-  port: 8080
-  server: 23.227.38.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- alterId: 0
-  cipher: auto
-  name: '26,40,51|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 26,40,51|🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
 - alterId: 2
   cipher: none
-  name: 32|🇨🇳_CN_中国->🇯🇵_JP_日本
+  name: 21|🇨🇳_CN_中国->🇯🇵_JP_日本
   port: 30806
   server: v6.hdacd.com
   skip-cert-verify: true
@@ -106,7 +22,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: none
-  name: 32|🇨🇳_CN_中国->🇩🇪_DE_德国
+  name: 21|🇨🇳_CN_中国->🇩🇪_DE_德国
   port: 30833
   server: v33.hdacd.com
   skip-cert-verify: true
@@ -116,7 +32,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 33|🇺🇸_US_美国->🇮🇳_IN_印度_1
+  name: 22|🇺🇸_US_美国->🇮🇳_IN_印度_1
   network: ws
   port: 80
   server: 104.17.18.26
@@ -131,7 +47,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 33|🇺🇸_US_美国->🇮🇳_IN_印度_2
+  name: 22|🇺🇸_US_美国->🇮🇳_IN_印度_2
   network: ws
   port: 80
   server: 104.26.8.44
@@ -144,23 +60,3 @@ proxies:
       Host: 104.26.8.44
       host: a.109420.xyz
     path: /
-- name: '40,51|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1'
-  network: ws
-  password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
-  port: 443
-  server: 23.227.38.11
-  skip-cert-verify: true
-  sni: syndication-statutes-wanted-logo.trycloudflare.com
-  type: trojan
-  ws-opts:
-    path: /argox-tr
-- grpc-opts:
-    grpc-service-name: lK1wclmJRbMxj4FxIzvwxUDoX
-  name: 51|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
-  network: grpc
-  password: 4db45bb4-dcca-4d37-a639-cb55213ee406
-  port: 2096
-  server: 172.67.132.6
-  skip-cert-verify: true
-  sni: channel.v2bamdad.tech
-  type: trojan
