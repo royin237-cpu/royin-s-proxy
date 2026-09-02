@@ -45,26 +45,26 @@ https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2
 https://raw.githubusercontent.com/qjlxg/hy2/main/splitted/hy2
 
 
-# 不更新
-https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml
-https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
-https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml
-https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
-https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
-https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
-https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx1
-https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx2
-https://raw.githubusercontent.com/cxr9912/cxr2022/main/free.yaml
-https://raw.githubusercontent.com/cxr9912/cxr2022/main/vmess.yaml
-https://raw.githubusercontent.com/cxr9912/cxr2022/main/ss.yaml
-https://raw.githubusercontent.com/cxr9912/cxr2022/main/cxr.yml
-https://raw.githubusercontent.com/Junely/clash/main/clash_near.txt
-https://raw.githubusercontent.com/Junely/clash/main/template3.yaml
-https://raw.githubusercontent.com/imohammadkhalili/V2RAY/main/Mkhalili
-https://raw.githubusercontent.com/mlabalabala/v2ray-node/main/nodefree4clash.txt
-https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num
-https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray
-https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash
+# 不更新（2026-09-02 冻结：审计确认这些源在 sources.list 中标记"不更新"，长期无产出）
+# https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml
+# https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
+# https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml
+# https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+# https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
+# https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
+# https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx1
+# https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx2
+# https://raw.githubusercontent.com/cxr9912/cxr2022/main/free.yaml
+# https://raw.githubusercontent.com/cxr9912/cxr2022/main/vmess.yaml
+# https://raw.githubusercontent.com/cxr9912/cxr2022/main/ss.yaml
+# https://raw.githubusercontent.com/cxr9912/cxr2022/main/cxr.yml
+# https://raw.githubusercontent.com/Junely/clash/main/clash_near.txt
+# https://raw.githubusercontent.com/Junely/clash/main/template3.yaml
+# https://raw.githubusercontent.com/imohammadkhalili/V2RAY/main/Mkhalili
+# https://raw.githubusercontent.com/mlabalabala/v2ray-node/main/nodefree4clash.txt
+# https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num
+# https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray
+# https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash
 
 # 这里包含了全网的所有节点
 # https://raw.githubusercontent.com/mheidari98/.proxy/main/all
@@ -127,3 +127,9 @@ https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
 # ── 补充源（2026-08-30 晚添加） ──
 # peasoft/NoMoreWalls - 长期维护的活跃聚合源（用户对照验证可用率高）
 https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml
+
+# ── 新增源（2026-09-02，source-scout 实测可达率 83%，唯一达标） ──
+# kooker/FreeSubsCheck - 每 2h 自动同步，用 SubsCheck 真实测活，体量小仅 74 节点（亚洲 34 个，含 anytls 新协议）
+# 注：其他 2026 活跃大池子实测可达率 6%~55%，均低于现有 85% 水平，故未纳入（避免重演 Au1rxx 挤名额事故）
+https://raw.githubusercontent.com/kooker/FreeSubsCheck/main/mihomo.yaml
+EOF

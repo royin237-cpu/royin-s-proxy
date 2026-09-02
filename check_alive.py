@@ -396,8 +396,23 @@ def main():
             print(f"[alive] WARNING: read asia_probe_result.json failed ({e}), fallback to cloud-alive", flush=True)
     else:
         print("[alive] no asia_probe_result.json, fallback to cloud-alive", flush=True)
+
+    # 防"整订阅发空"兜底（2026-09-02 事故修复）：
+    #   中国探针结果只在与云端候选匹配数够多时才整体采用；若匹配过少，
+    #   说明本轮候选池异常（如抓取全失败），此时回退到云端测活结果，
+    #   绝不把接近空的 merged 写进线上订阅。
+    MIN_CHINA_INTER = 5
+    if merged_china is not None and len(merged_china) < MIN_CHINA_INTER:
+        print(f"[alive] WARNING: China probe intersection too small ({len(merged_china)} < {MIN_CHINA_INTER}), "
+              f"fallback to cloud-alive ({len(merged)} nodes) to avoid empty subscription", flush=True)
+        merged_china = None
     if merged_china is not None:
         merged = merged_china
+    # 最终防线：云端与中国的最终结果都为空/过少时，不要清空订阅，保留现有文件。
+    if len(merged) < MIN_CHINA_INTER:
+        print(f"[alive] FATAL: final alive set too small ({len(merged)} < {MIN_CHINA_INTER}), "
+              f"refusing to write empty subscription; keeping previous list.* files", flush=True)
+        raise SystemExit("alive set too small, aborting to keep last good subscription")
 
     alive_names = set(merged)
     update_config(ROOT / "list.meta.yml", alive_names, merged)

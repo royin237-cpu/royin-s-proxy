@@ -109,8 +109,16 @@ def main():
     groups = [copy.deepcopy(g) for g in (base.get("proxy-groups") or [])]
     all_proxies = {p["name"]: p for p in (base.get("proxies") or []) if p.get("name")}
     if not groups or not all_proxies:
-        print("[gen_mobile] list.meta.yml 无节点或代理组，跳过生成。")
-        return
+        # 2026-09-02 修复：源（list.meta.yml）为空时，绝不能再"静默保留上一次产物"——
+        # 那会造成"移动端显示旧节点、桌面端为空"的假象，掩盖上游空写事故。
+        # 改为显式报错退出（Actions 会看到失败，而非把陈旧订阅当正常结果提交）。
+        print(f"[gen_mobile] ERROR: list.meta.yml 无节点或代理组（proxies={len(all_proxies)}, groups={len(groups)}），"
+              f"跳过生成并删除可能陈旧的 {os.path.basename(OUTPUT)}。", flush=True)
+        try:
+            os.remove(OUTPUT)
+        except OSError:
+            pass
+        raise SystemExit(1)
 
     group_names = {g.get("name") for g in groups}
     region_names = region_group_names(groups)

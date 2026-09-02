@@ -1508,6 +1508,33 @@ def main():
                 yaml.dump({'proxies': proxies}, f, allow_unicode=True)
 
     print("正在写出 Clash & Meta 订阅...")
+
+    # ── 健康检查兜底（防止"整订阅发空"事故）────────────────────────────
+    # 已发生事故（2026-09-02 排查确认）：某轮 Action 抓取几乎全部失败（list_result.csv 全 0），
+    # 但脚本仍用空 merged 写出 proxies:[] 的 list.meta.yml/list.yml，把线上订阅"发空"。
+    # 兜底策略：若本轮抓取的可用节点过少（不足阈值），禁止覆盖上一轮有效订阅，
+    # 而是保留原文件并显式告警（让"上一次好版本"继续在线上服务，而不是发布空订阅）。
+    # 注意：config.yml 的 proxies:[] 是模板常态（节点由 fetch.py 注入），与本兜底无关。
+    from pathlib import Path as _Path
+    _CUR_FETCH_TOTAL = len(merged)
+    _MIN_FETCH_KEEP = 10   # 少于 10 个节点视为"抓取几乎全失败"，拒绝覆盖
+    _PREV_META = _Path("list.meta.yml")
+    if _CUR_FETCH_TOTAL < _MIN_FETCH_KEEP and _PREV_META.exists():
+        try:
+            _prev_data = yaml.full_load(_PREV_META.read_text(encoding="utf-8") or "{}") or {}
+            _prev_count = len(_prev_data.get("proxies") or [])
+        except Exception:
+            _prev_count = 0
+        if _prev_count >= _MIN_FETCH_KEEP:
+            print(
+                f"!!! 本轮抓取仅 {_CUR_FETCH_TOTAL} 个节点（<{_MIN_FETCH_KEEP}），"
+                f"判定为抓取异常，拒绝覆盖上一轮有效订阅（{_prev_count} 节点），"
+                f"保留 {_PREV_META} 并中止本轮写出。", file=sys.stderr, flush=True)
+            sys.exit(1)
+        else:
+            print(f"⚠ 本轮节点数 {_CUR_FETCH_TOTAL} 偏少且无可用旧版本兜底，按本轮结果继续写出。",
+                  file=sys.stderr, flush=True)
+
     keywords: List[str] = []
     suffixes: List[str] = []
     match_rule = None
