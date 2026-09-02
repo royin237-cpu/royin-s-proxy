@@ -3,6 +3,22 @@ proxies:
   port: 5050
   server: 45.159.0.194
   type: http
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 22|A🟢🇺🇸[🤖🎭🎪📦]_dokng.com_051ffd09
+  network: grpc
+  port: 9880
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabbccdd
+  server: 168.222.194.138
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  xudp: true
 - name: 22|A🟢🇷🇺[✨🎞️📦🔍]_dokng.com_965e2a11
   port: 4080
   server: 185.21.156.73
@@ -23,21 +39,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /api/connect
-  xudp: true
-- encryption: none
-  name: 22|C🟠🇷🇺[🎪]_dokng.com_53b3ffab
-  network: ws
-  port: 4100
-  server: 81.200.146.190
-  type: vless
-  udp: true
-  uuid: 9c2307ba-7972-4ea5-a199-f2c80049be7f
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /v1
   xudp: true
 - name: 22|A🟢🇷🇺[🎪✨📦🔍]_dokng.com_a2d8e877
   port: 8095
@@ -60,29 +61,10 @@ proxies:
         Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /api/connect
   xudp: true
-- name: 32|🇷🇺_RU_俄罗斯
-  network: ws
-  port: 4100
-  server: 194.26.229.110
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6a726f9a-5753-4113-bfd8-bd845281dca8
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
-- client-fingerprint: edge
-  name: 45|🇷🇺RU_1|1.5MB/s
-  network: ws
+- name: '24,45|🔒71@oneclickvpnkeys #1'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
-  server: 45.9.15.206
-  servername: ru05.abvpn.ru
-  tls: true
-  type: vless
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
-    path: /websocket
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  type: hysteria2

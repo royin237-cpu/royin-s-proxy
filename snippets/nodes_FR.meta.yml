@@ -16,7 +16,7 @@ proxies:
   sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
   tls: true
   type: http
-- name: 22,45,49|🇫🇷 法国 | FRA 2
+- name: 22,45,49,53|FR - zhuhai.uk
   password: github.com/Alvin9999-newpac/fanqiang
   port: 51133
   server: ip4.934618.xyz
@@ -24,13 +24,21 @@ proxies:
   sni: ip4.934618.xyz
   type: anytls
   udp: true
-- name: 22,53|FR - zhuhai.uk
+- name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_6dcdf6ed
   port: 443
   server: fan.132031.xyz
   skip-cert-verify: true
   sni: fan.132031.xyz
   tls: true
   type: http
+- name: 22,45|🇫🇷FR_3|2.0MB/s
+  password: None
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 22|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_13bb1fbc
   port: 443
   server: 103.82.101.43
@@ -44,21 +52,23 @@ proxies:
   server: 37.59.125.131
   type: http
   username: null
-- name: 22,53|FR - zhuhai.uk 02
+- name: 22|D🔴🇫🇷[📺🎭🎪]_dokng.com_e50054e0
   port: 1088
   server: 144.91.121.61
   type: socks5
 - alterId: 0
   cipher: auto
-  name: 26,49|🇭🇰 香港 | HKG 9
+  name: 45|🇭🇰HK_3|5.2MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  udp: true
+  uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
   ws-opts:
     headers:
-      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+      Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
     path: /
+  xudp: true

@@ -37,10 +37,19 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '22,45,52|RO_speednode_0087 #1'
+- name: 22,45,52,53|RO - zhuhai.uk
   port: 9002
   server: 193.176.84.20
   skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: '22,45,52|RO_speednode_0045 #1'
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -50,7 +59,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_8bd7fb72
+- name: 22,45|🇷🇴RO_5|3.1MB/s
   password: None
   port: 9002
   server: 193.176.84.40
@@ -66,7 +75,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_8ab2f38c
+- name: 22,45|🇷🇴RO_6|3.4MB/s
   password: ''
   port: 9002
   server: 193.176.84.21
@@ -81,6 +90,14 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_0cb603c3
+  password: None
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 22|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_34a41e08
   password: None
   port: 9002
@@ -104,32 +121,37 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 45|🇷🇴RO_1|2.0MB/s
+- name: '45,52|RO_speednode_0126 #1'
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 45,53|RO - zhuhai.uk 03
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  sni: 193.176.84.26
+  tls: true
+  type: http
+- name: 45|🇷🇴RO_8|3.4MB/s
   port: 9002
   server: 193.176.84.31
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 45|🇷🇴RO_2|1.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nDUrcIPWyCo7gAOVPfjAneLz17NdCrUMCIvdJsTRsD4
-    short-id: ''
-  server: cdn706i388.rucdn.pro
-  servername: cdn706i388.rucdn.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 21672ca3-da3f-46cd-9b67-2b2d4cb0beb3
-  xudp: true
 - name: '45,52|RO_speednode_0041 #1'
   port: 9002
   server: 193.176.84.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '45,52|RO_speednode_0044 #1'
+  port: 9002
+  server: 193.176.84.35
   skip-cert-verify: true
   tls: true
   type: http
@@ -149,36 +171,3 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '45,52|RO_speednode_0126 #1'
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 49|🇹🇷 土耳其 | TUR
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nDUrcIPWyCo7gAOVPfjAneLz17NdCrUMCIvdJsTRsD4
-  server: 77.74.123.177
-  servername: cdn706i388.rucdn.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 21672ca3-da3f-46cd-9b67-2b2d4cb0beb3
-- name: 53|RO - zhuhai.uk 02
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 53|RO - zhuhai.uk 03
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http

@@ -7,15 +7,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 26,49|🇭🇰 香港 | HKG 9
+  name: 45|🇭🇰HK_3|5.2MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  udp: true
+  uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
   ws-opts:
     headers:
-      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+      Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
     path: /
+  xudp: true

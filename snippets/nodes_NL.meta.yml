@@ -6,7 +6,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 22|A🟢🇳🇱[🎬🤖📺🎭]_dokng.com_4f429283
+- name: 22,45|🇳🇱NL_3|1.3MB/s
   password: None
   port: 16668
   server: 82.115.6.209
@@ -19,7 +19,7 @@ proxies:
   sni: 4a8c2906c96058315dffbc2b0e7ff19b-98005bea43f9ac33.apache-iv.com
   tls: true
   type: http
-- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_8d59c920
+- name: 22,45|🇳🇱NL_4|2.3MB/s
   password: None
   port: 9002
   server: 84.17.47.147
@@ -33,6 +33,12 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- name: 22,45|🇳🇱NL_6|3.4MB/s
+  port: 443
+  server: 149.36.51.129
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: '22,45,52|NL_speednode_0009 #1'
   password: ''
   port: 9002
@@ -42,7 +48,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b8f46ac7
+- name: 22,45|🇳🇱NL_7|1.0MB/s
   port: 443
   server: 185.140.209.235
   skip-cert-verify: true
@@ -60,29 +66,6 @@ proxies:
   port: 65432
   server: 87.215.14.228
   type: http
-- client-fingerprint: chrome
-  name: 22|U⚪🏳️_dokng.com_e0dfd167
-  network: ws
-  port: 443
-  server: 185.213.211.29
-  servername: svg-2.onrender.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 47667ac5-ac51-7fc6-181f-65321ee2387b
-  ws-opts:
-    headers:
-      Host: svg-2.onrender.com
-    path: /ws/47667ac5-ac51-7fc6-181f-65321ee2387b
-- name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_147f42c4
-  password: Private
-  port: 1080
-  server: 85.17.179.81
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: M_YOU_D
 - name: 22|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c745045d
   port: 443
   server: 185.246.153.28
@@ -103,22 +86,13 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- client-fingerprint: chrome
-  name: 22|U⚪🏳️_dokng.com_74e49428
-  network: ws
-  port: 443
-  server: 62.84.172.69
-  servername: svg-2.onrender.com
+- name: 22|D🔴🇳🇱[🤖📺🎭🎪]_dokng.com_ca5ed24f
+  port: 9090
+  server: 185.53.129.141
   skip-cert-verify: true
-  tfo: false
   tls: true
-  type: vless
-  uuid: 47667ac5-ac51-7fc6-181f-65321ee2387b
-  ws-opts:
-    headers:
-      Host: svg-2.onrender.com
-    path: /ws/47667ac5-ac51-7fc6-181f-65321ee2387b
-- name: 22|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_0d5bc13d
+  type: http
+- name: 22,45|🇳🇱NL_8|4.0MB/s
   password: None
   port: 443
   server: 51.158.243.91
@@ -130,13 +104,20 @@ proxies:
   port: 1080
   server: 5.255.103.55
   type: socks5
-- name: 40|🇳🇱NL-78.142.194.96-5038
+- name: 40|🇳🇱NL-78.142.194.96-5044
   password: LSS6HLnp7IeEEJUcox
   port: 443
   server: nl-1.tr202607.com
   type: trojan
-- client-fingerprint: edge
-  name: 45|🇩🇪DE_5|1.4MB/s
+- name: '45,52|NL_speednode_0006 #1'
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  name: 45,49|🇳🇱 荷兰 | NLD 2
   network: xhttp
   port: 443
   reality-opts:
@@ -149,6 +130,7 @@ proxies:
   udp: true
   uuid: 0678ed07-980a-49c1-9066-05caec654967
   xhttp-opts:
+    host: s3.netavex.com
     mode: packet-up
     path: /assets/v2/pkg
   xudp: true
@@ -156,13 +138,6 @@ proxies:
   password: None
   port: 9002
   server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '45,52|NL_speednode_0006 #1'
-  port: 9002
-  server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
@@ -182,16 +157,3 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: qq
-  name: 49|🇳🇱 荷兰 | NLD
-  network: ws
-  port: 443
-  server: wsnl4.wba-pn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d059048-8857-4101-a275-f55142159b5c
-  ws-opts:
-    headers:
-      Host: wsnl4.wba-pn.ru
-    path: /

@@ -5,9 +5,15 @@ proxies:
   server: 89.46.78.17
   type: http
   username: null
-- name: 22|C🟠🇮🇹[🎬🤖📺🎭]_dokng.com_197221d7
+- name: 22,45|🇮🇹IT_1|3.4MB/s
   port: 1999
   server: 185.201.65.242
+  type: http
+- name: 22|D🔴🇮🇹[🎬🤖📺🎭]_dokng.com_595d4b27
+  port: 443
+  server: 185.183.105.130
+  skip-cert-verify: true
+  tls: true
   type: http
 - name: 22|A🟢🇮🇹[🎬🤖🎪📦]_dokng.com_8d725197
   port: 443
@@ -15,14 +21,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 22|D🔴🇮🇹[🎬🤖📺🎭]_dokng.com_74e83c9e
-  password: None
-  port: 443
-  server: 95.229.15.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 22|D🔴🇮🇹[🤖🎭🎪✨]_dokng.com_8a2d7b99
   password: None
   port: 443
@@ -43,22 +41,3 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  name: 45|🇧🇬BG_1|3.6MB/s
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: nmgC68UUc0vIULwXY99KgX7esJYnjuJ5H2wxkWwbVkA
-    short-id: cebae65041c4b5e0
-  server: it-xh1.w-mebel.pro
-  servername: w-mebel.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88f9c3c2-b3dc-44aa-9490-8e9bc8133535
-  xhttp-opts:
-    host: w-mebel.pro
-    mode: auto
-    path: /video/v5/chunks
-  xudp: true

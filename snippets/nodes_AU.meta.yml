@@ -1,5 +1,5 @@
 proxies:
-- name: 22|D🔴🇦🇺[🎬🤖📺🎭]_dokng.com_1f579770
+- name: 22,45|🇦🇺AU_1|2.6MB/s
   password: None
   port: 443
   server: 159.13.44.228
@@ -7,12 +7,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 40|🇦🇺AU-87.121.33.164-5032
-  password: JA96378052
+- name: 22|D🔴🇦🇺[🎬🤖📺🎭]_dokng.com_75a616e0
   port: 443
-  server: evident-gnat.rooster465.autos
-  type: trojan
-- name: 40|🇦🇺AU-87.121.33.14-5057
+  server: 103.62.50.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 40|🇦🇺AU-87.121.33.14-5122
   password: PD07395842
   port: 443
   server: true-pony.rooster465.autos

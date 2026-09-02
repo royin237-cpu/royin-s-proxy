@@ -1,8 +1,9 @@
 proxies:
-- name: 22|U⚪🏳️[🤖📺🎪✨]_dokng.com_89e7191b
+- name: 22,53|ID - zhuhai.uk
   password: freeuser1
   port: 9251
   server: sr2-id.freeconnect.link
+  skip-cert-verify: true
   tls: true
   type: http
   username: freeuser1

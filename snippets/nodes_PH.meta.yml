@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 26,40|🇵🇭PH-120.28.10.46-0583
+  name: 26,40|🇵🇭PH-120.28.10.46-0629
   network: ws
   port: 80
   server: 120.28.10.46
@@ -16,7 +16,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 40|🇵🇭PH-61.245.11.60-0576
+  name: 40|🇵🇭PH-61.245.11.60-0622
   network: ws
   port: 80
   server: 61.245.11.60

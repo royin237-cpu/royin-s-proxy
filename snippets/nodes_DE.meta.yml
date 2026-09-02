@@ -1,34 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 18,45|🇩🇪DE_1|3.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
-    short-id: 09ef88a6
-  server: app4.goonars.com
-  servername: app4.goonars.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
-  ws-opts:
-    headers:
-      Host: --v2rayNplus--v2rayNplus--v2rayNplus--
-  xudp: true
-- name: 18,22|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_731adfcd
-  network: ws
-  port: 2087
-  server: 163.8.195.241
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  ws-opts:
-    path: /29c8fed7ca22
 - name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_f012372a
   port: 11000
   server: 116.202.172.187
@@ -53,28 +23,31 @@ proxies:
   udp: true
   uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
   xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_5344266d
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
-    short-id: 09ef88a6
-  server: 88.216.190.206
-  servername: app4.goonars.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
-  xudp: true
-- name: 22|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_5917a689
+- name: 22|D🔴🇩🇪[🤖📺🎪✨]_dokng.com_dd701156
   password: None
-  port: 11111
-  server: 103.237.102.191
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
   type: http
   username: null
+- name: 22|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_731adfcd
+  network: ws
+  port: 2087
+  server: 163.8.195.241
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  ws-opts:
+    path: /29c8fed7ca22
+- name: 22,45|🇩🇪DE_6|1.8MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
@@ -103,18 +76,12 @@ proxies:
   tls: true
   type: http
   username: null
-- alterId: 0
-  cipher: auto
-  encryption: none
-  name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_6502a8f1
-  network: tcp
-  port: 1819
-  server: 185.204.171.230
-  skip-cert-verify: false
+- name: 22|C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_cb4b704b
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: b4a30b6a-2d8d-4652-827e-357d9d720a1e
+  type: http
 - name: 22|C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_f467085f
   port: 443
   server: 185.44.107.166
@@ -158,65 +125,3 @@ proxies:
   udp: true
   uuid: fe8e2ffb-8796-408c-af5b-0d4774215e00
   xudp: true
-- name: 22|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_8ab268ea
-  password: None
-  port: 443
-  server: 148.230.110.203
-  type: http
-  username: null
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 49|🇩🇪 德国 | DEU 5
-  network: tcp
-  port: 1443
-  reality-opts:
-    public-key: HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ
-    short-id: a1b2c3d4
-  server: 31.77.220.183
-  servername: fi.aeternavpn.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6379673b-197f-4944-ba81-a45c66aefe9c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 49|🇭🇰 香港 | HKG 3
-  network: tcp
-  port: 10023
-  reality-opts:
-    public-key: sPNVi_cpk51PLxKVWAusfQBokEjYh69B3p5HhDbbLB4
-    short-id: fe
-  server: family.bucket.zjs.h.1.0.kfc-520.com
-  servername: www.hp.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c2564a65-0821-3241-b090-45d49cef58fd
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 49,53|CA - zhuhai.uk 01
-  network: tcp
-  port: 10043
-  reality-opts:
-    public-key: PGH5Jy0dfgEwQlGGd2YklalRs51yUTvD5j1DZPxKgUw
-    short-id: 9eafa129b6
-  server: family.bucket.zjs.a.b.9.kfc-520.com
-  servername: www.adobe.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c2564a65-0821-3241-b090-45d49cef58fd
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 49,53|SG - zhuhai.uk 10
-  network: tcp
-  port: 10018
-  reality-opts:
-    public-key: __YqMje4P5LY575OvzZjKJddTTn3vI6n0tMsMKCgcRY
-    short-id: 6cfa2459bb
-  server: family.bucket.zjs.s.1.kfc-520.com
-  servername: www.sap.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c2564a65-0821-3241-b090-45d49cef58fd

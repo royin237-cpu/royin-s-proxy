@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 40|🇹🇷TR-37.221.79.48-0773
+  name: 40|🇹🇷TR-37.221.79.48-0819
   network: ws
   port: 443
   server: v2ray.online
@@ -15,7 +15,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 40|🇹🇷TR-37.221.79.48-1440
+  name: 40|🇹🇷TR-37.221.79.48-1490
   network: ws
   port: 443
   server: v2ray.online
@@ -29,7 +29,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 40|🇹🇷TR-37.221.79.48-4703
+  name: 40|🇹🇷TR-37.221.79.48-4763
   network: ws
   port: 443
   server: v2ray.online
@@ -43,7 +43,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 40|🇹🇷TR-45.94.169.142-7144
+  name: 40|🇹🇷TR-45.94.169.142-7301
   network: ws
   port: 443
   server: 45.94.169.142
@@ -85,3 +85,13 @@ proxies:
   tls: true
   type: vmess
   uuid: 113ae61b-d6da-4d08-9221-48595cb8436c
+- alterId: 0
+  cipher: auto
+  name: 50|未知55
+  network: tcp
+  port: 5381
+  server: dashboard.afrashop.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 130b0fbf-4f19-44d0-911f-95355e9632e4
