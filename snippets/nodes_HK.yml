@@ -9,7 +9,7 @@ proxies:
   sni: 207.yuanul.com
   type: trojan
   udp: true
-- name: 27|🇭🇰HK-91.199.84.204-4651
+- name: 27|🇭🇰HK-91.199.84.204-5021
   password: XG59623478
   port: 443
   server: growing-oyster.rooster465.autos

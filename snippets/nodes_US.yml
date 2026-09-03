@@ -23,22 +23,22 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 27|🇺🇸US-35.89.158.227-4520
+- name: 27|🇺🇸US-35.89.158.227-4890
   password: CF68213490
   port: 443
   server: live-drake.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-44.250.170.23-4621
+- name: 27|🇺🇸US-44.250.170.23-4991
   password: CF68213490
   port: 443
   server: shining-piranha.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-54.245.10.59-4663
+- name: 27|🇺🇸US-54.245.10.59-5033
   password: NQ26071394
   port: 443
   server: square-gnat.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-50.112.83.226-4666
+- name: 27|🇺🇸US-50.112.83.226-5036
   password: PD07395842
   port: 443
   server: national-dingo.rooster465.autos

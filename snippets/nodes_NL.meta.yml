@@ -32,14 +32,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,28|🇳🇱NL_5|3.9MB/s
-  password: None
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_785dc054
   port: 443
   server: 51.158.243.91
@@ -104,12 +96,12 @@ proxies:
   server: 82.115.6.209
   type: http
   username: null
-- name: 27|🇳🇱NL-89.39.70.120-4596
+- name: 27|🇳🇱NL-89.39.70.120-4966
   password: PD07395842
   port: 443
   server: pro-crane.rooster465.autos
   type: trojan
-- name: 27|🇳🇱NL-78.142.194.96-4597
+- name: 27|🇳🇱NL-78.142.194.96-4967
   password: LSS6HLnp7IeEEJUcox
   port: 443
   server: nl-1.tr202607.com
@@ -135,10 +127,17 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 28,34,35|NL - zhuhai.uk
+- name: '28,34|NL_speednode_0010 #1'
   port: 9002
   server: 84.17.47.149
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: 35|NL - zhuhai.uk
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  sni: 51.159.225.196
+  tls: true
+  type: http

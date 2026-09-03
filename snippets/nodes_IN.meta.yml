@@ -47,7 +47,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '26,27|🇮🇳IN-152.67.8.205-0179 #1'
+  name: '26,27|🇮🇳IN-152.67.8.205-0143 #1'
   network: ws
   port: 80
   server: 152.67.8.205
@@ -59,7 +59,7 @@ proxies:
     headers:
       Host: 152.67.8.205
     path: /
-- name: 27|🇮🇳IN-152.67.160.174-0707
+- name: 27|🇮🇳IN-152.67.160.174-1078
   password: 54080134-2cba-4535-8599-95650bd9aa54
   port: 443
   server: 152.67.160.174

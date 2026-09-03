@@ -1,13 +1,14 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 12|th|55f8|puddincat07@Telegram
+  name: 32|🇹🇭 泰国 | THA
   password: 7eadc6dbe2ae
   port: 65443
   server: 103.169.67.34
   type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 33|未知53 270.7KB/s
+  name: 33|未知83 341.9KB/s
   network: none
   port: 37515
   server: 119.46.51.45
@@ -15,17 +16,3 @@ proxies:
   tls: true
   type: vmess
   uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
-- alterId: 0
-  cipher: auto
-  name: 33|未知58
-  network: ws
-  port: 49667
-  server: 118.193.57.167
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d46bf492-45f4-4c33-82d1-ea2a1cb54eb6
-  ws-opts:
-    headers:
-      Host: 118.193.57.167
-    path: /d46bf492

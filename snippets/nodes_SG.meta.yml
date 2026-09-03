@@ -9,8 +9,9 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: update
-  name: 15,35|SG - zhuhai.uk
+  name: 15|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_c1d6e07d
   network: grpc
   port: 10037
   reality-opts:
@@ -20,7 +21,6 @@ proxies:
   servername: s0.awsstatic.com
   tls: true
   type: vless
-  udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - name: 15|A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1
   password: ''
@@ -43,42 +43,42 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 27|🇸🇬SG-54.169.137.148-4522
+- name: 27|🇸🇬SG-54.169.137.148-4892
   password: NQ26071394
   port: 443
   server: capable-jay.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-54.254.196.251-4525
+- name: 27|🇸🇬SG-54.254.196.251-4895
   password: NQ26071394
   port: 443
   server: thorough-foxhound.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-52.221.222.185-4618
+- name: 27|🇸🇬SG-52.221.222.185-4988
   password: NQ26071394
   port: 443
   server: joint-ewe.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-13.212.181.141-4619
+- name: 27|🇸🇬SG-13.212.181.141-4989
   password: NQ26071394
   port: 443
   server: stunning-mastodon.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-52.221.252.205-4623
+- name: 27|🇸🇬SG-52.221.252.205-4993
   password: EQ30679154
   port: 443
   server: definite-gazelle.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-52.220.181.28-4649
+- name: 27|🇸🇬SG-52.220.181.28-5019
   password: NQ26071394
   port: 443
   server: mighty-lemming.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-81.28.13.162-4710
+- name: 27|🇸🇬SG-81.28.13.162-5080
   password: KV63147582
   port: 443
   server: evolving-baboon.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-91.243.81.188-4712
+- name: 27|🇸🇬SG-91.243.81.188-5082
   password: CF68213490
   port: 443
   server: polite-coyote.rooster465.autos
@@ -87,21 +87,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 32|🇸🇬 新加坡 | SGP 2
-  network: grpc
-  port: 10040
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg5-r.link-t7.com
-  servername: d1.awsstatic.com
-  tls: true
-  type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 35|SG - zhuhai.uk 01
+  name: 32|🇸🇬 新加坡 | SGP
   network: grpc
   port: 10039
   reality-opts:
@@ -112,4 +98,19 @@ proxies:
   tls: true
   type: vless
   udp: true
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 35|SG - zhuhai.uk 02
+  network: grpc
+  port: 10040
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg5-r.link-t7.com
+  servername: d1.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
