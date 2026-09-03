@@ -1,15 +1,9 @@
 proxies:
-- name: 15|D🔴🇵🇱[🎬🤖📺🎪]_dokng.com_18ecaa3e
-  password: None
+- name: 15|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_537be64e
   port: 443
-  server: 37.120.156.34
+  server: 151.115.54.133
   skip-cert-verify: true
   tls: true
-  type: http
-  username: null
-- name: 15|A🟢🇵🇱[🤖📺🎭🎪]_dokng.com_805ac382
-  port: 7778
-  server: 91.238.54.189
   type: http
 - name: 15|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_6d895544
   password: None
@@ -19,6 +13,14 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 15|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_12512f43
+  password: ''
+  port: 443
+  server: 37.120.156.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - name: 15|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_0443a2fd
   port: 8090
   server: 185.32.4.210
@@ -28,15 +30,3 @@ proxies:
   port: 443
   server: top-goshawk.rooster465.autos
   type: trojan
-- name: 27|🇵🇱PL-202.78.163.19-4981
-  password: AE62539071
-  port: 443
-  server: game-firefly.rooster465.autos
-  type: trojan
-- name: 35|PL - zhuhai.uk
-  port: 443
-  server: 151.115.54.133
-  skip-cert-verify: true
-  sni: 151.115.54.133
-  tls: true
-  type: http

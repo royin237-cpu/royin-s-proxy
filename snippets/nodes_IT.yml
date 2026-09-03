@@ -1,4 +1,18 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 19|比利时 006
+  network: ws
+  port: 8443
+  server: 57.131.32.191
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 848af33c-81f2-40c9-93b2-4681d056936b
+  ws-opts:
+    headers:
+      Host: OV-Italy1.09vpn.com
+    path: /vmess/
 - cipher: aes-256-gcm
   name: 20|🇮🇹 Italy [TG]
   password: itzvpn@321

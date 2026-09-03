@@ -1,15 +1,31 @@
 proxies:
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 21|🇨🇭_CH_瑞士->🇫🇮_FI_芬兰
-  port: 5001
-  reality-opts:
-    public-key: HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ
-    short-id: a1b2c3d4
-  server: 31.76.4.128
-  servername: fi.aeternavpn.space
+- alterId: 0
+  cipher: auto
+  name: 22|🇺🇸_US_美国->🇮🇳_IN_印度_1
+  network: ws
+  port: 80
+  server: 104.17.18.26
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
+  tls: false
+  type: vmess
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  ws-opts:
+    headers:
+      Host: 104.17.18.26
+      host: a.109420.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 22|🇺🇸_US_美国->🇮🇳_IN_印度_2
+  network: ws
+  port: 80
+  server: 104.26.8.44
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  ws-opts:
+    headers:
+      Host: 104.26.8.44
+      host: a.109420.xyz
+    path: /

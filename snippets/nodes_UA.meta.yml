@@ -1,5 +1,1 @@
-proxies:
-- name: 15|A🟢🇺🇦[🎬🤖📺🎪]_dokng.com_1fedb69a
-  port: 6789
-  server: 91.203.61.52
-  type: http
+proxies: []

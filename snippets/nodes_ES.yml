@@ -6,9 +6,16 @@ proxies:
   server: 5.188.181.201
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 11|🇷🇺 RU 30 → tg@nicevpn123
+  password: GeregetR8cvQHzYr
+  port: 9030
+  server: 5.188.181.201
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 33|未知118
+  name: 33|未知37
   network: tcp
   port: 22324
   server: 85.90.217.42

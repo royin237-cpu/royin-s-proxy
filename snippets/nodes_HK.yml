@@ -1,14 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|B🟡🇺🇸[🎬🤖🎭🎪]_dokng.com_d72f1f6b
-  network: tcp
-  password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
-  port: 13209
-  server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
-  skip-cert-verify: false
-  sni: 207.yuanul.com
+- name: 27|🇭🇰HK-185.14.47.56-4969
+  password: NQ26071394
+  port: 443
+  server: kind-unicorn.rooster465.autos
   type: trojan
-  udp: true
+- name: 27|🇭🇰HK-185.244.208.25-4971
+  password: IL37892054
+  port: 443
+  server: just-alpaca.rooster465.autos
+  type: trojan
 - name: 27|🇭🇰HK-91.199.84.204-5021
   password: XG59623478
   port: 443

@@ -1,17 +1,17 @@
 proxies:
-- name: 15|U⚪🏳️[🤖📺🎭✨]_dokng.com_d66d3f2e
+- name: 15|U⚪🏳️[📺🎪🔍]_dokng.com_342f3e57
+  password: freeuser1
+  port: 9251
+  server: br3-tr.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- name: 15|U⚪🏳️[🤖📺🎭🎪]_dokng.com_d66d3f2e
   password: freeuser1
   port: 9251
   server: br4-tr.freeconnect.link
   skip-cert-verify: true
   sni: br4-tr.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: 15|U⚪🏳️[🤖📺🎭🎪]_dokng.com_342f3e57
-  password: freeuser1
-  port: 9251
-  server: br3-tr.freeconnect.link
   tls: true
   type: http
   username: freeuser1
@@ -37,7 +37,7 @@ proxies:
     headers:
       Host: Kansas.v2ray.online
     path: /speedtest
-- name: 19|俄罗斯 009
+- name: 19|俄罗斯 008
   network: tcp
   port: 110
   server: 91.228.227.172
@@ -47,7 +47,7 @@ proxies:
   type: vless
   udp: true
   uuid: 02a96d4d-f2f5-4c0b-ba83-d24aec5defb8
-- name: 19|俄罗斯 010
+- name: 19|俄罗斯 009
   network: tcp
   port: 443
   server: 91.228.227.172
@@ -57,17 +57,7 @@ proxies:
   type: vless
   udp: true
   uuid: 02a96d4d-f2f5-4c0b-ba83-d24aec5defb8
-- name: 19|土耳其 003
-  network: tcp
-  port: 443
-  server: 139.28.241.77
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d5c40b1-102c-4343-94cc-d5b794dbd0c6
-- name: 19|美国 693
+- name: 19|美国 676
   network: tcp
   port: 56539
   server: 212.115.103.189
@@ -77,7 +67,7 @@ proxies:
   type: vless
   udp: true
   uuid: b5539644-22ce-4140-96c9-9e844318ce24
-- name: 19|俄罗斯 026
+- name: 19|俄罗斯 028
   network: tcp
   port: 8080
   server: 91.228.227.172
@@ -129,29 +119,21 @@ proxies:
     headers:
       Host: 45.94.169.142
     path: /wss13889
+- name: 32|🇹🇷 土耳其 | TUR 2
+  network: ws
+  port: 666
+  server: y347t3784gfh478f4.tr.snapeurop.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: a17be1ef-d5bc-41a1-aeac-b02345823f07
+  ws-opts:
+    headers:
+      Host: ads.mohsen3.ir
+    path: /
 - alterId: 0
   cipher: auto
-  name: 33|未知46
-  network: tcp
-  port: 5381
-  server: dashboard.afrashop.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 130b0fbf-4f19-44d0-911f-95355e9632e4
-- alterId: 0
-  cipher: auto
-  name: 33|未知108
-  network: tcp
-  port: 5384
-  server: dashboard.aframarket.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 130b0fbf-4f19-44d0-911f-95355e9632e4
-- alterId: 0
-  cipher: auto
-  name: 33|未知115
+  name: 33|未知94
   network: tcp
   port: 13301
   server: tr2.pi10.ir

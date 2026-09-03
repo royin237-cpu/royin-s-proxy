@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 27|🇫🇷FR-162.19.192.89-2066
+  network: ws
+  port: 16626
+  server: planb.mojcn.com.linuxlh.xin
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45c4a7a4-a1d4-4657-a92a-ab45558afac0
+  ws-opts:
+    headers:
+      Host: 6418046cd66ae322ebd1b8f4d82fd12c.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 27|🇫🇷FR-162.19.192.89-2070
   network: ws
   port: 16632

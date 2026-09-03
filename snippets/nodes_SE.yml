@@ -1,11 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 32,33|🇮🇶IQ伊拉克 248.1KB/s
-  password: dzSx7W6wBHO1VRI_Gx4cjVM0nN41m8qx
-  port: 114
-  server: 81.90.21.73
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
+proxies: []

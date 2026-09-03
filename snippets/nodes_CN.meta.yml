@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 12,15|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_c980b4b4
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
 - name: 15|D🔴🇨🇳_dokng.com_96deb268
   password: None
   port: 8080
@@ -12,10 +6,18 @@ proxies:
   type: http
   username: null
 - cipher: aes-256-cfb
-  name: 15,21,32|🇯🇵 日本 | JPN 3
+  name: 15,21,24|🇯🇵JP_1|1.1MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.137
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 15,21,35|US - zhuhai.uk
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
   skip-cert-verify: true
   type: ss
   udp: true

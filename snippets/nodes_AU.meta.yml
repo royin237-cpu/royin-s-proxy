@@ -7,12 +7,6 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇦🇺[🤖📺🎭🎪]_dokng.com_75a616e0
-  port: 443
-  server: 103.62.50.130
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 27|🇦🇺AU-87.121.33.164-4909
   password: JA96378052
   port: 443

@@ -6,7 +6,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 15|U⚪🏳️[✈️]_dokng.com_7169e124
+  name: 15|U⚪🏳️[✨✈️]_dokng.com_7169e124
   network: tcp
   port: 443
   reality-opts:
@@ -19,36 +19,111 @@ proxies:
   udp: true
   uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
   xudp: true
-- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_7204598f
+- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_c8de15d9
+  password: None
+  port: 11000
+  server: 116.202.172.187
+  type: http
+  username: null
+- name: 15|D🔴🇩🇪[🤖📺🎭🎪]_dokng.com_5917a689
   password: None
   port: 11111
   server: 103.237.102.191
   type: http
   username: null
-- name: 15|C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_2b514860
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_e3f53c05
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NUszayjBaw2LyjJtctsGRPzLltoafwwxO7xgEcDXWGk
+    short-id: 6ba85179e30d4fc2
+  server: 91.92.43.177
+  servername: expire.selfsteal.vip
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fe8c95f-1840-42b8-bdf2-35c858eca4e9
+  xudp: true
+- name: 15|D🔴🇩🇪[🤖📺🎪✨]_dokng.com_dd701156
   password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_b6a9d39c
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 443
+  server: as-de003.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: as-de003.y1static-content-distribution.shop
+  type: anytls
+  udp: true
+- name: 15,32|🇩🇪 德国 | DEU 5
+  network: ws
+  port: 2087
+  server: 163.8.195.241
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  ws-opts:
+    path: /29c8fed7ca22
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_75c640cf
+  network: grpc
+  packet-encoding: xudp
+  port: 18443
+  reality-opts:
+    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
+    short-id: 5c766813929a1fdd
+  server: gp1.steptofsvo.com
+  servername: gp1.steptofsvo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab6a5359-0edf-41c3-8dfd-e4b005e80820
+  xudp: true
+- name: 15|C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_cb4b704b
   port: 443
   server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_16307951
+- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_f467085f
+  port: 443
+  server: 185.44.107.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_005f0e9b
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 15,35|DE - zhuhai.uk
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  skip-cert-verify: true
+  sni: a7acacbe.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_9c08cf3c
+  password: None
   port: 443
   server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 15,28|🇩🇪DE_5|2.8MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 15|D🔴🇩🇪[🤖📺🎪✨]_dokng.com_dd701156
-  password: None
-  port: 9443
-  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
@@ -73,54 +148,20 @@ proxies:
   udp: true
   uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
   xudp: true
-- name: 15|C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_f467085f
-  port: 443
-  server: 185.44.107.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 15|D🔴🇩🇪[🤖📺🎭🎪]_dokng.com_62113475
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 167.172.172.190
-  skip-cert-verify: true
-  sni: a7acacbe.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_646536e4
-  password: None
-  port: 9099
-  server: 213.109.162.200
-  type: http
-  username: null
-- name: 15|A🟢🇩🇪[🤖📺🎭🎪]_dokng.com_cd8f0f6d
-  port: 443
-  server: fan.973511.xyz
-  sni: fan.973511.xyz
-  tls: true
-  type: http
-- name: 15|D🔴🇩🇪[🤖📺🎭✨]_dokng.com_731adfcd
-  network: ws
-  port: 2087
-  server: 163.8.195.241
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  ws-opts:
-    path: /29c8fed7ca22
-- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_f012372a
-  port: 11000
-  server: 116.202.172.187
-  type: http
-- name: 15,28|🇩🇪DE_6|1.6MB/s
+- name: 15|A🟢🇩🇪[🤖📺🎭🎪]_dokng.com_3ec79ed3
   port: 443
   server: 141.17.83.73
   skip-cert-verify: true
   tls: true
   type: http
+- name: 15|A🟢🇩🇪[🤖📺🎭🎪]_dokng.com_b8f89117
+  password: None
+  port: 443
+  server: fan.973511.xyz
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
 - name: 27|🇩🇪DE-3.67.79.54-5009
   password: CF68213490
   port: 443

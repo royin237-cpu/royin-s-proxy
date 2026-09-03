@@ -14,17 +14,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- alterId: 0
-  cipher: auto
-  name: 19,27|🇯🇵JP-38.47.121.14-0521
-  network: http
-  port: 49432
-  server: 38.47.121.14
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
 - name: 27|🇯🇵JP-18.183.164.31-4891
   password: CF68213490
   port: 443
@@ -35,20 +24,15 @@ proxies:
   port: 443
   server: massive-ocelot.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-13.112.192.202-4907
-  password: NQ26071394
-  port: 443
-  server: skilled-polliwog.rooster465.autos
-  type: trojan
 - name: 27|🇯🇵JP-43.207.113.142-4911
   password: IL37892054
   port: 443
   server: engaged-ram.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-95.85.94.208-4929
+- name: 27|🇯🇵JP-31.223.184.85-4927
   password: NQ26071394
   port: 443
-  server: ready-kangaroo.rooster465.autos
+  server: chief-cricket.rooster465.autos
   type: trojan
 - name: 27|🇯🇵JP-31.223.184.104-4980
   password: NQ26071394

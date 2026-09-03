@@ -6,15 +6,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 15|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_2e1f53fe
-  password: None
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15,28|🇬🇧GB_4|2.5MB/s
+- name: 15,28|🇬🇧GB_1|1.3MB/s
   password: None
   port: 443
   server: 185.235.0.2
@@ -22,24 +14,10 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|C🟠🇬🇧[🤖📺🎭🎪]_dokng.com_b218a6a3
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 15,28|🇬🇧GB_5|2.1MB/s
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_b747b935
+- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_2b887a70
   password: None
   port: 443
-  server: 185.235.0.34
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
@@ -52,7 +30,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_bd192656
+- name: 15,28|🇬🇧GB_3|1.2MB/s
   password: None
   port: 443
   server: 212.102.63.31
@@ -65,36 +43,21 @@ proxies:
   server: 5.101.149.245
   tls: true
   type: http
-- name: 15|A🟢🇬🇧[🎬🤖📺🎭]_dokng.com_2b63c5ca
-  password: None
+- name: 15|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_00aa40ae
+  port: 443
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 15|A🟢🇬🇧[🎬🤖📺🎭]_dokng.com_ab3b77ee
   port: 3118
   server: 154.61.56.215
   type: http
-  username: null
-- name: 15|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_426f07c5
-  password: None
-  port: 32766
-  server: 178.62.83.124
-  type: http
-  username: null
-- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_a820c2d3
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_4c325231
+- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_2e1f53fe
   password: None
   port: 443
-  server: 37.120.233.18
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- cipher: aes-256-cfb
-  name: 15|C🟠🇬🇧[🎬📺🎭🎪]_dokng.com_5cec019e
-  password: amazonskr05
-  port: 443
-  server: 18.175.119.181
-  type: ss
-  udp: true

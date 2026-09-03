@@ -1,5 +1,5 @@
 proxies:
-- name: 15,28|🇫🇮FI_1|4.4MB/s
+- name: 15|C🟠🇫🇮[🎬🤖📺🎭]_dokng.com_d6b1e469
   port: 7676
   server: 65.109.179.182
   type: http
