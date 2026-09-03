@@ -7,23 +7,6 @@ proxies:
   port: 4080
   server: 185.21.156.73
   type: http
-- client-fingerprint: chrome
-  encryption: none
-  name: 15|U⚪🏳️[✈️]_dokng.com_483670b0
-  network: ws
-  port: 443
-  server: 91.210.169.181
-  tls: true
-  type: vless
-  udp: true
-  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
-  ws-opts:
-    headers:
-      Host: wstg.datasynctrue.online
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /api/connect
-  xudp: true
 - name: 15|A🟢🇷🇺[🎪✨📦🔍]_dokng.com_a2d8e877
   port: 8095
   server: 193.19.190.59

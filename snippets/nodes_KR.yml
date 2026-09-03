@@ -9,35 +9,40 @@ proxies:
   port: 443
   server: smooth-lark.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.35.140.206-4523
-  password: NQ26071394
-  port: 443
-  server: devoted-heron.rooster465.autos
-  type: trojan
 - name: 27|🇰🇷KR-43.201.103.190-4527
   password: CF68213490
   port: 443
   server: alert-fish.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-43.203.235.186-4535
+  password: CF68213490
+  port: 443
+  server: eminent-dogfish.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.36.55.102-4542
   password: IL37892054
   port: 443
   server: enhanced-crayfish.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.172.207-4595
-  password: IL37892054
+- name: 27|🇰🇷KR-54.180.239.104-4556
+  password: AE62539071
   port: 443
-  server: upright-rhino.rooster465.autos
+  server: tough-hermit.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.121.129-4614
-  password: CF68213490
+- name: 27|🇰🇷KR-52.78.7.106-4613
+  password: NQ26071394
   port: 443
-  server: next-turkey.rooster465.autos
+  server: fit-marten.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-52.78.235.153-4616
   password: NQ26071394
   port: 443
   server: worthy-labrador.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.36.88.22-4624
+  password: CF68213490
+  port: 443
+  server: darling-mongrel.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-52.78.76.194-4625
   password: CF68213490
@@ -64,21 +69,6 @@ proxies:
   port: 443
   server: smiling-fowl.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.202.1.241-4633
-  password: CF68213490
-  port: 443
-  server: star-moray.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-13.125.69.162-4635
-  password: IL37892054
-  port: 443
-  server: engaging-toucan.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.35.207.188-4642
-  password: PD07395842
-  port: 443
-  server: main-fawn.rooster465.autos
-  type: trojan
 - name: 27|🇰🇷KR-109.61.127.96-4644
   password: IL37892054
   port: 443
@@ -99,20 +89,25 @@ proxies:
   port: 443
   server: living-hagfish.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-109.61.127.36-4689
-  password: ZY07256934
+- name: 27|🇰🇷KR-109.61.127.63-4675
+  password: IQ68037294
   port: 443
-  server: closing-crow.rooster465.autos
+  server: accurate-drake.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.200.254.103-4697
+- name: 27|🇰🇷KR-3.34.132.193-4698
   password: NQ26071394
   port: 443
-  server: warm-bass.rooster465.autos
+  server: internal-peacock.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-43.202.40.193-4699
   password: PD07395842
   port: 443
   server: excited-ghoul.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.38.166.184-4701
+  password: CF68213490
+  port: 443
+  server: eager-platypus.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-43.201.100.239-4702
   password: CF68213490

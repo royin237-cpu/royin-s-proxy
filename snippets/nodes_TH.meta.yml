@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 12,21|🇹🇭_TH_泰国
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - name: 15|D🔴🇹🇭[🎬🤖📺🎭]_dokng.com_46d8ebd8
   port: 31280
   server: 202.28.194.139

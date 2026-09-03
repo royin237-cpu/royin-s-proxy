@@ -43,3 +43,20 @@ proxies:
   server: 109.206.241.10
   sni: russiapower.accesscam.org
   type: trojan
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 28|🇺🇦UA_1|3.4MB/s
+  network: grpc
+  port: 2054
+  reality-opts:
+    public-key: Ojwlyprfyf5D1an18CW4gwbHOWzHhKZ7Tq9F_W6-EUY
+    short-id: ''
+  server: 212.87.190.62
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
+  xudp: true

@@ -2,8 +2,9 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: movie
-  name: 15,24,28,35|HK - zhuhai.uk 03
+  name: 15,28,32|🇭🇰 香港 | HKG 2
   network: grpc
   packet-encoding: xudp
   port: 10128
@@ -16,7 +17,8 @@ proxies:
   type: vless
   udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- name: 15|C🟠🇭🇰[🧠📺🎭🎪]_dokng.com_da7c41d8
+  xudp: true
+- name: 15,35|HK - zhuhai.uk
   password: admin
   port: 1080
   server: 47.239.116.165
@@ -32,7 +34,25 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: movie
-  name: 15,24,28,35|HK - zhuhai.uk
+  name: 15,32,35|HK - zhuhai.uk 01
+  network: grpc
+  packet-encoding: xudp
+  port: 10130
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk5-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: movie
+  name: 15,28,32,35|HK - zhuhai.uk 04
   network: grpc
   packet-encoding: xudp
   port: 10136
@@ -45,7 +65,7 @@ proxies:
   type: vless
   udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- name: 15|C🟠🇭🇰[📦✈️🔍]_dokng.com_099454ad
+- name: 15,35|HK - zhuhai.uk 03
   password: '!!str 111'
   port: 11211
   server: 47.243.173.50
@@ -63,7 +83,7 @@ proxies:
   port: 10808
   server: 123.58.219.171
   type: socks5
-- name: 15|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_de4eaa15
+- name: 15,35|HK - zhuhai.uk 02
   port: 443
   server: fan.240104.xyz
   skip-cert-verify: true
@@ -71,10 +91,25 @@ proxies:
   tls: true
   type: http
 - client-fingerprint: chrome
+  name: 15|B🟡🇺🇸[🎬🤖🎭🎪]_dokng.com_d72f1f6b
+  network: tcp
+  password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
+  port: 13209
+  server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+  skip-cert-verify: false
+  sni: 207.yuanul.com
+  type: trojan
+  udp: true
+- name: 27|🇭🇰HK-91.199.84.204-4651
+  password: XG59623478
+  port: 443
+  server: growing-oyster.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 24,32|🇭🇰 香港 | HKG
+  name: 28|🇭🇰HK_1|4.6MB/s
   network: grpc
   port: 10127
   reality-opts:
@@ -87,12 +122,10 @@ proxies:
   udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - client-fingerprint: chrome
-  encryption: none
   grpc-opts:
     grpc-service-name: movie
-  name: 24,28,35|HK - zhuhai.uk 06
+  name: 35|HK - zhuhai.uk 06
   network: grpc
-  packet-encoding: xudp
   port: 10129
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
@@ -103,4 +136,3 @@ proxies:
   type: vless
   udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  xudp: true

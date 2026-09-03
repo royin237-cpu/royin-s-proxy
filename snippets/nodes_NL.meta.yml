@@ -11,7 +11,7 @@ proxies:
   server: 157.22.183.72
   tls: true
   type: http
-- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_8d59c920
+- name: 15,28|🇳🇱NL_4|3.2MB/s
   password: None
   port: 9002
   server: 84.17.47.147
@@ -32,7 +32,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_aecf5208
+- name: 15,28|🇳🇱NL_5|3.9MB/s
   password: None
   port: 23856
   server: 51.159.225.196
@@ -44,6 +44,17 @@ proxies:
   port: 443
   server: 51.158.243.91
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: 15|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_bdc42035
+  port: 5050
+  server: 72.56.72.131
+  type: http
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_f89d41d4
+  port: 443
+  server: 103.97.88.154
+  skip-cert-verify: true
+  sni: 4a8c2906c96058315dffbc2b0e7ff19b-98005bea43f9ac33.apache-iv.com
   tls: true
   type: http
 - name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b8f46ac7
@@ -60,20 +71,10 @@ proxies:
   sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
   tls: true
   type: http
-- name: 15|D🔴🇳🇱[📺🎭]_dokng.com_147f42c4
-  password: Private
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_68506dac
   port: 1080
-  server: 85.17.179.81
-  skip-cert-verify: true
+  server: 5.255.117.250
   type: socks5
-  udp: true
-  username: M_YOU_D
-- name: 15|D🔴🇳🇱[🎬📺🎭🎪]_dokng.com_ca5ed24f
-  port: 9090
-  server: 185.53.129.141
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 15|D🔴🇳🇱[📺🎭🎪📦]_dokng.com_62caac5f
   password: e4b72b531a2d10900519
   port: 443
@@ -86,26 +87,23 @@ proxies:
   port: 65432
   server: 87.215.14.228
   type: http
+- name: 15|D🔴🇳🇱[📺🎭🎪]_dokng.com_485d2d71
+  port: 1080
+  server: 5.255.103.55
+  type: socks5
+- name: 15|D🔴🇳🇱[📺🎭✨🔍]_dokng.com_ad937e9b
+  password: None
+  port: 1080
+  server: 5.255.113.177
+  type: socks5
+  udp: true
+  username: null
 - name: 15|A🟢🇳🇱[🎬🤖📺🎭]_dokng.com_4f429283
   password: None
   port: 16668
   server: 82.115.6.209
   type: http
   username: null
-- name: '24,28,34|NL_speednode_0004 #1'
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '24,28,34|NL_speednode_0010 #1'
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 27|🇳🇱NL-89.39.70.120-4596
   password: PD07395842
   port: 443
@@ -116,9 +114,9 @@ proxies:
   port: 443
   server: nl-1.tr202607.com
   type: trojan
-- name: '28,34|NL_speednode_0007 #1'
+- name: '28,34|NL_speednode_0004 #1'
   port: 9002
-  server: 84.17.47.148
+  server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
@@ -130,10 +128,17 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 32|🇳🇱 荷兰 | NLD
-  network: tcp
-  port: 62145
-  server: 158.178.156.51
-  tls: false
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: '28,34|NL_speednode_0007 #1'
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 28,34,35|NL - zhuhai.uk
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

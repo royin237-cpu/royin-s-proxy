@@ -1,4 +1,11 @@
 proxies:
+- name: 11|🇭🇰 HK 10 → tg@nicevpn123
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: chjs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 11|🇭🇰 HK 9 → tg@nicevpn123
   password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
   port: 443
@@ -8,7 +15,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 21|🇺🇸_US_美国_2
+  name: 21|🇺🇸_US_美国
   port: 443
   server: guanwang.awsno.com
   skip-cert-verify: true
@@ -16,15 +23,10 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 27|🇺🇸US-34.216.104.24-4531
-  password: NQ26071394
-  port: 443
-  server: helped-jennet.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-54.213.238.59-4532
+- name: 27|🇺🇸US-35.89.158.227-4520
   password: CF68213490
   port: 443
-  server: ultimate-jaguar.rooster465.autos
+  server: live-drake.rooster465.autos
   type: trojan
 - name: 27|🇺🇸US-44.250.170.23-4621
   password: CF68213490

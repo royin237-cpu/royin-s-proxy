@@ -7,6 +7,14 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 15,28|🇵🇱PL_2|3.3MB/s
+  password: None
+  port: 443
+  server: 151.115.54.133
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 15|A🟢🇵🇱[🤖📺🎭🎪]_dokng.com_805ac382
   port: 7778
   server: 91.238.54.189
@@ -19,8 +27,17 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 15|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_0443a2fd
+  port: 8090
+  server: 185.32.4.210
+  type: http
 - name: 27|🇵🇱PL-202.78.163.173-4604
   password: WF42809561
   port: 443
   server: top-goshawk.rooster465.autos
+  type: trojan
+- name: 27|🇵🇱PL-202.78.163.19-4611
+  password: AE62539071
+  port: 443
+  server: game-firefly.rooster465.autos
   type: trojan

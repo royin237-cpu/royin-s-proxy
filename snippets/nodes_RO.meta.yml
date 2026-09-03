@@ -7,23 +7,31 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28,34,35|RO - zhuhai.uk 04
+- name: 15,28,34,35|RO - zhuhai.uk 02
   password: ''
   port: 9002
   server: 193.176.84.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 15,28|🇷🇴RO_14|1.4MB/s
+  port: 9002
+  server: 193.176.84.38
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
   udp: true
-  username: ''
-- name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_81d3b391
+- name: 15,28|🇷🇴RO_4|3.3MB/s
+  password: None
   port: 9002
-  server: 193.176.84.38
+  server: 193.176.84.29
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
+  username: null
 - name: 15|D🔴🇷🇴[🤖📺🎭🎪]_dokng.com_b03e95c9
   password: None
   port: 9002
@@ -32,20 +40,13 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,35|RO - zhuhai.uk
+- name: 15,28|🇷🇴RO_10|3.2MB/s
   port: 9002
   server: 193.176.84.34
   skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
-- name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_41052d2a
-  password: None
-  port: 9002
-  server: 193.176.84.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_238da015
   password: None
   port: 9002
@@ -54,7 +55,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_87a5078c
+- name: 15,28|🇷🇴RO_7|2.6MB/s
   password: ''
   port: 9002
   server: 193.176.84.16
@@ -63,7 +64,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 15,28,34,35|RO - zhuhai.uk 05
+- name: '15,28,34|RO_speednode_0124 #1'
   port: 9002
   server: 193.176.84.32
   skip-cert-verify: true
@@ -78,37 +79,77 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: '24,28,34|RO_speednode_0041 #1'
+- name: '15,28,34|RO_speednode_0097 #1'
+  password: None
   port: 9002
-  server: 193.176.84.33
+  server: 193.176.84.23
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '24,28,34|RO_speednode_0045 #1'
+  username: null
+- name: 28,34,35|RO - zhuhai.uk
   port: 9002
   server: 193.176.84.17
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '24,28,34|RO_speednode_0082 #1'
+- name: '28,34|RO_speednode_0082 #1'
   port: 9002
   server: 193.176.84.24
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '24,28,34|RO_speednode_0083 #1'
+- name: '28,34|RO_speednode_0087 #1'
   port: 9002
-  server: 193.176.84.25
+  server: 193.176.84.20
   skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
   udp: true
-- name: '24,28,34|RO_speednode_0087 #1'
+- name: 28,35|RO - zhuhai.uk 03
   port: 9002
-  server: 193.176.84.20
+  server: 193.176.84.37
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 28|🇷🇴RO_11|3.6MB/s
+  port: 9002
+  server: 193.176.84.22
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 28|🇷🇴RO_12|3.5MB/s
+  port: 9002
+  server: 193.176.84.36
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: '28,34|RO_speednode_0126 #1'
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: '28,34|RO_speednode_0083 #1'
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: '28,34|RO_speednode_0041 #1'
+  port: 9002
+  server: 193.176.84.33
   skip-cert-verify: true
   tls: true
   type: http
@@ -135,31 +176,3 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '28,34|RO_speednode_0126 #1'
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|RO - zhuhai.uk 02
-  port: 9002
-  server: 193.176.84.22
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 35|RO - zhuhai.uk 03
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 35|RO - zhuhai.uk 06
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  sni: 193.176.84.23
-  tls: true
-  type: http
