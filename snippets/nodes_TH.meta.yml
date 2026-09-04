@@ -3,16 +3,11 @@ proxies:
   port: 31280
   server: 202.28.194.139
   type: http
-- name: 15|D🔴🇹🇭[🎬🤖📺🎭]_dokng.com_e485581f
-  password: None
+- name: 15|D🔴🇹🇭[📺🎭🎪🎞️]_dokng.com_0cbd3120
   port: 8888
   server: 47.81.56.193
   type: http
-  username: null
-- name: 15|D🔴🇹🇭[🤖📺🎪✨]_dokng.com_60b6c1a8
-  password: None
+- name: 15|D🔴🇹🇭[🤖📺🎪🎞️]_dokng.com_dbf875fe
   port: 1080
   server: 43.164.3.124
   type: socks5
-  udp: true
-  username: null

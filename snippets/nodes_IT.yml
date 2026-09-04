@@ -1,12 +1,11 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 19,27|🇮🇹IT-57.131.32.191-1090
+  name: 27|🇮🇹IT-57.131.32.191-1090
   network: ws
   port: 8443
   server: 57.131.32.191
   servername: ''
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 848af33c-81f2-40c9-93b2-4681d056936b

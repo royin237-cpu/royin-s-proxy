@@ -6,17 +6,21 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: 15|U⚪🏳️[🤖📺🎭✨]_dokng.com_89e7191b
-  password: freeuser1
-  port: 9251
-  server: sr2-id.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
 - name: 15|U⚪🏳️[🤖📺🎭🎪]_dokng.com_87bf668a
   password: freeuser1
   port: 9251
   server: cr1-id.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- name: 15|D🔴🇮🇩[🎬🤖📺🎭]_dokng.com_67ab34a0
+  port: 2080
+  server: 8.215.25.3
+  type: socks5
+- name: 15|U⚪🏳️[🤖📺🎭🎪]_dokng.com_89e7191b
+  password: freeuser1
+  port: 9251
+  server: sr2-id.freeconnect.link
   tls: true
   type: http
   username: freeuser1

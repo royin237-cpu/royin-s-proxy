@@ -1,55 +1,47 @@
 proxies:
-- name: 15|C🟠🇭🇰[🎬📺🎪📦]_dokng.com_27a4152d
-  password: afa31ea7-0b97-4bc9-b043-daaeca4aef70
-  port: 15212
-  server: 83.229.127.87
-  transport: TCP
-  type: mieru
-  username: afa31ea7-0b97-4bc9-b043-daaeca4aef70
-- name: 15,35|HK - zhuhai.uk 02
-  password: abc123
+- name: 15|C🟠🇭🇰[📺🎭🎪✨]_dokng.com_da7c41d8
+  password: admin
   port: 1080
-  server: 47.239.98.42
+  server: 47.239.116.165
   type: socks5
-  username: abc123
-- name: 15|D🔴🇭🇰[📺🎭✨🎞️]_dokng.com_054bd55d
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
-- name: 15|C🟠🇭🇰[📺🔍]_dokng.com_099454ad
+  username: admin
+- name: 15|C🟠🇭🇰[📺📦]_dokng.com_099454ad
   password: '!!str 111'
   port: 11211
   server: 47.243.173.50
   skip-cert-verify: true
   type: socks5
   username: '111'
-- name: 15|C🟠🇭🇰[📺🎪📦🔍]_dokng.com_db363b3a
+- name: 15|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_d85a93d5
+  password: None
+  port: 443
+  server: fan.240104.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 15,35|HK - zhuhai.uk 02
   password: admin
   port: 8899
   server: 47.242.19.215
   skip-cert-verify: true
   type: socks5
   username: admin
-- name: 15|C🟠🇭🇰[🎬📺🎭✨]_dokng.com_da7c41d8
-  password: admin
+- name: 15|C🟠🇭🇰_dokng.com_d8a84f16
+  password: abc123
   port: 1080
-  server: 47.239.116.165
+  server: 47.239.98.42
   type: socks5
-  username: admin
-- name: 15|D🔴🇭🇰[🎬🧠📺🎭]_dokng.com_de4eaa15
-  port: 443
-  server: fan.240104.xyz
-  skip-cert-verify: true
-  sni: fan.240104.xyz
+  username: abc123
+- client-fingerprint: chrome
+  name: 19|美国 030
+  network: grpc
+  port: 10136
+  server: hk6-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tfo: false
   tls: true
-  type: http
-- name: 27|🇭🇰HK-185.244.208.25-5090
-  password: IL37892054
-  port: 443
-  server: just-alpaca.rooster465.autos
-  type: trojan
-- name: 27|🇭🇰HK-185.14.47.56-5094
-  password: NQ26071394
-  port: 443
-  server: kind-unicorn.rooster465.autos
-  type: trojan
+  type: vless
+  udp: true
+  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3

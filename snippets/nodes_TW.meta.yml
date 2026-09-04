@@ -1,5 +1,5 @@
 proxies:
-- name: 15,28|🇹🇼TW_2|4.8MB/s
+- name: 15|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_65a5452e
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -7,5 +7,4 @@ proxies:
   sni: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
-  udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=

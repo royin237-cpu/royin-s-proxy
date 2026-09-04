@@ -1,14 +1,4 @@
 proxies:
-- name: 19|印度 004
-  network: tcp
-  port: 443
-  server: 49.50.76.194
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2d7890a-5451-4470-9300-a059792924bb
 - alterId: 0
   cipher: auto
   name: '26,27|🇮🇳IN-152.67.8.205-0171 #1'

@@ -1,12 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,27|🇹🇷TR-37.221.79.48-0784
+  name: 27|🇹🇷TR-37.221.79.48-0784
   network: ws
   port: 443
   server: v2ray.online
   servername: ''
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
@@ -14,21 +13,6 @@ proxies:
     headers:
       Host: Kansas.v2ray.online
     path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: 21|🇹🇷_TR_土耳其
-  network: ws
-  port: 80
-  server: sacda.tr.snapeurop.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a17be1ef-d5bc-41a1-aeac-b02345823f07
-  ws-opts:
-    headers:
-      Host: sacda.tr.snapeurop.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 27|🇹🇷TR-37.221.79.48-1474
@@ -73,21 +57,15 @@ proxies:
     path: /wss13889
 - alterId: 0
   cipher: auto
-  name: 33|未知24
-  network: tcp
-  port: 13301
-  server: tr2.pi10.ir
+  name: 33|未知27 793.0KB/s
+  network: ws
+  port: 80
+  server: sacda.tr.snapeurop.com
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 113ae61b-d6da-4d08-9221-48595cb8436c
-- alterId: 0
-  cipher: auto
-  name: 33|未知101
-  network: tcp
-  port: 5384
-  server: dashboard.aframarket.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 130b0fbf-4f19-44d0-911f-95355e9632e4
+  uuid: a17be1ef-d5bc-41a1-aeac-b02345823f07
+  ws-opts:
+    headers:
+      Host: sacda.tr.snapeurop.com
+    path: /

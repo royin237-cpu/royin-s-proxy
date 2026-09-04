@@ -14,15 +14,6 @@ proxies:
   server: 111.243.65.86
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 19|加拿大 016
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
-  skip-cert-verify: true
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - name: 27|🇹🇼TW-61.222.160.199-2713
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443

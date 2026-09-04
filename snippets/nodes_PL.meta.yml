@@ -1,32 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 15|U⚪🏳️_dokng.com_1f1f4120
-  network: tcp
+- name: 15,35|PL - zhuhai.uk
   port: 443
-  reality-opts:
-    public-key: 4h74KXbkBMYOhJkZabJNsf85cI91ytap_gkl56mzjTU
-    short-id: ''
-  server: 83.168.111.58
-  servername: soulful.host
-  tls: true
-  type: vless
-  udp: true
-  uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
-  xudp: true
-- name: 15|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_6d895544
-  password: None
-  port: 443
-  server: 37.120.156.18
+  server: 151.115.54.133
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
 - name: 15|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_12512f43
   password: ''
   port: 443
@@ -35,6 +13,14 @@ proxies:
   tls: true
   type: http
   username: ''
+- name: 15|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_6d895544
+  password: None
+  port: 443
+  server: 37.120.156.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 15|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_805ac382
   port: 7778
   server: 91.238.54.189

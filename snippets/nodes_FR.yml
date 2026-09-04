@@ -1,15 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '26,27|🇫🇷FR-162.19.192.89-0187 #1'
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
-  ws-opts:
-    headers:
-      Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
-    path: /
+- cipher: aes-256-cfb
+  name: 12,21|🇫🇷_FR_法国
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
+  skip-cert-verify: true
+  type: ss
+  udp: true

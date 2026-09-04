@@ -1,11 +1,4 @@
 proxies:
-- name: 15|U⚪🏳️[📺🎪🔍]_dokng.com_342f3e57
-  password: freeuser1
-  port: 9251
-  server: br3-tr.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
 - name: 15|U⚪🏳️[🤖📺🎭🎪]_dokng.com_d66d3f2e
   password: freeuser1
   port: 9251
@@ -15,7 +8,14 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: '16,28|土耳其 #3'
+- name: 15|U⚪🏳️[🎬🤖📺🎭]_dokng.com_342f3e57
+  password: freeuser1
+  port: 9251
+  server: br3-tr.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- name: '16,28|土耳其 #2'
   password: 1ba59989-225e-4f1c-ab62-9bd7366009cb
   port: 443
   server: 194.135.34.130
@@ -24,12 +24,11 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 19,27|🇹🇷TR-37.221.79.48-0784
+  name: 27|🇹🇷TR-37.221.79.48-0784
   network: ws
   port: 443
   server: v2ray.online
   servername: ''
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
@@ -37,61 +36,6 @@ proxies:
     headers:
       Host: Kansas.v2ray.online
     path: /speedtest
-- name: 19|俄罗斯 008
-  network: tcp
-  port: 110
-  server: 91.228.227.172
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02a96d4d-f2f5-4c0b-ba83-d24aec5defb8
-- name: 19|俄罗斯 009
-  network: tcp
-  port: 443
-  server: 91.228.227.172
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02a96d4d-f2f5-4c0b-ba83-d24aec5defb8
-- name: 19|美国 676
-  network: tcp
-  port: 56539
-  server: 212.115.103.189
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5539644-22ce-4140-96c9-9e844318ce24
-- name: 19|俄罗斯 028
-  network: tcp
-  port: 8080
-  server: 91.228.227.172
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: baf36ee9-0e2c-40b9-bf1a-76e542b4da9f
-- alterId: 0
-  cipher: auto
-  name: 21|🇹🇷_TR_土耳其
-  network: ws
-  port: 80
-  server: sacda.tr.snapeurop.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a17be1ef-d5bc-41a1-aeac-b02345823f07
-  ws-opts:
-    headers:
-      Host: sacda.tr.snapeurop.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 27|🇹🇷TR-37.221.79.48-1474
@@ -134,52 +78,60 @@ proxies:
     headers:
       Host: 45.94.169.142
     path: /wss13889
-- name: 28|🇹🇷TR_1|1.2MB/s
-  network: ws
-  port: 555
-  server: ntrkglkjrtngjknetjgnv.tr.snapeurop.com
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 32|🇹🇷 土耳其 | TUR
+  network: tcp
+  port: 443
+  server: parta1.api3-max.ru
+  servername: parta1.api3-max.ru
+  tls: true
   type: vless
   udp: true
-  uuid: a17be1ef-d5bc-41a1-aeac-b02345823f07
-  ws-opts:
-    headers:
-      Host: ads.mohsen3.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 28|🇹🇷TR_2|2.4MB/s
-  network: ws
-  port: 444
-  server: nkjernvjilbf.tr.snapeurop.com
+  uuid: 5999a497-a2da-41d0-92cb-5b758082f83c
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 32|🇹🇷 土耳其 | TUR 2
+  network: tcp
+  port: 443
+  server: parta2.api3-max.ru
+  servername: parta2.api3-max.ru
+  tls: true
   type: vless
   udp: true
-  uuid: a17be1ef-d5bc-41a1-aeac-b02345823f07
-  ws-opts:
-    headers:
-      Host: ads.mohsen3.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
+  uuid: 5999a497-a2da-41d0-92cb-5b758082f83c
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 32|🇹🇷 土耳其 | TUR 3
+  network: xhttp
+  port: 443
+  server: tr01.botovod.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: a817d012-0eeb-4b13-9f8e-0269e939d6f6
+  xhttp-opts:
+    host: tr01.botovod.space
     path: /
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: 33|未知24
-  network: tcp
-  port: 13301
-  server: tr2.pi10.ir
+  name: 33|未知27 793.0KB/s
+  network: ws
+  port: 80
+  server: sacda.tr.snapeurop.com
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 113ae61b-d6da-4d08-9221-48595cb8436c
-- alterId: 0
-  cipher: auto
-  name: 33|未知101
-  network: tcp
-  port: 5384
-  server: dashboard.aframarket.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 130b0fbf-4f19-44d0-911f-95355e9632e4
+  uuid: a17be1ef-d5bc-41a1-aeac-b02345823f07
+  ws-opts:
+    headers:
+      Host: sacda.tr.snapeurop.com
+    path: /
