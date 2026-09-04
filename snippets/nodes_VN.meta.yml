@@ -6,3 +6,10 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 15|A🟢🇻🇳[🎬🤖📺🎪]_dokng.com_c4cb6381
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 443
+  server: yuenan02.cybergalaxy.me
+  skip-cert-verify: true
+  sni: yuenan02.cybergalaxy.me
+  type: anytls

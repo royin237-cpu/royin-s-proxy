@@ -1,28 +1,17 @@
 proxies:
+- name: 15|C🟠🇭🇰[🎬📺🎪📦]_dokng.com_27a4152d
+  password: afa31ea7-0b97-4bc9-b043-daaeca4aef70
+  port: 15212
+  server: 83.229.127.87
+  transport: TCP
+  type: mieru
+  username: afa31ea7-0b97-4bc9-b043-daaeca4aef70
 - name: 15|C🟠🇭🇰[🎬📺📦🔍]_dokng.com_d8a84f16
   password: abc123
   port: 1080
   server: 47.239.98.42
   type: socks5
   username: abc123
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
-  name: 15,24,28|🇭🇰HK_1|4.7MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 10128
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk3-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - name: 15|D🔴🇭🇰[📺🎭✨🎞️]_dokng.com_054bd55d
   port: 10808
   server: 123.58.219.171
@@ -34,7 +23,7 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: '111'
-- name: 15|C🟠🇭🇰[📺🎪📦🔍]_dokng.com_db363b3a
+- name: 15,35|HK - zhuhai.uk 02
   password: admin
   port: 8899
   server: 47.242.19.215
@@ -47,52 +36,20 @@ proxies:
   server: 47.239.116.165
   type: socks5
   username: admin
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: movie
-  name: 24|🇭🇰HK_5|1.4MB/s
-  network: grpc
-  port: 10129
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk4-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 24,28|🇭🇰HK_3|5.0MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 10127
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-- name: 27|🇭🇰HK-185.14.47.56-4969
-  password: NQ26071394
+- name: 15|D🔴🇭🇰[🎬🧠📺🎭]_dokng.com_de4eaa15
   port: 443
-  server: kind-unicorn.rooster465.autos
-  type: trojan
-- name: 27|🇭🇰HK-185.244.208.25-4971
+  server: fan.240104.xyz
+  skip-cert-verify: true
+  sni: fan.240104.xyz
+  tls: true
+  type: http
+- name: 27|🇭🇰HK-185.244.208.25-5093
   password: IL37892054
   port: 443
   server: just-alpaca.rooster465.autos
   type: trojan
-- name: 27|🇭🇰HK-91.199.84.204-5021
-  password: XG59623478
+- name: 27|🇭🇰HK-185.14.47.56-5097
+  password: NQ26071394
   port: 443
-  server: growing-oyster.rooster465.autos
+  server: kind-unicorn.rooster465.autos
   type: trojan

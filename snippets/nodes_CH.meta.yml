@@ -1,11 +1,11 @@
 proxies:
-- name: 15|A🟢🇨🇭[🎬🤖📺🎭]_dokng.com_ad565b9f
+- name: 15,24|🇨🇭CH_1|1.7MB/s
   password: None
   port: 7272
   server: 212.65.190.199
   type: http
   username: null
-- name: 15,28|🇨🇭CH_1|3.2MB/s
+- name: 15|D🔴🇨🇭[🎬🤖📺🎭]_dokng.com_5edb8d34
   password: None
   port: 9443
   server: 37.120.213.210
@@ -13,15 +13,3 @@ proxies:
   tls: true
   type: http
   username: null
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 35|FI - zhuhai.uk
-  port: 5001
-  reality-opts:
-    public-key: HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ
-    short-id: a1b2c3d4
-  server: 31.76.4.128
-  servername: fi.aeternavpn.space
-  tls: true
-  type: vless
-  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52

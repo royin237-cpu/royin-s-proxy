@@ -6,7 +6,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 15,28|🇬🇧GB_1|1.3MB/s
+- name: '15,28|🇬🇧GB_2|1.0MB/s #1'
   password: None
   port: 443
   server: 185.235.0.2
@@ -14,7 +14,15 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_2b887a70
+- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_4c325231
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 15,28|🇬🇧GB_3|2.6MB/s
   password: None
   port: 443
   server: 37.120.233.34
@@ -22,6 +30,12 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 15|D🔴🇬🇧[🤖📺🎭✨]_dokng.com_753d9ba1
+  port: 443
+  server: 185.235.0.98
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_aabc5d30
   password: None
   port: 443
@@ -30,7 +44,22 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28|🇬🇧GB_3|1.2MB/s
+- name: 15,28|🇬🇧GB_4|2.6MB/s
+  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+  port: 443
+  server: 81878291-tk59c0-tll9n7-1l0qa.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+- name: 15,28|🇬🇧GB_5|2.7MB/s
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_812a49d6
   password: None
   port: 443
   server: 212.102.63.31
@@ -43,6 +72,12 @@ proxies:
   server: 5.101.149.245
   tls: true
   type: http
+- name: 15|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_26bd5908
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 15|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_00aa40ae
   port: 443
   server: 185.235.0.34
@@ -53,7 +88,7 @@ proxies:
   port: 3118
   server: 154.61.56.215
   type: http
-- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_2e1f53fe
+- name: 15,28|🇬🇧GB_6|2.6MB/s
   password: None
   port: 443
   server: 185.235.0.66

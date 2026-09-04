@@ -1,10 +1,24 @@
 proxies:
-- name: 15|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_537be64e
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 15|U⚪🏳️_dokng.com_1f1f4120
+  network: tcp
   port: 443
-  server: 151.115.54.133
-  skip-cert-verify: true
+  reality-opts:
+    public-key: 4h74KXbkBMYOhJkZabJNsf85cI91ytap_gkl56mzjTU
+    short-id: ''
+  server: 83.168.111.58
+  servername: soulful.host
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
+  xudp: true
 - name: 15|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_6d895544
   password: None
   port: 443
@@ -21,12 +35,17 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 15|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_0443a2fd
-  port: 8090
-  server: 185.32.4.210
+- name: 15|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_805ac382
+  port: 7778
+  server: 91.238.54.189
   type: http
-- name: 27|🇵🇱PL-202.78.163.173-4974
-  password: WF42809561
-  port: 443
-  server: top-goshawk.rooster465.autos
-  type: trojan
+- name: 35|NL - zhuhai.uk
+  network: ws
+  port: 2087
+  server: 178.95.170.83
+  type: vless
+  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  ws-opts:
+    headers:
+      Host: Telegram-Leviko_v2ray
+    path: /4bc027a44532

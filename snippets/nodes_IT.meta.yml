@@ -7,6 +7,12 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 15|C🟠🇮🇹_dokng.com_759dba06
+  password: None
+  port: 3133
+  server: 89.46.78.17
+  type: http
+  username: null
 - name: 15|D🔴🇮🇹[🤖📺🎪✨]_dokng.com_397b3221
   password: None
   port: 443

@@ -31,39 +31,7 @@ proxies:
   server: 103.237.102.191
   type: http
   username: null
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_e3f53c05
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NUszayjBaw2LyjJtctsGRPzLltoafwwxO7xgEcDXWGk
-    short-id: 6ba85179e30d4fc2
-  server: 91.92.43.177
-  servername: expire.selfsteal.vip
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8fe8c95f-1840-42b8-bdf2-35c858eca4e9
-  xudp: true
-- name: 15|D🔴🇩🇪[🤖📺🎪✨]_dokng.com_dd701156
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_b6a9d39c
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 443
-  server: as-de003.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: as-de003.y1static-content-distribution.shop
-  type: anytls
-  udp: true
-- name: 15,32|🇩🇪 德国 | DEU 5
+- name: 15,35|DE - zhuhai.uk
   network: ws
   port: 2087
   server: 163.8.195.241
@@ -71,28 +39,9 @@ proxies:
   tfo: false
   tls: false
   type: vless
-  udp: true
   uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
   ws-opts:
     path: /29c8fed7ca22
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_75c640cf
-  network: grpc
-  packet-encoding: xudp
-  port: 18443
-  reality-opts:
-    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
-    short-id: 5c766813929a1fdd
-  server: gp1.steptofsvo.com
-  servername: gp1.steptofsvo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab6a5359-0edf-41c3-8dfd-e4b005e80820
-  xudp: true
 - name: 15|C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_cb4b704b
   port: 443
   server: 149.36.50.157
@@ -111,7 +60,13 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,35|DE - zhuhai.uk
+- name: 15,28|🇩🇪DE_3|3.0MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_62113475
   password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190
@@ -120,7 +75,7 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_9c08cf3c
+- name: 15,28|🇩🇪DE_4|3.8MB/s
   password: None
   port: 443
   server: 138.201.56.241
@@ -148,27 +103,14 @@ proxies:
   udp: true
   uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
   xudp: true
-- name: 15|A🟢🇩🇪[🤖📺🎭🎪]_dokng.com_3ec79ed3
+- name: 15,28|🇩🇪DE_5|1.7MB/s
   port: 443
   server: 141.17.83.73
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|A🟢🇩🇪[🤖📺🎭🎪]_dokng.com_b8f89117
-  password: None
-  port: 443
-  server: fan.973511.xyz
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 27|🇩🇪DE-3.67.79.54-5009
+- name: 27|🇩🇪DE-3.67.79.54-5114
   password: CF68213490
   port: 443
   server: composed-sheep.rooster465.autos
-  type: trojan
-- name: 27|🇩🇪DE-18.192.67.47-5004
-  password: NQ26071394
-  port: 443
-  server: direct-hawk.rooster465.autos
   type: trojan

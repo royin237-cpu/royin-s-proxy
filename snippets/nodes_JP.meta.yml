@@ -1,5 +1,5 @@
 proxies:
-- name: 15,32|🇯🇵 日本 | JPN
+- name: 15|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_6eb542ac
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 31735
   server: jpglobal-identity-federation-auth.younai-ytl.shop
@@ -7,21 +7,41 @@ proxies:
   sni: jp31.lunartrace.io
   type: anytls
   udp: true
-- name: 15,32|🇺🇸 美国 | USA 7
+- name: 15|U⚪🏳️[🎬🤖📺🎭]_dokng.com_4be89047
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 12791
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  skip-cert-verify: true
+  sni: jp10.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 15|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_2dc04ad3
+  port: 2101
+  server: 103.179.45.197
+  type: http
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_b948a8b4
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 30370
   server: jpglobal-identity-federation-auth.younai-ytl.shop
   skip-cert-verify: true
   sni: jd-yz122g.y1static-content-distribution.shop
   type: anytls
-  udp: true
-- name: 15|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_216cb6d4
+- name: 15,32|🇺🇸 美国 | USA 7
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 22054
   server: jpglobal-identity-federation-auth.younai-ytl.shop
   skip-cert-verify: true
   sni: us31.lunartrace.io
   type: anytls
+  udp: true
+- name: 15|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_027ffecb
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 28219
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  skip-cert-verify: true
+  sni: us05.pulsarcore.site
+  type: anytls
+  udp: true
 - name: 15|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_1b81f86d
   port: 10808
   server: 101.36.104.46
@@ -48,6 +68,20 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
+- name: 15|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_1cdb58da
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 19620
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  skip-cert-verify: true
+  sni: us32.pulsarcore.site
+  type: anytls
+- name: 15|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_fc64f369
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20562
+  server: msjp.mangshe.xyz
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
 - name: 15,32|🇹🇷 土耳其 | TUR
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 64293
@@ -56,54 +90,44 @@ proxies:
   sni: trq002.swiftrelay.cc
   type: anytls
   udp: true
-- name: 27|🇯🇵JP-18.183.164.31-4891
-  password: CF68213490
-  port: 443
-  server: funny-hawk.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-85.234.83.212-4906
-  password: NQ26071394
-  port: 443
-  server: massive-ocelot.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-43.207.113.142-4911
+- name: 27|🇯🇵JP-43.207.113.142-5076
   password: IL37892054
   port: 443
   server: engaged-ram.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-31.223.184.85-4927
+- name: 27|🇯🇵JP-85.234.83.45-5153
   password: NQ26071394
   port: 443
-  server: chief-cricket.rooster465.autos
+  server: gentle-platypus.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-31.223.184.104-4980
-  password: NQ26071394
-  port: 443
-  server: correct-starfish.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-54.250.171.197-4987
-  password: NQ26071394
-  port: 443
-  server: real-ewe.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-52.192.45.137-5035
+- name: 27|🇯🇵JP-52.192.45.137-5169
   password: NQ26071394
   port: 443
   server: promoted-rattler.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-31.223.184.41-5065
-  password: PQ05174892
+- name: 27|🇯🇵JP-95.85.94.57-5173
+  password: CF68213490
   port: 443
-  server: lucky-marmot.rooster465.autos
+  server: gentle-mastiff.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-13.193.101.187-5073
+- name: 27|🇯🇵JP-13.193.101.187-5176
   password: CF68213490
   port: 443
   server: brief-warthog.rooster465.autos
   type: trojan
-- name: 35|JP - zhuhai.uk 02
+- name: 27|🇯🇵JP-94.177.131.233-5193
+  password: JT80563429
+  port: 443
+  server: musical-shrew.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-31.223.184.41-5202
+  password: PQ05174892
+  port: 443
+  server: lucky-marmot.rooster465.autos
+  type: trojan
+- name: 35|JP - zhuhai.uk
   port: 443
   server: fan.571589.xyz
-  skip-cert-verify: true
+  sni: fan.571589.xyz
   tls: true
   type: http

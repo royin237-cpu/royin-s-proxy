@@ -1,4 +1,11 @@
 proxies:
+- name: 11|🇭🇰 HK 10 → tg@nicevpn123
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: chjs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 11|🇭🇰 HK 9 → tg@nicevpn123
   password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
   port: 443
@@ -6,18 +13,18 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 27|🇺🇸US-35.89.158.227-4890
+- name: 27|🇺🇸US-35.89.158.227-5058
   password: CF68213490
   port: 443
   server: live-drake.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-54.213.238.59-4902
+- name: 27|🇺🇸US-44.250.170.23-5128
   password: CF68213490
   port: 443
-  server: ultimate-jaguar.rooster465.autos
+  server: shining-piranha.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-54.70.161.72-4990
-  password: NQ26071394
+- name: 27|🇺🇸US-50.112.83.226-5168
+  password: PD07395842
   port: 443
-  server: gentle-turtle.rooster465.autos
+  server: national-dingo.rooster465.autos
   type: trojan

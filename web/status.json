@@ -1,15 +1,15 @@
 {
-  "total": 294,
+  "total": 345,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 17
+      "count": 20
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 55
+      "count": 58
     },
     "CN": {
       "flag": "🇨🇳",
@@ -19,7 +19,7 @@
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 11
+      "count": 9
     },
     "TW": {
       "flag": "🇹🇼",
@@ -29,62 +29,62 @@
     "CA": {
       "flag": "🇨🇦",
       "name": "加拿大",
-      "count": 16
+      "count": 20
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 7
+      "count": 11
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 18
+      "count": 19
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 9
+      "count": 14
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 33
+      "count": 34
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 2
+      "count": 7
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 18
+      "count": 13
     },
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 3
+      "count": 4
     },
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 4
+      "count": 5
     },
     "CH": {
       "flag": "🇨🇭",
       "name": "瑞士",
-      "count": 3
+      "count": 2
     },
     "NL": {
       "flag": "🇳🇱",
       "name": "荷兰",
-      "count": 21
+      "count": 18
     },
     "RO": {
       "flag": "🇷🇴",
       "name": "罗马尼亚",
-      "count": 22
+      "count": 23
     },
     "IN": {
       "flag": "🇮🇳",
@@ -94,47 +94,47 @@
     "TH": {
       "flag": "🇹🇭",
       "name": "泰国",
-      "count": 2
+      "count": 3
     },
     "TR": {
       "flag": "🇹🇷",
       "name": "土耳其",
-      "count": 13
+      "count": 14
     },
     "AU": {
       "flag": "🇦🇺",
       "name": "澳大利亚",
-      "count": 3
+      "count": 2
     },
     "IT": {
       "flag": "🇮🇹",
       "name": "意大利",
-      "count": 6
+      "count": 7
     },
     "ES": {
       "flag": "🇪🇸",
       "name": "西班牙",
-      "count": 2
+      "count": 3
     },
     "BR": {
       "flag": "🇧🇷",
       "name": "巴西",
-      "count": 5
+      "count": 11
     },
     "VN": {
       "flag": "🇻🇳",
       "name": "越南",
-      "count": 1
+      "count": 2
     },
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 3
+      "count": 4
     },
     "PH": {
       "flag": "🇵🇭",
       "name": "菲律宾",
-      "count": 1
+      "count": 2
     },
     "PL": {
       "flag": "🇵🇱",
@@ -147,8 +147,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-09-04 00:16",
-  "server_time": "2026-09-04 00:17:25",
+  "update_time": "2026-09-04 12:17",
+  "server_time": "2026-09-04 12:19:15",
   "sources": [
     {
       "index": 0,
@@ -233,12 +233,12 @@
     {
       "index": 16,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
-      "nodes": 42
+      "nodes": 47
     },
     {
       "index": 17,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 179
+      "nodes": 175
     },
     {
       "index": 18,
@@ -253,12 +253,12 @@
     {
       "index": 20,
       "url": "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml",
-      "nodes": 44
+      "nodes": 50
     },
     {
       "index": 21,
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-      "nodes": 17
+      "nodes": 25
     },
     {
       "index": 22,
@@ -273,7 +273,7 @@
     {
       "index": 24,
       "url": "https://raw.githubusercontent.com/kooker/FreeSubsCheck/main/mihomo.yaml",
-      "nodes": 12
+      "nodes": 48
     },
     {
       "index": 25,
@@ -288,12 +288,12 @@
     {
       "index": 27,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 4083
+      "nodes": 4134
     },
     {
       "index": 28,
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
-      "nodes": 329
+      "nodes": 406
     },
     {
       "index": 29,

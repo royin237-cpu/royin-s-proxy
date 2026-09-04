@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,27|🇫🇮FI-65.21.240.108-0929
+  name: 19,27|🇫🇮FI-65.21.240.108-0966
   network: http
   port: 443
   server: 65.21.240.108
@@ -12,7 +12,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇮FI-65.109.134.191-4242
+  name: 27|🇫🇮FI-65.109.134.191-4291
   network: ws
   port: 80
   server: 65.109.134.191
@@ -24,23 +24,23 @@ proxies:
     headers:
       Host: 65.109.134.191
     path: /graphql
-- name: 27|🇫🇮FI-135.181.41.169-5057
+- name: 27|🇫🇮FI-135.181.41.169-5197
   password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
   server: bbbnhj.131.pp.ua
   type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-5060
+- name: 27|🇫🇮FI-135.181.41.169-5199
   password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
   server: nnnmjju.131.pp.ua
   type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-5066
-  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-  port: 443
-  server: vvbgh.131.pp.ua
-  type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-5076
+- name: 27|🇫🇮FI-135.181.41.169-5200
   password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
   server: bbbnnmj.131.pp.ua
+  type: trojan
+- name: 27|🇫🇮FI-135.181.41.169-5201
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  port: 443
+  server: vvbgh.131.pp.ua
   type: trojan

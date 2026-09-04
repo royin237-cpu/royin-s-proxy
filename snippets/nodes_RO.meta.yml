@@ -14,7 +14,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '15,28,34|RO_speednode_0124 #1'
+- name: '15,24,28,34|RO_speednode_0124 #1'
   port: 9002
   server: 193.176.84.32
   skip-cert-verify: true
@@ -22,11 +22,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15,28,34,35|RO - zhuhai.uk 02
+- name: '15,28,34|RO_speednode_0044 #1'
   port: 9002
   server: 193.176.84.35
   skip-cert-verify: true
-  sni: 193.176.84.35
   tls: true
   type: http
   udp: true
@@ -44,10 +43,19 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: '15,28,34|RO_speednode_0126 #1'
+- name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_4f3ee96c
+  password: None
+  port: 9002
+  server: 193.176.84.22
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '15,24,28,34|RO_speednode_0126 #1'
   port: 9002
   server: 193.176.84.39
   skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -59,6 +67,14 @@ proxies:
   tls: true
   type: http
   username: 'null'
+- name: 15,28|🇷🇴RO_3|1.8MB/s
+  password: None
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_fc2a6072
   password: None
   port: 9002
@@ -78,6 +94,7 @@ proxies:
   port: 9002
   server: 193.176.84.20
   skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -96,7 +113,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '15,28,34|RO_speednode_0110 #1'
+- name: '15,24,28,34|RO_speednode_0110 #1'
   password: ''
   port: 9002
   server: 193.176.84.27
@@ -105,16 +122,46 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: '28,34|RO_speednode_0041 #1'
+- name: '24,28,34|RO_speednode_0041 #1'
   port: 9002
   server: 193.176.84.33
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '28,34|RO_speednode_0042 #1'
+- name: '24,28,34|RO_speednode_0042 #1'
   port: 9002
   server: 193.176.84.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '24,28,34|RO_speednode_0082 #1'
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '24,28,34|RO_speednode_0083 #1'
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '24,28,34|RO_speednode_0094 #1'
+  password: None
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '24,28,34|RO_speednode_0097 #1'
+  password: None
+  port: 9002
+  server: 193.176.84.23
   skip-cert-verify: true
   tls: true
   type: http
@@ -126,41 +173,3 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '28,34|RO_speednode_0082 #1'
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '28,34|RO_speednode_0083 #1'
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '28,34|RO_speednode_0094 #1'
-  password: None
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '28,34|RO_speednode_0097 #1'
-  password: None
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|RO - zhuhai.uk
-  password: 'null'
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'

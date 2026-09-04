@@ -1,17 +1,18 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 15,21,24|🇯🇵JP_1|1.1MB/s
+  name: 12,15,24|🇺🇸US_1|954KB/s
   password: 7eadc6dbe2ae
   port: 65443
-  server: 121.46.230.137
-  skip-cert-verify: true
+  server: 121.46.230.233
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 15,21,35|US - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
+- alterId: 64
+  cipher: auto
+  name: 21|🇨🇳_CN_中国
+  port: 50002
+  server: 112.132.215.108
   skip-cert-verify: true
-  type: ss
+  tls: false
+  type: vmess
   udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

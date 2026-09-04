@@ -3,7 +3,79 @@ proxies:
   port: 8095
   server: 193.19.190.59
   type: http
+- name: 15|A🟢🇷🇺[🎪✨📦🔍]_dokng.com_bfb33a78
+  port: 8095
+  server: 194.61.232.13
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: 15|U⚪🏳️[✈️]_dokng.com_483670b0
+  network: ws
+  port: 443
+  server: 91.210.169.181
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  ws-opts:
+    headers:
+      Host: wstg.datasynctrue.online
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /api/connect
+  xudp: true
+- name: 15|C🟠🇷🇺[🎬🎪📦]_dokng.com_cfb09d51
+  network: ws
+  port: 2200
+  server: 186.246.48.59
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 72c8ea26-8b77-4e31-a23f-79c19b3a2ef1
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
 - name: 15|A🟢🇷🇺[✨📦🔍]_dokng.com_965e2a11
   port: 4080
   server: 185.21.156.73
   type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: 15|U⚪🏳️_dokng.com_bdcb20f7
+  network: ws
+  port: 443
+  server: wstg.datasynctrue.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  ws-opts:
+    headers:
+      Host: wstg.datasynctrue.online
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /api/connect
+  xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: edge
+  encryption: none
+  name: 15,28|🇷🇺RU_1|2.0MB/s
+  network: ws
+  port: 443
+  server: ru05.abvpn.ru
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    headers:
+      Host: ru05.abvpn.ru
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /websocket
+  xudp: true

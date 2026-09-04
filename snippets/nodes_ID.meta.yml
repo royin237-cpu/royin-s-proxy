@@ -1,4 +1,12 @@
 proxies:
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_fcc63609
+  password: None
+  port: 443
+  server: berniesbodybla.fun
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
 - name: 15|U⚪🏳️[🎬🤖📺🎭]_dokng.com_54a270d5
   password: freeuser1
   port: 9251
@@ -6,7 +14,7 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: 15,35|ID - zhuhai.uk
+- name: 15|U⚪🏳️[🤖📺🎭✨]_dokng.com_89e7191b
   password: freeuser1
   port: 9251
   server: sr2-id.freeconnect.link
