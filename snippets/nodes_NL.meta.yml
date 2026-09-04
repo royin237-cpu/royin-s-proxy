@@ -57,6 +57,10 @@ proxies:
   tls: true
   type: http
   username: testuser1
+- name: 15|D🔴🇳🇱[🤖📺🎭✨]_dokng.com_68506dac
+  port: 1080
+  server: 5.255.117.250
+  type: socks5
 - name: 17,28|🩳32@oneclickvpnkeys
   password: gf1
   port: 443

@@ -1,10 +1,64 @@
 proxies:
-- name: 17,28|✅  @vistav2ray  👈👈کانال ما ✅
-  obfs: salamander
-  obfs-password: uw9b2qq5rx
-  password: 6aab8efdf13945829ae3699c342be406
+- name: '16,28|芬兰 #3'
+  password: 14f7504c-bd01-4d88-bd42-80dc6bf6b202
   port: 443
-  server: 31.76.80.69
-  skip-cert-verify: false
-  sni: fiproxy1.lockdwn.com
+  server: samurai.h4ck.me
   type: hysteria2
+- name: '16,28|芬兰 #2 #1'
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  port: 443
+  server: fin14qr.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: fin14qr.wwwinternetvideo.click
+  type: hysteria2
+- name: 17,28|🩳84@oneclickvpnkeys
+  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+  port: 443
+  server: fast.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: fast.wwwinternetvideo.click
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 27|🇫🇮FI-65.21.240.108-0970
+  network: http
+  port: 443
+  server: 65.21.240.108
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 27|🇫🇮FI-65.109.134.191-4288
+  network: ws
+  port: 80
+  server: 65.109.134.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 91698747-92b3-4a07-b5da-22694edbea82
+  ws-opts:
+    headers:
+      Host: 65.109.134.191
+    path: /graphql
+- name: 27|🇫🇮FI-135.181.41.169-5194
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  port: 443
+  server: bbbnhj.131.pp.ua
+  type: trojan
+- name: 27|🇫🇮FI-135.181.41.169-5196
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  port: 443
+  server: nnnmjju.131.pp.ua
+  type: trojan
+- name: 27|🇫🇮FI-135.181.41.169-5197
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  port: 443
+  server: bbbnnmj.131.pp.ua
+  type: trojan
+- name: 27|🇫🇮FI-135.181.41.169-5198
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  port: 443
+  server: vvbgh.131.pp.ua
+  type: trojan

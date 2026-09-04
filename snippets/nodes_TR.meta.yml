@@ -24,48 +24,6 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇷TR-37.221.79.48-0784
-  network: ws
-  port: 443
-  server: v2ray.online
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
-  ws-opts:
-    headers:
-      Host: Kansas.v2ray.online
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: 27|🇹🇷TR-37.221.79.48-1474
-  network: ws
-  port: 443
-  server: v2ray.online
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  ws-opts:
-    headers:
-      Host: v2ray.online
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: 27|🇹🇷TR-37.221.79.48-4732
-  network: ws
-  port: 443
-  server: v2ray.online
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  ws-opts:
-    headers:
-      Host: Phoenix.v2ray.online
-    path: /speedtest
-- alterId: 0
-  cipher: auto
   name: 27|🇹🇷TR-45.94.169.142-7278
   network: ws
   port: 443
@@ -78,34 +36,6 @@ proxies:
     headers:
       Host: 45.94.169.142
     path: /wss13889
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 32|🇹🇷 土耳其 | TUR
-  network: tcp
-  port: 443
-  server: parta1.api3-max.ru
-  servername: parta1.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5999a497-a2da-41d0-92cb-5b758082f83c
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 32|🇹🇷 土耳其 | TUR 2
-  network: tcp
-  port: 443
-  server: parta2.api3-max.ru
-  servername: parta2.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5999a497-a2da-41d0-92cb-5b758082f83c
 - alpn:
   - h2
   - http/1.1

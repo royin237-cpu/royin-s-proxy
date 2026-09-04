@@ -57,14 +57,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
         (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
     path: /assignment
-- cipher: aes-256-cfb
-  name: 12,21|🇲🇾_MY_马来西亚
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 118.107.222.231
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: 12|us|7ca3|puddincat07@Telegram
   network: ws
@@ -146,6 +138,14 @@ proxies:
   udp: true
   uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
   xudp: true
+- cipher: aes-256-cfb
+  name: 15,21|🇨🇳_CN_中国->🇺🇸_US_美国
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - name: 15|D🔴🇩🇪[🎬🤖📺🎪]_dokng.com_005f0e9b
   port: 443
   server: 87.249.132.97
@@ -607,13 +607,6 @@ proxies:
   port: 443
   server: bright.bitgas.org
   type: trojan
-- cipher: aes-256-cfb
-  name: 15,24,32|🇺🇸 美国 | USA 4
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
-  udp: true
 - name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_2e1f53fe
   password: None
   port: 443
@@ -1155,6 +1148,10 @@ proxies:
   port: 11920
   server: 212.24.108.20
   type: http
+- name: 15|D🔴🇳🇱[🤖📺🎭✨]_dokng.com_68506dac
+  port: 1080
+  server: 5.255.117.250
+  type: socks5
 - name: 15|A🟢🇬🇹[🎬🤖📺🎭]_dokng.com_9711d34d
   port: 999
   server: 181.119.177.229
@@ -1172,6 +1169,10 @@ proxies:
 - name: 15|A🟢🇦🇹_dokng.com_fabf5584
   port: 31337
   server: 80.64.143.173
+  type: http
+- name: 15|U⚪🏳️_dokng.com_a344beab
+  port: 999
+  server: 206.62.167.8
   type: http
 - name: 15|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_c618c95c
   password: None
@@ -1219,15 +1220,6 @@ proxies:
   port: 999
   server: 179.63.6.239
   type: http
-- name: 17,28|✅  @vistav2ray  👈👈کانال ما ✅
-  obfs: salamander
-  obfs-password: uw9b2qq5rx
-  password: 6aab8efdf13945829ae3699c342be406
-  port: 443
-  server: 31.76.80.69
-  skip-cert-verify: false
-  sni: fiproxy1.lockdwn.com
-  type: hysteria2
 - name: 17,28|🩳32@oneclickvpnkeys
   password: gf1
   port: 443
