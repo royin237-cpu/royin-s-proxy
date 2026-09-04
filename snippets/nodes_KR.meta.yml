@@ -14,7 +14,7 @@ proxies:
   type: socks5
   udp: true
   username: null
-- name: 15|A🟢🇰🇷[🎬🤖📺🎭]_dokng.com_10f6c798
+- name: 15,35|KR - zhuhai.uk 02
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 22809
   server: svip.skycon808.com
@@ -45,12 +45,20 @@ proxies:
   sni: tw15.swiftrelay.cc
   type: anytls
   udp: true
-- name: 15|D🔴🇹🇭[🎬🤖📺🎭]_dokng.com_03debdae
+- name: 15,35|TH - zhuhai.uk
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 16955
   server: yazhouany02.downapptwo.cc
   skip-cert-verify: true
   sni: taiguo02.swiftrelay.cc
+  type: anytls
+  udp: true
+- name: 15|C🟠🇺🇸[🎪🎞️📦✈️]_dokng.com_f1210c9...
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 27932
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: us20.pulsarcore.site
   type: anytls
   udp: true
 - name: 15|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_2700bc81
@@ -76,6 +84,14 @@ proxies:
   sni: us72.pulsarcore.site
   type: anytls
   udp: true
+- name: 15|D🔴🇹🇭[🎬🤖📺🎭]_dokng.com_1fe10914
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 32193
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: taiguo01.pulsarcore.site
+  type: anytls
+  udp: true
 - name: 15,24|🇰🇷KR_2|1.7MB/s
   password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
   port: 31433
@@ -92,8 +108,15 @@ proxies:
   sni: us63.swiftrelay.cc
   type: anytls
   udp: true
+- name: 15|C🟠🇻🇳[🤖✨🎞️📦]_dokng.com_d5389900
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 64962
+  server: yzany01.downapptwo.cc
+  sni: yuean.pulsarcore.site
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
-  name: 19,35|KR - zhuhai.uk
+  name: 19|韩国 006
   network: ws
   port: 443
   server: kr.mkdir.kdns.fr
@@ -108,102 +131,102 @@ proxies:
     headers:
       Host: ai-verps.pages.dev
     path: /
-- name: '26,27|🇰🇷KR-43.201.249.3-0179 #1'
+- name: '26,27|🇰🇷KR-43.201.249.3-0212 #1'
   password: NQ26071394
   port: 443
   server: magical-prawn.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.35.140.206-5055
+- name: 27|🇰🇷KR-3.35.140.206-5052
   password: NQ26071394
   port: 443
   server: devoted-heron.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-13.125.197.210-5056
+- name: 27|🇰🇷KR-13.125.197.210-5053
   password: PD07395842
   port: 443
   server: together-amoeba.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.201.103.190-5057
+- name: 27|🇰🇷KR-43.201.103.190-5054
   password: CF68213490
   port: 443
   server: alert-fish.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-13.125.211.246-5061
+- name: 27|🇰🇷KR-13.125.211.246-5058
   password: CF68213490
   port: 443
   server: smooth-lark.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.36.55.102-5078
+- name: 27|🇰🇷KR-3.36.55.102-5075
   password: IL37892054
   port: 443
   server: enhanced-crayfish.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-13.125.69.162-5118
+- name: 27|🇰🇷KR-13.125.69.162-5115
   password: IL37892054
   port: 443
   server: engaging-toucan.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.34.96.227-5122
+- name: 27|🇰🇷KR-3.34.96.227-5119
   password: CF68213490
   port: 443
   server: musical-manatee.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.36.76.91-5123
+- name: 27|🇰🇷KR-3.36.76.91-5120
   password: CF68213490
   port: 443
   server: moved-bluegill.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.214.247-5125
+- name: 27|🇰🇷KR-43.203.214.247-5122
   password: CF68213490
   port: 443
   server: loyal-molly.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.121.129-5126
+- name: 27|🇰🇷KR-43.203.121.129-5123
   password: CF68213490
   port: 443
   server: next-turkey.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.172.115-5127
+- name: 27|🇰🇷KR-43.203.172.115-5124
   password: CF68213490
   port: 443
   server: funny-hen.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-52.78.76.194-5129
+- name: 27|🇰🇷KR-52.78.76.194-5126
   password: CF68213490
   port: 443
   server: innocent-rattler.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-52.78.121.69-5131
+- name: 27|🇰🇷KR-52.78.121.69-5128
   password: CF68213490
   port: 443
   server: eternal-woodcock.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-13.124.56.133-5152
+- name: 27|🇰🇷KR-13.124.56.133-5149
   password: NQ26071394
   port: 443
   server: living-hagfish.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.38.181.59-5155
+- name: 27|🇰🇷KR-3.38.181.59-5152
   password: NQ26071394
   port: 443
   server: neat-octopus.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.201.100.239-5177
+- name: 27|🇰🇷KR-43.201.100.239-5174
   password: CF68213490
   port: 443
   server: caring-wallaby.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.202.40.193-5181
+- name: 27|🇰🇷KR-43.202.40.193-5178
   password: PD07395842
   port: 443
   server: excited-ghoul.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.34.132.193-5182
+- name: 27|🇰🇷KR-3.34.132.193-5179
   password: NQ26071394
   port: 443
   server: internal-peacock.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.200.254.103-5183
+- name: 27|🇰🇷KR-43.200.254.103-5180
   password: NQ26071394
   port: 443
   server: warm-bass.rooster465.autos

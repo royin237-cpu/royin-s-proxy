@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,27|🇵🇭PH-120.28.10.46-0589
+  name: 19,27|🇵🇭PH-120.28.10.46-0594
   network: ws
   port: 80
   server: 120.28.10.46
@@ -14,14 +14,15 @@ proxies:
     headers:
       Host: sazgar.serveirc.com
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 19,33|未知33
+  name: 19,27|🇵🇭PH-61.245.11.60-1091
   network: ws
   port: 80
   server: 61.245.11.60
+  servername: ''
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
   ws-opts:

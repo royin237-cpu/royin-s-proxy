@@ -80,6 +80,10 @@ proxies:
   port: 1080
   server: 5.255.103.55
   type: socks5
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_433a1132
+  port: 1080
+  server: 5.255.113.177
+  type: socks5
 - name: '24,28,34|NL_speednode_0004 #1'
   port: 9002
   server: 84.17.47.125
@@ -109,12 +113,12 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 27|🇳🇱NL-89.39.70.120-5088
+- name: 27|🇳🇱NL-89.39.70.120-5085
   password: PD07395842
   port: 443
   server: pro-crane.rooster465.autos
   type: trojan
-- name: 27|🇳🇱NL-78.142.194.96-5090
+- name: 27|🇳🇱NL-78.142.194.96-5087
   password: LSS6HLnp7IeEEJUcox
   port: 443
   server: nl-1.tr202607.com

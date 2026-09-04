@@ -13,17 +13,17 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 27|🇺🇸US-35.89.158.227-5058
+- name: 27|🇺🇸US-35.89.158.227-5055
   password: CF68213490
   port: 443
   server: live-drake.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-44.250.170.23-5128
+- name: 27|🇺🇸US-44.250.170.23-5125
   password: CF68213490
   port: 443
   server: shining-piranha.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-50.112.83.226-5168
+- name: 27|🇺🇸US-50.112.83.226-5165
   password: PD07395842
   port: 443
   server: national-dingo.rooster465.autos

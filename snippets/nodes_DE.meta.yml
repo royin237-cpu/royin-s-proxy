@@ -31,7 +31,7 @@ proxies:
   server: 103.237.102.191
   type: http
   username: null
-- name: 15,35|DE - zhuhai.uk
+- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_731adfcd
   network: ws
   port: 2087
   server: 163.8.195.241
@@ -109,7 +109,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 27|🇩🇪DE-3.67.79.54-5114
+- name: 27|🇩🇪DE-3.67.79.54-5111
   password: CF68213490
   port: 443
   server: composed-sheep.rooster465.autos

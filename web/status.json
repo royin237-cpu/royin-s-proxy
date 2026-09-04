@@ -1,5 +1,5 @@
 {
-  "total": 345,
+  "total": 349,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
@@ -9,12 +9,12 @@
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 58
+      "count": 60
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 3
+      "count": 4
     },
     "HK": {
       "flag": "🇭🇰",
@@ -29,7 +29,7 @@
     "CA": {
       "flag": "🇨🇦",
       "name": "加拿大",
-      "count": 20
+      "count": 18
     },
     "FR": {
       "flag": "🇫🇷",
@@ -39,7 +39,7 @@
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 19
+      "count": 16
     },
     "GB": {
       "flag": "🇬🇧",
@@ -49,12 +49,12 @@
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 34
+      "count": 37
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 7
+      "count": 6
     },
     "DE": {
       "flag": "🇩🇪",
@@ -69,7 +69,7 @@
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 5
+      "count": 4
     },
     "CH": {
       "flag": "🇨🇭",
@@ -79,7 +79,7 @@
     "NL": {
       "flag": "🇳🇱",
       "name": "荷兰",
-      "count": 18
+      "count": 19
     },
     "RO": {
       "flag": "🇷🇴",
@@ -99,7 +99,7 @@
     "TR": {
       "flag": "🇹🇷",
       "name": "土耳其",
-      "count": 14
+      "count": 16
     },
     "AU": {
       "flag": "🇦🇺",
@@ -129,7 +129,7 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 4
+      "count": 3
     },
     "PH": {
       "flag": "🇵🇭",
@@ -139,7 +139,7 @@
     "PL": {
       "flag": "🇵🇱",
       "name": "波兰",
-      "count": 5
+      "count": 4
     },
     "FI": {
       "flag": "🇫🇮",
@@ -147,8 +147,8 @@
       "count": 1
     }
   },
-  "update_time": "2026-09-04 12:17",
-  "server_time": "2026-09-04 12:19:15",
+  "update_time": "2026-09-04 12:53",
+  "server_time": "2026-09-04 12:54:40",
   "sources": [
     {
       "index": 0,
@@ -288,7 +288,7 @@
     {
       "index": 27,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 4134
+      "nodes": 4124
     },
     {
       "index": 28,
@@ -328,7 +328,7 @@
     {
       "index": 35,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 33
+      "nodes": 40
     },
     {
       "index": 36,

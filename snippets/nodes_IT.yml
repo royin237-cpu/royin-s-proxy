@@ -1,10 +1,11 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 19|比利时 006
+  name: 19,27|🇮🇹IT-57.131.32.191-1090
   network: ws
   port: 8443
   server: 57.131.32.191
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess

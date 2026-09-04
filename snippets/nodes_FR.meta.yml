@@ -64,18 +64,15 @@ proxies:
   username: null
 - alterId: 0
   cipher: auto
-  name: 19,21,24,26,27,28|🇭🇰HK_1|5.5MB/s
+  name: '26,27|🇫🇷FR-162.19.192.89-0187 #1'
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
   servername: ''
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
-  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
   ws-opts:
     headers:
-      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+      Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
     path: /
-  xudp: true
