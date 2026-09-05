@@ -1,4 +1,24 @@
 proxies:
+- name: 15|A🟢🇷🇺[🎪🎞️📦🔍]_dokng.com_9af66ad2
+  port: 5050
+  server: 45.159.0.194
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 15|U⚪🏳️_dokng.com_c4c93a7d
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: 64c1fe36c7846400
+  server: tgfree.rush-server.com
+  servername: anyfile2file.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
+  xudp: true
 - name: 15|A🟢🇷🇺[✨🎞️📦🔍]_dokng.com_965e2a11
   port: 4080
   server: 185.21.156.73
@@ -11,16 +31,37 @@ proxies:
   port: 8095
   server: 194.61.232.13
   type: http
-- name: 15|C🟠🇷🇺[🎬🤖🎭✈️]_dokng.com_cfb09d51
+- client-fingerprint: chrome
+  encryption: none
+  name: 15|U⚪🏳️[✈️]_dokng.com_bdcb20f7
   network: ws
-  port: 2200
-  server: 186.246.48.59
-  skip-cert-verify: true
-  tfo: false
-  tls: false
+  port: 443
+  server: wstg.datasynctrue.online
+  tls: true
   type: vless
-  uuid: 72c8ea26-8b77-4e31-a23f-79c19b3a2ef1
+  udp: true
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
   ws-opts:
     headers:
-      Host: rzd.ru
-    path: /v1
+      Host: wstg.datasynctrue.online
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /api/connect
+  xudp: true
+- alterId: 0
+  cipher: auto
+  encryption: none
+  name: 15|D🔴🇷🇺[📺🎪]_dokng.com_68a2081e
+  network: ws
+  port: 443
+  server: ru05.abvpn.ru
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    headers:
+      Host: ru05.abvpn.ru
+    path: /websocket

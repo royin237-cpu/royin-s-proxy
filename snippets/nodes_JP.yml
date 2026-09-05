@@ -14,73 +14,53 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- name: 27|🇯🇵JP-85.234.83.212-5060
+- name: 27|🇯🇵JP-95.85.94.57-0247
+  password: CF68213490
+  port: 443
+  server: gentle-mastiff.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-85.234.83.230-4637
+  password: ND91608427
+  port: 443
+  server: sensible-mongrel.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-18.183.164.31-4645
+  password: CF68213490
+  port: 443
+  server: funny-hawk.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-85.234.83.212-4652
   password: NQ26071394
   port: 443
   server: massive-ocelot.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-13.112.192.202-5071
-  password: NQ26071394
-  port: 443
-  server: skilled-polliwog.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-43.207.113.142-5073
+- name: 27|🇯🇵JP-43.207.113.142-4660
   password: IL37892054
   port: 443
   server: engaged-ram.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-31.223.184.85-5081
+- name: 27|🇯🇵JP-31.223.184.104-4685
   password: NQ26071394
   port: 443
-  server: chief-cricket.rooster465.autos
+  server: correct-starfish.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-95.85.94.208-5083
-  password: NQ26071394
-  port: 443
-  server: ready-kangaroo.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-54.250.171.197-5129
-  password: NQ26071394
-  port: 443
-  server: real-ewe.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-13.114.81.227-5132
-  password: NQ26071394
-  port: 443
-  server: capable-baboon.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-43.207.202.79-5137
-  password: CF68213490
-  port: 443
-  server: rested-osprey.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-54.250.237.143-5139
-  password: CF68213490
-  port: 443
-  server: accurate-frog.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-54.95.30.87-5140
-  password: CF68213490
-  port: 443
-  server: in-oriole.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-18.181.201.164-5141
-  password: CF68213490
-  port: 443
-  server: adapting-giraffe.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-52.192.45.137-5166
+- name: 27|🇯🇵JP-52.192.45.137-4732
   password: NQ26071394
   port: 443
   server: promoted-rattler.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-13.193.101.187-5173
+- name: 27|🇯🇵JP-31.223.184.41-4743
+  password: PQ05174892
+  port: 443
+  server: lucky-marmot.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-13.193.101.187-4751
   password: CF68213490
   port: 443
   server: brief-warthog.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-94.177.131.233-5190
-  password: JT80563429
+- name: 27|🇯🇵JP-85.234.83.45-4717
+  password: NQ26071394
   port: 443
-  server: musical-shrew.rooster465.autos
+  server: gentle-platypus.rooster465.autos
   type: trojan

@@ -1,22 +1,10 @@
 proxies:
-- name: 27|🇵🇱PL-51.83.186.142-2980
-  password: 555034c8-6420-45d0-893c-905c02342150
-  port: 443
-  server: 51.83.186.142
-  sni: pl1.trojanvh.xyz
-  type: trojan
-- name: 27|🇵🇱PL-51.83.186.142-4009
-  password: 555034c8-6420-45d0-893c-905c02342150
-  port: 80
-  server: 51.83.186.142
-  sni: pl1.trojanvh.xyz
-  type: trojan
-- name: 27|🇵🇱PL-202.78.163.173-5093
+- name: 27|🇵🇱PL-202.78.163.173-4678
   password: WF42809561
   port: 443
   server: top-goshawk.rooster465.autos
   type: trojan
-- name: 27|🇵🇱PL-202.78.163.19-5099
+- name: 27|🇵🇱PL-202.78.163.19-4686
   password: AE62539071
   port: 443
   server: game-firefly.rooster465.autos

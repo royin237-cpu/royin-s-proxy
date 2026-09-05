@@ -1,11 +1,28 @@
 proxies:
-- name: 27|🇩🇪DE-18.192.67.47-5116
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 15|C🟠🇩🇪_dokng.com_831ffbbf
+  network: ws
+  password: kakashka13222
+  port: 25615
+  server: 5.249.164.28
+  skip-cert-verify: true
+  sni: op-1.firecone.eu
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /femboyporn--femboyporn--femboyporn--femboyporn/free-trojan-node/only-smux-supported
+- name: 27|🇩🇪DE-18.192.67.47-4708
   password: NQ26071394
   port: 443
   server: direct-hawk.rooster465.autos
   type: trojan
-- name: 27|🇩🇪DE-3.75.76.74-5136
+- name: 27|🇩🇪DE-3.67.79.54-4713
   password: CF68213490
   port: 443
-  server: fair-werewolf.rooster465.autos
+  server: composed-sheep.rooster465.autos
   type: trojan

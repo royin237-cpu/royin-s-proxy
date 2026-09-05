@@ -1,6 +1,19 @@
 proxies:
-- name: 27|🇪🇪EE-138.124.183.216-2718
+- name: 27|🇪🇪EE-138.124.183.216-2301
   password: xxoo
   port: 443
   server: 138.124.183.216
   type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 32|🇪🇪 爱沙尼亚 | EST
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: fp0m6TwQ47jO5mrwlrTJCnpzbTmRlyQY5B4WyrYWORY
+  server: 93.123.39.206
+  servername: ee-5.kihsuyhf8jkiugsxb.cfd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0dc1fc26-b8e9-4296-9870-0996de3c2333

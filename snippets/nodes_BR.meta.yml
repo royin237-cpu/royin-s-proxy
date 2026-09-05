@@ -19,13 +19,13 @@ proxies:
   port: 8989
   server: 138.204.95.193
   type: http
+- name: 15|A🟢🇧🇷[🎭✨]_dokng.com_b1a61230
+  port: 9292
+  server: 200.95.192.61
+  type: http
 - name: 15|A🟢🇧🇷[🤖🎪📦]_dokng.com_98e8f1da
   port: 9191
   server: 177.222.248.51
-  type: http
-- name: 15|A🟢🇧🇷[📺🎭🎪]_dokng.com_50364f77
-  port: 8403
-  server: 200.53.2.161
   type: http
 - name: 15|A🟢🇧🇷[🤖📺✨]_dokng.com_ca3b1afa
   port: 9091

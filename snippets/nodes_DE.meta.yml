@@ -25,7 +25,8 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_731adfcd
+- client-fingerprint: chrome
+  name: 15,21|🇩🇪_DE_德国_3
   network: ws
   port: 2087
   server: 163.8.195.241
@@ -33,6 +34,7 @@ proxies:
   tfo: false
   tls: false
   type: vless
+  udp: true
   uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
   ws-opts:
     path: /29c8fed7ca22
@@ -60,6 +62,35 @@ proxies:
   port: 11000
   server: 116.202.172.187
   type: http
+- name: 15|C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_0db00e0d
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 15|C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_f467085f
+  port: 443
+  server: 185.44.107.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 15|A🟢🇩🇪[🤖📺🎭🎪]_dokng.com_78d89340
+  password: None
+  port: 443
+  server: 141.17.83.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 15|D🔴🇩🇪[🤖📺🎭🎪]_dokng.com_62113475
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  skip-cert-verify: true
+  sni: a7acacbe.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
@@ -67,34 +98,49 @@ proxies:
     headers: {}
     path:
     - /
-  name: 15|U⚪🏳️[✈️]_dokng.com_a8482bc1
+  name: 15,21|🇩🇪_DE_德国_1
   network: tcp
   port: 443
   reality-opts:
     public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
-    short-id: ''
   server: 176.96.138.122
   servername: plucky-xenon.cdn.cachefleet.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
   xudp: true
-- name: 15|A🟢🇩🇪[📺🎭🎪📦]_dokng.com_b8f89117
-  password: None
-  port: 443
-  server: fan.973511.xyz
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 27|🇩🇪DE-18.192.67.47-5116
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 15|C🟠🇩🇪_dokng.com_831ffbbf
+  network: ws
+  password: kakashka13222
+  port: 25615
+  server: 5.249.164.28
+  skip-cert-verify: true
+  sni: op-1.firecone.eu
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /femboyporn--femboyporn--femboyporn--femboyporn/free-trojan-node/only-smux-supported
+- name: 27|🇩🇪DE-18.192.67.47-4708
   password: NQ26071394
   port: 443
   server: direct-hawk.rooster465.autos
   type: trojan
-- name: 27|🇩🇪DE-3.75.76.74-5136
+- name: 27|🇩🇪DE-3.67.79.54-4713
   password: CF68213490
   port: 443
-  server: fair-werewolf.rooster465.autos
+  server: composed-sheep.rooster465.autos
   type: trojan
+- name: 35|DE - zhuhai.uk 03
+  port: 443
+  server: fan.973511.xyz
+  sni: fan.973511.xyz
+  tls: true
+  type: http

@@ -29,3 +29,15 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- name: 15|D🔴🇮🇹[🎬🤖🎭🎪]_dokng.com_9b8722f4
+  port: 443
+  server: 109.116.41.154
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 15|D🔴🇮🇹[📺🎪]_dokng.com_187d4a86
+  port: 443
+  server: 93.42.177.250
+  skip-cert-verify: true
+  tls: true
+  type: http

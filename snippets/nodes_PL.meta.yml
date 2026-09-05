@@ -25,3 +25,13 @@ proxies:
   port: 7778
   server: 91.238.54.189
   type: http
+- name: 27|🇵🇱PL-202.78.163.173-4678
+  password: WF42809561
+  port: 443
+  server: top-goshawk.rooster465.autos
+  type: trojan
+- name: 27|🇵🇱PL-202.78.163.19-4686
+  password: AE62539071
+  port: 443
+  server: game-firefly.rooster465.autos
+  type: trojan

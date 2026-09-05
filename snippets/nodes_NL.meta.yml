@@ -12,6 +12,13 @@ proxies:
   server: 82.115.6.209
   type: http
   username: null
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c745045d
+  port: 443
+  server: 185.246.153.28
+  skip-cert-verify: true
+  sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
+  tls: true
+  type: http
 - name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_6daca189
   password: 'null'
   port: 23856
@@ -29,14 +36,13 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 15|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_525eeffd
-  password: 'null'
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b8f46ac7
   port: 443
-  server: 51.158.243.91
+  server: 185.140.209.235
   skip-cert-verify: true
+  sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
   tls: true
   type: http
-  username: 'null'
 - name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_03e0c5d2
   password: None
   port: 443
@@ -49,6 +55,13 @@ proxies:
   port: 65432
   server: 87.215.14.228
   type: http
+- name: 15|D🔴🇪🇸[🎬🤖📺🎭]_dokng.com_f5d1a44f
+  password: None
+  port: 1083
+  server: 161.35.90.93
+  type: socks5
+  udp: true
+  username: null
 - name: 15|D🔴🇳🇱[🤖📺🎭🎪]_dokng.com_62caac5f
   password: e4b72b531a2d10900519
   port: 443
@@ -57,25 +70,11 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 15|D🔴🇳🇱[🤖📺🎭✨]_dokng.com_68506dac
+- name: 15|D🔴🇳🇱_dokng.com_485d2d71
   port: 1080
-  server: 5.255.117.250
+  server: 5.255.103.55
   type: socks5
-- name: 17,28|🩳32@oneclickvpnkeys
-  password: gf1
-  port: 443
-  server: 5.129.235.85
-  skip-cert-verify: true
-  sni: www.linux.com
-  type: hysteria2
-- name: '24,28,34|NL_speednode_0006 #1'
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 27|🇳🇱NL-78.142.194.96-5087
+- name: 27|🇳🇱NL-78.142.194.96-4674
   password: LSS6HLnp7IeEEJUcox
   port: 443
   server: nl-1.tr202607.com
@@ -83,6 +82,13 @@ proxies:
 - name: '28,34|NL_speednode_0004 #1'
   port: 9002
   server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '28,34|NL_speednode_0006 #1'
+  port: 9002
+  server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http

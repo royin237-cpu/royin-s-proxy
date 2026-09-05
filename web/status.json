@@ -1,90 +1,90 @@
 {
-  "total": 272,
+  "total": 339,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 19
+      "count": 14
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 62
+      "count": 63
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 3
+      "count": 2
     },
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 6
+      "count": 8
     },
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 1
+      "count": 17
     },
     "CA": {
       "flag": "🇨🇦",
       "name": "加拿大",
-      "count": 17
+      "count": 1
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 5
+      "count": 9
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 18
+      "count": 27
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 12
+      "count": 18
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 25
+      "count": 41
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 4
+      "count": 7
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 11
+      "count": 16
     },
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 2
+      "count": 4
     },
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 1
+      "count": 2
     },
     "CH": {
       "flag": "🇨🇭",
       "name": "瑞士",
-      "count": 2
+      "count": 4
     },
     "NL": {
       "flag": "🇳🇱",
       "name": "荷兰",
-      "count": 16
+      "count": 17
     },
     "RO": {
       "flag": "🇷🇴",
       "name": "罗马尼亚",
-      "count": 17
+      "count": 23
     },
     "IN": {
       "flag": "🇮🇳",
@@ -99,7 +99,7 @@
     "TR": {
       "flag": "🇹🇷",
       "name": "土耳其",
-      "count": 6
+      "count": 9
     },
     "AU": {
       "flag": "🇦🇺",
@@ -109,7 +109,7 @@
     "IT": {
       "flag": "🇮🇹",
       "name": "意大利",
-      "count": 4
+      "count": 6
     },
     "ES": {
       "flag": "🇪🇸",
@@ -129,7 +129,7 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 4
+      "count": 2
     },
     "PH": {
       "flag": "🇵🇭",
@@ -139,16 +139,16 @@
     "PL": {
       "flag": "🇵🇱",
       "name": "波兰",
-      "count": 4
+      "count": 6
     },
     "FI": {
       "flag": "🇫🇮",
       "name": "芬兰",
-      "count": 9
+      "count": 13
     }
   },
-  "update_time": "2026-09-05 00:32",
-  "server_time": "2026-09-05 00:33:38",
+  "update_time": "2026-09-05 12:12",
+  "server_time": "2026-09-05 12:14:06",
   "sources": [
     {
       "index": 0,
@@ -233,12 +233,12 @@
     {
       "index": 16,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
-      "nodes": 41
+      "nodes": 39
     },
     {
       "index": 17,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 168
+      "nodes": 144
     },
     {
       "index": 18,
@@ -258,7 +258,7 @@
     {
       "index": 21,
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-      "nodes": 15
+      "nodes": 24
     },
     {
       "index": 22,
@@ -273,7 +273,7 @@
     {
       "index": 24,
       "url": "https://raw.githubusercontent.com/kooker/FreeSubsCheck/main/mihomo.yaml",
-      "nodes": 10
+      "nodes": 2
     },
     {
       "index": 25,
@@ -288,12 +288,12 @@
     {
       "index": 27,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 4124
+      "nodes": 4097
     },
     {
       "index": 28,
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
-      "nodes": 328
+      "nodes": 308
     },
     {
       "index": 29,
@@ -328,7 +328,7 @@
     {
       "index": 35,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 33
+      "nodes": 32
     },
     {
       "index": 36,

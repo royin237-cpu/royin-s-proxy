@@ -1,21 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 33|未知50
-  network: tcp
-  port: 2648
-  server: 150.242.244.116
+- cipher: aes-256-cfb
+  name: 21,35|JP - zhuhai.uk 03
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aeff933f-0ae6-4465-85bf-12f1394f35af
-- alterId: 0
-  cipher: auto
-  name: 33|未知152
-  network: tcp
-  port: 50002
-  server: 112.132.215.108
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: ss
+  udp: true

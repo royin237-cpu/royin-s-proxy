@@ -1,4 +1,11 @@
 proxies:
+- name: 11|🇭🇰 HK 10 → tg@nicevpn123
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: chjs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 11|🇭🇰 HK 9 → tg@nicevpn123
   password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
   port: 443
@@ -6,48 +13,44 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 12|us|f508|puddincat07@Telegram
-  network: ws
+- name: 27|🇺🇸US-216.24.57.1-0678
   password: humanity
   port: 443
-  server: 130.250.137.171
-  skip-cert-verify: false
+  server: 216.24.57.1
   sni: www.ignitelimit.com
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /assignment
-- name: 15|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_56791968
-  password: UQfj7bdfjibTjpUHfg72aew51S7fB32g
+- name: 27|🇺🇸US-34.216.104.24-4643
+  password: NQ26071394
   port: 443
-  server: bright.bitgas.org
+  server: helped-jennet.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-35.89.158.227-5055
+- name: 27|🇺🇸US-54.213.238.59-4644
+  password: CF68213490
+  port: 443
+  server: ultimate-jaguar.rooster465.autos
+  type: trojan
+- name: 27|🇺🇸US-35.89.158.227-4646
   password: CF68213490
   port: 443
   server: live-drake.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-54.70.161.72-5105
+- name: 27|🇺🇸US-54.70.161.72-4699
   password: NQ26071394
   port: 443
   server: gentle-turtle.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-44.250.170.23-5125
+- name: 27|🇺🇸US-44.250.170.23-4701
   password: CF68213490
   port: 443
   server: shining-piranha.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-34.218.48.137-5133
+- name: 27|🇺🇸US-50.112.83.226-4733
+  password: PD07395842
+  port: 443
+  server: national-dingo.rooster465.autos
+  type: trojan
+- name: 27|🇺🇸US-54.245.10.59-4734
   password: NQ26071394
   port: 443
-  server: elegant-marten.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-54.213.128.173-5143
-  password: CF68213490
-  port: 443
-  server: eternal-perch.rooster465.autos
+  server: square-gnat.rooster465.autos
   type: trojan
