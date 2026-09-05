@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 12,21,32|🇫🇷 法国 | FRA 18
+  name: 12,21,32|🇫🇷 法国 | FRA
   password: 7eadc6dbe2ae
   port: 65443
   server: 95.170.13.47
@@ -48,10 +48,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_8c55dcfd
-  port: 1088
-  server: 51.178.49.241
-  type: socks5
 - name: 15|D🔴🇫🇷[📺🎪✨]_dokng.com_8a06aaab
   port: 1080
   server: 109.123.251.109

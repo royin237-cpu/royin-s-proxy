@@ -1,5 +1,5 @@
 proxies:
-- name: 15,35|HK - zhuhai.uk 02
+- name: 15|C🟠🇭🇰[📺🎭🎪✨]_dokng.com_da7c41d8
   password: admin
   port: 1080
   server: 47.239.116.165
@@ -10,7 +10,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 15|C🟠🇭🇰[🎬🤖🧠📺]_dokng.com_39ec508f
+  name: 15,32|🇭🇰 香港 | HKG
   network: grpc
   port: 10127
   reality-opts:
@@ -21,23 +21,15 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
-- name: 15,35|HK - zhuhai.uk
+- name: 15|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_8cb372cb
   port: 443
   server: hk40.240104.xyz
-  skip-cert-verify: true
   sni: hk40.240104.xyz
   tls: true
   type: http
-- name: 15|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_d85a93d5
-  password: None
-  port: 443
-  server: fan.240104.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15,35|HK - zhuhai.uk 03
+- name: 15|C🟠🇭🇰[📺🎭📦✈️]_dokng.com_db363b3a
   password: admin
   port: 8899
   server: 47.242.19.215
@@ -67,3 +59,9 @@ proxies:
   port: 443
   server: just-alpaca.rooster465.autos
   type: trojan
+- name: 35|HK - zhuhai.uk
+  port: 443
+  server: fan.240104.xyz
+  tls: true
+  type: http
+  username: bnVsbDpudWxs

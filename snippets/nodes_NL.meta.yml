@@ -19,15 +19,6 @@ proxies:
   sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
   tls: true
   type: http
-- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_6daca189
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  sni: 51.159.225.196
-  tls: true
-  type: http
-  username: 'null'
 - name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_f9c49b8d
   password: ''
   port: 9002
@@ -70,6 +61,10 @@ proxies:
   tls: true
   type: http
   username: testuser1
+- name: 15|D🔴🇳🇱[🤖📺🎭✨]_dokng.com_68506dac
+  port: 1080
+  server: 5.255.117.250
+  type: socks5
 - name: 15|D🔴🇳🇱_dokng.com_485d2d71
   port: 1080
   server: 5.255.103.55
@@ -108,10 +103,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '28,34|NL_speednode_0010 #1'
+- name: 28,34,35|NL - zhuhai.uk 04
   port: 9002
   server: 84.17.47.149
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: 35|NL - zhuhai.uk 03
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http

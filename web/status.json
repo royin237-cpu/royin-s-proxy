@@ -1,5 +1,5 @@
 {
-  "total": 339,
+  "total": 344,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
@@ -14,7 +14,7 @@
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 2
+      "count": 1
     },
     "HK": {
       "flag": "🇭🇰",
@@ -24,7 +24,7 @@
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 17
+      "count": 1
     },
     "CA": {
       "flag": "🇨🇦",
@@ -34,7 +34,7 @@
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 9
+      "count": 8
     },
     "SG": {
       "flag": "🇸🇬",
@@ -69,17 +69,17 @@
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 2
+      "count": 1
     },
     "CH": {
       "flag": "🇨🇭",
       "name": "瑞士",
-      "count": 4
+      "count": 3
     },
     "NL": {
       "flag": "🇳🇱",
       "name": "荷兰",
-      "count": 17
+      "count": 18
     },
     "RO": {
       "flag": "🇷🇴",
@@ -129,7 +129,7 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 2
+      "count": 1
     },
     "PH": {
       "flag": "🇵🇭",
@@ -139,16 +139,16 @@
     "PL": {
       "flag": "🇵🇱",
       "name": "波兰",
-      "count": 6
+      "count": 7
     },
     "FI": {
       "flag": "🇫🇮",
       "name": "芬兰",
-      "count": 13
+      "count": 10
     }
   },
-  "update_time": "2026-09-05 12:12",
-  "server_time": "2026-09-05 12:14:06",
+  "update_time": "2026-09-05 12:46",
+  "server_time": "2026-09-05 12:47:23",
   "sources": [
     {
       "index": 0,

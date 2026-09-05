@@ -10,11 +10,6 @@ proxies:
   port: 443
   server: tough-hermit.rooster465.autos
   type: trojan
-- name: '26,27|🇰🇷KR-54.180.128.171-4716 #1'
-  password: NQ26071394
-  port: 443
-  server: accurate-cat.rooster465.autos
-  type: trojan
 - name: '26,27|🇰🇷KR-43.201.249.3-0201 #1'
   password: NQ26071394
   port: 443
@@ -144,6 +139,11 @@ proxies:
   password: CF68213490
   port: 443
   server: darling-mongrel.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-54.180.128.171-4716
+  password: NQ26071394
+  port: 443
+  server: accurate-cat.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.38.181.59-4721
   password: NQ26071394

@@ -42,7 +42,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 12,15,21,35|TH - zhuhai.uk
+  name: 12,15,21|🇹🇭_TH_泰国
   password: 7eadc6dbe2ae
   port: 65443
   server: 103.169.67.34
@@ -50,13 +50,28 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 12,21,32|🇫🇷 法国 | FRA 18
+  name: 12,21,32|🇫🇷 法国 | FRA
   password: 7eadc6dbe2ae
   port: 65443
   server: 95.170.13.47
   skip-cert-verify: true
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 12|us|b395|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.15.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
   name: 12|us|8d21|puddincat07@Telegram
   network: ws
@@ -115,7 +130,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 15|C🟠🇨🇦[🎬📺🎭🎪]_dokng.com_1178bcd7
+  name: 15,32|🇨🇦 加拿大 | CAN
   password: amazonskr05
   port: 443
   server: 15.223.182.66
@@ -153,7 +168,7 @@ proxies:
         like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /femboyporn--femboyporn--femboyporn--femboyporn/free-trojan-node/only-smux-supported
 - cipher: aes-256-cfb
-  name: 21,35|JP - zhuhai.uk 03
+  name: 21|🇨🇳_CN_中国->🇯🇵_JP_日本
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.137
@@ -164,11 +179,6 @@ proxies:
   password: AE62539071
   port: 443
   server: tough-hermit.rooster465.autos
-  type: trojan
-- name: '26,27|🇰🇷KR-54.180.128.171-4716 #1'
-  password: NQ26071394
-  port: 443
-  server: accurate-cat.rooster465.autos
   type: trojan
 - name: '26,27|🇸🇬SG-91.243.81.39-0180 #1'
   password: CF68213490
@@ -202,10 +212,15 @@ proxies:
   server: 185.75.243.102
   sni: www.ignitelimit.com
   type: trojan
-- name: 27|🇮🇪IE-54.72.130.222-4714
-  password: CF68213490
+- name: 27|🇸🇬SG-52.220.181.28-4718
+  password: NQ26071394
   port: 443
-  server: adapting-basilisk.rooster465.autos
+  server: mighty-lemming.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-85.234.83.45-4717
+  password: NQ26071394
+  port: 443
+  server: gentle-platypus.rooster465.autos
   type: trojan
 - name: 27|🇯🇵JP-85.234.83.230-4637
   password: ND91608427
@@ -462,10 +477,15 @@ proxies:
   port: 443
   server: composed-sheep.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-52.220.181.28-4718
+- name: 27|🇮🇪IE-54.72.130.222-4714
+  password: CF68213490
+  port: 443
+  server: adapting-basilisk.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-54.180.128.171-4716
   password: NQ26071394
   port: 443
-  server: mighty-lemming.rooster465.autos
+  server: accurate-cat.rooster465.autos
   type: trojan
 - name: 27|🇸🇬SG-47.128.146.47-4720
   password: CF68213490
@@ -592,16 +612,11 @@ proxies:
   port: 443
   server: tolerant-rattler.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-85.234.83.45-4717
-  password: NQ26071394
-  port: 443
-  server: gentle-platypus.rooster465.autos
-  type: trojan
-- name: 32|🇫🇷 法国 | FRA 15
+- name: 32|🇺🇸 美国 | USA 16
   network: ws
   password: humanity
   port: 443
-  server: 104.26.15.137
+  server: 104.16.174.109
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -610,3 +625,25 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
+- alterId: 0
+  name: 33|🇺🇸US美国5
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 33|🇺🇸US美国6
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.23.63
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true

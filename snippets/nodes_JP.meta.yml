@@ -30,6 +30,11 @@ proxies:
   port: 443
   server: gentle-mastiff.rooster465.autos
   type: trojan
+- name: 27|🇯🇵JP-85.234.83.45-4717
+  password: NQ26071394
+  port: 443
+  server: gentle-platypus.rooster465.autos
+  type: trojan
 - name: 27|🇯🇵JP-85.234.83.230-4637
   password: ND91608427
   port: 443
@@ -70,14 +75,8 @@ proxies:
   port: 443
   server: brief-warthog.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-85.234.83.45-4717
-  password: NQ26071394
-  port: 443
-  server: gentle-platypus.rooster465.autos
-  type: trojan
-- name: 35|JP - zhuhai.uk 04
+- name: 35|JP - zhuhai.uk 02
   port: 443
   server: fan.571589.xyz
   tls: true
   type: http
-  username: bnVsbDpudWxs

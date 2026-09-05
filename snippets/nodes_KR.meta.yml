@@ -21,11 +21,6 @@ proxies:
   port: 443
   server: tough-hermit.rooster465.autos
   type: trojan
-- name: '26,27|🇰🇷KR-54.180.128.171-4716 #1'
-  password: NQ26071394
-  port: 443
-  server: accurate-cat.rooster465.autos
-  type: trojan
 - name: '26,27|🇰🇷KR-43.201.249.3-0201 #1'
   password: NQ26071394
   port: 443
@@ -156,6 +151,11 @@ proxies:
   port: 443
   server: darling-mongrel.rooster465.autos
   type: trojan
+- name: 27|🇰🇷KR-54.180.128.171-4716
+  password: NQ26071394
+  port: 443
+  server: accurate-cat.rooster465.autos
+  type: trojan
 - name: 27|🇰🇷KR-3.38.181.59-4721
   password: NQ26071394
   port: 443
@@ -204,13 +204,13 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
-  name: 32,35|KR - zhuhai.uk
+  name: 35|KR - zhuhai.uk
   network: grpc
-  port: 10048
+  port: 10050
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: kr3-r.link-t7.com
+  server: kr5-r.link-t7.com
   servername: s0.awsstatic.com
   skip-cert-verify: true
   tls: true

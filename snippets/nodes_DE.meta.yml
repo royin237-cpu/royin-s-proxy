@@ -50,19 +50,11 @@ proxies:
   server: 103.237.102.191
   type: http
   username: null
-- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_9c08cf3c
-  password: None
-  port: 443
-  server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_f012372a
   port: 11000
   server: 116.202.172.187
   type: http
-- name: 15|C🟠🇩🇪[🤖📺🎭🎪]_dokng.com_0db00e0d
+- name: 15,35|DE - zhuhai.uk
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
@@ -111,6 +103,14 @@ proxies:
   udp: true
   uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
   xudp: true
+- name: 15|A🟢🇩🇪[📺🎭🎪📦]_dokng.com_b8f89117
+  password: None
+  port: 443
+  server: fan.973511.xyz
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
 - alpn:
   - http/1.1
   client-fingerprint: android
@@ -138,9 +138,9 @@ proxies:
   port: 443
   server: composed-sheep.rooster465.autos
   type: trojan
-- name: 35|DE - zhuhai.uk 03
+- name: 35|DE - zhuhai.uk 02
   port: 443
-  server: fan.973511.xyz
-  sni: fan.973511.xyz
+  server: 138.201.56.241
+  skip-cert-verify: true
   tls: true
   type: http

@@ -57,7 +57,17 @@ proxies:
     path: /wss13889
 - alterId: 0
   cipher: auto
-  name: 33|未知49
+  name: 33|未知26
+  network: tcp
+  port: 5381
+  server: dashboard.afrashop.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 130b0fbf-4f19-44d0-911f-95355e9632e4
+- alterId: 0
+  cipher: auto
+  name: 33|未知102
   network: ws
   port: 80
   server: sacda.tr.snapeurop.com
@@ -69,13 +79,3 @@ proxies:
     headers:
       Host: sacda.tr.snapeurop.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 33|未知65
-  network: tcp
-  port: 5384
-  server: dashboard.aframarket.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 130b0fbf-4f19-44d0-911f-95355e9632e4

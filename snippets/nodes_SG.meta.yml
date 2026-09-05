@@ -13,11 +13,12 @@ proxies:
   skip-cert-verify: true
   sni: www.microsoft.com
   type: anytls
-- name: 15|A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1
+- name: 15,35|SG - zhuhai.uk
   password: ''
   port: 9443
   server: 149.88.99.209
   skip-cert-verify: true
+  sni: 149.88.99.209
   tls: true
   type: http
   udp: true
@@ -60,6 +61,11 @@ proxies:
   port: 443
   server: quiet-condor.rooster465.autos
   type: trojan
+- name: 27|🇸🇬SG-52.220.181.28-4718
+  password: NQ26071394
+  port: 443
+  server: mighty-lemming.rooster465.autos
+  type: trojan
 - name: 27|🇸🇬SG-47.130.132.222-4642
   password: NQ26071394
   port: 443
@@ -99,11 +105,6 @@ proxies:
   password: EQ30679154
   port: 443
   server: definite-gazelle.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-52.220.181.28-4718
-  password: NQ26071394
-  port: 443
-  server: mighty-lemming.rooster465.autos
   type: trojan
 - name: 27|🇸🇬SG-47.128.146.47-4720
   password: CF68213490

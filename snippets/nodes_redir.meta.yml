@@ -20,15 +20,25 @@ proxies:
   udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
   xudp: true
-- client-fingerprint: chrome
-  name: 21|🇵🇱_PL_波兰->🇳🇱_NL_荷兰
-  network: ws
-  port: 2087
-  server: 178.95.170.83
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 21|🇨🇭_CH_瑞士->🇫🇮_FI_芬兰
+  port: 5001
+  reality-opts:
+    public-key: HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ
+    short-id: a1b2c3d4
+  server: 31.76.4.128
+  servername: fi.aeternavpn.space
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
-  ws-opts:
-    path: /4bc027a44532
+  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
+- cipher: aes-256-cfb
+  name: 21|🇨🇳_CN_中国->🇯🇵_JP_日本
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  skip-cert-verify: true
+  type: ss
+  udp: true
