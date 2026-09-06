@@ -1,5 +1,5 @@
 {
-  "total": 284,
+  "total": 273,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
@@ -9,12 +9,12 @@
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 55
+      "count": 54
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 6
+      "count": 5
     },
     "HK": {
       "flag": "🇭🇰",
@@ -39,12 +39,12 @@
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 17
+      "count": 18
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 13
+      "count": 14
     },
     "KR": {
       "flag": "🇰🇷",
@@ -54,22 +54,22 @@
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 6
+      "count": 5
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 16
+      "count": 15
     },
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 4
+      "count": 3
     },
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 3
+      "count": 2
     },
     "CH": {
       "flag": "🇨🇭",
@@ -79,7 +79,7 @@
     "NL": {
       "flag": "🇳🇱",
       "name": "荷兰",
-      "count": 19
+      "count": 20
     },
     "RO": {
       "flag": "🇷🇴",
@@ -89,7 +89,7 @@
     "IN": {
       "flag": "🇮🇳",
       "name": "印度",
-      "count": 6
+      "count": 3
     },
     "TH": {
       "flag": "🇹🇭",
@@ -99,7 +99,7 @@
     "TR": {
       "flag": "🇹🇷",
       "name": "土耳其",
-      "count": 15
+      "count": 10
     },
     "AU": {
       "flag": "🇦🇺",
@@ -139,16 +139,16 @@
     "PL": {
       "flag": "🇵🇱",
       "name": "波兰",
-      "count": 6
+      "count": 4
     },
     "FI": {
       "flag": "🇫🇮",
       "name": "芬兰",
-      "count": 15
+      "count": 13
     }
   },
-  "update_time": "2026-09-06 12:56",
-  "server_time": "2026-09-06 12:58:03",
+  "update_time": "2026-09-06 23:37",
+  "server_time": "2026-09-06 23:39:12",
   "sources": [
     {
       "index": 0,
@@ -233,12 +233,12 @@
     {
       "index": 16,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
-      "nodes": 36
+      "nodes": 39
     },
     {
       "index": 17,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 134
+      "nodes": 110
     },
     {
       "index": 18,
@@ -248,17 +248,17 @@
     {
       "index": 19,
       "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
-      "nodes": 1412
+      "nodes": 1416
     },
     {
       "index": 20,
       "url": "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml",
-      "nodes": 50
+      "nodes": 4
     },
     {
       "index": 21,
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-      "nodes": 29
+      "nodes": 23
     },
     {
       "index": 22,
@@ -273,7 +273,7 @@
     {
       "index": 24,
       "url": "https://raw.githubusercontent.com/kooker/FreeSubsCheck/main/mihomo.yaml",
-      "nodes": 27
+      "nodes": 15
     },
     {
       "index": 25,
@@ -293,7 +293,7 @@
     {
       "index": 28,
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
-      "nodes": 375
+      "nodes": 323
     },
     {
       "index": 29,
@@ -313,7 +313,7 @@
     {
       "index": 32,
       "url": "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.y",
-      "nodes": 63
+      "nodes": 64
     },
     {
       "index": 33,
@@ -328,7 +328,7 @@
     {
       "index": 35,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 31
+      "nodes": 33
     },
     {
       "index": 36,

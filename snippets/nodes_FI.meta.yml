@@ -19,7 +19,7 @@ proxies:
   port: 443
   server: samurai.h4ck.me
   type: hysteria2
-- name: '17,28|✅  @vistav2ray  👈👈کانال ما ✅ #1'
+- name: '17,28|✅  @vistav2ray  👈👈کانال ما ✅ #2'
   obfs: salamander
   obfs-password: uw9b2qq5rx
   password: 6aab8efdf13945829ae3699c342be406
@@ -39,7 +39,8 @@ proxies:
   tls: false
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- name: 19|美国 436
+- client-fingerprint: chrome
+  name: 19|美国 435
   network: xhttp
   port: 443
   server: 65.109.238.140
@@ -51,7 +52,7 @@ proxies:
   udp: true
   uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
 - client-fingerprint: chrome
-  name: 19|美国 513
+  name: 19|美国 514
   network: grpc
   port: 2101
   server: 132.243.223.227
@@ -72,7 +73,7 @@ proxies:
   type: vless
   udp: true
   uuid: cde8e374-bf71-4a1f-9386-db050bc46190
-- name: 19|芬兰 002
+- name: 19|芬兰 004
   network: grpc
   port: 443
   server: 135.181.41.45
@@ -116,31 +117,3 @@ proxies:
   port: 443
   server: bbbnhj.131.pp.ua
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 32|🇩🇪 德国 | DEU
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nnkPnz6R86-6xG92s8k-1DUQPXAJIVMoMWDLPghh4x4
-    short-id: 0173b2681806bc97
-  server: eu-north-fi-1.hanvpn.biz
-  servername: eu-north-fi-1.hanvpn.biz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
-- client-fingerprint: chrome
-  name: 32|🇺🇸 美国 | USA 10
-  network: ws
-  port: 443
-  server: 94.237.18.53
-  servername: cc1359linuxdo6.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
-  ws-opts:
-    headers:
-      Host: cc1359linuxdo6.pages.dev
-    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgADHgIFV0sHVAQaB1QBEhQPSQoRRw8OCw1UFRw=

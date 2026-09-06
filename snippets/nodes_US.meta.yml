@@ -13,6 +13,21 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: 12|us|d210|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /assignment
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_5e99cdb8
   password: 'null'
   port: 443
@@ -21,21 +36,37 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 15,24|🇺🇸US_2|728KB/s
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_a88e970f
   password: gs4BXwT6SW
   port: 10988
   server: 154.26.192.123
   tls: false
   type: http
   username: fQ67Dpe5dU
-- name: 15,28|🇺🇸US_6|4.6MB/s
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_74d3e768
+  password: ''
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_256dedbc
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 15,28|🇺🇸US_7|4.1MB/s
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_469aecea
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_fb61d702
   password: None
   port: 9002
   server: 138.199.35.204
@@ -43,7 +74,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28|🇺🇸US_8|1.0MB/s
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_d9c98f77
   password: None
   port: 9002
   server: 138.199.35.202
@@ -51,7 +82,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28|🇺🇸US_9|4.4MB/s
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_b01fc6dc
   password: None
   port: 9002
   server: 138.199.35.208
@@ -66,7 +97,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7c4c4168
+- name: 15,28|🇺🇸US_4|1.6MB/s
   password: 'null'
   port: 443
   server: purecambogiasl.live
@@ -82,14 +113,14 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 15,28|🇺🇸US_12|3.0MB/s
+- name: 15,35|US - zhuhai.uk 03
   port: 9002
   server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 15,28|🇺🇸US_13|4.5MB/s
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_249361ae
   password: ''
   port: 9002
   server: 138.199.35.219
@@ -97,18 +128,25 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 15,28,35|US - zhuhai.uk 05
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_8668082d
   password: None
   port: 9002
   server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+  username: null
 - name: 15|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_bdaa0f87
   port: 442
   server: 54.235.192.64
   type: http
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_253eed88
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_101583a6
   port: 9002
   server: 138.199.35.206
@@ -116,7 +154,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15,28|🇺🇸US_15|4.3MB/s
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_2fc4a550
   port: 9002
   server: 138.199.35.210
   skip-cert-verify: true
@@ -137,7 +175,7 @@ proxies:
   server: 148.100.84.192
   type: http
   username: null
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_8e3e1d23
+- name: 15,28|🇺🇸US_5|1.3MB/s
   password: ''
   port: 9443
   server: 38.95.111.226
@@ -146,14 +184,6 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 15,28|🇺🇸US_16|1.8MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_02619dd0
   password: None
   port: 9002
@@ -174,14 +204,6 @@ proxies:
   password: 'null'
   port: 9002
   server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 15,28|🇺🇸US_17|4.8MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
@@ -234,6 +256,21 @@ proxies:
   tls: true
   type: http
   username: ''
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_4433500a
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_ff5d6731
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: '15,28,34|US_speednode_0141 #1'
   port: 443
   server: 38.28.193.188
@@ -241,18 +278,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_cc8acd7d
-  port: 8181
-  server: 173.205.202.241
-  type: http
-- name: 15,28|🇺🇸US_18|2.1MB/s
+- name: 15,35|US - zhuhai.uk 07
   password: None
   port: 443
   server: 52.55.81.168
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
+  username: 'null'
 - name: 15|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_1e378dfb
   port: 8023
   server: 96.84.121.105
@@ -265,7 +298,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15,28|🇺🇸US_19|3.0MB/s
+- name: 15,28|🇺🇸US_8|1.1MB/s
   password: None
   port: 443
   server: 149.88.21.129
@@ -300,7 +333,7 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_24a6e4b9
+- name: 15,35|US - zhuhai.uk 09
   password: test123
   port: 1080
   server: 104.168.249.36
@@ -308,7 +341,7 @@ proxies:
   username: test123
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 15|D🔴🇩🇪[📺]_dokng.com_d5526037
+  name: 15,21,32|🇩🇪 德国 | DEU 7
   network: tcp
   port: 443
   reality-opts:
@@ -316,8 +349,10 @@ proxies:
     short-id: 4da5d1853f04af6d
   server: 31.76.71.140
   servername: rrr.windconnect.pro
+  skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
 - client-fingerprint: chrome
   encryption: none
@@ -326,7 +361,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 15,28,35|DE - zhuhai.uk 04
+  name: 15|D🔴🇩🇪[📺]_dokng.com_cc328739
   network: tcp
   port: 443
   reality-opts:
@@ -334,20 +369,11 @@ proxies:
     short-id: 4da5d1853f04af6d
   server: rrr.windconnect.pro
   servername: rrr.windconnect.pro
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
   xudp: true
-- name: 15,28|🇺🇸US_20|1.0MB/s
-  password: None
-  port: 8090
-  server: 209.148.53.153
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 27|🇺🇸US-44.250.170.23-5097
   password: CF68213490
   port: 443
@@ -358,21 +384,6 @@ proxies:
   port: 443
   server: square-gnat.rooster465.autos
   type: trojan
-- name: '28,34|US_speednode_0143 #1'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 28|🇺🇸US_25|3.2MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - name: '28,34|US_speednode_0131 #1'
   password: 'null'
   port: 9002
@@ -382,48 +393,29 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- alterId: 0
-  name: 33|🇺🇸US美国6
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.1
+- name: '28,34|US_speednode_0143 #1'
+  port: 9002
+  server: 138.199.35.198
   skip-cert-verify: true
-  sni: www.ignitelimit.com
   tls: true
-  type: trojan
+  type: http
   udp: true
 - name: 35|US - zhuhai.uk 02
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
+  port: 8090
+  server: 209.148.53.153
   skip-cert-verify: true
-  sni: 138.199.35.214
+  sni: 209.148.53.153
   tls: true
   type: http
-  username: 'null'
-- name: 35|US - zhuhai.uk 06
-  password: 'null'
+- name: 35|US - zhuhai.uk 04
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.205
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: 35|US - zhuhai.uk 07
-  password: None
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  sni: 138.199.35.207
-  tls: true
-  type: http
-  username: 'null'
 - name: 35|US - zhuhai.uk 08
-  password: 'null'
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'

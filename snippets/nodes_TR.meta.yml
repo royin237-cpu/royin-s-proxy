@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 15|U⚪🏳️[🎬📺🎭🎪]_dokng.com_25e95afb
+  password: 9FQFbgD0NCg68qIZbnFH46MlwQPbzl84
+  port: 1080
+  server: mtra-lo-turkey-1ip.zelnora.ir
+  type: ss
+  udp: true
 - name: 15|A🟢🇺🇦[🤖📺🎪✨]_dokng.com_90526c5f
   port: 8585
   server: 109.224.242.133
@@ -33,13 +40,6 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: '16,28|土耳其 #1'
-  password: 1ba59989-225e-4f1c-ab62-9bd7366009cb
-  port: 443
-  server: 194.135.34.130
-  skip-cert-verify: true
-  sni: 194.135.34.130
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 19,27|🇹🇷TR-37.221.79.48-0751
@@ -55,16 +55,6 @@ proxies:
     headers:
       Host: Kansas.v2ray.online
     path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: 19,33|未知114
-  network: tcp
-  port: 62984
-  server: 91.228.227.175
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 62d79906-0850-4a95-aa23-6c827211fe6e
 - name: 19|美国 445
   network: tcp
   port: 56539
@@ -75,18 +65,6 @@ proxies:
   type: vless
   udp: true
   uuid: 09d20121-a470-4d88-85a5-c280bae67b0c
-- flow: xtls-rprx-vision
-  name: 19|俄罗斯 025
-  network: tcp
-  port: 443
-  server: 91.228.227.175
-  servername: f.mjbot.ir
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cef4904d-d5e3-4824-8c7e-37cd8cc08c6e
 - alterId: 0
   cipher: auto
   name: 27|🇹🇷TR-37.221.79.48-1447
@@ -129,37 +107,3 @@ proxies:
     headers:
       Host: 45.94.169.142
     path: /wss13889
-- alterId: 0
-  cipher: auto
-  name: 33|未知67
-  network: ws
-  port: 80
-  server: sacda.tr.snapeurop.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a17be1ef-d5bc-41a1-aeac-b02345823f07
-  ws-opts:
-    headers:
-      Host: sacda.tr.snapeurop.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 33|未知92
-  network: tcp
-  port: 13301
-  server: tr2.pi10.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 113ae61b-d6da-4d08-9221-48595cb8436c
-- alterId: 0
-  cipher: auto
-  name: 33|未知94
-  network: tcp
-  port: 44
-  server: z1.tekno3.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a0400faa-553c-4728-aefa-80c3c5188d96

@@ -1,8 +1,4 @@
 proxies:
-- name: 15|A🟢🇵🇱[🔍]_dokng.com_0443a2fd
-  port: 8090
-  server: 185.32.4.210
-  type: http
 - name: 15|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_6d895544
   password: None
   port: 443
@@ -26,16 +22,3 @@ proxies:
   port: 443
   server: game-firefly.rooster465.autos
   type: trojan
-- encryption: none
-  name: 28,32|🇳🇱 荷兰 | NLD 4
-  network: ws
-  port: 2087
-  server: 178.95.170.83
-  servername: 178.95.170.83
-  tls: false
-  type: vless
-  udp: true
-  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
-  ws-opts:
-    path: /4bc027a44532
-  xudp: true

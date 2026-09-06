@@ -1,16 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 19|伊朗 010
-  network: tcp
-  port: 8443
-  server: 94.183.170.135
-  servername: estproxy4.lockdwn.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
 - name: 19|捷克 009
   network: grpc
   port: 8443

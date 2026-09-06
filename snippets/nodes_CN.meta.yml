@@ -1,11 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 12,15,28,35|JP - zhuhai.uk 02
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  type: ss
-  udp: true
 - name: 15|D🔴🇨🇳_dokng.com_0c5403d7
   port: 8080
   server: 112.64.135.45
@@ -18,29 +11,28 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 15,32|🇺🇸 美国 | USA 20
+  name: 15,21,32|🇨🇳 CN_12
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.232
+  skip-cert-verify: true
   type: ss
-- alterId: 0
+  udp: true
+- cipher: aes-256-cfb
+  name: 15,21,28|🇯🇵JP_1|2.7MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alterId: 64
   cipher: auto
-  delay: 150
-  name: 15,19,33|未知11
-  network: tcp
+  name: 21|🇨🇳_CN_中国_1
   port: 50002
   server: 112.132.215.108
-  servername: 112.132.215.108
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  xudp: true
-- cipher: aes-256-cfb
-  name: 28,32,35|KR - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true

@@ -1,13 +1,20 @@
 proxies:
+- name: 15,35|JP - zhuhai.uk 02
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
+  tls: true
+  type: http
 - name: 15|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_2dc04ad3
   port: 2101
   server: 103.179.45.197
   type: http
-- name: 15|D🔴🇯🇵[🤖📺🎭🎪]_dokng.com_1b81f86d
+- name: 15,35|JP - zhuhai.uk 03
   port: 10808
   server: 101.36.104.46
   type: socks5
-- name: 15|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_5802486e
+- name: 15,35|JP - zhuhai.uk
   port: 10808
   server: 101.36.104.239
   type: socks5
@@ -56,11 +63,3 @@ proxies:
   port: 443
   server: lucky-marmot.rooster465.autos
   type: trojan
-- name: 28|🇯🇵JP_5|2.7MB/s
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
