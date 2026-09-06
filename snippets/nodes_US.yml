@@ -13,43 +13,27 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 27|🇺🇸US-216.24.57.1-0678
+- client-fingerprint: chrome
+  name: 24|🇫🇷FR_2|1.6MB/s
+  network: ws
   password: humanity
   port: 443
   server: 216.24.57.1
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
-- name: 27|🇺🇸US-34.216.104.24-4643
-  password: NQ26071394
-  port: 443
-  server: helped-jennet.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-54.213.238.59-4644
-  password: CF68213490
-  port: 443
-  server: ultimate-jaguar.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-35.89.158.227-4646
-  password: CF68213490
-  port: 443
-  server: live-drake.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-54.70.161.72-4699
-  password: NQ26071394
-  port: 443
-  server: gentle-turtle.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-44.250.170.23-4701
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /assignment
+- name: 27|🇺🇸US-44.250.170.23-4709
   password: CF68213490
   port: 443
   server: shining-piranha.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-50.112.83.226-4733
-  password: PD07395842
-  port: 443
-  server: national-dingo.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-54.245.10.59-4734
+- name: 27|🇺🇸US-54.245.10.59-4738
   password: NQ26071394
   port: 443
   server: square-gnat.rooster465.autos

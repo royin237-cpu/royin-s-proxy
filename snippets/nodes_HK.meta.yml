@@ -1,8 +1,9 @@
 proxies:
-- name: 15|C🟠🇭🇰[📺🎭🎪✨]_dokng.com_da7c41d8
+- name: 15|C🟠🇭🇰[📺🔍]_dokng.com_db363b3a
   password: admin
-  port: 1080
-  server: 47.239.116.165
+  port: 8899
+  server: 47.242.19.215
+  skip-cert-verify: true
   type: socks5
   username: admin
 - client-fingerprint: chrome
@@ -10,7 +11,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 15,32|🇭🇰 香港 | HKG
+  name: 15|C🟠🇭🇰[🎬🤖🧠📺]_dokng.com_39ec508f
   network: grpc
   port: 10127
   reality-opts:
@@ -21,47 +22,39 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vless
+  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: movie
+  name: 15,28,35|HK - zhuhai.uk 01
+  network: grpc
+  port: 10136
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk6-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
   uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
-- name: 15|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_8cb372cb
-  port: 443
-  server: hk40.240104.xyz
-  sni: hk40.240104.xyz
-  tls: true
-  type: http
-- name: 15|C🟠🇭🇰[📺🎭📦✈️]_dokng.com_db363b3a
+  xudp: true
+- name: 15,35|HK - zhuhai.uk
   password: admin
-  port: 8899
-  server: 47.242.19.215
-  skip-cert-verify: true
+  port: 1080
+  server: 47.239.116.165
   type: socks5
   username: admin
-- name: 15|C🟠🇭🇰_dokng.com_d8a84f16
+- name: 15|C🟠🇭🇰[📺🎪📦✈️]_dokng.com_d8a84f16
   password: abc123
   port: 1080
   server: 47.239.98.42
   type: socks5
   username: abc123
-- client-fingerprint: chrome
-  name: 19|美国 030
-  network: grpc
-  port: 10136
-  server: hk6-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
-- name: 27|🇭🇰HK-185.244.208.25-4679
-  password: IL37892054
+- name: 27|🇭🇰HK-91.199.84.204-4731
+  password: XG59623478
   port: 443
-  server: just-alpaca.rooster465.autos
+  server: growing-oyster.rooster465.autos
   type: trojan
-- name: 35|HK - zhuhai.uk
-  port: 443
-  server: fan.240104.xyz
-  tls: true
-  type: http
-  username: bnVsbDpudWxs

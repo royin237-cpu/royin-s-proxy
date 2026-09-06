@@ -1,5 +1,23 @@
 proxies:
-- name: 15|U⚪🏳️[🤖📺🎭🎪]_dokng.com_d66d3f2e
+- name: 15|A🟢🇺🇦[🤖📺🎪✨]_dokng.com_90526c5f
+  port: 8585
+  server: 109.224.242.133
+  type: http
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  name: 15|A🟢🇹🇷[🎬🤖📺🎭]_dokng.com_e6225d56
+  network: tcp
+  password: v2whz6ahmyy2f84j
+  port: 2087
+  server: subtu.charsoulink3.ir
+  skip-cert-verify: false
+  sni: pus.mmdaqaorg2.ir
+  type: trojan
+  udp: true
+- name: 15|U⚪🏳️[🎬🤖📺🎭]_dokng.com_d66d3f2e
   password: freeuser1
   port: 9251
   server: br4-tr.freeconnect.link
@@ -15,7 +33,7 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: '16,28|土耳其 #2'
+- name: '16,28|土耳其 #1'
   password: 1ba59989-225e-4f1c-ab62-9bd7366009cb
   port: 443
   server: 194.135.34.130
@@ -24,11 +42,12 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇷TR-37.221.79.48-0788
+  name: 19,27|🇹🇷TR-37.221.79.48-0792
   network: ws
   port: 443
   server: v2ray.online
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
@@ -38,7 +57,39 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇷TR-37.221.79.48-1058
+  name: 19|俄罗斯 008
+  network: tcp
+  port: 62984
+  server: 91.228.227.175
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 62d79906-0850-4a95-aa23-6c827211fe6e
+- name: 19|美国 445
+  network: tcp
+  port: 56539
+  server: 212.115.103.189
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 09d20121-a470-4d88-85a5-c280bae67b0c
+- flow: xtls-rprx-vision
+  name: 19|俄罗斯 025
+  network: tcp
+  port: 443
+  server: 91.228.227.175
+  servername: f.mjbot.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cef4904d-d5e3-4824-8c7e-37cd8cc08c6e
+- alterId: 0
+  cipher: auto
+  name: 27|🇹🇷TR-37.221.79.48-1062
   network: ws
   port: 443
   server: v2ray.online
@@ -52,7 +103,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇷TR-37.221.79.48-4315
+  name: 27|🇹🇷TR-37.221.79.48-4319
   network: ws
   port: 443
   server: v2ray.online
@@ -66,7 +117,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇷TR-45.94.169.142-6851
+  name: 27|🇹🇷TR-45.94.169.142-6857
   network: ws
   port: 443
   server: 45.94.169.142
@@ -80,17 +131,17 @@ proxies:
     path: /wss13889
 - alterId: 0
   cipher: auto
-  name: 33|未知26
+  name: 33|未知7
   network: tcp
-  port: 5381
-  server: dashboard.afrashop.top
+  port: 5384
+  server: dashboard.aframarket.top
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 130b0fbf-4f19-44d0-911f-95355e9632e4
 - alterId: 0
   cipher: auto
-  name: 33|未知102
+  name: 33|未知35
   network: ws
   port: 80
   server: sacda.tr.snapeurop.com

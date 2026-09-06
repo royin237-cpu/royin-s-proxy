@@ -1,5 +1,27 @@
 proxies:
-- name: 27|🇪🇪EE-138.124.183.216-2301
+- client-fingerprint: chrome
+  name: 19|伊朗 010
+  network: tcp
+  port: 8443
+  server: 94.183.170.135
+  servername: estproxy4.lockdwn.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+- name: 19|捷克 009
+  network: grpc
+  port: 8443
+  server: 95.85.224.3
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e8f7489-e65f-4be6-93ed-867a74ec6759
+- name: 27|🇪🇪EE-138.124.183.216-2305
   password: xxoo
   port: 443
   server: 138.124.183.216

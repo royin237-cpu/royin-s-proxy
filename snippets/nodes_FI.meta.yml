@@ -1,17 +1,25 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 15|C🟠🇫🇮[🎬🤖📺🎭]_dokng.com_4d77f4bd
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 7sFZz7V1r5qtysLzjw07rOOA2P8NG7kvVX5BxFfc-Xc
+    short-id: db39
+  server: 185.58.207.249
+  servername: yandex.ru
+  tls: true
+  type: vless
+  uuid: e24cf9d3-e936-4a90-9932-33931b6a9b45
 - name: '16,28|芬兰 #3'
   password: 14f7504c-bd01-4d88-bd42-80dc6bf6b202
   port: 443
   server: samurai.h4ck.me
   type: hysteria2
-- name: '16,28|芬兰 #2 #1'
-  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
-  port: 443
-  server: fin14qr.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: fin14qr.wwwinternetvideo.click
-  type: hysteria2
-- name: 17,28|✅  @vistav2ray  👈👈کانال ما ✅
+- name: '17,28|✅  @vistav2ray  👈👈کانال ما ✅ #1'
   obfs: salamander
   obfs-password: uw9b2qq5rx
   password: 6aab8efdf13945829ae3699c342be406
@@ -20,26 +28,63 @@ proxies:
   skip-cert-verify: false
   sni: fiproxy1.lockdwn.com
   type: hysteria2
-- name: '17,28|🩳84@oneclickvpnkeys #1'
-  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
-  port: 443
-  server: fast.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: fast.wwwinternetvideo.click
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇮FI-65.21.240.108-3140
+  name: 19,27|🇫🇮FI-65.21.240.108-3144
   network: http
   port: 443
   server: 65.21.240.108
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- name: 19|美国 436
+  network: xhttp
+  port: 443
+  server: 65.109.238.140
+  servername: hel1.nordlinkcloud.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
+- client-fingerprint: chrome
+  name: 19|美国 513
+  network: grpc
+  port: 2101
+  server: 132.243.223.227
+  servername: 132-243-223-227.sslip.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2edfd299-fd54-4056-9d79-3c99f19bdae1
+- name: 19|马恩岛 001
+  network: tcp
+  port: 8080
+  server: 81.27.110.79
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cde8e374-bf71-4a1f-9386-db050bc46190
+- name: 19|芬兰 002
+  network: grpc
+  port: 443
+  server: 135.181.41.45
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇮FI-65.109.134.191-3871
+  name: 27|🇫🇮FI-65.109.134.191-3875
   network: ws
   port: 80
   server: 65.109.134.191
@@ -51,23 +96,23 @@ proxies:
     headers:
       Host: 65.109.134.191
     path: /graphql
-- name: 27|🇫🇮FI-135.181.41.169-4740
-  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-  port: 443
-  server: bbbnhj.131.pp.ua
-  type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-4741
-  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-  port: 443
-  server: bbbnnmj.131.pp.ua
-  type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-4742
+- name: 27|🇫🇮FI-135.181.41.169-4744
   password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
   server: vvbgh.131.pp.ua
   type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-4757
+- name: 27|🇫🇮FI-135.181.41.169-4745
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  port: 443
+  server: bbbnnmj.131.pp.ua
+  type: trojan
+- name: 27|🇫🇮FI-135.181.41.169-4764
   password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
   server: nnnmjju.131.pp.ua
+  type: trojan
+- name: 27|🇫🇮FI-135.181.41.169-4766
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  port: 443
+  server: bbbnhj.131.pp.ua
   type: trojan

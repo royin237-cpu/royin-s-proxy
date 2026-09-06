@@ -1,19 +1,58 @@
 proxies:
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 15|C🟠🇮🇳[🤖📺🎪✨]_dokng.com_58127394
+  port: 443
+  reality-opts:
+    public-key: dMKDyievcyOty4qL9Y5kVfAZw8ey6IX0LNdHuGnQd1g
+    short-id: c12d1c16
+  server: 129.159.17.27
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5531791-909c-448d-93ff-5c8dfc3ec00b
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 15|C🟠🇮🇳[🤖📺🎭🎪]_dokng.com_a40419e6
+  port: 443
+  reality-opts:
+    public-key: sE7iHMdyFUNBBSGfqDm_XdIIgeEv734REAGl6oP-XAQ
+    short-id: 6c782575
+  server: 140.245.28.182
+  servername: updates.cdn-apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5531791-909c-448d-93ff-5c8dfc3ec00b
+- name: 19|印度 005
+  network: tcp
+  port: 443
+  server: 49.50.76.194
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2d7890a-5451-4470-9300-a059792924bb
 - alterId: 0
   cipher: auto
-  name: '26,27|🇮🇳IN-152.67.8.205-0161 #1'
+  name: 26,27,33|未知29
   network: ws
   port: 80
   server: 152.67.8.205
   servername: 152.67.8.205
-  tls: false
+  skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     headers:
       Host: 152.67.8.205
     path: /
-- name: 27|🇮🇳IN-152.67.160.174-0711
+- name: 27|🇮🇳IN-152.67.160.174-0715
   password: 54080134-2cba-4535-8599-95650bd9aa54
   port: 443
   server: 152.67.160.174

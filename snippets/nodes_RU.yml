@@ -16,7 +16,7 @@ proxies:
     path: /TG@dns68免费节点
 - alterId: 64
   cipher: auto
-  name: 27|🇷🇺RU-171.22.134.12-7266
+  name: 27|🇷🇺RU-171.22.134.12-7272
   network: ws
   port: 443
   server: 171.22.134.12
@@ -30,7 +30,7 @@ proxies:
     path: /path/1689849487190
 - alterId: 64
   cipher: auto
-  name: 27|🇷🇺RU-171.22.134.12-7267
+  name: 27|🇷🇺RU-171.22.134.12-7273
   network: ws
   port: 443
   server: 171.22.134.12
@@ -44,7 +44,7 @@ proxies:
     path: /path/1689935243027
 - alterId: 0
   cipher: auto
-  name: 33|未知61 23.7KB/s
+  name: 33|未知10 25.7KB/s
   network: ws
   port: 443
   server: renderer-stream-2-62.mirra.now
