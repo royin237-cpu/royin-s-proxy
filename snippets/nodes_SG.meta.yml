@@ -15,13 +15,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 15|U⚪🏳️_dokng.com_ae946cf9
-  password: None
-  port: 9090
-  server: 128.199.254.13
-  type: http
-  username: null
-- name: 15|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_26d0e430
+- name: 15,35|SG - zhuhai.uk
   password: e4b72b531a2d10900519
   port: 443
   server: 146.70.29.45
@@ -39,62 +33,62 @@ proxies:
   port: 443
   server: quiet-condor.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-54.254.196.251-4653
+- name: 27|🇸🇬SG-54.254.196.251-5041
   password: NQ26071394
   port: 443
   server: thorough-foxhound.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-91.243.81.223-4670
+- name: 27|🇸🇬SG-91.243.81.223-5058
   password: XG59623478
   port: 443
   server: enabling-asp.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-45.135.228.66-4687
+- name: 27|🇸🇬SG-45.135.228.66-5075
   password: OD90375861
   port: 443
   server: wired-tick.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-91.243.81.142-4688
+- name: 27|🇸🇬SG-91.243.81.142-5076
   password: WG39087154
   port: 443
   server: grateful-unicorn.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-45.135.228.19-4689
+- name: 27|🇸🇬SG-45.135.228.19-5077
   password: NQ26071394
   port: 443
   server: fun-labrador.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-52.221.222.185-4705
+- name: 27|🇸🇬SG-52.221.222.185-5093
   password: NQ26071394
   port: 443
   server: joint-ewe.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-45.135.228.82-4757
+- name: 27|🇸🇬SG-45.135.228.82-5145
   password: NQ26071394
   port: 443
   server: certain-prawn.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-81.28.13.151-4758
+- name: 27|🇸🇬SG-81.28.13.151-5146
   password: JA96378052
   port: 443
   server: primary-mallard.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-45.135.228.6-4759
+- name: 27|🇸🇬SG-45.135.228.6-5147
   password: HW85960347
   port: 443
   server: firm-squid.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-81.28.13.63-4761
+- name: 27|🇸🇬SG-81.28.13.63-5149
   password: CF68213490
   port: 443
   server: tolerant-rattler.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-81.28.13.162-4773
+- name: 27|🇸🇬SG-81.28.13.162-5161
   password: KV63147582
   port: 443
   server: evolving-baboon.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-91.243.81.188-4775
+- name: 27|🇸🇬SG-91.243.81.188-5163
   password: CF68213490
   port: 443
   server: polite-coyote.rooster465.autos

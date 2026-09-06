@@ -21,6 +21,15 @@ proxies:
   type: http
   udp: true
   username: null
+- name: '15,28,34|RO_speednode_0097 #1'
+  password: None
+  port: 9002
+  server: 193.176.84.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: null
 - name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_34a41e08
   password: None
   port: 9002
@@ -61,7 +70,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28,34,35|RO - zhuhai.uk
+- name: 15,28,34,35|RO - zhuhai.uk 02
   port: 9002
   server: 193.176.84.24
   skip-cert-verify: true
@@ -131,7 +140,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '28,34|RO_speednode_0087 #1'
+- name: 28,34,35|RO - zhuhai.uk
   port: 9002
   server: 193.176.84.20
   skip-cert-verify: true
@@ -154,10 +163,3 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|RO - zhuhai.uk 02
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  sni: 193.176.84.23
-  tls: true
-  type: http

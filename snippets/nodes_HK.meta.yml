@@ -27,7 +27,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: movie
-  name: 15,28,35|HK - zhuhai.uk 01
+  name: 15,28|🇭🇰HK_1|5.1MB/s
   network: grpc
   port: 10136
   reality-opts:
@@ -53,7 +53,7 @@ proxies:
   server: 47.239.98.42
   type: socks5
   username: abc123
-- name: 27|🇭🇰HK-91.199.84.204-4731
+- name: 27|🇭🇰HK-91.199.84.204-5119
   password: XG59623478
   port: 443
   server: growing-oyster.rooster465.autos

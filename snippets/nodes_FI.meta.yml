@@ -30,7 +30,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 19,27|🇫🇮FI-65.21.240.108-3144
+  name: 19,27|🇫🇮FI-65.21.240.108-0948
   network: http
   port: 443
   server: 65.21.240.108
@@ -84,7 +84,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇮FI-65.109.134.191-3875
+  name: 27|🇫🇮FI-65.109.134.191-4263
   network: ws
   port: 80
   server: 65.109.134.191
@@ -96,23 +96,51 @@ proxies:
     headers:
       Host: 65.109.134.191
     path: /graphql
-- name: 27|🇫🇮FI-135.181.41.169-4744
+- name: 27|🇫🇮FI-135.181.41.169-5132
   password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
   server: vvbgh.131.pp.ua
   type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-4745
+- name: 27|🇫🇮FI-135.181.41.169-5133
   password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
   server: bbbnnmj.131.pp.ua
   type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-4764
+- name: 27|🇫🇮FI-135.181.41.169-5152
   password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
   server: nnnmjju.131.pp.ua
   type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-4766
+- name: 27|🇫🇮FI-135.181.41.169-5154
   password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
   server: bbbnhj.131.pp.ua
   type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 32|🇩🇪 德国 | DEU
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: nnkPnz6R86-6xG92s8k-1DUQPXAJIVMoMWDLPghh4x4
+    short-id: 0173b2681806bc97
+  server: eu-north-fi-1.hanvpn.biz
+  servername: eu-north-fi-1.hanvpn.biz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+- client-fingerprint: chrome
+  name: 32|🇺🇸 美国 | USA 10
+  network: ws
+  port: 443
+  server: 94.237.18.53
+  servername: cc1359linuxdo6.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
+  ws-opts:
+    headers:
+      Host: cc1359linuxdo6.pages.dev
+    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAgADHgIFV0sHVAQaB1QBEhQPSQoRRw8OCw1UFRw=

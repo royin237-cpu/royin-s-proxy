@@ -72,13 +72,9 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 15|D🔴🇳🇱[🎬🤖📺🎪]_dokng.com_433a1132
+- name: 15,35|NL - zhuhai.uk
   port: 1080
   server: 5.255.113.177
-  type: socks5
-- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_485d2d71
-  port: 1080
-  server: 5.255.103.55
   type: socks5
 - name: '24,28,34|NL_speednode_0004 #1'
   port: 9002
@@ -102,6 +98,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: '24,28,34|NL_speednode_0009 #1'
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: '24,28,34|NL_speednode_0010 #1'
   port: 9002
   server: 84.17.47.149
@@ -109,21 +112,13 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 27|🇳🇱NL-89.39.70.120-4678
+- name: 27|🇳🇱NL-89.39.70.120-5066
   password: PD07395842
   port: 443
   server: pro-crane.rooster465.autos
   type: trojan
-- name: 27|🇳🇱NL-78.142.194.96-4679
+- name: 27|🇳🇱NL-78.142.194.96-5067
   password: LSS6HLnp7IeEEJUcox
   port: 443
   server: nl-1.tr202607.com
   type: trojan
-- name: 35|NL - zhuhai.uk 03
-  password: 'null'
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'

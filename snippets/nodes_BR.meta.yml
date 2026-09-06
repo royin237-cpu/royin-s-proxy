@@ -23,3 +23,7 @@ proxies:
   port: 9091
   server: 164.163.237.196
   type: http
+- name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_84cf438e
+  port: 8989
+  server: 138.204.95.193
+  type: http

@@ -39,21 +39,34 @@ proxies:
   uuid: a2d7890a-5451-4470-9300-a059792924bb
 - alterId: 0
   cipher: auto
-  name: 26,27,33|未知29
+  name: '26,27|🇮🇳IN-152.67.8.205-0204 #1'
   network: ws
   port: 80
   server: 152.67.8.205
   servername: 152.67.8.205
-  skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     headers:
       Host: 152.67.8.205
     path: /
-- name: 27|🇮🇳IN-152.67.160.174-0715
+- name: 27|🇮🇳IN-152.67.160.174-1100
   password: 54080134-2cba-4535-8599-95650bd9aa54
   port: 443
   server: 152.67.160.174
   type: trojan
+- client-fingerprint: chrome
+  name: 32|🇰🇷 韩国 | KOR
+  network: ws
+  port: 443
+  server: 139.84.139.219
+  servername: cc1359linuxdo6.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: f745e508-9ec3-489c-a81d-8cd345006be5
+  ws-opts:
+    headers:
+      Host: cc1359linuxdo6.pages.dev
+    path: /video/HRVATBVQEgIPTRARXQ8YGlEMXhVWUAlIGllGAQUFHgEGV0sHVAEaB1AFEhQPSQoRRw8OCw1UFRw=
