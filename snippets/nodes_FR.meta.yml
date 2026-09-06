@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 12,21,24|🇫🇷FR_2|861KB/s
+  name: 12,21|🇫🇷_FR_法国
   password: 7eadc6dbe2ae
   port: 65443
   server: 95.170.13.47
@@ -26,6 +26,14 @@ proxies:
   server: 37.59.125.131
   type: http
   username: null
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_ea66f299
+  port: 8888
+  server: 173.212.240.48
+  type: http
+- name: 15|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_8c55dcfd
+  port: 1088
+  server: 51.178.49.241
+  type: socks5
 - name: 15|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_e3642aa7
   port: 443
   server: 103.82.101.44
@@ -33,10 +41,3 @@ proxies:
   sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
   tls: true
   type: http
-- name: 15|D🔴🇫🇷[🤖📺🎭🎪]_dokng.com_c5db3762
-  password: None
-  port: 1088
-  server: 144.91.121.61
-  type: socks5
-  udp: true
-  username: null

@@ -6,72 +6,67 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: '26,27|🇸🇬SG-91.243.81.39-0223 #1'
+- name: '26,27|🇸🇬SG-91.243.81.39-0237 #1'
   password: CF68213490
   port: 443
   server: harmless-lab.rooster465.autos
   type: trojan
-- name: '26,27|🇸🇬SG-81.28.13.69-0242 #1'
-  password: NQ26071394
-  port: 443
-  server: quiet-condor.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-54.254.196.251-5041
+- name: 27|🇸🇬SG-54.254.196.251-4958
   password: NQ26071394
   port: 443
   server: thorough-foxhound.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-91.243.81.223-5058
+- name: 27|🇸🇬SG-91.243.81.223-4979
   password: XG59623478
   port: 443
   server: enabling-asp.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-45.135.228.66-5075
-  password: OD90375861
-  port: 443
-  server: wired-tick.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-91.243.81.142-5076
-  password: WG39087154
-  port: 443
-  server: grateful-unicorn.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-45.135.228.19-5077
+- name: 27|🇸🇬SG-45.135.228.19-5033
   password: NQ26071394
   port: 443
   server: fun-labrador.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-52.221.222.185-5093
+- name: 27|🇸🇬SG-52.221.222.185-5053
   password: NQ26071394
   port: 443
   server: joint-ewe.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-45.135.228.82-5145
+- name: 27|🇸🇬SG-13.212.181.141-5054
   password: NQ26071394
   port: 443
-  server: certain-prawn.rooster465.autos
+  server: stunning-mastodon.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-81.28.13.151-5146
-  password: JA96378052
+- name: 27|🇸🇬SG-47.128.146.47-5073
+  password: CF68213490
   port: 443
-  server: primary-mallard.rooster465.autos
+  server: pure-ram.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-45.135.228.6-5147
-  password: HW85960347
+- name: 27|🇸🇬SG-52.220.181.28-5078
+  password: NQ26071394
   port: 443
-  server: firm-squid.rooster465.autos
+  server: mighty-lemming.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-81.28.13.63-5149
+- name: 27|🇸🇬SG-81.28.13.73-5090
+  password: WF42809561
+  port: 443
+  server: nearby-muskrat.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-81.28.13.63-5131
   password: CF68213490
   port: 443
   server: tolerant-rattler.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-81.28.13.162-5161
+- name: 27|🇸🇬SG-81.28.13.86-5134
+  password: WG39087154
+  port: 443
+  server: caring-ghoul.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-81.28.13.162-5140
   password: KV63147582
   port: 443
   server: evolving-baboon.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-91.243.81.188-5163
+- name: 27|🇸🇬SG-91.243.81.188-5143
   password: CF68213490
   port: 443
   server: polite-coyote.rooster465.autos

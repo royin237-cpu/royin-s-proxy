@@ -13,21 +13,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 12|us|d210|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /assignment
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_5e99cdb8
   password: 'null'
   port: 443
@@ -104,15 +89,14 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_ff3d6be6
-  password: ''
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7c1cdf0b
+  password: None
+  port: 443
+  server: crosscards.site
+  skip-cert-verify: false
   tls: true
   type: http
-  udp: true
-  username: ''
+  username: null
 - name: 15,35|US - zhuhai.uk 03
   port: 9002
   server: 138.199.35.217
@@ -120,14 +104,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_249361ae
-  password: ''
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_8668082d
   password: None
   port: 9002
@@ -161,14 +137,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_da509960
-  password: None
-  port: 443
-  server: voteshirleysew.club
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
 - name: 15|B🟡🇺🇸[🎬🤖📺🎭]_dokng.com_cd15873e
   password: None
   port: 5252
@@ -208,6 +176,14 @@ proxies:
   tls: true
   type: http
   username: 'null'
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7569cc30
+  password: None
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_06fcd7d4
   port: 9002
   server: 138.199.35.199
@@ -230,16 +206,12 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_823268ff
-  password: ''
+- name: 15,28|🇺🇸US_7|3.2MB/s
   port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  sni: mmgr.club
+  server: jgwynphotoarts.pro
+  sni: jgwynphotoarts.pro
   tls: true
   type: http
-  udp: true
-  username: ''
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_067d2b9f
   password: ''
   port: 9002
@@ -268,6 +240,14 @@ proxies:
   port: 9002
   server: 138.199.35.195
   skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_59f060e6
+  password: None
+  port: 443
+  server: berniesbodybla.fun
+  skip-cert-verify: false
   tls: true
   type: http
   username: null
@@ -306,6 +286,10 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 15|U⚪🏳️[🔍]_dokng.com_3285df17
+  port: 8282
+  server: 208.95.22.65
+  type: http
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_87eec561
   password: e4b72b531a2d10900519
   port: 443
@@ -314,17 +298,14 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 15|A🟢🇵🇪[🎬🤖📺🎭]_dokng.com_1b5ba09c
-  port: 8899
-  server: 217.216.95.159
-  type: http
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_b1448db8
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_1d385d2c
+  password: e4b72b531a2d10900519
   port: 443
-  server: 216.107.139.82
-  skip-cert-verify: true
-  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
+  server: 107.151.238.27
+  sni: 6b97ee1b.acsnet.co
   tls: true
   type: http
+  username: testuser1
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_c09c3f93
   password: e4b72b531a2d10900519
   port: 443
@@ -339,6 +320,10 @@ proxies:
   server: 104.168.249.36
   type: socks5
   username: test123
+- name: 15|U⚪🏳️_dokng.com_180c6698
+  port: 9050
+  server: 45.61.129.165
+  type: socks5
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 15,21,32|🇩🇪 德国 | DEU 7
@@ -354,36 +339,72 @@ proxies:
   type: vless
   udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-- client-fingerprint: chrome
-  encryption: none
+- name: 16,28|阿联酋
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+  port: 443
+  server: news.gazette.help
+  sni: news.gazette.help
+  type: hysteria2
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 15|D🔴🇩🇪[📺]_dokng.com_cc328739
+  name: 21,24|🇵🇱PL_1|922KB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: 4da5d1853f04af6d
-  server: rrr.windconnect.pro
-  servername: rrr.windconnect.pro
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 31.77.61.214
+  servername: jobinvest.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-  xudp: true
-- name: 27|🇺🇸US-44.250.170.23-5097
-  password: CF68213490
+  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 24,28|🇵🇱PL_3|1.2MB/s
+  network: tcp
   port: 443
-  server: shining-piranha.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-54.245.10.59-5126
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 31.77.61.89
+  servername: jobinvest.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+- name: 27|🇺🇸US-34.216.104.24-4948
   password: NQ26071394
   port: 443
-  server: square-gnat.rooster465.autos
+  server: helped-jennet.rooster465.autos
   type: trojan
+- name: 27|🇺🇸US-54.213.238.59-4949
+  password: CF68213490
+  port: 443
+  server: ultimate-jaguar.rooster465.autos
+  type: trojan
+- name: 27|🇺🇸US-35.89.158.227-4951
+  password: CF68213490
+  port: 443
+  server: live-drake.rooster465.autos
+  type: trojan
+- name: 27|🇺🇸US-54.70.161.72-5055
+  password: NQ26071394
+  port: 443
+  server: gentle-turtle.rooster465.autos
+  type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 28|🇵🇱PL_2|1.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 31.77.61.213
+  servername: jobinvest.ru
+  tls: true
+  type: vless
+  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
 - name: '28,34|US_speednode_0131 #1'
   password: 'null'
   port: 9002
@@ -399,6 +420,13 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+  udp: true
+- cipher: aes-256-gcm
+  name: 32|🇺🇸 美国 | USA 2
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 15.204.233.41
+  type: ss
   udp: true
 - name: 35|US - zhuhai.uk 02
   port: 8090

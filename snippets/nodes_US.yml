@@ -13,28 +13,30 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 12|us|d210|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /assignment
-- name: 27|🇺🇸US-44.250.170.23-5097
-  password: CF68213490
-  port: 443
-  server: shining-piranha.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-54.245.10.59-5126
+- name: 27|🇺🇸US-34.216.104.24-4948
   password: NQ26071394
   port: 443
-  server: square-gnat.rooster465.autos
+  server: helped-jennet.rooster465.autos
   type: trojan
+- name: 27|🇺🇸US-54.213.238.59-4949
+  password: CF68213490
+  port: 443
+  server: ultimate-jaguar.rooster465.autos
+  type: trojan
+- name: 27|🇺🇸US-35.89.158.227-4951
+  password: CF68213490
+  port: 443
+  server: live-drake.rooster465.autos
+  type: trojan
+- name: 27|🇺🇸US-54.70.161.72-5055
+  password: NQ26071394
+  port: 443
+  server: gentle-turtle.rooster465.autos
+  type: trojan
+- cipher: aes-256-gcm
+  name: 32|🇺🇸 美国 | USA 2
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 15.204.233.41
+  type: ss
+  udp: true

@@ -1,12 +1,4 @@
 proxies:
-- name: 15,28|🇮🇹IT_1|1.9MB/s
-  password: None
-  port: 443
-  server: 185.183.105.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15,28|🇮🇹IT_2|1.4MB/s
   password: None
   port: 443

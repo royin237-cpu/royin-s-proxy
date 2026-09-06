@@ -6,11 +6,15 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: admin
+- name: 15|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_054bd55d
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: movie
-  name: 15,24,28|🇭🇰HK_1|5.0MB/s
+  name: 15,28|🇭🇰HK_1|5.0MB/s
   network: grpc
   port: 10136
   reality-opts:
@@ -24,29 +28,41 @@ proxies:
   udp: true
   uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
   xudp: true
-- name: 15,35|HK - zhuhai.uk
-  password: admin
-  port: 1080
-  server: 47.239.116.165
-  type: socks5
-  username: admin
 - name: 15|C🟠🇭🇰[📺🎪📦✈️]_dokng.com_d8a84f16
   password: abc123
   port: 1080
   server: 47.239.98.42
   type: socks5
   username: abc123
-- alterId: 2
-  cipher: auto
-  delay: 2934
-  name: 19|中国 005
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
+- name: 15|D🔴🇭🇰[🎬📺🎭✨]_dokng.com_d85a93d5
+  password: None
+  port: 443
+  server: fan.240104.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- alterId: 0
+  cipher: auto
+  name: '19,26,27|🇭🇰HK-143.14.189.125-1096 #1'
+  network: ws
+  port: 21316
+  server: 143.14.189.125
+  servername: ''
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 27|🇭🇰HK-91.199.84.204-5119
+  uuid: 116f6ecd-275e-4b50-921d-780e78a526cb
+  ws-opts:
+    headers:
+      Host: pull.free.video.10010.com
+    path: /
+- name: 27|🇭🇰HK-185.244.208.25-5026
+  password: IL37892054
+  port: 443
+  server: just-alpaca.rooster465.autos
+  type: trojan
+- name: 27|🇭🇰HK-91.199.84.204-5080
   password: XG59623478
   port: 443
   server: growing-oyster.rooster465.autos

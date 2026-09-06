@@ -1,25 +1,25 @@
 {
-  "total": 273,
+  "total": 311,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 11
+      "count": 13
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 54
+      "count": 60
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 5
+      "count": 1
     },
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 6
+      "count": 8
     },
     "TW": {
       "flag": "🇹🇼",
@@ -29,37 +29,37 @@
     "CA": {
       "flag": "🇨🇦",
       "name": "加拿大",
-      "count": 1
+      "count": 18
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 6
+      "count": 7
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 18
+      "count": 16
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 14
+      "count": 12
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 28
+      "count": 30
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 5
+      "count": 9
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 15
+      "count": 14
     },
     "SE": {
       "flag": "🇸🇪",
@@ -79,12 +79,12 @@
     "NL": {
       "flag": "🇳🇱",
       "name": "荷兰",
-      "count": 20
+      "count": 26
     },
     "RO": {
       "flag": "🇷🇴",
       "name": "罗马尼亚",
-      "count": 21
+      "count": 23
     },
     "IN": {
       "flag": "🇮🇳",
@@ -99,17 +99,17 @@
     "TR": {
       "flag": "🇹🇷",
       "name": "土耳其",
-      "count": 10
+      "count": 1
     },
     "AU": {
       "flag": "🇦🇺",
       "name": "澳大利亚",
-      "count": 1
+      "count": 2
     },
     "IT": {
       "flag": "🇮🇹",
       "name": "意大利",
-      "count": 6
+      "count": 5
     },
     "ES": {
       "flag": "🇪🇸",
@@ -119,7 +119,7 @@
     "BR": {
       "flag": "🇧🇷",
       "name": "巴西",
-      "count": 7
+      "count": 13
     },
     "VN": {
       "flag": "🇻🇳",
@@ -129,7 +129,7 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 3
+      "count": 4
     },
     "PH": {
       "flag": "🇵🇭",
@@ -144,11 +144,11 @@
     "FI": {
       "flag": "🇫🇮",
       "name": "芬兰",
-      "count": 13
+      "count": 11
     }
   },
-  "update_time": "2026-09-06 23:37",
-  "server_time": "2026-09-06 23:39:12",
+  "update_time": "2026-09-07 00:13",
+  "server_time": "2026-09-07 00:14:48",
   "sources": [
     {
       "index": 0,
@@ -273,7 +273,7 @@
     {
       "index": 24,
       "url": "https://raw.githubusercontent.com/kooker/FreeSubsCheck/main/mihomo.yaml",
-      "nodes": 15
+      "nodes": 4
     },
     {
       "index": 25,
@@ -288,7 +288,7 @@
     {
       "index": 27,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 4113
+      "nodes": 4140
     },
     {
       "index": 28,

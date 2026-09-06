@@ -30,7 +30,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 19,27|🇫🇮FI-65.21.240.108-0948
+  name: 19,27|🇫🇮FI-65.21.240.108-0954
   network: http
   port: 443
   server: 65.21.240.108
@@ -85,7 +85,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇮FI-65.109.134.191-4263
+  name: 27|🇫🇮FI-65.109.134.191-4300
   network: ws
   port: 80
   server: 65.109.134.191
@@ -97,23 +97,13 @@ proxies:
     headers:
       Host: 65.109.134.191
     path: /graphql
-- name: 27|🇫🇮FI-135.181.41.169-5132
+- name: 27|🇫🇮FI-135.181.41.169-5123
   password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
   server: vvbgh.131.pp.ua
   type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-5133
-  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-  port: 443
-  server: bbbnnmj.131.pp.ua
-  type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-5152
+- name: 27|🇫🇮FI-135.181.41.169-5129
   password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
   server: nnnmjju.131.pp.ua
-  type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-5154
-  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-  port: 443
-  server: bbbnhj.131.pp.ua
   type: trojan

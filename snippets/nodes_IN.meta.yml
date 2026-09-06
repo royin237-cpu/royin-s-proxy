@@ -27,7 +27,7 @@ proxies:
   type: vless
   udp: true
   uuid: e5531791-909c-448d-93ff-5c8dfc3ec00b
-- name: 27|🇮🇳IN-152.67.160.174-1100
+- name: 27|🇮🇳IN-152.67.160.174-1138
   password: 54080134-2cba-4535-8599-95650bd9aa54
   port: 443
   server: 152.67.160.174

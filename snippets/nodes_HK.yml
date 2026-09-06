@@ -1,15 +1,25 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  delay: 2934
-  name: 19|中国 005
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
+  name: '19,26,27|🇭🇰HK-143.14.189.125-1096 #1'
+  network: ws
+  port: 21316
+  server: 143.14.189.125
+  servername: ''
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 27|🇭🇰HK-91.199.84.204-5119
+  uuid: 116f6ecd-275e-4b50-921d-780e78a526cb
+  ws-opts:
+    headers:
+      Host: pull.free.video.10010.com
+    path: /
+- name: 27|🇭🇰HK-185.244.208.25-5026
+  password: IL37892054
+  port: 443
+  server: just-alpaca.rooster465.autos
+  type: trojan
+- name: 27|🇭🇰HK-91.199.84.204-5080
   password: XG59623478
   port: 443
   server: growing-oyster.rooster465.autos

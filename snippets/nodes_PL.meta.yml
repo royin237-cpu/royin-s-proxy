@@ -17,8 +17,16 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 27|🇵🇱PL-202.78.163.19-5079
-  password: AE62539071
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 32|🇵🇱 波兰 | POL
+  network: tcp
   port: 443
-  server: game-firefly.rooster465.autos
-  type: trojan
+  server: 50.7.248.234
+  servername: viper-22.moriarty-web.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
