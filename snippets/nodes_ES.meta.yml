@@ -5,7 +5,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,24,28|🇪🇸ES_2|1.1MB/s
+- name: 15,24|🇪🇸ES_2|1.2MB/s
   port: 443
   server: 130.195.250.18
   skip-cert-verify: true

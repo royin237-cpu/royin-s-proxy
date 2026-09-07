@@ -64,13 +64,13 @@ proxies:
   udp: true
   uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
   xudp: true
-- name: 15,24,28|🇩🇪DE_2|1.8MB/s
+- name: 15,24|🇩🇪DE_2|1.2MB/s
   port: 443
   server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,28|🇩🇪DE_3|2.3MB/s
+- name: 15|D🔴🇩🇪[🎬🤖📺🎪]_dokng.com_005f0e9b
   port: 443
   server: 87.249.132.97
   skip-cert-verify: true
@@ -110,6 +110,21 @@ proxies:
   sni: fan.973511.xyz
   tls: true
   type: http
+- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_f012372a
+  port: 11000
+  server: 116.202.172.187
+  type: http
+- name: 19|德国 023
+  network: xhttp
+  port: 443
+  server: 167.233.219.201
+  servername: fsn1.nordlinkcloud.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
 - name: 27|🇩🇪DE-3.67.79.54-5044
   password: CF68213490
   port: 443
@@ -120,20 +135,3 @@ proxies:
   port: 443
   server: direct-hawk.rooster465.autos
   type: trojan
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '28|🇩🇪DE_1|2.6MB/s #1'
-  network: xhttp
-  port: 443
-  server: 167.233.219.201
-  servername: fsn1.nordlinkcloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
-  xhttp-opts:
-    mode: auto
-    path: /api/v3/stream/
-  xudp: true

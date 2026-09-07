@@ -53,7 +53,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28|🇳🇱NL_5|2.0MB/s
+- name: 15|C🟠🇳🇱[🎬🤖📺🎪]_dokng.com_4fefa5e6
   password: ''
   port: 443
   server: 149.36.51.129
@@ -122,38 +122,6 @@ proxies:
   port: 443
   server: nl-1.tr202607.com
   type: trojan
-- client-fingerprint: ios
-  name: 28|🇳🇱NL_1|2.1MB/s
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: f79448a30d
-  server: 94.228.219.181
-  servername: sstats.vk-portal.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
-  xhttp-opts:
-    host: sstats.vk-portal.net
-    path: /assets/v2/pkg
-- client-fingerprint: qq
-  name: 28,32|🇳🇱 荷兰 | NLD 3
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: f79448a30d
-  server: 94.228.219.177
-  servername: sstats.vk-portal.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
-  xhttp-opts:
-    host: sstats.vk-portal.net
-    path: /assets/v2/pkg
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 32|🇲🇩 摩尔多瓦 | MDA
@@ -168,3 +136,19 @@ proxies:
   type: vless
   udp: true
   uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
+- client-fingerprint: qq
+  name: 32|🇳🇱 荷兰 | NLD 3
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: f79448a30d
+  server: 94.228.219.177
+  servername: sstats.vk-portal.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
+  xhttp-opts:
+    host: sstats.vk-portal.net
+    path: /assets/v2/pkg

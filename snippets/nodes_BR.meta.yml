@@ -19,6 +19,10 @@ proxies:
   port: 9797
   server: 186.0.144.52
   type: http
+- name: 15|A🟢🇧🇷[🤖✨🔍]_dokng.com_ca3b1afa
+  port: 9091
+  server: 164.163.237.196
+  type: http
 - name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_0c92e5d4
   port: 8666
   server: 45.228.89.114
@@ -26,6 +30,10 @@ proxies:
 - name: 15|A🟢🇧🇷[🔍]_dokng.com_919b7764
   port: 9292
   server: 131.0.120.162
+  type: http
+- name: 15|A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_d849dcfe
+  port: 9292
+  server: 138.0.204.74
   type: http
 - name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_84cf438e
   port: 8989

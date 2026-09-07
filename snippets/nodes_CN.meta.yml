@@ -3,14 +3,6 @@ proxies:
   port: 8080
   server: 112.64.135.45
   type: http
-- cipher: aes-256-cfb
-  name: 15,21,28|🇺🇸US_1|3.5MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
   name: 21|🇨🇳_CN_中国

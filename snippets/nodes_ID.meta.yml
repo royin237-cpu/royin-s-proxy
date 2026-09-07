@@ -1,4 +1,10 @@
 proxies:
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_412dd6e0
+  port: 443
+  server: zebpay.site
+  sni: zebpay.site
+  tls: true
+  type: http
 - name: 15,35|ID - zhuhai.uk
   port: 2080
   server: 8.215.25.3

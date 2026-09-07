@@ -64,7 +64,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28|🇺🇸US_12|4.6MB/s
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_d9c98f77
   password: None
   port: 9002
   server: 138.199.35.202
@@ -121,7 +121,7 @@ proxies:
   port: 442
   server: 54.235.192.64
   type: http
-- name: 15,28|🇺🇸US_14|1.3MB/s
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_253eed88
   port: 9002
   server: 138.199.35.207
   skip-cert-verify: true
@@ -181,7 +181,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 15,28|🇺🇸US_18|1.8MB/s
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7569cc30
   password: None
   port: 443
   server: jewelscollecti.icu
@@ -220,12 +220,6 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_412dd6e0
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
 - name: '15,28,34|US_speednode_0141 #1'
   port: 443
   server: 38.28.193.188
