@@ -145,7 +145,7 @@ proxies:
   type: vless
   udp: true
   uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
-- name: 28,34,35|NL - zhuhai.uk
+- name: '28,34|NL_speednode_0007 #1'
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true

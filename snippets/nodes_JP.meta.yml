@@ -1,13 +1,4 @@
 proxies:
-- name: 15,24|🇯🇵JP_2|594KB/s
-  password: ''
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-  username: bnVsbDpudWxs
 - name: 15,28|🇯🇵JP_1|2.4MB/s
   port: 2101
   server: 103.179.45.197
@@ -31,7 +22,7 @@ proxies:
   port: 10808
   server: 101.36.104.46
   type: socks5
-- name: 15,35|JP - zhuhai.uk
+- name: 15|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_5802486e
   port: 10808
   server: 101.36.104.239
   type: socks5
@@ -75,3 +66,11 @@ proxies:
   port: 443
   server: promoted-rattler.rooster465.autos
   type: trojan
+- name: 35|JP - zhuhai.uk 02
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+  username: 'null'

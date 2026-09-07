@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 15,21,32,35|DE - zhuhai.uk 03
+  name: 15,21,35|DE - zhuhai.uk 03
   network: ws
   port: 2087
   server: 163.8.195.241
@@ -76,7 +76,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,35|DE - zhuhai.uk 05
+- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_62113475
   password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190

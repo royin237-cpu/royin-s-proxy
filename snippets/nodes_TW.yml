@@ -1,12 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,33|未知94 35.5KB/s
+  name: 19|加拿大 016
   network: tcp
   port: 35034
   server: 165.154.195.38
   skip-cert-verify: true
-  tls: true
   type: vmess
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - name: 27|🇹🇼TW-203.69.207.175-2725

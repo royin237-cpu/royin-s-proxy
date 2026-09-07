@@ -106,7 +106,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19,33|未知8 4.0MB/s
+  name: 19,33|未知29 1.2MB/s
   network: tcp
   port: 18000
   server: 23.162.200.198
@@ -198,7 +198,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 33|未知64
+  name: 33|未知122
   network: ws
   port: 443
   server: 158.51.121.63
@@ -211,13 +211,3 @@ proxies:
       Host: 158.51.121.63
       host: seribus.org
     path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 33|未知90 3.5MB/s
-  network: tcp
-  port: 18000
-  server: 134.195.196.211
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe

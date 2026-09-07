@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 12,24,32|🇬🇧 英国 | GBR
+  name: 12,24,32|🇬🇧 英国 | GBR 2
   password: T6IcUpcVx0Y85DxSTgXe4A
   port: 97
   server: 86.38.182.226
@@ -111,8 +111,8 @@ proxies:
   uuid: fe73f296-e5c0-45a6-8064-f8e76a75e946
 - client-fingerprint: chrome
   encryption: none
-  name: 24,28|🇫🇮FI_2|2.8MB/s
-  network: raw
+  name: 24,28,35|FI - zhuhai.uk 01
+  network: tcp
   port: 11437
   reality-opts:
     public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
@@ -196,7 +196,7 @@ proxies:
   uuid: b97e287f-a24e-0021-a103-7e7ecef83139
   xudp: true
 - client-fingerprint: chrome
-  name: 32|🇩🇪 德国 | DEU
+  name: 32|🇩🇪 德国 | DEU 5
   network: tcp
   port: 11437
   reality-opts:

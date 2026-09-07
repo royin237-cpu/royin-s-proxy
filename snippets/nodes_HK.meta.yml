@@ -6,9 +6,10 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: admin
-- name: 15|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_8cb372cb
+- name: 15,35|HK - zhuhai.uk
   port: 443
   server: hk40.240104.xyz
+  skip-cert-verify: true
   sni: hk40.240104.xyz
   tls: true
   type: http
@@ -18,6 +19,14 @@ proxies:
   server: 47.239.98.42
   type: socks5
   username: abc123
+- name: 15|D🔴🇭🇰[🎬📺🎭✨]_dokng.com_d85a93d5
+  password: None
+  port: 443
+  server: fan.240104.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - alterId: 0
   cipher: auto
   name: 21|🇭🇰_HK_中国香港
@@ -38,10 +47,3 @@ proxies:
   port: 443
   server: kind-unicorn.rooster465.autos
   type: trojan
-- name: 35|HK - zhuhai.uk 02
-  port: 443
-  server: fan.240104.xyz
-  sni: fan.240104.xyz
-  tls: true
-  type: http
-  username: bnVsbDpudWxs

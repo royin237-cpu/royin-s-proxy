@@ -69,11 +69,6 @@ proxies:
   port: 443
   server: moved-bluegill.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.34.96.227-5059
-  password: CF68213490
-  port: 443
-  server: musical-manatee.rooster465.autos
-  type: trojan
 - name: 27|🇰🇷KR-13.124.155.60-5065
   password: AE62539071
   port: 443
@@ -98,4 +93,9 @@ proxies:
   password: PD07395842
   port: 443
   server: excited-ghoul.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.34.96.227-5059
+  password: CF68213490
+  port: 443
+  server: musical-manatee.rooster465.autos
   type: trojan

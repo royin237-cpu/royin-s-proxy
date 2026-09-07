@@ -73,6 +73,21 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_b01fc6dc
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_ccc98c47
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7c4c4168
   password: 'null'
   port: 443
@@ -230,6 +245,13 @@ proxies:
     headers:
       Host: fm3.pages.dev
     path: /?ed=2560
+- name: 15,35|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_ff5d6731
   password: None
   port: 9002
@@ -238,7 +260,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28,34,35|US - zhuhai.uk 03
+- name: '15,28,34|US_speednode_0141 #1'
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
@@ -332,34 +354,26 @@ proxies:
   port: 443
   server: live-drake.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-54.245.10.59-5093
+- name: 27|🇺🇸US-54.70.161.72-5055
   password: NQ26071394
   port: 443
-  server: square-gnat.rooster465.autos
+  server: gentle-turtle.rooster465.autos
   type: trojan
 - name: 27|🇺🇸US-44.250.170.23-5057
   password: CF68213490
   port: 443
   server: shining-piranha.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-54.70.161.72-5055
+- name: 27|🇺🇸US-54.245.10.59-5093
   password: NQ26071394
   port: 443
-  server: gentle-turtle.rooster465.autos
+  server: square-gnat.rooster465.autos
   type: trojan
-- name: '28,34|US_speednode_0143 #1'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 28,35|US - zhuhai.uk 04
+- name: 28|🇺🇸US_22|4.2MB/s
   password: ''
   port: 9002
   server: 138.199.35.209
   skip-cert-verify: true
-  sni: 138.199.35.209
   tls: true
   type: http
   username: ''
@@ -372,7 +386,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 32|🇺🇸 美国 | USA 21
+- name: 32|🇺🇸 美国 | USA 2
   network: ws
   password: humanity
   port: 443
@@ -385,28 +399,10 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 35|US - zhuhai.uk
-  password: 'null'
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  sni: 138.199.35.220
-  tls: true
-  type: http
-  username: 'null'
 - name: 35|US - zhuhai.uk 07
   password: 'null'
   port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  sni: 138.199.35.213
-  tls: true
-  type: http
-  username: 'null'
-- name: 35|US - zhuhai.uk 13
-  password: 'null'
-  port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http

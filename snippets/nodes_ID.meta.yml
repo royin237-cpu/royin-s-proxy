@@ -21,6 +21,7 @@ proxies:
   password: freeuser1
   port: 9251
   server: sr2-id.freeconnect.link
+  skip-cert-verify: true
   sni: sr2-id.freeconnect.link
   tls: true
   type: http

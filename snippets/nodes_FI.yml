@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 12,24,32|🇬🇧 英国 | GBR
+  name: 12,24,32|🇬🇧 英国 | GBR 2
   password: T6IcUpcVx0Y85DxSTgXe4A
   port: 97
   server: 86.38.182.226
