@@ -6,11 +6,3 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 12,21|🇳🇱_NL_荷兰
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.62
-  skip-cert-verify: true
-  type: ss
-  udp: true

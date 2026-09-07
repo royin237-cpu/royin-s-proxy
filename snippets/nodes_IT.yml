@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: aes-256-gcm
+  name: 20|🇮🇹 Italy [TG]
+  password: itzvpn@321
+  port: 8388
+  server: 57.131.48.45
+  type: ss
+  udp: true

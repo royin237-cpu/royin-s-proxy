@@ -1,59 +1,38 @@
 proxies:
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 15,28|🇰🇷KR_2|5.0MB/s
-  network: grpc
-  port: 10048
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr3-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+- name: '26,27|🇰🇷KR-54.180.239.104-0194 #1'
+  password: AE62539071
+  port: 443
+  server: tough-hermit.rooster465.autos
+  type: trojan
 - name: '26,27|🇰🇷KR-43.201.249.3-0250 #1'
   password: NQ26071394
   port: 443
   server: magical-prawn.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.202.54.120-5056
+- name: 27|🇰🇷KR-43.203.235.186-4947
+  password: CF68213490
+  port: 443
+  server: eminent-dogfish.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-52.79.98.24-4953
   password: NQ26071394
   port: 443
-  server: grand-grub.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-13.124.200.248-4955
-  password: ND91608427
-  port: 443
-  server: distinct-llama.rooster465.autos
+  server: wise-rhino.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.35.140.206-4956
   password: NQ26071394
   port: 443
   server: devoted-heron.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.195.137-4959
-  password: CF68213490
-  port: 443
-  server: communal-sunbird.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.201.103.190-4961
-  password: CF68213490
-  port: 443
-  server: alert-fish.rooster465.autos
-  type: trojan
 - name: 27|🇰🇷KR-13.125.211.246-4962
   password: CF68213490
   port: 443
   server: smooth-lark.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.36.55.102-4964
-  password: IL37892054
+- name: 27|🇰🇷KR-43.203.121.129-4978
+  password: ND91608427
   port: 443
-  server: enhanced-crayfish.rooster465.autos
+  server: next-turkey.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-43.203.172.207-5022
   password: IL37892054
@@ -75,40 +54,30 @@ proxies:
   port: 443
   server: innocent-rattler.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.172.115-5048
-  password: CF68213490
+- name: 27|🇰🇷KR-52.78.7.106-5047
+  password: NQ26071394
   port: 443
-  server: funny-hen.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.203.214.247-5049
-  password: CF68213490
-  port: 443
-  server: loyal-molly.rooster465.autos
+  server: fit-marten.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.36.52.203-5051
   password: NQ26071394
   port: 443
   server: inviting-rabbit.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.201.100.128-5063
+- name: 27|🇰🇷KR-3.36.76.91-5058
   password: CF68213490
   port: 443
-  server: summary-firefly.rooster465.autos
+  server: moved-bluegill.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.34.96.227-5059
+  password: CF68213490
+  port: 443
+  server: musical-manatee.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-13.124.155.60-5065
   password: AE62539071
   port: 443
   server: clear-heron.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.36.88.22-5066
-  password: CF68213490
-  port: 443
-  server: darling-mongrel.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-109.61.127.96-5071
-  password: IL37892054
-  port: 443
-  server: select-marmoset.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.35.207.188-5072
   password: PD07395842
@@ -125,57 +94,8 @@ proxies:
   port: 443
   server: living-hagfish.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.38.181.59-5077
-  password: NQ26071394
-  port: 443
-  server: neat-octopus.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-109.61.127.63-5103
-  password: IQ68037294
-  port: 443
-  server: accurate-drake.rooster465.autos
-  type: trojan
 - name: 27|🇰🇷KR-43.202.40.193-5117
   password: PD07395842
   port: 443
   server: excited-ghoul.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.200.254.103-5122
-  password: NQ26071394
-  port: 443
-  server: warm-bass.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.34.132.193-5133
-  password: NQ26071394
-  port: 443
-  server: internal-peacock.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 28|🇰🇷KR_1|4.5MB/s
-  network: grpc
-  port: 10050
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr5-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
-  xudp: true
-- client-fingerprint: chrome
-  name: 32|🇰🇷 韩国 | KOR
-  network: tcp
-  port: 8686
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: 628b3c90c98ead4f
-  server: 3.34.197.10
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228

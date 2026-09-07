@@ -41,51 +41,28 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 12,21|🇳🇱_NL_荷兰
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.62
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 12|us|7ca3|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.109
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /assignment
 - cipher: aes-256-cfb
-  name: 12,21|🇫🇷_FR_法国
+  name: 12,15,21,35|TH - zhuhai.uk
   password: 7eadc6dbe2ae
   port: 65443
-  server: 95.170.13.47
+  server: 103.169.67.34
   skip-cert-verify: true
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 12|us|98c8|puddincat07@Telegram
+  name: 12|us|d060|puddincat07@Telegram
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.133
+  server: 104.18.152.159
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: 12|us|2e5f|puddincat07@Telegram
@@ -102,25 +79,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
-- alpn:
-  - http/1.1
-  - h2
-  - h3
-  client-fingerprint: chrome
-  name: 12|us|5eb0|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.223.96
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /assignment
 - name: 15|C🟠🇭🇰[📺🔍]_dokng.com_db363b3a
   password: admin
   port: 8899
@@ -128,48 +86,10 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: admin
-- name: 15|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_054bd55d
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: movie
-  name: 15,28|🇭🇰HK_1|5.0MB/s
-  network: grpc
-  port: 10136
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk6-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
-  xudp: true
 - name: 15|D🔴🇨🇳_dokng.com_0c5403d7
   port: 8080
   server: 112.64.135.45
   type: http
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 15,28|🇰🇷KR_2|5.0MB/s
-  network: grpc
-  port: 10048
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr3-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
 - name: 15|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_65a5452e
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
@@ -179,19 +99,18 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-cfb
-  name: 15,21,35|TH - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  skip-cert-verify: true
-  type: ss
-  udp: true
+- name: 15|C🟠🇭🇰[🎬📺🎭🎪]_dokng.com_8cb372cb
+  port: 443
+  server: hk40.240104.xyz
+  sni: hk40.240104.xyz
+  tls: true
+  type: http
 - name: 15|A🟢🇷🇺[🎪✨📦🔍]_dokng.com_a2d8e877
   port: 8095
   server: 193.19.190.59
   type: http
-- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_731adfcd
+- client-fingerprint: chrome
+  name: 15,21,32,35|DE - zhuhai.uk 03
   network: ws
   port: 2087
   server: 163.8.195.241
@@ -199,22 +118,23 @@ proxies:
   tfo: false
   tls: false
   type: vless
+  udp: true
   uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
   ws-opts:
     path: /29c8fed7ca22
-- name: 15|A🟢🇳🇱[🎬🤖📺🎭]_dokng.com_b67769ea
+- name: 15,28|🇳🇱NL_5|2.1MB/s
   password: None
   port: 16668
   server: 82.115.6.209
   type: http
   username: null
-- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_8a373a16
+- name: 15,28|🇩🇪DE_9|1.2MB/s
   password: udp-relay=true
   port: 11111
   server: 103.237.102.191
   type: http
   username: None
-- name: 15|A🟢🇸🇬[🎬🤖📺🎭]_dokng.com_e2867af1
+- name: 15,28|🇸🇬SG_1|1.9MB/s
   password: ''
   port: 9443
   server: 149.88.99.209
@@ -223,7 +143,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 15,28|🇨🇭CH_1|1.8MB/s
+- name: 15,28|🇨🇭CH_1|3.5MB/s
   password: None
   port: 9443
   server: 37.120.213.210
@@ -231,20 +151,18 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_16307951
+- name: 15,28|🇩🇪DE_10|4.3MB/s
   port: 443
   server: 138.201.56.241
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_5e99cdb8
-  password: 'null'
-  port: 443
-  server: fan.596189.xyz
-  sni: fan.596189.xyz
-  tls: true
+- name: 15,28|🇮🇹IT_1|4.3MB/s
+  password: None
+  port: 3133
+  server: 89.46.78.17
   type: http
-  username: 'null'
+  username: null
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_a88e970f
   password: gs4BXwT6SW
   port: 10988
@@ -256,7 +174,7 @@ proxies:
   port: 8095
   server: 45.8.88.156
   type: http
-- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_2e1f53fe
+- name: 15,24,28|🇬🇧GB_4|2.7MB/s
   password: None
   port: 443
   server: 185.235.0.66
@@ -264,20 +182,27 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_13bb1fbc
-  port: 443
-  server: 103.82.101.43
+- name: 15|A🟢🇵🇱[🔍]_dokng.com_0443a2fd
+  port: 8090
+  server: 185.32.4.210
+  type: http
+- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_642e3258
+  password: None
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
-  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
   tls: true
   type: http
-- name: 15,35|JP - zhuhai.uk 02
+  username: null
+- name: 15,24|🇯🇵JP_2|594KB/s
+  password: ''
   port: 443
   server: fan.571589.xyz
   skip-cert-verify: true
   sni: fan.571589.xyz
   tls: true
   type: http
+  username: bnVsbDpudWxs
 - name: 15|A🟢🇷🇴[🎬🤖📺🎭]_dokng.com_42a8774f
   port: 8787
   server: 89.40.77.249
@@ -306,6 +231,12 @@ proxies:
   udp: true
   uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
   xudp: true
+- name: 15,28|🇺🇸US_7|3.9MB/s
+  port: 443
+  server: tzoa.fun
+  sni: tzoa.fun
+  tls: true
+  type: http
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_74d3e768
   password: ''
   port: 9002
@@ -315,6 +246,14 @@ proxies:
   type: http
   udp: true
   username: ''
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_06c11c91
+  password: None
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_256dedbc
   port: 9002
   server: 138.199.35.215
@@ -329,7 +268,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_2dc04ad3
+- name: 15,28|🇯🇵JP_1|2.4MB/s
   port: 2101
   server: 103.179.45.197
   type: http
@@ -349,19 +288,11 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_b01fc6dc
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15|A🟢🇷🇺[📦]_dokng.com_9af66ad2
   port: 5050
   server: 45.159.0.194
   type: http
-- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_2b887a70
+- name: 15,28|🇬🇧GB_5|1.4MB/s
   password: None
   port: 443
   server: 37.120.233.34
@@ -383,49 +314,60 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_ccc98c47
-  port: 9002
-  server: 138.199.35.220
+- client-fingerprint: random
+  name: 15|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_4735f83e
+  network: ws
+  port: 8443
+  server: 178.239.117.205
+  servername: fm3.pages.dev
   skip-cert-verify: true
+  tfo: false
   tls: true
-  type: http
-  udp: true
-- name: 15|U⚪🏳️_dokng.com_b74edc3f
-  port: 443
-  server: 185.246.153.42
-  skip-cert-verify: true
-  sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
-  tls: true
-  type: http
-- name: 15,28|🇺🇸US_4|1.6MB/s
+  type: vless
+  uuid: 3b0a4993-9c20-4103-8913-bb024d51d949
+  ws-opts:
+    headers:
+      Host: fm3.pages.dev
+    path: /?ed=2560
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7c4c4168
   password: 'null'
   port: 443
   server: purecambogiasl.live
   tls: true
   type: http
   username: 'null'
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7c1cdf0b
-  password: None
-  port: 443
-  server: crosscards.site
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 15,35|RO - zhuhai.uk 03
+- name: 15,28|🇺🇸US_9|4.5MB/s
+  password: ''
   port: 9002
-  server: 193.176.84.34
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,35|US - zhuhai.uk 03
+  udp: true
+  username: ''
+- name: 15,24,28|🇷🇴RO_10|2.7MB/s
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 15,28|🇺🇸US_10|3.7MB/s
   port: 9002
   server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_111a989f
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_249361ae
+  password: ''
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 15,28|🇷🇴RO_4|2.2MB/s
   password: ''
   port: 9002
   server: 193.176.84.19
@@ -479,7 +421,7 @@ proxies:
   udp: true
   uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
   xudp: true
-- name: '15,28,34|RO_speednode_0110 #1'
+- name: '15,24,28,34|RO_speednode_0110 #1'
   port: 9002
   server: 193.176.84.27
   skip-cert-verify: true
@@ -487,20 +429,28 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_2fc4a550
+- name: 15,28|🇺🇸US_12|4.0MB/s
   port: 9002
   server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_da509960
+  password: None
+  port: 443
+  server: voteshirleysew.club
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
 - name: 15|B🟡🇺🇸[🎬🤖📺🎭]_dokng.com_cd15873e
   password: None
   port: 5252
   server: 148.100.84.192
   type: http
   username: null
-- name: 15,28|🇺🇸US_5|1.3MB/s
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_8e3e1d23
   password: ''
   port: 9443
   server: 38.95.111.226
@@ -509,6 +459,14 @@ proxies:
   type: http
   udp: true
   username: ''
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6e9418e8
+  password: 'null'
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_02619dd0
   password: None
   port: 9002
@@ -517,7 +475,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_91e30e8f
+- name: 15,24|🇺🇸US_3|801KB/s
   password: 'null'
   port: 9002
   server: 138.199.35.211
@@ -525,7 +483,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_db08df79
+- name: 15,28|🇺🇸US_13|4.0MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.197
@@ -533,13 +491,21 @@ proxies:
   tls: true
   type: http
   username: 'null'
+- name: 15,24,28|🇳🇱NL_6|3.2MB/s
+  password: ''
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - name: 15|C🟠🇭🇰[📺🎪📦✈️]_dokng.com_d8a84f16
   password: abc123
   port: 1080
   server: 47.239.98.42
   type: socks5
   username: abc123
-- name: 15,28|🇸🇪SE_1|2.4MB/s
+- name: 15|D🔴🇸🇪[🎬🤖📺🎪]_dokng.com_1ba3cfe0
   password: None
   port: 443
   server: 146.70.242.130
@@ -547,53 +513,20 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_7569cc30
-  password: None
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_06fcd7d4
+- name: 15,28|🇺🇸US_14|4.6MB/s
   port: 9002
   server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_31e9a196
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_685ed25b
-  password: None
-  port: 443
-  server: kimberlymilano.icu
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: '15,28,34|RO_speednode_0045 #1'
+- name: '15,24,28,34|RO_speednode_0045 #1'
   port: 9002
   server: 193.176.84.17
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 15|A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_803c2af1
-  port: 999
-  server: 189.237.46.52
-  type: http
-- name: 15,28|🇺🇸US_7|3.2MB/s
-  port: 443
-  server: jgwynphotoarts.pro
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_067d2b9f
   password: ''
   port: 9002
@@ -602,21 +535,6 @@ proxies:
   tls: true
   type: http
   username: ''
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15,21,35|PL - zhuhai.uk
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: bridge2.kolhoz.fuck-rkn.xyz
-  servername: jobinvest.ru
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_f41808b3
   password: ''
   port: 9002
@@ -625,13 +543,25 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_4433500a
-  port: 9002
-  server: 138.199.35.213
+- client-fingerprint: random
+  name: 15|D🔴🇺🇸[🤖]_dokng.com_6d462403
+  network: ws
+  port: 2053
+  server: 142.248.219.233
+  servername: fm3.pages.dev
   skip-cert-verify: true
+  tfo: false
   tls: true
+  type: vless
+  uuid: 9f9dfdcb-6a45-4c86-b6a1-28c6c504ed5a
+  ws-opts:
+    headers:
+      Host: fm3.pages.dev
+    path: /?ed=2560
+- name: 15|A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_d008ccab
+  port: 999
+  server: 164.163.188.113
   type: http
-  udp: true
 - name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_c6f7e82e
   port: 9002
   server: 193.176.84.29
@@ -644,7 +574,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|C🟠🇬🇷[🎬🤖📺🎭]_dokng.com_6694b0e8
+- name: 15,28|🇬🇷GR_1|1.1MB/s
   password: ''
   port: 443
   server: 149.22.85.78
@@ -660,14 +590,14 @@ proxies:
     headers: {}
     path:
     - /
-  name: 15|U⚪🏳️[✈️]_dokng.com_a8482bc1
+  name: 15,21|🇩🇪_DE_德国
   network: tcp
   port: 443
   reality-opts:
     public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
-    short-id: ''
   server: 176.96.138.122
   servername: plucky-xenon.cdn.cachefleet.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -681,6 +611,11 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 15,28|🇳🇱NL_7|3.6MB/s
+  port: 443
+  server: 157.22.183.72
+  tls: true
+  type: http
 - name: '15,28,34|RO_speednode_0094 #1'
   password: None
   port: 9002
@@ -690,7 +625,7 @@ proxies:
   type: http
   udp: true
   username: null
-- name: 15,28|🇪🇸ES_1|1.5MB/s
+- name: 15|D🔴🇪🇸[🎬🤖📺🎭]_dokng.com_b0b75721
   port: 443
   server: 82.102.17.178
   skip-cert-verify: true
@@ -706,38 +641,6 @@ proxies:
   port: 4080
   server: 185.21.156.73
   type: http
-- name: 15|D🔴🇭🇰[🎬📺🎭✨]_dokng.com_d85a93d5
-  password: None
-  port: 443
-  server: fan.240104.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15|A🟢🇷🇺[🎪✨🎞️📦]_dokng.com_dcc22167
-  port: 3139
-  server: 94.19.93.170
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 15|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_c8bb43ee
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: bridge.kolhoz.fuck-rkn.xyz
-  servername: jobinvest.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
-  xudp: true
 - name: 15|D🔴🇪🇸[🎬🤖📺🎭]_dokng.com_a8036833
   password: None
   port: 443
@@ -746,15 +649,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_59f060e6
-  password: None
-  port: 443
-  server: berniesbodybla.fun
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 15,28|🇬🇧GB_1|2.2MB/s
+- name: 15,28|🇬🇧GB_6|2.8MB/s
   port: 443
   server: 185.235.0.98
   skip-cert-verify: true
@@ -768,11 +663,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_b2a204d9
-  port: 10101
-  server: 187.188.171.231
-  type: http
-- name: '15,28,34|US_speednode_0141 #1'
+- name: 15,28,34,35|US - zhuhai.uk 03
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
@@ -786,15 +677,32 @@ proxies:
   sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
   tls: true
   type: http
-- name: 15,35|JP - zhuhai.uk 03
+- name: 15|D🔴🇯🇵[🤖📺🎭🎪]_dokng.com_1b81f86d
   port: 10808
   server: 101.36.104.46
   type: socks5
-- name: 15,28|🇦🇹AT_2|1.6MB/s
+- name: 15|D🔴🇦🇹[🤖📺🎭🎪]_dokng.com_38c4dd6a
   port: 443
   server: 146.70.244.18
   skip-cert-verify: true
   tls: true
+  type: http
+- name: 15|A🟢🇲🇽[🤖🎭🎪🎞️]_dokng.com_65403f87
+  port: 80
+  server: 187.134.71.216
+  type: http
+- name: '15,24,28,34|RO_speednode_0097 #1'
+  password: None
+  port: 9002
+  server: 193.176.84.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: null
+- name: 15|A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_ca5227bf
+  port: 999
+  server: 201.165.187.252
   type: http
 - name: 15|A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_39b9ca70
   port: 2604
@@ -815,7 +723,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28|🇨🇿CZ_2|2.8MB/s
+- name: 15,28|🇨🇿CZ_2|2.5MB/s
   port: 443
   server: 185.216.35.130
   skip-cert-verify: true
@@ -827,10 +735,18 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,28|🇨🇿CZ_3|1.1MB/s
+- name: 15|D🔴🇨🇿[🎬🤖📺🎭]_dokng.com_8859f2e5
   password: None
   port: 443
   server: 185.216.35.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 15,28|🇮🇹IT_2|2.8MB/s
+  password: None
+  port: 443
+  server: 185.183.105.130
   skip-cert-verify: true
   tls: true
   type: http
@@ -847,14 +763,6 @@ proxies:
   port: 10808
   server: 101.36.104.239
   type: socks5
-- name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_0cb603c3
-  password: None
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15|D🔴🇷🇸[🎬🤖📺🎭]_dokng.com_24d941b9
   password: None
   port: 443
@@ -863,18 +771,18 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28|🇮🇹IT_2|1.4MB/s
+- name: 15|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_eebc1002
   password: None
   port: 443
-  server: 185.183.105.146
+  server: 51.158.243.91
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_6dda1640
+- name: 15|D🔴🇮🇹[🤖📺🎭🎪]_dokng.com_4b87d7f6
   password: None
-  port: 9002
-  server: 193.176.84.36
+  port: 443
+  server: 185.183.105.146
   skip-cert-verify: true
   tls: true
   type: http
@@ -887,14 +795,34 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,35|US - zhuhai.uk 07
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_cc8acd7d
+  port: 8181
+  server: 173.205.202.241
+  type: http
+- name: 15,28|🇷🇴RO_7|1.1MB/s
+  password: None
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 15|D🔴🇷🇴[🤖📺🎭🎪]_dokng.com_4f3ee96c
+  password: None
+  port: 9002
+  server: 193.176.84.22
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 15,28|🇺🇸US_19|3.3MB/s
   password: None
   port: 443
   server: 52.55.81.168
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+  username: null
 - name: 15|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_805ac382
   port: 7778
   server: 91.238.54.189
@@ -913,7 +841,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|C🟠🇱🇻[🤖📺🎭🎪]_dokng.com_1e473b37
+- name: 15,28|🇱🇻LV_1|1.1MB/s
   password: None
   port: 3056
   server: 195.123.212.87
@@ -925,30 +853,29 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,28|🇸🇪SE_2|1.7MB/s
+- name: 15|D🔴🇸🇪[🎬🤖📺🎪]_dokng.com_6c7ec50c
   port: 443
   server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
+- name: '15,24,28,34|RO_speednode_0082 #1'
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 15|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_1e378dfb
   port: 8023
   server: 96.84.121.105
   type: http
-- name: 15,28|🇪🇸ES_2|3.1MB/s
+- name: 15|D🔴🇪🇸[🤖📺🎭🎪]_dokng.com_297df47d
   port: 443
   server: 130.195.250.18
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_b03e95c9
-  password: None
-  port: 9002
-  server: 193.176.84.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15|D🔴🇨🇭[🎬📺🎭🎪]_dokng.com_a74c39f7
   password: None
   port: 443
@@ -957,10 +884,18 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28|🇩🇰DK_1|2.3MB/s
+- name: 15,28|🇩🇰DK_1|2.8MB/s
   password: None
   port: 443
   server: 185.245.84.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 15,28|🇬🇧GB_7|2.9MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
@@ -973,7 +908,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15,28|🇺🇸US_8|1.1MB/s
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_c04b578f
   password: None
   port: 443
   server: 149.88.21.129
@@ -981,7 +916,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28|🇬🇧GB_2|2.8MB/s
+- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_485cc62b
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
@@ -999,10 +934,15 @@ proxies:
   port: 8118
   server: 103.177.118.145
   type: http
-- name: 15|A🟢🇦🇹[🎬🤖📺🎭]_dokng.com_fabf5584
-  port: 31337
-  server: 80.64.143.173
+- name: 15|C🟠🇬🇷[🎬🤖📺🎭]_dokng.com_7f9fa854
+  password: ''
+  port: 443
+  server: 149.22.85.65
+  skip-cert-verify: true
+  tls: true
   type: http
+  udp: true
+  username: ''
 - name: 15|D🔴🇫🇷[🤖📺🎪✨]_dokng.com_26e7e011
   password: None
   port: 8888
@@ -1013,11 +953,7 @@ proxies:
   port: 31280
   server: 202.28.194.139
   type: http
-- name: 15|A🟢🇧🇷[🎬🎭🎪📦]_dokng.com_91b1316f
-  port: 2158
-  server: 177.11.49.122
-  type: http
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_87eec561
+- name: 15,28|🇺🇸US_20|2.8MB/s
   password: e4b72b531a2d10900519
   port: 443
   server: 147.182.216.4
@@ -1025,7 +961,7 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 15,28|🇳🇱NL_2|1.9MB/s
+- name: 15,28|🇳🇱NL_8|3.9MB/s
   password: ''
   port: 443
   server: 149.36.51.129
@@ -1055,11 +991,17 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_ea66f299
+- name: 15|U⚪🏳️_dokng.com_ae946cf9
+  password: None
+  port: 9090
+  server: 128.199.254.13
+  type: http
+  username: null
+- name: 15,28|🇩🇪DE_11|2.3MB/s
   port: 8888
   server: 173.212.240.48
   type: http
-- name: 15,35|DE - zhuhai.uk
+- name: 15,35|DE - zhuhai.uk 05
   password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190
@@ -1068,6 +1010,19 @@ proxies:
   tls: true
   type: http
   username: testuser1
+- name: 15|A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_2e3fef63
+  port: 80
+  server: 187.199.45.141
+  type: http
+- name: 15|D🔴🇪🇨[🤖📺🎭🎪]_dokng.com_c1c5ad72
+  password: ''
+  port: 9443
+  server: 38.165.231.71
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - name: 15|D🔴🇨🇴[🎬📺🎭🎪]_dokng.com_903df178
   port: 999
   server: 181.78.74.253
@@ -1084,10 +1039,6 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|C🟠🇱🇹[🎬🤖📺🎭]_dokng.com_352b514e
-  port: 11920
-  server: 212.24.108.20
-  type: http
 - name: 15|D🔴🇳🇱[🤖📺🎭🎪]_dokng.com_62caac5f
   password: e4b72b531a2d10900519
   port: 443
@@ -1096,54 +1047,26 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 15|C🟠🇸🇪[🤖📺🎪✨]_dokng.com_5cd882c7
+- name: 15,28|🇸🇪SE_1|1.8MB/s
   port: 443
   server: 149.50.216.65
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,28|🇷🇴RO_1|1.0MB/s
+- name: 15,28|🇷🇴RO_8|1.0MB/s
   port: 9002
   server: 193.176.84.16
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 15|U⚪🏳️_dokng.com_79f3708c
-  network: ws
-  password: HutaoCloud
-  port: 11543
-  server: 185.220.238.77
-  skip-cert-verify: true
-  sni: 185.220.238.77
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /api
-- client-fingerprint: edge
-  name: 15|D🔴🇷🇺[📺🎪✨]_dokng.com_a5cd57da
-  network: ws
-  port: 443
-  server: 45.9.15.206
-  servername: ru05.abvpn.ru
-  tls: true
-  type: vless
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
-    path: /websocket
 - name: 15|C🟠🇩🇪[🎬🤖📺🎪]_dokng.com_0db00e0d
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: '15,28,34|RO_speednode_0124 #1'
+- name: '15,24,28,34|RO_speednode_0124 #1'
   port: 9002
   server: 193.176.84.32
   skip-cert-verify: true
@@ -1157,7 +1080,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|D🔴🇵🇹[🤖📺🎭🎪]_dokng.com_b3f34a76
+- name: 15,24,28|🇵🇹PT_1|1014KB/s
   password: None
   port: 443
   server: 149.22.86.1
@@ -1165,6 +1088,21 @@ proxies:
   tls: true
   type: http
   username: null
+- client-fingerprint: random
+  name: 15|D🔴🇸🇬[🤖📺🔍]_dokng.com_40007ad2
+  network: ws
+  port: 443
+  server: 143.198.209.123
+  servername: fm3.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f9dfdcb-6a45-4c86-b6a1-28c6c504ed5a
+  ws-opts:
+    headers:
+      Host: fm3.pages.dev
+    path: /?ed=2560
 - name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_a3f53993
   password: None
   port: 443
@@ -1177,7 +1115,7 @@ proxies:
   port: 1812
   server: 177.53.215.196
   type: http
-- name: 15|C🟠🇦🇱[🤖📺🎭🎪]_dokng.com_14edef50
+- name: 15,28|🇦🇱AL_1|2.5MB/s
   password: None
   port: 443
   server: 87.120.103.226
@@ -1197,21 +1135,13 @@ proxies:
   port: 1550
   server: 45.173.228.217
   type: http
-- name: 15,28|🇲🇽MX_1|1.4MB/s
+- name: 15|A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_b4b7d066
   port: 443
   server: 45.134.9.41
   skip-cert-verify: true
   sni: 991cc80f13caf81d3426ddebb2da7f49-240d6105b6ef86f0.apache-iv.com
   tls: true
   type: http
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_1d385d2c
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 107.151.238.27
-  sni: 6b97ee1b.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
 - name: 15|U⚪🏳️[🤖🎭🎪🔍]_dokng.com_c28526b2
   port: 18080
   server: 160.19.203.108
@@ -1228,15 +1158,31 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- name: 15|A🟢🇫🇷[🎬🤖📺🎭]_dokng.com_f9617009
+  password: None
+  port: 443
+  server: fan.132031.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 15,28|🇦🇱AL_2|2.4MB/s
+  password: None
+  port: 443
+  server: 87.120.103.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 15|D🔴🇦🇺[🤖📺🎪✨]_dokng.com_75a616e0
   port: 443
   server: 103.62.50.130
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_2e49200d
-  port: 3900
-  server: 45.163.116.86
+- name: 15|A🟢🇵🇪_dokng.com_8cd9548a
+  port: 999
+  server: 200.62.236.154
   type: http
 - name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_b1a61230
   port: 9292
@@ -1250,13 +1196,6 @@ proxies:
   port: 8095
   server: 194.61.232.13
   type: http
-- name: 15|D🔴🇺🇸[📺]_dokng.com_5476324f
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks5
-  udp: true
-  username: test123
 - name: 15|A🟢🇩🇪[📺🎭🎪]_dokng.com_cd8f0f6d
   port: 443
   server: fan.973511.xyz
@@ -1270,10 +1209,6 @@ proxies:
 - name: 15|A+🟢🇻🇪[📺✈️]_dokng.com_f9e51be1
   port: 8282
   server: 186.167.53.178
-  type: http
-- name: 15|A🟢🇪🇨[🎬🤖📺🎭]_dokng.com_714b1721
-  port: 999
-  server: 181.188.203.40
   type: http
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_c09c3f93
   password: e4b72b531a2d10900519
@@ -1317,14 +1252,18 @@ proxies:
   port: 9191
   server: 177.222.248.54
   type: http
-- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_f89d41d4
+- name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_39e2be1f
+  port: 5566
+  server: 200.225.129.110
+  type: http
+- name: 15,28|🇳🇱NL_9|1.2MB/s
   port: 443
   server: 103.97.88.154
   skip-cert-verify: true
   sni: 4a8c2906c96058315dffbc2b0e7ff19b-98005bea43f9ac33.apache-iv.com
   tls: true
   type: http
-- name: 15|D🔴🇱🇻[🎬🤖📺🎭]_dokng.com_6ad1b6ae
+- name: 15,28|🇱🇻LV_2|1.5MB/s
   password: None
   port: 443
   server: 109.248.149.34
@@ -1332,12 +1271,6 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇮🇹[🤖📺🎭📦]_dokng.com_9b8722f4
-  port: 443
-  server: 109.116.41.154
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 15|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_e3642aa7
   port: 443
   server: 103.82.101.44
@@ -1345,69 +1278,78 @@ proxies:
   sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
   tls: true
   type: http
-- name: 15|A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_75602843
-  port: 44443
-  server: 179.184.163.133
-  type: http
 - name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_48854060
   port: 9797
   server: 186.0.144.52
   type: http
-- name: 15|D🔴🇳🇱[🎬🤖📺🎪]_dokng.com_433a1132
-  port: 1080
-  server: 5.255.113.177
-  type: socks5
 - name: 15|A🟢🇵🇸[🤖📺🎪✨]_dokng.com_b2b06a7e
   port: 9090
   server: 188.161.150.217
   type: http
-- name: 15|A🟢🇧🇷[🤖✨🔍]_dokng.com_ca3b1afa
-  port: 9091
-  server: 164.163.237.196
-  type: http
-- name: 15,35|US - zhuhai.uk 09
+- name: 15,28|🇺🇸US_4|3.3MB/s
   password: test123
   port: 1080
   server: 104.168.249.36
+  skip-cert-verify: true
   type: socks5
   username: test123
 - name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_0c92e5d4
   port: 8666
   server: 45.228.89.114
   type: http
-- name: 15,35|IT - zhuhai.uk
+- name: 15|A🟢🇧🇷[🔍]_dokng.com_919b7764
+  port: 9292
+  server: 131.0.120.162
+  type: http
+- name: 15|A🟢🇵🇪_dokng.com_a2b44e54
+  port: 999
+  server: 38.10.107.117
+  type: http
+- name: 15|A🟢🇮🇹[🎬🤖📺✈️]_dokng.com_8d725197
   port: 443
   server: 178.237.4.200
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|D🔴🇪🇸_dokng.com_0c4fdc77
-  port: 1083
-  server: 161.35.90.93
+- name: 15|A🟢🇸🇪_dokng.com_2fd7cd8b
+  port: 81
+  server: 46.59.120.87
+  type: http
+- name: 15|D🔴🇫🇷[🤖📺🎭🎪]_dokng.com_c5db3762
+  password: None
+  port: 1088
+  server: 144.91.121.61
   type: socks5
+  udp: true
+  username: null
+- name: 15|A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_d849dcfe
+  port: 9292
+  server: 138.0.204.74
+  type: http
 - name: 15|U⚪🏳️_dokng.com_180c6698
   port: 9050
   server: 45.61.129.165
   type: socks5
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15,21,32|🇩🇪 德国 | DEU 7
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: 4da5d1853f04af6d
-  server: 31.76.71.140
-  servername: rrr.windconnect.pro
+- name: 15|D🔴🇺🇸[📺🎭🎪🔍]_dokng.com_00f6512a
+  password: None
+  port: 8090
+  server: 209.148.53.153
   skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+  type: http
+  username: null
 - name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_84cf438e
   port: 8989
   server: 138.204.95.193
   type: http
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_77fc4728
+  password: None
+  port: 443
+  server: 5.255.118.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 15|A🟢🇵🇪_dokng.com_152876ba
   port: 1011
   server: 209.45.65.53
@@ -1429,93 +1371,6 @@ proxies:
   sni: news.gazette.help
   type: hysteria2
 - client-fingerprint: chrome
-  name: 19,35|US - zhuhai.uk
-  network: ws
-  port: 443
-  server: 172.67.204.201
-  servername: 7-m16.CHiaN-MAi-8.KDNs.FR
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 7-m16.CHiaN-MAi-8.KDNS.Fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- client-fingerprint: chrome
-  name: 19|美国 831
-  network: tcp
-  port: 443
-  server: 38.175.203.11
-  servername: oulucloud.706666.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b8ec962-6e6f-4fc3-a9a4-c8a6fc907796
-- name: 19|美国 834
-  network: ws
-  port: 443
-  server: 172.67.204.218
-  servername: 8-M16.AyuTThayA2029.kdNS.fr
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 8-M16.AyuTThayA2029.kdNS.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 19|美国 835
-  network: ws
-  port: 443
-  server: 172.67.156.222
-  servername: 6-M16.chiaN-MAi-6.KDns.fR
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 6-M16.chiaN-MAi-6.KDns.fR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- alterId: 0
-  cipher: auto
-  name: '19,26,27|🇭🇰HK-143.14.189.125-1096 #1'
-  network: ws
-  port: 21316
-  server: 143.14.189.125
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 116f6ecd-275e-4b50-921d-780e78a526cb
-  ws-opts:
-    headers:
-      Host: pull.free.video.10010.com
-    path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 21,24|🇵🇱PL_1|922KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 31.77.61.214
-  servername: jobinvest.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
-- client-fingerprint: chrome
   name: 21|🇵🇱_PL_波兰->🇳🇱_NL_荷兰
   network: ws
   port: 2087
@@ -1527,23 +1382,95 @@ proxies:
   uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
   ws-opts:
     path: /4bc027a44532
-- client-fingerprint: chrome
-  name: 21,32|🇩🇪 德国 | DEU 4
-  network: ws
-  port: 2087
-  server: 188.220.67.245
+- cipher: aes-256-cfb
+  name: 21|🇫🇷_FR_法国
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 21|🇨🇳_CN_中国
+  port: 50002
+  server: 112.132.215.108
   skip-cert-verify: true
   tls: false
-  type: vless
+  type: vmess
   udp: true
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 21|🇭🇰_HK_中国香港
+  network: ws
+  port: 21316
+  server: 143.14.189.125
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 116f6ecd-275e-4b50-921d-780e78a526cb
   ws-opts:
-    path: /8f2690e2d016
+    headers:
+      Host: 143.14.189.125
+    path: /
+- name: '24,28,34|NL_speednode_0004 #1'
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '24,28,34|NL_speednode_0006 #1'
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '24,28,34|NL_speednode_0009 #1'
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '24,28,34|NL_speednode_0010 #1'
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '24,28,34|RO_speednode_0041 #1'
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '24,28,34|RO_speednode_0083 #1'
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 24,28,34,35|RO - zhuhai.uk 03
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: 24,32|🇬🇧 英国 | GBR 6
-  network: tcp
+  name: 24,28|🇬🇧GB_10|3.2MB/s
+  network: raw
   port: 443
   reality-opts:
     public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
@@ -1555,20 +1482,11 @@ proxies:
   udp: true
   uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
   xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 24,28|🇵🇱PL_3|1.2MB/s
-  network: tcp
+- name: '26,27|🇰🇷KR-54.180.239.104-0194 #1'
+  password: AE62539071
   port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 31.77.61.89
-  servername: jobinvest.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+  server: tough-hermit.rooster465.autos
+  type: trojan
 - name: '26,27|🇸🇬SG-91.243.81.39-0237 #1'
   password: CF68213490
   port: 443
@@ -1579,30 +1497,31 @@ proxies:
   port: 443
   server: magical-prawn.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.202.54.120-5056
+- name: '26,27|🇸🇬SG-81.28.13.69-0253 #1'
   password: NQ26071394
   port: 443
-  server: grand-grub.rooster465.autos
+  server: quiet-condor.rooster465.autos
   type: trojan
-- name: 27|🏁RELAY-104.19.229.21-2134
+- name: 27|🏁RELAY-104.16.174.44-1102
   password: humanity
   port: 443
-  server: 104.19.229.21
+  server: 104.16.174.44
+  sni: www.ignitelimit.com
   type: trojan
 - name: 27|🇯🇵JP-85.234.83.230-4945
   password: ND91608427
   port: 443
   server: sensible-mongrel.rooster465.autos
   type: trojan
+- name: 27|🇰🇷KR-43.203.235.186-4947
+  password: CF68213490
+  port: 443
+  server: eminent-dogfish.rooster465.autos
+  type: trojan
 - name: 27|🇺🇸US-34.216.104.24-4948
   password: NQ26071394
   port: 443
   server: helped-jennet.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-54.213.238.59-4949
-  password: CF68213490
-  port: 443
-  server: ultimate-jaguar.rooster465.autos
   type: trojan
 - name: 27|🇯🇵JP-18.183.164.31-4950
   password: CF68213490
@@ -1614,50 +1533,25 @@ proxies:
   port: 443
   server: live-drake.rooster465.autos
   type: trojan
-- name: 27|🇮🇪IE-3.249.220.51-4952
-  password: CF68213490
+- name: 27|🇰🇷KR-52.79.98.24-4953
+  password: NQ26071394
   port: 443
-  server: careful-penguin.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-13.124.200.248-4955
-  password: ND91608427
-  port: 443
-  server: distinct-llama.rooster465.autos
+  server: wise-rhino.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.35.140.206-4956
   password: NQ26071394
   port: 443
   server: devoted-heron.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-54.254.196.251-4958
-  password: NQ26071394
-  port: 443
-  server: thorough-foxhound.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.203.195.137-4959
-  password: CF68213490
-  port: 443
-  server: communal-sunbird.rooster465.autos
-  type: trojan
 - name: 27|🇯🇵JP-85.234.83.212-4960
   password: NQ26071394
   port: 443
   server: massive-ocelot.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.201.103.190-4961
-  password: CF68213490
-  port: 443
-  server: alert-fish.rooster465.autos
-  type: trojan
 - name: 27|🇰🇷KR-13.125.211.246-4962
   password: CF68213490
   port: 443
   server: smooth-lark.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.36.55.102-4964
-  password: IL37892054
-  port: 443
-  server: enhanced-crayfish.rooster465.autos
   type: trojan
 - name: 27|🇯🇵JP-43.207.113.142-4966
   password: IL37892054
@@ -1669,40 +1563,70 @@ proxies:
   port: 443
   server: evident-gnat.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-91.243.81.223-4979
-  password: XG59623478
+- name: 27|🇰🇷KR-43.203.121.129-4978
+  password: ND91608427
   port: 443
-  server: enabling-asp.rooster465.autos
+  server: next-turkey.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-95.85.94.208-4982
+  password: NQ26071394
+  port: 443
+  server: ready-kangaroo.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-43.203.172.207-5022
   password: IL37892054
   port: 443
   server: upright-rhino.rooster465.autos
   type: trojan
+- name: 27|🇳🇱NL-89.39.70.120-5023
+  password: PD07395842
+  port: 443
+  server: pro-crane.rooster465.autos
+  type: trojan
 - name: 27|🇳🇱NL-78.142.194.96-5024
   password: LSS6HLnp7IeEEJUcox
   port: 443
   server: nl-1.tr202607.com
   type: trojan
-- name: 27|🇭🇰HK-185.244.208.25-5026
-  password: IL37892054
+- name: 27|🇵🇱PL-202.78.163.173-5028
+  password: WF42809561
   port: 443
-  server: just-alpaca.rooster465.autos
+  server: top-goshawk.rooster465.autos
+  type: trojan
+- name: 27|🇭🇰HK-185.14.47.56-5030
+  password: NQ26071394
+  port: 443
+  server: kind-unicorn.rooster465.autos
   type: trojan
 - name: 27|🇯🇵JP-31.223.184.104-5032
   password: NQ26071394
   port: 443
   server: correct-starfish.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-45.135.228.19-5033
-  password: NQ26071394
+- name: 27|🇸🇬SG-91.243.81.142-5034
+  password: WG39087154
   port: 443
-  server: fun-labrador.rooster465.autos
+  server: grateful-unicorn.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-45.135.228.66-5035
+  password: OD90375861
+  port: 443
+  server: wired-tick.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-13.125.69.162-5040
   password: IL37892054
   port: 443
   server: engaging-toucan.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-54.250.171.197-5041
+  password: NQ26071394
+  port: 443
+  server: real-ewe.rooster465.autos
+  type: trojan
+- name: 27|🇮🇪IE-54.72.130.222-5043
+  password: CF68213490
+  port: 443
+  server: adapting-basilisk.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-52.78.235.153-5045
   password: NQ26071394
@@ -1714,65 +1638,50 @@ proxies:
   port: 443
   server: innocent-rattler.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.172.115-5048
-  password: CF68213490
+- name: 27|🇰🇷KR-52.78.7.106-5047
+  password: NQ26071394
   port: 443
-  server: funny-hen.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.203.214.247-5049
-  password: CF68213490
-  port: 443
-  server: loyal-molly.rooster465.autos
+  server: fit-marten.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.36.52.203-5051
   password: NQ26071394
   port: 443
   server: inviting-rabbit.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-52.221.222.185-5053
-  password: NQ26071394
-  port: 443
-  server: joint-ewe.rooster465.autos
-  type: trojan
 - name: 27|🇸🇬SG-13.212.181.141-5054
   password: NQ26071394
   port: 443
   server: stunning-mastodon.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.36.76.91-5058
+  password: CF68213490
+  port: 443
+  server: moved-bluegill.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.34.96.227-5059
+  password: CF68213490
+  port: 443
+  server: musical-manatee.rooster465.autos
   type: trojan
 - name: 27|🇩🇪DE-18.192.67.47-5062
   password: NQ26071394
   port: 443
   server: direct-hawk.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.201.100.128-5063
-  password: CF68213490
-  port: 443
-  server: summary-firefly.rooster465.autos
-  type: trojan
 - name: 27|🇰🇷KR-13.124.155.60-5065
   password: AE62539071
   port: 443
   server: clear-heron.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.36.88.22-5066
-  password: CF68213490
+- name: 27|🇸🇬SG-54.169.137.148-5069
+  password: AE62539071
   port: 443
-  server: darling-mongrel.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-109.61.127.96-5071
-  password: IL37892054
-  port: 443
-  server: select-marmoset.rooster465.autos
+  server: capable-jay.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.35.207.188-5072
   password: PD07395842
   port: 443
   server: main-fawn.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-47.128.146.47-5073
-  password: CF68213490
-  port: 443
-  server: pure-ram.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.34.192.47-5074
   password: CF68213490
@@ -1784,20 +1693,10 @@ proxies:
   port: 443
   server: living-hagfish.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.38.181.59-5077
-  password: NQ26071394
-  port: 443
-  server: neat-octopus.rooster465.autos
-  type: trojan
 - name: 27|🇸🇬SG-52.220.181.28-5078
   password: NQ26071394
   port: 443
   server: mighty-lemming.rooster465.autos
-  type: trojan
-- name: 27|🇭🇰HK-91.199.84.204-5080
-  password: XG59623478
-  port: 443
-  server: growing-oyster.rooster465.autos
   type: trojan
 - name: 27|🇸🇬SG-81.28.13.73-5090
   password: WF42809561
@@ -1809,135 +1708,124 @@ proxies:
   port: 443
   server: emerging-baboon.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-109.61.127.63-5103
-  password: IQ68037294
+- name: 27|🇺🇸US-54.245.10.59-5093
+  password: NQ26071394
   port: 443
-  server: accurate-drake.rooster465.autos
+  server: square-gnat.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-52.192.45.137-5095
+  password: NQ26071394
+  port: 443
+  server: promoted-rattler.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-43.202.40.193-5117
   password: PD07395842
   port: 443
   server: excited-ghoul.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-13.193.101.187-5120
-  password: CF68213490
-  port: 443
-  server: brief-warthog.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.200.254.103-5122
+- name: 27|🇸🇬SG-45.135.228.82-5125
   password: NQ26071394
   port: 443
-  server: warm-bass.rooster465.autos
+  server: certain-prawn.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-81.28.13.151-5126
+  password: JA96378052
+  port: 443
+  server: primary-mallard.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-91.243.81.62-5130
+  password: KV63147582
+  port: 443
+  server: wondrous-dogfish.rooster465.autos
   type: trojan
 - name: 27|🇸🇬SG-81.28.13.63-5131
   password: CF68213490
   port: 443
   server: tolerant-rattler.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.34.132.193-5133
-  password: NQ26071394
-  port: 443
-  server: internal-peacock.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-81.28.13.86-5134
-  password: WG39087154
-  port: 443
-  server: caring-ghoul.rooster465.autos
-  type: trojan
 - name: 27|🇸🇬SG-81.28.13.162-5140
   password: KV63147582
   port: 443
   server: evolving-baboon.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-91.243.81.188-5143
+- name: 27|🇺🇸US-44.250.170.23-5057
   password: CF68213490
   port: 443
-  server: polite-coyote.rooster465.autos
+  server: shining-piranha.rooster465.autos
   type: trojan
 - name: 27|🇺🇸US-54.70.161.72-5055
   password: NQ26071394
   port: 443
   server: gentle-turtle.rooster465.autos
   type: trojan
+- encryption: none
+  name: 28|🇩🇪DE_5|1.3MB/s
+  network: ws
+  port: 2087
+  server: 188.220.67.245
+  servername: 188.220.67.245
+  tls: false
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /8f2690e2d016
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28|🇵🇱PL_2|1.5MB/s
+  name: 28|🇲🇩MD_1|2.6MB/s
   network: tcp
-  port: 443
+  port: 9443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 31.77.61.213
-  servername: jobinvest.ru
-  tls: true
-  type: vless
-  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 28|🇰🇷KR_1|4.5MB/s
-  network: grpc
-  port: 10050
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr5-r.link-t7.com
-  servername: s0.awsstatic.com
+    public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
+    short-id: a1b2c3d4
+  server: 31.59.150.174
+  servername: hotcoals.aeternavpn.space
   tls: true
   type: vless
   udp: true
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
-  xudp: true
-- name: '28,34|NL_speednode_0004 #1'
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '28,34|NL_speednode_0006 #1'
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '28,34|NL_speednode_0008 #1'
-  password: None
+  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
+- name: 28,34,35|NL - zhuhai.uk
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 28,34,35|NL - zhuhai.uk 04
+- name: '28,34|US_speednode_0143 #1'
   port: 9002
-  server: 84.17.47.146
+  server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '28,34|NL_speednode_0010 #1'
+- name: 28|🇷🇴RO_9|3.3MB/s
   port: 9002
-  server: 84.17.47.149
+  server: 193.176.84.37
   skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
-  udp: true
-- name: '28,34|RO_speednode_0041 #1'
+- name: 28,35|US - zhuhai.uk 04
+  password: ''
   port: 9002
-  server: 193.176.84.33
+  server: 138.199.35.209
   skip-cert-verify: true
+  sni: 138.199.35.209
   tls: true
   type: http
-  udp: true
-- name: '28,34|RO_speednode_0042 #1'
+  username: ''
+- name: 28|🇷🇴RO_11|3.3MB/s
   port: 9002
-  server: 193.176.84.30
+  server: 193.176.84.36
   skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
-  udp: true
 - name: '28,34|RO_speednode_0044 #1'
   port: 9002
   server: 193.176.84.35
@@ -1945,23 +1833,9 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '28,34|RO_speednode_0083 #1'
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: '28,34|RO_speednode_0087 #1'
   port: 9002
   server: 193.176.84.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 28,34,35|RO - zhuhai.uk 04
-  port: 9002
-  server: 193.176.84.39
   skip-cert-verify: true
   tls: true
   type: http
@@ -1975,35 +1849,11 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: '28,34|US_speednode_0143 #1'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
-  name: 32|🇩🇪 德国 | DEU 2
-  network: xhttp
-  port: 443
-  server: xs13.mcufa.pro
-  servername: xs13.mcufa.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0764541b-3e57-4b47-954b-51e996fae5fc
-  xhttp-opts:
-    host: xs13.mcufa.pro
-    mode: packet-up
-    path: /api/v1/minecraft178/sync/
-    sc-max-each-post-bytes: 1000000
-    uplink-data-placement: body
-    uplink-http-method: GET
-- name: 32|🇫🇷 法国 | FRA 2
+- name: 32|🇺🇸 美国 | USA 21
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.44
+  server: 216.24.57.1
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -2012,213 +1862,86 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 32|🇯🇵 日本 | JPN 2
-  network: tcp
-  port: 10000
-  server: 14.137.238.193
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8b92dfff-ddfd-4a37-841d-6f7bf7ab43b6
-- client-fingerprint: chrome
-  name: 32|🇰🇷 韩国 | KOR
-  network: tcp
-  port: 8686
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: 628b3c90c98ead4f
-  server: 3.34.197.10
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
-- client-fingerprint: qq
-  name: 32|🇱🇹 立陶宛 | LTU
-  network: xhttp
-  port: 443
-  server: 188.72.103.3
-  servername: cdnapi.streamru10.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d8cf280-e0f4-4539-b35c-7ff90659c0d0
-  xhttp-opts:
-    mode: packet-up
-    path: /api/v74/uptodown/
-    seq-key: part_index
-    seq-placement: cookie
-    session-key: stream_auth
-    session-placement: cookie
-    uplink-data-placement: body
-    uplink-http-method: GET
-    x-padding-bytes: 96-1040
-    x-padding-header: X-Media-Token
-    x-padding-key: _t
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 32|🇲🇩 摩尔多瓦 | MDA
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
-    short-id: a1b2c3d4
-  server: 31.59.150.174
-  servername: hotcoals.aeternavpn.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
-- name: 32|🇳🇱 荷兰 | NLD
-  network: tcp
-  port: 62145
-  server: 92.5.225.187
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- client-fingerprint: edge
-  name: 32|🇳🇱 荷兰 | NLD 3
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: f79448a30d
-  server: 94.228.219.183
-  servername: sstats.vk-portal.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
-  xhttp-opts:
-    host: sstats.vk-portal.net
-    path: /assets/v2/pkg
-- name: 32|🇳🇱 荷兰 | NLD 4
-  network: tcp
-  port: 62145
-  server: 141.144.198.50
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 32|🇳🇱 荷兰 | NLD 5
-  network: tcp
-  port: 62145
-  server: 92.5.228.124
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 32|🇵🇱 波兰 | POL
-  network: tcp
-  port: 443
-  server: 50.7.248.234
-  servername: viper-22.moriarty-web.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 32|🇸🇬 新加坡 | SGP 2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: l_AILVmgCSrYUlKhoiFc6NYY-zjXE6FTGEDaG1MECQY
-    short-id: 635295c55ea6eda1
-  server: 163.128.99.165
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 66d0024b-307a-4714-86f7-07d141a244bf
-- cipher: aes-256-gcm
-  name: 32|🇺🇸 美国 | USA 2
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 15.204.233.41
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 32|🇺🇸 美国 | USA 3
-  network: ws
-  port: 443
-  server: 172.67.223.26
-  servername: 5-m17.KuWaIT-LIne.Kdns.FR
-  tls: true
-  type: vless
-  udp: true
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-  ws-opts:
-    headers:
-      Host: 5-M17.KUWAIt-LInE.kdNs.FR
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
 - alterId: 0
-  name: 33|🇺🇸US美国7
+  name: 33|🇺🇸US美国
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.159
+  server: 104.19.229.21
   skip-cert-verify: true
   sni: www.ignitelimit.com
   tls: true
   type: trojan
   udp: true
-- name: 35|US - zhuhai.uk 02
-  port: 8090
-  server: 209.148.53.153
+- alterId: 0
+  name: 33|🇺🇸US美国3
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.143
   skip-cert-verify: true
-  sni: 209.148.53.153
+  sni: www.ignitelimit.com
   tls: true
-  type: http
-- name: 35|RO - zhuhai.uk
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 35|RO - zhuhai.uk 02
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 35|NL - zhuhai.uk
-  port: 62145
-  server: 152.70.56.139
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 35|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 35|RO - zhuhai.uk 05
-  port: 9002
-  server: 193.176.84.22
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 35|US - zhuhai.uk 08
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 35|NL - zhuhai.uk 05
+  type: trojan
+  udp: true
+- name: 35|US - zhuhai.uk
   password: 'null'
   port: 9002
-  server: 84.17.47.147
+  server: 138.199.35.220
   skip-cert-verify: true
-  sni: 84.17.47.147
+  sni: 138.199.35.220
   tls: true
   type: http
   username: 'null'
+- name: 35|RO - zhuhai.uk
+  password: 'null'
+  port: 9002
+  server: 193.176.84.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 35|RO - zhuhai.uk 02
+  port: 9002
+  server: 193.176.84.21
+  skip-cert-verify: true
+  sni: 193.176.84.21
+  tls: true
+  type: http
+- name: 35|US - zhuhai.uk 07
+  password: 'null'
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  sni: 138.199.35.213
+  tls: true
+  type: http
+  username: 'null'
+- name: 35|US - zhuhai.uk 13
+  password: 'null'
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 35|HK - zhuhai.uk 02
+  port: 443
+  server: fan.240104.xyz
+  sni: fan.240104.xyz
+  tls: true
+  type: http
+  username: bnVsbDpudWxs
+- client-fingerprint: chrome
+  name: 35|SG - zhuhai.uk
+  network: ws
+  port: 443
+  server: cfyes.ziyoufly.xyz
+  servername: cf-uh-sg01-2.23523463.xyz
+  tls: true
+  type: vless
+  uuid: 3b578f92-da29-48cb-b037-40d2ef032afe
+  ws-opts:
+    headers:
+      Host: cf-uh-sg01-2.23523463.xyz
+    path: /ziyou

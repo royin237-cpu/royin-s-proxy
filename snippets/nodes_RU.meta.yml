@@ -31,23 +31,6 @@ proxies:
   port: 4080
   server: 185.21.156.73
   type: http
-- name: 15|A🟢🇷🇺[🎪✨🎞️📦]_dokng.com_dcc22167
-  port: 3139
-  server: 94.19.93.170
-  type: http
-- client-fingerprint: edge
-  name: 15|D🔴🇷🇺[📺🎪✨]_dokng.com_a5cd57da
-  network: ws
-  port: 443
-  server: 45.9.15.206
-  servername: ru05.abvpn.ru
-  tls: true
-  type: vless
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
-    path: /websocket
 - name: 15|A🟢🇷🇺[🎪✨📦🔍]_dokng.com_bfb33a78
   port: 8095
   server: 194.61.232.13
@@ -55,8 +38,8 @@ proxies:
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: 24,32|🇬🇧 英国 | GBR 6
-  network: tcp
+  name: 24,28|🇬🇧GB_10|3.2MB/s
+  network: raw
   port: 443
   reality-opts:
     public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk

@@ -41,51 +41,28 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 12,21|🇳🇱_NL_荷兰
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.62
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 12|us|7ca3|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.109
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /assignment
 - cipher: aes-256-cfb
-  name: 12,21|🇫🇷_FR_法国
+  name: 12,15,21,35|TH - zhuhai.uk
   password: 7eadc6dbe2ae
   port: 65443
-  server: 95.170.13.47
+  server: 103.169.67.34
   skip-cert-verify: true
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 12|us|98c8|puddincat07@Telegram
+  name: 12|us|d060|puddincat07@Telegram
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.133
+  server: 104.18.152.159
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: 12|us|2e5f|puddincat07@Telegram
@@ -102,63 +79,44 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
-- alpn:
-  - http/1.1
-  - h2
-  - h3
-  client-fingerprint: chrome
-  name: 12|us|5eb0|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.223.96
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /assignment
 - cipher: aes-256-cfb
-  name: 15,21,35|TH - zhuhai.uk
+  name: 21|🇫🇷_FR_法国
   password: 7eadc6dbe2ae
   port: 65443
-  server: 103.169.67.34
+  server: 95.170.13.47
   skip-cert-verify: true
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 15|U⚪🏳️_dokng.com_79f3708c
-  network: ws
-  password: HutaoCloud
-  port: 11543
-  server: 185.220.238.77
-  skip-cert-verify: true
-  sni: 185.220.238.77
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /api
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '19,26,27|🇭🇰HK-143.14.189.125-1096 #1'
-  network: ws
-  port: 21316
-  server: 143.14.189.125
-  servername: ''
+  name: 21|🇨🇳_CN_中国
+  port: 50002
+  server: 112.132.215.108
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 21|🇭🇰_HK_中国香港
+  network: ws
+  port: 21316
+  server: 143.14.189.125
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
   uuid: 116f6ecd-275e-4b50-921d-780e78a526cb
   ws-opts:
     headers:
-      Host: pull.free.video.10010.com
+      Host: 143.14.189.125
     path: /
+- name: '26,27|🇰🇷KR-54.180.239.104-0194 #1'
+  password: AE62539071
+  port: 443
+  server: tough-hermit.rooster465.autos
+  type: trojan
 - name: '26,27|🇸🇬SG-91.243.81.39-0237 #1'
   password: CF68213490
   port: 443
@@ -169,30 +127,31 @@ proxies:
   port: 443
   server: magical-prawn.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.202.54.120-5056
+- name: '26,27|🇸🇬SG-81.28.13.69-0253 #1'
   password: NQ26071394
   port: 443
-  server: grand-grub.rooster465.autos
+  server: quiet-condor.rooster465.autos
   type: trojan
-- name: 27|🏁RELAY-104.19.229.21-2134
+- name: 27|🏁RELAY-104.16.174.44-1102
   password: humanity
   port: 443
-  server: 104.19.229.21
+  server: 104.16.174.44
+  sni: www.ignitelimit.com
   type: trojan
 - name: 27|🇯🇵JP-85.234.83.230-4945
   password: ND91608427
   port: 443
   server: sensible-mongrel.rooster465.autos
   type: trojan
+- name: 27|🇰🇷KR-43.203.235.186-4947
+  password: CF68213490
+  port: 443
+  server: eminent-dogfish.rooster465.autos
+  type: trojan
 - name: 27|🇺🇸US-34.216.104.24-4948
   password: NQ26071394
   port: 443
   server: helped-jennet.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-54.213.238.59-4949
-  password: CF68213490
-  port: 443
-  server: ultimate-jaguar.rooster465.autos
   type: trojan
 - name: 27|🇯🇵JP-18.183.164.31-4950
   password: CF68213490
@@ -204,50 +163,25 @@ proxies:
   port: 443
   server: live-drake.rooster465.autos
   type: trojan
-- name: 27|🇮🇪IE-3.249.220.51-4952
-  password: CF68213490
+- name: 27|🇰🇷KR-52.79.98.24-4953
+  password: NQ26071394
   port: 443
-  server: careful-penguin.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-13.124.200.248-4955
-  password: ND91608427
-  port: 443
-  server: distinct-llama.rooster465.autos
+  server: wise-rhino.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.35.140.206-4956
   password: NQ26071394
   port: 443
   server: devoted-heron.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-54.254.196.251-4958
-  password: NQ26071394
-  port: 443
-  server: thorough-foxhound.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.203.195.137-4959
-  password: CF68213490
-  port: 443
-  server: communal-sunbird.rooster465.autos
-  type: trojan
 - name: 27|🇯🇵JP-85.234.83.212-4960
   password: NQ26071394
   port: 443
   server: massive-ocelot.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.201.103.190-4961
-  password: CF68213490
-  port: 443
-  server: alert-fish.rooster465.autos
-  type: trojan
 - name: 27|🇰🇷KR-13.125.211.246-4962
   password: CF68213490
   port: 443
   server: smooth-lark.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.36.55.102-4964
-  password: IL37892054
-  port: 443
-  server: enhanced-crayfish.rooster465.autos
   type: trojan
 - name: 27|🇯🇵JP-43.207.113.142-4966
   password: IL37892054
@@ -259,40 +193,70 @@ proxies:
   port: 443
   server: evident-gnat.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-91.243.81.223-4979
-  password: XG59623478
+- name: 27|🇰🇷KR-43.203.121.129-4978
+  password: ND91608427
   port: 443
-  server: enabling-asp.rooster465.autos
+  server: next-turkey.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-95.85.94.208-4982
+  password: NQ26071394
+  port: 443
+  server: ready-kangaroo.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-43.203.172.207-5022
   password: IL37892054
   port: 443
   server: upright-rhino.rooster465.autos
   type: trojan
+- name: 27|🇳🇱NL-89.39.70.120-5023
+  password: PD07395842
+  port: 443
+  server: pro-crane.rooster465.autos
+  type: trojan
 - name: 27|🇳🇱NL-78.142.194.96-5024
   password: LSS6HLnp7IeEEJUcox
   port: 443
   server: nl-1.tr202607.com
   type: trojan
-- name: 27|🇭🇰HK-185.244.208.25-5026
-  password: IL37892054
+- name: 27|🇵🇱PL-202.78.163.173-5028
+  password: WF42809561
   port: 443
-  server: just-alpaca.rooster465.autos
+  server: top-goshawk.rooster465.autos
+  type: trojan
+- name: 27|🇭🇰HK-185.14.47.56-5030
+  password: NQ26071394
+  port: 443
+  server: kind-unicorn.rooster465.autos
   type: trojan
 - name: 27|🇯🇵JP-31.223.184.104-5032
   password: NQ26071394
   port: 443
   server: correct-starfish.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-45.135.228.19-5033
-  password: NQ26071394
+- name: 27|🇸🇬SG-91.243.81.142-5034
+  password: WG39087154
   port: 443
-  server: fun-labrador.rooster465.autos
+  server: grateful-unicorn.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-45.135.228.66-5035
+  password: OD90375861
+  port: 443
+  server: wired-tick.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-13.125.69.162-5040
   password: IL37892054
   port: 443
   server: engaging-toucan.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-54.250.171.197-5041
+  password: NQ26071394
+  port: 443
+  server: real-ewe.rooster465.autos
+  type: trojan
+- name: 27|🇮🇪IE-54.72.130.222-5043
+  password: CF68213490
+  port: 443
+  server: adapting-basilisk.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-52.78.235.153-5045
   password: NQ26071394
@@ -304,65 +268,50 @@ proxies:
   port: 443
   server: innocent-rattler.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.172.115-5048
-  password: CF68213490
+- name: 27|🇰🇷KR-52.78.7.106-5047
+  password: NQ26071394
   port: 443
-  server: funny-hen.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.203.214.247-5049
-  password: CF68213490
-  port: 443
-  server: loyal-molly.rooster465.autos
+  server: fit-marten.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.36.52.203-5051
   password: NQ26071394
   port: 443
   server: inviting-rabbit.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-52.221.222.185-5053
-  password: NQ26071394
-  port: 443
-  server: joint-ewe.rooster465.autos
-  type: trojan
 - name: 27|🇸🇬SG-13.212.181.141-5054
   password: NQ26071394
   port: 443
   server: stunning-mastodon.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.36.76.91-5058
+  password: CF68213490
+  port: 443
+  server: moved-bluegill.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.34.96.227-5059
+  password: CF68213490
+  port: 443
+  server: musical-manatee.rooster465.autos
   type: trojan
 - name: 27|🇩🇪DE-18.192.67.47-5062
   password: NQ26071394
   port: 443
   server: direct-hawk.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.201.100.128-5063
-  password: CF68213490
-  port: 443
-  server: summary-firefly.rooster465.autos
-  type: trojan
 - name: 27|🇰🇷KR-13.124.155.60-5065
   password: AE62539071
   port: 443
   server: clear-heron.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.36.88.22-5066
-  password: CF68213490
+- name: 27|🇸🇬SG-54.169.137.148-5069
+  password: AE62539071
   port: 443
-  server: darling-mongrel.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-109.61.127.96-5071
-  password: IL37892054
-  port: 443
-  server: select-marmoset.rooster465.autos
+  server: capable-jay.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.35.207.188-5072
   password: PD07395842
   port: 443
   server: main-fawn.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-47.128.146.47-5073
-  password: CF68213490
-  port: 443
-  server: pure-ram.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.34.192.47-5074
   password: CF68213490
@@ -374,20 +323,10 @@ proxies:
   port: 443
   server: living-hagfish.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.38.181.59-5077
-  password: NQ26071394
-  port: 443
-  server: neat-octopus.rooster465.autos
-  type: trojan
 - name: 27|🇸🇬SG-52.220.181.28-5078
   password: NQ26071394
   port: 443
   server: mighty-lemming.rooster465.autos
-  type: trojan
-- name: 27|🇭🇰HK-91.199.84.204-5080
-  password: XG59623478
-  port: 443
-  server: growing-oyster.rooster465.autos
   type: trojan
 - name: 27|🇸🇬SG-81.28.13.73-5090
   password: WF42809561
@@ -399,61 +338,61 @@ proxies:
   port: 443
   server: emerging-baboon.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-109.61.127.63-5103
-  password: IQ68037294
+- name: 27|🇺🇸US-54.245.10.59-5093
+  password: NQ26071394
   port: 443
-  server: accurate-drake.rooster465.autos
+  server: square-gnat.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-52.192.45.137-5095
+  password: NQ26071394
+  port: 443
+  server: promoted-rattler.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-43.202.40.193-5117
   password: PD07395842
   port: 443
   server: excited-ghoul.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-13.193.101.187-5120
-  password: CF68213490
-  port: 443
-  server: brief-warthog.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.200.254.103-5122
+- name: 27|🇸🇬SG-45.135.228.82-5125
   password: NQ26071394
   port: 443
-  server: warm-bass.rooster465.autos
+  server: certain-prawn.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-81.28.13.151-5126
+  password: JA96378052
+  port: 443
+  server: primary-mallard.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-91.243.81.62-5130
+  password: KV63147582
+  port: 443
+  server: wondrous-dogfish.rooster465.autos
   type: trojan
 - name: 27|🇸🇬SG-81.28.13.63-5131
   password: CF68213490
   port: 443
   server: tolerant-rattler.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.34.132.193-5133
-  password: NQ26071394
-  port: 443
-  server: internal-peacock.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-81.28.13.86-5134
-  password: WG39087154
-  port: 443
-  server: caring-ghoul.rooster465.autos
-  type: trojan
 - name: 27|🇸🇬SG-81.28.13.162-5140
   password: KV63147582
   port: 443
   server: evolving-baboon.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-91.243.81.188-5143
+- name: 27|🇺🇸US-44.250.170.23-5057
   password: CF68213490
   port: 443
-  server: polite-coyote.rooster465.autos
+  server: shining-piranha.rooster465.autos
   type: trojan
 - name: 27|🇺🇸US-54.70.161.72-5055
   password: NQ26071394
   port: 443
   server: gentle-turtle.rooster465.autos
   type: trojan
-- name: 32|🇫🇷 法国 | FRA 2
+- name: 32|🇺🇸 美国 | USA 21
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.44
+  server: 216.24.57.1
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -462,19 +401,23 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- cipher: aes-256-gcm
-  name: 32|🇺🇸 美国 | USA 2
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 15.204.233.41
-  type: ss
-  udp: true
 - alterId: 0
-  name: 33|🇺🇸US美国7
+  name: 33|🇺🇸US美国
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.159
+  server: 104.19.229.21
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 33|🇺🇸US美国3
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.143
   skip-cert-verify: true
   sni: www.ignitelimit.com
   tls: true
