@@ -26,3 +26,18 @@ proxies:
   port: 443
   server: top-goshawk.rooster465.autos
   type: trojan
+- name: 27|🇵🇱PL-202.78.163.19-5036
+  password: AE62539071
+  port: 443
+  server: game-firefly.rooster465.autos
+  type: trojan
+- name: 35|NL - zhuhai.uk 05
+  network: ws
+  port: 2087
+  server: 178.95.170.83
+  type: vless
+  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  ws-opts:
+    headers:
+      Host: Telegram-Leviko_v2ray
+    path: /4bc027a44532

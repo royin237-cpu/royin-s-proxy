@@ -13,15 +13,10 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 27|🇺🇸US-34.216.104.24-4948
-  password: NQ26071394
-  port: 443
-  server: helped-jennet.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-35.89.158.227-4951
+- name: 27|🇺🇸US-54.213.238.59-4949
   password: CF68213490
   port: 443
-  server: live-drake.rooster465.autos
+  server: ultimate-jaguar.rooster465.autos
   type: trojan
 - name: 27|🇺🇸US-54.70.161.72-5055
   password: NQ26071394
@@ -38,11 +33,11 @@ proxies:
   port: 443
   server: square-gnat.rooster465.autos
   type: trojan
-- name: 32|🇺🇸 美国 | USA 2
+- name: 32|🇫🇷 法国 | FRA 11
   network: ws
   password: humanity
   port: 443
-  server: 216.24.57.1
+  server: render.com
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan

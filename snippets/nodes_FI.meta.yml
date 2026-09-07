@@ -1,11 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 12,24,32|🇬🇧 英国 | GBR 2
-  password: T6IcUpcVx0Y85DxSTgXe4A
-  port: 97
-  server: 86.38.182.226
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -54,7 +47,7 @@ proxies:
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - client-fingerprint: chrome
-  name: 19|美国 435
+  name: 19|美国 469
   network: xhttp
   port: 443
   server: 65.109.238.140
@@ -66,7 +59,7 @@ proxies:
   udp: true
   uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
 - client-fingerprint: chrome
-  name: 19|美国 514
+  name: 19|美国 550
   network: grpc
   port: 2101
   server: 132.243.223.227
@@ -77,17 +70,23 @@ proxies:
   type: vless
   udp: true
   uuid: 2edfd299-fd54-4056-9d79-3c99f19bdae1
-- name: 19|马恩岛 001
-  network: tcp
-  port: 8080
-  server: 81.27.110.79
+- client-fingerprint: chrome
+  name: 19|俄罗斯 016
+  network: ws
+  port: 7443
+  server: 84.22.150.39
+  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: cde8e374-bf71-4a1f-9386-db050bc46190
-- name: 19|芬兰 004
+  uuid: 5cc814de-2bbb-4409-ad8c-ee841ca7bad1
+  ws-opts:
+    headers:
+      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+    path: /
+- name: 19|芬兰 001
   network: grpc
   port: 443
   server: 135.181.41.45
@@ -97,33 +96,6 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: safari
-  name: 20|🇫🇮 Finland [TG]
-  port: 8443
-  reality-opts:
-    public-key: v-y8lgU3a2wSMalMiBveBtwHLwqW4WWTOgUoMNNBKFQ
-    short-id: c0dc8d7fda62ee7f
-  server: 87.58.152.18
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe73f296-e5c0-45a6-8064-f8e76a75e946
-- client-fingerprint: chrome
-  encryption: none
-  name: 24,28,35|FI - zhuhai.uk 01
-  network: tcp
-  port: 11437
-  reality-opts:
-    public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
-    short-id: 7de83d0e31eb75ef
-  server: fi.horlutr.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
-  xudp: true
 - alterId: 0
   cipher: auto
   name: 27|🇫🇮FI-65.109.134.191-4300
@@ -149,62 +121,16 @@ proxies:
   server: nnnmjju.131.pp.ua
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 28|🇺🇸US_24|3.5MB/s
+  name: 32|🇩🇪 德国 | DEU 4
   network: tcp
-  port: 443
+  port: 4443
   reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: e1f8a3b6
-  server: fl.musicperec.ru
-  servername: www.amd.com
+    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
+    short-id: 7da2eae792187ab9
+  server: 31.77.199.147
+  servername: images.unsplash.com
   tls: true
   type: vless
   udp: true
-  uuid: b97e287f-a24e-0021-a103-7e7ecef83139
-  xudp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 28|🇫🇮FI_1|2.8MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: e1f8a3b6
-  server: 185.218.194.70
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b97e287f-a24e-0021-a103-7e7ecef83139
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 28|🇺🇸US_25|3.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: e1f8a3b6
-  server: 2.26.147.116
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b97e287f-a24e-0021-a103-7e7ecef83139
-  xudp: true
-- client-fingerprint: chrome
-  name: 32|🇩🇪 德国 | DEU 5
-  network: tcp
-  port: 11437
-  reality-opts:
-    public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
-    short-id: 7de83d0e31eb75ef
-  server: Fi.horlutr.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da

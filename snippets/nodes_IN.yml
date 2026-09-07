@@ -1,12 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '26,27|🇮🇳IN-152.67.8.205-0147 #1'
+  name: 26,27,33|未知50
   network: ws
   port: 80
   server: 152.67.8.205
   servername: 152.67.8.205
-  tls: false
+  skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
@@ -18,10 +19,3 @@ proxies:
   port: 443
   server: 152.67.160.174
   type: trojan
-- cipher: aes-256-gcm
-  name: 32|🇮🇳 印度 | IND
-  password: GEdoeeqLZtkJRgSa
-  port: 8388
-  server: 139.84.166.47
-  type: ss
-  udp: true

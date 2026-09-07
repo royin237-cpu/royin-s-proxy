@@ -77,27 +77,3 @@ proxies:
     headers:
       Host: 45.94.169.142
     path: /wss13889
-- alterId: 0
-  cipher: auto
-  name: 33|未知77
-  network: ws
-  port: 80
-  server: sacda.tr.snapeurop.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a17be1ef-d5bc-41a1-aeac-b02345823f07
-  ws-opts:
-    headers:
-      Host: sacda.tr.snapeurop.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 33|未知140
-  network: tcp
-  port: 44
-  server: z1.tekno3.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a0400faa-553c-4728-aefa-80c3c5188d96

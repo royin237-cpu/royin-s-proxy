@@ -6,17 +6,20 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 15,28|🇳🇱NL_5|2.1MB/s
+- name: 15|A🟢🇳🇱[🎬🤖📺🎭]_dokng.com_b67769ea
   password: None
   port: 16668
   server: 82.115.6.209
   type: http
   username: null
-- name: 15|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_bdc42035
-  port: 5050
-  server: 72.56.72.131
+- name: 15|U⚪🏳️_dokng.com_b74edc3f
+  port: 443
+  server: 185.246.153.42
+  skip-cert-verify: true
+  sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
+  tls: true
   type: http
-- name: 15,24,28|🇳🇱NL_6|3.2MB/s
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_f9c49b8d
   password: ''
   port: 9002
   server: 84.17.47.147
@@ -30,7 +33,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,28|🇳🇱NL_7|3.6MB/s
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c36b3d06
   port: 443
   server: 157.22.183.72
   tls: true
@@ -42,13 +45,6 @@ proxies:
   sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
   tls: true
   type: http
-- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c745045d
-  port: 443
-  server: 185.246.153.28
-  skip-cert-verify: true
-  sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
-  tls: true
-  type: http
 - name: 15|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_eebc1002
   password: None
   port: 443
@@ -57,7 +53,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28|🇳🇱NL_8|3.9MB/s
+- name: 15,28|🇳🇱NL_5|2.0MB/s
   password: ''
   port: 443
   server: 149.36.51.129
@@ -78,21 +74,13 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 15,28|🇳🇱NL_9|1.2MB/s
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_f89d41d4
   port: 443
   server: 103.97.88.154
   skip-cert-verify: true
   sni: 4a8c2906c96058315dffbc2b0e7ff19b-98005bea43f9ac33.apache-iv.com
   tls: true
   type: http
-- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_77fc4728
-  password: None
-  port: 443
-  server: 5.255.118.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: '24,28,34|NL_speednode_0004 #1'
   port: 9002
   server: 84.17.47.125
@@ -107,6 +95,14 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: '24,28,34|NL_speednode_0008 #1'
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: '24,28,34|NL_speednode_0009 #1'
   port: 9002
   server: 84.17.47.146
@@ -114,26 +110,53 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '24,28,34|NL_speednode_0010 #1'
+- name: 24,28,34,35|NL - zhuhai.uk
   port: 9002
   server: 84.17.47.149
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 27|🇳🇱NL-89.39.70.120-5023
-  password: PD07395842
-  port: 443
-  server: pro-crane.rooster465.autos
-  type: trojan
 - name: 27|🇳🇱NL-78.142.194.96-5024
   password: LSS6HLnp7IeEEJUcox
   port: 443
   server: nl-1.tr202607.com
   type: trojan
+- client-fingerprint: ios
+  name: 28|🇳🇱NL_1|2.1MB/s
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: f79448a30d
+  server: 94.228.219.181
+  servername: sstats.vk-portal.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
+  xhttp-opts:
+    host: sstats.vk-portal.net
+    path: /assets/v2/pkg
+- client-fingerprint: qq
+  name: 28,32|🇳🇱 荷兰 | NLD 3
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: f79448a30d
+  server: 94.228.219.177
+  servername: sstats.vk-portal.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
+  xhttp-opts:
+    host: sstats.vk-portal.net
+    path: /assets/v2/pkg
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28|🇲🇩MD_1|2.6MB/s
+  name: 32|🇲🇩 摩尔多瓦 | MDA
   network: tcp
   port: 9443
   reality-opts:
@@ -145,10 +168,3 @@ proxies:
   type: vless
   udp: true
   uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
-- name: '28,34|NL_speednode_0007 #1'
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
