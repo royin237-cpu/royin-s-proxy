@@ -1,4 +1,15 @@
 proxies:
+- name: 15,35|DE - zhuhai.uk 02
+  network: ws
+  port: 2087
+  server: 163.8.195.241
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  ws-opts:
+    path: /29c8fed7ca22
 - name: 15,21,28|🇩🇪DE_3|4.2MB/s
   port: 443
   server: 138.201.56.241
@@ -84,34 +95,24 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|A🟢🇩🇪[📺🎭🎪]_dokng.com_cd8f0f6d
-  port: 443
-  server: fan.973511.xyz
-  sni: fan.973511.xyz
-  tls: true
-  type: http
 - name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_f012372a
   port: 11000
   server: 116.202.172.187
   type: http
-- name: 27|🇩🇪DE-3.67.79.54-5124
+- name: 27|🇩🇪DE-3.67.79.54-5129
   password: CF68213490
   port: 443
   server: composed-sheep.rooster465.autos
   type: trojan
-- name: 27|🇩🇪DE-18.192.67.47-5135
+- name: 27|🇩🇪DE-18.192.67.47-5140
   password: NQ26071394
   port: 443
   server: direct-hawk.rooster465.autos
   type: trojan
-- name: 35|DE - zhuhai.uk 01
-  network: ws
-  port: 2087
-  server: 163.8.195.241
-  type: vless
-  udp: true
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  ws-opts:
-    headers:
-      Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
-    path: /29c8fed7ca22
+- name: 35|DE - zhuhai.uk
+  password: 'null'
+  port: 443
+  server: fan.973511.xyz
+  tls: true
+  type: http
+  username: 'null'

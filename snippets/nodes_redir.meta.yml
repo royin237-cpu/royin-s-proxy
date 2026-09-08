@@ -1,29 +1,9 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '12,15,21,22|🇨🇳_CN_中国->🇺🇸_US_美国_3 #1'
+  name: '15,21,22|🇨🇳_CN_中国->🇺🇸_US_美国_3 #1'
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.232
   skip-cert-verify: true
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: '21,22|🇨🇳_CN_中国->🇰🇷_KR_韩国 #1'
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: '21,22|🇵🇱_PL_波兰->🇳🇱_NL_荷兰 #1'
-  network: ws
-  port: 2087
-  server: 178.95.170.83
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
-  ws-opts:
-    path: /4bc027a44532

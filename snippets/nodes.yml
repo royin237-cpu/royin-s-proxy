@@ -42,59 +42,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: '12,15,21,22|🇨🇳_CN_中国->🇺🇸_US_美国_3 #1'
+  name: '15,21,22|🇨🇳_CN_中国->🇺🇸_US_美国_3 #1'
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.232
   skip-cert-verify: true
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 12|us|2e5f|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 12,24,28|🇫🇷FR_5|2.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
-        Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 12|xx|0c76|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: ip.myip2.qzz.io
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /assignment
 - client-fingerprint: chrome
   name: 15|U⚪🏳️_dokng.com_79f3708c
   network: ws
@@ -125,41 +79,33 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
-- alterId: 64
+- alterId: 0
   cipher: auto
   delay: 162
-  name: 15,19|中国 007
+  name: 15,19,33|未知54
   network: tcp
   port: 50002
   server: 112.132.215.108
   servername: 112.132.215.108
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   xudp: true
 - cipher: aes-256-cfb
-  name: '21,22|🇨🇳_CN_中国->🇰🇷_KR_韩国 #1'
+  name: 21,22,32|🇰🇷 韩国 | KOR
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.138
   skip-cert-verify: true
   type: ss
   udp: true
-- name: '21,32|🇯🇵 日本 | JPN #1'
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10012
-  server: z-jp1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: '21,32|🇺🇸 美国 | USA 3 #1'
+- name: 21|🇺🇸 美国 | USA 21
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.140
+  server: 104.18.152.159
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -168,192 +114,244 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
+- client-fingerprint: chrome
+  name: 24,28|🇫🇷FR_5|2.1MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /assignment
 - name: 27|🇰🇷KR-54.180.239.104-0264
   password: AE62539071
   port: 443
   server: tough-hermit.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-52.78.158.178-0267
+  password: CF68213490
+  port: 443
+  server: smiling-fowl.rooster465.autos
   type: trojan
 - name: 27|🇸🇬SG-91.243.81.39-0296
   password: CF68213490
   port: 443
   server: harmless-lab.rooster465.autos
   type: trojan
-- name: 27|🏁RELAY-104.18.152.159-1143
-  password: humanity
-  port: 443
-  server: 104.18.152.159
-  sni: www.ignitelimit.com
-  type: trojan
-- name: 27|🏁RELAY-104.19.229.21-2168
+- name: 27|🏁RELAY-104.19.229.21-2173
   password: humanity
   port: 443
   server: 104.19.229.21
   type: trojan
-- name: 27|🇰🇷KR-3.35.140.206-4981
+- name: 27|🇰🇷KR-3.35.140.206-4986
   password: NQ26071394
   port: 443
   server: devoted-heron.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-13.125.197.210-4991
+- name: 27|🇰🇷KR-13.125.197.210-4996
   password: PD07395842
   port: 443
   server: together-amoeba.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-54.254.196.251-4992
+- name: 27|🇸🇬SG-54.254.196.251-4997
   password: NQ26071394
   port: 443
   server: thorough-foxhound.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.36.55.102-4998
+- name: 27|🇰🇷KR-3.36.55.102-5003
   password: IL37892054
   port: 443
   server: enhanced-crayfish.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-31.223.184.85-5013
+- name: 27|🇯🇵JP-31.223.184.85-5018
   password: NQ26071394
   port: 443
   server: chief-cricket.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-95.85.94.208-5014
+- name: 27|🇯🇵JP-95.85.94.208-5019
   password: NQ26071394
   port: 443
   server: ready-kangaroo.rooster465.autos
   type: trojan
-- name: 27|🇳🇱NL-78.142.194.96-5057
+- name: 27|🇳🇱NL-78.142.194.96-5062
   password: LSS6HLnp7IeEEJUcox
   port: 443
   server: nl-1.tr202607.com
   type: trojan
-- name: 27|🇭🇰HK-185.244.208.25-5060
+- name: 27|🇭🇰HK-185.244.208.25-5065
   password: IL37892054
   port: 443
   server: just-alpaca.rooster465.autos
   type: trojan
-- name: 27|🇭🇰HK-185.14.47.56-5062
+- name: 27|🇭🇰HK-185.14.47.56-5067
   password: NQ26071394
   port: 443
   server: kind-unicorn.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-45.135.228.66-5064
+- name: 27|🇸🇬SG-45.135.228.66-5069
   password: OD90375861
   port: 443
   server: wired-tick.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-45.135.228.19-5068
+- name: 27|🇸🇬SG-45.135.228.19-5073
   password: NQ26071394
   port: 443
   server: fun-labrador.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-31.223.184.104-5069
+- name: 27|🇯🇵JP-31.223.184.104-5074
   password: NQ26071394
   port: 443
   server: correct-starfish.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-52.221.252.205-5119
+- name: 27|🇸🇬SG-52.221.252.205-5124
   password: EQ30679154
   port: 443
   server: definite-gazelle.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.36.88.22-5123
+- name: 27|🇰🇷KR-3.36.88.22-5128
   password: CF68213490
   port: 443
   server: darling-mongrel.rooster465.autos
   type: trojan
-- name: 27|🇩🇪DE-3.67.79.54-5124
+- name: 27|🇩🇪DE-3.67.79.54-5129
   password: CF68213490
   port: 443
   server: composed-sheep.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-52.78.7.106-5128
+- name: 27|🇰🇷KR-52.78.7.106-5133
   password: NQ26071394
   port: 443
   server: fit-marten.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.172.115-5129
+- name: 27|🇰🇷KR-43.203.172.115-5134
   password: CF68213490
   port: 443
   server: funny-hen.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.36.76.91-5132
+- name: 27|🇰🇷KR-3.36.76.91-5137
   password: CF68213490
   port: 443
   server: moved-bluegill.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-52.78.158.178-5133
-  password: CF68213490
-  port: 443
-  server: smiling-fowl.rooster465.autos
-  type: trojan
-- name: 27|🇩🇪DE-18.192.67.47-5135
+- name: 27|🇩🇪DE-18.192.67.47-5140
   password: NQ26071394
   port: 443
   server: direct-hawk.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-13.125.69.162-5136
+- name: 27|🇰🇷KR-13.125.69.162-5141
   password: IL37892054
   port: 443
   server: engaging-toucan.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.201.100.128-5137
+- name: 27|🇰🇷KR-43.201.100.128-5142
   password: CF68213490
   port: 443
   server: summary-firefly.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-85.234.83.45-5142
+- name: 27|🇯🇵JP-85.234.83.45-5147
   password: NQ26071394
   port: 443
   server: gentle-platypus.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-109.61.127.96-5143
+- name: 27|🇰🇷KR-109.61.127.96-5148
   password: IL37892054
   port: 443
   server: select-marmoset.rooster465.autos
   type: trojan
-- name: 27|🇦🇺AU-87.121.33.14-5173
+- name: 27|🇦🇺AU-87.121.33.14-5178
   password: PD07395842
   port: 443
   server: true-pony.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-81.28.13.151-5191
+- name: 27|🇸🇬SG-81.28.13.151-5196
   password: JA96378052
   port: 443
   server: primary-mallard.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-81.28.13.86-5200
+- name: 27|🇸🇬SG-81.28.13.86-5205
   password: WG39087154
   port: 443
   server: caring-ghoul.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-91.243.81.188-5201
+- name: 27|🇸🇬SG-91.243.81.188-5206
   password: CF68213490
   port: 443
   server: polite-coyote.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-95.85.94.57-5204
+- name: 27|🇯🇵JP-95.85.94.57-5209
   password: CF68213490
   port: 443
   server: gentle-mastiff.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-81.28.13.162-5205
+- name: 27|🇸🇬SG-81.28.13.162-5210
   password: KV63147582
   port: 443
   server: evolving-baboon.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-109.61.127.36-5214
+- name: 27|🇰🇷KR-109.61.127.36-5219
   password: ZY07256934
   port: 443
   server: closing-crow.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-94.177.131.233-5217
+- name: 27|🇯🇵JP-94.177.131.233-5222
   password: JT80563429
   port: 443
   server: musical-shrew.rooster465.autos
   type: trojan
-- name: 28|🇾🇪YE_1|4.2MB/s
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10010
-  server: z-jp2.251313.xyz
+- name: '32|🇫🇷 法国 | FRA 6 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
   skip-cert-verify: true
-  sni: www.cloudflare.com
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '32|🇺🇸 美国 | USA 7 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '32|🇺🇸 美国 | USA 10 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.15.137
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- alterId: 0
+  name: 33|🇺🇸US美国
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.140
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
   type: trojan
   udp: true

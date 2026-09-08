@@ -1,7 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 33|未知8 10.2KB/s
+  name: 33|未知62 258.8KB/s
+  network: none
+  port: 37515
+  server: 119.46.51.45
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
+- alterId: 0
+  cipher: auto
+  name: 33|未知157
   network: ws
   port: 49667
   server: 118.193.57.167

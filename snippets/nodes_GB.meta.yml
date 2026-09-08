@@ -84,7 +84,7 @@ proxies:
   type: http
   username: null
 - client-fingerprint: chrome
-  name: 21,22,28,32,35|DE - zhuhai.uk 02
+  name: 21,22,28|🇩🇪DE_1|1.4MB/s
   network: ws
   port: 2087
   server: 188.220.67.245

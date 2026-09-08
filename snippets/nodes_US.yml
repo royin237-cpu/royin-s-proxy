@@ -14,7 +14,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 12,24,28|🇫🇷FR_5|2.1MB/s
+  name: 24,28|🇫🇷FR_5|2.1MB/s
   network: ws
   password: humanity
   port: 443

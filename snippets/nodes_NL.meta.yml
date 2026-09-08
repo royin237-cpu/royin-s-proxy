@@ -33,9 +33,10 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,21|🇳🇱NL_4|2.7MB/s
+- name: 15,21,35|NL - zhuhai.uk 02
   port: 443
   server: 157.22.183.72
+  sni: 157.22.183.72
   tls: true
   type: http
 - name: 15,21|🇳🇱NL_6|2.9MB/s
@@ -150,7 +151,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 27|🇳🇱NL-78.142.194.96-5057
+- name: 27|🇳🇱NL-78.142.194.96-5062
   password: LSS6HLnp7IeEEJUcox
   port: 443
   server: nl-1.tr202607.com

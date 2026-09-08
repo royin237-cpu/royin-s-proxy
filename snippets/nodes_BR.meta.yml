@@ -51,7 +51,3 @@ proxies:
   port: 9292
   server: 138.0.204.74
   type: http
-- name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_84cf438e
-  port: 8989
-  server: 138.204.95.193
-  type: http

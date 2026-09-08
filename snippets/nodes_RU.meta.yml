@@ -17,6 +17,23 @@ proxies:
   type: http
 - client-fingerprint: chrome
   encryption: none
+  name: 15|U⚪🏳️[✈️]_dokng.com_bdcb20f7
+  network: ws
+  port: 443
+  server: wstg.datasynctrue.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  ws-opts:
+    headers:
+      Host: wstg.datasynctrue.online
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /api/connect
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   name: 15,19|俄罗斯 030
   network: ws
   port: 443
@@ -33,23 +50,19 @@ proxies:
       Host: wstg.datasynctrue.online
     path: /api/connect
   xudp: true
+- name: 15|A🟢🇷🇺[🎪✨📦🔍]_dokng.com_bfb33a78
+  port: 8095
+  server: 194.61.232.13
+  type: http
 - client-fingerprint: edge
-  name: 15,19|美国 749
+  name: 35|RU - zhuhai.uk
   network: ws
   port: 443
   server: 45.9.15.206
   servername: ru05.abvpn.ru
   skip-cert-verify: true
-  tfo: false
   tls: true
   type: vless
-  udp: true
   uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
   ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
     path: /websocket
-- name: 15|A🟢🇷🇺[🎪✨📦🔍]_dokng.com_bfb33a78
-  port: 8095
-  server: 194.61.232.13
-  type: http
