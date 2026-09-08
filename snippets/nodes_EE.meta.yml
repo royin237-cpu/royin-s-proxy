@@ -43,29 +43,9 @@ proxies:
   type: vless
   udp: true
   uuid: 7e8f7489-e65f-4be6-93ed-867a74ec6759
-- name: 27|🇪🇪EE-138.124.183.216-2730
-  password: xxoo
-  port: 443
-  server: 138.124.183.216
-  type: trojan
-- client-fingerprint: chrome
-  name: 28,32|🇸🇪 瑞典 | SWE 2
-  network: ws
-  port: 443
-  server: 64.188.82.173
-  servername: sni.868001.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  ws-opts:
-    headers:
-      Host: sni.868001.xyz
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-  xudp: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 32,35|EE - zhuhai.uk
+  name: 21|🇬🇧GB_1|3.1MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -77,31 +57,8 @@ proxies:
   type: vless
   udp: true
   uuid: d9d0f208-d582-41d5-bb7b-742671402810
-- client-fingerprint: chrome
-  name: 32|🇪🇪 爱沙尼亚 | EST 2
-  network: ws
+- name: 27|🇪🇪EE-138.124.183.216-2764
+  password: xxoo
   port: 443
-  server: 5.101.114.177
-  servername: sni.868001.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  ws-opts:
-    headers:
-      Host: sni.868001.xyz
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-- client-fingerprint: chrome
-  name: 32|🇸🇪 瑞典 | SWE
-  network: ws
-  port: 443
-  server: 185.36.141.81
-  servername: sni.868001.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  ws-opts:
-    headers:
-      Host: sni.868001.xyz
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
+  server: 138.124.183.216
+  type: trojan

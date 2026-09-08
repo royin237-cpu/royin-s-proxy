@@ -1,11 +1,36 @@
 proxies:
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_412dd6e0
+- name: 15|D🔴🇺🇸[📺🎭🎪✨]_dokng.com_6948765a
   port: 443
-  server: zebpay.site
-  sni: zebpay.site
+  server: berniesbodybla.fun
+  sni: berniesbodybla.fun
   tls: true
   type: http
-- name: 15,35|ID - zhuhai.uk
-  port: 2080
-  server: 8.215.25.3
-  type: socks5
+- name: 15,28|🇺🇸US_22|3.3MB/s
+  password: None
+  port: 443
+  server: berniesbodybla.fun
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: 15|U⚪🏳️[🎬🤖📺🎭]_dokng.com_87bf668a
+  password: freeuser1
+  port: 9251
+  server: cr1-id.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- name: 15|U⚪🏳️[🎬🤖📺🎭]_dokng.com_54a270d5
+  password: freeuser1
+  port: 9251
+  server: cr2-id.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- name: 15|U⚪🏳️[🎬🤖📺🎭]_dokng.com_89e7191b
+  password: freeuser1
+  port: 9251
+  server: sr2-id.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1

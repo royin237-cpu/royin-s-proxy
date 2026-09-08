@@ -22,7 +22,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 19,27|🇹🇷TR-37.221.79.48-0757
+  name: 19,27|🇹🇷TR-37.221.79.48-0800
   network: ws
   port: 443
   server: v2ray.online
@@ -37,7 +37,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇷TR-37.221.79.48-1485
+  name: 27|🇹🇷TR-37.221.79.48-1521
   network: ws
   port: 443
   server: v2ray.online
@@ -51,7 +51,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇷TR-37.221.79.48-4744
+  name: 27|🇹🇷TR-37.221.79.48-4778
   network: ws
   port: 443
   server: v2ray.online
@@ -65,7 +65,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇷TR-45.94.169.142-7278
+  name: 27|🇹🇷TR-45.94.169.142-7348
   network: ws
   port: 443
   server: 45.94.169.142
@@ -77,3 +77,27 @@ proxies:
     headers:
       Host: 45.94.169.142
     path: /wss13889
+- alterId: 0
+  cipher: auto
+  name: 33|未知29
+  network: ws
+  port: 80
+  server: sacda.tr.snapeurop.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a17be1ef-d5bc-41a1-aeac-b02345823f07
+  ws-opts:
+    headers:
+      Host: sacda.tr.snapeurop.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 33|未知41
+  network: tcp
+  port: 62984
+  server: 91.228.227.175
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 62d79906-0850-4a95-aa23-6c827211fe6e

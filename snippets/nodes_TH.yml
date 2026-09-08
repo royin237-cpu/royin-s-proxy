@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 33|未知161 28.6KB/s
+  name: 33|未知8 10.2KB/s
   network: ws
   port: 49667
   server: 118.193.57.167

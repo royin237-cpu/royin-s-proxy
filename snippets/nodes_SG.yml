@@ -6,68 +6,48 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: '26,27|🇸🇬SG-91.243.81.39-0237 #1'
+- name: 27|🇸🇬SG-91.243.81.39-0296
   password: CF68213490
   port: 443
   server: harmless-lab.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-45.135.228.19-5033
+- name: 27|🇸🇬SG-54.254.196.251-4992
   password: NQ26071394
   port: 443
-  server: fun-labrador.rooster465.autos
+  server: thorough-foxhound.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-45.135.228.66-5035
+- name: 27|🇸🇬SG-45.135.228.66-5064
   password: OD90375861
   port: 443
   server: wired-tick.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-52.221.222.185-5053
+- name: 27|🇸🇬SG-45.135.228.19-5068
   password: NQ26071394
   port: 443
-  server: joint-ewe.rooster465.autos
+  server: fun-labrador.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-13.212.181.141-5054
-  password: NQ26071394
-  port: 443
-  server: stunning-mastodon.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-52.221.252.205-5064
+- name: 27|🇸🇬SG-52.221.252.205-5119
   password: EQ30679154
   port: 443
   server: definite-gazelle.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-54.169.137.148-5069
-  password: AE62539071
+- name: 27|🇸🇬SG-81.28.13.151-5191
+  password: JA96378052
   port: 443
-  server: capable-jay.rooster465.autos
+  server: primary-mallard.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-47.128.146.47-5073
-  password: CF68213490
-  port: 443
-  server: pure-ram.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-81.28.13.73-5090
-  password: WF42809561
-  port: 443
-  server: nearby-muskrat.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-45.135.228.6-5132
-  password: HW85960347
-  port: 443
-  server: firm-squid.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-81.28.13.86-5134
+- name: 27|🇸🇬SG-81.28.13.86-5200
   password: WG39087154
   port: 443
   server: caring-ghoul.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-81.28.13.162-5140
-  password: KV63147582
-  port: 443
-  server: evolving-baboon.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-91.243.81.188-5143
+- name: 27|🇸🇬SG-91.243.81.188-5201
   password: CF68213490
   port: 443
   server: polite-coyote.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-81.28.13.162-5205
+  password: KV63147582
+  port: 443
+  server: evolving-baboon.rooster465.autos
   type: trojan

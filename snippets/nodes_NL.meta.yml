@@ -6,7 +6,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 15|A🟢🇳🇱[🎬🤖📺🎭]_dokng.com_b67769ea
+- name: 15,28|🇳🇱NL_5|1.4MB/s
   password: None
   port: 16668
   server: 82.115.6.209
@@ -27,22 +27,29 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_62bb2c7c
+- name: 15,28|🇳🇱NL_6|4.4MB/s
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c36b3d06
+- name: 15,21|🇳🇱NL_4|2.7MB/s
   port: 443
   server: 157.22.183.72
   tls: true
   type: http
-- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b8f46ac7
+- name: 15,21|🇳🇱NL_6|2.9MB/s
   port: 443
   server: 185.140.209.235
   skip-cert-verify: true
   sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
+  tls: true
+  type: http
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c745045d
+  port: 443
+  server: 185.246.153.28
+  skip-cert-verify: true
+  sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
   tls: true
   type: http
 - name: 15|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_eebc1002
@@ -53,7 +60,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|C🟠🇳🇱[🎬🤖📺🎪]_dokng.com_4fefa5e6
+- name: 15,21,28|🇳🇱NL_3|3.1MB/s
   password: ''
   port: 443
   server: 149.36.51.129
@@ -81,21 +88,61 @@ proxies:
   sni: 4a8c2906c96058315dffbc2b0e7ff19b-98005bea43f9ac33.apache-iv.com
   tls: true
   type: http
-- name: '24,28,34|NL_speednode_0004 #1'
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_485d2d71
+  port: 1080
+  server: 5.255.103.55
+  type: socks5
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_77fc4728
+  password: None
+  port: 443
+  server: 5.255.118.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 21,22,28|🇲🇩MD_1|2.3MB/s
+  port: 9443
+  reality-opts:
+    public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
+    short-id: a1b2c3d4
+  server: 31.59.150.174
+  servername: hotcoals.aeternavpn.space
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
+- name: '21,24,28,34|NL_speednode_0009 #2'
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '21,24,28,34|NL_speednode_0010 #2'
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '21,24,28,34|NL_speednode_0004 #2'
   port: 9002
   server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '24,28,34|NL_speednode_0006 #1'
+- name: '21,24,28,34|NL_speednode_0006 #2'
   port: 9002
   server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '24,28,34|NL_speednode_0008 #1'
+- name: '21,24,28,34|NL_speednode_0008 #2'
   password: None
   port: 9002
   server: 84.17.47.148
@@ -103,52 +150,8 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '24,28,34|NL_speednode_0009 #1'
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 24,28,34,35|NL - zhuhai.uk
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 27|🇳🇱NL-78.142.194.96-5024
+- name: 27|🇳🇱NL-78.142.194.96-5057
   password: LSS6HLnp7IeEEJUcox
   port: 443
   server: nl-1.tr202607.com
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 32|🇲🇩 摩尔多瓦 | MDA
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
-    short-id: a1b2c3d4
-  server: 31.59.150.174
-  servername: hotcoals.aeternavpn.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
-- client-fingerprint: qq
-  name: 32|🇳🇱 荷兰 | NLD 3
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: f79448a30d
-  server: 94.228.219.177
-  servername: sstats.vk-portal.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
-  xhttp-opts:
-    host: sstats.vk-portal.net
-    path: /assets/v2/pkg
