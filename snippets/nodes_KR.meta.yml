@@ -5,21 +5,21 @@ proxies:
   server: 121.169.46.116
   skip-cert-verify: true
   type: socks5
-  username: T2c9PTo=
+  username: VDJjOVBUbz06
 - name: '26,27|🇰🇷KR-13.125.211.246-0175 #1'
   password: CF68213490
   port: 443
   server: smooth-lark.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.195.137-4723
-  password: CF68213490
-  port: 443
-  server: communal-sunbird.rooster465.autos
-  type: trojan
 - name: 27|🇰🇷KR-52.79.98.24-4729
   password: NQ26071394
   port: 443
   server: wise-rhino.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-43.203.195.137-4723
+  password: CF68213490
+  port: 443
+  server: communal-sunbird.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.35.140.206-4731
   password: NQ26071394

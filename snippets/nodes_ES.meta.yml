@@ -15,7 +15,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 21|🇪🇸ES_1|3.3MB/s
+- name: 21,35|ES - zhuhai.uk
   port: 443
   server: 130.195.250.18
   skip-cert-verify: true

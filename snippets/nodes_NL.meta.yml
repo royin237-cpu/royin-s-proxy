@@ -36,6 +36,14 @@ proxies:
   server: 82.115.6.209
   type: http
   username: null
+- name: '15,21,28|🇳🇱NL_5|4.4MB/s #1'
+  password: None
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b8f46ac7
   port: 443
   server: 185.140.209.235
@@ -67,14 +75,13 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 15,28|🇳🇱NL_6|4.7MB/s
-  password: None
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c745045d
   port: 443
-  server: 51.158.243.91
+  server: 185.246.153.28
   skip-cert-verify: true
+  sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
   tls: true
   type: http
-  username: null
 - name: 15|A🟢🇳🇱[🎬🤖📺🎭]_dokng.com_1fac1dff
   port: 65432
   server: 87.215.14.228
@@ -124,16 +131,7 @@ proxies:
 - name: 35|NL - zhuhai.uk
   password: 'null'
   port: 443
-  server: 185.246.153.28
-  skip-cert-verify: true
-  sni: 185.246.153.28
-  tls: true
-  type: http
-  username: 'null'
-- name: 35|NL - zhuhai.uk 02
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
+  server: 51.158.243.91
   skip-cert-verify: true
   tls: true
   type: http

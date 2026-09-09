@@ -101,3 +101,9 @@ proxies:
   port: 443
   server: direct-hawk.rooster465.autos
   type: trojan
+- name: 35|DE - zhuhai.uk
+  port: 443
+  server: 141.17.83.73
+  skip-cert-verify: true
+  tls: true
+  type: http

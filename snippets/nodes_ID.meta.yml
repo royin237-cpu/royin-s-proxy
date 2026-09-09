@@ -6,6 +6,14 @@ proxies:
   tls: true
   type: http
   username: freeuser1
+- name: 15,35|ID - zhuhai.uk
+  password: freeuser1
+  port: 9251
+  server: sr2-id.freeconnect.link
+  sni: sr2-id.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
 - name: 15|U⚪🏳️[🎬🤖📺🎭]_dokng.com_54a270d5
   password: freeuser1
   port: 9251

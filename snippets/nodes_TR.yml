@@ -57,7 +57,7 @@ proxies:
     path: /wss13889
 - alterId: 0
   cipher: auto
-  name: 33|未知26
+  name: 33|未知3
   network: ws
   port: 80
   server: sacda.tr.snapeurop.com
@@ -69,3 +69,23 @@ proxies:
     headers:
       Host: sacda.tr.snapeurop.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 33|未知115
+  network: tcp
+  port: 13301
+  server: tr2.pi10.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 113ae61b-d6da-4d08-9221-48595cb8436c
+- alterId: 0
+  cipher: auto
+  name: 33|🇨🇦CA加拿大
+  network: tcp
+  port: 110
+  server: pori.cjlife.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0accd97e-a16c-4d4f-b19a-883f7ea0f484
