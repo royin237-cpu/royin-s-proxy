@@ -15,32 +15,50 @@ proxies:
   skip-cert-verify: false
   sni: fiproxy1.lockdwn.com
   type: hysteria2
-- client-fingerprint: chrome
-  name: 21|🇩🇪 德国 | DEU 3
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg
-    short-id: 1c213fd68e13
-  server: 62.238.49.168
-  servername: www.wikipedia.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 10b0fa95-ca1d-4ba7-829f-350758056697
-  xhttp-opts:
-    host: www.wikipedia.org
-    path: /farasati1
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇮FI-65.21.240.108-3344
+  name: 19,27|🇫🇮FI-65.21.240.108-3344
   network: http
   port: 443
   server: 65.21.240.108
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- name: 19|美国 419
+  network: xhttp
+  port: 443
+  server: 65.109.238.140
+  servername: hel1.nordlinkcloud.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
+- client-fingerprint: chrome
+  name: 19|美国 501
+  network: grpc
+  port: 2101
+  server: 132.243.223.227
+  servername: 132-243-223-227.sslip.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2edfd299-fd54-4056-9d79-3c99f19bdae1
+- name: 19|芬兰 001
+  network: grpc
+  port: 443
+  server: 135.181.41.45
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 27|🇫🇮FI-65.109.134.191-4075
@@ -77,7 +95,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 33|未知87
+  name: 33|未知13 107.5KB/s
   network: ws
   port: 443
   server: 185.232.204.222
@@ -90,13 +108,3 @@ proxies:
       Host: 185.232.204.222
       host: renderer-stream-2-62.mirra.now
     path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 33|未知139
-  network: tcp
-  port: 14991
-  server: me2.movieseryalirani.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7337d648-0414-4b00-ad85-46f6f3e0e27b

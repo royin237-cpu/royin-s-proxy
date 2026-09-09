@@ -13,3 +13,24 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: 27|🇺🇸US-216.24.57.7-0883
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 27|🇺🇸US-34.216.104.24-4730
+  password: NQ26071394
+  port: 443
+  server: helped-jennet.rooster465.autos
+  type: trojan
+- name: 27|🇺🇸US-54.70.161.72-4834
+  password: NQ26071394
+  port: 443
+  server: gentle-turtle.rooster465.autos
+  type: trojan
+- name: 27|🇺🇸US-44.250.170.23-4836
+  password: CF68213490
+  port: 443
+  server: shining-piranha.rooster465.autos
+  type: trojan

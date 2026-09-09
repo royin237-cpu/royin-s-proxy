@@ -14,8 +14,23 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 27|🇸🇬SG-47.128.146.47-4853
-  password: CF68213490
+- name: 27|🇸🇬SG-47.130.132.222-4728
+  password: NQ26071394
   port: 443
-  server: pure-ram.rooster465.autos
+  server: calm-muskrat.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-54.254.196.251-4734
+  password: NQ26071394
+  port: 443
+  server: thorough-foxhound.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-52.221.252.205-4845
+  password: EQ30679154
+  port: 443
+  server: definite-gazelle.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-52.220.181.28-4854
+  password: NQ26071394
+  port: 443
+  server: mighty-lemming.rooster465.autos
   type: trojan

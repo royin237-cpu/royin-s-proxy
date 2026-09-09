@@ -1,25 +1,25 @@
 {
-  "total": 246,
+  "total": 243,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 3
+      "count": 8
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 58
+      "count": 49
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 1
+      "count": 2
     },
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 6
+      "count": 4
     },
     "TW": {
       "flag": "🇹🇼",
@@ -29,37 +29,37 @@
     "CA": {
       "flag": "🇨🇦",
       "name": "加拿大",
-      "count": 12
+      "count": 1
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 8
+      "count": 5
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 3
+      "count": 6
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 9
+      "count": 14
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 19
+      "count": 27
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 6
+      "count": 5
     },
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 12
+      "count": 13
     },
     "SE": {
       "flag": "🇸🇪",
@@ -69,7 +69,7 @@
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 3
+      "count": 4
     },
     "CH": {
       "flag": "🇨🇭",
@@ -79,17 +79,17 @@
     "NL": {
       "flag": "🇳🇱",
       "name": "荷兰",
-      "count": 19
+      "count": 17
     },
     "RO": {
       "flag": "🇷🇴",
       "name": "罗马尼亚",
-      "count": 24
+      "count": 23
     },
     "IN": {
       "flag": "🇮🇳",
       "name": "印度",
-      "count": 2
+      "count": 3
     },
     "TH": {
       "flag": "🇹🇭",
@@ -119,7 +119,7 @@
     "BR": {
       "flag": "🇧🇷",
       "name": "巴西",
-      "count": 11
+      "count": 10
     },
     "VN": {
       "flag": "🇻🇳",
@@ -129,7 +129,7 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 4
+      "count": 3
     },
     "PH": {
       "flag": "🇵🇭",
@@ -144,11 +144,11 @@
     "FI": {
       "flag": "🇫🇮",
       "name": "芬兰",
-      "count": 11
+      "count": 12
     }
   },
-  "update_time": "2026-09-09 13:06",
-  "server_time": "2026-09-09 13:07:37",
+  "update_time": "2026-09-10 00:19",
+  "server_time": "2026-09-10 00:20:24",
   "sources": [
     {
       "index": 0,
@@ -203,7 +203,7 @@
     {
       "index": 10,
       "url": "https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt",
-      "nodes": 26
+      "nodes": 1
     },
     {
       "index": 11,
@@ -228,7 +228,7 @@
     {
       "index": 15,
       "url": "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml",
-      "nodes": 396
+      "nodes": 397
     },
     {
       "index": 16,
@@ -238,7 +238,7 @@
     {
       "index": 17,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 148
+      "nodes": 162
     },
     {
       "index": 18,
@@ -248,7 +248,7 @@
     {
       "index": 19,
       "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
-      "nodes": 249
+      "nodes": 1449
     },
     {
       "index": 20,
@@ -258,7 +258,7 @@
     {
       "index": 21,
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-      "nodes": 473
+      "nodes": 418
     },
     {
       "index": 22,
@@ -273,7 +273,7 @@
     {
       "index": 24,
       "url": "https://raw.githubusercontent.com/kooker/FreeSubsCheck/main/mihomo.yaml",
-      "nodes": 42
+      "nodes": 12
     },
     {
       "index": 25,
@@ -293,7 +293,7 @@
     {
       "index": 28,
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
-      "nodes": 384
+      "nodes": 318
     },
     {
       "index": 29,
@@ -313,7 +313,7 @@
     {
       "index": 32,
       "url": "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.y",
-      "nodes": 61
+      "nodes": 64
     },
     {
       "index": 33,
@@ -328,7 +328,7 @@
     {
       "index": 35,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 42
+      "nodes": 30
     },
     {
       "index": 36,

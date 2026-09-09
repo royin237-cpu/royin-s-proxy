@@ -1,11 +1,12 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇮FI-65.21.240.108-3344
+  name: 19,27|🇫🇮FI-65.21.240.108-3344
   network: http
   port: 443
   server: 65.21.240.108
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
@@ -45,7 +46,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 33|未知87
+  name: 33|未知13 107.5KB/s
   network: ws
   port: 443
   server: 185.232.204.222
@@ -58,13 +59,3 @@ proxies:
       Host: 185.232.204.222
       host: renderer-stream-2-62.mirra.now
     path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 33|未知139
-  network: tcp
-  port: 14991
-  server: me2.movieseryalirani.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7337d648-0414-4b00-ad85-46f6f3e0e27b

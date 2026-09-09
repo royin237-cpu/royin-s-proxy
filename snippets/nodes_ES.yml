@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: 11|🇷🇺 RU 16 → tg@nicevpn123
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 5.188.181.201
+  type: ss
+  udp: true
