@@ -6,92 +6,50 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 15,21|🇬🇧GB_4|3.0MB/s
-  password: None
+- name: 15|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_e832c82d
+  port: 32766
+  server: 178.62.83.124
+  type: http
+- name: 15,21,28|🇬🇧GB_6|2.9MB/s
   port: 443
   server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 15,21|🇬🇧GB_5|1.7MB/s
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_2b887a70
-  password: None
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15|D🔴🇬🇧[🤖📺🎭✨]_dokng.com_753d9ba1
-  port: 443
-  server: 185.235.0.98
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 15,21|🇬🇧GB_6|2.5MB/s
+- name: 15,21|🇬🇧GB_11|3.0MB/s
   password: None
   port: 3118
   server: 154.61.56.215
   type: http
   username: null
-- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_aabc5d30
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15,28|🇬🇧GB_6|1.0MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 15|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_7d7f3a77
   port: 8443
   server: 5.101.149.245
   tls: true
   type: http
-- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_a3f53993
-  password: None
+- name: 15,21|🇬🇧GB_12|2.9MB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '15,21,28|🇬🇧GB_8|2.7MB/s #1'
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 21|🇬🇧GB_4|2.8MB/s
   port: 443
   server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 15,28|🇺🇸US_5|2.3MB/s
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: test123
-- name: 15,28|🇬🇧GB_7|1.4MB/s
+- name: 28|🇬🇧GB_4|2.6MB/s
   password: None
-  port: 32766
-  server: 178.62.83.124
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
   type: http
   username: null
-- client-fingerprint: chrome
-  name: 21,22,28|🇩🇪DE_1|1.4MB/s
-  network: ws
-  port: 2087
-  server: 188.220.67.245
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
-  ws-opts:
-    path: /8f2690e2d016

@@ -1,5 +1,7 @@
 proxies:
-- name: 15|D🔴🇹🇭[🎬🤖📺🎭]_dokng.com_46d8ebd8
+- name: 15|D🔴🇹🇭[🎬🤖📺🎭]_dokng.com_4dab4ce7
+  password: None
   port: 31280
   server: 202.28.194.139
   type: http
+  username: null

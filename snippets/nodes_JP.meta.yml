@@ -1,10 +1,11 @@
 proxies:
-- name: 15,21|🇯🇵JP_1|3.4MB/s
-  port: 443
-  server: fan.571589.xyz
-  sni: fan.571589.xyz
-  tls: true
-  type: http
+- name: 15|D🔴🇯🇵[🤖📺🎪🔍]_dokng.com_8b89618a
+  password: None
+  port: 10808
+  server: 101.36.104.239
+  type: socks5
+  udp: true
+  username: null
 - client-fingerprint: chrome
   name: 15|U⚪🏳️_dokng.com_79f3708c
   network: ws
@@ -20,33 +21,26 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- name: 27|🇯🇵JP-31.223.184.85-5018
-  password: NQ26071394
+- name: 15|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_404a572e
+  password: 'null'
   port: 443
-  server: chief-cricket.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-95.85.94.208-5019
-  password: NQ26071394
-  port: 443
-  server: ready-kangaroo.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-31.223.184.104-5074
-  password: NQ26071394
-  port: 443
-  server: correct-starfish.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-85.234.83.45-5147
-  password: NQ26071394
-  port: 443
-  server: gentle-platypus.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-95.85.94.57-5209
-  password: CF68213490
-  port: 443
-  server: gentle-mastiff.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-94.177.131.233-5222
-  password: JT80563429
-  port: 443
-  server: musical-shrew.rooster465.autos
-  type: trojan
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+  username: 'null'
+- alterId: 0
+  cipher: auto
+  http-opts:
+    path:
+    - /
+  name: 15,22,27|🇯🇵JP-38.47.121.14-0413
+  network: http
+  port: 49432
+  server: 38.47.121.14
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb

@@ -1,31 +1,16 @@
 proxies:
-- name: 15|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_6d895544
-  password: None
-  port: 443
-  server: 37.120.156.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_805ac382
   port: 7778
   server: 91.238.54.189
   type: http
-- name: 15|C🟠🇵🇱[🤖📺🎭🎪]_dokng.com_537be64e
+- name: 15|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_537be64e
   port: 443
   server: 151.115.54.133
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 21,22,32,35|NL - zhuhai.uk
-  network: ws
-  port: 2087
-  server: 178.95.170.83
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
-  ws-opts:
-    path: /4bc027a44532
+- name: 27|🇵🇱PL-202.78.163.19-4814
+  password: AE62539071
+  port: 443
+  server: game-firefly.rooster465.autos
+  type: trojan

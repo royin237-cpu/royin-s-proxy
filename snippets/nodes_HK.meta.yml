@@ -1,4 +1,18 @@
 proxies:
+- name: 15|C🟠🇭🇰[🎬🧠📺🎭]_dokng.com_da7c41d8
+  password: admin
+  port: 1080
+  server: 47.239.116.165
+  type: socks5
+  username: admin
+- name: 15|D🔴🇭🇰[🎬🧠📺🎭]_dokng.com_d21277d2
+  password: 'null'
+  port: 443
+  server: fan.240104.xyz
+  sni: fan.240104.xyz
+  tls: true
+  type: http
+  username: 'null'
 - name: 15,35|HK - zhuhai.uk
   password: admin
   port: 8899
@@ -6,31 +20,18 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: admin
-- name: 15|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_054bd55d
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
-- name: 15|C🟠🇭🇰[📺🎭🎪📦]_dokng.com_da7c41d8
-  password: admin
-  port: 1080
-  server: 47.239.116.165
-  type: socks5
-  username: admin
-- name: 15|D🔴🇭🇰[🎬📺🎭✨]_dokng.com_d85a93d5
-  password: None
+- name: 27|🇭🇰HK-185.14.47.56-4804
+  password: NQ26071394
   port: 443
-  server: fan.240104.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 27|🇭🇰HK-185.244.208.25-5065
+  server: kind-unicorn.rooster465.autos
+  type: trojan
+- name: 27|🇭🇰HK-185.244.208.25-4805
   password: IL37892054
   port: 443
   server: just-alpaca.rooster465.autos
   type: trojan
-- name: 27|🇭🇰HK-185.14.47.56-5067
-  password: NQ26071394
+- name: 27|🇭🇰HK-91.199.84.204-4859
+  password: XG59623478
   port: 443
-  server: kind-unicorn.rooster465.autos
+  server: growing-oyster.rooster465.autos
   type: trojan

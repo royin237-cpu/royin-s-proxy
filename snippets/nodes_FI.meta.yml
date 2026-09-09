@@ -1,5 +1,12 @@
 proxies:
-- name: '12,17,21,28|✅  @vistav2ray  👈👈کانال ما ✅ #4'
+- name: '16,21,28|芬兰 #2 #2'
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  port: 443
+  server: fin14qr.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: fin14qr.wwwinternetvideo.click
+  type: hysteria2
+- name: '17,21,28|✅  @vistav2ray  👈👈کانال ما ✅ #4'
   obfs: salamander
   obfs-password: uw9b2qq5rx
   password: 6aab8efdf13945829ae3699c342be406
@@ -9,96 +16,34 @@ proxies:
   sni: fiproxy1.lockdwn.com
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 15|C🟠🇫🇮[🎬🤖📺🎭]_dokng.com_4d77f4bd
-  network: tcp
-  packet-encoding: xudp
+  name: '21,32|🇩🇪 德国 | DEU 3 #1'
+  network: xhttp
   port: 443
   reality-opts:
-    public-key: 7sFZz7V1r5qtysLzjw07rOOA2P8NG7kvVX5BxFfc-Xc
-    short-id: db39
-  server: 185.58.207.249
-  servername: yandex.ru
+    public-key: as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg
+    short-id: 1c213fd68e13
+  server: 62.238.49.168
+  servername: www.wikipedia.org
   tls: true
   type: vless
-  uuid: e24cf9d3-e936-4a90-9932-33931b6a9b45
-- name: '16,21,28|芬兰 #4'
-  password: 14f7504c-bd01-4d88-bd42-80dc6bf6b202
-  port: 443
-  server: samurai.h4ck.me
-  type: hysteria2
-- name: '16,21,28|芬兰 #2 #2'
-  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
-  port: 443
-  server: fin14qr.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: fin14qr.wwwinternetvideo.click
-  type: hysteria2
+  udp: true
+  uuid: 10b0fa95-ca1d-4ba7-829f-350758056697
+  xhttp-opts:
+    host: www.wikipedia.org
+    path: /farasati1
 - alterId: 0
   cipher: auto
-  name: 19,27|🇫🇮FI-65.21.240.108-1003
+  name: 27|🇫🇮FI-65.21.240.108-3344
   network: http
   port: 443
   server: 65.21.240.108
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-- client-fingerprint: chrome
-  name: 19|美国 469
-  network: xhttp
-  port: 443
-  server: 65.109.238.140
-  servername: hel1.nordlinkcloud.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
-- client-fingerprint: chrome
-  name: 19|美国 550
-  network: grpc
-  port: 2101
-  server: 132.243.223.227
-  servername: 132-243-223-227.sslip.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2edfd299-fd54-4056-9d79-3c99f19bdae1
-- client-fingerprint: chrome
-  name: 19|俄罗斯 016
-  network: ws
-  port: 7443
-  server: 84.22.150.39
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5cc814de-2bbb-4409-ad8c-ee841ca7bad1
-  ws-opts:
-    headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-    path: /
-- name: 19|芬兰 001
-  network: grpc
-  port: 443
-  server: 135.181.41.45
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇮FI-65.109.134.191-4339
+  name: 27|🇫🇮FI-65.109.134.191-4075
   network: ws
   port: 80
   server: 65.109.134.191
@@ -110,75 +55,23 @@ proxies:
     headers:
       Host: 65.109.134.191
     path: /graphql
-- name: 27|🇫🇮FI-135.181.41.169-5201
+- name: 27|🇫🇮FI-135.181.41.169-4897
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  port: 443
+  server: nnnmjju.131.pp.ua
+  type: trojan
+- name: 27|🇫🇮FI-135.181.41.169-4907
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  port: 443
+  server: bbbnnmj.131.pp.ua
+  type: trojan
+- name: 27|🇫🇮FI-135.181.41.169-4908
   password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
   server: vvbgh.131.pp.ua
   type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-5214
+- name: 27|🇫🇮FI-135.181.41.169-4918
   password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
   server: bbbnhj.131.pp.ua
   type: trojan
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 28|🇫🇮FI_2|3.9MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: e1f8a3b6
-  server: 185.218.194.73
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b97e287f-a24e-0021-a103-7e7ecef83139
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 28|🇺🇸US_26|2.8MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: e1f8a3b6
-  server: 2.26.147.119
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b97e287f-a24e-0021-a103-7e7ecef83139
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 28|🇺🇸US_27|2.7MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: 6e3f0a5b
-  server: fl.musicperec.ru
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f5a3bf49-07ca-0021-a96b-9606781e3600
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 33|未知73
-  network: ws
-  port: 443
-  server: 185.232.204.222
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: 185.232.204.222
-      host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket

@@ -6,8 +6,8 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 27|🇳🇱NL-78.142.194.96-5062
-  password: LSS6HLnp7IeEEJUcox
+- name: 27|🇳🇱NL-89.39.70.120-4801
+  password: PD07395842
   port: 443
-  server: nl-1.tr202607.com
+  server: pro-crane.rooster465.autos
   type: trojan
