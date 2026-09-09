@@ -20,7 +20,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- name: 15,35|JP - zhuhai.uk 02
+- name: 15,35|JP - zhuhai.uk 03
   password: ''
   port: 443
   server: fan.571589.xyz
@@ -29,7 +29,7 @@ proxies:
   tls: true
   type: http
   udp: true
-  username: bnVsbDpudWxs
+  username: ''
 - name: 27|🇯🇵JP-13.112.192.202-4741
   password: NQ26071394
   port: 443

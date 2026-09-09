@@ -66,7 +66,7 @@ proxies:
   port: 65432
   server: 87.215.14.228
   type: http
-- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_62caac5f
+- name: 15,35|NL - zhuhai.uk 03
   password: e4b72b531a2d10900519
   port: 443
   server: 82.196.9.7
@@ -105,13 +105,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '21,28,34|NL_speednode_0007 #2'
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: '21,28,34|NL_speednode_0009 #2'
   port: 9002
   server: 84.17.47.146
@@ -124,3 +117,11 @@ proxies:
   port: 443
   server: nl-1.tr202607.com
   type: trojan
+- name: 35|NL - zhuhai.uk 02
+  password: 'null'
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'

@@ -9,7 +9,7 @@
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 49
+      "count": 47
     },
     "CN": {
       "flag": "🇨🇳",
@@ -64,7 +64,7 @@
     "SE": {
       "flag": "🇸🇪",
       "name": "瑞典",
-      "count": 4
+      "count": 3
     },
     "EE": {
       "flag": "🇪🇪",
@@ -129,7 +129,7 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 3
+      "count": 1
     },
     "PH": {
       "flag": "🇵🇭",
@@ -147,8 +147,8 @@
       "count": 12
     }
   },
-  "update_time": "2026-09-10 00:19",
-  "server_time": "2026-09-10 00:20:24",
+  "update_time": "2026-09-10 00:50",
+  "server_time": "2026-09-10 00:51:06",
   "sources": [
     {
       "index": 0,
@@ -328,7 +328,7 @@
     {
       "index": 35,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 30
+      "nodes": 33
     },
     {
       "index": 36,
