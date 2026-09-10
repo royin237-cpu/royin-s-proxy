@@ -1,12 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,27|🇫🇮FI-65.21.240.108-1245
+  name: 27|🇫🇮FI-65.21.240.108-1245
   network: http
   port: 443
   server: 65.21.240.108
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
@@ -44,23 +43,3 @@ proxies:
   port: 443
   server: bbbnhj.131.pp.ua
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 33|未知
-  network: xhttp
-  port: 40864
-  server: snnsjsowowiwueieyeye.sobu.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4a9a2ec3-91f4-46ed-a647-0a092bf4b6a3
-- alterId: 0
-  cipher: auto
-  name: 33|未知64
-  network: tcp
-  port: 14991
-  server: me2.movieseryalirani.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7337d648-0414-4b00-ad85-46f6f3e0e27b

@@ -1,36 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|U⚪🏳️_dokng.com_79f3708c
-  network: ws
-  password: HutaoCloud
-  port: 11543
-  server: 185.220.238.77
-  skip-cert-verify: true
-  sni: 185.220.238.77
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /api
-- name: 15|D🔴🇶🇦[🎬🤖📺🎪]_dokng.com_1d12fcff
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10008
-  server: z-jp2.1card.cc
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 15,21,35|JP - zhuhai.uk 02
-  password: XrgOXIVkpI
-  port: 54324
-  server: jpsui.jzy88.top
-  skip-cert-verify: true
-  sni: jpsui.jzy88.top
-  type: anytls
-  udp: true
-- name: 21,27|🇯🇵JP-150.230.107.225-0488
+- name: 15,21,22,27|🇯🇵JP-150.230.107.225-0488
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10011
   server: z-jp2.1card.cc
@@ -38,6 +7,64 @@ proxies:
   sni: www.cloudflare.com
   type: trojan
   udp: true
+- name: 21|🇾🇪 YE_136
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10010
+  server: z-jp1.1card.cc
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 27|🇯🇵JP-13.231.124.38-5313
+  password: AE62539071
+  port: 443
+  server: eager-camel.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-18.181.193.164-5314
+  password: ND91608427
+  port: 443
+  server: perfect-slug.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-13.115.95.173-5316
+  password: d050aca3-9df2-4461-90ec-92373c1d7636
+  port: 44184
+  server: v2jp.k1.ssnss.live
+  type: trojan
+- name: 27|🇯🇵JP-13.231.247.130-5345
+  password: CF68213490
+  port: 443
+  server: concrete-aardvark.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-13.159.22.50-5347
+  password: CF68213490
+  port: 443
+  server: smashing-fawn.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-18.181.201.164-5349
+  password: CF68213490
+  port: 443
+  server: adapting-giraffe.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-54.95.30.87-5350
+  password: CF68213490
+  port: 443
+  server: in-oriole.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-54.250.237.143-5351
+  password: CF68213490
+  port: 443
+  server: accurate-frog.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-43.207.202.79-5353
+  password: CF68213490
+  port: 443
+  server: rested-osprey.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-3.112.226.131-5355
+  password: NQ26071394
+  port: 443
+  server: one-dove.rooster465.autos
+  type: trojan
 - name: 27|🇯🇵JP-54.250.171.197-5362
   password: NQ26071394
   port: 443
@@ -53,15 +80,12 @@ proxies:
   port: 443
   server: brief-warthog.rooster465.autos
   type: trojan
-- name: 32|🇯🇵 日本 | JPN 5
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10009
-  server: z-jp2.1card.cc
-  skip-cert-verify: true
-  sni: www.cloudflare.com
+- name: 27|🇯🇵JP-18.182.8.36-5442
+  password: ND91608427
+  port: 443
+  server: sincere-gelding.rooster465.autos
   type: trojan
-  udp: true
-- name: 35|JP - zhuhai.uk
+- name: 35|JP - zhuhai.uk 04
   password: 'null'
   port: 443
   server: fan.571589.xyz

@@ -1,53 +1,63 @@
 proxies:
-- name: 27|🇰🇷KR-13.125.211.246-0309
-  password: CF68213490
-  port: 443
-  server: smooth-lark.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-13.124.200.248-5204
-  password: ND91608427
-  port: 443
-  server: distinct-llama.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.203.235.186-5215
-  password: CF68213490
-  port: 443
-  server: eminent-dogfish.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-13.125.197.210-5216
-  password: PD07395842
-  port: 443
-  server: together-amoeba.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.35.140.206-5223
+- name: 27|🇰🇷KR-52.79.98.24-5217
   password: NQ26071394
   port: 443
-  server: devoted-heron.rooster465.autos
+  server: wise-rhino.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.36.55.102-5230
-  password: IL37892054
+- name: 27|🇰🇷KR-13.124.236.158-5241
+  password: ND91608427
   port: 443
-  server: enhanced-crayfish.rooster465.autos
+  server: informed-alpaca.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-43.203.204.13-5243
+  password: AE62539071
+  port: 443
+  server: teaching-gnu.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-54.180.239.104-5245
+  password: AE62539071
+  port: 443
+  server: tough-hermit.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-15.165.76.91-5246
+  password: ND91608427
+  port: 443
+  server: star-kiwi.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-43.203.214.65-5247
+  password: ND91608427
+  port: 443
+  server: careful-tadpole.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-43.203.172.207-5286
   password: IL37892054
   port: 443
   server: upright-rhino.rooster465.autos
   type: trojan
+- name: 27|🇰🇷KR-3.35.156.69-5315
+  password: ND91608427
+  port: 443
+  server: wise-bengal.rooster465.autos
+  type: trojan
 - name: 27|🇰🇷KR-52.78.121.69-5325
   password: CF68213490
   port: 443
   server: eternal-woodcock.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-52.78.7.106-5328
+- name: 27|🇰🇷KR-52.78.235.153-5326
   password: NQ26071394
   port: 443
-  server: fit-marten.rooster465.autos
+  server: worthy-labrador.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-43.203.172.115-5329
   password: CF68213490
   port: 443
   server: funny-hen.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-43.203.214.247-5330
+  password: CF68213490
+  port: 443
+  server: loyal-molly.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.36.52.203-5331
   password: NQ26071394
@@ -84,35 +94,55 @@ proxies:
   port: 443
   server: magical-prawn.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.36.88.22-5342
+- name: 27|🇰🇷KR-43.203.122.206-5346
   password: CF68213490
   port: 443
-  server: darling-mongrel.rooster465.autos
+  server: gentle-honeybee.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-13.124.155.60-5343
-  password: AE62539071
+- name: 27|🇰🇷KR-43.202.54.120-5366
+  password: NQ26071394
   port: 443
-  server: clear-heron.rooster465.autos
+  server: grand-grub.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.34.133.62-5371
+  password: FH72359861
+  port: 443
+  server: good-hound.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.34.192.47-5372
+  password: CF68213490
+  port: 443
+  server: central-jawfish.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-3.35.207.188-5374
   password: PD07395842
   port: 443
   server: main-fawn.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-13.124.56.133-5378
+- name: 27|🇰🇷KR-3.38.181.59-5379
   password: NQ26071394
   port: 443
-  server: living-hagfish.rooster465.autos
+  server: neat-octopus.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-43.201.100.239-5416
   password: CF68213490
   port: 443
   server: caring-wallaby.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.202.40.193-5420
-  password: PD07395842
+- name: 27|🇰🇷KR-3.38.166.184-5423
+  password: CF68213490
   port: 443
-  server: excited-ghoul.rooster465.autos
+  server: eager-platypus.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.34.132.193-5424
+  password: NQ26071394
+  port: 443
+  server: internal-peacock.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.34.96.252-5427
+  password: ND91608427
+  port: 443
+  server: gentle-raptor.rooster465.autos
   type: trojan
 - name: 27|🇰🇷KR-43.200.254.103-5437
   password: NQ26071394

@@ -1,21 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_1935be73
-  network: ws
-  password: humanity
+- name: 27|🇩🇪DE-3.122.55.145-5321
+  password: PD07395842
   port: 443
-  server: 88.198.82.150
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  server: certain-egret.rooster465.autos
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /assignment
 - name: 27|🇩🇪DE-18.192.67.47-5336
   password: NQ26071394
   port: 443
   server: direct-hawk.rooster465.autos
+  type: trojan
+- name: 27|🇩🇪DE-3.75.76.74-5354
+  password: CF68213490
+  port: 443
+  server: fair-werewolf.rooster465.autos
   type: trojan

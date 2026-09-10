@@ -1,19 +1,13 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 15,21,22,24|🇯🇵JP_1|1.8MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
-  name: '21,22|🇨🇳_CN_中国 #1'
+  name: 15|A🟢🇨🇳[🧠🎞️📦]_dokng.com_0da15920
+  network: tcp
   port: 50002
   server: 112.132.215.108
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  xudp: true

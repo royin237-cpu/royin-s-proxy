@@ -9,8 +9,3 @@ proxies:
   port: 443
   server: kind-unicorn.rooster465.autos
   type: trojan
-- name: 27|🇭🇰HK-91.199.84.204-5380
-  password: XG59623478
-  port: 443
-  server: growing-oyster.rooster465.autos
-  type: trojan

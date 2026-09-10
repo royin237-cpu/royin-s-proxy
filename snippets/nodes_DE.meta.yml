@@ -1,26 +1,10 @@
 proxies:
-- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_2b514860
+- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_7204598f
   password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
+  port: 11111
+  server: 103.237.102.191
   type: http
   username: null
-- name: 15,21|🇩🇪DE_1|3.5MB/s
-  password: None
-  port: 443
-  server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15,28|🇩🇪DE_2|2.8MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
@@ -28,7 +12,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '15,21,22|🇩🇪_DE_德国 #1'
+  name: '15,21,22|🇩🇪_DE_德国_1 #1'
   network: tcp
   port: 443
   reality-opts:
@@ -41,12 +25,6 @@ proxies:
   udp: true
   uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
   xudp: true
-- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_f467085f
-  port: 443
-  server: 185.44.107.166
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
@@ -54,7 +32,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '15,21,22|🇩🇪_DE_德国_1 #1'
+  name: '15,21,22|🇩🇪_DE_德国 #1'
   network: tcp
   port: 443
   reality-opts:
@@ -67,22 +45,21 @@ proxies:
   udp: true
   uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
   xudp: true
-- client-fingerprint: chrome
-  name: 15|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_1935be73
-  network: ws
-  password: humanity
+- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_16307951
   port: 443
-  server: 88.198.82.150
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /assignment
-- name: 15,28|🇩🇪DE_3|2.1MB/s
+  server: 138.201.56.241
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 15|C🟠🇩🇪[🤖📺🎪✨]_dokng.com_622cadae
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 15,28|🇩🇪DE_2|1.0MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -90,40 +67,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_8a373a16
-  password: udp-relay=true
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: None
-- name: 15|A🟢🇩🇪[📺🎭🎪]_dokng.com_3ec79ed3
-  port: 443
-  server: 141.17.83.73
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 15|D🔴🇩🇪[🎬🤖📺🎪]_dokng.com_c8de15d9
-  password: None
-  port: 11000
-  server: 116.202.172.187
-  type: http
-  username: null
-- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_62113475
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 167.172.172.190
-  skip-cert-verify: true
-  sni: a7acacbe.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 15|A🟢🇩🇪[📺🎭🎪]_dokng.com_cd8f0f6d
-  port: 443
-  server: fan.973511.xyz
-  sni: fan.973511.xyz
-  tls: true
-  type: http
-- name: 15|D🔴🇩🇪[🤖📺🎪✨]_dokng.com_46d7d8b2
+- name: 15|D🔴🇩🇪[🤖📺🎭🎪]_dokng.com_46d7d8b2
   password: None
   port: 443
   server: 87.249.132.97
@@ -131,17 +75,56 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '17,21,28|@v2raybaaz #1 #1'
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
+- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_f467085f
   port: 443
-  server: 2.27.59.206
+  server: 185.44.107.166
   skip-cert-verify: true
-  sni: de1.sferavpn.pro
-  type: hysteria2
+  tls: true
+  type: http
+- name: 15,21|🇩🇪DE_1|1022KB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.KBrQxiiQpLoPmAj-s67EKMOiPKoxBnWiXDcPLKd2bVo
+  name: 21|🇩🇪 德国 | DEU 7
+  network: xhttp
+  port: 2093
+  reality-opts:
+    public-key: 6xNHP5QQQjDfKaoolhZ79hjAfDUti50HzvQ0i-Rh3TU
+    short-id: b547393e603ff2ed
+  server: vnet.korluma.ir
+  servername: my-trip-online.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fa80d79a-0410-4e1c-8bc1-1f855e794860
+  xhttp-opts:
+    host: my-trip-online.com
+    mode: auto
+    path: /@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---
+- name: 27|🇩🇪DE-3.122.55.145-5321
+  password: PD07395842
+  port: 443
+  server: certain-egret.rooster465.autos
+  type: trojan
 - name: 27|🇩🇪DE-18.192.67.47-5336
   password: NQ26071394
   port: 443
   server: direct-hawk.rooster465.autos
   type: trojan
+- name: 27|🇩🇪DE-3.75.76.74-5354
+  password: CF68213490
+  port: 443
+  server: fair-werewolf.rooster465.autos
+  type: trojan
+- name: 35|DE - zhuhai.uk
+  port: 443
+  server: fan.973511.xyz
+  sni: fan.973511.xyz
+  tls: true
+  type: http
