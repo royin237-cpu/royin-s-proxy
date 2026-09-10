@@ -17,7 +17,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 19,27|🇫🇮FI-65.21.240.108-3344
+  name: 19,27|🇫🇮FI-65.21.240.108-1180
   network: http
   port: 443
   server: 65.21.240.108
@@ -59,9 +59,26 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- encryption: mlkem768x25519plus.native.0rtt.Gu-KSpH9m5bbaKh-CvzzJVA2sMSXuuYYiLL5Q85Rx3o
+  http-opts:
+    headers:
+      Host:
+      - play-apps-features.googleusercontent.com
+    method: GET
+    path:
+    - /
+  name: 21|🇫🇮FI_1|5.0MB/s
+  network: http
+  port: 14779
+  server: snnsjsowowiwueieyeye.sobu.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1ab5ef70-14af-428b-bf4b-03889e0a3131
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇮FI-65.109.134.191-4075
+  name: 27|🇫🇮FI-65.109.134.191-4498
   network: ws
   port: 80
   server: 65.109.134.191
@@ -73,38 +90,23 @@ proxies:
     headers:
       Host: 65.109.134.191
     path: /graphql
-- name: 27|🇫🇮FI-135.181.41.169-4897
-  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-  port: 443
-  server: nnnmjju.131.pp.ua
-  type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-4907
-  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-  port: 443
-  server: bbbnnmj.131.pp.ua
-  type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-4908
-  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-  port: 443
-  server: vvbgh.131.pp.ua
-  type: trojan
-- name: 27|🇫🇮FI-135.181.41.169-4918
+- name: 27|🇫🇮FI-135.181.41.169-5316
   password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
   server: bbbnhj.131.pp.ua
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 33|未知13 107.5KB/s
-  network: ws
+- name: 27|🇫🇮FI-135.181.41.169-5318
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   port: 443
-  server: 185.232.204.222
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: 185.232.204.222
-      host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
+  server: nnnmjju.131.pp.ua
+  type: trojan
+- name: 27|🇫🇮FI-135.181.41.169-5319
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  port: 443
+  server: bbbnnmj.131.pp.ua
+  type: trojan
+- name: 27|🇫🇮FI-135.181.41.169-5320
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  port: 443
+  server: vvbgh.131.pp.ua
+  type: trojan

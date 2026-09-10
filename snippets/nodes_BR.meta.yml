@@ -1,11 +1,7 @@
 proxies:
-- name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_2e49200d
-  port: 3900
-  server: 45.163.116.86
-  type: http
-- name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_b1a61230
-  port: 9292
-  server: 200.95.192.61
+- name: 15|A🟢🇧🇷[🤖✨✈️]_dokng.com_39e53745
+  port: 2138
+  server: 170.80.131.249
   type: http
 - name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_75602843
   port: 44443
@@ -23,17 +19,25 @@ proxies:
   port: 8403
   server: 200.53.2.161
   type: http
-- name: 15|A🟢🇧🇷[🤖📺🎭🎪]_dokng.com_ca3b1afa
-  port: 9091
-  server: 164.163.237.196
-  type: http
 - name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_9782d82b
   port: 8666
   server: 128.201.29.12
   type: http
+- name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_98e8f1da
+  port: 9191
+  server: 177.222.248.51
+  type: http
 - name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_48854060
   port: 9797
   server: 186.0.144.52
+  type: http
+- name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_b484b18f
+  port: 9292
+  server: 45.232.77.153
+  type: http
+- name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_919b7764
+  port: 9292
+  server: 131.0.120.162
   type: http
 - name: 15|A🟢🇧🇷[🎬🤖🎭🎪]_dokng.com_2773cf42
   port: 3126

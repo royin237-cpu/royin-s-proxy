@@ -1,6 +1,6 @@
 proxies:
-- name: 27|🇦🇺AU-103.224.212.214-0256
-  password: b3845d95-c82e-47f8-b626-0f27d861e8f7
+- name: 27|🇦🇺AU-87.121.33.14-5288
+  password: PD07395842
   port: 443
-  server: los.ydnode.us
+  server: true-pony.rooster465.autos
   type: trojan

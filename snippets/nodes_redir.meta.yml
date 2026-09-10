@@ -1,23 +1,25 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '15,21,22|🇨🇳_CN_中国->🇺🇸_US_美国_1 #1'
+  name: '15,21,22|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.232
   skip-cert-verify: true
   type: ss
   udp: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '21,22|🇹🇼_TW_中国台湾->🇫🇮_FI_芬兰 #1'
+  name: '15,21,22|🇳🇱_NL_荷兰->🇲🇩_MD_摩尔多瓦 #1'
   network: tcp
-  port: 443
+  port: 9443
   reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: brightharbor.download
-  servername: localhost
+    public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
+    short-id: a1b2c3d4
+  server: 31.59.150.174
+  servername: hotcoals.aeternavpn.space
   skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d

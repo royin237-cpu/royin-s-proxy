@@ -20,7 +20,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- name: 15,35|JP - zhuhai.uk 03
+- name: 15,35|JP - zhuhai.uk
   password: ''
   port: 443
   server: fan.571589.xyz
@@ -30,31 +30,45 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 27|🇯🇵JP-13.112.192.202-4741
-  password: NQ26071394
-  port: 443
-  server: skilled-polliwog.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-54.250.171.197-4831
-  password: NQ26071394
-  port: 443
-  server: real-ewe.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-52.192.45.137-4874
-  password: NQ26071394
-  port: 443
-  server: promoted-rattler.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-13.193.101.187-4900
-  password: CF68213490
-  port: 443
-  server: brief-warthog.rooster465.autos
-  type: trojan
-- name: 32|🇯🇵 日本 | JPN 2
+- name: 15|D🔴🇶🇦[🎬🤖📺🎪]_dokng.com_1d12fcff
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10011
-  server: z-jp1.1card.cc
+  port: 10008
+  server: z-jp2.1card.cc
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
   udp: true
+- name: 15,21|🇯🇵 日本 | JPN 2
+  password: XrgOXIVkpI
+  port: 54324
+  server: jpsui.jzy88.top
+  skip-cert-verify: true
+  sni: jpsui.jzy88.top
+  type: anytls
+  udp: true
+- name: 21,27|🇯🇵JP-161.33.137.185-0616
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10011
+  server: z-jp2.1card.cc
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 27,32|🇯🇵 日本 | JPN 5
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10009
+  server: z-jp2.1card.cc
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 27|🇯🇵JP-52.192.45.137-5279
+  password: NQ26071394
+  port: 443
+  server: promoted-rattler.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-13.193.101.187-5315
+  password: CF68213490
+  port: 443
+  server: brief-warthog.rooster465.autos
+  type: trojan

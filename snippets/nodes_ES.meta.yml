@@ -1,5 +1,5 @@
 proxies:
-- name: 15|D🔴🇪🇸[🤖📺🎭🎪]_dokng.com_735ca059
+- name: 15,21,28|🇪🇸ES_1|2.9MB/s
   password: None
   port: 443
   server: 130.195.250.18
@@ -15,7 +15,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇪🇸[📺🎭🎪📦]_dokng.com_a8036833
+- name: 15,28|🇪🇸ES_2|3.1MB/s
   password: None
   port: 443
   server: 130.195.250.34
