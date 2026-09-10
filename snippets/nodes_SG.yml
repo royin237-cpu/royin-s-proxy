@@ -6,13 +6,18 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 27|🇸🇬SG-54.169.137.148-5154
+- name: 27|🇸🇬SG-47.130.132.222-5209
+  password: NQ26071394
+  port: 443
+  server: calm-muskrat.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-54.169.137.148-5224
   password: NQ26071394
   port: 443
   server: capable-jay.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-47.130.132.222-5161
+- name: 27|🇸🇬SG-52.221.222.185-5363
   password: NQ26071394
   port: 443
-  server: calm-muskrat.rooster465.autos
+  server: joint-ewe.rooster465.autos
   type: trojan

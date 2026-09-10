@@ -6,18 +6,20 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 15|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_26d0e430
+- name: 15,35|SG - zhuhai.uk
   password: e4b72b531a2d10900519
   port: 443
   server: 146.70.29.45
-  sni: 92461d2d.acsnet.co
+  skip-cert-verify: true
+  sni: 146.70.29.45
   tls: true
   type: http
   username: testuser1
 - client-fingerprint: chrome
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: update
-  name: 21,35|SG - zhuhai.uk 01
+  name: 21|🇸🇬SG_1|4.8MB/s
   network: grpc
   port: 10037
   reality-opts:
@@ -29,13 +31,18 @@ proxies:
   type: vless
   udp: true
   uuid: D2436339-0F26-479A-8064-4D91C2B93652
-- name: 27|🇸🇬SG-54.169.137.148-5154
+- name: 27|🇸🇬SG-47.130.132.222-5209
+  password: NQ26071394
+  port: 443
+  server: calm-muskrat.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-54.169.137.148-5224
   password: NQ26071394
   port: 443
   server: capable-jay.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-47.130.132.222-5161
+- name: 27|🇸🇬SG-52.221.222.185-5363
   password: NQ26071394
   port: 443
-  server: calm-muskrat.rooster465.autos
+  server: joint-ewe.rooster465.autos
   type: trojan

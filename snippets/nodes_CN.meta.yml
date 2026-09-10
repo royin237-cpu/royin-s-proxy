@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 15,21,22,24,35|JP - zhuhai.uk 03
+  name: 15,21,22,24|🇯🇵JP_1|1.8MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.137

@@ -20,14 +20,13 @@ proxies:
   tls: false
   type: http
   username: fQ67Dpe5dU
-- name: 15,21,28,35|US - zhuhai.uk 11
+- name: 15,21,28|🇺🇸US_5|5.1MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
   skip-cert-verify: true
   sni: anytls2.864106.xyz
   type: anytls
-  udp: true
 - name: 15,21|🇺🇸US_10|4.4MB/s
   password: 'null'
   port: 9002
@@ -81,14 +80,15 @@ proxies:
   sni: fan.596189.xyz
   tls: true
   type: http
-- name: 15,28|🇺🇸US_10|4.6MB/s
+- name: 15,28,35|US - zhuhai.uk 12
   password: None
   port: 9002
   server: 138.199.35.211
   skip-cert-verify: true
+  sni: 138.199.35.211
   tls: true
   type: http
-  username: null
+  username: 'null'
 - name: 15,21|🇺🇸US_15|4.5MB/s
   password: ''
   port: 9002
@@ -117,14 +117,6 @@ proxies:
   password: None
   port: 9002
   server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '15,21,28|🇺🇸US_15|4.5MB/s #1'
-  password: None
-  port: 9002
-  server: 138.199.35.201
   skip-cert-verify: true
   tls: true
   type: http
@@ -174,14 +166,30 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 15,21,28|🇺🇸US_23|4.4MB/s
-  password: 'null'
+- name: 15,21,28,34,35|US - zhuhai.uk 08
   port: 9002
-  server: 138.199.35.210
+  server: 138.199.35.198
+  skip-cert-verify: true
+  sni: 138.199.35.198
+  tls: true
+  type: http
+  udp: true
+- name: 15,28|🇺🇸US_22|4.0MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.196
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+  username: null
+- name: 15,21|🇺🇸US_24|1.5MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_85c4b9fa
   password: None
   port: 443
@@ -243,6 +251,13 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 15,21|🇺🇸US_32|1.4MB/s
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
 - name: '15,21,28,34|US_speednode_0141 #2'
   port: 443
   server: 38.28.193.188
@@ -299,23 +314,22 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 15,21,28,35|US - zhuhai.uk 02
+- name: 15,21,28|🇺🇸US_32|1.8MB/s
   password: e4b72b531a2d10900519
   port: 443
   server: 147.182.216.4
-  skip-cert-verify: true
   sni: 93b6d804.acsnet.co
   tls: true
   type: http
   username: testuser1
-- name: 15|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_188bbe68
+- name: 15,35|US - zhuhai.uk
   password: None
   port: 443
   server: 52.55.81.168
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
+  username: 'null'
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_24a6e4b9
   password: test123
   port: 1080
@@ -342,7 +356,7 @@ proxies:
   server: 45.61.129.165
   type: socks5
 - client-fingerprint: chrome
-  name: 15,21,22,24,28,35|GB - zhuhai.uk 06
+  name: 15,21,22,24,28,35|GB - zhuhai.uk 08
   network: tcp
   port: 443
   reality-opts:
@@ -385,13 +399,13 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 21,22,24,28,35|GB - zhuhai.uk 02
+  name: 21,22,24,28,35|GB - zhuhai.uk 05
   network: tcp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
   server: brightharbor.download
-  servername: localhost
+  servername: brightharbor.download
   skip-cert-verify: true
   tls: true
   type: vless
@@ -400,7 +414,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 21,22,24,28,35|GB - zhuhai.uk 03
+  name: 21,22,24,28,35|GB - zhuhai.uk 07
   network: tcp
   port: 443
   reality-opts:
@@ -429,13 +443,13 @@ proxies:
   uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
 - client-fingerprint: chrome
   encryption: none
-  name: 21,28,35|GB - zhuhai.uk 05
+  name: 21,28|🇬🇧GB_6|4.5MB/s
   network: tcp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
   server: freshjuniper.download
-  servername: freshjuniper.download
+  servername: localhost
   skip-cert-verify: true
   tls: true
   type: vless
@@ -459,17 +473,17 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 27|🇺🇸US-35.89.158.227-5145
+- name: 27|🇺🇸US-35.89.158.227-5214
   password: CF68213490
   port: 443
   server: live-drake.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-54.70.161.72-5254
+- name: 27|🇺🇸US-54.70.161.72-5365
   password: NQ26071394
   port: 443
   server: gentle-turtle.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-50.112.83.226-5281
+- name: 27|🇺🇸US-50.112.83.226-5392
   password: PD07395842
   port: 443
   server: national-dingo.rooster465.autos
@@ -482,33 +496,18 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 35|US - zhuhai.uk
-  password: None
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  sni: fullmanfirm.icu
-  tls: true
-  type: http
-  username: 'null'
-- name: 35|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 35|US - zhuhai.uk 06
-  password: None
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - name: 35|US - zhuhai.uk 07
   password: 'null'
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 35|US - zhuhai.uk 14
+  password: None
+  port: 9002
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http

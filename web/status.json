@@ -1,5 +1,5 @@
 {
-  "total": 282,
+  "total": 277,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
@@ -29,7 +29,7 @@
     "CA": {
       "flag": "🇨🇦",
       "name": "加拿大",
-      "count": 16
+      "count": 13
     },
     "FR": {
       "flag": "🇫🇷",
@@ -39,7 +39,7 @@
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 5
+      "count": 6
     },
     "GB": {
       "flag": "🇬🇧",
@@ -49,7 +49,7 @@
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 30
+      "count": 27
     },
     "RU": {
       "flag": "🇷🇺",
@@ -69,7 +69,7 @@
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 4
+      "count": 5
     },
     "CH": {
       "flag": "🇨🇭",
@@ -89,7 +89,7 @@
     "IN": {
       "flag": "🇮🇳",
       "name": "印度",
-      "count": 3
+      "count": 4
     },
     "TH": {
       "flag": "🇹🇭",
@@ -119,7 +119,7 @@
     "BR": {
       "flag": "🇧🇷",
       "name": "巴西",
-      "count": 11
+      "count": 10
     },
     "VN": {
       "flag": "🇻🇳",
@@ -129,7 +129,7 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 3
+      "count": 4
     },
     "PH": {
       "flag": "🇵🇭",
@@ -144,11 +144,11 @@
     "FI": {
       "flag": "🇫🇮",
       "name": "芬兰",
-      "count": 12
+      "count": 14
     }
   },
-  "update_time": "2026-09-10 12:22",
-  "server_time": "2026-09-10 12:23:22",
+  "update_time": "2026-09-10 13:01",
+  "server_time": "2026-09-10 13:02:33",
   "sources": [
     {
       "index": 0,
@@ -288,7 +288,7 @@
     {
       "index": 27,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 4249
+      "nodes": 4360
     },
     {
       "index": 28,
@@ -328,7 +328,7 @@
     {
       "index": 35,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 39
+      "nodes": 42
     },
     {
       "index": 36,

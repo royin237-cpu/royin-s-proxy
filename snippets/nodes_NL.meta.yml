@@ -19,6 +19,13 @@ proxies:
   sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
   tls: true
   type: http
+- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_c745045d
+  port: 443
+  server: 185.246.153.28
+  skip-cert-verify: true
+  sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
+  tls: true
+  type: http
 - name: 15,21|🇳🇱NL_5|3.5MB/s
   password: None
   port: 443
@@ -34,14 +41,6 @@ proxies:
   sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
   tls: true
   type: http
-- name: 15,21,28,34,35|NL - zhuhai.uk
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  sni: 84.17.47.149
-  tls: true
-  type: http
-  udp: true
 - name: 15,28|🇳🇱NL_5|1.9MB/s
   port: 9002
   server: 84.17.47.147
@@ -81,24 +80,19 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '21,28,34|NL_speednode_0005 #2'
+- name: 21,28,34,35|NL - zhuhai.uk
   password: None
   port: 9002
   server: 84.17.47.125
   skip-cert-verify: true
+  sni: 84.17.47.125
   tls: true
   type: http
   udp: true
+  username: 'null'
 - name: '21,28,34|NL_speednode_0006 #2'
   port: 9002
   server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '21,28,34|NL_speednode_0007 #2'
-  port: 9002
-  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
@@ -110,22 +104,31 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 27|🇳🇱NL-89.39.70.120-5218
-  password: PD07395842
-  port: 443
-  server: pro-crane.rooster465.autos
-  type: trojan
-- name: 27|🇳🇱NL-78.142.194.96-5219
+- name: 27|🇳🇱NL-78.142.194.96-5287
   password: LSS6HLnp7IeEEJUcox
   port: 443
   server: nl-1.tr202607.com
   type: trojan
+- name: 27|🇳🇱NL-89.39.70.120-5288
+  password: PD07395842
+  port: 443
+  server: pro-crane.rooster465.autos
+  type: trojan
 - name: 35|NL - zhuhai.uk 02
   password: 'null'
-  port: 443
-  server: 185.246.153.28
+  port: 9002
+  server: 84.17.47.149
   skip-cert-verify: true
-  sni: 185.246.153.28
+  sni: 84.17.47.149
+  tls: true
+  type: http
+  username: 'null'
+- name: 35|NL - zhuhai.uk 03
+  password: 'null'
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  sni: 84.17.47.148
   tls: true
   type: http
   username: 'null'
