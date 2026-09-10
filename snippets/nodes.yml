@@ -42,7 +42,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: '15,21,22|🇨🇳_CN_中国->🇺🇸_US_美国_2 #1'
+  name: 15,21,22,35|US - zhuhai.uk 03
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.232
@@ -72,6 +72,13 @@ proxies:
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 15|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_d37d66fb
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
   udp: true
 - alterId: 64
   cipher: auto

@@ -75,7 +75,7 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- name: 21,35|GB - zhuhai.uk 02
+- name: 21|🇬🇧GB_3|1.4MB/s
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true

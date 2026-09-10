@@ -85,11 +85,9 @@ proxies:
   port: 443
   server: sincere-gelding.rooster465.autos
   type: trojan
-- name: 35|JP - zhuhai.uk 04
-  password: 'null'
+- name: 35|JP - zhuhai.uk 02
   port: 443
   server: fan.571589.xyz
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'

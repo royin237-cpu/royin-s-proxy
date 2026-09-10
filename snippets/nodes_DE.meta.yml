@@ -89,6 +89,13 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 15|A🟢🇩🇪[🤖📺🎭🎪]_dokng.com_2a8612b7
+  password: 'null'
+  port: 443
+  server: fan.973511.xyz
+  tls: true
+  type: http
+  username: 'null'
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.KBrQxiiQpLoPmAj-s67EKMOiPKoxBnWiXDcPLKd2bVo
   name: 21|🇩🇪 德国 | DEU 7
@@ -122,9 +129,3 @@ proxies:
   port: 443
   server: fair-werewolf.rooster465.autos
   type: trojan
-- name: 35|DE - zhuhai.uk
-  port: 443
-  server: fan.973511.xyz
-  sni: fan.973511.xyz
-  tls: true
-  type: http

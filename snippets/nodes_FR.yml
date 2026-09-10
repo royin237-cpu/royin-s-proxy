@@ -1,19 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|🇨🇳 CN 485 → tg@nicevpn123
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: m.cnmjin.net
-    path: /
 - name: 11|🇩🇪 DE 3 → tg@nicevpn123
   password: 0fe4bbdb-2854-4cc5-986c-f62dbb900bc5
   port: 443

@@ -1,13 +1,5 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '15,21,22|🇨🇳_CN_中国->🇺🇸_US_美国_2 #1'
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: '15,21,22|🇨🇳_CN_中国->🇰🇷_KR_韩国 #1'
   password: 7eadc6dbe2ae
   port: 65443
@@ -58,12 +50,37 @@ proxies:
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - client-fingerprint: chrome
+  name: '21,22|🇺🇸_US_美国->🇯🇵_JP_日本 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: freshjuniper.download
+  servername: localhost
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '21,22|🇱🇻_LV_拉脱维亚->🇫🇮_FI_芬兰_2 #1'
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
   server: 2.26.178.184
+  servername: localhost
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: chrome
+  name: '21,22|🇺🇸_US_美国->🇯🇵_JP_日本_1 #1'
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 130.12.102.26
   servername: localhost
   skip-cert-verify: true
   tls: true

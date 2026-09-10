@@ -1,5 +1,5 @@
 {
-  "total": 283,
+  "total": 287,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
@@ -9,12 +9,12 @@
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 63
+      "count": 62
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 1
+      "count": 3
     },
     "HK": {
       "flag": "🇭🇰",
@@ -89,7 +89,7 @@
     "IN": {
       "flag": "🇮🇳",
       "name": "印度",
-      "count": 2
+      "count": 3
     },
     "TH": {
       "flag": "🇹🇭",
@@ -129,12 +129,17 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 4
+      "count": 1
     },
     "PH": {
       "flag": "🇵🇭",
       "name": "菲律宾",
       "count": 1
+    },
+    "UA": {
+      "flag": "🇺🇦",
+      "name": "乌克兰",
+      "count": 2
     },
     "PL": {
       "flag": "🇵🇱",
@@ -147,8 +152,8 @@
       "count": 9
     }
   },
-  "update_time": "2026-09-11 00:14",
-  "server_time": "2026-09-11 00:16:07",
+  "update_time": "2026-09-11 00:36",
+  "server_time": "2026-09-11 00:37:35",
   "sources": [
     {
       "index": 0,
@@ -328,7 +333,7 @@
     {
       "index": 35,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 37
+      "nodes": 32
     },
     {
       "index": 36,

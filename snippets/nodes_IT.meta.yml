@@ -21,6 +21,14 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 15|A🟢🇮🇹[🎬📺🎭📦]_dokng.com_71914bac
+  password: None
+  port: 443
+  server: 178.237.4.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 15|D🔴🇮🇹[📺🎭🎪📦]_dokng.com_9b8722f4
   port: 443
   server: 109.116.41.154
@@ -35,9 +43,3 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 35|IT - zhuhai.uk
-  port: 443
-  server: 178.237.4.200
-  skip-cert-verify: true
-  tls: true
-  type: http

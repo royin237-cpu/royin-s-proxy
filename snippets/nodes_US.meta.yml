@@ -15,7 +15,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15,35|HK - zhuhai.uk 06
+  name: 15|A🟢🇺🇸[🎬📺🎭🎪]_dokng.com_967990bd
   network: tcp
   port: 51895
   reality-opts:
@@ -62,30 +62,6 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_209eaff6
-  password: None
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_915cea90
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 15,35|US - zhuhai.uk
-  password: ''
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_0f8d1baa
   password: None
   port: 9002
@@ -117,6 +93,14 @@ proxies:
   tls: true
   type: http
   username: 'null'
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_0eed9624
+  password: None
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: '15,21,32|🇺🇸 美国 | USA 13 #1'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
@@ -206,14 +190,14 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 15,35|US - zhuhai.uk 03
+- name: 15|C🟠🇺🇸[🎬🤖📺🎭]_dokng.com_188bbe68
   password: None
   port: 443
   server: 52.55.81.168
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+  username: null
 - name: 15|A🟢🇺🇸[🎬📺🎭🎪]_dokng.com_03b9018d
   port: 8081
   server: 73.109.227.116
@@ -231,14 +215,13 @@ proxies:
   server: 96.84.121.105
   type: http
 - client-fingerprint: chrome
-  name: 15,21,35|JP - zhuhai.uk
+  name: 15,21|🇺🇸 美国 | USA 19
   network: tcp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
   server: 130.12.102.125
   servername: localhost
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -307,35 +290,9 @@ proxies:
   udp: true
   username: null
 - client-fingerprint: chrome
-  name: 21,22,35|JP - zhuhai.uk 02
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: freshjuniper.download
-  servername: freshjuniper.download
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
-  name: 21,22,35|GB - zhuhai.uk 04
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.26
-  servername: localhost
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '21,22,32|🇺🇸 美国 | USA 2 #1'
+  name: 21,22,32,35|FI - zhuhai.uk
   network: tcp
   port: 443
   reality-opts:
@@ -396,7 +353,7 @@ proxies:
   sni: purecambogiasl.live
   tls: true
   type: http
-- name: 21,28,34,35|US - zhuhai.uk 05
+- name: '21,28,34|US_speednode_0131 #2'
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -479,7 +436,7 @@ proxies:
   username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32,35|HK - zhuhai.uk 02
+  name: 32|🇭🇰 香港 | HKG 4
   network: tcp
   port: 45140
   reality-opts:
@@ -489,9 +446,35 @@ proxies:
   tls: true
   type: vless
   uuid: 55e38df8-d960-44c2-9fe2-537765304eae
+- name: 35|US - zhuhai.uk
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  sni: 138.199.35.217
+  tls: true
+  type: http
+  username: 'null'
+- name: 35|US - zhuhai.uk 02
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|FI - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 2.26.178.172
+  servername: localhost
+  tls: true
+  type: vless
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - name: 35|US - zhuhai.uk 04
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http

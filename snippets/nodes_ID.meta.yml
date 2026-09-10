@@ -1,40 +1,5 @@
 proxies:
-- name: 15|U⚪🏳️[🤖📺🎭🎪]_dokng.com_54a270d5
-  password: freeuser1
-  port: 9251
-  server: cr2-id.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: 15|U⚪🏳️[🎬🤖📺🎭]_dokng.com_89e7191b
-  password: freeuser1
-  port: 9251
-  server: sr2-id.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: 15|U⚪🏳️[🤖📺🎭🎪]_dokng.com_87bf668a
-  password: freeuser1
-  port: 9251
-  server: cr1-id.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  encryption: none
-  name: 15|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_5a9ea78d
-  network: ws
-  port: 443
-  server: 147.139.189.225
-  servername: edgt-3.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4cbf8a4f-2ed9-4983-a9ed-548e62a5661e
-  ws-opts:
-    headers:
-      Host: edgt-3.pages.dev
-    path: /
+- name: 15|D🔴🇮🇩_dokng.com_67ab34a0
+  port: 2080
+  server: 8.215.25.3
+  type: socks5

@@ -41,14 +41,6 @@ proxies:
   sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
   tls: true
   type: http
-- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_8d59c920
-  password: None
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b74edc3f
   port: 443
   server: 185.246.153.42
@@ -98,7 +90,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '21,28,34|NL_speednode_0007 #2'
+- name: 21,28,34,35|NL - zhuhai.uk 02
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
@@ -117,3 +109,9 @@ proxies:
   port: 443
   server: nl-1.tr202607.com
   type: trojan
+- name: 35|NL - zhuhai.uk 03
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  tls: true
+  type: http
