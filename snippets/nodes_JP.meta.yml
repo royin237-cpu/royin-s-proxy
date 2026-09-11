@@ -14,14 +14,13 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- name: 15,35|JP - zhuhai.uk
+- name: 15,35|JP - zhuhai.uk 02
   port: 443
   server: fan.571589.xyz
   skip-cert-verify: true
   sni: fan.571589.xyz
   tls: true
   type: http
-  username: bnVsbDpudWxs
 - name: 27|🇯🇵JP-13.112.192.202-4879
   password: NQ26071394
   port: 443

@@ -1,5 +1,5 @@
 proxies:
-- name: 15|A🟢🇫🇷[📺🎭🎪📦]_dokng.com_6dcdf6ed
+- name: 15,35|FR - zhuhai.uk
   port: 443
   server: fan.132031.xyz
   skip-cert-verify: true

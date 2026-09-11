@@ -111,7 +111,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 15,35|US - zhuhai.uk 03
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_6db0fc2c
   port: 9002
   server: 138.199.35.204
   skip-cert-verify: true
@@ -125,14 +125,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_d9c98f77
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_ff3d6be6
   password: ''
   port: 9002
@@ -194,7 +186,7 @@ proxies:
   port: 8181
   server: 173.205.202.241
   type: http
-- name: 15|D🔴🇺🇸[🎬📺🎭🎪]_dokng.com_89cbb0b2
+- name: 15,35|US - zhuhai.uk
   password: ''
   port: 8443
   server: 104.219.236.83
@@ -250,7 +242,7 @@ proxies:
   tls: true
   type: vless
   uuid: 46554735-415f-4be5-9390-a19dc430a15c
-- name: 15,21,28|🇺🇸US_2|1.2MB/s
+- name: 15,21,28,35|US - zhuhai.uk 10
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -304,3 +296,16 @@ proxies:
   port: 443
   server: square-gnat.rooster465.autos
   type: trojan
+- name: 35|US - zhuhai.uk 06
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 35|US - zhuhai.uk 08
+  port: 443
+  server: efr-marktplatz.club
+  tls: true
+  type: http

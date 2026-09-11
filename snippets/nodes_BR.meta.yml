@@ -35,3 +35,7 @@ proxies:
   port: 9797
   server: 186.0.144.52
   type: http
+- name: 15|A🟢🇧🇷[📺]_dokng.com_15a794cc
+  port: 8085
+  server: 45.236.65.182
+  type: http

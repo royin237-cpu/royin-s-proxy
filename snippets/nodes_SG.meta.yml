@@ -1,8 +1,4 @@
 proxies:
-- name: 15|D🔴🇸🇬[✈️🔍]_dokng.com_47ce18fe
-  port: 9090
-  server: 128.199.254.13
-  type: http
 - name: 15|D🔴🇸🇬_dokng.com_d2853196
   port: 9090
   server: 167.99.74.174
