@@ -107,18 +107,8 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 27|🇩🇪DE-3.122.55.145-4877
-  password: PD07395842
-  port: 443
-  server: certain-egret.rooster465.autos
-  type: trojan
-- name: 27|🇩🇪DE-3.67.79.54-4897
+- name: 27|🇩🇪DE-3.67.79.54-4910
   password: CF68213490
   port: 443
   server: composed-sheep.rooster465.autos
-  type: trojan
-- name: 27|🇩🇪DE-3.75.76.74-4910
-  password: CF68213490
-  port: 443
-  server: fair-werewolf.rooster465.autos
   type: trojan

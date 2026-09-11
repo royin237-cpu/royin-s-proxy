@@ -1,9 +1,5 @@
 proxies:
-- name: 15|D🔴🇭🇰[🎬📺✨🎞️]_dokng.com_054bd55d
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
-- name: 15|C🟠🇭🇰[🎬📺🎭📦]_dokng.com_da7c41d8
+- name: 15,35|HK - zhuhai.uk
   password: admin
   port: 1080
   server: 47.239.116.165
@@ -20,21 +16,21 @@ proxies:
   port: 1080
   server: 47.76.175.249
   type: socks5
-- name: 15,35|HK - zhuhai.uk
+- name: 15|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_de4eaa15
   port: 443
   server: fan.240104.xyz
   skip-cert-verify: true
   sni: fan.240104.xyz
   tls: true
   type: http
-- name: 15,35|HK - zhuhai.uk 03
+- name: 15|C🟠🇭🇰[📺📦🔍]_dokng.com_db363b3a
   password: admin
   port: 8899
   server: 47.242.19.215
   skip-cert-verify: true
   type: socks5
   username: admin
-- name: 27|🇭🇰HK-185.244.208.25-4846
+- name: 27|🇭🇰HK-185.244.208.25-4898
   password: IL37892054
   port: 443
   server: just-alpaca.rooster465.autos

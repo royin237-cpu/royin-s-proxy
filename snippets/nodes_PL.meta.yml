@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 27|🇵🇱PL-202.78.163.19-4853
+- name: 27|🇵🇱PL-202.78.163.19-4899
   password: AE62539071
   port: 443
   server: game-firefly.rooster465.autos

@@ -41,11 +41,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 15|D🔴🇭🇰[🎬📺✨🎞️]_dokng.com_054bd55d
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
-- name: 15|C🟠🇭🇰[🎬📺🎭📦]_dokng.com_da7c41d8
+- name: 15,35|HK - zhuhai.uk
   password: admin
   port: 1080
   server: 47.239.116.165
@@ -62,14 +58,6 @@ proxies:
   port: 1080
   server: 47.76.175.249
   type: socks5
-- cipher: aes-256-cfb
-  name: 15,21,22,32|🇺🇸 美国 | USA 19
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: 15|U⚪🏳️_dokng.com_79f3708c
   network: ws
@@ -91,7 +79,7 @@ proxies:
   server: 8.209.236.192
   type: socks5
   username: '123456'
-- name: 15,35|HK - zhuhai.uk
+- name: 15|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_de4eaa15
   port: 443
   server: fan.240104.xyz
   skip-cert-verify: true
@@ -294,14 +282,22 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_209eaff6
+- name: 15,35|US - zhuhai.uk 07
   password: None
   port: 9002
   server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
+  username: 'null'
+- name: 15,21|🇺🇸US_8|4.6MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - name: 15|A🟢🇷🇸[🤖📺🎭🎪]_dokng.com_343aad9c
   port: 6669
   server: 178.217.12.193
@@ -320,7 +316,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '15,21,28,34|NL_speednode_0009 #2'
+- name: 15,21,28,34,35|NL - zhuhai.uk 02
   port: 9002
   server: 84.17.47.146
   skip-cert-verify: true
@@ -394,6 +390,14 @@ proxies:
   tls: true
   type: http
   username: ''
+- name: 15,21|🇺🇸US_13|4.6MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b8f46ac7
   port: 443
   server: 185.140.209.235
@@ -401,7 +405,7 @@ proxies:
   sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
   tls: true
   type: http
-- name: 15,21,32|🇺🇸 美国 | USA 4
+- name: '15,21,32|🇺🇸 美国 | USA 7 #1'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -449,7 +453,7 @@ proxies:
   username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15,35|HK - zhuhai.uk 02
+  name: 15|A🟢🇺🇸[🎬🤖📺🎭]_dokng.com_cfecff58
   network: tcp
   port: 35621
   reality-opts:
@@ -593,10 +597,14 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_803c2af1
-  port: 999
-  server: 189.237.46.52
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_811909ab
+  password: None
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
   type: http
+  username: null
 - name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_256dedbc
   port: 9002
   server: 138.199.35.215
@@ -625,7 +633,7 @@ proxies:
   port: 8787
   server: 89.40.77.249
   type: http
-- name: '15,21,28,34|RO_speednode_0110 #2'
+- name: 15,21,28,34,35|RO - zhuhai.uk 06
   port: 9002
   server: 193.176.84.27
   skip-cert-verify: true
@@ -680,10 +688,6 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 15|A🟢🇲🇽[🎬🤖📺🎭]_dokng.com_b2a204d9
-  port: 10101
-  server: 187.188.171.231
-  type: http
 - name: 15,21,28|🇨🇭CH_2|3.3MB/s
   password: None
   port: 9443
@@ -722,22 +726,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_5e99cdb8
-  password: 'null'
-  port: 443
-  server: fan.596189.xyz
-  sni: fan.596189.xyz
-  tls: true
-  type: http
-  username: 'null'
-- name: 15,28|🇨🇿CZ_2|1.2MB/s
-  password: None
-  port: 443
-  server: 185.216.35.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b74edc3f
   port: 443
   server: 185.246.153.42
@@ -745,7 +733,7 @@ proxies:
   sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
   tls: true
   type: http
-- name: 15,21,35|RO - zhuhai.uk
+- name: 15,21|🇷🇴RO_9|3.2MB/s
   password: ''
   port: 9002
   server: 193.176.84.21
@@ -774,14 +762,6 @@ proxies:
   password: None
   port: 443
   server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '15,28|🇳🇱NL_5|1.1MB/s #1'
-  password: None
-  port: 23856
-  server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
@@ -820,7 +800,7 @@ proxies:
   tls: true
   type: http
 - auth: 633bc3be486b646190661ac2387c150a
-  name: '15,21,24,32|🇦🇺 澳大利亚 | AUS #1'
+  name: 15,21,24|🇦🇺AU_1|1.1MB/s
   obfs: salamander
   obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
   password: 633bc3be486b646190661ac2387c150a
@@ -1001,14 +981,6 @@ proxies:
   port: 2138
   server: 177.105.159.24
   type: http
-- name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_8bd7fb72
-  password: None
-  port: 9002
-  server: 193.176.84.40
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15,21|🇬🇧GB_7|2.8MB/s
   port: 443
   server: 212.102.63.31
@@ -1137,7 +1109,7 @@ proxies:
   type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|A🟢🇺🇸[🎬📺🎭🎪]_dokng.com_908fac7f
+  name: 15,35|HK - zhuhai.uk 02
   network: tcp
   port: 31895
   reality-opts:
@@ -1148,10 +1120,6 @@ proxies:
   tls: true
   type: vless
   uuid: 5e483359-08a3-46d9-904b-8f1f469577ac
-- name: 15|U⚪🏳️[🎬🤖📺🎭]_dokng.com_3285df17
-  port: 8282
-  server: 208.95.22.65
-  type: http
 - name: 15|A🟢🇨🇴[🎬🤖📺🎭]_dokng.com_a1cab3f7
   port: 12345
   server: 177.93.57.84
@@ -1215,7 +1183,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,21,22,27|🇯🇵JP-161.33.184.129-0451
+- name: 15,21,22,27,32|🇧🇹 BT_114
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10011
   server: z-jp2.1card.cc
@@ -1223,7 +1191,7 @@ proxies:
   sni: www.cloudflare.com
   type: trojan
   udp: true
-- name: 15,35|HK - zhuhai.uk 03
+- name: 15|C🟠🇭🇰[📺📦🔍]_dokng.com_db363b3a
   password: admin
   port: 8899
   server: 47.242.19.215
@@ -1241,14 +1209,6 @@ proxies:
   port: 9292
   server: 200.95.192.61
   type: http
-- cipher: aes-256-cfb
-  name: '15,21,22|🇨🇳_CN_中国->🇺🇸_US_美国_2 #1'
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_0c92e5d4
   port: 8666
   server: 45.228.89.114
@@ -1272,10 +1232,6 @@ proxies:
   port: 3900
   server: 45.163.116.86
   type: http
-- name: 15|D🔴🇯🇵[🎬🤖📺🎭]_dokng.com_1b81f86d
-  port: 10808
-  server: 101.36.104.46
-  type: socks5
 - name: 15|A🟢🇺🇦[🤖📺🎪✨]_dokng.com_90526c5f
   port: 8585
   server: 109.224.242.133
@@ -1296,7 +1252,7 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 15,35|US - zhuhai.uk 02
+- name: 15|D🔴🇺🇸[🎬🤖📺🎭]_dokng.com_87eec561
   password: e4b72b531a2d10900519
   port: 443
   server: 147.182.216.4
@@ -1307,6 +1263,10 @@ proxies:
 - name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_ca3b1afa
   port: 9091
   server: 164.163.237.196
+  type: http
+- name: 15|A🟢🇵🇪[🤖📺🎭🎪]_dokng.com_3460631b
+  port: 65535
+  server: 45.177.20.189
   type: http
 - name: 15,28|🇺🇸US_19|2.9MB/s
   password: ''
@@ -1422,7 +1382,7 @@ proxies:
   username: null
 - alterId: 0
   cipher: auto
-  name: 15,33|未知67
+  name: 15,33|未知143
   network: tcp
   port: 50002
   server: 112.132.215.108
@@ -1441,10 +1401,6 @@ proxies:
 - name: 15|A🟢🇧🇷[🎬🤖📺🎭]_dokng.com_ba5e8e2f
   port: 92
   server: 45.70.87.228
-  type: http
-- name: 15|D🔴🇫🇷[🤖📺🎪✨]_dokng.com_4bcec453
-  port: 8888
-  server: 37.59.125.131
   type: http
 - name: 16,17,21,22,28|🎡71@oneclickvpnkeys
   password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
@@ -1483,18 +1439,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '21,28,34|RO_speednode_0087 #2'
-  port: 9002
-  server: 193.176.84.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 21,28,34,35|RO - zhuhai.uk 02
+- name: '21,28,34|RO_speednode_0126 #2'
   port: 9002
   server: 193.176.84.39
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -1512,30 +1460,23 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 21,28|🇺🇸US_6|4.3MB/s
+- name: 21|🇳🇱NL_12|3.1MB/s
   password: ''
-  port: 9002
-  server: 138.199.35.207
+  port: 443
+  server: 51.158.243.91
   skip-cert-verify: true
   tls: true
   type: http
   username: ''
-- name: 21|🇺🇸US_29|3.3MB/s
+- name: 21,35|US - zhuhai.uk 02
   password: ''
   port: 9002
   server: 138.199.35.200
   skip-cert-verify: true
+  sni: 138.199.35.200
   tls: true
   type: http
   username: ''
-- name: '21,28,34|RO_speednode_0045 #2'
-  port: 9002
-  server: 193.176.84.17
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
 - name: '21,28,34|NL_speednode_0010 #2'
   port: 9002
   server: 84.17.47.149
@@ -1590,9 +1531,16 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 21,28,34,35|US - zhuhai.uk 06
+- name: '21,28,34|US_speednode_0133 #2'
   port: 443
   server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '21,28,34|US_speednode_0141 #2'
+  port: 443
+  server: 38.28.193.188
   skip-cert-verify: true
   tls: true
   type: http
@@ -1603,330 +1551,9 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 27|🇺🇸US-50.62.194.195-1940
-  password: iwangjie
-  port: 2096
-  server: 50.62.194.195
-  sni: nodes.830901.xyz
-  type: trojan
-- name: 27|🇰🇷KR-13.124.200.248-4760
-  password: ND91608427
-  port: 443
-  server: distinct-llama.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-3.112.232.101-4763
-  password: AE62539071
-  port: 443
-  server: firm-krill.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-54.213.238.59-4768
-  password: CF68213490
-  port: 443
-  server: ultimate-jaguar.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-35.89.158.227-4770
-  password: CF68213490
-  port: 443
-  server: live-drake.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-52.79.98.24-4773
-  password: NQ26071394
-  port: 443
-  server: wise-rhino.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-54.254.196.251-4776
-  password: NQ26071394
-  port: 443
-  server: thorough-foxhound.rooster465.autos
-  type: trojan
-- name: 27|🇮🇪IE-3.249.220.51-4778
-  password: CF68213490
-  port: 443
-  server: careful-penguin.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.35.140.206-4779
-  password: NQ26071394
-  port: 443
-  server: devoted-heron.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-54.169.137.148-4780
-  password: NQ26071394
-  port: 443
-  server: capable-jay.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-13.125.211.246-4781
-  password: CF68213490
-  port: 443
-  server: smooth-lark.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-43.207.113.142-4784
-  password: IL37892054
-  port: 443
-  server: engaged-ram.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.203.121.129-4798
-  password: ND91608427
-  port: 443
-  server: next-turkey.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.203.204.13-4799
-  password: AE62539071
-  port: 443
-  server: teaching-gnu.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-15.165.76.91-4802
-  password: ND91608427
-  port: 443
-  server: star-kiwi.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.203.214.65-4803
-  password: ND91608427
-  port: 443
-  server: careful-tadpole.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.203.172.207-4842
-  password: IL37892054
-  port: 443
-  server: upright-rhino.rooster465.autos
-  type: trojan
-- name: 27|🇳🇱NL-78.142.194.96-4843
-  password: LSS6HLnp7IeEEJUcox
-  port: 443
-  server: nl-1.tr202607.com
-  type: trojan
-- name: 27|🇳🇱NL-89.39.70.120-4844
-  password: PD07395842
-  port: 443
-  server: pro-crane.rooster465.autos
-  type: trojan
-- name: 27|🇭🇰HK-185.244.208.25-4846
-  password: IL37892054
-  port: 443
-  server: just-alpaca.rooster465.autos
-  type: trojan
-- name: 27|🇵🇱PL-202.78.163.19-4853
-  password: AE62539071
-  port: 443
-  server: game-firefly.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-18.176.52.171-4859
-  password: NQ26071394
-  port: 443
-  server: legible-ram.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.35.156.69-4871
-  password: ND91608427
-  port: 443
-  server: wise-bengal.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-13.115.95.173-4872
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: 44184
-  server: v2jp.k1.ssnss.live
-  type: trojan
-- name: 27|🇩🇪DE-3.122.55.145-4877
-  password: PD07395842
-  port: 443
-  server: certain-egret.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-52.78.121.69-4881
-  password: CF68213490
-  port: 443
-  server: eternal-woodcock.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.36.52.203-4887
-  password: NQ26071394
-  port: 443
-  server: inviting-rabbit.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.36.76.91-4888
-  password: CF68213490
-  port: 443
-  server: moved-bluegill.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.34.96.227-4889
-  password: CF68213490
-  port: 443
-  server: musical-manatee.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.202.1.241-4891
-  password: CF68213490
-  port: 443
-  server: star-moray.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-13.125.69.162-4893
-  password: IL37892054
-  port: 443
-  server: engaging-toucan.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.201.100.128-4894
-  password: CF68213490
-  port: 443
-  server: summary-firefly.rooster465.autos
-  type: trojan
-- name: 27|🇩🇪DE-3.67.79.54-4897
-  password: CF68213490
-  port: 443
-  server: composed-sheep.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-13.124.155.60-4899
-  password: AE62539071
-  port: 443
-  server: clear-heron.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-52.221.252.205-4900
-  password: EQ30679154
-  port: 443
-  server: definite-gazelle.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-13.231.247.130-4901
-  password: CF68213490
-  port: 443
-  server: concrete-aardvark.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-54.213.128.173-4904
-  password: CF68213490
-  port: 443
-  server: eternal-perch.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-54.95.30.87-4906
-  password: CF68213490
-  port: 443
-  server: in-oriole.rooster465.autos
-  type: trojan
-- name: 27|🇩🇪DE-3.75.76.74-4910
-  password: CF68213490
-  port: 443
-  server: fair-werewolf.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-3.112.226.131-4911
-  password: NQ26071394
-  port: 443
-  server: one-dove.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-52.74.203.3-4915
-  password: NQ26071394
-  port: 443
-  server: sure-husky.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-13.212.77.193-4917
-  password: CF68213490
-  port: 443
-  server: informed-stud.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-13.212.181.141-4920
-  password: NQ26071394
-  port: 443
-  server: stunning-mastodon.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-54.70.161.72-4921
-  password: NQ26071394
-  port: 443
-  server: gentle-turtle.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.202.54.120-4922
-  password: NQ26071394
-  port: 443
-  server: grand-grub.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-44.250.170.23-4923
-  password: CF68213490
-  port: 443
-  server: shining-piranha.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-52.220.181.28-4926
-  password: NQ26071394
-  port: 443
-  server: mighty-lemming.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.35.207.188-4930
-  password: PD07395842
-  port: 443
-  server: main-fawn.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-13.250.33.78-4931
-  password: FH72359861
-  port: 443
-  server: absolute-bobcat.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-54.180.128.171-4932
-  password: NQ26071394
-  port: 443
-  server: accurate-cat.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-47.128.146.47-4933
-  password: ND91608427
-  port: 443
-  server: pure-ram.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-13.124.56.133-4934
-  password: NQ26071394
-  port: 443
-  server: living-hagfish.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.38.181.59-4935
-  password: NQ26071394
-  port: 443
-  server: neat-octopus.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-54.245.10.59-4947
-  password: NQ26071394
-  port: 443
-  server: square-gnat.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-50.112.83.226-4948
-  password: PD07395842
-  port: 443
-  server: national-dingo.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-52.192.45.137-4949
-  password: NQ26071394
-  port: 443
-  server: promoted-rattler.rooster465.autos
-  type: trojan
-- name: 27|🇦🇺AU-87.121.33.14-4959
-  password: PD07395842
-  port: 443
-  server: true-pony.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-16.148.149.249-4973
-  password: ND91608427
-  port: 443
-  server: humorous-malamute.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.38.166.184-4979
-  password: CF68213490
-  port: 443
-  server: eager-platypus.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-3.112.250.236-4984
-  password: AE62539071
-  port: 443
-  server: sharing-duck.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-13.193.101.187-4987
-  password: CF68213490
-  port: 443
-  server: brief-warthog.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.35.156.157-4989
-  password: ND91608427
-  port: 443
-  server: pet-ghost.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.36.61.228-4992
-  password: ND91608427
-  port: 443
-  server: large-baboon.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.201.5.9-4996
-  password: FH72359861
-  port: 443
-  server: apt-whippet.rooster465.autos
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 27|🏁RELAY-172.64.145.93-5051
+  name: 27|🏁RELAY-172.64.145.93-4864
   network: ws
   port: 443
   server: www.shopify.com
@@ -1938,10 +1565,185 @@ proxies:
     headers:
       Host: www.shopify.com
     path: /hls/cctv5phd.m3u8
-- name: 27|🇰🇷KR-3.39.225.215-4852
+- name: 27|🇸🇬SG-54.254.196.251-4867
+  password: NQ26071394
+  port: 443
+  server: thorough-foxhound.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-13.125.211.246-4868
+  password: CF68213490
+  port: 443
+  server: smooth-lark.rooster465.autos
+  type: trojan
+- name: 27|🇮🇪IE-3.249.220.51-4870
+  password: CF68213490
+  port: 443
+  server: careful-penguin.rooster465.autos
+  type: trojan
+- name: 27|🇺🇸US-35.89.158.227-4872
+  password: CF68213490
+  port: 443
+  server: live-drake.rooster465.autos
+  type: trojan
+- name: 27|🇺🇸US-54.213.238.59-4873
+  password: CF68213490
+  port: 443
+  server: ultimate-jaguar.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-13.124.200.248-4874
+  password: ND91608427
+  port: 443
+  server: distinct-llama.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-43.207.113.142-4880
+  password: IL37892054
+  port: 443
+  server: engaged-ram.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-43.203.121.129-4884
+  password: ND91608427
+  port: 443
+  server: next-turkey.rooster465.autos
+  type: trojan
+- name: 27|🇳🇱NL-78.142.194.96-4891
+  password: LSS6HLnp7IeEEJUcox
+  port: 443
+  server: nl-1.tr202607.com
+  type: trojan
+- name: 27|🇳🇱NL-89.39.70.120-4892
+  password: PD07395842
+  port: 443
+  server: pro-crane.rooster465.autos
+  type: trojan
+- name: 27|🇭🇰HK-185.244.208.25-4898
+  password: IL37892054
+  port: 443
+  server: just-alpaca.rooster465.autos
+  type: trojan
+- name: 27|🇵🇱PL-202.78.163.19-4899
   password: AE62539071
   port: 443
-  server: kind-stork.rooster465.autos
+  server: game-firefly.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-43.202.54.120-4904
+  password: NQ26071394
+  port: 443
+  server: grand-grub.rooster465.autos
+  type: trojan
+- name: 27|🇺🇸US-44.250.170.23-4905
+  password: CF68213490
+  port: 443
+  server: shining-piranha.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-13.124.155.60-4908
+  password: AE62539071
+  port: 443
+  server: clear-heron.rooster465.autos
+  type: trojan
+- name: 27|🇩🇪DE-3.67.79.54-4910
+  password: CF68213490
+  port: 443
+  server: composed-sheep.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-43.201.100.128-4913
+  password: CF68213490
+  port: 443
+  server: summary-firefly.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-13.125.69.162-4914
+  password: IL37892054
+  port: 443
+  server: engaging-toucan.rooster465.autos
+  type: trojan
+- name: 27|🇺🇸US-54.70.161.72-4915
+  password: NQ26071394
+  port: 443
+  server: gentle-turtle.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-43.203.172.207-4916
+  password: CF68213490
+  port: 443
+  server: upright-rhino.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-43.202.1.241-4917
+  password: CF68213490
+  port: 443
+  server: star-moray.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.36.52.203-4919
+  password: NQ26071394
+  port: 443
+  server: inviting-rabbit.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-52.78.121.69-4923
+  password: CF68213490
+  port: 443
+  server: eternal-woodcock.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-52.221.252.205-4924
+  password: EQ30679154
+  port: 443
+  server: definite-gazelle.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.35.140.206-4926
+  password: ND91608427
+  port: 443
+  server: devoted-heron.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-54.169.137.148-4927
+  password: AE62539071
+  port: 443
+  server: capable-jay.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-52.220.181.28-4928
+  password: NQ26071394
+  port: 443
+  server: mighty-lemming.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.38.181.59-4929
+  password: NQ26071394
+  port: 443
+  server: neat-octopus.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-13.124.56.133-4932
+  password: NQ26071394
+  port: 443
+  server: living-hagfish.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-54.180.128.171-4933
+  password: NQ26071394
+  port: 443
+  server: accurate-cat.rooster465.autos
+  type: trojan
+- name: 27|🇸🇬SG-47.128.146.47-4934
+  password: ND91608427
+  port: 443
+  server: pure-ram.rooster465.autos
+  type: trojan
+- name: 27|🇺🇸US-50.112.83.226-4942
+  password: PD07395842
+  port: 443
+  server: national-dingo.rooster465.autos
+  type: trojan
+- name: 27|🇺🇸US-54.245.10.59-4943
+  password: NQ26071394
+  port: 443
+  server: square-gnat.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.36.76.91-4946
+  password: AE62539071
+  port: 443
+  server: moved-bluegill.rooster465.autos
+  type: trojan
+- name: 27|🇯🇵JP-13.193.101.187-4953
+  password: CF68213490
+  port: 443
+  server: brief-warthog.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.38.166.184-4955
+  password: CF68213490
+  port: 443
+  server: eager-platypus.rooster465.autos
   type: trojan
 - name: 28|🇷🇴RO_7|3.3MB/s
   port: 9002
@@ -1956,48 +1758,77 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 35|US - zhuhai.uk
-  password: 'null'
+- client-fingerprint: chrome
+  name: '32|🇦🇺 澳大利亚 | AUS #1'
+  network: xhttp
   port: 443
-  server: 38.28.193.188
+  reality-opts:
+    public-key: OvlkCDO6YdWR0ec3kVHW-Ul7I9TuEmJVfxXdaZiy5Ug
+    short-id: 2cbe511ff1f9200b
+  server: 103.75.119.11
+  servername: sberbank.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 682300d9-74d0-4dae-923c-09cb5d5e9951
+  xhttp-opts:
+    host: sberbank.ru
+    mode: stream-one
+    path: /api/v1/c8dd02d6
+- name: 35|RO - zhuhai.uk 02
+  password: 'null'
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  sni: 193.176.84.20
+  tls: true
+  type: http
+  username: 'null'
+- name: 35|US - zhuhai.uk 03
+  port: 443
+  server: fan.596189.xyz
+  sni: fan.596189.xyz
+  tls: true
+  type: http
+- name: 35|US - zhuhai.uk 08
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 35|JP - zhuhai.uk 03
-  port: 443
-  server: fan.571589.xyz
-  sni: fan.571589.xyz
+- name: 35|RO - zhuhai.uk 04
+  port: 9002
+  server: 193.176.84.40
+  skip-cert-verify: true
   tls: true
   type: http
 - name: 35|NL - zhuhai.uk
-  password: 'null'
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  sni: 51.159.225.196
+  tls: true
+  type: http
+- name: 35|RO - zhuhai.uk 05
+  password: None
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 35|JP - zhuhai.uk
   port: 443
-  server: 51.158.243.91
+  server: fan.571589.xyz
   skip-cert-verify: true
+  sni: fan.571589.xyz
   tls: true
   type: http
-  username: 'null'
-- name: 35|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 35|US - zhuhai.uk 05
-  password: 'null'
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  sni: 138.199.35.220
-  tls: true
-  type: http
-  username: 'null'
-- name: 35|US - zhuhai.uk 09
-  port: 9002
-  server: 138.199.35.214
+- name: 35|CZ - zhuhai.uk
+  port: 443
+  server: 185.216.35.130
   skip-cert-verify: true
   tls: true
   type: http

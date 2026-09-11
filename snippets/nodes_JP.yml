@@ -14,7 +14,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- name: 15,21,22,27|🇯🇵JP-161.33.184.129-0451
+- name: 15,21,22,27,32|🇧🇹 BT_114
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10011
   server: z-jp2.1card.cc
@@ -22,52 +22,12 @@ proxies:
   sni: www.cloudflare.com
   type: trojan
   udp: true
-- name: 27|🇯🇵JP-3.112.232.101-4763
-  password: AE62539071
-  port: 443
-  server: firm-krill.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-43.207.113.142-4784
+- name: 27|🇯🇵JP-43.207.113.142-4880
   password: IL37892054
   port: 443
   server: engaged-ram.rooster465.autos
   type: trojan
-- name: 27|🇯🇵JP-18.176.52.171-4859
-  password: NQ26071394
-  port: 443
-  server: legible-ram.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-13.115.95.173-4872
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: 44184
-  server: v2jp.k1.ssnss.live
-  type: trojan
-- name: 27|🇯🇵JP-13.231.247.130-4901
-  password: CF68213490
-  port: 443
-  server: concrete-aardvark.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-54.95.30.87-4906
-  password: CF68213490
-  port: 443
-  server: in-oriole.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-3.112.226.131-4911
-  password: NQ26071394
-  port: 443
-  server: one-dove.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-52.192.45.137-4949
-  password: NQ26071394
-  port: 443
-  server: promoted-rattler.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-3.112.250.236-4984
-  password: AE62539071
-  port: 443
-  server: sharing-duck.rooster465.autos
-  type: trojan
-- name: 27|🇯🇵JP-13.193.101.187-4987
+- name: 27|🇯🇵JP-13.193.101.187-4953
   password: CF68213490
   port: 443
   server: brief-warthog.rooster465.autos

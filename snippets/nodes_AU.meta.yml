@@ -1,6 +1,6 @@
 proxies:
 - auth: 633bc3be486b646190661ac2387c150a
-  name: '15,21,24,32|🇦🇺 澳大利亚 | AUS #1'
+  name: 15,21,24|🇦🇺AU_1|1.1MB/s
   obfs: salamander
   obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
   password: 633bc3be486b646190661ac2387c150a
@@ -16,8 +16,20 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 27|🇦🇺AU-87.121.33.14-4959
-  password: PD07395842
+- client-fingerprint: chrome
+  name: '32|🇦🇺 澳大利亚 | AUS #1'
+  network: xhttp
   port: 443
-  server: true-pony.rooster465.autos
-  type: trojan
+  reality-opts:
+    public-key: OvlkCDO6YdWR0ec3kVHW-Ul7I9TuEmJVfxXdaZiy5Ug
+    short-id: 2cbe511ff1f9200b
+  server: 103.75.119.11
+  servername: sberbank.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 682300d9-74d0-4dae-923c-09cb5d5e9951
+  xhttp-opts:
+    host: sberbank.ru
+    mode: stream-one
+    path: /api/v1/c8dd02d6
