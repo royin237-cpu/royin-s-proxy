@@ -18,25 +18,10 @@ proxies:
   port: 443
   server: live-drake.rooster465.autos
   type: trojan
-- name: 27|🇺🇸US-54.213.238.59-4873
-  password: CF68213490
-  port: 443
-  server: ultimate-jaguar.rooster465.autos
-  type: trojan
 - name: 27|🇺🇸US-44.250.170.23-4905
   password: CF68213490
   port: 443
   server: shining-piranha.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-54.70.161.72-4915
-  password: NQ26071394
-  port: 443
-  server: gentle-turtle.rooster465.autos
-  type: trojan
-- name: 27|🇺🇸US-50.112.83.226-4942
-  password: PD07395842
-  port: 443
-  server: national-dingo.rooster465.autos
   type: trojan
 - name: 27|🇺🇸US-54.245.10.59-4943
   password: NQ26071394

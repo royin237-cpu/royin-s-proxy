@@ -1,34 +1,18 @@
 proxies:
-- name: 15|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_13bb1fbc
-  port: 443
-  server: 103.82.101.43
-  skip-cert-verify: true
-  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
-  tls: true
-  type: http
-- name: 15|A🟢🇫🇷[🤖📺🎭🎪]_dokng.com_6dcdf6ed
+- name: 15|A🟢🇫🇷[📺🎭🎪📦]_dokng.com_6dcdf6ed
   port: 443
   server: fan.132031.xyz
   skip-cert-verify: true
   sni: fan.132031.xyz
   tls: true
   type: http
-- name: 15|C🟠🇫🇷[🎬🤖📺🎭]_dokng.com_67435526
+- name: 15|C🟠🇫🇷[🎬📺🎭🎪]_dokng.com_67435526
   port: 443
   server: 141.94.16.4
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,21|🇫🇷FR_1|2.7MB/s
-  port: 443
-  server: 103.82.101.44
-  skip-cert-verify: true
-  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
-  tls: true
-  type: http
-- name: 15|D🔴🇫🇷[🤖📺🎭🎪]_dokng.com_e49c7f1b
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
+- name: 15|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_8c55dcfd
+  port: 1088
+  server: 51.178.49.241
+  type: socks5

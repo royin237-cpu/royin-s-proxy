@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 19|加拿大 003
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  skip-cert-verify: true
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - name: 27|🇹🇼TW-61.216.76.139-2523
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443

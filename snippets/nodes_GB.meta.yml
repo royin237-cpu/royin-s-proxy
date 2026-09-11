@@ -6,68 +6,42 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 15,24,28|🇬🇧GB_3|2.4MB/s
+- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_e9fcd0ea
   port: 443
   server: 185.235.0.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,28|🇬🇧GB_4|1.2MB/s
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 15|D🔴🇬🇧[🎬🤖📺🎭]_dokng.com_b747b935
-  password: None
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15,28|🇬🇧GB_5|2.3MB/s
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 15,28|🇬🇧GB_6|2.0MB/s
-  password: None
+- name: 15,21|🇬🇧GB_1|2.4MB/s
   port: 443
   server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 15,21|🇬🇧GB_7|2.8MB/s
+- name: 15|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_485cc62b
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|C🟠🇬🇧[🤖📺🎭🎪]_dokng.com_7d7f3a77
-  port: 8443
-  server: 5.101.149.245
-  tls: true
-  type: http
-- name: 15,21,28|🇬🇧GB_1|3.1MB/s
+- name: 15,21|🇬🇧GB_2|2.2MB/s
   password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 24|🇬🇧GB_2|1.1MB/s
   port: 443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: '28|🇬🇧GB_7|2.8MB/s #1'
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
+  username: null
+- name: 15,35|GB - zhuhai.uk 02
+  port: 8443
+  server: 5.101.149.245
+  sni: 5.101.149.245
   tls: true
   type: http
+- name: 15|D🔴🇺🇸_dokng.com_5476324f
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks5
+  udp: true
+  username: test123

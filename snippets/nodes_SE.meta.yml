@@ -1,5 +1,9 @@
 proxies:
-- name: 15,28|🇸🇪SE_2|2.8MB/s
+- name: 15|A🟢🇸🇪[🎬🤖📺🎭]_dokng.com_2fd7cd8b
+  port: 81
+  server: 46.59.120.87
+  type: http
+- name: 21|🇸🇪SE_1|1.0MB/s
   password: None
   port: 443
   server: 79.142.77.63
@@ -7,7 +11,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28|🇸🇪SE_1|2.6MB/s
+- name: 21|🇸🇪SE_2|2.3MB/s
   password: None
   port: 443
   server: 146.70.242.130
@@ -15,15 +19,3 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15,28|🇸🇪SE_3|1.9MB/s
-  password: None
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15|A🟢🇸🇪[🎬🤖📺🎭]_dokng.com_2fd7cd8b
-  port: 81
-  server: 46.59.120.87
-  type: http

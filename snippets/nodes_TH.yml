@@ -1,15 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 33|未知153 150.7KB/s
-  network: ws
-  port: 49667
-  server: 118.193.57.167
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d46bf492-45f4-4c33-82d1-ea2a1cb54eb6
-  ws-opts:
-    headers:
-      Host: 118.193.57.167
-    path: /d46bf492
+proxies: []
