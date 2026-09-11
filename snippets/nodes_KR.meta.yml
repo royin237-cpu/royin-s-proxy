@@ -1,167 +1,147 @@
 proxies:
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 15,21|🇰🇷KR_1|2.6MB/s
-  network: grpc
-  port: 10046
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr1-r.link-t7.com
-  servername: s0.awsstatic.com
+- name: 15,28|🇰🇷KR_2|1.6MB/s
+  port: 443
+  server: fan.572609.xyz
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: D2436339-0F26-479A-8064-4D91C2B93652
-- name: 27|🇰🇷KR-52.79.98.24-5217
+  type: http
+- name: 27|🇰🇷KR-13.124.200.248-4760
+  password: ND91608427
+  port: 443
+  server: distinct-llama.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-52.79.98.24-4773
   password: NQ26071394
   port: 443
   server: wise-rhino.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-13.124.236.158-5241
+- name: 27|🇰🇷KR-3.35.140.206-4779
+  password: NQ26071394
+  port: 443
+  server: devoted-heron.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-13.125.211.246-4781
+  password: CF68213490
+  port: 443
+  server: smooth-lark.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-43.203.121.129-4798
   password: ND91608427
   port: 443
-  server: informed-alpaca.rooster465.autos
+  server: next-turkey.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.204.13-5243
+- name: 27|🇰🇷KR-43.203.204.13-4799
   password: AE62539071
   port: 443
   server: teaching-gnu.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-54.180.239.104-5245
-  password: AE62539071
-  port: 443
-  server: tough-hermit.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-15.165.76.91-5246
+- name: 27|🇰🇷KR-15.165.76.91-4802
   password: ND91608427
   port: 443
   server: star-kiwi.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.214.65-5247
+- name: 27|🇰🇷KR-43.203.214.65-4803
   password: ND91608427
   port: 443
   server: careful-tadpole.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.172.207-5286
+- name: 27|🇰🇷KR-43.203.172.207-4842
   password: IL37892054
   port: 443
   server: upright-rhino.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.35.156.69-5315
+- name: 27|🇰🇷KR-3.35.156.69-4871
   password: ND91608427
   port: 443
   server: wise-bengal.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-52.78.121.69-5325
+- name: 27|🇰🇷KR-52.78.121.69-4881
   password: CF68213490
   port: 443
   server: eternal-woodcock.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-52.78.235.153-5326
-  password: NQ26071394
-  port: 443
-  server: worthy-labrador.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.203.172.115-5329
-  password: CF68213490
-  port: 443
-  server: funny-hen.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.203.214.247-5330
-  password: CF68213490
-  port: 443
-  server: loyal-molly.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.36.52.203-5331
+- name: 27|🇰🇷KR-3.36.52.203-4887
   password: NQ26071394
   port: 443
   server: inviting-rabbit.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.34.96.227-5333
+- name: 27|🇰🇷KR-3.36.76.91-4888
+  password: CF68213490
+  port: 443
+  server: moved-bluegill.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.34.96.227-4889
   password: CF68213490
   port: 443
   server: musical-manatee.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-52.78.158.178-5334
-  password: CF68213490
-  port: 443
-  server: smiling-fowl.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.202.1.241-5335
+- name: 27|🇰🇷KR-43.202.1.241-4891
   password: CF68213490
   port: 443
   server: star-moray.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-13.125.69.162-5337
+- name: 27|🇰🇷KR-13.125.69.162-4893
   password: IL37892054
   port: 443
   server: engaging-toucan.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.201.100.128-5338
+- name: 27|🇰🇷KR-43.201.100.128-4894
   password: CF68213490
   port: 443
   server: summary-firefly.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.201.249.3-5339
-  password: NQ26071394
+- name: 27|🇰🇷KR-13.124.155.60-4899
+  password: AE62539071
   port: 443
-  server: magical-prawn.rooster465.autos
+  server: clear-heron.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.203.122.206-5346
-  password: CF68213490
-  port: 443
-  server: gentle-honeybee.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-43.202.54.120-5366
+- name: 27|🇰🇷KR-43.202.54.120-4922
   password: NQ26071394
   port: 443
   server: grand-grub.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.34.133.62-5371
-  password: FH72359861
-  port: 443
-  server: good-hound.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.34.192.47-5372
-  password: CF68213490
-  port: 443
-  server: central-jawfish.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.35.207.188-5374
+- name: 27|🇰🇷KR-3.35.207.188-4930
   password: PD07395842
   port: 443
   server: main-fawn.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.38.181.59-5379
+- name: 27|🇰🇷KR-54.180.128.171-4932
+  password: NQ26071394
+  port: 443
+  server: accurate-cat.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-13.124.56.133-4934
+  password: NQ26071394
+  port: 443
+  server: living-hagfish.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.38.181.59-4935
   password: NQ26071394
   port: 443
   server: neat-octopus.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.201.100.239-5416
-  password: CF68213490
-  port: 443
-  server: caring-wallaby.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.38.166.184-5423
+- name: 27|🇰🇷KR-3.38.166.184-4979
   password: CF68213490
   port: 443
   server: eager-platypus.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-3.34.132.193-5424
-  password: NQ26071394
-  port: 443
-  server: internal-peacock.rooster465.autos
-  type: trojan
-- name: 27|🇰🇷KR-3.34.96.252-5427
+- name: 27|🇰🇷KR-3.35.156.157-4989
   password: ND91608427
   port: 443
-  server: gentle-raptor.rooster465.autos
+  server: pet-ghost.rooster465.autos
   type: trojan
-- name: 27|🇰🇷KR-43.200.254.103-5437
-  password: NQ26071394
+- name: 27|🇰🇷KR-3.36.61.228-4992
+  password: ND91608427
   port: 443
-  server: warm-bass.rooster465.autos
+  server: large-baboon.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-43.201.5.9-4996
+  password: FH72359861
+  port: 443
+  server: apt-whippet.rooster465.autos
+  type: trojan
+- name: 27|🇰🇷KR-3.39.225.215-4852
+  password: AE62539071
+  port: 443
+  server: kind-stork.rooster465.autos
   type: trojan

@@ -3,6 +3,22 @@ proxies:
   port: 8095
   server: 194.61.232.13
   type: http
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 15|U⚪🏳️_dokng.com_81ed1f80
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: 64c1fe36c7846400
+  server: 195.133.73.65
+  servername: anyfile2file.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
+  xudp: true
 - name: 15|A🟢🇷🇺[🎪✨📦]_dokng.com_a2d8e877
   port: 8095
   server: 193.19.190.59

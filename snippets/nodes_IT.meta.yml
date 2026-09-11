@@ -1,5 +1,5 @@
 proxies:
-- name: 15,21|🇮🇹IT_1|1.0MB/s
+- name: 15,21,28|🇮🇹IT_1|3.0MB/s
   password: None
   port: 443
   server: 185.183.105.130
@@ -13,7 +13,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,21|🇮🇹IT_2|1.7MB/s
+- name: 15,21,28|🇮🇹IT_2|3.2MB/s
   password: None
   port: 443
   server: 185.183.105.146

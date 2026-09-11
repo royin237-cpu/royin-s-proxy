@@ -1,4 +1,19 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|🇨🇳 CN 485 → tg@nicevpn123
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: m.cnmjin.net
+    path: /
 - name: 11|🇩🇪 DE 3 → tg@nicevpn123
   password: 0fe4bbdb-2854-4cc5-986c-f62dbb900bc5
   port: 443
@@ -36,30 +51,14 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 19,28|🇭🇰HK_1|3.2MB/s
+  name: 19,27|🇫🇷FR-162.19.192.89-0778
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bc8a58c9-a544-4f85-87cf-274f6eb4d8cb
-  ws-opts:
-    headers:
-      Host: 9531724e3efc3135bdf7f4339b2e04d7.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: '21,28,32|🇮🇳 印度 | IND #1'
-  network: ws
-  port: 16626
-  server: planb.mojcn.com.linuxlh.xin
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: bc8a58c9-a544-4f85-87cf-274f6eb4d8cb
   ws-opts:
     headers:
@@ -67,7 +66,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇷FR-162.19.224.175-1148
+  name: 27|🇫🇷FR-162.19.192.89-0640
+  network: ws
+  port: 16626
+  server: planb.mojcn.com.linuxlh.xin
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bc8a58c9-a544-4f85-87cf-274f6eb4d8cb
+  ws-opts:
+    headers:
+      Host: 9531724e3efc3135bdf7f4339b2e04d7.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 27|🇫🇷FR-162.19.224.175-1335
   network: ws
   port: 80
   server: 162.19.224.175
@@ -79,20 +92,20 @@ proxies:
     headers:
       Host: 162.19.224.175
     path: /vmess
-- name: 27|🇫🇷FR-51.38.99.96-1922
+- name: 27|🇫🇷FR-51.38.99.96-1476
   password: b8808043-6566-4923-9195-e66bfb553d57
   port: 443
   server: 51.38.99.96
   sni: ba24.ir
   type: trojan
-- name: 27|🇫🇷FR-141.94.76.177-2997
+- name: 27|🇫🇷FR-141.94.76.177-2553
   password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
   port: 443
   server: 141.94.76.177
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇷FR-51.159.2.152-2998
+  name: 27|🇫🇷FR-51.159.2.152-2554
   network: ws
   port: 80
   server: 51.159.2.152
@@ -104,7 +117,7 @@ proxies:
     headers:
       Host: 51.159.2.152
     path: /
-- name: 27|🇫🇷FR-51.195.219.173-4817
+- name: 27|🇫🇷FR-51.195.219.173-4373
   password: 0f5e6d9a-49af-4bc0-b04b-503102382144
   port: 443
   server: 51.195.219.173
@@ -112,7 +125,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇷FR-51.83.97.167-7173
+  name: 27|🇫🇷FR-51.83.97.167-6729
   network: ws
   port: 80
   server: 51.83.97.167
@@ -126,7 +139,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇷FR-152.228.191.232-7235
+  name: 27|🇫🇷FR-152.228.191.232-6791
   network: ws
   port: 443
   server: 152.228.191.232
@@ -138,25 +151,25 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
     path: /ray
-- name: 27|🇫🇷FR-51.159.59.186-7388
+- name: 27|🇫🇷FR-51.159.59.186-6944
   password: 9498f3a0-2992-11ee-a4c7-1239d0255272
   port: 443
   server: fr.test3.net
   sni: zula.ir
   type: trojan
-- name: 27|🇫🇷FR-51.91.11.29-7509
+- name: 27|🇫🇷FR-51.91.11.29-7065
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   port: 80
   server: 51.91.11.29
   sni: namayesh.com
   type: trojan
-- name: 27|🇫🇷FR-51.91.11.29-7511
+- name: 27|🇫🇷FR-51.91.11.29-7067
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   port: 80
   server: 51.91.11.29
   sni: asriran.com
   type: trojan
-- name: 27|🇫🇷FR-51.91.11.29-7515
+- name: 27|🇫🇷FR-51.91.11.29-7071
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   port: 80
   server: 51.91.11.29
@@ -164,7 +177,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇷FR-217.182.76.202-7746
+  name: 27|🇫🇷FR-217.182.76.202-7302
   network: ws
   port: 443
   server: 217.182.76.202
@@ -178,22 +191,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 33|未知110
-  network: ws
-  port: 80
-  server: fr3.niekotin.de
+  name: 33|未知10
+  network: tcp
+  port: 2053
+  server: fr.connfull.org
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 59e29918-53b3-4fa2-becf-56a601f33998
-  ws-opts:
-    headers:
-      Host: fr3.niekotin.de
-      host: fr3.niekotin.de
-    path: /vmess
+  uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
 - alterId: 0
   cipher: auto
-  name: 33|未知111
+  name: 33|未知20
   network: ws
   port: 443
   server: 90.127.143.135
@@ -208,26 +216,11 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: 33|未知133
-  network: ws
-  port: 16617
-  server: planb.mojcn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 82e6295c-9db7-4601-ab15-054a5e6129f4
-  ws-opts:
-    headers:
-      Host: planb.mojcn.com
-      host: 0e3b7b2b2adaf5b7929ddd31a8489521.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 33|未知147
+  name: 33|US10
   network: tcp
-  port: 2053
-  server: fr.connfull.org
+  port: 6718
+  server: frkonkor.velmor.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
+  uuid: 1c46e7ee-ba01-4d3d-8625-7752253f70ac

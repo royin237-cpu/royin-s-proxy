@@ -1,15 +1,15 @@
 proxies:
-- name: 27|🇩🇪DE-3.122.55.145-5321
+- name: 27|🇩🇪DE-3.122.55.145-4877
   password: PD07395842
   port: 443
   server: certain-egret.rooster465.autos
   type: trojan
-- name: 27|🇩🇪DE-18.192.67.47-5336
-  password: NQ26071394
+- name: 27|🇩🇪DE-3.67.79.54-4897
+  password: CF68213490
   port: 443
-  server: direct-hawk.rooster465.autos
+  server: composed-sheep.rooster465.autos
   type: trojan
-- name: 27|🇩🇪DE-3.75.76.74-5354
+- name: 27|🇩🇪DE-3.75.76.74-4910
   password: CF68213490
   port: 443
   server: fair-werewolf.rooster465.autos
