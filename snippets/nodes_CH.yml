@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- name: 27|🇨🇭CH-91.245.225.79-0619
+  network: ws
+  password: humanity
+  port: 2053
+  server: 91.245.225.79
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    path: /assignment

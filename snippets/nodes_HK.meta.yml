@@ -31,7 +31,7 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: admin
-- name: 27|🇭🇰HK-91.199.84.204-5252
+- name: 27|🇭🇰HK-91.199.84.204-5264
   password: XG59623478
   port: 443
   server: growing-oyster.rooster465.autos

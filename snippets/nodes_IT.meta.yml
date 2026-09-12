@@ -1,27 +1,22 @@
 proxies:
-- name: 15|D🔴🇮🇹[🤖📺🎭📦]_dokng.com_d1cc6278
-  port: 443
-  server: 91.243.118.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 15,28|🇮🇹IT_2|1.5MB/s
-  password: None
-  port: 443
-  server: 185.183.105.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15|A🟢🇮🇹[📺🎭📦✈️]_dokng.com_8d725197
   port: 443
   server: 178.237.4.200
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|D🔴🇮🇹[📦]_dokng.com_9b8722f4
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|U⚪🏳️_dokng.com_65aa6969
+  network: tcp
   port: 443
-  server: 109.116.41.154
+  reality-opts:
+    public-key: SjGkzJQ9I6ZZjC3V73atcPMczhMm0oiTrB8mUQXz1HY
+    short-id: 37fbf155c7a9f3ff
+  server: 82.118.16.189
+  servername: www.cloudflare.com
   skip-cert-verify: true
+  tfo: false
   tls: true
-  type: http
+  type: vless
+  uuid: d5e5f5a1-0f23-4c49-af9f-4be445bf9d8e

@@ -1,23 +1,19 @@
 proxies:
-- client-fingerprint: qq
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 15|U⚪🏳️_dokng.com_a8482bc1
+  name: 15,21|🇬🇧GB_8|1.5MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
-    short-id: ''
-  server: 176.96.138.122
-  servername: plucky-xenon.cdn.cachefleet.com
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: 8ffa160e608bf539
+  server: 31.76.20.209
+  servername: de.pinkmoon.pro
   tls: true
   type: vless
   udp: true
-  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
   xudp: true
 - client-fingerprint: qq
   encryption: none
@@ -49,28 +45,20 @@ proxies:
   port: 11111
   server: 103.237.102.191
   type: http
-- name: 15,21|🇩🇪DE_2|3.1MB/s
+- name: 15|C🟠🇩🇪[🤖📺🎪✨]_dokng.com_cb6cfa3e
   password: None
-  port: 443
+  port: 9443
   server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_16307951
+- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_f467085f
   port: 443
-  server: 138.201.56.241
+  server: 185.44.107.166
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|C🟠🇩🇪[📺🎪]_dokng.com_5ed03181
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15|C🟠🇩🇪[🎬🤖📺🎪]_dokng.com_febed325
   password: None
   port: 443
@@ -88,21 +76,24 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 15|A🟢🇩🇪[📺]_dokng.com_2a8612b7
-  password: 'null'
-  port: 443
-  server: fan.973511.xyz
-  tls: true
-  type: http
-  username: 'null'
 - name: 15|A🟢🇩🇪[📺🎭🎪📦]_dokng.com_3ec79ed3
   port: 443
   server: 141.17.83.73
   skip-cert-verify: true
   tls: true
   type: http
-- name: 27|🇩🇪DE-18.192.67.47-5220
-  password: NQ26071394
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 15,35|DE - zhuhai.uk 02
+  network: tcp
   port: 443
-  server: direct-hawk.rooster465.autos
-  type: trojan
+  reality-opts:
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: 8ffa160e608bf539
+  server: 84.21.173.246
+  servername: de.pinkmoon.pro
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5

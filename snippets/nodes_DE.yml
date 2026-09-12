@@ -1,6 +1,549 @@
 proxies:
-- name: 27|🇩🇪DE-18.192.67.47-5220
-  password: NQ26071394
+- alterId: 0
+  cipher: auto
+  name: 11|🇩🇪 DE 16 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 92.223.124.36
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0688b7c7-72e9-442e-95a0-d3b950028c39
+  ws-opts:
+    headers:
+      Host: 92.223.124.36
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸 US 1034 → tg@nicevpn123
+  network: ws
   port: 443
-  server: direct-hawk.rooster465.autos
+  server: 23.158.56.229
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.158.56.229
+    path: /linkvws
+- name: 11|🇺🇸 US 1059 → tg@nicevpn123
+  password: a6f2dfa2-dfde-46db-9b0d-29f8c9032ed5
+  port: 443
+  server: 164.90.167.242
+  skip-cert-verify: true
   type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 11,19,27,33|未知50
+  network: ws
+  port: 443
+  server: jahfkjha.cfd
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: jahfkjha.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸 US 48 → tg@nicevpn123
+  port: 80
+  server: 168.119.160.232
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
+- client-fingerprint: chrome
+  name: 15|D🔴🇫🇷[🤖📺🎭🎪]_dokng.com_1935be73
+  network: ws
+  password: humanity
+  port: 443
+  server: 88.198.82.150
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  name: 21,28,30|tg频道:@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
+- name: 27|🇩🇪DE-82.117.245.125-0632
+  network: ws
+  password: humanity
+  port: 2053
+  server: 82.117.245.125
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-91.195.240.12-0666
+  network: ws
+  port: 443
+  server: sgp.kapok.buzz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85
+  ws-opts:
+    headers:
+      Host: sgp.kapok.buzz
+    path: /4befdd8a6/
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-85.215.41.19-0759
+  network: ws
+  port: 443
+  server: 85.215.41.19
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-212.95.34.195-0766
+  network: ws
+  port: 443
+  server: 212.95.34.195
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 27|🇺🇸US-23.11.32.159-1091
+  network: ws
+  port: 443
+  server: cacerts.digicert.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-opts:
+    headers:
+      Host: cacerts.digicert.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-157.90.20.18-1180
+  network: http
+  port: 443
+  server: 157.90.20.18
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-94.130.25.155-1182
+  network: http
+  port: 443
+  server: 94.130.25.155
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-167.235.136.155-1183
+  network: http
+  port: 443
+  server: 167.235.136.155
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-94.130.184.57-3023
+  network: ws
+  port: 80
+  server: 94.130.184.57
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c5e523e7-da73-40af-a4a9-c638720c30e1
+  ws-opts:
+    headers:
+      Host: 94.130.184.57
+    path: /graphql
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-162.55.174.135-3141
+  network: ws
+  port: 80
+  server: 162.55.174.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4d9aa6db-705a-4bfa-b05b-8f442c839557
+  ws-opts:
+    headers:
+      Host: 162.55.174.135
+    path: /graphql
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-162.55.62.193-3259
+  network: ws
+  port: 80
+  server: 162.55.62.193
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
+  ws-opts:
+    headers:
+      Host: 162.55.62.193
+    path: /telegram-id-@privatevpns
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-5.75.173.189-3279
+  network: ws
+  port: 80
+  server: 5.75.173.189
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
+  ws-opts:
+    headers:
+      Host: 5.75.173.189
+    path: /telegram-id-@privatevpns
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-78.46.129.226-3315
+  network: ws
+  port: 80
+  server: 78.46.129.226
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
+  ws-opts:
+    headers:
+      Host: 78.46.129.226
+    path: /telegram-id-@privatevpns
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-167.235.78.112-3357
+  network: ws
+  port: 80
+  server: 167.235.78.112
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
+  ws-opts:
+    headers:
+      Host: 167.235.78.112
+    path: /telegram-id-@privatevpns
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-188.40.132.107-4207
+  network: ws
+  port: 80
+  server: 188.40.132.107
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
+  ws-opts:
+    headers:
+      Host: 188.40.132.107
+    path: /p3573l6m92h1ham3q23t
+- name: 27|🇩🇪DE-3.122.55.145-5233
+  password: PD07395842
+  port: 443
+  server: certain-egret.rooster465.autos
+  type: trojan
+- name: 27|🇩🇪DE-3.126.50.169-5235
+  password: PD07395842
+  port: 443
+  server: key-pony.rooster465.autos
+  type: trojan
+- name: 27|🇩🇪DE-3.75.76.74-5248
+  password: CF68213490
+  port: 443
+  server: fair-werewolf.rooster465.autos
+  type: trojan
+- name: 27|🇩🇪DE-63.178.193.118-5279
+  password: ND91608427
+  port: 443
+  server: tidy-gelding.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-111.88.74.167-5367
+  network: ws
+  port: 443
+  server: 111.88.74.167
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 27|🇩🇪DE-64.188.106.254-5377
+  network: ws
+  port: 443
+  server: 64.188.106.254
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- grpc-opts:
+    grpc-service-name: trojangrpc
+  name: 27|🇩🇪DE-95.179.254.136-7338
+  network: grpc
+  password: mainssh-ddoejfv14
+  port: 443
+  server: 95.179.254.136
+  sni: frtgrpc.mainssh.xyz
+  type: trojan
+- grpc-opts:
+    grpc-service-name: trojangrpc
+  name: 27|🇩🇪DE-95.179.246.122-7340
+  network: grpc
+  password: mainssh-niwrhf87
+  port: 443
+  server: 95.179.246.122
+  sni: getgrpc.mainssh.xyz
+  type: trojan
+- grpc-opts:
+    grpc-service-name: trojangrpc
+  name: 27|🇩🇪DE-108.61.171.167-8097
+  network: grpc
+  password: mainssh-niwrhf87
+  port: 443
+  server: 108.61.171.167
+  sni: getgrpc.mainssh.xyz
+  type: trojan
+- alterId: 0
+  name: 33|🇺🇦UA乌克兰
+  network: ws
+  password: humanity
+  port: 2053
+  server: 82.117.245.125
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 33|未知14
+  network: ws
+  port: 443
+  server: 94.159.105.148
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: 94.159.105.148
+      host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 33|未知19
+  network: ws
+  port: 443
+  server: 89.127.218.61
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: 89.127.218.61
+      host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 33|未知30
+  network: ws
+  port: 23981
+  server: 176.65.140.210
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 18c1c45d-95bf-435b-ae4c-7eb96f793af4
+  ws-opts:
+    headers:
+      Host: 176.65.140.210
+      host: bobo.badrangteb.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 33|未知36 64.7KB/s
+  network: ws
+  port: 443
+  server: 84.75.76.16
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: 84.75.76.16
+      host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 33|未知66
+  network: ws
+  port: 443
+  server: 13.140.28.46
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: 13.140.28.46
+      host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 33|未知79
+  network: ws
+  port: 443
+  server: 194.164.192.16
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: 194.164.192.16
+      host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+- alterId: 0
+  cipher: auto
+  name: 33|US14 175.6MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 33|未知111
+  network: tcp
+  port: 443
+  server: 167.235.28.242
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 33|未知116
+  network: ws
+  port: 443
+  server: 111.88.74.167
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: 111.88.74.167
+      host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 33|未知119
+  network: ws
+  port: 28267
+  server: 176.65.140.210
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 18c1c45d-95bf-435b-ae4c-7eb96f793af4
+  ws-opts:
+    headers:
+      Host: 176.65.140.210
+      host: bobo.badrangteb.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 33|未知122
+  network: tcp
+  port: 54102
+  server: de2.pi10.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 113ae61b-d6da-4d08-9221-48595cb8436c
+- alterId: 0
+  cipher: auto
+  name: 33|未知125
+  network: tcp
+  port: 80
+  server: 128.140.109.232
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05a178f9-e6ba-4006-93d7-3d980cdc3a76
+- alterId: 0
+  cipher: auto
+  name: 33|未知128
+  network: ws
+  port: 443
+  server: 82.139.242.5
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: 82.139.242.5
+      host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 33|未知150
+  network: tcp
+  port: 80
+  server: 178.105.210.96
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 78fb1a62-b276-4a13-ab57-f2b87d0f37a5

@@ -1,23 +1,11 @@
 proxies:
-- name: 11|🇸🇬 SG 27 → tg@nicevpn123
-  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
+- name: '26,27|🇸🇬SG-18.143.172.178-0159 #1'
+  password: FH72359861
   port: 443
-  server: 139.162.49.215
-  skip-cert-verify: true
+  server: charming-puma.rooster465.autos
   type: trojan
-  udp: true
-- name: 27|🇸🇬SG-54.254.196.251-5184
-  password: NQ26071394
-  port: 443
-  server: thorough-foxhound.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-47.130.132.222-5192
-  password: NQ26071394
-  port: 443
-  server: calm-muskrat.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-47.128.146.47-5251
-  password: ND91608427
+- name: 27|🇸🇬SG-47.128.146.47-5260
+  password: CF68213490
   port: 443
   server: pure-ram.rooster465.autos
   type: trojan

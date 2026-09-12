@@ -1,15 +1,15 @@
 {
-  "total": 237,
+  "total": 214,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 6
+      "count": 8
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 50
+      "count": 52
     },
     "CN": {
       "flag": "🇨🇳",
@@ -24,7 +24,7 @@
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 21
+      "count": 19
     },
     "CA": {
       "flag": "🇨🇦",
@@ -39,17 +39,17 @@
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 6
+      "count": 4
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 10
+      "count": 9
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 21
+      "count": 3
     },
     "RU": {
       "flag": "🇷🇺",
@@ -59,7 +59,7 @@
     "DE": {
       "flag": "🇩🇪",
       "name": "德国",
-      "count": 12
+      "count": 10
     },
     "SE": {
       "flag": "🇸🇪",
@@ -79,7 +79,7 @@
     "NL": {
       "flag": "🇳🇱",
       "name": "荷兰",
-      "count": 18
+      "count": 16
     },
     "RO": {
       "flag": "🇷🇴",
@@ -104,22 +104,22 @@
     "AU": {
       "flag": "🇦🇺",
       "name": "澳大利亚",
-      "count": 3
+      "count": 2
     },
     "IT": {
       "flag": "🇮🇹",
       "name": "意大利",
-      "count": 4
+      "count": 2
     },
     "ES": {
       "flag": "🇪🇸",
       "name": "西班牙",
-      "count": 1
+      "count": 3
     },
     "BR": {
       "flag": "🇧🇷",
       "name": "巴西",
-      "count": 11
+      "count": 14
     },
     "VN": {
       "flag": "🇻🇳",
@@ -139,16 +139,16 @@
     "PL": {
       "flag": "🇵🇱",
       "name": "波兰",
-      "count": 4
+      "count": 5
     },
     "FI": {
       "flag": "🇫🇮",
       "name": "芬兰",
-      "count": 12
+      "count": 3
     }
   },
-  "update_time": "2026-09-12 23:42",
-  "server_time": "2026-09-12 23:43:41",
+  "update_time": "2026-09-13 00:14",
+  "server_time": "2026-09-13 00:15:58",
   "sources": [
     {
       "index": 0,
@@ -273,7 +273,7 @@
     {
       "index": 24,
       "url": "https://raw.githubusercontent.com/kooker/FreeSubsCheck/main/mihomo.yaml",
-      "nodes": 14
+      "nodes": 3
     },
     {
       "index": 25,
@@ -288,7 +288,7 @@
     {
       "index": 27,
       "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merg",
-      "nodes": 4208
+      "nodes": 4297
     },
     {
       "index": 28,

@@ -1,20 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 15|U⚪🏳️_dokng.com_81ed1f80
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-    short-id: 64c1fe36c7846400
-  server: 195.133.73.65
-  servername: anyfile2file.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
-  xudp: true
 - name: 15|A🟢🇷🇺[🎪📦🔍]_dokng.com_a2d8e877
   port: 8095
   server: 193.19.190.59
@@ -47,7 +31,22 @@ proxies:
   port: 5050
   server: 45.159.0.194
   type: http
-- name: 15|A🟢🇷🇺[✨🔍]_dokng.com_965e2a11
-  port: 4080
-  server: 185.21.156.73
+- name: 15|C🟠🇷🇺[📺🎪✨🎞️]_dokng.com_da465a9c
+  port: 49156
+  server: 45.132.252.25
   type: http
+- client-fingerprint: chrome
+  name: '32|🇩🇪 德国 | DEU 3 #1'
+  network: xhttp
+  port: 443
+  server: 5.23.53.234
+  servername: fin.sdssh-vid.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+  xhttp-opts:
+    mode: auto
+    path: /static/071af6
+    uplink-data-placement: body
+    uplink-http-method: POST

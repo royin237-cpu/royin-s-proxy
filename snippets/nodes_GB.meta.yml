@@ -6,14 +6,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 15,21|🇬🇧GB_4|2.5MB/s
-  password: ''
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - name: 15|D🔴🇬🇧[🤖📺🎭🎪]_dokng.com_00aa40ae
   port: 443
   server: 185.235.0.34
@@ -45,18 +37,6 @@ proxies:
   server: 5.101.149.245
   tls: true
   type: http
-- name: 15|C🟠🇬🇧[🎬🤖📺🎭]_dokng.com_485cc62b
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 15,21,28|🇬🇧GB_2|2.9MB/s
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 15,28|🇬🇧GB_3|1.3MB/s
   password: None
   port: 443
@@ -65,3 +45,24 @@ proxies:
   tls: true
   type: http
   username: null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 15|D🔴🇦🇪[📺🎪📦]_dokng.com_d3a3e68c
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: dc124373ff9327cf
+  server: 5.254.4.131
+  servername: cdn3-42.taobao.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: bd89bec6-43a4-4cf7-9484-d70adeb2853c
+- name: 24,28|🇬🇧GB_1|2.6MB/s
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http

@@ -1,39 +1,30 @@
 proxies:
-- name: 11|🇸🇬 SG 27 → tg@nicevpn123
-  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
+- name: 15|C🟠🇸🇬[🎬🤖📺🎭]_dokng.com_eb0b24e9
   port: 443
-  server: 139.162.49.215
+  server: 154.26.139.24
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 15|D🔴🇸🇬[🎬🤖📺🎭]_dokng.com_26d0e430
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  sni: 92461d2d.acsnet.co
   tls: true
   type: http
-  username: testuser1
-- name: 15|D🔴🇸🇬_dokng.com_8496ce1e
-  password: e4b72b531a2d10900519
+- name: '26,27|🇸🇬SG-18.143.172.178-0159 #1'
+  password: FH72359861
   port: 443
-  server: 104.248.148.240
-  sni: us.acskey.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 27|🇸🇬SG-54.254.196.251-5184
-  password: NQ26071394
-  port: 443
-  server: thorough-foxhound.rooster465.autos
+  server: charming-puma.rooster465.autos
   type: trojan
-- name: 27|🇸🇬SG-47.130.132.222-5192
-  password: NQ26071394
-  port: 443
-  server: calm-muskrat.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-47.128.146.47-5251
-  password: ND91608427
+- name: 27|🇸🇬SG-47.128.146.47-5260
+  password: CF68213490
   port: 443
   server: pure-ram.rooster465.autos
   type: trojan
+- client-fingerprint: firefox
+  name: 32|🇸🇬 新加坡 | SGP 2
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+    short-id: 87829de0e2bb82cb
+  server: 217.217.254.126
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9

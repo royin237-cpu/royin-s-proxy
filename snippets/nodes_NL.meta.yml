@@ -1,11 +1,4 @@
 proxies:
-- name: 11|🇳🇱 NL 9 → tg@nicevpn123
-  password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
-  port: 443
-  server: 142.93.226.128
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_b74edc3f
   port: 443
   server: 185.246.153.42
@@ -13,15 +6,13 @@ proxies:
   sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
   tls: true
   type: http
-- name: 15,28|🇳🇱NL_1|1.4MB/s
-  password: ''
+- name: 15|D🔴🇳🇱[🤖📺🎭🎪]_dokng.com_f89d41d4
   port: 443
-  server: 149.36.51.129
+  server: 103.97.88.154
   skip-cert-verify: true
+  sni: 4a8c2906c96058315dffbc2b0e7ff19b-98005bea43f9ac33.apache-iv.com
   tls: true
   type: http
-  udp: true
-  username: ''
 - name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_f9c49b8d
   password: ''
   port: 9002
@@ -38,11 +29,11 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|D🔴🇳🇱[🎬🤖📺🎭]_dokng.com_03e0c5d2
+- name: 15|C🟠🇳🇱[🎬🤖📺🎭]_dokng.com_0d5bc13d
   password: None
   port: 443
-  server: 157.22.183.72
-  skip-cert-verify: false
+  server: 51.158.243.91
+  skip-cert-verify: true
   tls: true
   type: http
   username: null
@@ -53,24 +44,22 @@ proxies:
   sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
   tls: true
   type: http
+- name: 15|D🔴🇳🇱[📺🎭🎪📦]_dokng.com_c745045d
+  port: 443
+  server: 185.246.153.28
+  skip-cert-verify: true
+  sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
+  tls: true
+  type: http
 - name: 15|A🟢🇳🇱[🎬🤖📺🎭]_dokng.com_1fac1dff
   port: 65432
   server: 87.215.14.228
   type: http
-- name: 15|D🔴🇳🇱[🎬📺🎭🎪]_dokng.com_62caac5f
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 82.196.9.7
-  sni: 52c40907.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 15|D🔴🇳🇱[📦✈️🔍]_dokng.com_94884474
-  port: 443
-  server: 5.255.118.82
-  skip-cert-verify: true
-  tls: true
-  type: http
+- name: 15|D🔴🇳🇱[🎬🤖📺🎪]_dokng.com_e3051f22
+  port: 1080
+  server: 5.255.99.75
+  skip-cert-verify: false
+  type: socks5
 - name: '21,28,34|NL_speednode_0004 #2'
   port: 9002
   server: 84.17.47.125
@@ -106,20 +95,26 @@ proxies:
   tls: true
   type: http
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '21,28,32|🇬🇧 英国 | GBR 2 #1'
-  password: c58d16e593d44f42
-  port: 11001
-  server: 158.173.221.214
-  type: ss
-  udp: true
-- name: 27|🇳🇱NL-78.142.194.96-5208
-  password: LSS6HLnp7IeEEJUcox
-  port: 443
-  server: nl-1.tr202607.com
-  type: trojan
-- name: 27|🇳🇱NL-89.39.70.120-5209
+- name: 27|🇳🇱NL-89.39.70.120-5192
   password: PD07395842
   port: 443
   server: pro-crane.rooster465.autos
   type: trojan
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '32|🇳🇱 荷兰 | NLD #1'
+  network: ws
+  port: 443
+  server: 162.211.231.120
+  servername: decf.xzdq.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4ec2c66e-becd-4c51-9d6d-9ef74b27c95a
+  ws-opts:
+    headers:
+      Host: decf.xzdq.eu.org
+    path: /api/v1/539e86

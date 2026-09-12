@@ -51,7 +51,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇷FR-162.19.192.89-0721
+  name: 27|🇫🇷FR-162.19.192.89-0796
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
@@ -65,7 +65,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇷FR-162.19.224.175-1013
+  name: 27|🇫🇷FR-162.19.224.175-1088
   network: ws
   port: 80
   server: 162.19.224.175
@@ -77,20 +77,20 @@ proxies:
     headers:
       Host: 162.19.224.175
     path: /vmess
-- name: 27|🇫🇷FR-51.38.99.96-1781
+- name: 27|🇫🇷FR-51.38.99.96-1850
   password: b8808043-6566-4923-9195-e66bfb553d57
   port: 443
   server: 51.38.99.96
   sni: ba24.ir
   type: trojan
-- name: 27|🇫🇷FR-141.94.76.177-2854
+- name: 27|🇫🇷FR-141.94.76.177-2927
   password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
   port: 443
   server: 141.94.76.177
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇷FR-51.159.2.152-2855
+  name: 27|🇫🇷FR-51.159.2.152-2928
   network: ws
   port: 80
   server: 51.159.2.152
@@ -102,7 +102,7 @@ proxies:
     headers:
       Host: 51.159.2.152
     path: /
-- name: 27|🇫🇷FR-51.195.219.173-4674
+- name: 27|🇫🇷FR-51.195.219.173-4747
   password: 0f5e6d9a-49af-4bc0-b04b-503102382144
   port: 443
   server: 51.195.219.173
@@ -110,7 +110,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇷FR-51.83.97.167-6940
+  name: 27|🇫🇷FR-51.83.97.167-7052
   network: ws
   port: 80
   server: 51.83.97.167
@@ -124,7 +124,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇷FR-152.228.191.232-7002
+  name: 27|🇫🇷FR-152.228.191.232-7114
   network: ws
   port: 443
   server: 152.228.191.232
@@ -136,25 +136,25 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
     path: /ray
-- name: 27|🇫🇷FR-51.159.59.186-7155
+- name: 27|🇫🇷FR-51.159.59.186-7267
   password: 9498f3a0-2992-11ee-a4c7-1239d0255272
   port: 443
   server: fr.test3.net
   sni: zula.ir
   type: trojan
-- name: 27|🇫🇷FR-51.91.11.29-7276
+- name: 27|🇫🇷FR-51.91.11.29-7388
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   port: 80
   server: 51.91.11.29
   sni: namayesh.com
   type: trojan
-- name: 27|🇫🇷FR-51.91.11.29-7278
+- name: 27|🇫🇷FR-51.91.11.29-7390
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   port: 80
   server: 51.91.11.29
   sni: asriran.com
   type: trojan
-- name: 27|🇫🇷FR-51.91.11.29-7282
+- name: 27|🇫🇷FR-51.91.11.29-7394
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   port: 80
   server: 51.91.11.29
@@ -162,7 +162,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇷FR-217.182.76.202-7513
+  name: 27|🇫🇷FR-217.182.76.202-7625
   network: ws
   port: 443
   server: 217.182.76.202

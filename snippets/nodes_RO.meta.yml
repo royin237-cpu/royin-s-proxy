@@ -55,12 +55,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 15|D🔴🇷🇴[🎬📺🎭🎪]_dokng.com_c6f7e82e
-  port: 9002
-  server: 193.176.84.29
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 15|D🔴🇷🇴[🎬🤖📺🎭]_dokng.com_25d4aed1
   port: 9002
   server: 193.176.84.21
@@ -108,10 +102,27 @@ proxies:
   type: http
   udp: true
   username: null
-- name: 15|A🟢🇷🇴[🤖📺🎭🎪]_dokng.com_42a8774f
-  port: 8787
-  server: 89.40.77.249
-  type: http
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 15,21|🇷🇴 罗马尼亚 | ROU
+  network: tcp
+  port: 443
+  server: roma2.moritech.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- flow: xtls-rprx-vision
+  name: '21,22|🇷🇴_RO_罗马尼亚 #1'
+  port: 443
+  server: roma1.moritech.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
 - name: '21,28,34|RO_speednode_0045 #2'
   port: 9002
   server: 193.176.84.17

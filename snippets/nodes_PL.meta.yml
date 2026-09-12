@@ -1,26 +1,35 @@
 proxies:
-- name: 15|D🔴🇵🇱[🤖📺🎭🎪]_dokng.com_6d895544
-  password: None
-  port: 443
-  server: 37.120.156.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_68a292a0
-  password: None
-  port: 443
-  server: 151.115.54.133
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: 15|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_805ac382
   port: 7778
   server: 91.238.54.189
   type: http
-- name: 27|🇵🇱PL-202.78.163.173-5212
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 21|🇵🇱 波兰 | POL
+  network: tcp
+  port: 443
+  server: poland-viper.moritech.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 21|🇵🇱 波兰 | POL 3
+  network: tcp
+  port: 443
+  server: poland-new-ded.failspace.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- name: 27|🇵🇱PL-202.78.163.173-5194
   password: WF42809561
   port: 443
   server: top-goshawk.rooster465.autos
+  type: trojan
+- name: 27|🇵🇱PL-202.78.163.19-5201
+  password: AE62539071
+  port: 443
+  server: game-firefly.rooster465.autos
   type: trojan

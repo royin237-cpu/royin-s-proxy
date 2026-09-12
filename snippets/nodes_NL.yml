@@ -1,24 +1,5 @@
 proxies:
-- name: 11|🇳🇱 NL 9 → tg@nicevpn123
-  password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
-  port: 443
-  server: 142.93.226.128
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '21,28,32|🇬🇧 英国 | GBR 2 #1'
-  password: c58d16e593d44f42
-  port: 11001
-  server: 158.173.221.214
-  type: ss
-  udp: true
-- name: 27|🇳🇱NL-78.142.194.96-5208
-  password: LSS6HLnp7IeEEJUcox
-  port: 443
-  server: nl-1.tr202607.com
-  type: trojan
-- name: 27|🇳🇱NL-89.39.70.120-5209
+- name: 27|🇳🇱NL-89.39.70.120-5192
   password: PD07395842
   port: 443
   server: pro-crane.rooster465.autos
