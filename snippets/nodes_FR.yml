@@ -188,7 +188,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 33|未知49
+  name: 33|未知3
   network: ws
   port: 80
   server: fr3.niekotin.de
@@ -203,17 +203,17 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 33|未知80
+  name: '33|US #3'
   network: tcp
-  port: 2053
-  server: fr.connfull.org
+  port: 6718
+  server: frkonkor.velmor.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
+  uuid: 1c46e7ee-ba01-4d3d-8625-7752253f70ac
 - alterId: 0
   cipher: auto
-  name: 33|未知152
+  name: 33|未知121
   network: ws
   port: 16617
   server: planb.mojcn.com

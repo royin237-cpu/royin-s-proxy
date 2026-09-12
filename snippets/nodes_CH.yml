@@ -1,5 +1,5 @@
 proxies:
-- name: '21,32|🇨🇭 瑞士 | CHE #1'
+- name: 21|🇨🇭 瑞士 | CHE
   network: ws
   password: humanity
   port: 2053

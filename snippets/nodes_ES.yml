@@ -8,11 +8,12 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 19|乌克兰 002
+  name: 19,33|未知66
   network: tcp
   port: 22324
   server: 85.90.217.42
   skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - name: 27|🇪🇸ES-185.114.72.31-0603

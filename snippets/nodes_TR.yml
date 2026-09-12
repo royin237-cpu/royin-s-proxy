@@ -13,3 +13,13 @@ proxies:
     headers:
       Host: 45.94.169.142
     path: /wss13889
+- alterId: 0
+  cipher: auto
+  name: 33|未知75
+  network: tcp
+  port: 62984
+  server: 91.228.227.175
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 62d79906-0850-4a95-aa23-6c827211fe6e

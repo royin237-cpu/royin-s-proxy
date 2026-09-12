@@ -33,10 +33,11 @@ proxies:
   port: 443
   server: brief-warthog.rooster465.autos
   type: trojan
-- name: 35|JP - zhuhai.uk
+- name: 35|JP - zhuhai.uk 04
   password: 'null'
   port: 443
   server: fan.571589.xyz
+  skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
