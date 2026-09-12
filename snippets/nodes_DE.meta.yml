@@ -6,25 +6,19 @@ proxies:
     headers: {}
     path:
     - /
-  name: '15,21,22|🇩🇪_DE_德国 #1'
+  name: 15|U⚪🏳️_dokng.com_a8482bc1
   network: tcp
   port: 443
   reality-opts:
-    public-key: 1sSmdw90uTiGuitDvp_q8zcXTcHXKQS3IVjA7T1UNiY
-  server: 2.59.134.226
-  servername: rich-falcon.cdn.cachefleet.com
-  skip-cert-verify: true
+    public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
+    short-id: ''
+  server: 176.96.138.122
+  servername: plucky-xenon.cdn.cachefleet.com
   tls: true
   type: vless
   udp: true
-  uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
+  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
   xudp: true
-- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_7204598f
-  password: None
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: null
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
@@ -32,42 +26,30 @@ proxies:
     headers: {}
     path:
     - /
-  name: '15,21,22|🇩🇪_DE_德国_2 #1'
+  name: 15|U⚪🏳️_dokng.com_7169e124
   network: tcp
   port: 443
   reality-opts:
-    public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
-  server: 176.96.138.122
-  servername: plucky-xenon.cdn.cachefleet.com
-  skip-cert-verify: true
+    public-key: 1sSmdw90uTiGuitDvp_q8zcXTcHXKQS3IVjA7T1UNiY
+    short-id: ''
+  server: 2.59.134.226
+  servername: rich-falcon.cdn.cachefleet.com
   tls: true
   type: vless
   udp: true
-  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
+  uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
   xudp: true
-- name: 15,21|🇩🇪DE_3|2.1MB/s
+- name: 15,21|🇩🇪DE_1|2.9MB/s
   port: 443
-  server: 138.201.56.241
+  server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15,21,28|🇩🇪DE_4|2.1MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
+- name: 15|D🔴🇩🇪[🤖📺🎭🎪]_dokng.com_a6798538
+  port: 11111
+  server: 103.237.102.191
   type: http
-  username: null
-- name: 15,28|🇩🇪DE_3|1.0MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_46d7d8b2
+- name: 15,21|🇩🇪DE_2|3.1MB/s
   password: None
   port: 443
   server: 87.249.132.97
@@ -75,21 +57,29 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 15|C🟠🇩🇪[🤖📺🎪✨]_dokng.com_622cadae
+- name: 15|C🟠🇩🇪[🎬🤖📺🎭]_dokng.com_16307951
+  port: 443
+  server: 138.201.56.241
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 15|C🟠🇩🇪[📺🎪]_dokng.com_5ed03181
   password: None
   port: 443
-  server: 149.36.50.129
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 15,21|🇩🇪DE_5|2.6MB/s
+- name: 15|C🟠🇩🇪[🎬🤖📺🎪]_dokng.com_febed325
+  password: None
   port: 443
-  server: 141.17.83.73
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|D🔴🇩🇪[📺🎭🎪]_dokng.com_62113475
+  username: null
+- name: 15|D🔴🇩🇪[🎬🤖📺🎭]_dokng.com_62113475
   password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190
@@ -98,31 +88,20 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 15|A🟢🇩🇪[🤖📺🎭🎪]_dokng.com_b8f89117
-  password: None
+- name: 15|A🟢🇩🇪[📺]_dokng.com_2a8612b7
+  password: 'null'
   port: 443
   server: fan.973511.xyz
-  skip-cert-verify: false
   tls: true
   type: http
-  username: null
-- client-fingerprint: chrome
-  name: 19|美国 531
-  network: ws
-  port: 2096
-  server: 64.226.95.244
-  servername: cf3.schzyc.cc.cd
-  skip-cert-verify: false
-  tfo: false
+  username: 'null'
+- name: 15|A🟢🇩🇪[📺🎭🎪📦]_dokng.com_3ec79ed3
+  port: 443
+  server: 141.17.83.73
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  ws-opts:
-    headers:
-      Host: cf3.schzyc.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- name: 27|🇩🇪DE-18.192.67.47-4903
+  type: http
+- name: 27|🇩🇪DE-18.192.67.47-5220
   password: NQ26071394
   port: 443
   server: direct-hawk.rooster465.autos

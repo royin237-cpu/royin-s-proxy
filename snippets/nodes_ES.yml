@@ -1,14 +1,14 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 15|D🔴🇪🇸_dokng.com_987b7b59
-  password: wBYiDjDDyFqcBnNl
-  port: 8388
-  server: 64.177.32.29
+- cipher: aes-256-cfb
+  name: 11|🇷🇺 RU 13 → tg@nicevpn123
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  server: 5.188.181.201
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 19,33|未知66
+  name: 33|未知126 525.2KB/s
   network: tcp
   port: 22324
   server: 85.90.217.42
@@ -16,12 +16,3 @@ proxies:
   tls: true
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- name: 27|🇪🇸ES-185.114.72.31-0603
-  network: ws
-  password: humanity
-  port: 2053
-  server: 185.114.72.31
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    path: /assignment

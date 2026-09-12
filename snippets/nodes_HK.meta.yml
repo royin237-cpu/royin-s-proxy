@@ -1,36 +1,37 @@
 proxies:
-- name: 15,28|🇭🇰HK_2|3.0MB/s
+- name: 15|D🔴🇭🇰[🎬📺🎭✨]_dokng.com_0c553a5d
   port: 1080
   server: 47.76.175.249
   type: socks5
-- name: 15|C🟠🇭🇰[🎬📺🎭📦]_dokng.com_da7c41d8
+- name: 15,35|HK - zhuhai.uk 02
   password: admin
   port: 1080
   server: 47.239.116.165
   type: socks5
   username: admin
-- name: 15|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_de4eaa15
-  port: 443
-  server: fan.240104.xyz
-  skip-cert-verify: true
-  sni: fan.240104.xyz
-  tls: true
-  type: http
-- name: 15|C🟠🇭🇰[📺📦]_dokng.com_099454ad
+- name: 15|C🟠🇭🇰_dokng.com_099454ad
   password: '!!str 111'
   port: 11211
   server: 47.243.173.50
   skip-cert-verify: true
   type: socks5
   username: '111'
-- name: 15|C🟠🇭🇰_dokng.com_db363b3a
+- name: 15|D🔴🇭🇰[🎬📺🎭🎪]_dokng.com_d21277d2
+  password: 'null'
+  port: 443
+  server: fan.240104.xyz
+  sni: fan.240104.xyz
+  tls: true
+  type: http
+  username: 'null'
+- name: 15|C🟠🇭🇰[📺📦]_dokng.com_db363b3a
   password: admin
   port: 8899
   server: 47.242.19.215
   skip-cert-verify: true
   type: socks5
   username: admin
-- name: 27|🇭🇰HK-91.199.84.204-4935
+- name: 27|🇭🇰HK-91.199.84.204-5252
   password: XG59623478
   port: 443
   server: growing-oyster.rooster465.autos

@@ -21,7 +21,11 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 15|D🔴🇻🇳[🤖📺🎪]_dokng.com_701d262f
+- name: 15|D🔴🇻🇳[🎬]_dokng.com_4f5e062e
+  port: 9999
+  server: 163.181.207.230
+  type: http
+- name: 15|D🔴🇻🇳[🎬🤖✈️🔍]_dokng.com_701d262f
   port: 9999
   server: 163.181.207.213
   type: http
@@ -69,7 +73,7 @@ proxies:
     path: /tandung288.click
 - alterId: 0
   cipher: auto
-  name: 27|🇻🇳VN-103.82.25.106-7845
+  name: 27|🇻🇳VN-103.82.25.106-8162
   network: ws
   port: 80
   server: 103.82.25.106

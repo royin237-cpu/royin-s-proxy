@@ -1,114 +1,158 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_6a5b0ff9
-  port: 443
-  reality-opts:
-    public-key: aTPjxfJ5QPGxYRyQ8SRnYwyXUhuasda7i5Dc5VoKxVY
-    short-id: 4c9fbcb1
-  server: 7fc98f3e-f9da-4062-9a0f-1940a38e3a38.a779f8b2-5d90-4830-bd21-3005d997ccd6.smartprivatelink.com
-  servername: www.samsung.com
+- name: 15|A🟢🇹🇼[🎬🤖📺🎭]_dokng.com_65a5452e
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
   skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 06cf100d-ca6d-4ebe-b44a-1bb15b8346cf
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - name: 15|A🟢🇹🇼_dokng.com_c5568042
   password: '!!str 111'
   port: 1080
   server: 106.107.236.110
   type: socks5
   username: '111'
-- alterId: 0
-  cipher: auto
-  name: 19|加拿大 003
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
+- client-fingerprint: chrome
+  name: '21,22|🇹🇼_TW_中国台湾 #1'
+  network: ws
+  port: 2087
+  server: 220.135.105.32
+  servername: mia4.pages.dev
   skip-cert-verify: true
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- cipher: chacha20-ietf-poly1305
-  name: 21|🇹🇼TW_1|1.6MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)aee97b7:155033
-    mode: tls
-  port: 2377
-  server: 61.216.165.233
-  type: ss
-  udp: true
-- name: 21|🇹🇼TW_2|4.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 27|🇹🇼TW-61.216.76.139-2523
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  ws-opts:
+    headers:
+      Host: mia4.pages.dev
+    path: /TG:@MiaChatChannel
+- name: 24|🇹🇼TW_1|2.4MB/s
+  password: ec270101-b7c0-4f53-93cd-41ff2ad8983f
+  port: 40071
+  server: tw1.catzl.top
+  sni: tw1.catzl.top
+  type: anytls
+  udp: true
+- name: 24|🇹🇼TW_2|3.7MB/s
+  password: 6d6a1924-ff1f-4791-9640-76b1b1424e4e
+  port: 40071
+  server: tw1.catzl.top
+  sni: tw1.catzl.top
+  type: anytls
+  udp: true
+- name: 27|🇹🇼TW-61.216.76.139-2840
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.co.ua
   type: trojan
-- name: 27|🇹🇼TW-125.227.152.109-2592
+- name: 27|🇹🇼TW-203.69.207.175-2909
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.kiev.ua
   type: trojan
-- name: 27|🇹🇼TW-61.216.76.139-2637
+- name: 27|🇹🇼TW-203.69.207.175-2954
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.if.ua
   type: trojan
-- name: 27|🇹🇼TW-125.227.152.109-2659
+- name: 27|🇹🇼TW-203.69.207.175-2976
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.org.ua
   type: trojan
-- name: 27|🇹🇼TW-211.75.143.195-2715
+- name: 27|🇹🇼TW-211.75.143.195-3032
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.kyiv.ua
   type: trojan
-- name: 27|🇹🇼TW-211.75.143.195-2717
+- name: 27|🇹🇼TW-125.227.152.109-3034
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.dp.ua
   type: trojan
-- name: 27|🇹🇼TW-203.69.207.175-2761
+- name: 27|🇹🇼TW-211.75.143.195-3078
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.ivano-frankivsk.ua
   type: trojan
-- name: 27|🇹🇼TW-125.227.152.109-2873
+- name: 27|🇹🇼TW-125.227.152.109-3190
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.biz.ua
   type: trojan
-- name: 27|🇹🇼TW-125.227.152.109-2912
+- name: 27|🇹🇼TW-211.75.143.195-3229
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.cn.ua
   type: trojan
-- name: 27|🇹🇼TW-203.69.207.175-2931
+- name: 27|🇹🇼TW-61.222.160.199-3248
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.chernovtsy.ua
   type: trojan
-- name: 27|🇹🇼TW-61.222.160.199-2934
+- name: 27|🇹🇼TW-211.75.143.195-3251
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.net.ua
   type: trojan
-- name: 27|🇹🇼TW-211.75.143.195-2980
+- name: 27|🇹🇼TW-125.227.152.109-3297
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.com.ua
   type: trojan
-- name: 27|🇹🇼TW-61.216.76.139-4883
+- name: 27|🇹🇼TW-61.216.76.139-5200
   password: 736cd94d-7b94-3e44-8106-3419f64eaf09
   port: 3462
   server: a12.taipeicitygovernment.org.ua
   type: trojan
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 32|🇹🇼 🇨🇳 台湾 | TWN
+  network: ws
+  port: 52300
+  server: hi.northcluster.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: hi.northcluster.info
+    path: /video
+- client-fingerprint: chrome
+  name: 32|🇹🇼 🇨🇳 台湾 | TWN 2
+  network: ws
+  port: 443
+  server: 60.248.219.53
+  servername: ty986gfazs.cainiaohub.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: f1d247db-d7ce-4eb8-9c0d-7b10603cd0b4
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 32|🇹🇼 🇨🇳 台湾 | TWN 3
+  network: ws
+  port: 80
+  server: mdk.mdmekjll.best
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: mdk.mdmekjll.best
+    path: /game/resources

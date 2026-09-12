@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: '21,22|🇨🇳_CN_中国 #1'
+  name: '21,22|🇨🇳_CN_中国_1 #1'
   port: 50002
   server: 112.132.215.108
   skip-cert-verify: true

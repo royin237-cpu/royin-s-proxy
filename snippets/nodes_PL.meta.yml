@@ -1,21 +1,25 @@
 proxies:
-- name: 15|D🔴🇵🇱[🎬🤖📺🎭]_dokng.com_c8c42a57
+- name: 15|D🔴🇵🇱[🤖📺🎭🎪]_dokng.com_6d895544
+  password: None
   port: 443
   server: 37.120.156.18
   skip-cert-verify: true
   tls: true
   type: http
-- name: 15|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_805ac382
-  port: 7778
-  server: 91.238.54.189
-  type: http
-- name: 15,21|🇵🇱PL_2|2.9MB/s
+  username: null
+- name: 15|C🟠🇵🇱[🎬🤖📺🎭]_dokng.com_68a292a0
+  password: None
   port: 443
   server: 151.115.54.133
   skip-cert-verify: true
   tls: true
   type: http
-- name: 27|🇵🇱PL-202.78.163.173-4895
+  username: null
+- name: 15|A🟢🇵🇱[🎬🤖📺🎭]_dokng.com_805ac382
+  port: 7778
+  server: 91.238.54.189
+  type: http
+- name: 27|🇵🇱PL-202.78.163.173-5212
   password: WF42809561
   port: 443
   server: top-goshawk.rooster465.autos

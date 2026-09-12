@@ -15,13 +15,9 @@ proxies:
   udp: true
   uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
   xudp: true
-- name: 15|A🟢🇷🇺[🎪✨📦]_dokng.com_a3d6297e
+- name: 15|A🟢🇷🇺[🎪📦🔍]_dokng.com_a2d8e877
   port: 8095
-  server: 45.8.88.156
-  type: http
-- name: 15|A🟢🇷🇺[🎪✨📦🔍]_dokng.com_bfb33a78
-  port: 8095
-  server: 194.61.232.13
+  server: 193.19.190.59
   type: http
 - client-fingerprint: chrome
   encryption: none
@@ -39,15 +35,19 @@ proxies:
   udp: true
   uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
   xudp: true
-- name: 15|A🟢🇷🇺[✨📦🔍]_dokng.com_965e2a11
-  port: 4080
-  server: 185.21.156.73
+- name: 15|A🟢🇷🇺[🎪✨📦🔍]_dokng.com_a3d6297e
+  port: 8095
+  server: 45.8.88.156
   type: http
-- name: 15|A🟢🇷🇺[🎪✨📦🔍]_dokng.com_9af66ad2
+- name: 15|A🟢🇷🇺[📦]_dokng.com_bfb33a78
+  port: 8095
+  server: 194.61.232.13
+  type: http
+- name: 15|A🟢🇷🇺[🎪📦]_dokng.com_9af66ad2
   port: 5050
   server: 45.159.0.194
   type: http
-- name: 15|A🟢🇷🇺[🎪✨📦]_dokng.com_a2d8e877
-  port: 8095
-  server: 193.19.190.59
+- name: 15|A🟢🇷🇺[✨🔍]_dokng.com_965e2a11
+  port: 4080
+  server: 185.21.156.73
   type: http

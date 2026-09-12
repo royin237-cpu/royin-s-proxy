@@ -1,5 +1,15 @@
 proxies:
-- name: 15|D🔴🇹🇭[🤖📺🎭🎪]_dokng.com_46d8ebd8
-  port: 31280
-  server: 202.28.194.139
-  type: http
+- alterId: 0
+  cipher: auto
+  name: 33|未知162 20.5KB/s
+  network: ws
+  port: 49667
+  server: 118.193.57.167
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d46bf492-45f4-4c33-82d1-ea2a1cb54eb6
+  ws-opts:
+    headers:
+      Host: 118.193.57.167
+    path: /d46bf492

@@ -1,5 +1,5 @@
 proxies:
-- name: 27|🇩🇪DE-18.192.67.47-4903
+- name: 27|🇩🇪DE-18.192.67.47-5220
   password: NQ26071394
   port: 443
   server: direct-hawk.rooster465.autos

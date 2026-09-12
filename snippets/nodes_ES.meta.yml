@@ -1,5 +1,5 @@
 proxies:
-- name: 15,21|🇪🇸ES_1|3.0MB/s
+- name: 15,21|🇪🇸ES_1|1.9MB/s
   port: 443
   server: 82.102.17.178
   skip-cert-verify: true
