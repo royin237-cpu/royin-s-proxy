@@ -1,6 +1,6 @@
 proxies:
 - auth: 633bc3be486b646190661ac2387c150a
-  name: 15,21,22,32|🇦🇺 澳大利亚 | AUS 2
+  name: '15,21,22|🇦🇺_AU_澳大利亚 #1'
   obfs: salamander
   obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
   password: 633bc3be486b646190661ac2387c150a
@@ -10,8 +10,16 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   udp: true
+- name: 15,21|🇦🇺AU_2|3.1MB/s
+  password: None
+  port: 443
+  server: 159.13.44.228
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - client-fingerprint: chrome
-  name: '21,32|🇦🇺 澳大利亚 | AUS #1'
+  name: 21|🇦🇺AU_1|1.8MB/s
   network: xhttp
   port: 443
   reality-opts:

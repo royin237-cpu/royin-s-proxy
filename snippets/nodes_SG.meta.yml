@@ -1,22 +1,37 @@
 proxies:
-- name: 15|D🔴🇸🇬_dokng.com_d2853196
-  port: 9090
-  server: 167.99.74.174
+- name: 11|🇸🇬 SG 27 → tg@nicevpn123
+  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
+  port: 443
+  server: 139.162.49.215
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 15,35|SG - zhuhai.uk
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  skip-cert-verify: true
+  sni: 92461d2d.acsnet.co
+  tls: true
   type: http
+  username: testuser1
+- name: 15|D🔴🇸🇬_dokng.com_8496ce1e
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 104.248.148.240
+  sni: us.acskey.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 27|🇸🇬SG-54.254.196.251-4867
+  password: NQ26071394
+  port: 443
+  server: thorough-foxhound.rooster465.autos
+  type: trojan
 - name: 27|🇸🇬SG-47.130.132.222-4875
   password: NQ26071394
   port: 443
   server: calm-muskrat.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-54.169.137.148-4927
-  password: AE62539071
-  port: 443
-  server: capable-jay.rooster465.autos
-  type: trojan
-- name: 27|🇸🇬SG-52.220.181.28-4928
-  password: NQ26071394
-  port: 443
-  server: mighty-lemming.rooster465.autos
   type: trojan
 - name: 27|🇸🇬SG-47.128.146.47-4934
   password: ND91608427

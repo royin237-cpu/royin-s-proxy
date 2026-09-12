@@ -8,6 +8,17 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- cipher: chacha20-ietf-poly1305
+  name: 21|🇹🇼TW_1|1.6MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)aee97b7:155033
+    mode: tls
+  port: 2377
+  server: 61.216.165.233
+  type: ss
+  udp: true
 - name: 27|🇹🇼TW-61.216.76.139-2523
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443

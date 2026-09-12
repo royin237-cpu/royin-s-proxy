@@ -1,60 +1,60 @@
 {
-  "total": 204,
+  "total": 259,
   "regions": {
     "JP": {
       "flag": "🇯🇵",
       "name": "日本",
-      "count": 3
+      "count": 6
     },
     "US": {
       "flag": "🇺🇸",
       "name": "美国",
-      "count": 41
+      "count": 53
     },
     "CN": {
       "flag": "🇨🇳",
       "name": "中国",
-      "count": 6
+      "count": 1
     },
     "HK": {
       "flag": "🇭🇰",
       "name": "香港",
-      "count": 4
+      "count": 6
     },
     "TW": {
       "flag": "🇹🇼",
       "name": "台湾",
-      "count": 16
+      "count": 18
     },
     "CA": {
       "flag": "🇨🇦",
       "name": "加拿大",
-      "count": 1
+      "count": 15
     },
     "FR": {
       "flag": "🇫🇷",
       "name": "法国",
-      "count": 3
+      "count": 6
     },
     "SG": {
       "flag": "🇸🇬",
       "name": "新加坡",
-      "count": 5
+      "count": 6
     },
     "GB": {
       "flag": "🇬🇧",
       "name": "英国",
-      "count": 7
+      "count": 10
     },
     "KR": {
       "flag": "🇰🇷",
       "name": "韩国",
-      "count": 25
+      "count": 20
     },
     "RU": {
       "flag": "🇷🇺",
       "name": "俄罗斯",
-      "count": 9
+      "count": 7
     },
     "DE": {
       "flag": "🇩🇪",
@@ -69,7 +69,7 @@
     "EE": {
       "flag": "🇪🇪",
       "name": "爱沙尼亚",
-      "count": 2
+      "count": 1
     },
     "CH": {
       "flag": "🇨🇭",
@@ -79,12 +79,12 @@
     "NL": {
       "flag": "🇳🇱",
       "name": "荷兰",
-      "count": 14
+      "count": 17
     },
     "RO": {
       "flag": "🇷🇴",
       "name": "罗马尼亚",
-      "count": 22
+      "count": 24
     },
     "IN": {
       "flag": "🇮🇳",
@@ -104,7 +104,7 @@
     "AU": {
       "flag": "🇦🇺",
       "name": "澳大利亚",
-      "count": 3
+      "count": 4
     },
     "IT": {
       "flag": "🇮🇹",
@@ -119,7 +119,7 @@
     "BR": {
       "flag": "🇧🇷",
       "name": "巴西",
-      "count": 10
+      "count": 15
     },
     "VN": {
       "flag": "🇻🇳",
@@ -129,16 +129,11 @@
     "ID": {
       "flag": "🇮🇩",
       "name": "印尼",
-      "count": 3
+      "count": 4
     },
     "PH": {
       "flag": "🇵🇭",
       "name": "菲律宾",
-      "count": 1
-    },
-    "UA": {
-      "flag": "🇺🇦",
-      "name": "乌克兰",
       "count": 1
     },
     "PL": {
@@ -149,11 +144,11 @@
     "FI": {
       "flag": "🇫🇮",
       "name": "芬兰",
-      "count": 11
+      "count": 9
     }
   },
-  "update_time": "2026-09-12 00:41",
-  "server_time": "2026-09-12 00:42:30",
+  "update_time": "2026-09-12 12:10",
+  "server_time": "2026-09-12 12:11:40",
   "sources": [
     {
       "index": 0,
@@ -238,12 +233,12 @@
     {
       "index": 16,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
-      "nodes": 39
+      "nodes": 40
     },
     {
       "index": 17,
       "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
-      "nodes": 163
+      "nodes": 169
     },
     {
       "index": 18,
@@ -258,17 +253,17 @@
     {
       "index": 20,
       "url": "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml",
-      "nodes": 46
+      "nodes": 35
     },
     {
       "index": 21,
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-      "nodes": 392
+      "nodes": 459
     },
     {
       "index": 22,
       "url": "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.",
-      "nodes": 20
+      "nodes": 28
     },
     {
       "index": 23,
@@ -278,7 +273,7 @@
     {
       "index": 24,
       "url": "https://raw.githubusercontent.com/kooker/FreeSubsCheck/main/mihomo.yaml",
-      "nodes": 3
+      "nodes": 2
     },
     {
       "index": 25,
@@ -298,7 +293,7 @@
     {
       "index": 28,
       "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
-      "nodes": 283
+      "nodes": 368
     },
     {
       "index": 29,
@@ -333,7 +328,7 @@
     {
       "index": 35,
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "nodes": 32
+      "nodes": 33
     },
     {
       "index": 36,

@@ -1,6 +1,18 @@
 proxies:
+- name: 11|🇳🇱 NL 9 → tg@nicevpn123
+  password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
+  port: 443
+  server: 142.93.226.128
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 27|🇳🇱NL-78.142.194.96-4891
   password: LSS6HLnp7IeEEJUcox
   port: 443
   server: nl-1.tr202607.com
+  type: trojan
+- name: 27|🇳🇱NL-89.39.70.120-4892
+  password: PD07395842
+  port: 443
+  server: pro-crane.rooster465.autos
   type: trojan

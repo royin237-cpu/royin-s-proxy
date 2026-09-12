@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 26,27,33|未知151
+  name: 26,27,33|未知160 171.0KB/s
   network: ws
   port: 80
   server: 152.67.8.205

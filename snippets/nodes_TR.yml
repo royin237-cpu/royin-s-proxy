@@ -13,13 +13,3 @@ proxies:
     headers:
       Host: 45.94.169.142
     path: /wss13889
-- alterId: 0
-  cipher: auto
-  name: 33|未知2
-  network: tcp
-  port: 110
-  server: ninja.monak2.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7034f274-c53a-4d73-9f0c-b28bac0d9e7a

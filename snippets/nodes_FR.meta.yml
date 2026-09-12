@@ -1,17 +1,35 @@
 proxies:
-- name: 15,35|FR - zhuhai.uk
+- name: 15|A🟢🇫🇷[📺🎭🎪📦]_dokng.com_6dcdf6ed
   port: 443
   server: fan.132031.xyz
   skip-cert-verify: true
   sni: fan.132031.xyz
   tls: true
   type: http
-- name: 15|C🟠🇫🇷[🎬📺🎭🎪]_dokng.com_67435526
+- name: 15,21,28|🇫🇷FR_2|2.8MB/s
+  password: None
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 15,35|FR - zhuhai.uk
   port: 443
   server: 141.94.16.4
   skip-cert-verify: true
   tls: true
   type: http
+- name: 15|D🔴🇫🇷[🤖📺🎪✨]_dokng.com_26e7e011
+  password: None
+  port: 8888
+  server: 37.59.125.131
+  type: http
+  username: null
+- name: 15|D🔴🇫🇷[🎭🎪]_dokng.com_e50054e0
+  port: 1088
+  server: 144.91.121.61
+  type: socks5
 - name: 15|D🔴🇫🇷[🎬🤖📺🎭]_dokng.com_8c55dcfd
   port: 1088
   server: 51.178.49.241

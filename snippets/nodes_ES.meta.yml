@@ -1,7 +1,7 @@
 proxies:
-- name: 15|D🔴🇪🇸[🤖📺🎭🎪]_dokng.com_148d2ee2
+- name: 15,21|🇪🇸ES_1|3.0MB/s
   port: 443
-  server: 130.195.250.34
+  server: 82.102.17.178
   skip-cert-verify: true
   tls: true
   type: http
